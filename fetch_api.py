@@ -113,6 +113,12 @@ def parse_api_rows(rows):
         is_excused = r.get("isExcused", False)
         is_absent = status == "缺勤"
         leave_status = "已请假" if (is_absent and is_excused) else ("未请假" if is_absent else "-")
+        # 上课时间段：beginTime/endTime 形如 "2026-09-09T10:50:00"，取 HH:MM
+        begin = r.get("beginTime") or ""
+        end = r.get("endTime") or ""
+        time_span = ""
+        if begin and end and len(begin) >= 16 and len(end) >= 16:
+            time_span = f"{begin[11:16]}-{end[11:16]}"
         records.append({
             "datetime": (r.get("attendanceTime") or "")[:10] + " " + (r.get("attendanceTimeSpan") or ""),
             "name": r.get("studentName", ""),
@@ -125,6 +131,7 @@ def parse_api_rows(rows):
             "course": r.get("attendanceProject", "").strip(" |"),
             "teacher": r.get("attendanceTeacherName", ""),
             "leave_detail": r.get("remark", ""),
+            "time_span": time_span,
         })
     return records
 
@@ -132,6 +139,7 @@ def parse_api_rows(rows):
 def analyze(records):
     class_stats = defaultdict(lambda: {"total": 0, "present": 0, "late": 0, "early": 0, "absent": 0, "leave": 0})
     class_teachers = defaultdict(list)
+    class_time_spans = defaultdict(set)
     absent_students = []
 
     for rec in records:
@@ -139,6 +147,8 @@ def analyze(records):
         s = rec["status"]
         class_stats[c]["total"] += 1
         class_teachers[c].append(rec["teacher"])
+        if rec.get("time_span"):
+            class_time_spans[c].add(rec["time_span"])
         if s == "出勤":
             class_stats[c]["present"] += 1
         elif s == "迟到":
@@ -172,6 +182,7 @@ def analyze(records):
             "early": stats["early"],
             "leave": stats["leave"],
             "status": status,
+            "time_spans": sorted(class_time_spans[c]),
         })
 
     total_records = sum(c["total"] for c in classes)
