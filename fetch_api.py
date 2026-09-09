@@ -11,7 +11,15 @@ import math
 import requests
 from datetime import datetime, timedelta
 from collections import defaultdict
+from zoneinfo import ZoneInfo
 from playwright.async_api import async_playwright
+
+# 校宝是中国系统，统一用北京时间，避免 GitHub 服务器（UTC）导致日期/时间差 8 小时
+TZ_CN = ZoneInfo("Asia/Shanghai")
+
+
+def now_cn():
+    return datetime.now(TZ_CN)
 
 BASE_URL = "https://ray.schoolis.cn"
 LOGIN_URL = f"{BASE_URL}/newsis/login"
@@ -228,7 +236,7 @@ def analyze(records):
 
 
 def build_output(result):
-    today = datetime.now()
+    today = now_cn()
     # 真实历史趋势：过去 6 天 + 今天（仅用今天真实数据，前几天用占位近似）
     trend = []
     for i in range(6, 0, -1):
@@ -282,7 +290,7 @@ async def main():
         eprint("请设置环境变量 XIAOBAO_USER 和 XIAOBAO_PASS")
         sys.exit(1)
 
-    date_str = datetime.now().strftime("%Y-%m-%d")
+    date_str = now_cn().strftime("%Y-%m-%d")
     cookies = await get_cookies(user, pwd)
     session = make_session(cookies)
     rows = fetch_attendance_records(session, date_str)
