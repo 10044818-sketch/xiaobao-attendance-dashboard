@@ -132,6 +132,7 @@ def parse_api_rows(rows):
             "teacher": r.get("attendanceTeacherName", ""),
             "leave_detail": r.get("remark", ""),
             "time_span": time_span,
+            "last_edit_at": r.get("lastEditAt") or r.get("createAt") or "",
         })
     return records
 
@@ -203,13 +204,22 @@ def analyze(records):
     unique_absent = []
     for name, info in absent_by_student.items():
         recs = info["records"]
-        courses = []
-        seen_c = set()
+        # 每项：课程名 + 时间段（结构化，供前端分行高亮显示）
+        items = []
+        seen = set()
+        latest_edit = ""
         for r in recs:
             cname = (r["class"] or r["course"]).strip()
-            if cname and cname not in seen_c:
-                seen_c.add(cname)
-                courses.append(cname)
+            ts = r.get("time_span", "")
+            key = (cname, ts)
+            if cname and key not in seen:
+                seen.add(key)
+                items.append({"course": cname, "time": ts})
+            le = r.get("last_edit_at", "") or ""
+            if le > latest_edit:
+                latest_edit = le
+        # 单个学生的缺课按上课时间从早到晚排列
+        items.sort(key=lambda x: x.get("time", ""))
         has_unexcused = any(r["leave_status"] == "未请假" for r in recs)
         if has_unexcused:
             type_ = "旷课"
@@ -228,11 +238,12 @@ def analyze(records):
             "class": info["class"],
             "reason": reason,
             "type": type_,
-            "courses": courses,
+            "courses": items,
+            "updated_at": latest_edit,
         })
 
-    # 旷课排前（更需关注），其余按姓名
-    unique_absent.sort(key=lambda x: (x["type"] != "旷课", x["name"]))
+    # 按更新时间倒序：最新被标记缺勤的排最上面
+    unique_absent.sort(key=lambda x: x.get("updated_at", "") or "", reverse=True)
 
     return {
         "rate": school_rate,
