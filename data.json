@@ -1,0 +1,1322 @@
+{
+  "updated_at": "2026-09-09 17:37",
+  "school": {
+    "rate": 84.2,
+    "present": 936,
+    "total": 1111,
+    "late": 13,
+    "absent": 175,
+    "leave": 89
+  },
+  "summary": {
+    "pending_yesterday": 0,
+    "class_attention": 16,
+    "dorm_attention": 0,
+    "invalid_leave": 0
+  },
+  "classes": [
+    {
+      "name": "体育AB(F26)",
+      "teacher": "沈译宇",
+      "rate": 86.4,
+      "present_text": "19/22人次",
+      "present": 19,
+      "total": 22,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常"
+    },
+    {
+      "name": "体育BR2(F26)",
+      "teacher": "沈译宇",
+      "rate": 73.7,
+      "present_text": "14/19人次",
+      "present": 14,
+      "total": 19,
+      "absent": 5,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常"
+    },
+    {
+      "name": "体育C1(F26)",
+      "teacher": "沈译宇",
+      "rate": 64.5,
+      "present_text": "40/62人次",
+      "present": 40,
+      "total": 62,
+      "absent": 22,
+      "late": 0,
+      "early": 0,
+      "leave": 6,
+      "status": "异常"
+    },
+    {
+      "name": "几何C0(F26)",
+      "teacher": "张小翼",
+      "rate": 93.8,
+      "present_text": "15/16人次",
+      "present": 15,
+      "total": 16,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注"
+    },
+    {
+      "name": "化学9A(F26)",
+      "teacher": "张璐菲",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注"
+    },
+    {
+      "name": "化学AA(F26)",
+      "teacher": "余越利",
+      "rate": 91.3,
+      "present_text": "21/23人次",
+      "present": 21,
+      "total": 23,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注"
+    },
+    {
+      "name": "商科AA(F26)",
+      "teacher": "余震",
+      "rate": 78.6,
+      "present_text": "11/14人次",
+      "present": 11,
+      "total": 14,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常"
+    },
+    {
+      "name": "商科BZ(F26)",
+      "teacher": "余震",
+      "rate": 90.0,
+      "present_text": "9/10人次",
+      "present": 9,
+      "total": 10,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注"
+    },
+    {
+      "name": "商科C0(F26)",
+      "teacher": "孙鹏",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常"
+    },
+    {
+      "name": "商科CA(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常"
+    },
+    {
+      "name": "数学A0(F26)",
+      "teacher": "张小翼",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注"
+    },
+    {
+      "name": "数学AR1(F26)",
+      "teacher": "潘丽",
+      "rate": 91.7,
+      "present_text": "22/24人次",
+      "present": 22,
+      "total": 24,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注"
+    },
+    {
+      "name": "数学AR2(F26)",
+      "teacher": "杨燕霖",
+      "rate": 78.6,
+      "present_text": "22/28人次",
+      "present": 22,
+      "total": 28,
+      "absent": 6,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常"
+    },
+    {
+      "name": "数学AR3(F26)",
+      "teacher": "赵亮",
+      "rate": 96.2,
+      "present_text": "25/26人次",
+      "present": 25,
+      "total": 26,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "正常"
+    },
+    {
+      "name": "数学BQ1(F26)",
+      "teacher": "杨燕霖",
+      "rate": 80.0,
+      "present_text": "32/40人次",
+      "present": 32,
+      "total": 40,
+      "absent": 8,
+      "late": 0,
+      "early": 0,
+      "leave": 8,
+      "status": "异常"
+    },
+    {
+      "name": "数学BQ2(F26)",
+      "teacher": "潘子清",
+      "rate": 88.2,
+      "present_text": "30/34人次",
+      "present": 30,
+      "total": 34,
+      "absent": 4,
+      "late": 1,
+      "early": 0,
+      "leave": 2,
+      "status": "异常"
+    },
+    {
+      "name": "数学BQ3(F26)",
+      "teacher": "刘晨璐",
+      "rate": 85.7,
+      "present_text": "36/42人次",
+      "present": 36,
+      "total": 42,
+      "absent": 6,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常"
+    },
+    {
+      "name": "物理9A(F26)",
+      "teacher": "职梦凡",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常"
+    },
+    {
+      "name": "物理A0(F26)",
+      "teacher": "曾靓",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注"
+    },
+    {
+      "name": "物理AX(F26)",
+      "teacher": "熊辉",
+      "rate": 90.5,
+      "present_text": "38/42人次",
+      "present": 38,
+      "total": 42,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注"
+    },
+    {
+      "name": "物理AY(F26)",
+      "teacher": "职梦凡",
+      "rate": 88.2,
+      "present_text": "30/34人次",
+      "present": 30,
+      "total": 34,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 4,
+      "status": "异常"
+    },
+    {
+      "name": "物理BY(F26)",
+      "teacher": "魏刘伟",
+      "rate": 85.2,
+      "present_text": "46/54人次",
+      "present": 46,
+      "total": 54,
+      "absent": 8,
+      "late": 1,
+      "early": 0,
+      "leave": 7,
+      "status": "异常"
+    },
+    {
+      "name": "物理C0(F26)",
+      "teacher": "职梦凡",
+      "rate": 62.5,
+      "present_text": "5/8人次",
+      "present": 5,
+      "total": 8,
+      "absent": 3,
+      "late": 1,
+      "early": 0,
+      "leave": 0,
+      "status": "异常"
+    },
+    {
+      "name": "物理CA(F26)",
+      "teacher": "曾靓",
+      "rate": 72.7,
+      "present_text": "16/22人次",
+      "present": 16,
+      "total": 22,
+      "absent": 6,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常"
+    },
+    {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "6/6人次",
+      "present": 6,
+      "total": 6,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常"
+    },
+    {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注"
+    },
+    {
+      "name": "经济A0(F26)",
+      "teacher": "郝畅",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注"
+    },
+    {
+      "name": "经济AX(F26)",
+      "teacher": "王肇君",
+      "rate": 95.5,
+      "present_text": "21/22人次",
+      "present": 21,
+      "total": 22,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "正常"
+    },
+    {
+      "name": "经济AY(F26)",
+      "teacher": "孙鹏",
+      "rate": 71.4,
+      "present_text": "10/14人次",
+      "present": 10,
+      "total": 14,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常"
+    },
+    {
+      "name": "经济BY(F26)",
+      "teacher": "王肇君",
+      "rate": 81.8,
+      "present_text": "27/33人次",
+      "present": 27,
+      "total": 33,
+      "absent": 6,
+      "late": 0,
+      "early": 0,
+      "leave": 6,
+      "status": "异常"
+    },
+    {
+      "name": "艺术9A(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注"
+    },
+    {
+      "name": "艺术AA(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 50.0,
+      "present_text": "1/2人次",
+      "present": 1,
+      "total": 2,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常"
+    },
+    {
+      "name": "艺术BX(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 0.0,
+      "present_text": "0/10人次",
+      "present": 0,
+      "total": 10,
+      "absent": 10,
+      "late": 0,
+      "early": 0,
+      "leave": 10,
+      "status": "异常"
+    },
+    {
+      "name": "英语写作A0(F26)",
+      "teacher": "钱嘉音",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注"
+    },
+    {
+      "name": "英语写作AQ1(F26)",
+      "teacher": "贺珍谊",
+      "rate": 87.5,
+      "present_text": "14/16人次",
+      "present": 14,
+      "total": 16,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常"
+    },
+    {
+      "name": "英语写作AQ2(F26)",
+      "teacher": "贺珍谊",
+      "rate": 70.0,
+      "present_text": "7/10人次",
+      "present": 7,
+      "total": 10,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常"
+    },
+    {
+      "name": "英语口语9A(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注"
+    },
+    {
+      "name": "英语口语A0(F26)",
+      "teacher": "贺珍谊",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注"
+    },
+    {
+      "name": "英语口语AQ2(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 80.0,
+      "present_text": "8/10人次",
+      "present": 8,
+      "total": 10,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常"
+    },
+    {
+      "name": "英语口语AQ3(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 76.9,
+      "present_text": "10/13人次",
+      "present": 10,
+      "total": 13,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常"
+    },
+    {
+      "name": "英语听读写9A(F26)",
+      "teacher": "瞿芬",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常"
+    },
+    {
+      "name": "雅思BR1S(F26)",
+      "teacher": "曹德娟",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常"
+    },
+    {
+      "name": "雅思BR2C(F26)",
+      "teacher": "钱嘉音",
+      "rate": 84.2,
+      "present_text": "16/19人次",
+      "present": 16,
+      "total": 19,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常"
+    },
+    {
+      "name": "雅思BR3(F26)",
+      "teacher": "钱嘉音",
+      "rate": 90.5,
+      "present_text": "19/21人次",
+      "present": 19,
+      "total": 21,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注"
+    },
+    {
+      "name": "雅思BR3S(F26)",
+      "teacher": "曹德娟",
+      "rate": 90.5,
+      "present_text": "19/21人次",
+      "present": 19,
+      "total": 21,
+      "absent": 2,
+      "late": 7,
+      "early": 0,
+      "leave": 2,
+      "status": "关注"
+    },
+    {
+      "name": "雅思CQ1(F26)",
+      "teacher": "费楚淇",
+      "rate": 50.0,
+      "present_text": "6/12人次",
+      "present": 6,
+      "total": 12,
+      "absent": 6,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常"
+    },
+    {
+      "name": "雅思CR2(F26)",
+      "teacher": "费楚淇",
+      "rate": 71.4,
+      "present_text": "45/63人次",
+      "present": 45,
+      "total": 63,
+      "absent": 18,
+      "late": 1,
+      "early": 0,
+      "leave": 6,
+      "status": "异常"
+    },
+    {
+      "name": "雅思写作口语C0(F26)",
+      "teacher": "曹德娟",
+      "rate": 100.0,
+      "present_text": "16/16人次",
+      "present": 16,
+      "total": 16,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常"
+    },
+    {
+      "name": "雅思听力阅读C0(F26)",
+      "teacher": "瞿芬",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常"
+    },
+    {
+      "name": "雅思词汇C0(F26)",
+      "teacher": "贺珍谊",
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
+      "total": 8,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常"
+    },
+    {
+      "name": "音乐AA(F26)",
+      "teacher": "刘知言",
+      "rate": 88.2,
+      "present_text": "15/17人次",
+      "present": 15,
+      "total": 17,
+      "absent": 2,
+      "late": 2,
+      "early": 0,
+      "leave": 2,
+      "status": "异常"
+    },
+    {
+      "name": "音乐BR1(F26)",
+      "teacher": "刘知言",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常"
+    },
+    {
+      "name": "音乐C0(F26)",
+      "teacher": "刘知言",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常"
+    }
+  ],
+  "absent_students": [
+    {
+      "name": "俞玥",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)"
+      ]
+    },
+    {
+      "name": "刘孝晨",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "物理BY(F26)"
+      ]
+    },
+    {
+      "name": "华振宇",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)"
+      ]
+    },
+    {
+      "name": "姜亦程",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)"
+      ]
+    },
+    {
+      "name": "姜懿",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)",
+        "雅思CQ1(F26)"
+      ]
+    },
+    {
+      "name": "尹勋",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "化学AA(F26)",
+        "英语写作AQ2(F26)",
+        "经济AY(F26)",
+        "数学AR2(F26)",
+        "英语口语AQ2(F26)",
+        "物理AY(F26)",
+        "音乐AA(F26)"
+      ]
+    },
+    {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "物理CA(F26)",
+        "数学BQ3(F26)",
+        "体育C1(F26)",
+        "雅思CR2(F26)"
+      ]
+    },
+    {
+      "name": "徐翎恩",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)"
+      ]
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "物理C0(F26)"
+      ]
+    },
+    {
+      "name": "朱珈禾",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)",
+        "雅思CQ1(F26)"
+      ]
+    },
+    {
+      "name": "栾雨乔",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)"
+      ]
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "商科C0(F26)",
+        "几何C0(F26)",
+        "物理C0(F26)"
+      ]
+    },
+    {
+      "name": "毛汝鑫",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)"
+      ]
+    },
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)"
+      ]
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "物理CA(F26)",
+        "数学BQ3(F26)",
+        "体育C1(F26)",
+        "雅思CR2(F26)"
+      ]
+    },
+    {
+      "name": "王锴杰",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育BR2(F26)"
+      ]
+    },
+    {
+      "name": "童稷丰",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "英语写作AQ2(F26)",
+        "经济AY(F26)",
+        "商科AA(F26)"
+      ]
+    },
+    {
+      "name": "符恩溪",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "物理AX(F26)",
+        "体育AB(F26)"
+      ]
+    },
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "物理A0(F26)",
+        "英语写作A0(F26)",
+        "英语口语A0(F26)",
+        "经济A0(F26)",
+        "数学A0(F26)"
+      ]
+    },
+    {
+      "name": "肖含章",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "英语口语AQ3(F26)"
+      ]
+    },
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "英语口语AQ3(F26)",
+        "数学AR3(F26)"
+      ]
+    },
+    {
+      "name": "舒泽杨",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "化学9A(F26)",
+        "经济9A(F26)"
+      ]
+    },
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "音乐C0(F26)",
+        "物理C0(F26)",
+        "雅思听力阅读C0(F26)"
+      ]
+    },
+    {
+      "name": "董轶尘",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)",
+        "雅思CQ1(F26)"
+      ]
+    },
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "艺术BX(F26)",
+        "体育BR2(F26)",
+        "雅思BR2C(F26)",
+        "数学BQ2(F26)"
+      ]
+    },
+    {
+      "name": "许宸嘉",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "雅思CR2(F26)"
+      ]
+    },
+    {
+      "name": "谌鑫亿",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)"
+      ]
+    },
+    {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "英语写作AQ2(F26)",
+        "商科AA(F26)",
+        "数学AR2(F26)",
+        "英语口语AQ2(F26)",
+        "体育AB(F26)"
+      ]
+    },
+    {
+      "name": "贾牧荷",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "英语口语AQ3(F26)"
+      ]
+    },
+    {
+      "name": "闻誉婷",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)",
+        "雅思CR2(F26)"
+      ]
+    },
+    {
+      "name": "陈世棋",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育BR2(F26)"
+      ]
+    },
+    {
+      "name": "陈乐涵",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "体育C1(F26)",
+        "雅思CR2(F26)"
+      ]
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        "数学BQ3(F26)",
+        "体育C1(F26)",
+        "雅思CR2(F26)"
+      ]
+    },
+    {
+      "name": "丁怡霏",
+      "class": "AS3",
+      "reason": "参加升学讲座",
+      "type": "请假",
+      "courses": [
+        "艺术BX(F26)"
+      ]
+    },
+    {
+      "name": "冯麟",
+      "class": "AS1",
+      "reason": "参加升学讲座",
+      "type": "请假",
+      "courses": [
+        "艺术BX(F26)"
+      ]
+    },
+    {
+      "name": "刘建瑄",
+      "class": "AS2",
+      "reason": "参加升学讲座",
+      "type": "请假",
+      "courses": [
+        "艺术BX(F26)"
+      ]
+    },
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/9/7 8:00:00 至 2026/9/9 17:00:00  拔智齿复诊 ",
+      "type": "病假",
+      "courses": [
+        "商科BZ(F26)",
+        "雅思BR1S(F26)",
+        "经济BY(F26)",
+        "音乐BR1(F26)",
+        "数学BQ1(F26)"
+      ]
+    },
+    {
+      "name": "岳沐辰",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        "物理CA(F26)",
+        "体育C1(F26)",
+        "雅思CR2(F26)"
+      ]
+    },
+    {
+      "name": "朱景璇",
+      "class": "AS1",
+      "reason": "参加升学讲座",
+      "type": "请假",
+      "courses": [
+        "艺术BX(F26)"
+      ]
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "Sick Leave_【Approved】 2026/9/9 13:00:00 to 2026/9/9 18:00:00  感到身体不适，回家休息",
+      "type": "请假",
+      "courses": [
+        "英语口语9A(F26)",
+        "艺术9A(F26)"
+      ]
+    },
+    {
+      "name": "李锦怡",
+      "class": "AS3",
+      "reason": "参加升学讲座",
+      "type": "请假",
+      "courses": [
+        "艺术BX(F26)"
+      ]
+    },
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/9 8:00:00 至 2026/9/9 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        "化学AA(F26)",
+        "经济AX(F26)",
+        "数学AR1(F26)",
+        "英语写作AQ1(F26)",
+        "物理AX(F26)",
+        "体育AB(F26)"
+      ]
+    },
+    {
+      "name": "沈奕乐",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/9 13:30:00 至 2026/9/9 14:30:00  肚子疼 ",
+      "type": "事假",
+      "courses": [
+        "雅思BR3(F26)",
+        "雅思BR3S(F26)"
+      ]
+    },
+    {
+      "name": "沈诗珈",
+      "class": "AS2",
+      "reason": "参加升学讲座",
+      "type": "请假",
+      "courses": [
+        "艺术BX(F26)"
+      ]
+    },
+    {
+      "name": "洪若玲",
+      "class": "A22",
+      "reason": "事假_【已通过】 2026/9/9 8:00:00 至 2026/9/9 23:00:00  外出上课 ",
+      "type": "事假",
+      "courses": [
+        "体育C1(F26)",
+        "雅思CR2(F26)"
+      ]
+    },
+    {
+      "name": "王思懿",
+      "class": "AS1",
+      "reason": "参加升学讲座",
+      "type": "请假",
+      "courses": [
+        "艺术BX(F26)"
+      ]
+    },
+    {
+      "name": "耿寅潇",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/9 7:00:00 至 2026/9/9 21:00:00  发烧 ",
+      "type": "事假",
+      "courses": [
+        "物理BY(F26)",
+        "体育BR2(F26)",
+        "雅思BR2C(F26)",
+        "数学BQ2(F26)"
+      ]
+    },
+    {
+      "name": "赵天晴",
+      "class": "A21",
+      "reason": "病假_【已通过】 2026/9/9 15:30:00 至 2026/9/9 17:00:00  身体不适，休息一下 ",
+      "type": "病假",
+      "courses": [
+        "体育C1(F26)"
+      ]
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/9 8:00:00 至 2026/9/9 17:00:00  因个人原因请假一天，谢谢 ",
+      "type": "事假",
+      "courses": [
+        "雅思BR1S(F26)",
+        "经济BY(F26)",
+        "音乐BR1(F26)",
+        "数学BQ1(F26)"
+      ]
+    },
+    {
+      "name": "邵可心",
+      "class": "AS1",
+      "reason": "参加升学讲座",
+      "type": "请假",
+      "courses": [
+        "艺术BX(F26)"
+      ]
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "病假_【已通过】 2026/9/9 8:00:00 至 2026/9/9 17:00:00  过敏 ",
+      "type": "病假",
+      "courses": [
+        "经济AY(F26)",
+        "商科AA(F26)",
+        "数学AR2(F26)",
+        "英语写作AQ1(F26)",
+        "物理AY(F26)",
+        "音乐AA(F26)"
+      ]
+    },
+    {
+      "name": "钱一诺",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/9 14:00:00 至 2026/9/9 17:00:00  看医生 ",
+      "type": "事假",
+      "courses": [
+        "经济AY(F26)",
+        "艺术AA(F26)"
+      ]
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        "物理BY(F26)",
+        "体育BR2(F26)",
+        "雅思BR2C(F26)",
+        "数学BQ1(F26)"
+      ]
+    },
+    {
+      "name": "鲍希尔",
+      "class": "AS1",
+      "reason": "参加升学讲座",
+      "type": "请假",
+      "courses": [
+        "艺术BX(F26)",
+        "数学BQ1(F26)"
+      ]
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/9/9 13:00:00 至 2026/9/9 17:00:00  请假 ",
+      "type": "病假",
+      "courses": [
+        "雅思BR3(F26)",
+        "物理BY(F26)",
+        "雅思BR3S(F26)"
+      ]
+    }
+  ],
+  "trend": [
+    {
+      "date": "09-03",
+      "attendance": 88.7,
+      "submit": 90.0
+    },
+    {
+      "date": "09-04",
+      "attendance": 87.2,
+      "submit": 90.5
+    },
+    {
+      "date": "09-05",
+      "attendance": 85.7,
+      "submit": 91.0
+    },
+    {
+      "date": "09-06",
+      "attendance": 84.2,
+      "submit": 91.5
+    },
+    {
+      "date": "09-07",
+      "attendance": 82.7,
+      "submit": 92.0
+    },
+    {
+      "date": "09-08",
+      "attendance": 81.2,
+      "submit": 92.5
+    },
+    {
+      "date": "09-09",
+      "attendance": 84.2,
+      "submit": 87.1
+    }
+  ],
+  "lesson": {
+    "completion_rate": 75.9,
+    "called": 120,
+    "total": 158,
+    "class_coverage": "53/53",
+    "teacher_count": 49,
+    "uncovered_classes": [],
+    "uncovered_teachers": []
+  }
+}
