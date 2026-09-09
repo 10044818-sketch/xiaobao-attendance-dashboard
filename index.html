@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="Cm0RAbGhV8VKe4krwoa5If">
+<head data-page-node-id="qlAMJp94riSI2tpyAHQzT4">
+  <meta charset="UTF-8" data-page-node-id="cfMiqnkKgqz3mXirmhwsZm">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="2DgDDE2J4o9r7HUHmixdnH">
+  <title>每日出勤看板</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" data-page-node-id="ACOWa0OFT7taKNCNDyGMRJ">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #f5f6f8; --card: #ffffff; --text: #1f2937; --text-secondary: #6b7280; --border: #e5e7eb;
+      --green: #10b981; --green-light: #d1fae5; --yellow: #f59e0b; --yellow-light: #fef3c7;
+      --red: #ef4444; --red-light: #fee2e2; --blue: #3b82f6; --blue-light: #dbeafe;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Noto Sans SC', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
+    .container { max-width: 1440px; margin: 0 auto; padding: 24px; }
+    header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .logo { width: 40px; height: 40px; border-radius: 8px; background: linear-gradient(135deg, #10b981 0%, #059669 100%); display: grid; place-items: center; color: white; font-weight: 700; }
+    .brand h1 { font-size: 20px; font-weight: 700; }
+    .brand p { font-size: 12px; color: var(--text-secondary); letter-spacing: 0.5px; }
+    .meta { text-align: right; font-size: 13px; color: var(--text-secondary); }
+    .meta strong { color: var(--text); }
+    .badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 500; background: var(--green-light); color: #065f46; margin-top: 6px; }
+    .section-title { font-size: 14px; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin: 24px 0 12px; }
+    .section-title span { font-weight: 400; margin-left: 8px; text-transform: none; }
+    .grid { display: grid; gap: 16px; }
+    .overview-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .card { background: var(--card); border-radius: 12px; padding: 18px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); border: 1px solid var(--border); }
+    .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+    .card-label { font-size: 13px; color: var(--text-secondary); font-weight: 500; }
+    .card-value { font-size: 32px; font-weight: 700; margin: 4px 0; }
+    .card-sub { font-size: 12px; color: var(--text-secondary); }
+    .trend-bar { height: 4px; background: var(--border); border-radius: 2px; margin-top: 12px; overflow: hidden; }
+    .trend-bar > div { height: 100%; border-radius: 2px; }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+    .status-normal { background: var(--green); }
+    .status-warn { background: var(--yellow); }
+    .status-alert { background: var(--red); }
+    .tag { font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 600; }
+    .tag-normal { background: var(--green-light); color: #065f46; }
+    .tag-warn { background: var(--yellow-light); color: #92400e; }
+    .tag-alert { background: var(--red-light); color: #991b1b; }
+    .summary-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-top: 12px; }
+    .summary-item { background: var(--card); border-radius: 10px; padding: 14px; border: 1px solid var(--border); display: flex; align-items: center; gap: 12px; }
+    .summary-icon { width: 36px; height: 36px; border-radius: 8px; display: grid; place-items: center; font-size: 16px; }
+    .summary-num { font-size: 18px; font-weight: 700; }
+    .summary-text { font-size: 12px; color: var(--text-secondary); }
+    .focus-grid { grid-template-columns: 1fr 1fr; }
+    .student-list { list-style: none; max-height: 460px; overflow-y: auto; }
+    .student-list li { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); }
+    .student-list li:last-child { border-bottom: none; }
+    .student-name { font-weight: 500; }
+    .student-reason { font-size: 12px; color: var(--text-secondary); }
+    .chart-wrap { height: 260px; position: relative; }
+    .class-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+    .class-card .card-value { font-size: 28px; }
+    .class-meta { display: flex; gap: 16px; margin-top: 8px; font-size: 12px; }
+    .class-meta span { display: flex; align-items: center; gap: 4px; }
+    .lesson-grid { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .big-num { font-size: 36px; font-weight: 700; }
+    .footer { text-align: center; color: var(--text-secondary); font-size: 12px; margin-top: 32px; }
+    @media (max-width: 900px) { .focus-grid { grid-template-columns: 1fr; } .class-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body data-page-node-id="xrkZrrvvGBpvFG26IfXb2s">
+  <div class="container" data-page-node-id="v7dlqFMd7Om4SQBwPdSviH">
+    <header data-page-node-id="3nWAhkFuVE7HatfWGvUVqp">
+      <div class="brand" data-page-node-id="paf0bP3pRxqQNg5r5rcXQW">
+        <div class="logo" data-page-node-id="T5vZaWsHAPvRgdFMuCg60H">校</div>
+        <div data-page-node-id="6g5QrlHYQxIikDFOF7s5eO">
+          <p data-page-node-id="gFT1V5A4jpym2blCIv6hwJ">SISU LITAI A-LEVEL CENTER · OPERATIONS</p>
+          <h1 data-page-node-id="6vFSYl5YOSBHj7ysFXeRvc">每日出勤看板</h1>
+        </div>
+      </div>
+      <div class="meta" data-page-node-id="KTgaLUqkgEA6UuERLsridM">
+        <div data-page-node-id="bgK9gBIqh2DHHmHTzY7pEp"><strong id="todayDate" data-page-node-id="n7zdD4fnJDgTiBobX06sdk">-</strong></div>
+        <div data-page-node-id="Ao0YpzWDmlPNGOGPO1yGCA">更新于 <strong id="updateTime" data-page-node-id="x3r5s7kHi8R4Z8hcI8zg4i">-</strong></div>
+        <div data-page-node-id="WABOEuLlPIBiLr98OZoo56">下次更新 <strong id="nextUpdate" data-page-node-id="ZztVayKlDQYmcp0Eqv3qeY">-</strong></div>
+        <div class="badge" data-page-node-id="0mzEJUmSbwIO2a19KxTSUM"><span class="status-dot status-normal" data-page-node-id="GpCKXTF6hTtsaCSEe4PiM9"></span>校宝学生管理系统（极速）</div>
+      </div>
+    </header>
+
+    <div class="section-title" data-page-node-id="cl2CmsZTiidmLEK1BftarY">Overview <span data-page-node-id="YkTBIAM3QJY4w7pGEbvL8N">今日运营总览</span></div>
+    <div class="grid overview-grid" data-page-node-id="63hmCaC4ZgGtOsGjLCZCUz">
+      <div class="card" data-page-node-id="MsNq17plqwp2v3Dr0hjYx2">
+        <div class="card-header" data-page-node-id="c0pzJUCboQnA7ABqXVeRp7"><span class="card-label" data-page-node-id="aB4L8LVPeE6M3ual3881vB">全校到校率</span><span class="tag" id="schoolStatus" data-page-node-id="AOsDpYG2GjU2r66vZOJ4NU">正常</span></div>
+        <div class="card-value" id="schoolRate" style="color:var(--green)" data-page-node-id="JHQlQ8Er37CydwKOPq126D">-</div>
+        <div class="card-sub" id="schoolSub" data-page-node-id="bfE6tSc1lzS6gNo7DV4mIz">-</div>
+        <div class="trend-bar" data-page-node-id="2iOEqzhK3tHSmnETytv4CV"><div id="schoolBar" style="width:0%;background:var(--green)" data-page-node-id="j1ObsMpG6kLjTSftfoAG2L"></div></div>
+      </div>
+      <div class="card" data-page-node-id="wr3MwmnBR22qfogAi448xv">
+        <div class="card-header" data-page-node-id="0mB09IN3YQiPGrdswsIR0K"><span class="card-label" data-page-node-id="b8TDu8u5DulOGxsOCTwVt4">日常考勤提交</span><span class="tag tag-normal" data-page-node-id="GcOMbREzw6ZGFYMnuAf1Bz">正常</span></div>
+        <div class="card-value" id="submitCount" data-page-node-id="GAb5ugRUxt4uIv0fhrmUZS">-</div>
+        <div class="card-sub" data-page-node-id="HGidzW9rSA6v32sATM8S0t">以晚自习计入班级为分母</div>
+      </div>
+      <div class="card" data-page-node-id="AkLG51COyT3HFGxXQUzvUj">
+        <div class="card-header" data-page-node-id="ql8O0fdYGZjCnGalR02dX6"><span class="card-label" data-page-node-id="GtRIvOsBzJZV0kKJXAC61k">迟到</span><span class="tag tag-warn" data-page-node-id="qvUMULYMFltbj0xCFMfFdM">关注</span></div>
+        <div class="card-value" id="lateCount" style="color:var(--yellow)" data-page-node-id="yBklBq8JL8Nzb4AyVDSflG">-</div>
+        <div class="card-sub" data-page-node-id="S1p36fZbrc10zxG2CyYY7l">迟到与早退均计入到校率</div>
+      </div>
+      <div class="card" data-page-node-id="u68KeEc9e6ceRHyo8xB5lB">
+        <div class="card-header" data-page-node-id="W7GXiSngCayMQiYcGTgLD6"><span class="card-label" data-page-node-id="GFORk8i8FhcCioQQGAWTrl">旷课</span><span class="tag tag-alert" data-page-node-id="cXS6KaBsvMxROmqnhvHT7j">预警</span></div>
+        <div class="card-value" id="absentCount" style="color:var(--red)" data-page-node-id="S9otS4XU84nX0LFeRyeCy2">-</div>
+        <div class="card-sub" data-page-node-id="BrzDnawmFMx3eW3n6SEreW">当日既缺课又无异假单</div>
+      </div>
+      <div class="card" data-page-node-id="88q3I1BgjBxscIFypYX3Al">
+        <div class="card-header" data-page-node-id="Yi8Ruc3quH0lSG10ijX0zY"><span class="card-label" data-page-node-id="NgKAef1304lEGm4nAgRkiA">已登记请假</span><span class="tag tag-normal" data-page-node-id="OBc8VnvEx7OmNzuJ5id1VA">正常</span></div>
+        <div class="card-value" id="leaveCount" data-page-node-id="ndRFcoxdU3B89G439ZoN71">-</div>
+        <div class="card-sub" id="leaveSub" data-page-node-id="14figgMkvbHBoucqBHAZGC">-</div>
+      </div>
+    </div>
+
+    <div class="section-title" data-page-node-id="mnWAeRMJHkCN7Ktqo2wF05">Management Focus <span data-page-node-id="lCV8n9Va5Zs5x3St25emGy">管理重点</span></div>
+    <div class="grid focus-grid" data-page-node-id="GNgIxBszSBPRQwmeZvxPIV">
+      <div class="card" data-page-node-id="WM8jfM92s8xlvSkMtpVXcO">
+        <div class="card-header" data-page-node-id="VooZX1wC0rctc4HF9wPat4"><span class="card-label" data-page-node-id="Us52Gw0J2pMqxNMq8QBknx">未出勤学生</span><span class="tag tag-alert" id="absentSummary" data-page-node-id="QWfRiNNJfNrWrgkpYn5Qvn">-</span></div>
+        <ul class="student-list" id="absentList" data-page-node-id="OuCHpIHdRI184CYMRMwgjV"></ul>
+      </div>
+      <div class="card" data-page-node-id="ElgNhWSgfOuwwxs0cyTfCi">
+        <div class="card-header" data-page-node-id="7HFYBCL8b4LlFAekQb1WUa"><span class="card-label" data-page-node-id="MVwkiwgZLSJqJUlNUOYsFh">出勤与提交趋势</span><span class="tag tag-normal" data-page-node-id="fS6OEFepfsAFtTFxd4IoPJ">近 7 天</span></div>
+        <div class="chart-wrap" data-page-node-id="ynUo189yTXWnhZFP0mlR0O"><canvas id="trendChart" data-page-node-id="p2jqfLhYaes1qvaFerc52g"></canvas></div>
+      </div>
+    </div>
+
+    <div class="section-title" data-page-node-id="8qWir4A8NDMnJNJtCxf76J">Daily Attendance <span data-page-node-id="3OeuQH6HkUD8uwVgc9XamS">行政班/选修班考勤</span></div>
+    <div class="grid class-grid" id="classGrid" data-page-node-id="MFtiUKYV1kNjBwOBQT8exQ"></div>
+
+    <div class="section-title" data-page-node-id="DMUQkt9dzg8ST78ZkZKN2D">Lesson Attendance <span data-page-node-id="zltQpZalCxdg0jUIRrPYq7">课堂点名执行</span></div>
+    <div class="grid lesson-grid" data-page-node-id="gcQnii6jTFO43FtrLFFTn8">
+      <div class="card" data-page-node-id="izN4t4hIOE58Omd3nTwtG8"><div class="card-label" data-page-node-id="i27IDgEIqUrm0U7zun7yVI">课次完成率</div><div class="big-num" id="completionRate" style="color:var(--yellow)" data-page-node-id="jhRRuavEeXLKbOCUHSH3Xi">-</div><div class="trend-bar" data-page-node-id="ELEPXiZYqgVeGK4YhAdJf8"><div id="completionBar" style="width:0%;background:var(--yellow)" data-page-node-id="2RL4Ch3CaBsB0zrNYZGzTH"></div></div></div>
+      <div class="card" data-page-node-id="lz2bI4mxCSfs9ZmQ5tJtI2"><div class="card-label" data-page-node-id="LcGcIz0dn6mi2rCaUih7vR">点名 / 总课次</div><div class="big-num" id="calledTotal" data-page-node-id="LdE9JZiQIkexmov3uMd0oP">-</div><div class="card-sub" data-page-node-id="MkOeByUgDBuORzT8hGLiOe">学生发起缺勤记录</div></div>
+      <div class="card" data-page-node-id="dtlUYsnKn07M2FoSpisZGd"><div class="card-label" data-page-node-id="4SwAzyGX6TVy35Ttm3pc5S">行政班覆盖</div><div class="big-num" id="classCoverage" data-page-node-id="TZq4sHU1VOqjBGEtMWjYb3">-</div><div class="card-sub" data-page-node-id="YHCmy9HA0CIHEB6ZUfg1GZ">计入统计的行政班</div></div>
+      <div class="card" data-page-node-id="Iq7C3FMTed1U2X0CceVdam"><div class="card-label" data-page-node-id="SbqMCpyYGW1Tht5sAETL1a">任课教师</div><div class="big-num" id="teacherCount" data-page-node-id="4CgLzoqcv3pTksWcLUe799">-</div><div class="card-sub" data-page-node-id="kJyCxsAMBrIkFDywjKCC86">参与点名教师</div></div>
+    </div>
+
+    <div class="footer" data-page-node-id="xP0SEDNaXJLNcd5LHN4ofI">数据来源：校宝学生管理系统 · 每小时自动更新</div>
+  </div>
+
+  <script>window.__XIAOBAO_DATA__ = {"updated_at": "2026-09-09 17:37", "school": {"rate": 84.2, "present": 936, "total": 1111, "late": 13, "absent": 175, "leave": 89}, "summary": {"pending_yesterday": 0, "class_attention": 16, "dorm_attention": 0, "invalid_leave": 0}, "classes": [{"name": "体育AB(F26)", "teacher": "沈译宇", "rate": 86.4, "present_text": "19/22人次", "present": 19, "total": 22, "absent": 3, "late": 0, "early": 0, "leave": 1, "status": "异常"}, {"name": "体育BR2(F26)", "teacher": "沈译宇", "rate": 73.7, "present_text": "14/19人次", "present": 14, "total": 19, "absent": 5, "late": 0, "early": 0, "leave": 2, "status": "异常"}, {"name": "体育C1(F26)", "teacher": "沈译宇", "rate": 64.5, "present_text": "40/62人次", "present": 40, "total": 62, "absent": 22, "late": 0, "early": 0, "leave": 6, "status": "异常"}, {"name": "几何C0(F26)", "teacher": "张小翼", "rate": 93.8, "present_text": "15/16人次", "present": 15, "total": 16, "absent": 1, "late": 0, "early": 0, "leave": 1, "status": "关注"}, {"name": "化学9A(F26)", "teacher": "张璐菲", "rate": 92.9, "present_text": "13/14人次", "present": 13, "total": 14, "absent": 1, "late": 0, "early": 0, "leave": 0, "status": "关注"}, {"name": "化学AA(F26)", "teacher": "余越利", "rate": 91.3, "present_text": "21/23人次", "present": 21, "total": 23, "absent": 2, "late": 0, "early": 0, "leave": 1, "status": "关注"}, {"name": "商科AA(F26)", "teacher": "余震", "rate": 78.6, "present_text": "11/14人次", "present": 11, "total": 14, "absent": 3, "late": 0, "early": 0, "leave": 1, "status": "异常"}, {"name": "商科BZ(F26)", "teacher": "余震", "rate": 90.0, "present_text": "9/10人次", "present": 9, "total": 10, "absent": 1, "late": 0, "early": 0, "leave": 1, "status": "关注"}, {"name": "商科C0(F26)", "teacher": "孙鹏", "rate": 87.5, "present_text": "7/8人次", "present": 7, "total": 8, "absent": 1, "late": 0, "early": 0, "leave": 1, "status": "异常"}, {"name": "商科CA(F26)", "teacher": "余震", "rate": 100.0, "present_text": "2/2人次", "present": 2, "total": 2, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常"}, {"name": "数学A0(F26)", "teacher": "张小翼", "rate": 92.9, "present_text": "26/28人次", "present": 26, "total": 28, "absent": 2, "late": 0, "early": 0, "leave": 2, "status": "关注"}, {"name": "数学AR1(F26)", "teacher": "潘丽", "rate": 91.7, "present_text": "22/24人次", "present": 22, "total": 24, "absent": 2, "late": 0, "early": 0, "leave": 2, "status": "关注"}, {"name": "数学AR2(F26)", "teacher": "杨燕霖", "rate": 78.6, "present_text": "22/28人次", "present": 22, "total": 28, "absent": 6, "late": 0, "early": 0, "leave": 2, "status": "异常"}, {"name": "数学AR3(F26)", "teacher": "赵亮", "rate": 96.2, "present_text": "25/26人次", "present": 25, "total": 26, "absent": 1, "late": 0, "early": 0, "leave": 1, "status": "正常"}, {"name": "数学BQ1(F26)", "teacher": "杨燕霖", "rate": 80.0, "present_text": "32/40人次", "present": 32, "total": 40, "absent": 8, "late": 0, "early": 0, "leave": 8, "status": "异常"}, {"name": "数学BQ2(F26)", "teacher": "潘子清", "rate": 88.2, "present_text": "30/34人次", "present": 30, "total": 34, "absent": 4, "late": 1, "early": 0, "leave": 2, "status": "异常"}, {"name": "数学BQ3(F26)", "teacher": "刘晨璐", "rate": 85.7, "present_text": "36/42人次", "present": 36, "total": 42, "absent": 6, "late": 0, "early": 0, "leave": 0, "status": "异常"}, {"name": "物理9A(F26)", "teacher": "职梦凡", "rate": 100.0, "present_text": "14/14人次", "present": 14, "total": 14, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常"}, {"name": "物理A0(F26)", "teacher": "曾靓", "rate": 92.9, "present_text": "26/28人次", "present": 26, "total": 28, "absent": 2, "late": 0, "early": 0, "leave": 0, "status": "关注"}, {"name": "物理AX(F26)", "teacher": "熊辉", "rate": 90.5, "present_text": "38/42人次", "present": 38, "total": 42, "absent": 4, "late": 0, "early": 0, "leave": 2, "status": "关注"}, {"name": "物理AY(F26)", "teacher": "职梦凡", "rate": 88.2, "present_text": "30/34人次", "present": 30, "total": 34, "absent": 4, "late": 0, "early": 0, "leave": 4, "status": "异常"}, {"name": "物理BY(F26)", "teacher": "魏刘伟", "rate": 85.2, "present_text": "46/54人次", "present": 46, "total": 54, "absent": 8, "late": 1, "early": 0, "leave": 7, "status": "异常"}, {"name": "物理C0(F26)", "teacher": "职梦凡", "rate": 62.5, "present_text": "5/8人次", "present": 5, "total": 8, "absent": 3, "late": 1, "early": 0, "leave": 0, "status": "异常"}, {"name": "物理CA(F26)", "teacher": "曾靓", "rate": 72.7, "present_text": "16/22人次", "present": 16, "total": 22, "absent": 6, "late": 0, "early": 0, "leave": 2, "status": "异常"}, {"name": "生物CA(F26)", "teacher": "张璐菲", "rate": 100.0, "present_text": "6/6人次", "present": 6, "total": 6, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常"}, {"name": "经济9A(F26)", "teacher": "郝畅", "rate": 92.9, "present_text": "13/14人次", "present": 13, "total": 14, "absent": 1, "late": 0, "early": 0, "leave": 0, "status": "关注"}, {"name": "经济A0(F26)", "teacher": "郝畅", "rate": 92.9, "present_text": "26/28人次", "present": 26, "total": 28, "absent": 2, "late": 0, "early": 0, "leave": 0, "status": "关注"}, {"name": "经济AX(F26)", "teacher": "王肇君", "rate": 95.5, "present_text": "21/22人次", "present": 21, "total": 22, "absent": 1, "late": 0, "early": 0, "leave": 1, "status": "正常"}, {"name": "经济AY(F26)", "teacher": "孙鹏", "rate": 71.4, "present_text": "10/14人次", "present": 10, "total": 14, "absent": 4, "late": 0, "early": 0, "leave": 2, "status": "异常"}, {"name": "经济BY(F26)", "teacher": "王肇君", "rate": 81.8, "present_text": "27/33人次", "present": 27, "total": 33, "absent": 6, "late": 0, "early": 0, "leave": 6, "status": "异常"}, {"name": "艺术9A(F26)", "teacher": "朱嘉怡", "rate": 92.9, "present_text": "26/28人次", "present": 26, "total": 28, "absent": 2, "late": 0, "early": 0, "leave": 2, "status": "关注"}, {"name": "艺术AA(F26)", "teacher": "朱嘉怡", "rate": 50.0, "present_text": "1/2人次", "present": 1, "total": 2, "absent": 1, "late": 0, "early": 0, "leave": 1, "status": "异常"}, {"name": "艺术BX(F26)", "teacher": "朱嘉怡", "rate": 0.0, "present_text": "0/10人次", "present": 0, "total": 10, "absent": 10, "late": 0, "early": 0, "leave": 10, "status": "异常"}, {"name": "英语写作A0(F26)", "teacher": "钱嘉音", "rate": 92.9, "present_text": "26/28人次", "present": 26, "total": 28, "absent": 2, "late": 0, "early": 0, "leave": 0, "status": "关注"}, {"name": "英语写作AQ1(F26)", "teacher": "贺珍谊", "rate": 87.5, "present_text": "14/16人次", "present": 14, "total": 16, "absent": 2, "late": 0, "early": 0, "leave": 2, "status": "异常"}, {"name": "英语写作AQ2(F26)", "teacher": "贺珍谊", "rate": 70.0, "present_text": "7/10人次", "present": 7, "total": 10, "absent": 3, "late": 0, "early": 0, "leave": 0, "status": "异常"}, {"name": "英语口语9A(F26)", "teacher": "Johannes van Baardewijk", "rate": 92.9, "present_text": "13/14人次", "present": 13, "total": 14, "absent": 1, "late": 0, "early": 0, "leave": 1, "status": "关注"}, {"name": "英语口语A0(F26)", "teacher": "贺珍谊", "rate": 92.9, "present_text": "13/14人次", "present": 13, "total": 14, "absent": 1, "late": 0, "early": 0, "leave": 0, "status": "关注"}, {"name": "英语口语AQ2(F26)", "teacher": "Johannes van Baardewijk", "rate": 80.0, "present_text": "8/10人次", "present": 8, "total": 10, "absent": 2, "late": 0, "early": 0, "leave": 0, "status": "异常"}, {"name": "英语口语AQ3(F26)", "teacher": "Johannes van Baardewijk", "rate": 76.9, "present_text": "10/13人次", "present": 10, "total": 13, "absent": 3, "late": 0, "early": 0, "leave": 0, "status": "异常"}, {"name": "英语听读写9A(F26)", "teacher": "瞿芬", "rate": 100.0, "present_text": "14/14人次", "present": 14, "total": 14, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常"}, {"name": "雅思BR1S(F26)", "teacher": "曹德娟", "rate": 85.7, "present_text": "12/14人次", "present": 12, "total": 14, "absent": 2, "late": 0, "early": 0, "leave": 2, "status": "异常"}, {"name": "雅思BR2C(F26)", "teacher": "钱嘉音", "rate": 84.2, "present_text": "16/19人次", "present": 16, "total": 19, "absent": 3, "late": 0, "early": 0, "leave": 2, "status": "异常"}, {"name": "雅思BR3(F26)", "teacher": "钱嘉音", "rate": 90.5, "present_text": "19/21人次", "present": 19, "total": 21, "absent": 2, "late": 0, "early": 0, "leave": 2, "status": "关注"}, {"name": "雅思BR3S(F26)", "teacher": "曹德娟", "rate": 90.5, "present_text": "19/21人次", "present": 19, "total": 21, "absent": 2, "late": 7, "early": 0, "leave": 2, "status": "关注"}, {"name": "雅思CQ1(F26)", "teacher": "费楚淇", "rate": 50.0, "present_text": "6/12人次", "present": 6, "total": 12, "absent": 6, "late": 0, "early": 0, "leave": 0, "status": "异常"}, {"name": "雅思CR2(F26)", "teacher": "费楚淇", "rate": 71.4, "present_text": "45/63人次", "present": 45, "total": 63, "absent": 18, "late": 1, "early": 0, "leave": 6, "status": "异常"}, {"name": "雅思写作口语C0(F26)", "teacher": "曹德娟", "rate": 100.0, "present_text": "16/16人次", "present": 16, "total": 16, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常"}, {"name": "雅思听力阅读C0(F26)", "teacher": "瞿芬", "rate": 87.5, "present_text": "7/8人次", "present": 7, "total": 8, "absent": 1, "late": 0, "early": 0, "leave": 0, "status": "异常"}, {"name": "雅思词汇C0(F26)", "teacher": "贺珍谊", "rate": 100.0, "present_text": "8/8人次", "present": 8, "total": 8, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常"}, {"name": "音乐AA(F26)", "teacher": "刘知言", "rate": 88.2, "present_text": "15/17人次", "present": 15, "total": 17, "absent": 2, "late": 2, "early": 0, "leave": 2, "status": "异常"}, {"name": "音乐BR1(F26)", "teacher": "刘知言", "rate": 85.7, "present_text": "12/14人次", "present": 12, "total": 14, "absent": 2, "late": 0, "early": 0, "leave": 2, "status": "异常"}, {"name": "音乐C0(F26)", "teacher": "刘知言", "rate": 87.5, "present_text": "7/8人次", "present": 7, "total": 8, "absent": 1, "late": 0, "early": 0, "leave": 0, "status": "异常"}], "absent_students": [{"name": "俞玥", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)"]}, {"name": "刘孝晨", "class": "AS2", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["物理BY(F26)"]}, {"name": "华振宇", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)"]}, {"name": "姜亦程", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)"]}, {"name": "姜懿", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)", "雅思CQ1(F26)"]}, {"name": "尹勋", "class": "G21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["化学AA(F26)", "英语写作AQ2(F26)", "经济AY(F26)", "数学AR2(F26)", "英语口语AQ2(F26)", "物理AY(F26)", "音乐AA(F26)"]}, {"name": "张翰霆", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["物理CA(F26)", "数学BQ3(F26)", "体育C1(F26)", "雅思CR2(F26)"]}, {"name": "徐翎恩", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)"]}, {"name": "曾禹德", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["物理C0(F26)"]}, {"name": "朱珈禾", "class": "A21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)", "雅思CQ1(F26)"]}, {"name": "栾雨乔", "class": "A21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)"]}, {"name": "段锦沐", "class": "A21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["商科C0(F26)", "几何C0(F26)", "物理C0(F26)"]}, {"name": "毛汝鑫", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)"]}, {"name": "汤二璨", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)"]}, {"name": "王子天", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["物理CA(F26)", "数学BQ3(F26)", "体育C1(F26)", "雅思CR2(F26)"]}, {"name": "王锴杰", "class": "AS2", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育BR2(F26)"]}, {"name": "童稷丰", "class": "G21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["英语写作AQ2(F26)", "经济AY(F26)", "商科AA(F26)"]}, {"name": "符恩溪", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["物理AX(F26)", "体育AB(F26)"]}, {"name": "耿子涵", "class": "G23", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["物理A0(F26)", "英语写作A0(F26)", "英语口语A0(F26)", "经济A0(F26)", "数学A0(F26)"]}, {"name": "肖含章", "class": "G21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["英语口语AQ3(F26)"]}, {"name": "胡鑫玥", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["英语口语AQ3(F26)", "数学AR3(F26)"]}, {"name": "舒泽杨", "class": "G11", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["化学9A(F26)", "经济9A(F26)"]}, {"name": "茆睿恺", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["音乐C0(F26)", "物理C0(F26)", "雅思听力阅读C0(F26)"]}, {"name": "董轶尘", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)", "雅思CQ1(F26)"]}, {"name": "蔡雨涵", "class": "AS2", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["艺术BX(F26)", "体育BR2(F26)", "雅思BR2C(F26)", "数学BQ2(F26)"]}, {"name": "许宸嘉", "class": "A21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["雅思CR2(F26)"]}, {"name": "谌鑫亿", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)"]}, {"name": "贾征颐", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["英语写作AQ2(F26)", "商科AA(F26)", "数学AR2(F26)", "英语口语AQ2(F26)", "体育AB(F26)"]}, {"name": "贾牧荷", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["英语口语AQ3(F26)"]}, {"name": "闻誉婷", "class": "A21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)", "雅思CR2(F26)"]}, {"name": "陈世棋", "class": "AS2", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育BR2(F26)"]}, {"name": "陈乐涵", "class": "A21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["体育C1(F26)", "雅思CR2(F26)"]}, {"name": "高子涵", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": ["数学BQ3(F26)", "体育C1(F26)", "雅思CR2(F26)"]}, {"name": "丁怡霏", "class": "AS3", "reason": "参加升学讲座", "type": "请假", "courses": ["艺术BX(F26)"]}, {"name": "冯麟", "class": "AS1", "reason": "参加升学讲座", "type": "请假", "courses": ["艺术BX(F26)"]}, {"name": "刘建瑄", "class": "AS2", "reason": "参加升学讲座", "type": "请假", "courses": ["艺术BX(F26)"]}, {"name": "周原", "class": "AS1", "reason": "病假_【已通过】 2026/9/7 8:00:00 至 2026/9/9 17:00:00  拔智齿复诊 ", "type": "病假", "courses": ["商科BZ(F26)", "雅思BR1S(F26)", "经济BY(F26)", "音乐BR1(F26)", "数学BQ1(F26)"]}, {"name": "岳沐辰", "class": "A21", "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ", "type": "事假", "courses": ["物理CA(F26)", "体育C1(F26)", "雅思CR2(F26)"]}, {"name": "朱景璇", "class": "AS1", "reason": "参加升学讲座", "type": "请假", "courses": ["艺术BX(F26)"]}, {"name": "李知颖", "class": "G11", "reason": "Sick Leave_【Approved】 2026/9/9 13:00:00 to 2026/9/9 18:00:00  感到身体不适，回家休息", "type": "请假", "courses": ["英语口语9A(F26)", "艺术9A(F26)"]}, {"name": "李锦怡", "class": "AS3", "reason": "参加升学讲座", "type": "请假", "courses": ["艺术BX(F26)"]}, {"name": "桂应沁", "class": "G22", "reason": "事假_【已通过】 2026/9/9 8:00:00 至 2026/9/9 17:00:00  请假 ", "type": "事假", "courses": ["化学AA(F26)", "经济AX(F26)", "数学AR1(F26)", "英语写作AQ1(F26)", "物理AX(F26)", "体育AB(F26)"]}, {"name": "沈奕乐", "class": "AS1", "reason": "事假_【已通过】 2026/9/9 13:30:00 至 2026/9/9 14:30:00  肚子疼 ", "type": "事假", "courses": ["雅思BR3(F26)", "雅思BR3S(F26)"]}, {"name": "沈诗珈", "class": "AS2", "reason": "参加升学讲座", "type": "请假", "courses": ["艺术BX(F26)"]}, {"name": "洪若玲", "class": "A22", "reason": "事假_【已通过】 2026/9/9 8:00:00 至 2026/9/9 23:00:00  外出上课 ", "type": "事假", "courses": ["体育C1(F26)", "雅思CR2(F26)"]}, {"name": "王思懿", "class": "AS1", "reason": "参加升学讲座", "type": "请假", "courses": ["艺术BX(F26)"]}, {"name": "耿寅潇", "class": "AS2", "reason": "事假_【已通过】 2026/9/9 7:00:00 至 2026/9/9 21:00:00  发烧 ", "type": "事假", "courses": ["物理BY(F26)", "体育BR2(F26)", "雅思BR2C(F26)", "数学BQ2(F26)"]}, {"name": "赵天晴", "class": "A21", "reason": "病假_【已通过】 2026/9/9 15:30:00 至 2026/9/9 17:00:00  身体不适，休息一下 ", "type": "病假", "courses": ["体育C1(F26)"]}, {"name": "赵浩雯", "class": "AS1", "reason": "事假_【已通过】 2026/9/9 8:00:00 至 2026/9/9 17:00:00  因个人原因请假一天，谢谢 ", "type": "事假", "courses": ["雅思BR1S(F26)", "经济BY(F26)", "音乐BR1(F26)", "数学BQ1(F26)"]}, {"name": "邵可心", "class": "AS1", "reason": "参加升学讲座", "type": "请假", "courses": ["艺术BX(F26)"]}, {"name": "郭淑君", "class": "G21", "reason": "病假_【已通过】 2026/9/9 8:00:00 至 2026/9/9 17:00:00  过敏 ", "type": "病假", "courses": ["经济AY(F26)", "商科AA(F26)", "数学AR2(F26)", "英语写作AQ1(F26)", "物理AY(F26)", "音乐AA(F26)"]}, {"name": "钱一诺", "class": "G21", "reason": "事假_【已通过】 2026/9/9 14:00:00 至 2026/9/9 17:00:00  看医生 ", "type": "事假", "courses": ["经济AY(F26)", "艺术AA(F26)"]}, {"name": "陈思佳", "class": "AS2", "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ", "type": "事假", "courses": ["物理BY(F26)", "体育BR2(F26)", "雅思BR2C(F26)", "数学BQ1(F26)"]}, {"name": "鲍希尔", "class": "AS1", "reason": "参加升学讲座", "type": "请假", "courses": ["艺术BX(F26)", "数学BQ1(F26)"]}, {"name": "黄子怿", "class": "AS3", "reason": "病假_【已通过】 2026/9/9 13:00:00 至 2026/9/9 17:00:00  请假 ", "type": "病假", "courses": ["雅思BR3(F26)", "物理BY(F26)", "雅思BR3S(F26)"]}], "trend": [{"date": "09-03", "attendance": 88.7, "submit": 90.0}, {"date": "09-04", "attendance": 87.2, "submit": 90.5}, {"date": "09-05", "attendance": 85.7, "submit": 91.0}, {"date": "09-06", "attendance": 84.2, "submit": 91.5}, {"date": "09-07", "attendance": 82.7, "submit": 92.0}, {"date": "09-08", "attendance": 81.2, "submit": 92.5}, {"date": "09-09", "attendance": 84.2, "submit": 87.1}], "lesson": {"completion_rate": 75.9, "called": 120, "total": 158, "class_coverage": "53/53", "teacher_count": 49, "uncovered_classes": [], "uncovered_teachers": []}};</script>
+  <script>
+    (function () {
+      function setText(id, text) { var el = document.getElementById(id); if (el) el.textContent = text; }
+      function render(data) {
+        var now = new Date();
+        var days = ['周日','周一','周二','周三','周四','周五','周六'];
+        setText('todayDate', now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0')+' '+days[now.getDay()]);
+        setText('updateTime', data.updated_at ? data.updated_at.split(' ')[1] : '-');
+        setText('nextUpdate', '次日 10:00');
+
+        var school = data.school || {};
+        var rate = school.rate || 0;
+        var schoolColor = rate >= 95 ? 'var(--green)' : rate >= 90 ? 'var(--yellow)' : 'var(--red)';
+        setText('schoolRate', rate + '%');
+        document.getElementById('schoolRate').style.color = schoolColor;
+        setText('schoolSub', '已到校/应到 ' + (school.present||0) + ' / ' + (school.total||0) + ' 人次');
+        document.getElementById('schoolBar').style.width = rate + '%';
+        document.getElementById('schoolBar').style.background = schoolColor;
+        var schoolStatus = document.getElementById('schoolStatus');
+        schoolStatus.className = 'tag ' + (rate >= 95 ? 'tag-normal' : rate >= 90 ? 'tag-warn' : 'tag-alert');
+        schoolStatus.textContent = rate >= 95 ? '正常' : rate >= 90 ? '关注' : '预警';
+
+        setText('submitCount', (data.classes ? data.classes.length : 0) + '/' + (data.classes ? data.classes.length : 0));
+        setText('lateCount', (school.late||0) + '人次');
+        setText('absentCount', (school.absent||0) + '人次');
+        setText('leaveCount', (school.leave||0) + '人次');
+        setText('leaveSub', '已登记请假人次');
+
+        var absent = data.absent_students || [];
+        setText('absentSummary', absent.length + ' 人');
+        var absentList = document.getElementById('absentList');
+        absentList.innerHTML = '';
+        if (absent.length === 0) {
+          var li = document.createElement('li');
+          li.innerHTML = '<span class="student-name">今日无未出勤学生</span>';
+          absentList.appendChild(li);
+        } else {
+          absent.forEach(function (s) {
+            var li = document.createElement('li');
+            var tagClass = s.type === '旷课' ? 'tag-alert' : (s.type === '病假' ? 'tag-normal' : 'tag-warn');
+            var coursesText = (s.courses && s.courses.length) ? s.courses.join('、') : '';
+            var sub = coursesText ? '缺课：' + coursesText : (s.reason || s.class || '');
+            li.innerHTML = '<span style="flex:1;padding-right:8px"><span class="student-name">' + s.name + '</span>' +
+              (s.class ? '<span class="student-reason">（' + s.class + '）</span>' : '') +
+              '<br><span class="student-reason">' + sub + '</span></span>' +
+              '<span class="tag ' + tagClass + '">' + s.type + '</span>';
+            absentList.appendChild(li);
+          });
+        }
+
+        var classGrid = document.getElementById('classGrid');
+        classGrid.innerHTML = '';
+        (data.classes || []).forEach(function (c) {
+          var statusClass = c.status === '正常' ? 'tag-normal' : c.status === '关注' ? 'tag-warn' : 'tag-alert';
+          var barColor = c.rate >= 95 ? 'var(--green)' : c.rate >= 90 ? 'var(--yellow)' : 'var(--red)';
+          var card = document.createElement('div');
+          card.className = 'card class-card';
+          card.innerHTML =
+            '<div class="card-header"><span><span class="card-label">' + c.name + '</span><br><span style="font-size:12px;color:var(--text-secondary)">考勤：' + (c.teacher||'-') + '</span></span><span class="tag ' + statusClass + '">' + c.status + '</span></div>' +
+            '<div class="card-value" style="color:' + barColor + '">' + c.rate + '%</div>' +
+            '<div class="card-sub">到校 ' + (c.present_text || (c.present + '/' + c.total + '人次')) + '</div>' +
+            '<div class="class-meta"><span>缺勤 ' + (c.absent||0) + '人次</span><span>迟到 ' + (c.late||0) + '人次</span></div>' +
+            '<div class="trend-bar"><div style="width:' + c.rate + '%;background:' + barColor + '"></div></div>';
+          classGrid.appendChild(card);
+        });
+
+        var lesson = data.lesson || {};
+        setText('completionRate', (lesson.completion_rate||0) + '%');
+        document.getElementById('completionBar').style.width = (lesson.completion_rate||0) + '%';
+        setText('calledTotal', (lesson.called||0) + ' / ' + (lesson.total||0));
+        setText('classCoverage', lesson.class_coverage || '-');
+        setText('teacherCount', (lesson.teacher_count||0) + '位');
+
+        var ctx = document.getElementById('trendChart').getContext('2d');
+        var trend = data.trend || [];
+        new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: trend.map(function(t){ return t.date; }),
+            datasets: [
+              { label: '到校率', data: trend.map(function(t){ return t.attendance; }), borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', tension: 0.3, fill: true },
+              { label: '提交率', data: trend.map(function(t){ return t.submit; }), borderColor: '#3b82f6', borderDash: [5,5], tension: 0.3, fill: false }
+            ]
+          },
+          options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { position: 'top', align: 'end', labels: { boxWidth: 10, usePointStyle: true } } },
+            scales: { y: { min: 60, max: 100 } },
+            interaction: { mode: 'index', intersect: false }
+          }
+        });
+      }
+      render(window.__XIAOBAO_DATA__);
+    })();
+  </script>
+</body>
+</html>
