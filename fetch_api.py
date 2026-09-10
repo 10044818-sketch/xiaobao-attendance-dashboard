@@ -181,15 +181,12 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
     if class_list:
         first = class_list[0]
         if isinstance(first, dict):
-            eprint(f"[timetable] first class item keys: {list(first.keys())}")
             cct = first.get("classCourseTimeTable") or []
             if isinstance(cct, list) and cct:
-                sample = cct[0]
-                if isinstance(sample, dict):
-                    eprint(f"[timetable] classCourseTimeTable[0] keys: {list(sample.keys())}")
-                    for sk, sv in sample.items():
-                        eprint(f"  '{sk}': {type(sv).__name__} = {str(sv)[:150]}")
-                eprint(f"[timetable] classCourseTimeTable[0..3] = {[str(x)[:150] for x in cct[:3]]}")
+                # 打印前 3 个 classCourseTimeTable item 的完整内容
+                for idx, sample in enumerate(cct[:3]):
+                    if isinstance(sample, dict):
+                        eprint(f"[timetable] classCourseTimeTable[{idx}] = {json.dumps(sample, ensure_ascii=False, default=str)}")
     for cls in class_list:
         if not isinstance(cls, dict):
             continue
