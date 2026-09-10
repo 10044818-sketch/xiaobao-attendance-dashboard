@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-10 14:06",
+  "updated_at": "2026-09-10 14:10",
   "school": {
-    "rate": 87.1,
-    "present": 526,
-    "total": 604,
+    "rate": 87.5,
+    "present": 553,
+    "total": 632,
     "late": 24,
-    "absent": 78,
-    "leave": 53
+    "absent": 79,
+    "leave": 54
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 11,
+    "class_attention": 12,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -94,6 +94,22 @@
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "化学9A(F26)",
+      "teacher": "张璐菲",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -299,6 +315,23 @@
       ]
     },
     {
+      "name": "生物BZ(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "经济9A(F26)",
       "teacher": "郝畅",
       "rate": 92.9,
@@ -332,7 +365,7 @@
     },
     {
       "name": "艺术AA(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -365,7 +398,7 @@
     },
     {
       "name": "艺术BZ(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -382,7 +415,7 @@
     },
     {
       "name": "艺术CB(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 83.3,
       "present_text": "5/6人次",
       "present": 5,
@@ -561,6 +594,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  感到身体有些不舒服，在家观察一天。 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "化学9A(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-10T14:09:19"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -921,27 +979,6 @@
       "updated_at": "2026-09-10T13:01:31"
     },
     {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  感到身体有些不舒服，在家观察一天。 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-10T11:16:55"
-    },
-    {
       "name": "曾禹德",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1157,45 +1194,45 @@
   "trend": [
     {
       "date": "09-04",
-      "attendance": 91.6,
+      "attendance": 92.0,
       "submit": 90.0
     },
     {
       "date": "09-05",
-      "attendance": 90.1,
+      "attendance": 90.5,
       "submit": 90.5
     },
     {
       "date": "09-06",
-      "attendance": 88.6,
+      "attendance": 89.0,
       "submit": 91.0
     },
     {
       "date": "09-07",
-      "attendance": 87.1,
+      "attendance": 87.5,
       "submit": 91.5
     },
     {
       "date": "09-08",
-      "attendance": 85.6,
+      "attendance": 86.0,
       "submit": 92.0
     },
     {
       "date": "09-09",
-      "attendance": 84.1,
+      "attendance": 84.5,
       "submit": 92.5
     },
     {
       "date": "09-10",
-      "attendance": 87.1,
-      "submit": 88.5
+      "attendance": 87.5,
+      "submit": 88.8
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "33/33",
+    "class_coverage": "35/35",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
