@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-10 12:25",
+  "updated_at": "2026-09-10 12:32",
   "school": {
-    "rate": 87.0,
-    "present": 335,
-    "total": 385,
+    "rate": 86.9,
+    "present": 346,
+    "total": 398,
     "late": 11,
-    "absent": 50,
-    "leave": 25
+    "absent": 52,
+    "leave": 26
   },
   "summary": {
     "pending_yesterday": 0,
@@ -117,16 +117,17 @@
       "name": "化学BZ(F26)",
       "teacher": "米万宝",
       "rate": 84.6,
-      "present_text": "11/13人次",
-      "present": 11,
-      "total": 13,
-      "absent": 2,
+      "present_text": "22/26人次",
+      "present": 22,
+      "total": 26,
+      "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -248,7 +249,7 @@
     },
     {
       "name": "艺术AA(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -379,6 +380,56 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-10T12:30:06"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-10T12:30:06"
+    },
     {
       "name": "金懿帆",
       "class": "G21",
@@ -700,48 +751,6 @@
       "updated_at": "2026-09-10T10:51:17"
     },
     {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-10T10:01:42"
-    },
-    {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-10T10:01:42"
-    },
-    {
       "name": "桂应沁",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/10 8:00:00 至 2026/9/11 17:00:00  请假 ",
@@ -835,37 +844,37 @@
   "trend": [
     {
       "date": "09-04",
-      "attendance": 91.5,
+      "attendance": 91.4,
       "submit": 90.0
     },
     {
       "date": "09-05",
-      "attendance": 90.0,
+      "attendance": 89.9,
       "submit": 90.5
     },
     {
       "date": "09-06",
-      "attendance": 88.5,
+      "attendance": 88.4,
       "submit": 91.0
     },
     {
       "date": "09-07",
-      "attendance": 87.0,
+      "attendance": 86.9,
       "submit": 91.5
     },
     {
       "date": "09-08",
-      "attendance": 85.5,
+      "attendance": 85.4,
       "submit": 92.0
     },
     {
       "date": "09-09",
-      "attendance": 84.0,
+      "attendance": 83.9,
       "submit": 92.5
     },
     {
       "date": "09-10",
-      "attendance": 87.0,
+      "attendance": 86.9,
       "submit": 88.5
     }
   ],
