@@ -23,20 +23,6 @@
     .meta { text-align: right; font-size: 13px; color: var(--text-secondary); }
     .meta strong { color: var(--text); }
     .badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 500; background: var(--green-light); color: #065f46; margin-top: 6px; }
-    .btn-update { display: inline-flex; align-items: center; gap: 4px; margin-top: 8px; padding: 6px 14px; font-size: 12px; font-weight: 500; background: var(--blue); color: #fff; border: none; border-radius: 6px; cursor: pointer; transition: background 0.15s; }
-    .btn-update:hover { background: #2563eb; }
-    .btn-update:disabled { background: var(--text-secondary); cursor: not-allowed; opacity: 0.7; }
-    .token-modal { position: fixed; inset: 0; background: rgba(31,41,55,0.55); display: flex; align-items: center; justify-content: center; z-index: 10000; }
-    .token-box { background: #fff; border-radius: 12px; padding: 24px; width: 380px; max-width: 90vw; }
-    .token-box h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
-    .token-box p { font-size: 12px; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.6; }
-    .token-box input { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; outline: none; box-sizing: border-box; }
-    .token-box input:focus { border-color: var(--blue); }
-    .token-box .row { display: flex; gap: 8px; margin-top: 14px; }
-    .token-box button { flex: 1; padding: 10px; border: none; border-radius: 6px; font-size: 13px; font-weight: 500; cursor: pointer; }
-    .token-box .btn-primary { background: var(--blue); color: #fff; }
-    .token-box .btn-secondary { background: #f3f4f6; color: var(--text); }
-    .token-box .err { color: var(--red); font-size: 11px; margin-top: 8px; display: none; }
     .section-title { font-size: 14px; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin: 24px 0 12px; }
     .section-title span { font-weight: 400; margin-left: 8px; text-transform: none; }
     .grid { display: grid; gap: 16px; }
@@ -120,7 +106,6 @@
         <div data-page-node-id="Ao0YpzWDmlPNGOGPO1yGCA">更新于 <strong id="updateTime" data-page-node-id="x3r5s7kHi8R4Z8hcI8zg4i">-</strong></div>
         <div data-page-node-id="WABOEuLlPIBiLr98OZoo56">下次更新 <strong id="nextUpdate" data-page-node-id="ZztVayKlDQYmcp0Eqv3qeY">-</strong></div>
         <div class="badge" data-page-node-id="0mzEJUmSbwIO2a19KxTSUM"><span class="status-dot status-normal" data-page-node-id="GpCKXTF6hTtsaCSEe4PiM9"></span>校宝学生管理系统（极速）</div>
-        <button id="manualUpdate" class="btn-update" data-page-node-id="manualUpdateBtn">立即更新 ▾</button>
       </div>
     </header>
 
@@ -180,7 +165,7 @@
     <div class="footer" data-page-node-id="xP0SEDNaXJLNcd5LHN4ofI">数据来源：校宝学生管理系统 · 每小时自动更新</div>
   </div>
 
-  <script>window.__XIAOBAO_DATA__ = {"updated_at": "2026-09-10 09:22", "school": {"rate": 86.4, "present": 114, "total": 132, "late": 9, "absent": 18, "leave": 7}, "summary": {"pending_yesterday": 0, "class_attention": 2, "dorm_attention": 0, "invalid_leave": 0}, "classes": [{"name": "代数C0(F26)", "teacher": "张小翼", "rate": 100.0, "present_text": "16/16人次", "present": 16, "total": 16, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常", "time_spans": ["08:20-09:00", "09:10-09:50"]}, {"name": "体育BR3(F26)", "teacher": "沈译宇", "rate": 90.0, "present_text": "18/20人次", "present": 18, "total": 20, "absent": 2, "late": 6, "early": 0, "leave": 0, "status": "关注", "time_spans": ["09:10-09:50"]}, {"name": "商科AA(F26)", "teacher": "余震", "rate": 75.0, "present_text": "21/28人次", "present": 21, "total": 28, "absent": 7, "late": 0, "early": 0, "leave": 2, "status": "异常", "time_spans": ["08:20-09:00", "09:10-09:50"]}, {"name": "艺术AA(F26)", "teacher": "朱嘉怡", "rate": 100.0, "present_text": "2/2人次", "present": 2, "total": 2, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常", "time_spans": ["08:20-09:00"]}, {"name": "雅思BR1(F26)", "teacher": "贺珍谊", "rate": 75.0, "present_text": "21/28人次", "present": 21, "total": 28, "absent": 7, "late": 0, "early": 0, "leave": 3, "status": "异常", "time_spans": ["08:20-09:00", "09:10-09:50"]}, {"name": "雅思BR2(F26)", "teacher": "曹德娟", "rate": 94.7, "present_text": "36/38人次", "present": 36, "total": 38, "absent": 2, "late": 3, "early": 0, "leave": 2, "status": "关注", "time_spans": ["08:20-09:00", "09:10-09:50"]}], "absent_students": [{"name": "王誉涵", "class": "AS3", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "体育BR3(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:14:32"}, {"name": "任厚宇", "class": "AS3", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "体育BR3(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:14:32"}, {"name": "陈思佳", "class": "AS2", "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ", "type": "事假", "courses": [{"course": "雅思BR2(F26)", "time": "08:20-09:00"}, {"course": "雅思BR2(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:13:36"}, {"name": "周原", "class": "AS1", "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  牙痛 ", "type": "病假", "courses": [{"course": "雅思BR1(F26)", "time": "08:20-09:00"}, {"course": "雅思BR1(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:13:27"}, {"name": "赵浩雯", "class": "AS1", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "雅思BR1(F26)", "time": "08:20-09:00"}, {"course": "雅思BR1(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:13:27"}, {"name": "鲍希尔", "class": "AS1", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "雅思BR1(F26)", "time": "08:20-09:00"}, {"course": "雅思BR1(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:13:27"}, {"name": "贾征颐", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "商科AA(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:11:08"}, {"name": "郭淑君", "class": "G21", "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  身体不适 ", "type": "病假", "courses": [{"course": "商科AA(F26)", "time": "08:20-09:00"}, {"course": "商科AA(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:11:08"}, {"name": "关矞文", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "商科AA(F26)", "time": "08:20-09:00"}, {"course": "商科AA(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:11:08"}, {"name": "符恩溪", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "商科AA(F26)", "time": "08:20-09:00"}, {"course": "商科AA(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:11:08"}, {"name": "冯麟", "class": "AS1", "reason": "事假_【已通过】 2026/9/10 8:30:00 至 2026/9/10 9:00:00  喉咙痛 ", "type": "事假", "courses": [{"course": "雅思BR1(F26)", "time": "08:20-09:00"}], "updated_at": "2026-09-10T08:33:55"}], "trend": [{"date": "09-04", "attendance": 90.9, "submit": 90.0}, {"date": "09-05", "attendance": 89.4, "submit": 90.5}, {"date": "09-06", "attendance": 87.9, "submit": 91.0}, {"date": "09-07", "attendance": 86.4, "submit": 91.5}, {"date": "09-08", "attendance": 84.9, "submit": 92.0}, {"date": "09-09", "attendance": 83.4, "submit": 92.5}, {"date": "09-10", "attendance": 86.4, "submit": 88.2}], "lesson": {"completion_rate": 75.9, "called": 120, "total": 158, "class_coverage": "6/6", "teacher_count": 49, "uncovered_classes": [], "uncovered_teachers": []}};</script>
+  <script>window.__XIAOBAO_DATA__ = {"updated_at": "2026-09-10 09:25", "school": {"rate": 86.4, "present": 114, "total": 132, "late": 9, "absent": 18, "leave": 7}, "summary": {"pending_yesterday": 0, "class_attention": 2, "dorm_attention": 0, "invalid_leave": 0}, "classes": [{"name": "代数C0(F26)", "teacher": "张小翼", "rate": 100.0, "present_text": "16/16人次", "present": 16, "total": 16, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常", "time_spans": ["08:20-09:00", "09:10-09:50"]}, {"name": "体育BR3(F26)", "teacher": "沈译宇", "rate": 90.0, "present_text": "18/20人次", "present": 18, "total": 20, "absent": 2, "late": 6, "early": 0, "leave": 0, "status": "关注", "time_spans": ["09:10-09:50"]}, {"name": "商科AA(F26)", "teacher": "余震", "rate": 75.0, "present_text": "21/28人次", "present": 21, "total": 28, "absent": 7, "late": 0, "early": 0, "leave": 2, "status": "异常", "time_spans": ["08:20-09:00", "09:10-09:50"]}, {"name": "艺术AA(F26)", "teacher": "朱嘉怡", "rate": 100.0, "present_text": "2/2人次", "present": 2, "total": 2, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常", "time_spans": ["08:20-09:00"]}, {"name": "雅思BR1(F26)", "teacher": "贺珍谊", "rate": 75.0, "present_text": "21/28人次", "present": 21, "total": 28, "absent": 7, "late": 0, "early": 0, "leave": 3, "status": "异常", "time_spans": ["08:20-09:00", "09:10-09:50"]}, {"name": "雅思BR2(F26)", "teacher": "曹德娟", "rate": 94.7, "present_text": "36/38人次", "present": 36, "total": 38, "absent": 2, "late": 3, "early": 0, "leave": 2, "status": "关注", "time_spans": ["08:20-09:00", "09:10-09:50"]}], "absent_students": [{"name": "王誉涵", "class": "AS3", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "体育BR3(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:14:32"}, {"name": "任厚宇", "class": "AS3", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "体育BR3(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:14:32"}, {"name": "陈思佳", "class": "AS2", "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ", "type": "事假", "courses": [{"course": "雅思BR2(F26)", "time": "08:20-09:00"}, {"course": "雅思BR2(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:13:36"}, {"name": "周原", "class": "AS1", "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  牙痛 ", "type": "病假", "courses": [{"course": "雅思BR1(F26)", "time": "08:20-09:00"}, {"course": "雅思BR1(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:13:27"}, {"name": "赵浩雯", "class": "AS1", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "雅思BR1(F26)", "time": "08:20-09:00"}, {"course": "雅思BR1(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:13:27"}, {"name": "鲍希尔", "class": "AS1", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "雅思BR1(F26)", "time": "08:20-09:00"}, {"course": "雅思BR1(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:13:27"}, {"name": "贾征颐", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "商科AA(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:11:08"}, {"name": "郭淑君", "class": "G21", "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  身体不适 ", "type": "病假", "courses": [{"course": "商科AA(F26)", "time": "08:20-09:00"}, {"course": "商科AA(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:11:08"}, {"name": "关矞文", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "商科AA(F26)", "time": "08:20-09:00"}, {"course": "商科AA(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:11:08"}, {"name": "符恩溪", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "商科AA(F26)", "time": "08:20-09:00"}, {"course": "商科AA(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-10T09:11:08"}, {"name": "冯麟", "class": "AS1", "reason": "事假_【已通过】 2026/9/10 8:30:00 至 2026/9/10 9:00:00  喉咙痛 ", "type": "事假", "courses": [{"course": "雅思BR1(F26)", "time": "08:20-09:00"}], "updated_at": "2026-09-10T08:33:55"}], "trend": [{"date": "09-04", "attendance": 90.9, "submit": 90.0}, {"date": "09-05", "attendance": 89.4, "submit": 90.5}, {"date": "09-06", "attendance": 87.9, "submit": 91.0}, {"date": "09-07", "attendance": 86.4, "submit": 91.5}, {"date": "09-08", "attendance": 84.9, "submit": 92.0}, {"date": "09-09", "attendance": 83.4, "submit": 92.5}, {"date": "09-10", "attendance": 86.4, "submit": 88.2}], "lesson": {"completion_rate": 75.9, "called": 120, "total": 158, "class_coverage": "6/6", "teacher_count": 49, "uncovered_classes": [], "uncovered_teachers": []}};</script>
   <script>
     (function () {
       function setText(id, text) { var el = document.getElementById(id); if (el) el.textContent = text; }
@@ -331,71 +316,6 @@
       if (sessionStorage.getItem('xb_unlock') === '1') {
         document.getElementById('lockOverlay').style.display = 'none';
         render(window.__XIAOBAO_DATA__);
-      }
-      // —— 手动更新：GitHub PAT 触发 workflow（PAT 存浏览器 localStorage）——
-      function showTokenModal(onSubmit) {
-        var old = document.getElementById('tokenModal'); if (old) old.remove();
-        var m = document.createElement('div');
-        m.id = 'tokenModal'; m.className = 'token-modal';
-        m.innerHTML =
-          '<div class="token-box">' +
-            '<h3>🔑 首次使用：填写 GitHub Token</h3>' +
-            '<p>需要一个 <b>repo + workflow</b> 权限的 Personal Access Token。' +
-            '点击 <a href="https://github.com/settings/tokens/new?scopes=repo,workflow&description=%E5%87%BA%E5%8B%A4%E7%9C%8B%E6%9D%BF%E8%A7%A6%E5%8F%91" target="_blank" rel="noopener">这里</a> 一键创建（已预填权限），' +
-            'token <b style="color:var(--red)">仅保存在本机浏览器</b>，不上传。</p>' +
-            '<input id="tokenInput" type="password" placeholder="ghp_..." autocomplete="off">' +
-            '<div class="err" id="tokenErr">token 无效或权限不足，请检查</div>' +
-            '<div class="row"><button class="btn-secondary" id="tokenCancel">取消</button><button class="btn-primary" id="tokenOk">保存并触发</button></div>' +
-          '</div>';
-        document.body.appendChild(m);
-        var input = document.getElementById('tokenInput');
-        var ok = document.getElementById('tokenOk');
-        var cancel = document.getElementById('tokenCancel');
-        input.focus();
-        cancel.onclick = function () { m.remove(); };
-        ok.onclick = function () {
-          var v = input.value.trim();
-          if (!v) return;
-          m.remove();
-          onSubmit(v);
-        };
-        input.onkeydown = function (e) { if (e.key === 'Enter') ok.click(); };
-      }
-      function triggerUpdate(token, btn) {
-        if (btn) { btn.disabled = true; btn.textContent = '触发中…'; }
-        fetch('https://api.github.com/repos/10044818-sketch/xiaobao-attendance-dashboard/actions/workflows/update.yml/dispatches', {
-          method: 'POST',
-          headers: { 'Authorization': 'token ' + token, 'Accept': 'application/vnd.github+json' },
-          body: JSON.stringify({ ref: 'main' })
-        }).then(function (r) {
-          if (r.status === 204) {
-            if (btn) btn.textContent = '已触发，约 1 分钟后刷新页面';
-            setTimeout(function () { if (btn) { btn.disabled = false; btn.textContent = '立即更新'; } }, 60000);
-          } else {
-            return r.json().then(function (d) { throw new Error(d.message || ('HTTP ' + r.status)); });
-          }
-        }).catch(function (e) {
-          console.error(e);
-          if (/Bad credentials|Not Found|401|403/.test(e.message || '')) {
-            localStorage.removeItem('xb_gh_token');
-          }
-          if (btn) { btn.textContent = '失败：' + (e.message || '网络错误'); btn.disabled = false; }
-          setTimeout(function () { if (btn) btn.textContent = '立即更新'; }, 6000);
-        });
-      }
-      var updateBtn = document.getElementById('manualUpdate');
-      if (updateBtn) {
-        updateBtn.addEventListener('click', function () {
-          var token = localStorage.getItem('xb_gh_token');
-          if (token) {
-            triggerUpdate(token, updateBtn);
-          } else {
-            showTokenModal(function (v) {
-              localStorage.setItem('xb_gh_token', v);
-              triggerUpdate(v, updateBtn);
-            });
-          }
-        });
       }
     })();
   </script>
