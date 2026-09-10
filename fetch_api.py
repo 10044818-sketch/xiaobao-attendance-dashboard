@@ -175,18 +175,37 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
     current_min = today.hour * 60 + today.minute
     eprint(f"[timetable] today weekday={weekday} current_min={current_min} ({today.strftime('%H:%M')}), total classes in week: {len(class_list)}")
 
-    courses = []
-    coord_weekday_counts = {}
-    # 打印第一个 class 的真实结构
-    if class_list:
-        first = class_list[0]
-        if isinstance(first, dict):
-            cct = first.get("classCourseTimeTable") or []
-            if isinstance(cct, list) and cct:
-                # 打印前 3 个 classCourseTimeTable item 的完整内容
-                for idx, sample in enumerate(cct[:3]):
-                    if isinstance(sample, dict):
-                        eprint(f"[timetable] classCourseTimeTable[{idx}] = {json.dumps(sample, ensure_ascii=False, default=str)}")
+    # 打印所有 11 个时段
+    eprint(f"[timetable] ALL 11 time slots: {json.dumps(times, ensure_ascii=False)}")
+    # 收集所有 classCourseTimeTable 的 coordId，按 class 分组
+    all_cct = []
+    for cls in class_list:
+        if not isinstance(cls, dict):
+            continue
+        cct = cls.get("classCourseTimeTable") or []
+        for item in cct:
+            if isinstance(item, dict):
+                all_cct.append({
+                    "class": cls.get("name", ""),
+                    "classId": cls.get("objectId", ""),
+                    "coordId": item.get("coordId"),
+                    "name": item.get("name", ""),
+                    "className": item.get("className", ""),
+                    "teachers": [t.get("name", "") for t in item.get("teachers", [])],
+                    "playgroundName": item.get("playgroundName", ""),
+                })
+    # 按 coordId 排序，看分布
+    all_cct.sort(key=lambda x: x.get("coordId") or 0)
+    coord_min = min(x["coordId"] for x in all_cct if x["coordId"] is not None)
+    coord_max = max(x["coordId"] for x in all_cct if x["coordId"] is not None)
+    eprint(f"[timetable] total classCourseTimeTable items: {len(all_cct)}, coordId range: [{coord_min}, {coord_max}], diff: {coord_max - coord_min}")
+    # 打印前 20 个样本
+    for item in all_cct[:20]:
+        eprint(f"  coord={item['coordId']} offset={(item['coordId'] or 0) - coord_min} class={item['class']} {item['name']} {item['teachers']}")
+    # 检查 offset 模式
+    offsets = [(x["coordId"] or 0) - coord_min for x in all_cct]
+    unique_offsets = sorted(set(offsets))
+    eprint(f"[timetable] unique offsets: {unique_offsets[:50]}{'...' if len(unique_offsets) > 50 else ''}")
     for cls in class_list:
         if not isinstance(cls, dict):
             continue
