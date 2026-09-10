@@ -95,9 +95,8 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
                      "begin": "09:10", "end": "09:50", "begin_min": 550, "end_min": 590}, ...]
     }
     """
-    # 1) 时段主数据
-    master_payload = {"courseTaskId": course_task_id, "isShowCommentTime": True}
-    r = session.post(API_COURSE_MASTER, json=master_payload, timeout=30)
+    # 1) 时段主数据（GET）
+    r = session.get(API_COURSE_MASTER, params={"courseTaskId": course_task_id, "isShowCommentTime": "true"}, timeout=30)
     r.raise_for_status()
     master_data = r.json()
     if master_data.get("state") != 0:
