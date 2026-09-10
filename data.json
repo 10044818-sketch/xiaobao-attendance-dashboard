@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 14:10",
+  "updated_at": "2026-09-10 14:13",
   "school": {
     "rate": 87.5,
     "present": 553,
@@ -1190,7 +1190,216 @@
       "updated_at": "2026-09-10T08:33:55"
     }
   ],
-  "pending_roll_call": [],
+  "pending_roll_call": [
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "08:20-09:00",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "08:20-09:00",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "08:20-09:00",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "08:20-09:00",
+      "location": "LT3-104"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "09:10-09:50",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "09:10-09:50",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "09:10-09:50",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "09:10-09:50",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "10:00-10:40",
+      "location": ""
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "10:00-10:40",
+      "location": ""
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "10:50-11:30",
+      "location": ""
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "体育A0C0",
+      "teacher": "",
+      "time": "10:50-11:30",
+      "location": ""
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "体育A0C0",
+      "teacher": "",
+      "time": "10:50-11:30",
+      "location": ""
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "10:50-11:30",
+      "location": ""
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "体育A0C0",
+      "teacher": "",
+      "time": "10:50-11:30",
+      "location": ""
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "13:00-13:40",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "13:00-13:40",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "13:00-13:40",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "13:00-13:40",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "13:00-13:40",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "13:00-13:40",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:00-13:40",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "13:00-13:40",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:00-13:40",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "13:00-13:40",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:00-13:40",
+      "location": "LT3-104"
+    }
+  ],
   "trend": [
     {
       "date": "09-04",
@@ -1229,12 +1438,231 @@
     }
   ],
   "lesson": {
-    "completion_rate": 0,
-    "called": 0,
-    "total": 0,
+    "completion_rate": 77.6,
+    "called": 90,
+    "total": 116,
     "class_coverage": "35/35",
-    "teacher_count": 0,
-    "uncovered_classes": [],
-    "uncovered_teachers": []
+    "teacher_count": 22,
+    "uncovered_classes": [
+      "十年级 G22",
+      "十年级 G21",
+      "九年级 G12",
+      "十一年级 AS1",
+      "十年级 G23",
+      "九年级 G11",
+      "十一年级 AS3",
+      "十二年级 A21",
+      "十二年级 A22"
+    ],
+    "uncovered_teachers": [
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "08:20-09:00",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "08:20-09:00",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "08:20-09:00",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "08:20-09:00",
+        "location": "LT3-104"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "09:10-09:50",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "09:10-09:50",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "09:10-09:50",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "09:10-09:50",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "10:00-10:40",
+        "location": ""
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "10:00-10:40",
+        "location": ""
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "10:50-11:30",
+        "location": ""
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "体育A0C0",
+        "teacher": "",
+        "time": "10:50-11:30",
+        "location": ""
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "体育A0C0",
+        "teacher": "",
+        "time": "10:50-11:30",
+        "location": ""
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "10:50-11:30",
+        "location": ""
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "体育A0C0",
+        "teacher": "",
+        "time": "10:50-11:30",
+        "location": ""
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "13:00-13:40",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "13:00-13:40",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思听力阅读",
+        "teacher": "瞿芬",
+        "time": "13:00-13:40",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "13:00-13:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思听力阅读",
+        "teacher": "瞿芬",
+        "time": "13:00-13:40",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "13:00-13:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "13:00-13:40",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "13:00-13:40",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "13:00-13:40",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "13:00-13:40",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:00-13:40",
+        "location": "LT3-104"
+      }
+    ]
   }
 }
