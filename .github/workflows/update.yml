@@ -2,7 +2,7 @@ name: Update Xiaobao Attendance Dashboard
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 每小时整点运行
+    - cron: '*/30 * * * *'   # 每 30 分钟运行
   workflow_dispatch:      # 允许手动触发
 
 permissions:
