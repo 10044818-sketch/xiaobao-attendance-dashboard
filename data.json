@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-10 15:50",
+  "updated_at": "2026-09-10 15:55",
   "school": {
-    "rate": 87.3,
-    "present": 658,
-    "total": 754,
+    "rate": 87.5,
+    "present": 672,
+    "total": 768,
     "late": 24,
     "absent": 96,
     "leave": 68
@@ -247,6 +247,22 @@
       ]
     },
     {
+      "name": "数学A0(F26)",
+      "teacher": "张小翼",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "数学AR1(F26)",
       "teacher": "潘丽",
       "rate": 91.7,
@@ -398,7 +414,7 @@
     },
     {
       "name": "艺术AA(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -432,7 +448,7 @@
     },
     {
       "name": "艺术BZ(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -449,7 +465,7 @@
     },
     {
       "name": "艺术CB(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 83.3,
       "present_text": "5/6人次",
       "present": 5,
@@ -1698,14 +1714,6 @@
       "location": "LT3-109"
     },
     {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "13:50-14:30",
-      "location": "LT3-107"
-    },
-    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "物理",
@@ -1821,59 +1829,59 @@
   "trend": [
     {
       "date": "09-04",
-      "attendance": 91.8,
+      "attendance": 92.0,
       "submit": 90.0
     },
     {
       "date": "09-05",
-      "attendance": 90.3,
+      "attendance": 90.5,
       "submit": 90.5
     },
     {
       "date": "09-06",
-      "attendance": 88.8,
+      "attendance": 89.0,
       "submit": 91.0
     },
     {
       "date": "09-07",
-      "attendance": 87.3,
+      "attendance": 87.5,
       "submit": 91.5
     },
     {
       "date": "09-08",
-      "attendance": 85.8,
+      "attendance": 86.0,
       "submit": 92.0
     },
     {
       "date": "09-09",
-      "attendance": 84.3,
+      "attendance": 84.5,
       "submit": 92.5
     },
     {
       "date": "09-10",
-      "attendance": 87.3,
-      "submit": 88.7
+      "attendance": 87.5,
+      "submit": 88.8
     }
   ],
   "lesson": {
-    "completion_rate": 68.1,
-    "called": 109,
+    "completion_rate": 68.8,
+    "called": 110,
     "total": 160,
-    "class_coverage": "42/42",
+    "class_coverage": "43/43",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十二年级 A21",
-      "化学9A(F26)",
-      "十年级 G23",
-      "十二年级 A22",
       "十一年级 AS3",
-      "十年级 G22",
-      "十年级 G21",
+      "十年级 G23",
+      "化学9A(F26)",
       "高数CR2(F26)",
-      "十一年级 AS1",
+      "十年级 G21",
+      "十二年级 A21",
       "九年级 G11",
+      "十年级 G22",
+      "十一年级 AS2",
       "九年级 G12",
-      "十一年级 AS2"
+      "十一年级 AS1",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -2163,14 +2171,6 @@
         "teacher": "Johannes van Baardewijk",
         "time": "13:50-14:30",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "13:50-14:30",
-        "location": "LT3-107"
       },
       {
         "class": "九年级 G11",
