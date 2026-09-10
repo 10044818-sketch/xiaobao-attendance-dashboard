@@ -175,37 +175,69 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
     current_min = today.hour * 60 + today.minute
     eprint(f"[timetable] today weekday={weekday} current_min={current_min} ({today.strftime('%H:%M')}), total classes in week: {len(class_list)}")
 
-    # 打印所有 11 个时段
-    eprint(f"[timetable] ALL 11 time slots: {json.dumps(times, ensure_ascii=False)}")
-    # 收集所有 classCourseTimeTable 的 coordId，按 class 分组
+    # 1) 收集所有 classCourseTimeTable 的 coordId 范围（API 用了大数字全局 ID）
     all_cct = []
     for cls in class_list:
         if not isinstance(cls, dict):
             continue
         cct = cls.get("classCourseTimeTable") or []
         for item in cct:
-            if isinstance(item, dict):
+            if isinstance(item, dict) and item.get("coordId") is not None:
                 all_cct.append({
-                    "class": cls.get("name", ""),
-                    "classId": cls.get("objectId", ""),
-                    "coordId": item.get("coordId"),
-                    "name": item.get("name", ""),
-                    "className": item.get("className", ""),
-                    "teachers": [t.get("name", "") for t in item.get("teachers", [])],
-                    "playgroundName": item.get("playgroundName", ""),
+                    "coordId": int(item["coordId"]),
+                    "class_name": (cls.get("name") or "").strip(),
+                    "class_id": cls.get("objectId", ""),
+                    "course": (item.get("name") or "").strip(),
+                    "teachers": [t.get("name", "") for t in (item.get("teachers") or []) if isinstance(t, dict)],
+                    "playground": (item.get("playgroundName") or "").strip(),
                 })
-    # 按 coordId 排序，看分布
-    all_cct.sort(key=lambda x: x.get("coordId") or 0)
-    coord_min = min(x["coordId"] for x in all_cct if x["coordId"] is not None)
-    coord_max = max(x["coordId"] for x in all_cct if x["coordId"] is not None)
-    eprint(f"[timetable] total classCourseTimeTable items: {len(all_cct)}, coordId range: [{coord_min}, {coord_max}], diff: {coord_max - coord_min}")
-    # 打印前 20 个样本
-    for item in all_cct[:20]:
-        eprint(f"  coord={item['coordId']} offset={(item['coordId'] or 0) - coord_min} class={item['class']} {item['name']} {item['teachers']}")
-    # 检查 offset 模式
-    offsets = [(x["coordId"] or 0) - coord_min for x in all_cct]
-    unique_offsets = sorted(set(offsets))
-    eprint(f"[timetable] unique offsets: {unique_offsets[:50]}{'...' if len(unique_offsets) > 50 else ''}")
+    if not all_cct:
+        eprint("[timetable] no classCourseTimeTable items found")
+        return {"times": times, "courses": [], "current_min": current_min}
+    # 找最小 coordId 作为基准
+    coord_min = min(x["coordId"] for x in all_cct)
+    # 校宝 grid: offset = coordId - min, weekday = offset // 11, period = offset % 11（11 个时段 × 7 天）
+    n_slots = len(times)  # 通常 11
+    weekday_counts = {}
+    for x in all_cct:
+        offset = x["coordId"] - coord_min
+        wd = offset // n_slots
+        weekday_counts[wd] = weekday_counts.get(wd, 0) + 1
+    eprint(f"[timetable] total items: {len(all_cct)}, base coordId: {coord_min}, weekday item counts: {sorted(weekday_counts.items())}")
+
+    # 2) 解析为当天条目
+    courses = []
+    for x in all_cct:
+        offset = x["coordId"] - coord_min
+        coord_weekday = offset // n_slots
+        period = offset % n_slots
+        if coord_weekday != weekday:
+            continue
+        if period < 0 or period >= len(times):
+            continue
+        slot = times[period]
+        # 只保留已结束课堂
+        if slot["end_min"] > current_min:
+            continue
+        teacher = "、".join(t for t in x["teachers"] if t)
+        courses.append({
+            "class_name": x["class_name"],
+            "class_id": x["class_id"],
+            "course": x["course"],
+            "teacher": teacher,
+            "location": x["playground"],
+            "coord_id": x["coordId"],
+            "weekday": coord_weekday,
+            "period": period,
+            "begin": slot["begin"],
+            "end": slot["end"],
+            "begin_min": slot["begin_min"],
+            "end_min": slot["end_min"],
+            "time_span": f"{slot['begin']}-{slot['end']}",
+        })
+    eprint(f"[timetable] today's ended courses: {len(courses)}")
+
+    return {"times": times, "courses": courses, "current_min": current_min}
     for cls in class_list:
         if not isinstance(cls, dict):
             continue
