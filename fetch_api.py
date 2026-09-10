@@ -89,29 +89,24 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
     """
     取本周全校课表 + 时段配置，返回当天的所有课堂条目。
     """
-    # 1) 时段主数据：GET 优先，若 405/400 改 POST 尝试
+    # 1) 时段主数据：GET 优先
     last_err = None
     master_data = None
-    for attempt in [(API_COURSE_MASTER, "get"), (API_COURSE_MASTER, "post")]:
-        url, method = attempt
+    for method in ("get", "post"):
         try:
             if method == "get":
-                r = session.get(url, params={"courseTaskId": course_task_id, "isShowCommentTime": "true"}, timeout=30)
+                r = session.get(API_COURSE_MASTER, params={"courseTaskId": course_task_id, "isShowCommentTime": "true"}, timeout=30)
             else:
-                r = session.post(url, json={"courseTaskId": course_task_id, "isShowCommentTime": True}, timeout=30)
+                r = session.post(API_COURSE_MASTER, json={"courseTaskId": course_task_id, "isShowCommentTime": True}, timeout=30)
             r.raise_for_status()
             master_data = r.json()
-            eprint(f"[timetable] {method.upper()} {url} -> {r.status_code}, top keys: {list(master_data.keys())[:6]}")
-            break
+            if master_data.get("state") == 0:
+                break
+            master_data = None
         except Exception as e:
             last_err = e
-            eprint(f"[timetable] {method.upper()} {url} -> ERR: {e}")
     if master_data is None:
         raise last_err or RuntimeError("CourseTaskMaster all attempts failed")
-    if master_data.get("state") != 0:
-        eprint("CourseTaskMaster API error:", master_data)
-        raise RuntimeError(f"CourseTaskMaster API error: {master_data}")
-    # 解析 times（兼容 data.times 和 data 是 list）
     data_root = master_data.get("data", {}) or {}
     if isinstance(data_root, list):
         raw_times = data_root
@@ -132,30 +127,14 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
             "begin_min": int(begin_min),
             "end_min": int(end_min),
         })
-    eprint(f"[timetable] parsed {len(times)} time slots, first: {times[0] if times else 'none'}")
 
     # 2) 本周课表
-    tt_payload = {"courseTaskId": course_task_id, "weekIndex": 0}
-    r = session.post(API_TIMETABLE, json=tt_payload, timeout=30)
+    r = session.post(API_TIMETABLE, json={"courseTaskId": course_task_id, "weekIndex": 0}, timeout=30)
     r.raise_for_status()
     tt_data = r.json()
-    eprint(f"[timetable] POST {API_TIMETABLE} -> {r.status_code}, state={tt_data.get('state')}, data type: {type(tt_data.get('data')).__name__}")
     if tt_data.get("state") != 0:
-        eprint("GetClassCourseTimeTable API error:", tt_data)
         raise RuntimeError(f"GetClassCourseTimeTable API error: {tt_data}")
     data_obj = tt_data.get("data") or {}
-    # 探测 data 真实结构
-    if isinstance(data_obj, dict):
-        eprint(f"[timetable] data is dict with keys: {list(data_obj.keys())}")
-        for k, v in data_obj.items():
-            if isinstance(v, list):
-                eprint(f"  key '{k}': list[{len(v)}], first item keys: {list(v[0].keys()) if v and isinstance(v[0], dict) else type(v[0]).__name__ if v else 'empty'}")
-            elif isinstance(v, dict):
-                eprint(f"  key '{k}': dict, keys: {list(v.keys())[:8]}")
-            else:
-                eprint(f"  key '{k}': {type(v).__name__} = {str(v)[:80]}")
-    # 兼容多种返回结构：尝试从常见位置抽取
-    class_list = []
     if isinstance(data_obj, list):
         class_list = data_obj
     elif isinstance(data_obj, dict):
@@ -163,49 +142,43 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
             v = data_obj.get(candidate_key)
             if isinstance(v, list):
                 class_list = v
-                eprint(f"[timetable] using data.{candidate_key} as class list")
                 break
-        if not class_list and "data" in data_obj and isinstance(data_obj["data"], list):
-            class_list = data_obj["data"]
-            eprint("[timetable] using data.data as class list")
+        else:
+            if isinstance(data_obj.get("data"), list):
+                class_list = data_obj["data"]
+            else:
+                class_list = []
+    else:
+        class_list = []
 
-    # 3) 解析为当天条目
+    # 3) 收集所有 classCourseTimeTable，按 offset 解码 weekday/period
     today = now_cn()
-    weekday = today.weekday()  # 0=周一 ... 6=周日
+    weekday = today.weekday()
     current_min = today.hour * 60 + today.minute
-    eprint(f"[timetable] today weekday={weekday} current_min={current_min} ({today.strftime('%H:%M')}), total classes in week: {len(class_list)}")
 
-    # 1) 收集所有 classCourseTimeTable 的 coordId 范围（API 用了大数字全局 ID）
     all_cct = []
     for cls in class_list:
         if not isinstance(cls, dict):
             continue
-        cct = cls.get("classCourseTimeTable") or []
+        cct = cls.get("classCourseTimeTable") or cls.get("coordInfos") or []
         for item in cct:
-            if isinstance(item, dict) and item.get("coordId") is not None:
-                all_cct.append({
-                    "coordId": int(item["coordId"]),
-                    "class_name": (cls.get("name") or "").strip(),
-                    "class_id": cls.get("objectId", ""),
-                    "course": (item.get("name") or "").strip(),
-                    "teachers": [t.get("name", "") for t in (item.get("teachers") or []) if isinstance(t, dict)],
-                    "playground": (item.get("playgroundName") or "").strip(),
-                })
-    if not all_cct:
-        eprint("[timetable] no classCourseTimeTable items found")
-        return {"times": times, "courses": [], "current_min": current_min}
-    # 找最小 coordId 作为基准
-    coord_min = min(x["coordId"] for x in all_cct)
-    # 校宝 grid: offset = coordId - min, weekday = offset // 11, period = offset % 11（11 个时段 × 7 天）
-    n_slots = len(times)  # 通常 11
-    weekday_counts = {}
-    for x in all_cct:
-        offset = x["coordId"] - coord_min
-        wd = offset // n_slots
-        weekday_counts[wd] = weekday_counts.get(wd, 0) + 1
-    eprint(f"[timetable] total items: {len(all_cct)}, base coordId: {coord_min}, weekday item counts: {sorted(weekday_counts.items())}")
+            if not isinstance(item, dict) or item.get("coordId") is None:
+                continue
+            all_cct.append({
+                "coordId": int(item["coordId"]),
+                "class_name": (cls.get("name") or "").strip(),
+                "class_id": cls.get("objectId", "") or cls.get("classId", ""),
+                "course": (item.get("name") or "").strip(),
+                "teachers": [t.get("name", "") for t in (item.get("teachers") or []) if isinstance(t, dict)],
+                "playground": (item.get("playgroundName") or "").strip(),
+            })
 
-    # 2) 解析为当天条目
+    if not all_cct:
+        return {"times": times, "courses": [], "current_min": current_min}
+
+    coord_min = min(x["coordId"] for x in all_cct)
+    n_slots = len(times)  # 11 个时段
+
     courses = []
     for x in all_cct:
         offset = x["coordId"] - coord_min
@@ -216,7 +189,6 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
         if period < 0 or period >= len(times):
             continue
         slot = times[period]
-        # 只保留已结束课堂
         if slot["end_min"] > current_min:
             continue
         teacher = "、".join(t for t in x["teachers"] if t)
@@ -235,51 +207,6 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
             "end_min": slot["end_min"],
             "time_span": f"{slot['begin']}-{slot['end']}",
         })
-    eprint(f"[timetable] today's ended courses: {len(courses)}")
-
-    return {"times": times, "courses": courses, "current_min": current_min}
-    for cls in class_list:
-        if not isinstance(cls, dict):
-            continue
-        class_name = cls.get("name") or cls.get("className") or ""
-        class_id = cls.get("objectId") or cls.get("classId") or cls.get("id") or ""
-        coord_infos = cls.get("classCourseTimeTable") or cls.get("coordInfos") or []
-        for info in coord_infos:
-            if not isinstance(info, dict):
-                continue
-            coord_id = info.get("coordId")
-            if coord_id is None:
-                continue
-            coord_weekday_counts[coord_id // 9] = coord_weekday_counts.get(coord_id // 9, 0) + 1
-            coord_weekday = coord_id // 9
-            period = coord_id % 9
-            if coord_weekday != weekday:
-                continue
-            if period < 0 or period >= len(times):
-                continue
-            slot = times[period]
-            if slot["end_min"] > current_min:
-                continue
-            course = info.get("courseName") or info.get("projectName") or info.get("subject") or info.get("name") or ""
-            teacher = info.get("teacherName") or info.get("teacher") or ""
-            location = info.get("location") or info.get("classroom") or info.get("playgroundName") or ""
-            courses.append({
-                "class_name": class_name.strip(),
-                "class_id": class_id,
-                "course": course.strip(),
-                "teacher": teacher.strip(),
-                "location": location.strip(),
-                "coord_id": int(coord_id),
-                "weekday": coord_weekday,
-                "period": period,
-                "begin": slot["begin"],
-                "end": slot["end"],
-                "begin_min": slot["begin_min"],
-                "end_min": slot["end_min"],
-                "time_span": f"{slot['begin']}-{slot['end']}",
-            })
-    eprint(f"[timetable] weekday distribution: {sorted(coord_weekday_counts.items())}")
-    eprint(f"[timetable] today's ended courses: {len(courses)}")
 
     return {"times": times, "courses": courses, "current_min": current_min}
 
