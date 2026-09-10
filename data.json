@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 13:21",
+  "updated_at": "2026-09-10 13:25",
   "school": {
     "rate": 86.9,
     "present": 463,
@@ -315,7 +315,7 @@
     },
     {
       "name": "艺术AA(F26)",
-      "teacher": "王丽媛",
+      "teacher": "朱嘉怡",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -332,7 +332,7 @@
     },
     {
       "name": "艺术BZ(F26)",
-      "teacher": "王丽媛",
+      "teacher": "朱嘉怡",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -349,7 +349,7 @@
     },
     {
       "name": "艺术CB(F26)",
-      "teacher": "王丽媛",
+      "teacher": "朱嘉怡",
       "rate": 83.3,
       "present_text": "5/6人次",
       "present": 5,
