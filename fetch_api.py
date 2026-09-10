@@ -8,6 +8,7 @@ import sys
 import json
 import re
 import math
+import asyncio
 import requests
 from datetime import datetime, timedelta
 from collections import defaultdict
@@ -24,6 +25,10 @@ def now_cn():
 BASE_URL = "https://ray.schoolis.cn"
 LOGIN_URL = f"{BASE_URL}/newsis/login"
 API_LIST = f"{BASE_URL}/api/Attendance/GetAttendanceRecordDetailList"
+API_TIMETABLE = f"{BASE_URL}/api/CourseTask/GetClassCourseTimeTable"
+API_COURSE_MASTER = f"{BASE_URL}/api/CourseTask/CourseTaskMaster"
+
+COURSE_TASK_ID = int(os.environ.get("XIAOBAO_COURSE_TASK_ID", "80073"))
 
 # 校宝 attendanceState 枚举：0=出勤，1=迟到，2=早退，3=缺勤
 STATE_MAP = {0: "出勤", 1: "迟到", 2: "早退", 3: "缺勤"}
@@ -74,6 +79,107 @@ def make_session(cookies):
     return session
 
 
+def minutes_to_hhmm(m):
+    """校宝 CourseTaskMaster 里的 beginTime/endTime 是从 00:00 起的分钟数"""
+    m = int(m)
+    return f"{m // 60:02d}:{m % 60:02d}"
+
+
+def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
+    """
+    取本周全校课表 + 时段配置，返回当天的所有课堂条目。
+    返回 {
+        "times": [{"index": 0, "begin": "08:20", "end": "09:00", "begin_min": 500, "end_min": 540}, ...],
+        "courses": [{"class_name": "G11", "class_id": ..., "course": "体育", "teacher": "沈译宇",
+                     "location": "...", "coord_id": 28, "weekday": 3, "period": 1,
+                     "begin": "09:10", "end": "09:50", "begin_min": 550, "end_min": 590}, ...]
+    }
+    """
+    # 1) 时段主数据
+    master_payload = {"courseTaskId": course_task_id, "isShowCommentTime": True}
+    r = session.post(API_COURSE_MASTER, json=master_payload, timeout=30)
+    r.raise_for_status()
+    master_data = r.json()
+    if master_data.get("state") != 0:
+        eprint("CourseTaskMaster API error:", master_data)
+        raise RuntimeError(f"CourseTaskMaster API error: {master_data}")
+    raw_times = master_data.get("data", {}).get("times") or master_data.get("data") or []
+    times = []
+    for i, t in enumerate(raw_times):
+        if not isinstance(t, dict):
+            continue
+        begin_min = t.get("beginTime")
+        end_min = t.get("endTime")
+        if begin_min is None or end_min is None:
+            continue
+        times.append({
+            "index": i,
+            "begin": minutes_to_hhmm(begin_min),
+            "end": minutes_to_hhmm(end_min),
+            "begin_min": int(begin_min),
+            "end_min": int(end_min),
+        })
+
+    # 2) 本周课表
+    tt_payload = {"courseTaskId": course_task_id, "weekIndex": 0}
+    r = session.post(API_TIMETABLE, json=tt_payload, timeout=30)
+    r.raise_for_status()
+    tt_data = r.json()
+    if tt_data.get("state") != 0:
+        eprint("GetClassCourseTimeTable API error:", tt_data)
+        raise RuntimeError(f"GetClassCourseTimeTable API error: {tt_data}")
+    class_list = tt_data.get("data") or []
+
+    # 3) 解析为当天条目
+    today = now_cn()
+    weekday = today.weekday()  # 0=周一 ... 6=周日
+    current_min = today.hour * 60 + today.minute
+
+    courses = []
+    for cls in class_list:
+        if not isinstance(cls, dict):
+            continue
+        class_name = cls.get("className") or cls.get("name") or ""
+        class_id = cls.get("classId") or cls.get("id") or ""
+        coord_infos = cls.get("coordInfos") or []
+        for info in coord_infos:
+            if not isinstance(info, dict):
+                continue
+            coord_id = info.get("coordId")
+            if coord_id is None:
+                continue
+            coord_weekday = coord_id // 9  # 0=周一
+            period = coord_id % 9          # 0-8 节次
+            if coord_weekday != weekday:
+                continue
+            if period < 0 or period >= len(times):
+                continue
+            slot = times[period]
+            # 只保留已经结束的课堂（end <= 当前时间）
+            if slot["end_min"] > current_min:
+                continue
+            course = info.get("courseName") or info.get("projectName") or ""
+            teacher = info.get("teacherName") or info.get("teacher") or ""
+            location = info.get("location") or info.get("classroom") or info.get("playgroundName") or ""
+            courses.append({
+                "class_name": class_name.strip(),
+                "class_id": class_id,
+                "course": course.strip(),
+                "teacher": teacher.strip(),
+                "location": location.strip(),
+                "coord_id": int(coord_id),
+                "weekday": coord_weekday,
+                "period": period,
+                "begin": slot["begin"],
+                "end": slot["end"],
+                "begin_min": slot["begin_min"],
+                "end_min": slot["end_min"],
+                "time_span": f"{slot['begin']}-{slot['end']}",
+            })
+
+    return {"times": times, "courses": courses, "current_min": current_min}
+
+
 def fetch_attendance_records(session, date_str, page_size=200):
     payload = {
         "schoolId": 1440,
@@ -106,6 +212,65 @@ def fetch_attendance_records(session, date_str, page_size=200):
         eprint(f"Date {date_str}: page {p} got {len(page_rows)} rows")
         rows.extend(page_rows)
     return rows
+
+
+def compute_pending_roll_call(timetable, records):
+    """
+    比对当天课表与 attendance 记录，找出已结束但仍未点名的课堂。
+    timetable: fetch_timetable_today 的返回值
+    records: parse_api_rows 后的记录列表（当天）
+    """
+    called_keys = set()
+    for rec in records:
+        ts = rec.get("time_span", "")
+        if not ts:
+            continue
+        # 用于匹配的多维键：班级名、课程名、老师名
+        cls = (rec.get("class") or "").strip()
+        crs = (rec.get("course") or "").strip()
+        tch = (rec.get("teacher") or "").strip()
+        called_keys.add((ts, cls))
+        called_keys.add((ts, crs))
+        called_keys.add((ts, tch))
+        # 兼容：校宝课程名里可能有空格或 "|"，清洗一下
+        called_keys.add((ts, re.sub(r"[|\\s]+", "", crs)))
+        called_keys.add((ts, re.sub(r"[|\\s]+", "", cls)))
+
+    pending = []
+    seen = set()
+    for c in timetable.get("courses", []):
+        key = (c.get("class_name"), c.get("course"), c.get("teacher"), c.get("time_span"))
+        if key in seen:
+            continue
+        seen.add(key)
+        ts = c.get("time_span", "")
+        # 已点名判断：同一时间段，且课程名/班级名/老师任一匹配
+        is_called = False
+        candidates = [
+            (ts, c.get("class_name", "")),
+            (ts, c.get("course", "")),
+            (ts, c.get("teacher", "")),
+            (ts, re.sub(r"[|\\s]+", "", c.get("course", ""))),
+            (ts, re.sub(r"[|\\s]+", "", c.get("class_name", ""))),
+        ]
+        for ck in candidates:
+            if ck and ck in called_keys:
+                is_called = True
+                break
+        if is_called:
+            continue
+        pending.append({
+            "class": c.get("class_name", ""),
+            "class_id": c.get("class_id", ""),
+            "subject": c.get("course", ""),
+            "teacher": c.get("teacher", ""),
+            "time": ts,
+            "location": c.get("location", ""),
+        })
+
+    # 按结束时间从早到晚、再按班级名排序
+    pending.sort(key=lambda x: (x.get("time", ""), x.get("class", "")))
+    return pending
 
 
 def parse_api_rows(rows):
@@ -266,7 +431,7 @@ def analyze(records):
     }
 
 
-def build_output(result):
+def build_output(result, timetable=None, pending_roll_call=None):
     today = now_cn()
     # 真实历史趋势：过去 6 天 + 今天（仅用今天真实数据，前几天用占位近似）
     trend = []
@@ -282,6 +447,22 @@ def build_output(result):
         "attendance": result["rate"],
         "submit": round(90 + (result["rate"] - 90) * 0.5, 1),
     })
+
+    # 课堂点名执行：用课表与已点名数据计算
+    if timetable:
+        ended_courses = timetable.get("courses", [])
+        total_ended = len(ended_courses)
+        called_count = total_ended - len(pending_roll_call or [])
+        completion_rate = round((called_count / total_ended * 100), 1) if total_ended else 0
+        total_teachers = len(set(c.get("teacher", "") for c in ended_courses if c.get("teacher")))
+    else:
+        ended_courses = []
+        total_ended = 0
+        called_count = 0
+        completion_rate = 0
+        total_teachers = 0
+
+    pending = pending_roll_call or []
 
     return {
         "updated_at": today.strftime("%Y-%m-%d %H:%M"),
@@ -301,15 +482,16 @@ def build_output(result):
         },
         "classes": result["classes"],
         "absent_students": result["absent_students"],
+        "pending_roll_call": pending,
         "trend": trend,
         "lesson": {
-            "completion_rate": 75.9,
-            "called": 120,
-            "total": 158,
+            "completion_rate": completion_rate,
+            "called": called_count,
+            "total": total_ended,
             "class_coverage": f"{len(result['classes'])}/{len(result['classes'])}",
-            "teacher_count": 49,
-            "uncovered_classes": [],
-            "uncovered_teachers": [],
+            "teacher_count": total_teachers,
+            "uncovered_classes": list(set(p["class"] for p in pending if p.get("class"))),
+            "uncovered_teachers": pending,
         },
     }
 
@@ -327,7 +509,17 @@ async def main():
     rows = fetch_attendance_records(session, date_str)
     records = parse_api_rows(rows)
     result = analyze(records)
-    output = build_output(result)
+
+    # 获取当天课表，计算已结束但未点名的课堂
+    timetable = None
+    pending_roll_call = []
+    try:
+        timetable = fetch_timetable_today(session)
+        pending_roll_call = compute_pending_roll_call(timetable, records)
+    except Exception as e:
+        eprint(f"获取课表失败（未点名模块）: {e}")
+
+    output = build_output(result, timetable=timetable, pending_roll_call=pending_roll_call)
 
     # 1) 输出 data.json
     out_path = os.environ.get("OUTPUT_PATH", "data.json")
