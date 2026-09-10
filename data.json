@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-10 15:21",
+  "updated_at": "2026-09-10 15:26",
   "school": {
-    "rate": 87.3,
-    "present": 627,
-    "total": 718,
+    "rate": 87.4,
+    "present": 636,
+    "total": 728,
     "late": 24,
-    "absent": 91,
+    "absent": 92,
     "leave": 64
   },
   "summary": {
@@ -381,7 +381,7 @@
     },
     {
       "name": "艺术AA(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -399,22 +399,23 @@
     {
       "name": "艺术BX(F26)",
       "teacher": "朱嘉怡",
-      "rate": 100.0,
-      "present_text": "10/10人次",
-      "present": 10,
-      "total": 10,
-      "absent": 0,
+      "rate": 95.0,
+      "present_text": "19/20人次",
+      "present": 19,
+      "total": 20,
+      "absent": 1,
       "late": 1,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "13:50-14:30"
+        "13:50-14:30",
+        "14:40-15:20"
       ]
     },
     {
       "name": "艺术BZ(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -431,7 +432,7 @@
     },
     {
       "name": "艺术CB(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 83.3,
       "present_text": "5/6人次",
       "present": 5,
@@ -690,6 +691,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "鲍希尔",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思BR1S(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-10T15:21:39"
+    },
     {
       "name": "尹勋",
       "class": "G21",
@@ -1145,27 +1171,6 @@
         {
           "course": "商科BZ(F26)",
           "time": "10:50-11:30"
-        },
-        {
-          "course": "雅思BR1S(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-10T13:01:31"
-    },
-    {
-      "name": "鲍希尔",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "09:10-09:50"
         },
         {
           "course": "雅思BR1S(F26)",
@@ -1806,37 +1811,37 @@
   "trend": [
     {
       "date": "09-04",
-      "attendance": 91.8,
+      "attendance": 91.9,
       "submit": 90.0
     },
     {
       "date": "09-05",
-      "attendance": 90.3,
+      "attendance": 90.4,
       "submit": 90.5
     },
     {
       "date": "09-06",
-      "attendance": 88.8,
+      "attendance": 88.9,
       "submit": 91.0
     },
     {
       "date": "09-07",
-      "attendance": 87.3,
+      "attendance": 87.4,
       "submit": 91.5
     },
     {
       "date": "09-08",
-      "attendance": 85.8,
+      "attendance": 85.9,
       "submit": 92.0
     },
     {
       "date": "09-09",
-      "attendance": 84.3,
+      "attendance": 84.4,
       "submit": 92.5
     },
     {
       "date": "09-10",
-      "attendance": 87.3,
+      "attendance": 87.4,
       "submit": 88.7
     }
   ],
@@ -1847,18 +1852,18 @@
     "class_coverage": "41/41",
     "teacher_count": 25,
     "uncovered_classes": [
-      "化学9A(F26)",
-      "十一年级 AS3",
       "十一年级 AS2",
-      "十年级 G22",
-      "十一年级 AS1",
-      "十二年级 A21",
+      "十一年级 AS3",
       "九年级 G11",
       "九年级 G12",
+      "十二年级 A21",
+      "化学9A(F26)",
+      "十年级 G22",
       "高数CR2(F26)",
-      "十年级 G23",
+      "十二年级 A22",
       "十年级 G21",
-      "十二年级 A22"
+      "十年级 G23",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
