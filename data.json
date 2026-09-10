@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 21:25",
+  "updated_at": "2026-09-10 21:31",
   "school": {
     "rate": 87.2,
     "present": 718,
@@ -447,7 +447,7 @@
     },
     {
       "name": "艺术AA(F26)",
-      "teacher": "王丽媛",
+      "teacher": "朱嘉怡",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -481,7 +481,7 @@
     },
     {
       "name": "艺术BZ(F26)",
-      "teacher": "王丽媛",
+      "teacher": "朱嘉怡",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -498,7 +498,7 @@
     },
     {
       "name": "艺术CB(F26)",
-      "teacher": "王丽媛",
+      "teacher": "朱嘉怡",
       "rate": 83.3,
       "present_text": "5/6人次",
       "present": 5,
@@ -1908,18 +1908,18 @@
     "class_coverage": "47/47",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十年级 G23",
+      "十年级 G22",
+      "十一年级 AS1",
+      "十一年级 AS3",
       "十年级 G21",
       "九年级 G12",
-      "九年级 G11",
+      "十年级 G23",
       "化学9A(F26)",
-      "十一年级 AS3",
       "高数CR2(F26)",
-      "十一年级 AS1",
       "十二年级 A21",
-      "十年级 G22",
-      "十一年级 AS2",
-      "十二年级 A22"
+      "九年级 G11",
+      "十二年级 A22",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
