@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-10 13:25",
+  "updated_at": "2026-09-10 13:31",
   "school": {
-    "rate": 86.9,
-    "present": 463,
-    "total": 533,
+    "rate": 86.7,
+    "present": 476,
+    "total": 549,
     "late": 23,
-    "absent": 70,
-    "leave": 46
+    "absent": 73,
+    "leave": 49
   },
   "summary": {
     "pending_yesterday": 0,
@@ -365,6 +365,22 @@
       ]
     },
     {
+      "name": "英语写作AQ1(F26)",
+      "teacher": "贺珍谊",
+      "rate": 81.2,
+      "present_text": "13/16人次",
+      "present": 13,
+      "total": 16,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "英语口语A0J(F26)",
       "teacher": "费楚淇",
       "rate": 100.0,
@@ -497,6 +513,93 @@
   ],
   "absent_students": [
     {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/10 12:00:00 至 2026/9/10 23:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-10T13:28:16"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  身体不适 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-10T13:28:16"
+    },
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/10 8:00:00 至 2026/9/11 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-10T13:28:16"
+    },
+    {
       "name": "夏镜贤",
       "class": "A22",
       "reason": "事假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  补课 ",
@@ -617,56 +720,6 @@
         },
         {
           "course": "数学AR3(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-10T13:01:43"
-    },
-    {
-      "name": "金懿帆",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 12:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-10T13:01:43"
-    },
-    {
-      "name": "桂应沁",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/10 8:00:00 至 2026/9/11 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR1(F26)",
           "time": "10:50-11:30"
         }
       ],
@@ -941,31 +994,6 @@
       "updated_at": "2026-09-10T10:54:07"
     },
     {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  身体不适 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-10T10:51:42"
-    },
-    {
       "name": "符恩溪",
       "class": "G22",
       "reason": "当日缺课且无请假单",
@@ -1051,45 +1079,45 @@
   "trend": [
     {
       "date": "09-04",
-      "attendance": 91.4,
+      "attendance": 91.2,
       "submit": 90.0
     },
     {
       "date": "09-05",
-      "attendance": 89.9,
+      "attendance": 89.7,
       "submit": 90.5
     },
     {
       "date": "09-06",
-      "attendance": 88.4,
+      "attendance": 88.2,
       "submit": 91.0
     },
     {
       "date": "09-07",
-      "attendance": 86.9,
+      "attendance": 86.7,
       "submit": 91.5
     },
     {
       "date": "09-08",
-      "attendance": 85.4,
+      "attendance": 85.2,
       "submit": 92.0
     },
     {
       "date": "09-09",
-      "attendance": 83.9,
+      "attendance": 83.7,
       "submit": 92.5
     },
     {
       "date": "09-10",
-      "attendance": 86.9,
-      "submit": 88.5
+      "attendance": 86.7,
+      "submit": 88.3
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "29/29",
+    "class_coverage": "30/30",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
