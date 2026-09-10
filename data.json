@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-10 13:05",
+  "updated_at": "2026-09-10 13:10",
   "school": {
-    "rate": 86.5,
-    "present": 449,
-    "total": 519,
-    "late": 22,
+    "rate": 86.9,
+    "present": 463,
+    "total": 533,
+    "late": 23,
     "absent": 70,
     "leave": 46
   },
@@ -298,8 +298,24 @@
       ]
     },
     {
-      "name": "艺术AA(F26)",
+      "name": "艺术A0(F26)",
       "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 1,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
+      "name": "艺术AA(F26)",
+      "teacher": "王丽媛",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -316,7 +332,7 @@
     },
     {
       "name": "艺术BZ(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -333,7 +349,7 @@
     },
     {
       "name": "艺术CB(F26)",
-      "teacher": "朱嘉怡",
+      "teacher": "王丽媛",
       "rate": 83.3,
       "present_text": "5/6人次",
       "present": 5,
@@ -1034,45 +1050,45 @@
   "trend": [
     {
       "date": "09-04",
-      "attendance": 91.0,
+      "attendance": 91.4,
       "submit": 90.0
     },
     {
       "date": "09-05",
-      "attendance": 89.5,
+      "attendance": 89.9,
       "submit": 90.5
     },
     {
       "date": "09-06",
-      "attendance": 88.0,
+      "attendance": 88.4,
       "submit": 91.0
     },
     {
       "date": "09-07",
-      "attendance": 86.5,
+      "attendance": 86.9,
       "submit": 91.5
     },
     {
       "date": "09-08",
-      "attendance": 85.0,
+      "attendance": 85.4,
       "submit": 92.0
     },
     {
       "date": "09-09",
-      "attendance": 83.5,
+      "attendance": 83.9,
       "submit": 92.5
     },
     {
       "date": "09-10",
-      "attendance": 86.5,
-      "submit": 88.2
+      "attendance": 86.9,
+      "submit": 88.5
     }
   ],
   "lesson": {
     "completion_rate": 75.9,
     "called": 120,
     "total": 158,
-    "class_coverage": "28/28",
+    "class_coverage": "29/29",
     "teacher_count": 49,
     "uncovered_classes": [],
     "uncovered_teachers": []
