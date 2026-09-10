@@ -182,25 +182,14 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
         first = class_list[0]
         if isinstance(first, dict):
             eprint(f"[timetable] first class item keys: {list(first.keys())}")
-            for k, v in first.items():
-                if isinstance(v, list):
-                    sample = v[0] if v else None
-                    eprint(f"  '{k}': list[{len(v)}], first item type: {type(sample).__name__}")
-                    if isinstance(sample, dict):
-                        eprint(f"    sample keys: {list(sample.keys())}")
-                        for sk, sv in sample.items():
-                            if isinstance(sv, list):
-                                eprint(f"    '{sk}': list[{len(sv)}], first: {str(sv[0])[:200] if sv else 'empty'}")
-                            else:
-                                eprint(f"    '{sk}': {type(sv).__name__} = {str(sv)[:100]}")
-                    elif sample is not None:
-                        eprint(f"    sample value: {str(sample)[:200]}")
-                elif isinstance(v, dict):
-                    eprint(f"  '{k}': dict keys: {list(v.keys())[:10]}")
-                else:
-                    eprint(f"  '{k}': {type(v).__name__} = {str(v)[:100]}")
-        else:
-            eprint(f"[timetable] first class item is {type(first).__name__}: {str(first)[:200]}")
+            cct = first.get("classCourseTimeTable") or []
+            if isinstance(cct, list) and cct:
+                sample = cct[0]
+                if isinstance(sample, dict):
+                    eprint(f"[timetable] classCourseTimeTable[0] keys: {list(sample.keys())}")
+                    for sk, sv in sample.items():
+                        eprint(f"  '{sk}': {type(sv).__name__} = {str(sv)[:150]}")
+                eprint(f"[timetable] classCourseTimeTable[0..3] = {[str(x)[:150] for x in cct[:3]]}")
     for cls in class_list:
         if not isinstance(cls, dict):
             continue
