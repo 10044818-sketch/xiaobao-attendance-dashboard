@@ -88,21 +88,35 @@ def minutes_to_hhmm(m):
 def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
     """
     取本周全校课表 + 时段配置，返回当天的所有课堂条目。
-    返回 {
-        "times": [{"index": 0, "begin": "08:20", "end": "09:00", "begin_min": 500, "end_min": 540}, ...],
-        "courses": [{"class_name": "G11", "class_id": ..., "course": "体育", "teacher": "沈译宇",
-                     "location": "...", "coord_id": 28, "weekday": 3, "period": 1,
-                     "begin": "09:10", "end": "09:50", "begin_min": 550, "end_min": 590}, ...]
-    }
     """
-    # 1) 时段主数据（GET）
-    r = session.get(API_COURSE_MASTER, params={"courseTaskId": course_task_id, "isShowCommentTime": "true"}, timeout=30)
-    r.raise_for_status()
-    master_data = r.json()
+    # 1) 时段主数据：GET 优先，若 405/400 改 POST 尝试
+    last_err = None
+    master_data = None
+    for attempt in [(API_COURSE_MASTER, "get"), (API_COURSE_MASTER, "post")]:
+        url, method = attempt
+        try:
+            if method == "get":
+                r = session.get(url, params={"courseTaskId": course_task_id, "isShowCommentTime": "true"}, timeout=30)
+            else:
+                r = session.post(url, json={"courseTaskId": course_task_id, "isShowCommentTime": True}, timeout=30)
+            r.raise_for_status()
+            master_data = r.json()
+            eprint(f"[timetable] {method.upper()} {url} -> {r.status_code}, top keys: {list(master_data.keys())[:6]}")
+            break
+        except Exception as e:
+            last_err = e
+            eprint(f"[timetable] {method.upper()} {url} -> ERR: {e}")
+    if master_data is None:
+        raise last_err or RuntimeError("CourseTaskMaster all attempts failed")
     if master_data.get("state") != 0:
         eprint("CourseTaskMaster API error:", master_data)
         raise RuntimeError(f"CourseTaskMaster API error: {master_data}")
-    raw_times = master_data.get("data", {}).get("times") or master_data.get("data") or []
+    # 解析 times（兼容 data.times 和 data 是 list）
+    data_root = master_data.get("data", {}) or {}
+    if isinstance(data_root, list):
+        raw_times = data_root
+    else:
+        raw_times = data_root.get("times") or data_root.get("periods") or []
     times = []
     for i, t in enumerate(raw_times):
         if not isinstance(t, dict):
@@ -118,12 +132,14 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
             "begin_min": int(begin_min),
             "end_min": int(end_min),
         })
+    eprint(f"[timetable] parsed {len(times)} time slots, first: {times[0] if times else 'none'}")
 
     # 2) 本周课表
     tt_payload = {"courseTaskId": course_task_id, "weekIndex": 0}
     r = session.post(API_TIMETABLE, json=tt_payload, timeout=30)
     r.raise_for_status()
     tt_data = r.json()
+    eprint(f"[timetable] POST {API_TIMETABLE} -> {r.status_code}, state={tt_data.get('state')}, data type: {type(tt_data.get('data')).__name__}, len: {len(tt_data.get('data') or [])}")
     if tt_data.get("state") != 0:
         eprint("GetClassCourseTimeTable API error:", tt_data)
         raise RuntimeError(f"GetClassCourseTimeTable API error: {tt_data}")
@@ -133,8 +149,10 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
     today = now_cn()
     weekday = today.weekday()  # 0=周一 ... 6=周日
     current_min = today.hour * 60 + today.minute
+    eprint(f"[timetable] today weekday={weekday} current_min={current_min} ({today.strftime('%H:%M')}), total classes in week: {len(class_list)}")
 
     courses = []
+    coord_weekday_counts = {}
     for cls in class_list:
         if not isinstance(cls, dict):
             continue
@@ -147,14 +165,14 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
             coord_id = info.get("coordId")
             if coord_id is None:
                 continue
-            coord_weekday = coord_id // 9  # 0=周一
-            period = coord_id % 9          # 0-8 节次
+            coord_weekday_counts[coord_id // 9] = coord_weekday_counts.get(coord_id // 9, 0) + 1
+            coord_weekday = coord_id // 9
+            period = coord_id % 9
             if coord_weekday != weekday:
                 continue
             if period < 0 or period >= len(times):
                 continue
             slot = times[period]
-            # 只保留已经结束的课堂（end <= 当前时间）
             if slot["end_min"] > current_min:
                 continue
             course = info.get("courseName") or info.get("projectName") or ""
@@ -175,6 +193,8 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
                 "end_min": slot["end_min"],
                 "time_span": f"{slot['begin']}-{slot['end']}",
             })
+    eprint(f"[timetable] weekday distribution: {sorted(coord_weekday_counts.items())}")
+    eprint(f"[timetable] today's ended courses: {len(courses)}")
 
     return {"times": times, "courses": courses, "current_min": current_min}
 
