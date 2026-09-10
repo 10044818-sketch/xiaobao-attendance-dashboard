@@ -2,8 +2,8 @@ name: Update Xiaobao Attendance Dashboard
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # 每 30 分钟运行
-  workflow_dispatch:      # 允许手动触发
+    - cron: '0 */6 * * *'   # 每 6 小时兜底一次（主要触发靠 cron-job.org dispatch）
+  workflow_dispatch:      # 允许手动/外部触发
 
 permissions:
   contents: write
@@ -48,6 +48,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update attendance data $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull origin main --rebase
             git push
           fi
 
