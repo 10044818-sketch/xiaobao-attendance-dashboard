@@ -139,11 +139,35 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
     r = session.post(API_TIMETABLE, json=tt_payload, timeout=30)
     r.raise_for_status()
     tt_data = r.json()
-    eprint(f"[timetable] POST {API_TIMETABLE} -> {r.status_code}, state={tt_data.get('state')}, data type: {type(tt_data.get('data')).__name__}, len: {len(tt_data.get('data') or [])}")
+    eprint(f"[timetable] POST {API_TIMETABLE} -> {r.status_code}, state={tt_data.get('state')}, data type: {type(tt_data.get('data')).__name__}")
     if tt_data.get("state") != 0:
         eprint("GetClassCourseTimeTable API error:", tt_data)
         raise RuntimeError(f"GetClassCourseTimeTable API error: {tt_data}")
-    class_list = tt_data.get("data") or []
+    data_obj = tt_data.get("data") or {}
+    # 探测 data 真实结构
+    if isinstance(data_obj, dict):
+        eprint(f"[timetable] data is dict with keys: {list(data_obj.keys())}")
+        for k, v in data_obj.items():
+            if isinstance(v, list):
+                eprint(f"  key '{k}': list[{len(v)}], first item keys: {list(v[0].keys()) if v and isinstance(v[0], dict) else type(v[0]).__name__ if v else 'empty'}")
+            elif isinstance(v, dict):
+                eprint(f"  key '{k}': dict, keys: {list(v.keys())[:8]}")
+            else:
+                eprint(f"  key '{k}': {type(v).__name__} = {str(v)[:80]}")
+    # 兼容多种返回结构：尝试从常见位置抽取
+    class_list = []
+    if isinstance(data_obj, list):
+        class_list = data_obj
+    elif isinstance(data_obj, dict):
+        for candidate_key in ("classList", "classes", "list", "rows"):
+            v = data_obj.get(candidate_key)
+            if isinstance(v, list):
+                class_list = v
+                eprint(f"[timetable] using data.{candidate_key} as class list")
+                break
+        if not class_list and "data" in data_obj and isinstance(data_obj["data"], list):
+            class_list = data_obj["data"]
+            eprint("[timetable] using data.data as class list")
 
     # 3) 解析为当天条目
     today = now_cn()
