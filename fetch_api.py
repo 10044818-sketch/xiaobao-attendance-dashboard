@@ -184,7 +184,17 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
             eprint(f"[timetable] first class item keys: {list(first.keys())}")
             for k, v in first.items():
                 if isinstance(v, list):
-                    eprint(f"  '{k}': list[{len(v)}], first item: {str(v[0])[:200] if v else 'empty'}")
+                    sample = v[0] if v else None
+                    eprint(f"  '{k}': list[{len(v)}], first item type: {type(sample).__name__}")
+                    if isinstance(sample, dict):
+                        eprint(f"    sample keys: {list(sample.keys())}")
+                        for sk, sv in sample.items():
+                            if isinstance(sv, list):
+                                eprint(f"    '{sk}': list[{len(sv)}], first: {str(sv[0])[:200] if sv else 'empty'}")
+                            else:
+                                eprint(f"    '{sk}': {type(sv).__name__} = {str(sv)[:100]}")
+                    elif sample is not None:
+                        eprint(f"    sample value: {str(sample)[:200]}")
                 elif isinstance(v, dict):
                     eprint(f"  '{k}': dict keys: {list(v.keys())[:10]}")
                 else:
@@ -194,9 +204,9 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
     for cls in class_list:
         if not isinstance(cls, dict):
             continue
-        class_name = cls.get("className") or cls.get("name") or ""
-        class_id = cls.get("classId") or cls.get("id") or ""
-        coord_infos = cls.get("coordInfos") or cls.get("items") or []
+        class_name = cls.get("name") or cls.get("className") or ""
+        class_id = cls.get("objectId") or cls.get("classId") or cls.get("id") or ""
+        coord_infos = cls.get("classCourseTimeTable") or cls.get("coordInfos") or []
         for info in coord_infos:
             if not isinstance(info, dict):
                 continue
@@ -213,7 +223,7 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
             slot = times[period]
             if slot["end_min"] > current_min:
                 continue
-            course = info.get("courseName") or info.get("projectName") or info.get("subject") or ""
+            course = info.get("courseName") or info.get("projectName") or info.get("subject") or info.get("name") or ""
             teacher = info.get("teacherName") or info.get("teacher") or ""
             location = info.get("location") or info.get("classroom") or info.get("playgroundName") or ""
             courses.append({
