@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-10 08:52",
+  "updated_at": "2026-09-10 09:19",
   "school": {
-    "rate": 84.2,
-    "present": 48,
-    "total": 57,
-    "late": 2,
-    "absent": 9,
-    "leave": 5
+    "rate": 86.4,
+    "present": 114,
+    "total": 132,
+    "late": 9,
+    "absent": 18,
+    "leave": 7
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -19,32 +19,50 @@
       "name": "代数C0(F26)",
       "teacher": "张小翼",
       "rate": 100.0,
-      "present_text": "8/8人次",
-      "present": 8,
-      "total": 8,
+      "present_text": "16/16人次",
+      "present": 16,
+      "total": 16,
       "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "体育BR3(F26)",
+      "teacher": "沈译宇",
+      "rate": 90.0,
+      "present_text": "18/20人次",
+      "present": 18,
+      "total": 20,
+      "absent": 2,
+      "late": 6,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "09:10-09:50"
       ]
     },
     {
       "name": "商科AA(F26)",
       "teacher": "余震",
-      "rate": 78.6,
-      "present_text": "11/14人次",
-      "present": 11,
-      "total": 14,
-      "absent": 3,
+      "rate": 75.0,
+      "present_text": "21/28人次",
+      "present": 21,
+      "total": 28,
+      "absent": 7,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -66,37 +84,82 @@
     {
       "name": "雅思BR1(F26)",
       "teacher": "贺珍谊",
-      "rate": 71.4,
-      "present_text": "10/14人次",
-      "present": 10,
-      "total": 14,
-      "absent": 4,
+      "rate": 75.0,
+      "present_text": "21/28人次",
+      "present": 21,
+      "total": 28,
+      "absent": 7,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
       "name": "雅思BR2(F26)",
       "teacher": "曹德娟",
-      "rate": 89.5,
-      "present_text": "17/19人次",
-      "present": 17,
-      "total": 19,
+      "rate": 94.7,
+      "present_text": "36/38人次",
+      "present": 36,
+      "total": 38,
       "absent": 2,
-      "late": 2,
+      "late": 3,
       "early": 0,
       "leave": 2,
-      "status": "异常",
+      "status": "关注",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     }
   ],
   "absent_students": [
+    {
+      "name": "王誉涵",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-10T09:14:32"
+    },
+    {
+      "name": "任厚宇",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-10T09:14:32"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-10T09:13:36"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -106,9 +169,13 @@
         {
           "course": "雅思BR1(F26)",
           "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
         }
       ],
-      "updated_at": "2026-09-10T08:33:55"
+      "updated_at": "2026-09-10T09:13:27"
     },
     {
       "name": "赵浩雯",
@@ -119,9 +186,94 @@
         {
           "course": "雅思BR1(F26)",
           "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
         }
       ],
-      "updated_at": "2026-09-10T08:33:55"
+      "updated_at": "2026-09-10T09:13:27"
+    },
+    {
+      "name": "鲍希尔",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-10T09:13:27"
+    },
+    {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-10T09:11:08"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  身体不适 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-10T09:11:08"
+    },
+    {
+      "name": "关矞文",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-10T09:11:08"
+    },
+    {
+      "name": "符恩溪",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-10T09:11:08"
     },
     {
       "name": "冯麟",
@@ -135,128 +287,50 @@
         }
       ],
       "updated_at": "2026-09-10T08:33:55"
-    },
-    {
-      "name": "鲍希尔",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-10T08:33:55"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  身体不适 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-10T08:22:32"
-    },
-    {
-      "name": "关矞文",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-10T08:22:32"
-    },
-    {
-      "name": "符恩溪",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-10T08:22:32"
-    },
-    {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-10T08:22:01"
-    },
-    {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "已请假",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-10T08:22:01"
     }
   ],
   "trend": [
     {
       "date": "09-04",
-      "attendance": 88.7,
+      "attendance": 90.9,
       "submit": 90.0
     },
     {
       "date": "09-05",
-      "attendance": 87.2,
+      "attendance": 89.4,
       "submit": 90.5
     },
     {
       "date": "09-06",
-      "attendance": 85.7,
+      "attendance": 87.9,
       "submit": 91.0
     },
     {
       "date": "09-07",
-      "attendance": 84.2,
+      "attendance": 86.4,
       "submit": 91.5
     },
     {
       "date": "09-08",
-      "attendance": 82.7,
+      "attendance": 84.9,
       "submit": 92.0
     },
     {
       "date": "09-09",
-      "attendance": 81.2,
+      "attendance": 83.4,
       "submit": 92.5
     },
     {
       "date": "09-10",
-      "attendance": 84.2,
-      "submit": 87.1
+      "attendance": 86.4,
+      "submit": 88.2
     }
   ],
   "lesson": {
     "completion_rate": 75.9,
     "called": 120,
     "total": 158,
-    "class_coverage": "5/5",
+    "class_coverage": "6/6",
     "teacher_count": 49,
     "uncovered_classes": [],
     "uncovered_teachers": []
