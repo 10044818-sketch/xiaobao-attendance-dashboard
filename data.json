@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-10 12:55",
+  "updated_at": "2026-09-10 13:01",
   "school": {
-    "rate": 86.7,
-    "present": 345,
-    "total": 398,
-    "late": 11,
+    "rate": 86.8,
+    "present": 350,
+    "total": 403,
+    "late": 12,
     "absent": 53,
     "leave": 31
   },
@@ -268,32 +268,34 @@
       "name": "艺术BZ(F26)",
       "teacher": "王丽媛",
       "rate": 100.0,
-      "present_text": "2/2人次",
-      "present": 2,
-      "total": 2,
+      "present_text": "4/4人次",
+      "present": 4,
+      "total": 4,
       "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
       "name": "艺术CB(F26)",
       "teacher": "王丽媛",
-      "rate": 66.7,
-      "present_text": "2/3人次",
-      "present": 2,
-      "total": 3,
+      "rate": 83.3,
+      "present_text": "5/6人次",
+      "present": 5,
+      "total": 6,
       "absent": 1,
-      "late": 0,
+      "late": 1,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -857,38 +859,38 @@
   "trend": [
     {
       "date": "09-04",
-      "attendance": 91.2,
+      "attendance": 91.3,
       "submit": 90.0
     },
     {
       "date": "09-05",
-      "attendance": 89.7,
+      "attendance": 89.8,
       "submit": 90.5
     },
     {
       "date": "09-06",
-      "attendance": 88.2,
+      "attendance": 88.3,
       "submit": 91.0
     },
     {
       "date": "09-07",
-      "attendance": 86.7,
+      "attendance": 86.8,
       "submit": 91.5
     },
     {
       "date": "09-08",
-      "attendance": 85.2,
+      "attendance": 85.3,
       "submit": 92.0
     },
     {
       "date": "09-09",
-      "attendance": 83.7,
+      "attendance": 83.8,
       "submit": 92.5
     },
     {
       "date": "09-10",
-      "attendance": 86.7,
-      "submit": 88.3
+      "attendance": 86.8,
+      "submit": 88.4
     }
   ],
   "lesson": {
