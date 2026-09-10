@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-10 11:06",
+  "updated_at": "2026-09-10 12:16",
   "school": {
-    "rate": 86.7,
-    "present": 287,
-    "total": 331,
+    "rate": 87.0,
+    "present": 335,
+    "total": 385,
     "late": 11,
-    "absent": 44,
-    "leave": 18
+    "absent": 50,
+    "leave": 25
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 8,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -35,15 +35,15 @@
     {
       "name": "体育9A(F26)",
       "teacher": "沈译宇",
-      "rate": 100.0,
-      "present_text": "14/14人次",
-      "present": 14,
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
       "total": 14,
-      "absent": 0,
+      "absent": 1,
       "late": 0,
       "early": 0,
-      "leave": 0,
-      "status": "正常",
+      "leave": 1,
+      "status": "关注",
       "time_spans": [
         "10:00-10:40"
       ]
@@ -83,11 +83,11 @@
     {
       "name": "体育C0(F26)",
       "teacher": "沈译宇",
-      "rate": 37.5,
-      "present_text": "3/8人次",
-      "present": 3,
+      "rate": 50.0,
+      "present_text": "4/8人次",
+      "present": 4,
       "total": 8,
-      "absent": 5,
+      "absent": 4,
       "late": 1,
       "early": 0,
       "leave": 1,
@@ -214,8 +214,41 @@
       ]
     },
     {
+      "name": "数学AR3(F26)",
+      "teacher": "赵亮",
+      "rate": 84.6,
+      "present_text": "22/26人次",
+      "present": 22,
+      "total": 26,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "艺术AA(F26)",
-      "teacher": "王丽媛",
+      "teacher": "朱嘉怡",
       "rate": 100.0,
       "present_text": "4/4人次",
       "present": 4,
@@ -279,6 +312,22 @@
       ]
     },
     {
+      "name": "英语听读写9A(F26)",
+      "teacher": "瞿芬",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
       "name": "雅思BR1(F26)",
       "teacher": "贺珍谊",
       "rate": 75.0,
@@ -330,6 +379,113 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026-09-10 08:00:00 至 2026-09-10 12:00:00  不舒服",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-10T11:38:05"
+    },
+    {
+      "name": "王烁杰",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 12:00:00  看医生 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-10T11:36:22"
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "病假_【已通过】 2026/9/10 8:00:00 至 2026/9/10 17:00:00  感到身体有些不舒服，在家观察一天。 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-10T11:16:55"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-10T11:09:21"
+    },
+    {
+      "name": "刘宇茗",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-10T11:09:21"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/9/10 10:30:00 至 2026/9/10 11:30:00  肠胃不舒服 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-10T11:09:21"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-10T11:09:21"
+    },
     {
       "name": "张翰霆",
       "class": "A22",
@@ -420,71 +576,6 @@
         }
       ],
       "updated_at": "2026-09-10T11:04:53"
-    },
-    {
-      "name": "曾禹德",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-10T10:59:12"
-    },
-    {
-      "name": "马镕锴",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-10T10:59:12"
-    },
-    {
-      "name": "刘宇茗",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-10T10:59:12"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026/9/10 10:30:00 至 2026/9/10 11:30:00  肠胃不舒服 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-10T10:59:12"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-10T10:59:12"
     },
     {
       "name": "姜懿",
@@ -744,45 +835,45 @@
   "trend": [
     {
       "date": "09-04",
-      "attendance": 91.2,
+      "attendance": 91.5,
       "submit": 90.0
     },
     {
       "date": "09-05",
-      "attendance": 89.7,
+      "attendance": 90.0,
       "submit": 90.5
     },
     {
       "date": "09-06",
-      "attendance": 88.2,
+      "attendance": 88.5,
       "submit": 91.0
     },
     {
       "date": "09-07",
-      "attendance": 86.7,
+      "attendance": 87.0,
       "submit": 91.5
     },
     {
       "date": "09-08",
-      "attendance": 85.2,
+      "attendance": 85.5,
       "submit": 92.0
     },
     {
       "date": "09-09",
-      "attendance": 83.7,
+      "attendance": 84.0,
       "submit": 92.5
     },
     {
       "date": "09-10",
-      "attendance": 86.7,
-      "submit": 88.3
+      "attendance": 87.0,
+      "submit": 88.5
     }
   ],
   "lesson": {
     "completion_rate": 75.9,
     "called": 120,
     "total": 158,
-    "class_coverage": "19/19",
+    "class_coverage": "22/22",
     "teacher_count": 49,
     "uncovered_classes": [],
     "uncovered_teachers": []
