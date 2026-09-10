@@ -39,15 +39,24 @@ async def get_cookies(user, pwd):
         browser = await p.chromium.launch(headless=True)
         context = await browser.new_context()
         page = await context.new_page()
+        last_err = None
         try:
-            await page.goto(LOGIN_URL, wait_until="networkidle")
-            await page.locator('input[placeholder="请输入账号"]').fill(user)
-            await page.locator('input[placeholder="请输入密码"]').fill(pwd)
-            await page.locator('button:has-text("立即登录")').click()
-            await page.wait_for_url(re.compile(r"/newsis/index|/r/teaching/attendance"), timeout=15000)
-            cookies = await context.cookies()
-            eprint("Login OK, cookies:", [c["name"] for c in cookies])
-            return cookies
+            for attempt in range(3):
+                try:
+                    await page.goto(LOGIN_URL, wait_until="domcontentloaded", timeout=60000)
+                    await page.locator('input[placeholder="请输入账号"]').fill(user)
+                    await page.locator('input[placeholder="请输入密码"]').fill(pwd)
+                    await page.locator('button:has-text("立即登录")').click()
+                    await page.wait_for_url(re.compile(r"/newsis/index|/r/teaching/attendance"), timeout=30000)
+                    cookies = await context.cookies()
+                    eprint("Login OK, cookies:", [c["name"] for c in cookies])
+                    return cookies
+                except Exception as e:
+                    last_err = e
+                    eprint(f"Login attempt {attempt + 1} failed: {e}")
+                    if attempt < 2:
+                        await asyncio.sleep(5)
+            raise last_err
         finally:
             await browser.close()
 
