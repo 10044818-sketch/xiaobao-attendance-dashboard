@@ -177,12 +177,26 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
 
     courses = []
     coord_weekday_counts = {}
+    # 打印第一个 class 的真实结构
+    if class_list:
+        first = class_list[0]
+        if isinstance(first, dict):
+            eprint(f"[timetable] first class item keys: {list(first.keys())}")
+            for k, v in first.items():
+                if isinstance(v, list):
+                    eprint(f"  '{k}': list[{len(v)}], first item: {str(v[0])[:200] if v else 'empty'}")
+                elif isinstance(v, dict):
+                    eprint(f"  '{k}': dict keys: {list(v.keys())[:10]}")
+                else:
+                    eprint(f"  '{k}': {type(v).__name__} = {str(v)[:100]}")
+        else:
+            eprint(f"[timetable] first class item is {type(first).__name__}: {str(first)[:200]}")
     for cls in class_list:
         if not isinstance(cls, dict):
             continue
         class_name = cls.get("className") or cls.get("name") or ""
         class_id = cls.get("classId") or cls.get("id") or ""
-        coord_infos = cls.get("coordInfos") or []
+        coord_infos = cls.get("coordInfos") or cls.get("items") or []
         for info in coord_infos:
             if not isinstance(info, dict):
                 continue
@@ -199,7 +213,7 @@ def fetch_timetable_today(session, course_task_id=COURSE_TASK_ID):
             slot = times[period]
             if slot["end_min"] > current_min:
                 continue
-            course = info.get("courseName") or info.get("projectName") or ""
+            course = info.get("courseName") or info.get("projectName") or info.get("subject") or ""
             teacher = info.get("teacherName") or info.get("teacher") or ""
             location = info.get("location") or info.get("classroom") or info.get("playgroundName") or ""
             courses.append({
