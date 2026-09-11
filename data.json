@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-11 10:20",
+  "updated_at": "2026-09-11 10:25",
   "school": {
-    "rate": 90.1,
-    "present": 191,
-    "total": 212,
-    "late": 13,
-    "absent": 21,
+    "rate": 90.6,
+    "present": 212,
+    "total": 234,
+    "late": 14,
+    "absent": 22,
     "leave": 16
   },
   "summary": {
@@ -83,10 +83,10 @@
     {
       "name": "物理AX(F26)",
       "teacher": "熊辉",
-      "rate": 90.5,
-      "present_text": "19/21人次",
-      "present": 19,
-      "total": 21,
+      "rate": 91.7,
+      "present_text": "22/24人次",
+      "present": 22,
+      "total": 24,
       "absent": 2,
       "late": 0,
       "early": 0,
@@ -99,10 +99,10 @@
     {
       "name": "物理AY(F26)",
       "teacher": "职梦凡",
-      "rate": 94.1,
-      "present_text": "32/34人次",
-      "present": 32,
-      "total": 34,
+      "rate": 94.9,
+      "present_text": "37/39人次",
+      "present": 37,
+      "total": 39,
       "absent": 2,
       "late": 0,
       "early": 0,
@@ -166,11 +166,11 @@
       "name": "英语阅读A0(F26)",
       "teacher": "曹德娟",
       "rate": 92.9,
-      "present_text": "13/14人次",
-      "present": 13,
-      "total": 14,
-      "absent": 1,
-      "late": 1,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 2,
       "early": 0,
       "leave": 0,
       "status": "关注",
@@ -540,38 +540,38 @@
   "trend": [
     {
       "date": "09-05",
-      "attendance": 94.6,
+      "attendance": 95.1,
       "submit": 90.0
     },
     {
       "date": "09-06",
-      "attendance": 93.1,
+      "attendance": 93.6,
       "submit": 90.5
     },
     {
       "date": "09-07",
-      "attendance": 91.6,
+      "attendance": 92.1,
       "submit": 91.0
     },
     {
       "date": "09-08",
-      "attendance": 90.1,
+      "attendance": 90.6,
       "submit": 91.5
     },
     {
       "date": "09-09",
-      "attendance": 88.6,
+      "attendance": 89.1,
       "submit": 92.0
     },
     {
       "date": "09-10",
-      "attendance": 87.1,
+      "attendance": 87.6,
       "submit": 92.5
     },
     {
       "date": "09-11",
-      "attendance": 90.1,
-      "submit": 90.0
+      "attendance": 90.6,
+      "submit": 90.3
     }
   ],
   "lesson": {
@@ -581,14 +581,14 @@
     "class_coverage": "12/12",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十二年级 A22",
       "十一年级 AS2",
       "十年级 G22",
-      "十一年级 AS3",
-      "十二年级 A21",
-      "九年级 G11",
       "十年级 G23",
-      "九年级 G12"
+      "十一年级 AS3",
+      "九年级 G12",
+      "十二年级 A22",
+      "十二年级 A21",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
