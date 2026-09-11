@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-11 14:45",
+  "updated_at": "2026-09-11 14:50",
   "school": {
     "rate": 90.6,
-    "present": 484,
-    "total": 534,
+    "present": 500,
+    "total": 552,
     "late": 30,
-    "absent": 50,
-    "leave": 30
+    "absent": 52,
+    "leave": 32
   },
   "summary": {
     "pending_yesterday": 0,
@@ -247,16 +247,17 @@
       "name": "物理BY(F26)",
       "teacher": "魏刘伟",
       "rate": 88.9,
-      "present_text": "16/18人次",
-      "present": 16,
-      "total": 18,
-      "absent": 2,
+      "present_text": "32/36人次",
+      "present": 32,
+      "total": 36,
+      "absent": 4,
       "late": 3,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -545,6 +546,56 @@
   ],
   "absent_students": [
     {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/9/11 8:00:00 至 2026/9/11 10:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思BR3S(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-11T14:49:37"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-11T14:49:37"
+    },
+    {
       "name": "周原",
       "class": "AS1",
       "reason": "病假_【已通过】 2026/9/11 8:00:00 至 2026/9/11 15:30:00  牙痛 ",
@@ -710,27 +761,6 @@
       "updated_at": "2026-09-11T13:03:20"
     },
     {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-11T13:03:20"
-    },
-    {
       "name": "黄子瑄",
       "class": "G12",
       "reason": "病假_【请假审批中】 2026/9/11 12:00:00 至 2026/9/11 17:00:00  生病 ",
@@ -778,27 +808,6 @@
         {
           "course": "经济BY(F26)",
           "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR3S(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-11T10:53:12"
-    },
-    {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/9/11 10:00:00 至 2026/9/11 14:30:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
         },
         {
           "course": "雅思BR3S(F26)",
@@ -1054,22 +1063,6 @@
       "teacher": "李俊",
       "time": "09:10-09:50",
       "location": "LT3-108"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "物理",
-      "teacher": "魏刘伟",
-      "time": "09:10-09:50",
-      "location": "LT3-118"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "物理",
-      "teacher": "魏刘伟",
-      "time": "09:10-09:50",
-      "location": "LT3-118"
     },
     {
       "class": "十二年级 A21",
@@ -1494,25 +1487,25 @@
     }
   ],
   "lesson": {
-    "completion_rate": 57.9,
-    "called": 77,
+    "completion_rate": 59.4,
+    "called": 79,
     "total": 133,
     "class_coverage": "32/32",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十二年级 A21",
-      "高数CR2(F26)",
       "十年级 G22",
-      "化学BZ(F26)",
-      "十年级 G21",
-      "十一年级 AS3",
-      "十一年级 AS1",
-      "化学CB(F26)",
+      "高数CR2(F26)",
       "十二年级 A22",
-      "十一年级 AS2",
       "十年级 G23",
+      "十年级 G21",
+      "十一年级 AS1",
+      "化学BZ(F26)",
       "九年级 G11",
-      "九年级 G12"
+      "十一年级 AS2",
+      "化学CB(F26)",
+      "九年级 G12",
+      "十一年级 AS3",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -1562,22 +1555,6 @@
         "teacher": "李俊",
         "time": "09:10-09:50",
         "location": "LT3-108"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "物理",
-        "teacher": "魏刘伟",
-        "time": "09:10-09:50",
-        "location": "LT3-118"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "物理",
-        "teacher": "魏刘伟",
-        "time": "09:10-09:50",
-        "location": "LT3-118"
       },
       {
         "class": "十二年级 A21",
