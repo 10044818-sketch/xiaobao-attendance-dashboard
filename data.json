@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-11 10:25",
+  "updated_at": "2026-09-11 10:32",
   "school": {
-    "rate": 90.6,
-    "present": 212,
-    "total": 234,
-    "late": 14,
+    "rate": 90.7,
+    "present": 214,
+    "total": 236,
+    "late": 13,
     "absent": 22,
-    "leave": 16
+    "leave": 17
   },
   "summary": {
     "pending_yesterday": 0,
@@ -65,6 +65,23 @@
       ]
     },
     {
+      "name": "商科CA(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "数学BQ1(F26)",
       "teacher": "杨燕霖",
       "rate": 80.0,
@@ -83,10 +100,10 @@
     {
       "name": "物理AX(F26)",
       "teacher": "熊辉",
-      "rate": 91.7,
-      "present_text": "22/24人次",
-      "present": 22,
-      "total": 24,
+      "rate": 90.5,
+      "present_text": "19/21人次",
+      "present": 19,
+      "total": 21,
       "absent": 2,
       "late": 0,
       "early": 0,
@@ -99,10 +116,10 @@
     {
       "name": "物理AY(F26)",
       "teacher": "职梦凡",
-      "rate": 94.9,
-      "present_text": "37/39人次",
-      "present": 37,
-      "total": 39,
+      "rate": 94.1,
+      "present_text": "32/34人次",
+      "present": 32,
+      "total": 34,
       "absent": 2,
       "late": 0,
       "early": 0,
@@ -146,6 +163,22 @@
       ]
     },
     {
+      "name": "经济AX(F26)",
+      "teacher": "王肇君",
+      "rate": 95.5,
+      "present_text": "21/22人次",
+      "present": 21,
+      "total": 22,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
       "rate": 72.7,
@@ -166,11 +199,11 @@
       "name": "英语阅读A0(F26)",
       "teacher": "曹德娟",
       "rate": 92.9,
-      "present_text": "26/28人次",
-      "present": 26,
-      "total": 28,
-      "absent": 2,
-      "late": 2,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 1,
       "early": 0,
       "leave": 0,
       "status": "关注",
@@ -212,6 +245,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/10 8:00:00 至 2026/9/11 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-11T10:25:52"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -397,19 +447,6 @@
       "updated_at": "2026-09-11T08:23:47"
     },
     {
-      "name": "桂应沁",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/10 8:00:00 至 2026/9/11 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-11T08:22:26"
-    },
-    {
       "name": "关矞文",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/11 8:00:00 至 2026/9/11 10:00:00  请假第一第二节课 ",
@@ -540,37 +577,37 @@
   "trend": [
     {
       "date": "09-05",
-      "attendance": 95.1,
+      "attendance": 95.2,
       "submit": 90.0
     },
     {
       "date": "09-06",
-      "attendance": 93.6,
+      "attendance": 93.7,
       "submit": 90.5
     },
     {
       "date": "09-07",
-      "attendance": 92.1,
+      "attendance": 92.2,
       "submit": 91.0
     },
     {
       "date": "09-08",
-      "attendance": 90.6,
+      "attendance": 90.7,
       "submit": 91.5
     },
     {
       "date": "09-09",
-      "attendance": 89.1,
+      "attendance": 89.2,
       "submit": 92.0
     },
     {
       "date": "09-10",
-      "attendance": 87.6,
+      "attendance": 87.7,
       "submit": 92.5
     },
     {
       "date": "09-11",
-      "attendance": 90.6,
+      "attendance": 90.7,
       "submit": 90.3
     }
   ],
@@ -578,17 +615,17 @@
     "completion_rate": 63.2,
     "called": 24,
     "total": 38,
-    "class_coverage": "12/12",
+    "class_coverage": "14/14",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十年级 G22",
-      "十年级 G23",
       "十一年级 AS3",
+      "十一年级 AS2",
       "九年级 G12",
-      "十二年级 A22",
       "十二年级 A21",
-      "九年级 G11"
+      "十年级 G22",
+      "九年级 G11",
+      "十二年级 A22",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
