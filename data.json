@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-11 09:05",
+  "updated_at": "2026-09-11 09:10",
   "school": {
-    "rate": 89.2,
-    "present": 91,
-    "total": 102,
+    "rate": 88.5,
+    "present": 100,
+    "total": 113,
     "late": 7,
-    "absent": 11,
-    "leave": 8
+    "absent": 13,
+    "leave": 10
   },
   "summary": {
     "pending_yesterday": 0,
@@ -82,17 +82,18 @@
     {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
-      "rate": 63.6,
-      "present_text": "7/11人次",
-      "present": 7,
-      "total": 11,
-      "absent": 4,
+      "rate": 72.7,
+      "present_text": "16/22人次",
+      "present": 16,
+      "total": 22,
+      "absent": 6,
       "late": 1,
       "early": 0,
-      "leave": 4,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -130,6 +131,40 @@
   ],
   "absent_students": [
     {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/9/11 8:00:00 至 2026/9/11 15:30:00  牙痛 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-11T09:10:39"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/11 8:00:00 至 2026/9/11 17:00:00  因个人原因请假一天，谢谢 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-11T09:10:39"
+    },
+    {
       "name": "董轶尘",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -141,19 +176,6 @@
         }
       ],
       "updated_at": "2026-09-11T09:04:29"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026-09-11 08:00:00 至 2026-09-11 17:00:00  因个人原因请假一天，谢谢",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-11T09:02:02"
     },
     {
       "name": "杨阳",
@@ -193,19 +215,6 @@
         }
       ],
       "updated_at": "2026-09-11T08:27:28"
-    },
-    {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/9/11 8:00:00 至 2026/9/11 15:30:00  牙痛 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-11T08:23:47"
     },
     {
       "name": "沈奕乐",
@@ -342,38 +351,38 @@
   "trend": [
     {
       "date": "09-05",
-      "attendance": 93.7,
+      "attendance": 93.0,
       "submit": 90.0
     },
     {
       "date": "09-06",
-      "attendance": 92.2,
+      "attendance": 91.5,
       "submit": 90.5
     },
     {
       "date": "09-07",
-      "attendance": 90.7,
+      "attendance": 90.0,
       "submit": 91.0
     },
     {
       "date": "09-08",
-      "attendance": 89.2,
+      "attendance": 88.5,
       "submit": 91.5
     },
     {
       "date": "09-09",
-      "attendance": 87.7,
+      "attendance": 87.0,
       "submit": 92.0
     },
     {
       "date": "09-10",
-      "attendance": 86.2,
+      "attendance": 85.5,
       "submit": 92.5
     },
     {
       "date": "09-11",
-      "attendance": 89.2,
-      "submit": 89.6
+      "attendance": 88.5,
+      "submit": 89.2
     }
   ],
   "lesson": {
@@ -383,14 +392,14 @@
     "class_coverage": "7/7",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "九年级 G11",
+      "十二年级 A22",
       "十一年级 AS2",
-      "九年级 G12",
-      "化学BY(F26)",
-      "十一年级 AS1",
+      "九年级 G11",
       "十二年级 A21",
-      "十二年级 A22"
+      "九年级 G12",
+      "十一年级 AS3",
+      "十一年级 AS1",
+      "化学BY(F26)"
     ],
     "uncovered_teachers": [
       {
