@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-11 09:02",
+  "updated_at": "2026-09-11 09:05",
   "school": {
-    "rate": 88.8,
-    "present": 79,
-    "total": 89,
+    "rate": 89.2,
+    "present": 91,
+    "total": 102,
     "late": 7,
-    "absent": 10,
+    "absent": 11,
     "leave": 8
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -58,6 +58,22 @@
       "late": 4,
       "early": 0,
       "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
+      "name": "物理CC(F26)",
+      "teacher": "曾靓",
+      "rate": 92.3,
+      "present_text": "12/13人次",
+      "present": 12,
+      "total": 13,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
       "status": "关注",
       "time_spans": [
         "08:20-09:00"
@@ -113,6 +129,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "董轶尘",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CC(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-11T09:04:29"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -296,26 +325,10 @@
     {
       "class": "十二年级 A21",
       "class_id": 366030,
-      "subject": "物理",
-      "teacher": "曾靓",
-      "time": "08:20-09:00",
-      "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
       "subject": "经济学",
       "teacher": "孙鹏",
       "time": "08:20-09:00",
       "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "物理",
-      "teacher": "曾靓",
-      "time": "08:20-09:00",
-      "location": "LT3-206"
     },
     {
       "class": "十二年级 A22",
@@ -329,55 +342,55 @@
   "trend": [
     {
       "date": "09-05",
-      "attendance": 93.3,
+      "attendance": 93.7,
       "submit": 90.0
     },
     {
       "date": "09-06",
-      "attendance": 91.8,
+      "attendance": 92.2,
       "submit": 90.5
     },
     {
       "date": "09-07",
-      "attendance": 90.3,
+      "attendance": 90.7,
       "submit": 91.0
     },
     {
       "date": "09-08",
-      "attendance": 88.8,
+      "attendance": 89.2,
       "submit": 91.5
     },
     {
       "date": "09-09",
-      "attendance": 87.3,
+      "attendance": 87.7,
       "submit": 92.0
     },
     {
       "date": "09-10",
-      "attendance": 85.8,
+      "attendance": 86.2,
       "submit": 92.5
     },
     {
       "date": "09-11",
-      "attendance": 88.8,
-      "submit": 89.4
+      "attendance": 89.2,
+      "submit": 89.6
     }
   ],
   "lesson": {
-    "completion_rate": 47.4,
-    "called": 9,
+    "completion_rate": 57.9,
+    "called": 11,
     "total": 19,
-    "class_coverage": "6/6",
+    "class_coverage": "7/7",
     "teacher_count": 10,
     "uncovered_classes": [
-      "九年级 G12",
-      "九年级 G11",
       "十一年级 AS3",
-      "化学BY(F26)",
+      "九年级 G11",
       "十一年级 AS2",
-      "十二年级 A22",
+      "九年级 G12",
+      "化学BY(F26)",
+      "十一年级 AS1",
       "十二年级 A21",
-      "十一年级 AS1"
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -431,26 +444,10 @@
       {
         "class": "十二年级 A21",
         "class_id": 366030,
-        "subject": "物理",
-        "teacher": "曾靓",
-        "time": "08:20-09:00",
-        "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
         "subject": "经济学",
         "teacher": "孙鹏",
         "time": "08:20-09:00",
         "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "物理",
-        "teacher": "曾靓",
-        "time": "08:20-09:00",
-        "location": "LT3-206"
       },
       {
         "class": "十二年级 A22",
