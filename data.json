@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 11:25",
+  "updated_at": "2026-09-11 11:31",
   "school": {
     "rate": 89.4,
     "present": 328,
@@ -957,6 +957,38 @@
       "teacher": "李俊",
       "time": "10:00-10:40",
       "location": "LT3-208"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "10:50-11:30",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:50-11:30",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:50-11:30",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "10:50-11:30",
+      "location": "LT3-111"
     }
   ],
   "trend": [
@@ -997,24 +1029,24 @@
     }
   ],
   "lesson": {
-    "completion_rate": 51.6,
-    "called": 32,
-    "total": 62,
+    "completion_rate": 57.0,
+    "called": 45,
+    "total": 79,
     "class_coverage": "20/20",
-    "teacher_count": 17,
+    "teacher_count": 21,
     "uncovered_classes": [
-      "十二年级 A22",
       "九年级 G12",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "十年级 G22",
-      "化学9A(F26)",
+      "十二年级 A22",
       "九年级 G11",
+      "十一年级 AS3",
+      "化学9A(F26)",
       "十二年级 A21",
-      "十年级 G23",
+      "十一年级 AS2",
+      "十一年级 AS1",
       "高数CR2(F26)",
-      "十年级 G21",
-      "十一年级 AS1"
+      "十年级 G22",
+      "十年级 G23",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -1256,6 +1288,38 @@
         "teacher": "李俊",
         "time": "10:00-10:40",
         "location": "LT3-208"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "10:50-11:30",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "10:50-11:30",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "10:50-11:30",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "10:50-11:30",
+        "location": "LT3-111"
       }
     ]
   }
