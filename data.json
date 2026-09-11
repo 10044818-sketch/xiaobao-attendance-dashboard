@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-11 13:45",
+  "updated_at": "2026-09-11 13:51",
   "school": {
-    "rate": 91.1,
-    "present": 460,
-    "total": 505,
+    "rate": 90.4,
+    "present": 461,
+    "total": 510,
     "late": 30,
-    "absent": 45,
+    "absent": 49,
     "leave": 29
   },
   "summary": {
@@ -446,6 +446,22 @@
       ]
     },
     {
+      "name": "雅思CQ1(F26)",
+      "teacher": "费楚淇",
+      "rate": 20.0,
+      "present_text": "1/5人次",
+      "present": 1,
+      "total": 5,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "雅思词汇C0(F26)",
       "teacher": "贺珍谊",
       "rate": 75.0,
@@ -511,6 +527,70 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "俞玥",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-11T13:46:19"
+    },
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-11T13:46:19"
+    },
+    {
+      "name": "姜懿",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-11T13:46:19"
+    },
+    {
+      "name": "董轶尘",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思CQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-11T13:46:19"
+    },
     {
       "name": "蔡雨涵",
       "class": "AS2",
@@ -759,36 +839,6 @@
       "updated_at": "2026-09-11T10:51:54"
     },
     {
-      "name": "汤二璨",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-11T10:51:54"
-    },
-    {
-      "name": "董轶尘",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CC(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理CC(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-11T10:51:23"
-    },
-    {
       "name": "马镕锴",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1035,14 +1085,6 @@
     {
       "class": "十二年级 A21",
       "class_id": 366030,
-      "subject": "雅思英语",
-      "teacher": "费楚淇",
-      "time": "10:00-10:40",
-      "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
       "subject": "高等数学",
       "teacher": "李俊",
       "time": "10:00-10:40",
@@ -1055,14 +1097,6 @@
       "teacher": "",
       "time": "10:00-10:40",
       "location": ""
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "雅思英语",
-      "teacher": "费楚淇",
-      "time": "10:00-10:40",
-      "location": "LT3-206"
     },
     {
       "class": "十二年级 A22",
@@ -1236,59 +1270,59 @@
   "trend": [
     {
       "date": "09-05",
-      "attendance": 95.6,
+      "attendance": 94.9,
       "submit": 90.0
     },
     {
       "date": "09-06",
-      "attendance": 94.1,
+      "attendance": 93.4,
       "submit": 90.5
     },
     {
       "date": "09-07",
-      "attendance": 92.6,
+      "attendance": 91.9,
       "submit": 91.0
     },
     {
       "date": "09-08",
-      "attendance": 91.1,
+      "attendance": 90.4,
       "submit": 91.5
     },
     {
       "date": "09-09",
-      "attendance": 89.6,
+      "attendance": 88.9,
       "submit": 92.0
     },
     {
       "date": "09-10",
-      "attendance": 88.1,
+      "attendance": 87.4,
       "submit": 92.5
     },
     {
       "date": "09-11",
-      "attendance": 91.1,
-      "submit": 90.5
+      "attendance": 90.4,
+      "submit": 90.2
     }
   ],
   "lesson": {
-    "completion_rate": 65.1,
-    "called": 69,
+    "completion_rate": 67.0,
+    "called": 71,
     "total": 106,
-    "class_coverage": "30/30",
+    "class_coverage": "31/31",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十年级 G21",
-      "十二年级 A22",
+      "十年级 G22",
       "十二年级 A21",
       "十一年级 AS3",
-      "高数CR2(F26)",
-      "十一年级 AS1",
-      "化学CB(F26)",
-      "九年级 G12",
-      "九年级 G11",
       "十年级 G23",
+      "十二年级 A22",
       "十一年级 AS2",
-      "十年级 G22"
+      "九年级 G12",
+      "十年级 G21",
+      "高数CR2(F26)",
+      "九年级 G11",
+      "化学CB(F26)",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -1390,14 +1424,6 @@
       {
         "class": "十二年级 A21",
         "class_id": 366030,
-        "subject": "雅思英语",
-        "teacher": "费楚淇",
-        "time": "10:00-10:40",
-        "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
         "subject": "高等数学",
         "teacher": "李俊",
         "time": "10:00-10:40",
@@ -1410,14 +1436,6 @@
         "teacher": "",
         "time": "10:00-10:40",
         "location": ""
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "雅思英语",
-        "teacher": "费楚淇",
-        "time": "10:00-10:40",
-        "location": "LT3-206"
       },
       {
         "class": "十二年级 A22",
