@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-11 14:05",
+  "updated_at": "2026-09-11 14:10",
   "school": {
-    "rate": 90.4,
-    "present": 470,
-    "total": 520,
+    "rate": 90.6,
+    "present": 484,
+    "total": 534,
     "late": 30,
     "absent": 50,
     "leave": 30
@@ -144,6 +144,22 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "数学A0(F26)",
+      "teacher": "张小翼",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -1262,71 +1278,63 @@
       "teacher": "王伊",
       "time": "13:00-13:40",
       "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "13:00-13:40",
-      "location": "LT3-107"
     }
   ],
   "trend": [
     {
       "date": "09-05",
-      "attendance": 94.9,
+      "attendance": 95.1,
       "submit": 90.0
     },
     {
       "date": "09-06",
-      "attendance": 93.4,
+      "attendance": 93.6,
       "submit": 90.5
     },
     {
       "date": "09-07",
-      "attendance": 91.9,
+      "attendance": 92.1,
       "submit": 91.0
     },
     {
       "date": "09-08",
-      "attendance": 90.4,
+      "attendance": 90.6,
       "submit": 91.5
     },
     {
       "date": "09-09",
-      "attendance": 88.9,
+      "attendance": 89.1,
       "submit": 92.0
     },
     {
       "date": "09-10",
-      "attendance": 87.4,
+      "attendance": 87.6,
       "submit": 92.5
     },
     {
       "date": "09-11",
-      "attendance": 90.4,
-      "submit": 90.2
+      "attendance": 90.6,
+      "submit": 90.3
     }
   ],
   "lesson": {
-    "completion_rate": 67.0,
-    "called": 71,
+    "completion_rate": 67.9,
+    "called": 72,
     "total": 106,
-    "class_coverage": "31/31",
+    "class_coverage": "32/32",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十二年级 A21",
       "十一年级 AS1",
-      "九年级 G11",
-      "高数CR2(F26)",
-      "化学CB(F26)",
-      "十一年级 AS3",
-      "十年级 G23",
-      "十年级 G21",
       "十年级 G22",
+      "十一年级 AS3",
       "九年级 G12",
+      "高数CR2(F26)",
+      "十年级 G21",
+      "化学CB(F26)",
+      "十年级 G23",
+      "九年级 G11",
+      "十二年级 A21",
+      "十一年级 AS2",
       "十二年级 A22"
     ],
     "uncovered_teachers": [
@@ -1601,14 +1609,6 @@
         "teacher": "王伊",
         "time": "13:00-13:40",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "13:00-13:40",
-        "location": "LT3-107"
       }
     ]
   }
