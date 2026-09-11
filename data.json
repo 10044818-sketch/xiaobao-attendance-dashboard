@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-11 09:55",
+  "updated_at": "2026-09-11 10:10",
   "school": {
-    "rate": 91.2,
-    "present": 155,
-    "total": 170,
-    "late": 6,
-    "absent": 15,
+    "rate": 91.1,
+    "present": 175,
+    "total": 192,
+    "late": 13,
+    "absent": 17,
     "leave": 12
   },
   "summary": {
@@ -15,6 +15,38 @@
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "体育A0(F26)",
+      "teacher": "沈译宇",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 7,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
+      "name": "体育C0(F26)",
+      "teacher": "沈译宇",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
     {
       "name": "化学BY(F26)",
       "teacher": "米万宝",
@@ -164,6 +196,32 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-11T10:05:28"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-11T10:05:28"
+    },
     {
       "name": "郭淑君",
       "class": "G21",
@@ -450,54 +508,54 @@
   "trend": [
     {
       "date": "09-05",
-      "attendance": 95.7,
+      "attendance": 95.6,
       "submit": 90.0
     },
     {
       "date": "09-06",
-      "attendance": 94.2,
+      "attendance": 94.1,
       "submit": 90.5
     },
     {
       "date": "09-07",
-      "attendance": 92.7,
+      "attendance": 92.6,
       "submit": 91.0
     },
     {
       "date": "09-08",
-      "attendance": 91.2,
+      "attendance": 91.1,
       "submit": 91.5
     },
     {
       "date": "09-09",
-      "attendance": 89.7,
+      "attendance": 89.6,
       "submit": 92.0
     },
     {
       "date": "09-10",
-      "attendance": 88.2,
+      "attendance": 88.1,
       "submit": 92.5
     },
     {
       "date": "09-11",
-      "attendance": 91.2,
-      "submit": 90.6
+      "attendance": 91.1,
+      "submit": 90.5
     }
   ],
   "lesson": {
     "completion_rate": 63.2,
     "called": 24,
     "total": 38,
-    "class_coverage": "9/9",
+    "class_coverage": "11/11",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十年级 G22",
-      "十一年级 AS2",
-      "十二年级 A22",
-      "十一年级 AS3",
       "十二年级 A21",
-      "十年级 G23",
       "九年级 G11",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "十年级 G23",
+      "十年级 G22",
+      "十二年级 A22",
       "九年级 G12"
     ],
     "uncovered_teachers": [
