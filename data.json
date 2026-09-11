@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-11 16:02",
+  "updated_at": "2026-09-11 16:06",
   "school": {
-    "rate": 90.8,
-    "present": 514,
-    "total": 566,
+    "rate": 90.4,
+    "present": 519,
+    "total": 574,
     "late": 30,
-    "absent": 52,
+    "absent": 55,
     "leave": 32
   },
   "summary": {
@@ -497,6 +497,22 @@
       ]
     },
     {
+      "name": "雅思听力阅读C0(F26)",
+      "teacher": "瞿芬",
+      "rate": 62.5,
+      "present_text": "5/8人次",
+      "present": 5,
+      "total": 8,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "雅思词汇C0(F26)",
       "teacher": "贺珍谊",
       "rate": 75.0,
@@ -562,6 +578,61 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-11T16:04:20"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-11T16:04:20"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-11T16:04:20"
+    },
     {
       "name": "黄子怿",
       "class": "AS3",
@@ -899,23 +970,6 @@
       "updated_at": "2026-09-11T10:51:15"
     },
     {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思词汇C0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-11T10:51:15"
-    },
-    {
       "name": "桂应沁",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/10 8:00:00 至 2026/9/11 17:00:00  请假 ",
@@ -950,19 +1004,6 @@
       "updated_at": "2026-09-11T10:48:32"
     },
     {
-      "name": "曾禹德",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-11T10:05:28"
-    },
-    {
       "name": "郭淑君",
       "class": "G21",
       "reason": "病假_【已通过】 2026/9/11 8:00:00 至 2026/9/11 17:00:00  医院就诊 ",
@@ -991,19 +1032,6 @@
         }
       ],
       "updated_at": "2026-09-11T08:53:36"
-    },
-    {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-11T08:28:08"
     },
     {
       "name": "张彧州",
@@ -1196,26 +1224,10 @@
     {
       "class": "十二年级 A21",
       "class_id": 366030,
-      "subject": "雅思听力阅读",
-      "teacher": "瞿芬",
-      "time": "13:00-13:40",
-      "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
       "subject": "化学",
       "teacher": "余越利",
       "time": "13:00-13:40",
       "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "雅思听力阅读",
-      "teacher": "瞿芬",
-      "time": "13:00-13:40",
-      "location": "LT3-209"
     },
     {
       "class": "十二年级 A22",
@@ -1437,60 +1449,60 @@
   "trend": [
     {
       "date": "09-05",
-      "attendance": 95.3,
+      "attendance": 94.9,
       "submit": 90.0
     },
     {
       "date": "09-06",
-      "attendance": 93.8,
+      "attendance": 93.4,
       "submit": 90.5
     },
     {
       "date": "09-07",
-      "attendance": 92.3,
+      "attendance": 91.9,
       "submit": 91.0
     },
     {
       "date": "09-08",
-      "attendance": 90.8,
+      "attendance": 90.4,
       "submit": 91.5
     },
     {
       "date": "09-09",
-      "attendance": 89.3,
+      "attendance": 88.9,
       "submit": 92.0
     },
     {
       "date": "09-10",
-      "attendance": 87.8,
+      "attendance": 87.4,
       "submit": 92.5
     },
     {
       "date": "09-11",
-      "attendance": 90.8,
-      "submit": 90.4
+      "attendance": 90.4,
+      "submit": 90.2
     }
   ],
   "lesson": {
-    "completion_rate": 63.0,
-    "called": 85,
+    "completion_rate": 64.4,
+    "called": 87,
     "total": 135,
-    "class_coverage": "33/33",
+    "class_coverage": "34/34",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十年级 G23",
+      "十一年级 AS1",
       "十一年级 AS3",
-      "化学BZ(F26)",
-      "十年级 G22",
       "十年级 G21",
-      "十二年级 A22",
-      "九年级 G12",
       "高数CR2(F26)",
+      "化学CB(F26)",
       "十一年级 AS2",
       "九年级 G11",
-      "化学CB(F26)",
+      "九年级 G12",
+      "化学BZ(F26)",
+      "十年级 G23",
       "十二年级 A21",
-      "十一年级 AS1"
+      "十年级 G22",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -1656,26 +1668,10 @@
       {
         "class": "十二年级 A21",
         "class_id": 366030,
-        "subject": "雅思听力阅读",
-        "teacher": "瞿芬",
-        "time": "13:00-13:40",
-        "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
         "subject": "化学",
         "teacher": "余越利",
         "time": "13:00-13:40",
         "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "雅思听力阅读",
-        "teacher": "瞿芬",
-        "time": "13:00-13:40",
-        "location": "LT3-209"
       },
       {
         "class": "十二年级 A22",
