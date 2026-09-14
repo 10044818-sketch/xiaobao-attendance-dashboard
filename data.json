@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14 15:01",
+  "updated_at": "2026-09-14 15:06",
   "school": {
-    "rate": 85.2,
-    "present": 592,
+    "rate": 84.6,
+    "present": 588,
     "total": 695,
     "late": 11,
-    "absent": 103,
-    "leave": 62
+    "absent": 107,
+    "leave": 71
   },
   "summary": {
     "pending_yesterday": 0,
@@ -74,7 +74,7 @@
       "absent": 2,
       "late": 2,
       "early": 0,
-      "leave": 0,
+      "leave": 1,
       "status": "异常",
       "time_spans": [
         "14:40-15:20"
@@ -141,7 +141,7 @@
       "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 0,
+      "leave": 2,
       "status": "正常",
       "time_spans": [
         "13:00-13:40",
@@ -216,15 +216,15 @@
     {
       "name": "经济AX(F26)",
       "teacher": "王肇君",
-      "rate": 93.2,
-      "present_text": "41/44人次",
-      "present": 41,
+      "rate": 88.6,
+      "present_text": "39/44人次",
+      "present": 39,
       "total": 44,
-      "absent": 3,
+      "absent": 5,
       "late": 0,
       "early": 0,
-      "leave": 0,
-      "status": "关注",
+      "leave": 4,
+      "status": "异常",
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
@@ -350,15 +350,15 @@
     {
       "name": "英语写作AQ2(F26)",
       "teacher": "贺珍谊",
-      "rate": 100.0,
-      "present_text": "20/20人次",
-      "present": 20,
+      "rate": 90.0,
+      "present_text": "18/20人次",
+      "present": 18,
       "total": 20,
-      "absent": 0,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 0,
-      "status": "正常",
+      "leave": 2,
+      "status": "关注",
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
@@ -546,10 +546,39 @@
   ],
   "absent_students": [
     {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026-09-14 08:00:00 至 2026-09-18 17:00:00  请假",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作AQ2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-14T15:04:32"
+    },
+    {
       "name": "桂应沁",
       "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
+      "reason": "事假_【已通过】 2026-09-14 08:00:00 至 2026-09-18 17:00:00  请假",
+      "type": "事假",
       "courses": [
         {
           "course": "经济AX(F26)",
@@ -568,7 +597,7 @@
           "time": "13:50-14:30"
         }
       ],
-      "updated_at": "2026-09-14T14:59:01"
+      "updated_at": "2026-09-14T15:04:30"
     },
     {
       "name": "沈诗珈",
@@ -635,19 +664,6 @@
         }
       ],
       "updated_at": "2026-09-14T14:47:22"
-    },
-    {
-      "name": "贾征颐",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学AR2(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-14T14:45:20"
     },
     {
       "name": "贾牧荷",
@@ -1640,38 +1656,38 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 89.7,
+      "attendance": 89.1,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 88.2,
+      "attendance": 87.6,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 86.7,
+      "attendance": 86.1,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 85.2,
+      "attendance": 84.6,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 83.7,
+      "attendance": 83.1,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 82.2,
+      "attendance": 81.6,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 85.2,
-      "submit": 87.6
+      "attendance": 84.6,
+      "submit": 87.3
     }
   ],
   "lesson": {
@@ -1681,18 +1697,18 @@
     "class_coverage": "32/32",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十二年级 A21",
-      "九年级 G11",
-      "十二年级 A22",
-      "十一年级 AS3",
-      "十一年级 AS2",
-      "九年级 G12",
-      "化学BY(F26)",
-      "十一年级 AS1",
-      "十年级 G21",
-      "十年级 G22",
       "十年级 G23",
-      "高数CR2(F26)"
+      "十一年级 AS1",
+      "十二年级 A22",
+      "十年级 G22",
+      "十一年级 AS3",
+      "化学BY(F26)",
+      "高数CR2(F26)",
+      "十二年级 A21",
+      "十年级 G21",
+      "十一年级 AS2",
+      "九年级 G11",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
