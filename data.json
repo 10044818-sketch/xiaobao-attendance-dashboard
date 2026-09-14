@@ -1,20 +1,36 @@
 {
-  "updated_at": "2026-09-14 13:05",
+  "updated_at": "2026-09-14 13:10",
   "school": {
     "rate": 85.6,
-    "present": 433,
-    "total": 506,
+    "present": 451,
+    "total": 527,
     "late": 5,
-    "absent": 73,
+    "absent": 76,
     "leave": 46
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "代数C0(F26)",
+      "teacher": "张小翼",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
     {
       "name": "体育BR2(F26)",
       "teacher": "沈译宇",
@@ -111,6 +127,22 @@
       "early": 0,
       "leave": 4,
       "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
+      "name": "物理CC(F26)",
+      "teacher": "曾靓",
+      "rate": 92.3,
+      "present_text": "12/13人次",
+      "present": 12,
+      "total": 13,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
       "time_spans": [
         "13:00-13:40"
       ]
@@ -382,6 +414,70 @@
   ],
   "absent_students": [
     {
+      "name": "周沛东",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-14T13:09:44"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-14T13:09:44"
+    },
+    {
+      "name": "陈乐涵",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-14T13:06:32"
+    },
+    {
+      "name": "赵倚珺",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026-09-14 13:00:00 至 2026-09-14 17:00:00  不舒服",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-14T13:06:11"
+    },
+    {
       "name": "张彧州",
       "class": "G23",
       "reason": "当日缺课且无请假单",
@@ -422,23 +518,6 @@
         }
       ],
       "updated_at": "2026-09-14T13:03:39"
-    },
-    {
-      "name": "赵倚珺",
-      "class": "AS2",
-      "reason": "生病",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-14T13:02:36"
     },
     {
       "name": "沈诗珈",
@@ -832,23 +911,6 @@
       "updated_at": "2026-09-14T09:51:15"
     },
     {
-      "name": "陈乐涵",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思CR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-14T09:51:15"
-    },
-    {
       "name": "谌鑫亿",
       "class": "A22",
       "reason": "病假_【已通过】 2026/9/14 8:00:00 至 2026/9/14 9:00:00  拉肚子 ",
@@ -1179,17 +1241,17 @@
     "completion_rate": 69.2,
     "called": 54,
     "total": 78,
-    "class_coverage": "22/22",
+    "class_coverage": "24/24",
     "teacher_count": 18,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十一年级 AS1",
-      "十年级 G22",
-      "十二年级 A21",
-      "高数CR2(F26)",
       "十一年级 AS3",
+      "十一年级 AS2",
+      "十年级 G22",
       "十二年级 A22",
-      "十年级 G21"
+      "高数CR2(F26)",
+      "十年级 G21",
+      "十一年级 AS1",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
