@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-14 10:45",
+  "updated_at": "2026-09-14 10:51",
   "school": {
-    "rate": 85.3,
-    "present": 250,
-    "total": 293,
+    "rate": 87.2,
+    "present": 292,
+    "total": 335,
     "late": 5,
     "absent": 43,
     "leave": 23
@@ -194,6 +194,23 @@
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "雅思BR3(F26)",
+      "teacher": "钱嘉音",
+      "rate": 100.0,
+      "present_text": "42/42人次",
+      "present": 42,
+      "total": 42,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -613,44 +630,12 @@
   ],
   "pending_roll_call": [
     {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "雅思英语",
-      "teacher": "钱嘉音",
-      "time": "08:20-09:00",
-      "location": "LT3-118"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "雅思英语",
-      "teacher": "钱嘉音",
-      "time": "08:20-09:00",
-      "location": "LT3-118"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "数学",
       "teacher": "张小翼",
       "time": "08:20-09:00",
       "location": "LT3-107"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "雅思英语",
-      "teacher": "钱嘉音",
-      "time": "09:10-09:50",
-      "location": "LT3-118"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "雅思英语",
-      "teacher": "钱嘉音",
-      "time": "09:10-09:50",
-      "location": "LT3-118"
     },
     {
       "class": "十年级 G23",
@@ -784,74 +769,58 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 89.8,
+      "attendance": 91.7,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 88.3,
+      "attendance": 90.2,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 86.8,
+      "attendance": 88.7,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 85.3,
+      "attendance": 87.2,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 83.8,
+      "attendance": 85.7,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 82.3,
+      "attendance": 84.2,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 85.3,
-      "submit": 87.7
+      "attendance": 87.2,
+      "submit": 88.6
     }
   ],
   "lesson": {
-    "completion_rate": 59.6,
-    "called": 31,
+    "completion_rate": 67.3,
+    "called": 35,
     "total": 52,
-    "class_coverage": "13/13",
+    "class_coverage": "14/14",
     "teacher_count": 17,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十一年级 AS1",
-      "十年级 G23",
-      "十年级 G21",
-      "十年级 G22",
-      "十二年级 A21",
-      "高数CR2(F26)",
       "十一年级 AS2",
+      "高数CR2(F26)",
+      "十年级 G21",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十二年级 A22",
+      "十年级 G22",
+      "十年级 G23",
       "十一年级 AS3"
     ],
     "uncovered_teachers": [
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "雅思英语",
-        "teacher": "钱嘉音",
-        "time": "08:20-09:00",
-        "location": "LT3-118"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "雅思英语",
-        "teacher": "钱嘉音",
-        "time": "08:20-09:00",
-        "location": "LT3-118"
-      },
       {
         "class": "十年级 G23",
         "class_id": 521638,
@@ -859,22 +828,6 @@
         "teacher": "张小翼",
         "time": "08:20-09:00",
         "location": "LT3-107"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "雅思英语",
-        "teacher": "钱嘉音",
-        "time": "09:10-09:50",
-        "location": "LT3-118"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "雅思英语",
-        "teacher": "钱嘉音",
-        "time": "09:10-09:50",
-        "location": "LT3-118"
       },
       {
         "class": "十年级 G23",
