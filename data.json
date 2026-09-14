@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14 14:07",
+  "updated_at": "2026-09-14 14:10",
   "school": {
-    "rate": 85.0,
-    "present": 523,
-    "total": 615,
+    "rate": 85.1,
+    "present": 530,
+    "total": 623,
     "late": 7,
-    "absent": 92,
-    "leave": 56
+    "absent": 93,
+    "leave": 57
   },
   "summary": {
     "pending_yesterday": 0,
@@ -415,6 +415,22 @@
       ]
     },
     {
+      "name": "雅思口语C0(F26)",
+      "teacher": "钱嘉音",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "雅思听力阅读C0(F26)",
       "teacher": "瞿芬",
       "rate": 87.5,
@@ -464,6 +480,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思口语C0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-14T14:07:13"
+    },
     {
       "name": "赵倚珺",
       "class": "AS2",
@@ -1365,37 +1394,37 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 89.5,
+      "attendance": 89.6,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 88.0,
+      "attendance": 88.1,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 86.5,
+      "attendance": 86.6,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 85.0,
+      "attendance": 85.1,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 83.5,
+      "attendance": 83.6,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 82.0,
+      "attendance": 82.1,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 85.0,
+      "attendance": 85.1,
       "submit": 87.5
     }
   ],
@@ -1403,20 +1432,20 @@
     "completion_rate": 68.4,
     "called": 67,
     "total": 98,
-    "class_coverage": "27/27",
+    "class_coverage": "28/28",
     "teacher_count": 23,
     "uncovered_classes": [
+      "高数CR2(F26)",
+      "十年级 G21",
+      "九年级 G12",
+      "化学BY(F26)",
       "九年级 G11",
       "十二年级 A21",
-      "化学BY(F26)",
       "十年级 G22",
-      "十一年级 AS3",
       "十一年级 AS1",
-      "九年级 G12",
-      "十年级 G21",
+      "十一年级 AS3",
       "十一年级 AS2",
-      "十二年级 A22",
-      "高数CR2(F26)"
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
