@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14 10:20",
+  "updated_at": "2026-09-14 10:25",
   "school": {
     "rate": 83.9,
     "present": 208,
@@ -200,15 +200,15 @@
     {
       "name": "舒泽杨",
       "class": "G11",
-      "reason": "已请假",
-      "type": "请假",
+      "reason": "病假_【已通过】 2026-09-14 10:00:00 至 2026-09-14 17:00:00  身体不适",
+      "type": "病假",
       "courses": [
         {
           "course": "音乐9A(F26)",
           "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-09-14T10:05:39"
+      "updated_at": "2026-09-14T10:21:06"
     },
     {
       "name": "李知颖",
@@ -659,8 +659,8 @@
     "class_coverage": "11/11",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十一年级 AS1",
       "十一年级 AS3",
+      "十一年级 AS1",
       "十年级 G23"
     ],
     "uncovered_teachers": [
