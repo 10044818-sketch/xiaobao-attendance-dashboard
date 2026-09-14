@@ -1,64 +1,108 @@
 {
-  "updated_at": "2026-09-14 08:15",
+  "updated_at": "2026-09-14 08:20",
   "school": {
-    "rate": 0,
-    "present": 0,
-    "total": 0,
+    "rate": 90.9,
+    "present": 20,
+    "total": 22,
     "late": 0,
-    "absent": 0,
+    "absent": 2,
     "leave": 0
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
-  "classes": [],
-  "absent_students": [],
+  "classes": [
+    {
+      "name": "经济AX(F26)",
+      "teacher": "王肇君",
+      "rate": 90.9,
+      "present_text": "20/22人次",
+      "present": 20,
+      "total": 22,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    }
+  ],
+  "absent_students": [
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-14T08:19:44"
+    },
+    {
+      "name": "关矞文",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-14T08:19:44"
+    }
+  ],
   "pending_roll_call": [],
   "trend": [
     {
       "date": "09-08",
-      "attendance": 4.5,
+      "attendance": 95.4,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 3.0,
+      "attendance": 93.9,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 1.5,
+      "attendance": 92.4,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 0.0,
+      "attendance": 90.9,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": -1.5,
+      "attendance": 89.4,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": -3.0,
+      "attendance": 87.9,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 0,
-      "submit": 45.0
+      "attendance": 90.9,
+      "submit": 90.5
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "0/0",
+    "class_coverage": "1/1",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
