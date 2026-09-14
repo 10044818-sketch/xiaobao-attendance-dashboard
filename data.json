@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14 14:35",
+  "updated_at": "2026-09-14 14:40",
   "school": {
     "rate": 85.1,
-    "present": 530,
-    "total": 623,
-    "late": 7,
-    "absent": 93,
-    "leave": 57
+    "present": 537,
+    "total": 631,
+    "late": 8,
+    "absent": 94,
+    "leave": 58
   },
   "summary": {
     "pending_yesterday": 0,
@@ -415,6 +415,22 @@
       ]
     },
     {
+      "name": "雅思写作口语C0(F26)",
+      "teacher": "曹德娟",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 1,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20"
+      ]
+    },
+    {
       "name": "雅思口语C0(F26)",
       "teacher": "钱嘉音",
       "rate": 87.5,
@@ -489,9 +505,13 @@
         {
           "course": "雅思口语C0(F26)",
           "time": "13:50-14:30"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "14:40-15:20"
         }
       ],
-      "updated_at": "2026-09-14T14:07:13"
+      "updated_at": "2026-09-14T14:40:48"
     },
     {
       "name": "赵倚珺",
@@ -1536,21 +1556,21 @@
     "completion_rate": 62.4,
     "called": 73,
     "total": 117,
-    "class_coverage": "28/28",
+    "class_coverage": "29/29",
     "teacher_count": 23,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "十二年级 A21",
       "十一年级 AS1",
-      "十年级 G23",
-      "十一年级 AS3",
-      "九年级 G12",
       "化学BY(F26)",
-      "十年级 G21",
-      "十二年级 A22",
-      "十年级 G22",
       "九年级 G11",
-      "十一年级 AS2"
+      "十年级 G22",
+      "九年级 G12",
+      "十一年级 AS3",
+      "十年级 G23",
+      "十二年级 A22",
+      "高数CR2(F26)",
+      "十一年级 AS2",
+      "十年级 G21",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
