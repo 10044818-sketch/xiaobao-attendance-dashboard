@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14 16:05",
+  "updated_at": "2026-09-14 16:11",
   "school": {
-    "rate": 85.4,
-    "present": 722,
-    "total": 845,
+    "rate": 85.2,
+    "present": 742,
+    "total": 871,
     "late": 12,
-    "absent": 123,
-    "leave": 82
+    "absent": 129,
+    "leave": 88
   },
   "summary": {
     "pending_yesterday": 0,
@@ -280,6 +280,23 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "经济BX(F26)",
+      "teacher": "郝畅",
+      "rate": 76.9,
+      "present_text": "20/26人次",
+      "present": 20,
+      "total": 26,
+      "absent": 6,
+      "late": 0,
+      "early": 0,
+      "leave": 6,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20",
+        "15:30-16:10"
       ]
     },
     {
@@ -632,6 +649,105 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵倚珺",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/14 13:00:00 至 2026/9/14 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-14T16:10:08"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-14T16:10:08"
+    },
+    {
+      "name": "陈世棋",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-14T16:10:08"
+    },
     {
       "name": "沈诗珈",
       "class": "AS2",
@@ -1051,81 +1167,6 @@
         }
       ],
       "updated_at": "2026-09-14T14:41:17"
-    },
-    {
-      "name": "赵倚珺",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026-09-14 13:00:00 至 2026-09-14 17:00:00  不舒服",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-14T13:49:43"
-    },
-    {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育BR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-14T13:49:43"
-    },
-    {
-      "name": "陈世棋",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育BR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-14T13:49:43"
     },
     {
       "name": "舒泽杨",
@@ -1782,26 +1823,10 @@
     {
       "class": "十一年级 AS2",
       "class_id": 442960,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "14:40-15:20",
-      "location": "LT3-118"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
       "subject": "艺术与设计",
       "teacher": "王丽媛、朱嘉怡",
       "time": "14:40-15:20",
       "location": "LT3-212"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "14:40-15:20",
-      "location": "LT3-118"
     },
     {
       "class": "十一年级 AS3",
@@ -1858,64 +1883,152 @@
       "teacher": "赵亮",
       "time": "14:40-15:20",
       "location": "LT3-116"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "15:30-16:10",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "15:30-16:10",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "15:30-16:10",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "15:30-16:10",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "15:30-16:10",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "15:30-16:10",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "15:30-16:10",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "15:30-16:10",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "15:30-16:10",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "15:30-16:10",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "15:30-16:10",
+      "location": "LT3-116"
     }
   ],
   "trend": [
     {
       "date": "09-08",
-      "attendance": 89.9,
+      "attendance": 89.7,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 88.4,
+      "attendance": 88.2,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 86.9,
+      "attendance": 86.7,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 85.4,
+      "attendance": 85.2,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 83.9,
+      "attendance": 83.7,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 82.4,
+      "attendance": 82.2,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 85.4,
-      "submit": 87.7
+      "attendance": 85.2,
+      "submit": 87.6
     }
   ],
   "lesson": {
-    "completion_rate": 64.0,
-    "called": 89,
-    "total": 139,
-    "class_coverage": "37/37",
-    "teacher_count": 26,
+    "completion_rate": 63.8,
+    "called": 104,
+    "total": 163,
+    "class_coverage": "38/38",
+    "teacher_count": 27,
     "uncovered_classes": [
+      "十年级 G21",
       "十一年级 AS3",
-      "化学9A(F26)",
-      "化学BY(F26)",
-      "十二年级 A21",
+      "十一年级 AS1",
       "九年级 G12",
       "十一年级 AS2",
-      "十一年级 AS1",
-      "九年级 G11",
       "十年级 G22",
+      "化学BY(F26)",
+      "化学9A(F26)",
+      "高数CR2(F26)",
       "十二年级 A22",
-      "十年级 G21",
-      "高数CR2(F26)"
+      "十二年级 A21",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -2241,26 +2354,10 @@
       {
         "class": "十一年级 AS2",
         "class_id": 442960,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "14:40-15:20",
-        "location": "LT3-118"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
         "subject": "艺术与设计",
         "teacher": "王丽媛、朱嘉怡",
         "time": "14:40-15:20",
         "location": "LT3-212"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "14:40-15:20",
-        "location": "LT3-118"
       },
       {
         "class": "十一年级 AS3",
@@ -2316,6 +2413,94 @@
         "subject": "数学",
         "teacher": "赵亮",
         "time": "14:40-15:20",
+        "location": "LT3-116"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "15:30-16:10",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "15:30-16:10",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "15:30-16:10",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "15:30-16:10",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "15:30-16:10",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "15:30-16:10",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "15:30-16:10",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "潘丽",
+        "time": "15:30-16:10",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "15:30-16:10",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "潘丽",
+        "time": "15:30-16:10",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "15:30-16:10",
         "location": "LT3-116"
       }
     ]
