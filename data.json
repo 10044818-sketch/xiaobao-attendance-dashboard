@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-14 15:41",
+  "updated_at": "2026-09-14 15:45",
   "school": {
-    "rate": 85.4,
-    "present": 701,
-    "total": 821,
+    "rate": 85.5,
+    "present": 714,
+    "total": 835,
     "late": 12,
-    "absent": 120,
-    "leave": 79
+    "absent": 121,
+    "leave": 80
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 7,
+    "class_attention": 8,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -400,6 +400,22 @@
       ]
     },
     {
+      "name": "英语口语A0(F26)",
+      "teacher": "贺珍谊",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "15:30-16:10"
+      ]
+    },
+    {
       "name": "英语听力A0(F26)",
       "teacher": "王伊",
       "rate": 92.9,
@@ -615,6 +631,47 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/14 17:00:00  请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐A0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语听力A0(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "英语听力A0(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "英语口语A0(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-14T15:42:25"
+    },
     {
       "name": "张翰霆",
       "class": "A22",
@@ -847,43 +904,6 @@
         }
       ],
       "updated_at": "2026-09-14T15:29:15"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/14 17:00:00  请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语写作A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作A0(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "音乐A0(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "英语听力A0(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "英语听力A0(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-14T15:21:32"
     },
     {
       "name": "桂应沁",
@@ -1834,59 +1854,59 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 89.9,
+      "attendance": 90.0,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 88.4,
+      "attendance": 88.5,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 86.9,
+      "attendance": 87.0,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 85.4,
+      "attendance": 85.5,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 83.9,
+      "attendance": 84.0,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 82.4,
+      "attendance": 82.5,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 85.4,
-      "submit": 87.7
+      "attendance": 85.5,
+      "submit": 87.8
     }
   ],
   "lesson": {
     "completion_rate": 64.0,
     "called": 89,
     "total": 139,
-    "class_coverage": "36/36",
+    "class_coverage": "37/37",
     "teacher_count": 26,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "十一年级 AS1",
-      "十二年级 A21",
-      "九年级 G12",
-      "十一年级 AS2",
-      "化学BY(F26)",
-      "九年级 G11",
-      "十二年级 A22",
-      "十一年级 AS3",
       "十年级 G21",
+      "十一年级 AS3",
+      "九年级 G11",
+      "化学9A(F26)",
+      "化学BY(F26)",
+      "高数CR2(F26)",
       "十年级 G22",
-      "化学9A(F26)"
+      "九年级 G12",
+      "十二年级 A22",
+      "十二年级 A21",
+      "十一年级 AS2",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
