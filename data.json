@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14 11:47",
+  "updated_at": "2026-09-14 11:50",
   "school": {
     "rate": 86.0,
-    "present": 345,
-    "total": 401,
+    "present": 357,
+    "total": 415,
     "late": 5,
-    "absent": 56,
-    "leave": 28
+    "absent": 58,
+    "leave": 30
   },
   "summary": {
     "pending_yesterday": 0,
@@ -79,6 +79,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
       ]
     },
     {
@@ -299,6 +315,48 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "舒泽杨",
+      "class": "G11",
+      "reason": "病假_【已通过】 2026/9/14 10:00:00 至 2026/9/14 17:00:00  身体不适 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "音乐9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-14T11:50:44"
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/16 17:00:00  因近期压力比较大，需要请假调整状态 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-14T11:50:44"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -525,40 +583,6 @@
         }
       ],
       "updated_at": "2026-09-14T10:41:35"
-    },
-    {
-      "name": "舒泽杨",
-      "class": "G11",
-      "reason": "病假_【已通过】 2026-09-14 10:00:00 至 2026-09-14 17:00:00  身体不适",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "音乐9A(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-14T10:21:06"
-    },
-    {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/16 17:00:00  因近期压力比较大，需要请假调整状态 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐9A(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-14T10:05:39"
     },
     {
       "name": "余天佑",
@@ -881,22 +905,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
@@ -1047,23 +1055,21 @@
     }
   ],
   "lesson": {
-    "completion_rate": 61.5,
-    "called": 48,
+    "completion_rate": 64.1,
+    "called": 50,
     "total": 78,
-    "class_coverage": "17/17",
+    "class_coverage": "18/18",
     "teacher_count": 18,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "十年级 G21",
       "十一年级 AS1",
-      "十年级 G23",
       "十二年级 A21",
       "十一年级 AS3",
       "十一年级 AS2",
-      "九年级 G11",
-      "九年级 G12",
       "十二年级 A22",
-      "十年级 G22"
+      "高数CR2(F26)",
+      "十年级 G22",
+      "十年级 G23",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -1177,22 +1183,6 @@
         "teacher": "李俊",
         "time": "10:00-10:40",
         "location": "LT3-208"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
