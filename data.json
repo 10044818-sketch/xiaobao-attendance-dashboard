@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-14 09:35",
+  "updated_at": "2026-09-14 09:40",
   "school": {
-    "rate": 87.9,
-    "present": 153,
+    "rate": 88.5,
+    "present": 154,
     "total": 174,
-    "late": 3,
-    "absent": 21,
+    "late": 4,
+    "absent": 20,
     "leave": 13
   },
   "summary": {
@@ -85,12 +85,12 @@
     {
       "name": "经济C0(F26)",
       "teacher": "郝畅",
-      "rate": 75.0,
-      "present_text": "6/8人次",
-      "present": 6,
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
       "total": 8,
-      "absent": 2,
-      "late": 0,
+      "absent": 1,
+      "late": 1,
       "early": 0,
       "leave": 0,
       "status": "异常",
@@ -148,6 +148,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "马镕锴",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-14T09:37:22"
+    },
     {
       "name": "李知颖",
       "class": "G11",
@@ -258,32 +271,6 @@
         }
       ],
       "updated_at": "2026-09-14T09:14:37"
-    },
-    {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-14T09:13:01"
-    },
-    {
-      "name": "马镕锴",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-14T09:13:01"
     },
     {
       "name": "周原",
@@ -404,38 +391,38 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 92.4,
+      "attendance": 93.0,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 90.9,
+      "attendance": 91.5,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 89.4,
+      "attendance": 90.0,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 87.9,
+      "attendance": 88.5,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 86.4,
+      "attendance": 87.0,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 84.9,
+      "attendance": 85.5,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 87.9,
-      "submit": 89.0
+      "attendance": 88.5,
+      "submit": 89.2
     }
   ],
   "lesson": {
@@ -447,9 +434,9 @@
     "uncovered_classes": [
       "十一年级 AS1",
       "十一年级 AS3",
+      "十二年级 A21",
       "十年级 G23",
-      "十二年级 A22",
-      "十二年级 A21"
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
