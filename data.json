@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14 13:42",
+  "updated_at": "2026-09-14 13:45",
   "school": {
-    "rate": 86.3,
-    "present": 473,
-    "total": 548,
+    "rate": 85.3,
+    "present": 488,
+    "total": 572,
     "late": 7,
-    "absent": 75,
-    "leave": 46
+    "absent": 84,
+    "leave": 48
   },
   "summary": {
     "pending_yesterday": 0,
@@ -231,6 +231,23 @@
       ]
     },
     {
+      "name": "经济CC(F26)",
+      "teacher": "孙鹏",
+      "rate": 62.5,
+      "present_text": "15/24人次",
+      "present": 15,
+      "total": 24,
+      "absent": 9,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "艺术9A(F26)",
       "teacher": "朱嘉怡",
       "rate": 85.7,
@@ -429,6 +446,115 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "岳沐辰",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-14T13:42:57"
+    },
+    {
+      "name": "许宸嘉",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-14T13:42:57"
+    },
+    {
+      "name": "闻誉婷",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-14T13:42:57"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-14T13:42:57"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-14T13:42:57"
+    },
     {
       "name": "桂应沁",
       "class": "G22",
@@ -871,74 +997,10 @@
       "updated_at": "2026-09-14T09:51:15"
     },
     {
-      "name": "岳沐辰",
-      "class": "A21",
-      "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思CR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-14T09:51:15"
-    },
-    {
-      "name": "王子天",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思CR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-14T09:51:15"
-    },
-    {
-      "name": "高子涵",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思CR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-14T09:51:15"
-    },
-    {
       "name": "谌鑫亿",
       "class": "A22",
       "reason": "病假_【已通过】 2026/9/14 8:00:00 至 2026/9/14 9:00:00  拉肚子 ",
       "type": "病假",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-14T09:47:55"
-    },
-    {
-      "name": "许宸嘉",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
       "courses": [
         {
           "course": "雅思CR2(F26)",
@@ -1258,22 +1320,6 @@
       "location": "LT3-122"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "13:00-13:40",
-      "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "13:00-13:40",
-      "location": "LT3-208"
-    },
-    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "物理",
@@ -1285,57 +1331,57 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 90.8,
+      "attendance": 89.8,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 89.3,
+      "attendance": 88.3,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 87.8,
+      "attendance": 86.8,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 86.3,
+      "attendance": 85.3,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 84.8,
+      "attendance": 83.8,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 83.3,
+      "attendance": 82.3,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 86.3,
-      "submit": 88.2
+      "attendance": 85.3,
+      "submit": 87.7
     }
   ],
   "lesson": {
-    "completion_rate": 64.3,
-    "called": 63,
+    "completion_rate": 66.3,
+    "called": 65,
     "total": 98,
-    "class_coverage": "25/25",
+    "class_coverage": "26/26",
     "teacher_count": 23,
     "uncovered_classes": [
-      "化学BY(F26)",
-      "高数CR2(F26)",
-      "九年级 G12",
       "十二年级 A22",
+      "化学BY(F26)",
       "十二年级 A21",
-      "十一年级 AS1",
-      "十年级 G21",
-      "九年级 G11",
-      "十年级 G22",
       "十一年级 AS2",
+      "十一年级 AS1",
+      "十年级 G22",
+      "高数CR2(F26)",
+      "九年级 G11",
+      "九年级 G12",
+      "十年级 G21",
       "十一年级 AS3"
     ],
     "uncovered_teachers": [
@@ -1594,22 +1640,6 @@
         "teacher": "米万宝",
         "time": "13:00-13:40",
         "location": "LT3-122"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "13:00-13:40",
-        "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "13:00-13:40",
-        "location": "LT3-208"
       },
       {
         "class": "十年级 G21",
