@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14 16:01",
+  "updated_at": "2026-09-14 16:05",
   "school": {
-    "rate": 85.5,
-    "present": 714,
-    "total": 835,
+    "rate": 85.4,
+    "present": 722,
+    "total": 845,
     "late": 12,
-    "absent": 121,
-    "leave": 80
+    "absent": 123,
+    "leave": 82
   },
   "summary": {
     "pending_yesterday": 0,
@@ -353,16 +353,17 @@
       "name": "艺术BX(F26)",
       "teacher": "朱嘉怡",
       "rate": 80.0,
-      "present_text": "8/10人次",
-      "present": 8,
-      "total": 10,
-      "absent": 2,
+      "present_text": "16/20人次",
+      "present": 16,
+      "total": 20,
+      "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
-        "14:40-15:20"
+        "14:40-15:20",
+        "15:30-16:10"
       ]
     },
     {
@@ -631,6 +632,80 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "沈诗珈",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/14 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-14T16:02:30"
+    },
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/14 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-14T16:02:30"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -937,72 +1012,6 @@
         }
       ],
       "updated_at": "2026-09-14T15:20:55"
-    },
-    {
-      "name": "沈诗珈",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/14 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育BR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "艺术BX(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-14T14:47:22"
-    },
-    {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/14 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育BR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "艺术BX(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-14T14:47:22"
     },
     {
       "name": "李雨真",
@@ -1854,38 +1863,38 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 90.0,
+      "attendance": 89.9,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 88.5,
+      "attendance": 88.4,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 87.0,
+      "attendance": 86.9,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 85.5,
+      "attendance": 85.4,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 84.0,
+      "attendance": 83.9,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 82.5,
+      "attendance": 82.4,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 85.5,
-      "submit": 87.8
+      "attendance": 85.4,
+      "submit": 87.7
     }
   ],
   "lesson": {
@@ -1895,18 +1904,18 @@
     "class_coverage": "37/37",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十年级 G21",
-      "十二年级 A22",
-      "化学BY(F26)",
-      "化学9A(F26)",
       "十一年级 AS3",
-      "高数CR2(F26)",
-      "十一年级 AS2",
-      "九年级 G12",
-      "十年级 G22",
-      "九年级 G11",
+      "化学9A(F26)",
+      "化学BY(F26)",
       "十二年级 A21",
-      "十一年级 AS1"
+      "九年级 G12",
+      "十一年级 AS2",
+      "十一年级 AS1",
+      "九年级 G11",
+      "十年级 G22",
+      "十二年级 A22",
+      "十年级 G21",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
