@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-14 09:01",
+  "updated_at": "2026-09-14 09:05",
   "school": {
-    "rate": 83.6,
-    "present": 46,
-    "total": 55,
-    "late": 0,
+    "rate": 89.2,
+    "present": 74,
+    "total": 83,
+    "late": 1,
     "absent": 9,
     "leave": 6
   },
@@ -29,6 +29,23 @@
       "status": "关注",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "经济AY(F26)",
+      "teacher": "孙鹏",
+      "rate": 100.0,
+      "present_text": "28/28人次",
+      "present": 28,
+      "total": 28,
+      "absent": 0,
+      "late": 1,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -233,14 +250,6 @@
       "location": "LT3-206"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "08:20-09:00",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "数学",
@@ -252,55 +261,54 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 88.1,
+      "attendance": 93.7,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 86.6,
+      "attendance": 92.2,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 85.1,
+      "attendance": 90.7,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 83.6,
+      "attendance": 89.2,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 82.1,
+      "attendance": 87.7,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 80.6,
+      "attendance": 86.2,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 83.6,
-      "submit": 86.8
+      "attendance": 89.2,
+      "submit": 89.6
     }
   ],
   "lesson": {
-    "completion_rate": 33.3,
-    "called": 4,
+    "completion_rate": 41.7,
+    "called": 5,
     "total": 12,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 8,
     "uncovered_classes": [
+      "十二年级 A21",
       "十一年级 AS1",
-      "十一年级 AS3",
-      "十年级 G21",
+      "九年级 G12",
       "九年级 G11",
       "十年级 G23",
-      "十二年级 A21",
-      "九年级 G12",
-      "十二年级 A22"
+      "十二年级 A22",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -350,14 +358,6 @@
         "teacher": "费楚淇",
         "time": "08:20-09:00",
         "location": "LT3-206"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "08:20-09:00",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G23",
