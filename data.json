@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-14 10:25",
+  "updated_at": "2026-09-14 10:32",
   "school": {
-    "rate": 83.9,
-    "present": 208,
-    "total": 248,
+    "rate": 84.0,
+    "present": 215,
+    "total": 256,
     "late": 5,
-    "absent": 40,
+    "absent": 41,
     "leave": 21
   },
   "summary": {
@@ -102,16 +102,17 @@
       "name": "经济C0(F26)",
       "teacher": "郝畅",
       "rate": 87.5,
-      "present_text": "7/8人次",
-      "present": 7,
-      "total": 8,
-      "absent": 1,
+      "present_text": "14/16人次",
+      "present": 14,
+      "total": 16,
+      "absent": 2,
       "late": 1,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "09:10-09:50"
+        "09:10-09:50",
+        "10:00-10:40"
       ]
     },
     {
@@ -197,6 +198,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "马镕锴",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济C0(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-14T10:25:53"
+    },
     {
       "name": "舒泽杨",
       "class": "G11",
@@ -449,19 +467,6 @@
       "updated_at": "2026-09-14T09:47:55"
     },
     {
-      "name": "马镕锴",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-14T09:37:22"
-    },
-    {
       "name": "王锴杰",
       "class": "AS2",
       "reason": "当日缺课且无请假单",
@@ -618,37 +623,37 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 88.4,
+      "attendance": 88.5,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 86.9,
+      "attendance": 87.0,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 85.4,
+      "attendance": 85.5,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 83.9,
+      "attendance": 84.0,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 82.4,
+      "attendance": 82.5,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 80.9,
+      "attendance": 81.0,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 83.9,
+      "attendance": 84.0,
       "submit": 87.0
     }
   ],
