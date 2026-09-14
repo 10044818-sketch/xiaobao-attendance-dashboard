@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-14 09:55",
+  "updated_at": "2026-09-14 10:02",
   "school": {
     "rate": 84.6,
-    "present": 181,
-    "total": 214,
+    "present": 193,
+    "total": 228,
     "late": 4,
-    "absent": 33,
-    "leave": 16
+    "absent": 35,
+    "leave": 17
   },
   "summary": {
     "pending_yesterday": 0,
@@ -162,9 +162,59 @@
         "08:20-09:00",
         "09:10-09:50"
       ]
+    },
+    {
+      "name": "音乐9A(F26)",
+      "teacher": "刘知言",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "舒泽杨",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-14T10:01:25"
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/16 17:00:00  因近期压力比较大，需要请假调整状态 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-14T10:01:25"
+    },
     {
       "name": "张翰霆",
       "class": "A22",
@@ -301,23 +351,6 @@
         }
       ],
       "updated_at": "2026-09-14T09:37:22"
-    },
-    {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "事假_【已通过】 2026-09-14 08:00:00 至 2026-09-16 17:00:00  因近期压力比较大，需要请假调整状态",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理9A(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-14T09:19:43"
     },
     {
       "name": "王锴杰",
@@ -578,7 +611,7 @@
     "completion_rate": 76.9,
     "called": 20,
     "total": 26,
-    "class_coverage": "9/9",
+    "class_coverage": "10/10",
     "teacher_count": 10,
     "uncovered_classes": [
       "十年级 G23",
