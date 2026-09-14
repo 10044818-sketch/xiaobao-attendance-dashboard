@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-14 12:35",
+  "updated_at": "2026-09-14 12:40",
   "school": {
-    "rate": 85.6,
-    "present": 370,
-    "total": 432,
+    "rate": 86.1,
+    "present": 396,
+    "total": 460,
     "late": 5,
-    "absent": 62,
-    "leave": 37
+    "absent": 64,
+    "leave": 39
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -28,6 +28,23 @@
       "leave": 4,
       "status": "异常",
       "time_spans": [
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学A0(F26)",
+      "teacher": "张小翼",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00",
         "09:10-09:50"
       ]
     },
@@ -317,6 +334,31 @@
   ],
   "absent_students": [
     {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/14 17:00:00  请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-14T12:36:21"
+    },
+    {
       "name": "赵倚珺",
       "class": "AS2",
       "reason": "生病",
@@ -445,23 +487,6 @@
         }
       ],
       "updated_at": "2026-09-14T11:50:44"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/14 17:00:00  请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语写作A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作A0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-14T11:33:36"
     },
     {
       "name": "俞玥",
@@ -819,22 +844,6 @@
   ],
   "pending_roll_call": [
     {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "08:20-09:00",
-      "location": "LT3-107"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "09:10-09:50",
-      "location": "LT3-107"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
@@ -1030,74 +1039,57 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 90.1,
+      "attendance": 90.6,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 88.6,
+      "attendance": 89.1,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 87.1,
+      "attendance": 87.6,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 85.6,
+      "attendance": 86.1,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 84.1,
+      "attendance": 84.6,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 82.6,
+      "attendance": 83.1,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 85.6,
-      "submit": 87.8
+      "attendance": 86.1,
+      "submit": 88.0
     }
   ],
   "lesson": {
-    "completion_rate": 66.7,
-    "called": 52,
+    "completion_rate": 69.2,
+    "called": 54,
     "total": 78,
-    "class_coverage": "18/18",
+    "class_coverage": "19/19",
     "teacher_count": 18,
     "uncovered_classes": [
-      "十一年级 AS1",
       "十一年级 AS2",
+      "十一年级 AS1",
       "十一年级 AS3",
       "十二年级 A21",
-      "高数CR2(F26)",
       "十年级 G21",
+      "十二年级 A22",
       "十年级 G22",
-      "十年级 G23",
-      "十二年级 A22"
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "08:20-09:00",
-        "location": "LT3-107"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "09:10-09:50",
-        "location": "LT3-107"
-      },
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
