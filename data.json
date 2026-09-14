@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-14 14:55",
+  "updated_at": "2026-09-14 15:01",
   "school": {
-    "rate": 84.9,
-    "present": 572,
-    "total": 674,
+    "rate": 85.2,
+    "present": 592,
+    "total": 695,
     "late": 11,
-    "absent": 102,
+    "absent": 103,
     "leave": 62
   },
   "summary": {
@@ -135,16 +135,17 @@
       "name": "物理AX(F26)",
       "teacher": "熊辉",
       "rate": 95.2,
-      "present_text": "20/21人次",
-      "present": 20,
-      "total": 21,
-      "absent": 1,
+      "present_text": "40/42人次",
+      "present": 40,
+      "total": 42,
+      "absent": 2,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "13:00-13:40"
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -544,6 +545,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-14T14:59:01"
+    },
     {
       "name": "沈诗珈",
       "class": "AS2",
@@ -995,27 +1021,6 @@
         }
       ],
       "updated_at": "2026-09-14T13:42:57"
-    },
-    {
-      "name": "桂应沁",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-14T13:36:46"
     },
     {
       "name": "陈乐涵",
@@ -1624,14 +1629,6 @@
       "location": "LT3-111"
     },
     {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "物理",
-      "teacher": "熊辉",
-      "time": "13:50-14:30",
-      "location": "LT3-109"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "英语第二语言听力",
@@ -1643,59 +1640,59 @@
   "trend": [
     {
       "date": "09-08",
-      "attendance": 89.4,
+      "attendance": 89.7,
       "submit": 90.0
     },
     {
       "date": "09-09",
-      "attendance": 87.9,
+      "attendance": 88.2,
       "submit": 90.5
     },
     {
       "date": "09-10",
-      "attendance": 86.4,
+      "attendance": 86.7,
       "submit": 91.0
     },
     {
       "date": "09-11",
-      "attendance": 84.9,
+      "attendance": 85.2,
       "submit": 91.5
     },
     {
       "date": "09-12",
-      "attendance": 83.4,
+      "attendance": 83.7,
       "submit": 92.0
     },
     {
       "date": "09-13",
-      "attendance": 81.9,
+      "attendance": 82.2,
       "submit": 92.5
     },
     {
       "date": "09-14",
-      "attendance": 84.9,
-      "submit": 87.5
+      "attendance": 85.2,
+      "submit": 87.6
     }
   ],
   "lesson": {
-    "completion_rate": 62.4,
-    "called": 73,
+    "completion_rate": 63.2,
+    "called": 74,
     "total": 117,
     "class_coverage": "32/32",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "九年级 G11",
-      "化学BY(F26)",
-      "十年级 G23",
       "十二年级 A21",
+      "九年级 G11",
+      "十二年级 A22",
       "十一年级 AS3",
       "十一年级 AS2",
-      "十年级 G22",
-      "高数CR2(F26)",
       "九年级 G12",
-      "十二年级 A22",
-      "十年级 G21"
+      "化学BY(F26)",
+      "十一年级 AS1",
+      "十年级 G21",
+      "十年级 G22",
+      "十年级 G23",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -2033,14 +2030,6 @@
         "teacher": "职梦凡",
         "time": "13:50-14:30",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "物理",
-        "teacher": "熊辉",
-        "time": "13:50-14:30",
-        "location": "LT3-109"
       },
       {
         "class": "十年级 G23",
