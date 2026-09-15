@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-15 09:05",
+  "updated_at": "2026-09-15 09:10",
   "school": {
     "rate": 85.3,
     "present": 58,
     "total": 68,
-    "late": 3,
+    "late": 6,
     "absent": 10,
     "leave": 5
   },
@@ -87,7 +87,7 @@
       "present": 7,
       "total": 7,
       "absent": 0,
-      "late": 0,
+      "late": 3,
       "early": 0,
       "leave": 0,
       "status": "正常",
@@ -379,11 +379,11 @@
     "teacher_count": 11,
     "uncovered_classes": [
       "化学CB(F26)",
-      "十年级 G23",
-      "十二年级 A21",
-      "十二年级 A22",
       "十一年级 AS1",
+      "十二年级 A21",
       "十年级 G22",
+      "十二年级 A22",
+      "十年级 G23",
       "十年级 G21"
     ],
     "uncovered_teachers": [
