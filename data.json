@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-15 14:06",
+  "updated_at": "2026-09-15 14:12",
   "school": {
     "rate": 86.1,
-    "present": 439,
-    "total": 510,
+    "present": 446,
+    "total": 518,
     "late": 14,
-    "absent": 71,
+    "absent": 72,
     "leave": 46
   },
   "summary": {
@@ -251,17 +251,18 @@
     {
       "name": "物理C0(F26)",
       "teacher": "职梦凡",
-      "rate": 75.0,
-      "present_text": "6/8人次",
-      "present": 6,
-      "total": 8,
-      "absent": 2,
+      "rate": 81.2,
+      "present_text": "13/16人次",
+      "present": 13,
+      "total": 16,
+      "absent": 3,
       "late": 1,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "13:00-13:40"
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -496,6 +497,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理C0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-15T14:09:48"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -737,19 +755,6 @@
         }
       ],
       "updated_at": "2026-09-15T13:46:12"
-    },
-    {
-      "name": "曾禹德",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-15T13:40:23"
     },
     {
       "name": "段锦沐",
@@ -1392,18 +1397,18 @@
     "class_coverage": "29/29",
     "teacher_count": 24,
     "uncovered_classes": [
-      "九年级 G12",
-      "化学AA(F26)",
-      "十二年级 A21",
+      "十一年级 AS3",
       "十二年级 A22",
       "十一年级 AS2",
+      "化学AA(F26)",
+      "十年级 G23",
       "化学A0(F26)",
-      "十年级 G21",
-      "十一年级 AS1",
       "十年级 G22",
       "九年级 G11",
-      "十一年级 AS3",
-      "十年级 G23"
+      "十年级 G21",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
