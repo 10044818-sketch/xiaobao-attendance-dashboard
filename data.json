@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-15 11:01",
+  "updated_at": "2026-09-15 11:05",
   "school": {
-    "rate": 87.6,
-    "present": 220,
+    "rate": 88.0,
+    "present": 221,
     "total": 251,
     "late": 11,
-    "absent": 31,
-    "leave": 19
+    "absent": 30,
+    "leave": 18
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -34,15 +34,15 @@
     {
       "name": "体育AA(F26)",
       "teacher": "沈译宇",
-      "rate": 88.2,
-      "present_text": "15/17人次",
-      "present": 15,
+      "rate": 94.1,
+      "present_text": "16/17人次",
+      "present": 16,
       "total": 17,
-      "absent": 2,
+      "absent": 1,
       "late": 0,
       "early": 0,
-      "leave": 2,
-      "status": "异常",
+      "leave": 1,
+      "status": "关注",
       "time_spans": [
         "10:50-11:30"
       ]
@@ -280,6 +280,19 @@
   ],
   "absent_students": [
     {
+      "name": "朱金贝",
+      "class": "G21",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "体育AA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-15T11:04:11"
+    },
+    {
       "name": "贾征颐",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
@@ -312,32 +325,6 @@
         },
         {
           "course": "体育AB(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-15T10:52:02"
-    },
-    {
-      "name": "朱金贝",
-      "class": "G21",
-      "reason": "已请假",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "体育AA(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-15T10:52:02"
-    },
-    {
-      "name": "梅博文",
-      "class": "G21",
-      "reason": "已请假",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "体育AA(F26)",
           "time": "10:50-11:30"
         }
       ],
@@ -852,38 +839,38 @@
   "trend": [
     {
       "date": "09-09",
-      "attendance": 92.1,
+      "attendance": 92.5,
       "submit": 90.0
     },
     {
       "date": "09-10",
-      "attendance": 90.6,
+      "attendance": 91.0,
       "submit": 90.5
     },
     {
       "date": "09-11",
-      "attendance": 89.1,
+      "attendance": 89.5,
       "submit": 91.0
     },
     {
       "date": "09-12",
-      "attendance": 87.6,
+      "attendance": 88.0,
       "submit": 91.5
     },
     {
       "date": "09-13",
-      "attendance": 86.1,
+      "attendance": 86.5,
       "submit": 92.0
     },
     {
       "date": "09-14",
-      "attendance": 84.6,
+      "attendance": 85.0,
       "submit": 92.5
     },
     {
       "date": "09-15",
-      "attendance": 87.6,
-      "submit": 88.8
+      "attendance": 88.0,
+      "submit": 89.0
     }
   ],
   "lesson": {
@@ -893,17 +880,17 @@
     "class_coverage": "16/16",
     "teacher_count": 19,
     "uncovered_classes": [
-      "九年级 G12",
-      "化学BZ(F26)",
-      "十二年级 A21",
-      "十一年级 AS1",
       "十年级 G21",
       "九年级 G11",
-      "十一年级 AS3",
-      "十年级 G23",
-      "十一年级 AS2",
       "十年级 G22",
-      "十二年级 A22"
+      "十二年级 A22",
+      "十一年级 AS3",
+      "十二年级 A21",
+      "十年级 G23",
+      "九年级 G12",
+      "十一年级 AS1",
+      "化学BZ(F26)",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
