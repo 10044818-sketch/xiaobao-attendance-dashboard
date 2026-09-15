@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-15 13:15",
+  "updated_at": "2026-09-15 13:20",
   "school": {
-    "rate": 86.6,
-    "present": 349,
-    "total": 403,
+    "rate": 86.1,
+    "present": 354,
+    "total": 411,
     "late": 11,
-    "absent": 54,
-    "leave": 31
+    "absent": 57,
+    "leave": 35
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 6,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -34,15 +34,15 @@
     {
       "name": "体育AA(F26)",
       "teacher": "沈译宇",
-      "rate": 94.1,
-      "present_text": "16/17人次",
-      "present": 16,
+      "rate": 88.2,
+      "present_text": "15/17人次",
+      "present": 15,
       "total": 17,
-      "absent": 1,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
-      "status": "关注",
+      "leave": 2,
+      "status": "异常",
       "time_spans": [
         "10:50-11:30"
       ]
@@ -124,7 +124,7 @@
       "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "13:00-13:40"
@@ -174,7 +174,7 @@
       "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -228,6 +228,22 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "物理C0(F26)",
+      "teacher": "职梦凡",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -414,6 +430,65 @@
   ],
   "absent_students": [
     {
+      "name": "童稷丰",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026-09-15 08:00:00 至 2026-09-15 20:00:00  有事",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学AR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-15T13:16:58"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-15T13:16:31"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-15T13:16:31"
+    },
+    {
       "name": "耿子涵",
       "class": "G23",
       "reason": "当日缺课且无请假单",
@@ -518,27 +593,6 @@
         }
       ],
       "updated_at": "2026-09-15T13:05:22"
-    },
-    {
-      "name": "童稷丰",
-      "class": "G21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学AR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-15T13:04:25"
     },
     {
       "name": "贾征颐",
@@ -753,23 +807,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "化学C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-15T10:03:13"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学C0(F26)",
-          "time": "08:20-09:00"
-        },
         {
           "course": "化学C0(F26)",
           "time": "09:10-09:50"
@@ -1125,58 +1162,58 @@
   "trend": [
     {
       "date": "09-09",
-      "attendance": 91.1,
+      "attendance": 90.6,
       "submit": 90.0
     },
     {
       "date": "09-10",
-      "attendance": 89.6,
+      "attendance": 89.1,
       "submit": 90.5
     },
     {
       "date": "09-11",
-      "attendance": 88.1,
+      "attendance": 87.6,
       "submit": 91.0
     },
     {
       "date": "09-12",
-      "attendance": 86.6,
+      "attendance": 86.1,
       "submit": 91.5
     },
     {
       "date": "09-13",
-      "attendance": 85.1,
+      "attendance": 84.6,
       "submit": 92.0
     },
     {
       "date": "09-14",
-      "attendance": 83.6,
+      "attendance": 83.1,
       "submit": 92.5
     },
     {
       "date": "09-15",
-      "attendance": 86.6,
-      "submit": 88.3
+      "attendance": 86.1,
+      "submit": 88.0
     }
   ],
   "lesson": {
     "completion_rate": 67.0,
     "called": 65,
     "total": 97,
-    "class_coverage": "24/24",
+    "class_coverage": "25/25",
     "teacher_count": 20,
     "uncovered_classes": [
-      "化学A0(F26)",
-      "十年级 G22",
-      "九年级 G11",
-      "十年级 G23",
+      "十年级 G21",
+      "十二年级 A21",
       "十一年级 AS1",
       "十一年级 AS3",
-      "十二年级 A21",
-      "九年级 G12",
+      "九年级 G11",
+      "十一年级 AS2",
+      "化学A0(F26)",
       "十二年级 A22",
-      "十年级 G21",
-      "十一年级 AS2"
+      "十年级 G22",
+      "九年级 G12",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
