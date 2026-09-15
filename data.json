@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-15 10:31",
+  "updated_at": "2026-09-15 10:36",
   "school": {
-    "rate": 87.0,
-    "present": 167,
-    "total": 192,
+    "rate": 87.1,
+    "present": 176,
+    "total": 202,
     "late": 11,
-    "absent": 25,
-    "leave": 13
+    "absent": 26,
+    "leave": 14
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -181,6 +181,22 @@
       ]
     },
     {
+      "name": "艺术BX(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 90.0,
+      "present_text": "9/10人次",
+      "present": 9,
+      "total": 10,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "艺术BZ(F26)",
       "teacher": "朱嘉怡",
       "rate": 100.0,
@@ -230,6 +246,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/15 8:00:00 至 2026/9/15 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-15T10:31:49"
+    },
     {
       "name": "桂应沁",
       "class": "G22",
@@ -624,37 +653,37 @@
   "trend": [
     {
       "date": "09-09",
-      "attendance": 91.5,
+      "attendance": 91.6,
       "submit": 90.0
     },
     {
       "date": "09-10",
-      "attendance": 90.0,
+      "attendance": 90.1,
       "submit": 90.5
     },
     {
       "date": "09-11",
-      "attendance": 88.5,
+      "attendance": 88.6,
       "submit": 91.0
     },
     {
       "date": "09-12",
-      "attendance": 87.0,
+      "attendance": 87.1,
       "submit": 91.5
     },
     {
       "date": "09-13",
-      "attendance": 85.5,
+      "attendance": 85.6,
       "submit": 92.0
     },
     {
       "date": "09-14",
-      "attendance": 84.0,
+      "attendance": 84.1,
       "submit": 92.5
     },
     {
       "date": "09-15",
-      "attendance": 87.0,
+      "attendance": 87.1,
       "submit": 88.5
     }
   ],
@@ -662,19 +691,19 @@
     "completion_rate": 66.7,
     "called": 36,
     "total": 54,
-    "class_coverage": "13/13",
+    "class_coverage": "14/14",
     "teacher_count": 13,
     "uncovered_classes": [
-      "化学BZ(F26)",
-      "十一年级 AS3",
-      "九年级 G12",
-      "十年级 G22",
-      "十一年级 AS1",
       "十年级 G23",
-      "十一年级 AS2",
-      "九年级 G11",
+      "九年级 G12",
+      "十一年级 AS1",
+      "十一年级 AS3",
       "十二年级 A22",
-      "十年级 G21"
+      "十年级 G22",
+      "化学BZ(F26)",
+      "九年级 G11",
+      "十年级 G21",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
