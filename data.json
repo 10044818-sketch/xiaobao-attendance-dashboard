@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-15 18:01",
+  "updated_at": "2026-09-15 18:06",
   "school": {
-    "rate": 86.4,
-    "present": 689,
-    "total": 797,
+    "rate": 86.5,
+    "present": 704,
+    "total": 814,
     "late": 14,
-    "absent": 107,
-    "leave": 67
+    "absent": 109,
+    "leave": 69
   },
   "summary": {
     "pending_yesterday": 0,
@@ -270,16 +270,17 @@
       "name": "数学BQ2(F26)",
       "teacher": "潘子清",
       "rate": 88.2,
-      "present_text": "15/17人次",
-      "present": 15,
-      "total": 17,
-      "absent": 2,
+      "present_text": "30/34人次",
+      "present": 30,
+      "total": 34,
+      "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
-        "13:50-14:30"
+        "13:50-14:30",
+        "14:40-15:20"
       ]
     },
     {
@@ -709,6 +710,72 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "王翊宸",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学BZ(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-15T18:02:25"
+    },
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/15 8:00:00 至 2026/9/15 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-15T18:02:25"
+    },
     {
       "name": "舒泽杨",
       "class": "G11",
@@ -1205,64 +1272,6 @@
       "updated_at": "2026-09-15T14:09:48"
     },
     {
-      "name": "王翊宸",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学BZ(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-15T13:52:06"
-    },
-    {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/15 8:00:00 至 2026/9/15 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "艺术BX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "艺术BX(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-15T13:52:06"
-    },
-    {
       "name": "王誉涵",
       "class": "AS3",
       "reason": "事假_【已通过】 2026-09-15 13:00:00 至 2026-09-15 13:30:00  请假",
@@ -1683,22 +1692,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "数学",
-      "teacher": "潘子清",
-      "time": "14:40-15:20",
-      "location": "LT3-118"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "数学",
-      "teacher": "潘子清",
-      "time": "14:40-15:20",
-      "location": "LT3-118"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "雅思英语",
@@ -1750,58 +1743,58 @@
   "trend": [
     {
       "date": "09-09",
-      "attendance": 90.9,
+      "attendance": 91.0,
       "submit": 90.0
     },
     {
       "date": "09-10",
-      "attendance": 89.4,
+      "attendance": 89.5,
       "submit": 90.5
     },
     {
       "date": "09-11",
-      "attendance": 87.9,
+      "attendance": 88.0,
       "submit": 91.0
     },
     {
       "date": "09-12",
-      "attendance": 86.4,
+      "attendance": 86.5,
       "submit": 91.5
     },
     {
       "date": "09-13",
-      "attendance": 84.9,
+      "attendance": 85.0,
       "submit": 92.0
     },
     {
       "date": "09-14",
-      "attendance": 83.4,
+      "attendance": 83.5,
       "submit": 92.5
     },
     {
       "date": "09-15",
-      "attendance": 86.4,
+      "attendance": 86.5,
       "submit": 88.2
     }
   ],
   "lesson": {
-    "completion_rate": 75.2,
-    "called": 124,
+    "completion_rate": 76.4,
+    "called": 126,
     "total": 165,
     "class_coverage": "42/42",
     "teacher_count": 28,
     "uncovered_classes": [
-      "十二年级 A21",
-      "九年级 G12",
-      "十二年级 A22",
+      "十一年级 AS3",
       "十年级 G21",
+      "十二年级 A21",
+      "十二年级 A22",
+      "九年级 G11",
       "高数CR2(F26)",
       "十一年级 AS2",
-      "十一年级 AS3",
       "十年级 G22",
-      "十一年级 AS1",
+      "九年级 G12",
       "十年级 G23",
-      "九年级 G11"
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -2067,22 +2060,6 @@
         "teacher": "李俊",
         "time": "13:50-14:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "数学",
-        "teacher": "潘子清",
-        "time": "14:40-15:20",
-        "location": "LT3-118"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "数学",
-        "teacher": "潘子清",
-        "time": "14:40-15:20",
-        "location": "LT3-118"
       },
       {
         "class": "十二年级 A21",
