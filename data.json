@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-15 11:50",
+  "updated_at": "2026-09-15 11:55",
   "school": {
-    "rate": 88.0,
-    "present": 221,
-    "total": 251,
+    "rate": 88.5,
+    "present": 247,
+    "total": 279,
     "late": 11,
-    "absent": 30,
-    "leave": 18
+    "absent": 32,
+    "leave": 20
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -128,6 +128,23 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学A0(F26)",
+      "teacher": "张小翼",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "09:10-09:50",
+        "10:00-10:40"
       ]
     },
     {
@@ -279,6 +296,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-15T11:53:04"
+    },
     {
       "name": "朱金贝",
       "class": "G21",
@@ -700,14 +734,6 @@
       "location": "LT3-109"
     },
     {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "09:10-09:50",
-      "location": "LT3-107"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "艺术与设计",
@@ -826,14 +852,6 @@
       "teacher": "王伊",
       "time": "10:00-10:40",
       "location": "LT3-116"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "10:00-10:40",
-      "location": "LT3-107"
     },
     {
       "class": "九年级 G11",
@@ -999,59 +1017,59 @@
   "trend": [
     {
       "date": "09-09",
-      "attendance": 92.5,
+      "attendance": 93.0,
       "submit": 90.0
     },
     {
       "date": "09-10",
-      "attendance": 91.0,
+      "attendance": 91.5,
       "submit": 90.5
     },
     {
       "date": "09-11",
-      "attendance": 89.5,
+      "attendance": 90.0,
       "submit": 91.0
     },
     {
       "date": "09-12",
-      "attendance": 88.0,
+      "attendance": 88.5,
       "submit": 91.5
     },
     {
       "date": "09-13",
-      "attendance": 86.5,
+      "attendance": 87.0,
       "submit": 92.0
     },
     {
       "date": "09-14",
-      "attendance": 85.0,
+      "attendance": 85.5,
       "submit": 92.5
     },
     {
       "date": "09-15",
-      "attendance": 88.0,
-      "submit": 89.0
+      "attendance": 88.5,
+      "submit": 89.2
     }
   ],
   "lesson": {
-    "completion_rate": 44.3,
-    "called": 43,
+    "completion_rate": 46.4,
+    "called": 45,
     "total": 97,
-    "class_coverage": "16/16",
+    "class_coverage": "17/17",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十年级 G21",
-      "十一年级 AS1",
-      "十年级 G22",
-      "十二年级 A21",
-      "十一年级 AS2",
-      "九年级 G11",
-      "十年级 G23",
-      "十一年级 AS3",
-      "十二年级 A22",
       "化学A0(F26)",
+      "九年级 G11",
+      "十一年级 AS1",
+      "十一年级 AS2",
       "化学BZ(F26)",
-      "九年级 G12"
+      "十二年级 A22",
+      "十二年级 A21",
+      "十年级 G23",
+      "十年级 G21",
+      "十年级 G22",
+      "九年级 G12",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -1191,14 +1209,6 @@
         "location": "LT3-109"
       },
       {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "09:10-09:50",
-        "location": "LT3-107"
-      },
-      {
         "class": "十一年级 AS1",
         "class_id": 442959,
         "subject": "艺术与设计",
@@ -1317,14 +1327,6 @@
         "teacher": "王伊",
         "time": "10:00-10:40",
         "location": "LT3-116"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "10:00-10:40",
-        "location": "LT3-107"
       },
       {
         "class": "九年级 G11",
