@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-16 09:10",
+  "updated_at": "2026-09-16 09:16",
   "school": {
-    "rate": 76.4,
-    "present": 55,
-    "total": 72,
-    "late": 0,
-    "absent": 17,
-    "leave": 14
+    "rate": 81.3,
+    "present": 109,
+    "total": 134,
+    "late": 2,
+    "absent": 25,
+    "leave": 18
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -18,17 +18,35 @@
     {
       "name": "数学BQ1(F26)",
       "teacher": "杨燕霖",
-      "rate": 85.0,
-      "present_text": "17/20人次",
-      "present": 17,
-      "total": 20,
-      "absent": 3,
-      "late": 0,
+      "rate": 87.5,
+      "present_text": "35/40人次",
+      "present": 35,
+      "total": 40,
+      "absent": 5,
+      "late": 2,
       "early": 0,
-      "leave": 2,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学BQ2(F26)",
+      "teacher": "潘子清",
+      "rate": 94.1,
+      "present_text": "32/34人次",
+      "present": 32,
+      "total": 34,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -78,9 +96,128 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "雅思词汇C0(F26)",
+      "teacher": "贺珍谊",
+      "rate": 50.0,
+      "present_text": "4/8人次",
+      "present": 4,
+      "total": 8,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-16T09:16:34"
+    },
+    {
+      "name": "刘宇茗",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  病假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-16T09:16:34"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-16T09:16:34"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 15:30:00  考雅思 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-16T09:16:34"
+    },
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-16T09:12:35"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-16T09:11:20"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-16T09:11:20"
+    },
     {
       "name": "舒泽杨",
       "class": "G11",
@@ -171,32 +308,6 @@
         }
       ],
       "updated_at": "2026-09-16T08:38:42"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-16T08:22:47"
-    },
-    {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-16T08:22:47"
     },
     {
       "name": "张熙露",
@@ -308,25 +419,9 @@
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
-      "teacher": "潘子清",
-      "time": "08:20-09:00",
-      "location": "LT3-118"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "数学",
       "teacher": "刘晨璐",
       "time": "08:20-09:00",
       "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "数学",
-      "teacher": "潘子清",
-      "time": "08:20-09:00",
-      "location": "LT3-118"
     },
     {
       "class": "十一年级 AS2",
@@ -428,64 +523,56 @@
   "trend": [
     {
       "date": "09-10",
-      "attendance": 80.9,
+      "attendance": 85.8,
       "submit": 90.0
     },
     {
       "date": "09-11",
-      "attendance": 79.4,
+      "attendance": 84.3,
       "submit": 90.5
     },
     {
       "date": "09-12",
-      "attendance": 77.9,
+      "attendance": 82.8,
       "submit": 91.0
     },
     {
       "date": "09-13",
-      "attendance": 76.4,
+      "attendance": 81.3,
       "submit": 91.5
     },
     {
       "date": "09-14",
-      "attendance": 74.9,
+      "attendance": 79.8,
       "submit": 92.0
     },
     {
       "date": "09-15",
-      "attendance": 73.4,
+      "attendance": 78.3,
       "submit": 92.5
     },
     {
       "date": "09-16",
-      "attendance": 76.4,
-      "submit": 83.2
+      "attendance": 81.3,
+      "submit": 85.7
     }
   ],
   "lesson": {
-    "completion_rate": 31.8,
-    "called": 7,
+    "completion_rate": 40.9,
+    "called": 9,
     "total": 22,
-    "class_coverage": "4/4",
+    "class_coverage": "6/6",
     "teacher_count": 10,
     "uncovered_classes": [
       "十一年级 AS2",
-      "十二年级 A22",
-      "十一年级 AS1",
-      "高数CR2(F26)",
       "十年级 G23",
+      "十二年级 A22",
+      "十一年级 AS3",
       "十二年级 A21",
-      "十一年级 AS3"
+      "十一年级 AS1",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "数学",
-        "teacher": "潘子清",
-        "time": "08:20-09:00",
-        "location": "LT3-118"
-      },
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
@@ -493,14 +580,6 @@
         "teacher": "刘晨璐",
         "time": "08:20-09:00",
         "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "数学",
-        "teacher": "潘子清",
-        "time": "08:20-09:00",
-        "location": "LT3-118"
       },
       {
         "class": "十一年级 AS2",
