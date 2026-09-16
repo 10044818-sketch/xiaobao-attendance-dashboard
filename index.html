@@ -66,17 +66,20 @@
     .course-chip .t { font-weight: 600; color: #312e81; }
     .toggle-btn { background: none; border: none; padding: 0; margin-top: 3px; font-size: 11px; color: var(--blue); cursor: pointer; line-height: 1.5; }
     .toggle-btn:hover { text-decoration: underline; }
-    .pending-card { padding: 14px 16px; }
-    .pending-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-    .pending-count { font-size: 12px; font-weight: 600; color: var(--red); }
-    .pending-list { list-style: none; max-height: 240px; overflow-y: auto; margin: 0; padding: 0; }
-    .pending-item { display: flex; align-items: center; gap: 12px; padding: 5px 0; border-bottom: 1px dashed var(--border); font-size: 12px; }
-    .pending-item:last-child { border-bottom: none; }
-    .pending-time { font-weight: 600; color: var(--red); min-width: 88px; font-variant-numeric: tabular-nums; }
-    .pending-class { flex: 1; font-weight: 600; color: var(--text); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .pending-classes { font-size: 11px; font-weight: 400; color: var(--text-secondary); margin-left: 6px; }
-    .pending-teacher { color: var(--text-secondary); min-width: 70px; text-align: right; white-space: nowrap; }
-    .pending-loc { color: var(--text-secondary); font-size: 11px; min-width: 60px; text-align: right; white-space: nowrap; }
+    .pending-card { padding: 16px 18px; }
+    .pending-title { padding-bottom: 10px; margin-bottom: 4px; border-bottom: 2px solid var(--border); }
+    .pending-title-main { font-size: 16px; font-weight: 700; color: var(--text); }
+    .pending-title-sub { font-size: 12px; color: var(--text-secondary); margin-top: 3px; }
+    .pending-list { margin: 0; padding: 0; }
+    .pending-tgroup { padding: 9px 0; border-bottom: 1px dashed var(--border); }
+    .pending-tgroup:last-child { border-bottom: none; }
+    .pending-tname { font-size: 13.5px; font-weight: 700; color: #b91c1c; display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+    .pending-tcount { font-size: 11px; font-weight: 600; background: var(--red-light); color: #991b1b; padding: 1px 7px; border-radius: 10px; }
+    .pending-item { display: flex; align-items: center; gap: 12px; padding: 3px 0 3px 16px; font-size: 12.5px; }
+    .pending-time { font-weight: 600; color: var(--text); min-width: 88px; font-variant-numeric: tabular-nums; }
+    .pending-class { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .pending-classes { font-size: 11px; color: var(--text-secondary); margin-left: 6px; }
+    .pending-loc { color: var(--text-secondary); font-size: 11px; white-space: nowrap; }
     .pending-empty { color: var(--text-secondary); font-size: 13px; padding: 8px 0; }
     .big-num { font-size: 36px; font-weight: 700; }
     .footer { text-align: center; color: var(--text-secondary); font-size: 12px; margin-top: 32px; }
@@ -196,7 +199,7 @@
     <div class="footer" data-page-node-id="xP0SEDNaXJLNcd5LHN4ofI">数据来源：校宝学生管理系统 · 每小时自动更新</div>
   </div>
 
-  <script>window.__XIAOBAO_DATA__ = {"updated_at": "2026-09-16 10:15", "school": {"rate": 77.4, "present": 223, "total": 288, "late": 2, "absent": 65, "leave": 51}, "summary": {"pending_yesterday": 0, "class_attention": 3, "dorm_attention": 0, "invalid_leave": 0}, "classes": [{"name": "体育AB(F26)", "teacher": "沈译宇", "rate": 63.6, "present_text": "14/22人次", "present": 14, "total": 22, "absent": 8, "late": 0, "early": 0, "leave": 7, "status": "异常", "time_spans": ["10:00-10:40"]}, {"name": "化学9A(F26)", "teacher": "张璐菲", "rate": 78.6, "present_text": "11/14人次", "present": 11, "total": 14, "absent": 3, "late": 0, "early": 0, "leave": 3, "status": "异常", "time_spans": ["09:10-09:50"]}, {"name": "商科CA(F26)", "teacher": "余震", "rate": 100.0, "present_text": "2/2人次", "present": 2, "total": 2, "absent": 0, "late": 0, "early": 0, "leave": 0, "status": "正常", "time_spans": ["10:00-10:40", "10:50-11:30"]}, {"name": "数学BQ1(F26)", "teacher": "杨燕霖", "rate": 87.5, "present_text": "35/40人次", "present": 35, "total": 40, "absent": 5, "late": 2, "early": 0, "leave": 3, "status": "异常", "time_spans": ["08:20-09:00", "09:10-09:50"]}, {"name": "数学BQ2(F26)", "teacher": "潘子清", "rate": 94.1, "present_text": "32/34人次", "present": 32, "total": 34, "absent": 2, "late": 0, "early": 0, "leave": 2, "status": "关注", "time_spans": ["08:20-09:00", "09:10-09:50"]}, {"name": "物理AX(F26)", "teacher": "熊辉", "rate": 57.1, "present_text": "24/42人次", "present": 24, "total": 42, "absent": 18, "late": 0, "early": 0, "leave": 16, "status": "异常", "time_spans": ["08:20-09:00", "09:10-09:50"]}, {"name": "物理AY(F26)", "teacher": "职梦凡", "rate": 85.3, "present_text": "29/34人次", "present": 29, "total": 34, "absent": 5, "late": 0, "early": 0, "leave": 5, "status": "异常", "time_spans": ["08:20-09:00", "09:10-09:50"]}, {"name": "物理BY(F26)", "teacher": "魏刘伟", "rate": 94.1, "present_text": "16/17人次", "present": 16, "total": 17, "absent": 1, "late": 0, "early": 0, "leave": 1, "status": "关注", "time_spans": ["10:00-10:40"]}, {"name": "物理CA(F26)", "teacher": "曾靓", "rate": 36.4, "present_text": "4/11人次", "present": 4, "total": 11, "absent": 7, "late": 0, "early": 0, "leave": 1, "status": "异常", "time_spans": ["10:00-10:40"]}, {"name": "经济9A(F26)", "teacher": "郝畅", "rate": 78.6, "present_text": "11/14人次", "present": 11, "total": 14, "absent": 3, "late": 0, "early": 0, "leave": 3, "status": "异常", "time_spans": ["08:20-09:00"]}, {"name": "经济A0(F26)", "teacher": "郝畅", "rate": 85.7, "present_text": "12/14人次", "present": 12, "total": 14, "absent": 2, "late": 0, "early": 0, "leave": 1, "status": "异常", "time_spans": ["10:00-10:40"]}, {"name": "经济BY(F26)", "teacher": "王肇君", "rate": 90.9, "present_text": "10/11人次", "present": 10, "total": 11, "absent": 1, "late": 0, "early": 0, "leave": 1, "status": "关注", "time_spans": ["10:00-10:40"]}, {"name": "雅思写作口语C0(F26)", "teacher": "曹德娟", "rate": 62.5, "present_text": "5/8人次", "present": 5, "total": 8, "absent": 3, "late": 0, "early": 0, "leave": 3, "status": "异常", "time_spans": ["10:00-10:40"]}, {"name": "雅思词汇C0(F26)", "teacher": "贺珍谊", "rate": 50.0, "present_text": "4/8人次", "present": 4, "total": 8, "absent": 4, "late": 0, "early": 0, "leave": 3, "status": "异常", "time_spans": ["09:10-09:50"]}, {"name": "音乐AA(F26)", "teacher": "刘知言", "rate": 82.4, "present_text": "14/17人次", "present": 14, "total": 17, "absent": 3, "late": 0, "early": 0, "leave": 2, "status": "异常", "time_spans": ["10:00-10:40"]}], "absent_students": [{"name": "关矞文", "class": "G22", "reason": "事假_【已通过】 2026-09-16 08:00:00 至 2026-09-16 10:00:00  请假两节课", "type": "事假", "courses": [{"course": "物理AX(F26)", "time": "08:20-09:00"}, {"course": "物理AX(F26)", "time": "09:10-09:50"}, {"course": "体育AB(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:09:25"}, {"name": "焦怡雯", "class": "G23", "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  病假一天 ", "type": "病假", "courses": [{"course": "经济A0(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:08:37"}, {"name": "耿子涵", "class": "G23", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "经济A0(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:08:37"}, {"name": "张熙露", "class": "G22", "reason": "事假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 12:00:00  病假 ", "type": "病假", "courses": [{"course": "物理AX(F26)", "time": "08:20-09:00"}, {"course": "物理AX(F26)", "time": "09:10-09:50"}, {"course": "体育AB(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:06:42"}, {"name": "杨宇齐", "class": "G22", "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 10:00:00  病假两节课 ", "type": "病假", "courses": [{"course": "物理AX(F26)", "time": "08:20-09:00"}, {"course": "物理AX(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-16T10:06:42"}, {"name": "孔维轩", "class": "G22", "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 10:00:00  病假 ", "type": "病假", "courses": [{"course": "物理AX(F26)", "time": "08:20-09:00"}, {"course": "物理AX(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-16T10:06:42"}, {"name": "贾牧荷", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "物理AX(F26)", "time": "08:20-09:00"}, {"course": "物理AX(F26)", "time": "09:10-09:50"}, {"course": "体育AB(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:06:42"}, {"name": "胡鑫玥", "class": "G22", "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  病假一天 ", "type": "病假", "courses": [{"course": "物理AX(F26)", "time": "08:20-09:00"}, {"course": "物理AX(F26)", "time": "09:10-09:50"}, {"course": "体育AB(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:06:42"}, {"name": "桂应沁", "class": "G22", "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ", "type": "事假", "courses": [{"course": "物理AX(F26)", "time": "08:20-09:00"}, {"course": "物理AX(F26)", "time": "09:10-09:50"}, {"course": "体育AB(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:06:42"}, {"name": "傅泽", "class": "G22", "reason": "事假_【已通过】 2026/9/16 9:00:00 至 2026/9/16 12:00:00  病假 ", "type": "病假", "courses": [{"course": "物理AX(F26)", "time": "08:20-09:00"}, {"course": "物理AX(F26)", "time": "09:10-09:50"}, {"course": "体育AB(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:06:42"}, {"name": "杜易宸", "class": "G22", "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 10:00:00  拉肚子病假 ", "type": "病假", "courses": [{"course": "物理AX(F26)", "time": "08:20-09:00"}, {"course": "物理AX(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-16T10:06:42"}, {"name": "舒泽杨", "class": "G11", "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 12:00:00  感冒 ", "type": "病假", "courses": [{"course": "经济9A(F26)", "time": "08:20-09:00"}, {"course": "化学9A(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-16T10:03:22"}, {"name": "梅彧清", "class": "G11", "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  感冒不舒服 ", "type": "病假", "courses": [{"course": "经济9A(F26)", "time": "08:20-09:00"}, {"course": "化学9A(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-16T10:03:22"}, {"name": "李知颖", "class": "G11", "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/16 17:00:00  因近期压力比较大，需要请假调整状态 ", "type": "事假", "courses": [{"course": "经济9A(F26)", "time": "08:20-09:00"}, {"course": "化学9A(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-16T10:03:22"}, {"name": "张翰霆", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "物理CA(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:03:21"}, {"name": "岳沐辰", "class": "A21", "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ", "type": "事假", "courses": [{"course": "物理CA(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:03:21"}, {"name": "许宸嘉", "class": "A21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "物理CA(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:03:21"}, {"name": "徐翎恩", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "物理CA(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:03:21"}, {"name": "王子天", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "物理CA(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:03:21"}, {"name": "汤二璨", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "物理CA(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:03:21"}, {"name": "刘瀚灵", "class": "A21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "物理CA(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:03:21"}, {"name": "赵浩雯", "class": "AS1", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "数学BQ1(F26)", "time": "08:20-09:00"}, {"course": "数学BQ1(F26)", "time": "09:10-09:50"}, {"course": "经济BY(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:03:02"}, {"name": "贾征颐", "class": "G22", "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ", "type": "事假", "courses": [{"course": "体育AB(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:02:17"}, {"name": "符恩溪", "class": "G22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "体育AB(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:02:17"}, {"name": "刘宇茗", "class": "A22", "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  病假 ", "type": "病假", "courses": [{"course": "雅思词汇C0(F26)", "time": "09:10-09:50"}, {"course": "雅思写作口语C0(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:01:39"}, {"name": "江雨霏", "class": "A22", "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  头疼 ", "type": "病假", "courses": [{"course": "雅思词汇C0(F26)", "time": "09:10-09:50"}, {"course": "雅思写作口语C0(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:01:39"}, {"name": "段锦沐", "class": "A21", "reason": "事假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 15:30:00  考雅思 ", "type": "事假", "courses": [{"course": "雅思词汇C0(F26)", "time": "09:10-09:50"}, {"course": "雅思写作口语C0(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:01:39"}, {"name": "朱金贝", "class": "G21", "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ", "type": "事假", "courses": [{"course": "物理AY(F26)", "time": "08:20-09:00"}, {"course": "物理AY(F26)", "time": "09:10-09:50"}, {"course": "音乐AA(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:01:19"}, {"name": "尹勋", "class": "G21", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "音乐AA(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:01:19"}, {"name": "宋玟萱", "class": "G21", "reason": "事假_【已通过】 2026/9/16 7:00:00 至 2026/9/16 20:00:00  不舒服 ", "type": "事假", "courses": [{"course": "物理AY(F26)", "time": "08:20-09:00"}, {"course": "物理AY(F26)", "time": "09:10-09:50"}, {"course": "音乐AA(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:01:19"}, {"name": "陈思佳", "class": "AS2", "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ", "type": "事假", "courses": [{"course": "数学BQ1(F26)", "time": "08:20-09:00"}, {"course": "数学BQ1(F26)", "time": "09:10-09:50"}, {"course": "物理BY(F26)", "time": "10:00-10:40"}], "updated_at": "2026-09-16T10:00:53"}, {"name": "蔡雨涵", "class": "AS2", "reason": "事假_【已通过】 2026-09-16 08:00:00 至 2026-09-16 21:00:00  不舒服", "type": "事假", "courses": [{"course": "数学BQ2(F26)", "time": "08:20-09:00"}, {"course": "数学BQ2(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-16T09:39:19"}, {"name": "茆睿恺", "class": "A22", "reason": "当日缺课且无请假单", "type": "旷课", "courses": [{"course": "雅思词汇C0(F26)", "time": "09:10-09:50"}], "updated_at": "2026-09-16T09:16:34"}, {"name": "肖含章", "class": "G21", "reason": "换裤子", "type": "请假", "courses": [{"course": "物理AY(F26)", "time": "08:20-09:00"}], "updated_at": "2026-09-16T09:03:44"}, {"name": "凌想想", "class": "AS3", "reason": "事假_【已通过】 2026-09-16 08:00:00 至 2026-09-16 09:00:00  堵车", "type": "事假", "courses": [{"course": "数学BQ1(F26)", "time": "08:20-09:00"}], "updated_at": "2026-09-16T08:38:42"}], "pending_roll_call": [{"class": "十一年级 AS1", "class_id": 442959, "subject": "数学", "teacher": "刘晨璐", "time": "08:20-09:00", "location": "LT3-121"}, {"class": "十一年级 AS2", "class_id": 442960, "subject": "数学", "teacher": "刘晨璐", "time": "08:20-09:00", "location": "LT3-121"}, {"class": "十一年级 AS3", "class_id": 442961, "subject": "数学", "teacher": "刘晨璐", "time": "08:20-09:00", "location": "LT3-121"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "雅思听力阅读", "teacher": "瞿芬", "time": "08:20-09:00", "location": "LT3-209"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "数学", "teacher": "刘晨璐", "time": "08:20-09:00", "location": "LT3-121"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "雅思英语", "teacher": "费楚淇", "time": "08:20-09:00", "location": "LT3-206"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "高等数学", "teacher": "李俊", "time": "08:20-09:00", "location": "LT3-208"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "雅思听力阅读", "teacher": "瞿芬", "time": "08:20-09:00", "location": "LT3-209"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "数学", "teacher": "刘晨璐", "time": "08:20-09:00", "location": "LT3-121"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "雅思英语", "teacher": "费楚淇", "time": "08:20-09:00", "location": "LT3-206"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "高等数学", "teacher": "李俊", "time": "08:20-09:00", "location": "LT3-208"}, {"class": "十年级 G23", "class_id": 521638, "subject": "数学", "teacher": "张小翼", "time": "08:20-09:00", "location": "LT3-107"}, {"class": "高数CR2(F26)", "class_id": 521015, "subject": "高等数学", "teacher": "李俊", "time": "08:20-09:00", "location": "LT3-208"}, {"class": "十一年级 AS1", "class_id": 442959, "subject": "数学", "teacher": "刘晨璐", "time": "09:10-09:50", "location": "LT3-121"}, {"class": "十一年级 AS2", "class_id": 442960, "subject": "数学", "teacher": "刘晨璐", "time": "09:10-09:50", "location": "LT3-121"}, {"class": "十一年级 AS3", "class_id": 442961, "subject": "数学", "teacher": "刘晨璐", "time": "09:10-09:50", "location": "LT3-121"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "数学", "teacher": "刘晨璐", "time": "09:10-09:50", "location": "LT3-121"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "雅思英语", "teacher": "费楚淇", "time": "09:10-09:50", "location": "LT3-206"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "高等数学", "teacher": "李俊", "time": "09:10-09:50", "location": "LT3-208"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "数学", "teacher": "刘晨璐", "time": "09:10-09:50", "location": "LT3-121"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "雅思英语", "teacher": "费楚淇", "time": "09:10-09:50", "location": "LT3-206"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "高等数学", "teacher": "李俊", "time": "09:10-09:50", "location": "LT3-208"}, {"class": "十年级 G23", "class_id": 521638, "subject": "数学", "teacher": "张小翼", "time": "09:10-09:50", "location": "LT3-107"}, {"class": "高数CR2(F26)", "class_id": 521015, "subject": "高等数学", "teacher": "李俊", "time": "09:10-09:50", "location": "LT3-208"}], "trend": [{"date": "09-10", "attendance": 81.9, "submit": 90.0}, {"date": "09-11", "attendance": 80.4, "submit": 90.5}, {"date": "09-12", "attendance": 78.9, "submit": 91.0}, {"date": "09-13", "attendance": 77.4, "submit": 91.5}, {"date": "09-14", "attendance": 75.9, "submit": 92.0}, {"date": "09-15", "attendance": 74.4, "submit": 92.5}, {"date": "09-16", "attendance": 77.4, "submit": 83.7}], "lesson": {"completion_rate": 46.7, "called": 21, "total": 45, "class_coverage": "15/15", "teacher_count": 12, "uncovered_classes": ["十一年级 AS3", "十二年级 A22", "十年级 G23", "高数CR2(F26)", "十一年级 AS2", "十一年级 AS1", "十二年级 A21"], "uncovered_teachers": [{"class": "十一年级 AS1", "class_id": 442959, "subject": "数学", "teacher": "刘晨璐", "time": "08:20-09:00", "location": "LT3-121"}, {"class": "十一年级 AS2", "class_id": 442960, "subject": "数学", "teacher": "刘晨璐", "time": "08:20-09:00", "location": "LT3-121"}, {"class": "十一年级 AS3", "class_id": 442961, "subject": "数学", "teacher": "刘晨璐", "time": "08:20-09:00", "location": "LT3-121"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "雅思听力阅读", "teacher": "瞿芬", "time": "08:20-09:00", "location": "LT3-209"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "数学", "teacher": "刘晨璐", "time": "08:20-09:00", "location": "LT3-121"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "雅思英语", "teacher": "费楚淇", "time": "08:20-09:00", "location": "LT3-206"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "高等数学", "teacher": "李俊", "time": "08:20-09:00", "location": "LT3-208"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "雅思听力阅读", "teacher": "瞿芬", "time": "08:20-09:00", "location": "LT3-209"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "数学", "teacher": "刘晨璐", "time": "08:20-09:00", "location": "LT3-121"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "雅思英语", "teacher": "费楚淇", "time": "08:20-09:00", "location": "LT3-206"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "高等数学", "teacher": "李俊", "time": "08:20-09:00", "location": "LT3-208"}, {"class": "十年级 G23", "class_id": 521638, "subject": "数学", "teacher": "张小翼", "time": "08:20-09:00", "location": "LT3-107"}, {"class": "高数CR2(F26)", "class_id": 521015, "subject": "高等数学", "teacher": "李俊", "time": "08:20-09:00", "location": "LT3-208"}, {"class": "十一年级 AS1", "class_id": 442959, "subject": "数学", "teacher": "刘晨璐", "time": "09:10-09:50", "location": "LT3-121"}, {"class": "十一年级 AS2", "class_id": 442960, "subject": "数学", "teacher": "刘晨璐", "time": "09:10-09:50", "location": "LT3-121"}, {"class": "十一年级 AS3", "class_id": 442961, "subject": "数学", "teacher": "刘晨璐", "time": "09:10-09:50", "location": "LT3-121"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "数学", "teacher": "刘晨璐", "time": "09:10-09:50", "location": "LT3-121"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "雅思英语", "teacher": "费楚淇", "time": "09:10-09:50", "location": "LT3-206"}, {"class": "十二年级 A21", "class_id": 366030, "subject": "高等数学", "teacher": "李俊", "time": "09:10-09:50", "location": "LT3-208"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "数学", "teacher": "刘晨璐", "time": "09:10-09:50", "location": "LT3-121"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "雅思英语", "teacher": "费楚淇", "time": "09:10-09:50", "location": "LT3-206"}, {"class": "十二年级 A22", "class_id": 366031, "subject": "高等数学", "teacher": "李俊", "time": "09:10-09:50", "location": "LT3-208"}, {"class": "十年级 G23", "class_id": 521638, "subject": "数学", "teacher": "张小翼", "time": "09:10-09:50", "location": "LT3-107"}, {"class": "高数CR2(F26)", "class_id": 521015, "subject": "高等数学", "teacher": "李俊", "time": "09:10-09:50", "location": "LT3-208"}]}};</script>
+  <script>window.__XIAOBAO_DATA__ = {};</script>
   <script>
     (function () {
       function setText(id, text) { var el = document.getElementById(id); if (el) el.textContent = text; }
@@ -262,7 +265,7 @@
           });
         }
 
-        // 已结束但未点名课堂（按 课程+老师+时间+地点 聚合，行政班以短代号合并显示）
+        // 已结束但未点名课堂（按老师分组，方便截图发群提醒老师）
         var pendingGrid = document.getElementById('pendingRollCallGrid');
         pendingGrid.innerHTML = '';
         var pending = data.pending_roll_call || [];
@@ -277,14 +280,14 @@
             var parts = (name || '').trim().split(/\s+/);
             return parts.length > 1 ? parts[parts.length - 1] : (name || '');
           }
-          // 聚合：相同 (subject, teacher, time, location) 的合并为一节课
+          // 第一步聚合：相同 (subject, teacher, time, location) 的合并为一节课
           var grouped = new Map();
           pending.forEach(function (p) {
             var key = (p.subject || '') + '||' + (p.teacher || '') + '||' + (p.time || '') + '||' + (p.location || '');
             if (!grouped.has(key)) {
               grouped.set(key, {
                 subject: p.subject || '未知课程',
-                teacher: p.teacher || '-',
+                teacher: p.teacher || '',
                 time: p.time || '-',
                 location: p.location || '',
                 classes: []
@@ -296,30 +299,58 @@
             }
           });
           var groups = Array.from(grouped.values());
-          groups.sort(function (a, b) {
-            return (a.time || '').localeCompare(b.time || '');
+
+          // 第二步聚合：按老师分组（同一节课的联合授课老师合并到同一位）
+          var byTeacher = new Map();
+          groups.forEach(function (g) {
+            var key = g.teacher || '未标注老师';
+            if (!byTeacher.has(key)) byTeacher.set(key, []);
+            byTeacher.get(key).push(g);
+          });
+          // 老师排序：按各自最早一节课的时间
+          var teacherList = Array.from(byTeacher.keys()).sort(function (a, b) {
+            var ta = byTeacher.get(a).reduce(function (m, x) { return x.time < m ? x.time : m; }, '99');
+            var tb = byTeacher.get(b).reduce(function (m, x) { return x.time < m ? x.time : m; }, '99');
+            return ta.localeCompare(tb);
           });
 
-          var rows = groups.map(function (g) {
-            var full = g.classes.join(' · ');
-            var short = g.classes.map(shortClass).join('·');
-            var classHtml = short
-              ? '<span class="pending-classes" title="' + full + '">' + short + '</span>'
-              : '';
-            return '<div class="pending-item">' +
-              '<span class="pending-time">' + g.time + '</span>' +
-              '<span class="pending-class">' + g.subject + classHtml + '</span>' +
-              '<span class="pending-teacher">' + g.teacher + '</span>' +
-              (g.location ? '<span class="pending-loc">' + g.location + '</span>' : '') +
+          var totalClasses = groups.length;
+          var bodyHtml = teacherList.map(function (t) {
+            var items = byTeacher.get(t).slice().sort(function (a, b) {
+              return (a.time || '').localeCompare(b.time || '');
+            });
+            var rowsHtml = items.map(function (g) {
+              var full = g.classes.join(' · ');
+              var short = g.classes.map(shortClass).join('·');
+              var classHtml = short
+                ? '<span class="pending-classes" title="' + full + '">' + short + '</span>'
+                : '';
+              return '<div class="pending-item">' +
+                '<span class="pending-time">' + g.time + '</span>' +
+                '<span class="pending-class">' + g.subject + classHtml + '</span>' +
+                (g.location ? '<span class="pending-loc">' + g.location + '</span>' : '') +
+                '</div>';
+            }).join('');
+            return '<div class="pending-tgroup">' +
+              '<div class="pending-tname">' + t + '<span class="pending-tcount">' + items.length + ' 节</span></div>' +
+              rowsHtml +
               '</div>';
           }).join('');
 
+          // 标题栏（截图自包含：日期 + 统计）
+          var up = data.updated_at || '';
+          var um = up.match(/(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/);
+          var dateStr = um
+            ? (parseInt(um[2], 10) + '月' + parseInt(um[3], 10) + '日 ' + um[4] + ':' + um[5])
+            : '';
+
           var card = document.createElement('div');
           card.className = 'card pending-card';
-          card.innerHTML = '<div class="pending-header">' +
-            '<span class="card-sub">以下课堂已结束但尚未点名（滚动查看全部）</span>' +
-            '<span class="pending-count">共 ' + groups.length + ' 节课待点名</span>' +
-            '</div><div class="pending-list">' + rows + '</div>';
+          card.innerHTML = '<div class="pending-title">' +
+            '<div class="pending-title-main">待点名课堂提醒</div>' +
+            '<div class="pending-title-sub">' + (dateStr ? '截至 ' + dateStr + ' · ' : '') +
+              '共 ' + totalClasses + ' 节课 · ' + teacherList.length + ' 位老师待完成</div>' +
+            '</div><div class="pending-list">' + bodyHtml + '</div>';
           pendingGrid.appendChild(card);
         }
 
