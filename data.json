@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-16 12:25",
+  "updated_at": "2026-09-16 12:31",
   "school": {
-    "rate": 80.1,
-    "present": 355,
-    "total": 443,
+    "rate": 80.3,
+    "present": 367,
+    "total": 457,
     "late": 2,
-    "absent": 88,
-    "leave": 68
+    "absent": 90,
+    "leave": 69
   },
   "summary": {
     "pending_yesterday": 0,
@@ -252,16 +252,17 @@
       "name": "经济A0(F26)",
       "teacher": "郝畅",
       "rate": 85.7,
-      "present_text": "12/14人次",
-      "present": 12,
-      "total": 14,
-      "absent": 2,
+      "present_text": "24/28人次",
+      "present": 24,
+      "total": 28,
+      "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -364,6 +365,56 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "焦怡雯",
+      "class": "G23",
+      "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  病假一天 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-16T12:30:30"
+    },
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-16T12:30:30"
+    },
     {
       "name": "桂应沁",
       "class": "G22",
@@ -627,48 +678,6 @@
         }
       ],
       "updated_at": "2026-09-16T10:42:05"
-    },
-    {
-      "name": "焦怡雯",
-      "class": "G23",
-      "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  病假一天 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-16T10:31:38"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-16T10:31:38"
     },
     {
       "name": "刘宇茗",
@@ -1274,72 +1283,63 @@
       "teacher": "Johannes van Baardewijk",
       "time": "10:50-11:30",
       "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-107"
     }
   ],
   "trend": [
     {
       "date": "09-10",
-      "attendance": 84.6,
+      "attendance": 84.8,
       "submit": 90.0
     },
     {
       "date": "09-11",
-      "attendance": 83.1,
+      "attendance": 83.3,
       "submit": 90.5
     },
     {
       "date": "09-12",
-      "attendance": 81.6,
+      "attendance": 81.8,
       "submit": 91.0
     },
     {
       "date": "09-13",
-      "attendance": 80.1,
+      "attendance": 80.3,
       "submit": 91.5
     },
     {
       "date": "09-14",
-      "attendance": 78.6,
+      "attendance": 78.8,
       "submit": 92.0
     },
     {
       "date": "09-15",
-      "attendance": 77.1,
+      "attendance": 77.3,
       "submit": 92.5
     },
     {
       "date": "09-16",
-      "attendance": 80.1,
-      "submit": 85.0
+      "attendance": 80.3,
+      "submit": 85.2
     }
   ],
   "lesson": {
-    "completion_rate": 67.4,
-    "called": 60,
+    "completion_rate": 68.5,
+    "called": 61,
     "total": 89,
     "class_coverage": "21/21",
     "teacher_count": 22,
     "uncovered_classes": [
+      "十一年级 AS1",
       "高数CR2(F26)",
-      "十年级 G21",
       "十二年级 A22",
-      "十年级 G23",
-      "十年级 G22",
-      "十一年级 AS3",
-      "化学BY(F26)",
-      "九年级 G12",
-      "十二年级 A21",
-      "九年级 G11",
       "十一年级 AS2",
-      "十一年级 AS1"
+      "九年级 G11",
+      "十一年级 AS3",
+      "九年级 G12",
+      "十年级 G22",
+      "十二年级 A21",
+      "十年级 G21",
+      "化学BY(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -1565,14 +1565,6 @@
         "teacher": "Johannes van Baardewijk",
         "time": "10:50-11:30",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-107"
       }
     ]
   }
