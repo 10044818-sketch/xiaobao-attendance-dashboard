@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-16 10:45",
+  "updated_at": "2026-09-16 10:55",
   "school": {
-    "rate": 77.8,
-    "present": 263,
-    "total": 338,
+    "rate": 79.3,
+    "present": 295,
+    "total": 372,
     "late": 2,
-    "absent": 75,
-    "leave": 61
+    "absent": 77,
+    "leave": 63
   },
   "summary": {
     "pending_yesterday": 0,
@@ -169,16 +169,17 @@
       "name": "物理BY(F26)",
       "teacher": "魏刘伟",
       "rate": 94.1,
-      "present_text": "16/17人次",
-      "present": 16,
-      "total": 17,
-      "absent": 1,
+      "present_text": "32/34人次",
+      "present": 32,
+      "total": 34,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -195,6 +196,23 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "6/6人次",
+      "present": 6,
+      "total": 6,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -233,16 +251,17 @@
       "name": "经济BY(F26)",
       "teacher": "王肇君",
       "rate": 90.9,
-      "present_text": "10/11人次",
-      "present": 10,
-      "total": 11,
-      "absent": 1,
+      "present_text": "20/22人次",
+      "present": 20,
+      "total": 22,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -296,6 +315,56 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-16T10:51:10"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-16T10:50:11"
+    },
     {
       "name": "舒泽杨",
       "class": "G11",
@@ -733,27 +802,6 @@
       "updated_at": "2026-09-16T10:03:21"
     },
     {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-16T10:03:02"
-    },
-    {
       "name": "贾征颐",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
@@ -833,27 +881,6 @@
         }
       ],
       "updated_at": "2026-09-16T10:01:19"
-    },
-    {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-16T10:00:53"
     },
     {
       "name": "蔡雨涵",
@@ -1120,75 +1147,59 @@
       "teacher": "米万宝",
       "time": "10:00-10:40",
       "location": "LT3-122"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-208"
     }
   ],
   "trend": [
     {
       "date": "09-10",
-      "attendance": 82.3,
+      "attendance": 83.8,
       "submit": 90.0
     },
     {
       "date": "09-11",
-      "attendance": 80.8,
+      "attendance": 82.3,
       "submit": 90.5
     },
     {
       "date": "09-12",
-      "attendance": 79.3,
+      "attendance": 80.8,
       "submit": 91.0
     },
     {
       "date": "09-13",
-      "attendance": 77.8,
+      "attendance": 79.3,
       "submit": 91.5
     },
     {
       "date": "09-14",
-      "attendance": 76.3,
+      "attendance": 77.8,
       "submit": 92.0
     },
     {
       "date": "09-15",
-      "attendance": 74.8,
+      "attendance": 76.3,
       "submit": 92.5
     },
     {
       "date": "09-16",
-      "attendance": 77.8,
-      "submit": 83.9
+      "attendance": 79.3,
+      "submit": 84.7
     }
   ],
   "lesson": {
-    "completion_rate": 56.9,
-    "called": 37,
+    "completion_rate": 60.0,
+    "called": 39,
     "total": 65,
-    "class_coverage": "17/17",
+    "class_coverage": "18/18",
     "teacher_count": 20,
     "uncovered_classes": [
+      "高数CR2(F26)",
+      "十一年级 AS1",
+      "十一年级 AS2",
       "十二年级 A21",
       "十一年级 AS3",
-      "十二年级 A22",
-      "十一年级 AS2",
       "化学BY(F26)",
-      "高数CR2(F26)",
-      "十一年级 AS1"
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -1398,22 +1409,6 @@
         "teacher": "米万宝",
         "time": "10:00-10:40",
         "location": "LT3-122"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-208"
       }
     ]
   }
