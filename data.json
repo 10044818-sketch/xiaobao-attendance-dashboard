@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-16 17:35",
+  "updated_at": "2026-09-16 17:42",
   "school": {
-    "rate": 81.1,
-    "present": 885,
-    "total": 1091,
+    "rate": 81.0,
+    "present": 888,
+    "total": 1096,
     "late": 8,
-    "absent": 206,
+    "absent": 208,
     "leave": 167
   },
   "summary": {
@@ -631,6 +631,38 @@
       ]
     },
     {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
+      "name": "艺术CB(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 33.3,
+      "present_text": "1/3人次",
+      "present": 1,
+      "total": 3,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
       "name": "英语写作A0(F26)",
       "teacher": "钱嘉音",
       "rate": 85.7,
@@ -907,6 +939,40 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "洪若玲",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-16T17:39:29"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ3(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "艺术CB(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-16T17:39:29"
+    },
     {
       "name": "舒泽杨",
       "class": "G11",
@@ -1977,23 +2043,6 @@
       "updated_at": "2026-09-16T13:03:46"
     },
     {
-      "name": "高子涵",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ3(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ3(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-16T11:20:39"
-    },
-    {
       "name": "杨宇齐",
       "class": "G22",
       "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 10:00:00  病假两节课 ",
@@ -2363,37 +2412,37 @@
   "trend": [
     {
       "date": "09-10",
-      "attendance": 85.6,
+      "attendance": 85.5,
       "submit": 90.0
     },
     {
       "date": "09-11",
-      "attendance": 84.1,
+      "attendance": 84.0,
       "submit": 90.5
     },
     {
       "date": "09-12",
-      "attendance": 82.6,
+      "attendance": 82.5,
       "submit": 91.0
     },
     {
       "date": "09-13",
-      "attendance": 81.1,
+      "attendance": 81.0,
       "submit": 91.5
     },
     {
       "date": "09-14",
-      "attendance": 79.6,
+      "attendance": 79.5,
       "submit": 92.0
     },
     {
       "date": "09-15",
-      "attendance": 78.1,
+      "attendance": 78.0,
       "submit": 92.5
     },
     {
       "date": "09-16",
-      "attendance": 81.1,
+      "attendance": 81.0,
       "submit": 85.5
     }
   ],
@@ -2401,17 +2450,17 @@
     "completion_rate": 83.3,
     "called": 155,
     "total": 186,
-    "class_coverage": "54/54",
+    "class_coverage": "56/56",
     "teacher_count": 28,
     "uncovered_classes": [
-      "十二年级 A21",
-      "九年级 G11",
-      "十一年级 AS3",
+      "十年级 G21",
+      "十年级 G22",
       "九年级 G12",
       "十一年级 AS1",
+      "九年级 G11",
       "十一年级 AS2",
-      "十年级 G22",
-      "十年级 G21",
+      "十一年级 AS3",
+      "十二年级 A21",
       "十二年级 A22"
     ],
     "uncovered_teachers": [
