@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-16 11:45",
+  "updated_at": "2026-09-16 11:50",
   "school": {
-    "rate": 79.5,
-    "present": 329,
-    "total": 414,
+    "rate": 80.1,
+    "present": 355,
+    "total": 443,
     "late": 2,
-    "absent": 85,
-    "leave": 65
+    "absent": 88,
+    "leave": 68
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -282,6 +282,38 @@
       ]
     },
     {
+      "name": "英语听力阅读AQ1(F26)",
+      "teacher": "王伊",
+      "rate": 93.8,
+      "present_text": "15/16人次",
+      "present": 15,
+      "total": 16,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
+      "name": "英语听力阅读AQ3(F26)",
+      "teacher": "王伊",
+      "rate": 84.6,
+      "present_text": "11/13人次",
+      "present": 11,
+      "total": 13,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "雅思写作口语C0(F26)",
       "teacher": "曹德娟",
       "rate": 62.5,
@@ -332,6 +364,81 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-16T11:46:31"
+    },
+    {
+      "name": "朱金贝",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐AA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ3(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-16T11:46:17"
+    },
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  病假一天 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ3(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-16T11:46:17"
+    },
     {
       "name": "张翰霆",
       "class": "A22",
@@ -724,48 +831,6 @@
       "updated_at": "2026-09-16T10:06:42"
     },
     {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  病假一天 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育AB(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-16T10:06:42"
-    },
-    {
-      "name": "桂应沁",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育AB(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-16T10:06:42"
-    },
-    {
       "name": "傅泽",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/16 9:00:00 至 2026/9/16 12:00:00  病假 ",
@@ -893,27 +958,6 @@
         }
       ],
       "updated_at": "2026-09-16T10:02:17"
-    },
-    {
-      "name": "朱金贝",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐AA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-16T10:01:19"
     },
     {
       "name": "尹勋",
@@ -1216,14 +1260,6 @@
       "location": "LT3-111"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "10:50-11:30",
-      "location": "LT3-116"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "英语第二语言写作",
@@ -1240,14 +1276,6 @@
       "location": "LT3-111"
     },
     {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "10:50-11:30",
-      "location": "LT3-116"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "经济学",
@@ -1259,59 +1287,59 @@
   "trend": [
     {
       "date": "09-10",
-      "attendance": 84.0,
+      "attendance": 84.6,
       "submit": 90.0
     },
     {
       "date": "09-11",
-      "attendance": 82.5,
+      "attendance": 83.1,
       "submit": 90.5
     },
     {
       "date": "09-12",
-      "attendance": 81.0,
+      "attendance": 81.6,
       "submit": 91.0
     },
     {
       "date": "09-13",
-      "attendance": 79.5,
+      "attendance": 80.1,
       "submit": 91.5
     },
     {
       "date": "09-14",
-      "attendance": 78.0,
+      "attendance": 78.6,
       "submit": 92.0
     },
     {
       "date": "09-15",
-      "attendance": 76.5,
+      "attendance": 77.1,
       "submit": 92.5
     },
     {
       "date": "09-16",
-      "attendance": 79.5,
-      "submit": 84.8
+      "attendance": 80.1,
+      "submit": 85.0
     }
   ],
   "lesson": {
-    "completion_rate": 65.2,
-    "called": 58,
+    "completion_rate": 67.4,
+    "called": 60,
     "total": 89,
-    "class_coverage": "19/19",
+    "class_coverage": "21/21",
     "teacher_count": 22,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "十二年级 A21",
-      "九年级 G11",
-      "九年级 G12",
+      "十一年级 AS2",
       "十年级 G22",
+      "十一年级 AS3",
       "十年级 G21",
       "十年级 G23",
-      "十二年级 A22",
-      "十一年级 AS1",
-      "高数CR2(F26)",
+      "九年级 G11",
       "化学BY(F26)",
-      "十一年级 AS2"
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十二年级 A22",
+      "九年级 G12",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -1523,14 +1551,6 @@
         "location": "LT3-111"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "10:50-11:30",
-        "location": "LT3-116"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "英语第二语言写作",
@@ -1545,14 +1565,6 @@
         "teacher": "Johannes van Baardewijk",
         "time": "10:50-11:30",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "10:50-11:30",
-        "location": "LT3-116"
       },
       {
         "class": "十年级 G23",
