@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-16 09:05",
+  "updated_at": "2026-09-16 09:10",
   "school": {
-    "rate": 75.9,
-    "present": 44,
-    "total": 58,
+    "rate": 76.4,
+    "present": 55,
+    "total": 72,
     "late": 0,
-    "absent": 14,
-    "leave": 11
+    "absent": 17,
+    "leave": 14
   },
   "summary": {
     "pending_yesterday": 0,
@@ -62,9 +62,64 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 78.6,
+      "present_text": "11/14人次",
+      "present": 11,
+      "total": 14,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "舒泽杨",
+      "class": "G11",
+      "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 12:00:00  感冒 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-16T09:08:49"
+    },
+    {
+      "name": "梅彧清",
+      "class": "G11",
+      "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  感冒不舒服 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-16T09:08:49"
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/16 17:00:00  因近期压力比较大，需要请假调整状态 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-16T09:08:49"
+    },
     {
       "name": "朱金贝",
       "class": "G21",
@@ -250,22 +305,6 @@
   ],
   "pending_roll_call": [
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
@@ -389,74 +428,56 @@
   "trend": [
     {
       "date": "09-10",
-      "attendance": 80.4,
+      "attendance": 80.9,
       "submit": 90.0
     },
     {
       "date": "09-11",
-      "attendance": 78.9,
+      "attendance": 79.4,
       "submit": 90.5
     },
     {
       "date": "09-12",
-      "attendance": 77.4,
+      "attendance": 77.9,
       "submit": 91.0
     },
     {
       "date": "09-13",
-      "attendance": 75.9,
+      "attendance": 76.4,
       "submit": 91.5
     },
     {
       "date": "09-14",
-      "attendance": 74.4,
+      "attendance": 74.9,
       "submit": 92.0
     },
     {
       "date": "09-15",
-      "attendance": 72.9,
+      "attendance": 73.4,
       "submit": 92.5
     },
     {
       "date": "09-16",
-      "attendance": 75.9,
-      "submit": 83.0
+      "attendance": 76.4,
+      "submit": 83.2
     }
   ],
   "lesson": {
-    "completion_rate": 22.7,
-    "called": 5,
+    "completion_rate": 31.8,
+    "called": 7,
     "total": 22,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 10,
     "uncovered_classes": [
+      "十一年级 AS2",
+      "十二年级 A22",
+      "十一年级 AS1",
+      "高数CR2(F26)",
       "十年级 G23",
       "十二年级 A21",
-      "九年级 G12",
-      "高数CR2(F26)",
-      "十一年级 AS2",
-      "十一年级 AS1",
-      "九年级 G11",
-      "十二年级 A22",
       "十一年级 AS3"
     ],
     "uncovered_teachers": [
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
