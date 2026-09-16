@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16 16:55",
+  "updated_at": "2026-09-16 17:03",
   "school": {
     "rate": 81.2,
     "present": 814,
@@ -2268,6 +2268,70 @@
       "teacher": "王丽媛、朱嘉怡",
       "time": "15:30-16:10",
       "location": "LT3-212"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "数学",
+      "teacher": "李俊",
+      "time": "16:20-17:00",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "数学",
+      "teacher": "李俊",
+      "time": "16:20-17:00",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "16:20-17:00",
+      "location": ""
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "16:20-17:00",
+      "location": ""
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言写作",
+      "teacher": "贺珍谊",
+      "time": "16:20-17:00",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "16:20-17:00",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言写作",
+      "teacher": "贺珍谊",
+      "time": "16:20-17:00",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "16:20-17:00",
+      "location": "LT3-116"
     }
   ],
   "trend": [
@@ -2308,22 +2372,22 @@
     }
   ],
   "lesson": {
-    "completion_rate": 76.4,
-    "called": 126,
-    "total": 165,
+    "completion_rate": 74.7,
+    "called": 139,
+    "total": 186,
     "class_coverage": "49/49",
     "teacher_count": 28,
     "uncovered_classes": [
-      "高数CR2(F26)",
       "十一年级 AS1",
-      "十二年级 A21",
-      "十年级 G21",
-      "十一年级 AS3",
-      "九年级 G12",
-      "十二年级 A22",
-      "九年级 G11",
       "十年级 G22",
-      "十一年级 AS2"
+      "十一年级 AS3",
+      "九年级 G11",
+      "十一年级 AS2",
+      "高数CR2(F26)",
+      "十年级 G21",
+      "九年级 G12",
+      "十二年级 A21",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -2637,6 +2701,70 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "15:30-16:10",
         "location": "LT3-212"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "数学",
+        "teacher": "李俊",
+        "time": "16:20-17:00",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "数学",
+        "teacher": "李俊",
+        "time": "16:20-17:00",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "16:20-17:00",
+        "location": ""
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "16:20-17:00",
+        "location": ""
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言写作",
+        "teacher": "贺珍谊",
+        "time": "16:20-17:00",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "16:20-17:00",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言写作",
+        "teacher": "贺珍谊",
+        "time": "16:20-17:00",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "16:20-17:00",
+        "location": "LT3-116"
       }
     ]
   }
