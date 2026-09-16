@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-16 14:01",
+  "updated_at": "2026-09-16 14:05",
   "school": {
-    "rate": 79.7,
-    "present": 496,
+    "rate": 79.4,
+    "present": 494,
     "total": 622,
     "late": 5,
-    "absent": 126,
-    "leave": 95
+    "absent": 128,
+    "leave": 101
   },
   "summary": {
     "pending_yesterday": 0,
@@ -91,7 +91,7 @@
       "absent": 8,
       "late": 0,
       "early": 0,
-      "leave": 4,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
         "13:00-13:40",
@@ -191,7 +191,7 @@
       "absent": 18,
       "late": 0,
       "early": 0,
-      "leave": 16,
+      "leave": 18,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -352,14 +352,14 @@
     {
       "name": "英语听力阅读AQ1(F26)",
       "teacher": "王伊",
-      "rate": 87.5,
-      "present_text": "14/16人次",
-      "present": 14,
+      "rate": 81.2,
+      "present_text": "13/16人次",
+      "present": 13,
       "total": 16,
-      "absent": 2,
+      "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
         "16:20-17:00"
@@ -368,14 +368,14 @@
     {
       "name": "英语听力阅读AQ3(F26)",
       "teacher": "王伊",
-      "rate": 84.6,
-      "present_text": "11/13人次",
-      "present": 11,
+      "rate": 76.9,
+      "present_text": "10/13人次",
+      "present": 10,
       "total": 13,
-      "absent": 2,
+      "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
@@ -512,6 +512,64 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "关矞文",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026-09-16 12:00:00 至 2026-09-16 17:00:00  请假",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-16T14:02:29"
+    },
+    {
+      "name": "贾牧荷",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026-09-16 08:00:00 至 2026-09-16 17:00:00  病假",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ3(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-16T14:01:50"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -667,35 +725,6 @@
       "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
       "type": "事假",
       "courses": [
-        {
-          "course": "体育AB(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-16T13:51:06"
-    },
-    {
-      "name": "贾牧荷",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        },
         {
           "course": "体育AB(F26)",
           "time": "10:00-10:40"
@@ -1219,27 +1248,6 @@
       "updated_at": "2026-09-16T11:20:39"
     },
     {
-      "name": "关矞文",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026-09-16 08:00:00 至 2026-09-16 10:00:00  请假两节课",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育AB(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-16T10:09:25"
-    },
-    {
       "name": "杨宇齐",
       "class": "G22",
       "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 10:00:00  病假两节课 ",
@@ -1662,38 +1670,38 @@
   "trend": [
     {
       "date": "09-10",
-      "attendance": 84.2,
+      "attendance": 83.9,
       "submit": 90.0
     },
     {
       "date": "09-11",
-      "attendance": 82.7,
+      "attendance": 82.4,
       "submit": 90.5
     },
     {
       "date": "09-12",
-      "attendance": 81.2,
+      "attendance": 80.9,
       "submit": 91.0
     },
     {
       "date": "09-13",
-      "attendance": 79.7,
+      "attendance": 79.4,
       "submit": 91.5
     },
     {
       "date": "09-14",
-      "attendance": 78.2,
+      "attendance": 77.9,
       "submit": 92.0
     },
     {
       "date": "09-15",
-      "attendance": 76.7,
+      "attendance": 76.4,
       "submit": 92.5
     },
     {
       "date": "09-16",
-      "attendance": 79.7,
-      "submit": 84.8
+      "attendance": 79.4,
+      "submit": 84.7
     }
   ],
   "lesson": {
@@ -1705,15 +1713,15 @@
     "uncovered_classes": [
       "十二年级 A22",
       "化学BY(F26)",
-      "九年级 G11",
+      "十一年级 AS2",
+      "十年级 G22",
+      "十年级 G21",
+      "十一年级 AS3",
       "九年级 G12",
       "十一年级 AS1",
       "高数CR2(F26)",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "十年级 G22",
-      "十年级 G21",
-      "十二年级 A21"
+      "十二年级 A21",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
