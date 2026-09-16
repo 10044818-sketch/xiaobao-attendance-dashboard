@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-16 09:36",
+  "updated_at": "2026-09-16 09:41",
   "school": {
     "rate": 80.6,
     "present": 108,
     "total": 134,
     "late": 2,
     "absent": 26,
-    "leave": 19
+    "leave": 21
   },
   "summary": {
     "pending_yesterday": 0,
@@ -42,7 +42,7 @@
       "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 0,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
         "08:20-09:00",
@@ -116,6 +116,23 @@
   ],
   "absent_students": [
     {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026-09-16 08:00:00 至 2026-09-16 21:00:00  不舒服",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-16T09:39:19"
+    },
+    {
       "name": "傅泽",
       "class": "G22",
       "reason": "事假_【已通过】 2026-09-16 09:00:00 至 2026-09-16 12:00:00  病假",
@@ -179,23 +196,6 @@
         }
       ],
       "updated_at": "2026-09-16T09:16:34"
-    },
-    {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-16T09:12:35"
     },
     {
       "name": "赵浩雯",
@@ -577,12 +577,12 @@
     "class_coverage": "6/6",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十一年级 AS3",
+      "十一年级 AS2",
       "十年级 G23",
-      "十二年级 A22",
+      "十一年级 AS3",
       "十一年级 AS1",
       "高数CR2(F26)",
-      "十一年级 AS2",
+      "十二年级 A22",
       "十二年级 A21"
     ],
     "uncovered_teachers": [
