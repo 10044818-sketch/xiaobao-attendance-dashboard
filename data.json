@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-16 13:36",
+  "updated_at": "2026-09-16 13:41",
   "school": {
-    "rate": 79.2,
-    "present": 438,
+    "rate": 79.4,
+    "present": 439,
     "total": 553,
-    "late": 4,
-    "absent": 115,
+    "late": 5,
+    "absent": 114,
     "leave": 84
   },
   "summary": {
@@ -234,12 +234,12 @@
     {
       "name": "物理C0(F26)",
       "teacher": "职梦凡",
-      "rate": 37.5,
-      "present_text": "3/8人次",
-      "present": 3,
+      "rate": 50.0,
+      "present_text": "4/8人次",
+      "present": 4,
       "total": 8,
-      "absent": 5,
-      "late": 1,
+      "absent": 4,
+      "late": 2,
       "early": 0,
       "leave": 3,
       "status": "异常",
@@ -463,32 +463,6 @@
   ],
   "absent_students": [
     {
-      "name": "钱一诺",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026-09-16 13:00:00 至 2026-09-16 22:00:00  不舒服",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语听力阅读AQ1(F26)",
-          "time": "16:20-17:00"
-        }
-      ],
-      "updated_at": "2026-09-16T13:28:11"
-    },
-    {
-      "name": "周沛东",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-16T13:28:08"
-    },
-    {
       "name": "曾禹德",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -499,7 +473,7 @@
           "time": "13:00-13:40"
         }
       ],
-      "updated_at": "2026-09-16T13:28:08"
+      "updated_at": "2026-09-16T13:37:22"
     },
     {
       "name": "刘宇茗",
@@ -524,7 +498,7 @@
           "time": "13:00-13:40"
         }
       ],
-      "updated_at": "2026-09-16T13:28:08"
+      "updated_at": "2026-09-16T13:37:22"
     },
     {
       "name": "江雨霏",
@@ -549,7 +523,7 @@
           "time": "13:00-13:40"
         }
       ],
-      "updated_at": "2026-09-16T13:28:08"
+      "updated_at": "2026-09-16T13:37:22"
     },
     {
       "name": "段锦沐",
@@ -574,7 +548,20 @@
           "time": "13:00-13:40"
         }
       ],
-      "updated_at": "2026-09-16T13:28:08"
+      "updated_at": "2026-09-16T13:37:22"
+    },
+    {
+      "name": "钱一诺",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026-09-16 13:00:00 至 2026-09-16 22:00:00  不舒服",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-16T13:28:11"
     },
     {
       "name": "赵浩雯",
@@ -1500,63 +1487,135 @@
       "teacher": "Johannes van Baardewijk",
       "time": "10:50-11:30",
       "location": "LT3-111"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:00-13:40",
+      "location": "LT3-104"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:00-13:40",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "13:00-13:40",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思英语",
+      "teacher": "费楚淇",
+      "time": "13:00-13:40",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思英语",
+      "teacher": "费楚淇",
+      "time": "13:00-13:40",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "13:00-13:40",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "13:00-13:40",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "13:00-13:40",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "13:00-13:40",
+      "location": "LT3-116"
     }
   ],
   "trend": [
     {
       "date": "09-10",
-      "attendance": 83.7,
+      "attendance": 83.9,
       "submit": 90.0
     },
     {
       "date": "09-11",
-      "attendance": 82.2,
+      "attendance": 82.4,
       "submit": 90.5
     },
     {
       "date": "09-12",
-      "attendance": 80.7,
+      "attendance": 80.9,
       "submit": 91.0
     },
     {
       "date": "09-13",
-      "attendance": 79.2,
+      "attendance": 79.4,
       "submit": 91.5
     },
     {
       "date": "09-14",
-      "attendance": 77.7,
+      "attendance": 77.9,
       "submit": 92.0
     },
     {
       "date": "09-15",
-      "attendance": 76.2,
+      "attendance": 76.4,
       "submit": 92.5
     },
     {
       "date": "09-16",
-      "attendance": 79.2,
-      "submit": 84.6
+      "attendance": 79.4,
+      "submit": 84.7
     }
   ],
   "lesson": {
-    "completion_rate": 70.8,
-    "called": 63,
-    "total": 89,
+    "completion_rate": 67.3,
+    "called": 72,
+    "total": 107,
     "class_coverage": "27/27",
-    "teacher_count": 22,
+    "teacher_count": 26,
     "uncovered_classes": [
       "十一年级 AS2",
+      "十一年级 AS1",
+      "高数CR2(F26)",
+      "十年级 G22",
       "九年级 G11",
       "十二年级 A22",
-      "化学BY(F26)",
-      "九年级 G12",
       "十二年级 A21",
-      "高数CR2(F26)",
-      "十一年级 AS1",
-      "十年级 G22",
+      "九年级 G12",
+      "十年级 G21",
       "十一年级 AS3",
-      "十年级 G21"
+      "化学BY(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -1766,6 +1825,78 @@
         "teacher": "Johannes van Baardewijk",
         "time": "10:50-11:30",
         "location": "LT3-111"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:00-13:40",
+        "location": "LT3-104"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:00-13:40",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "13:00-13:40",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思英语",
+        "teacher": "费楚淇",
+        "time": "13:00-13:40",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思英语",
+        "teacher": "费楚淇",
+        "time": "13:00-13:40",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "潘丽",
+        "time": "13:00-13:40",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "13:00-13:40",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "潘丽",
+        "time": "13:00-13:40",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "13:00-13:40",
+        "location": "LT3-116"
       }
     ]
   }
