@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-16 09:55",
+  "updated_at": "2026-09-16 10:01",
   "school": {
-    "rate": 80.6,
-    "present": 108,
-    "total": 134,
+    "rate": 82.7,
+    "present": 139,
+    "total": 168,
     "late": 2,
-    "absent": 26,
-    "leave": 21
+    "absent": 29,
+    "leave": 24
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -68,17 +68,34 @@
     {
       "name": "物理AY(F26)",
       "teacher": "职梦凡",
-      "rate": 82.4,
-      "present_text": "14/17人次",
-      "present": 14,
-      "total": 17,
-      "absent": 3,
+      "rate": 85.3,
+      "present_text": "29/34人次",
+      "present": 29,
+      "total": 34,
+      "absent": 5,
       "late": 0,
       "early": 0,
-      "leave": 3,
+      "leave": 5,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "物理BY(F26)",
+      "teacher": "魏刘伟",
+      "rate": 94.1,
+      "present_text": "16/17人次",
+      "present": 16,
+      "total": 17,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40"
       ]
     },
     {
@@ -115,6 +132,61 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-16T10:00:53"
+    },
+    {
+      "name": "朱金贝",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-16T09:57:01"
+    },
+    {
+      "name": "宋玟萱",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/16 7:00:00 至 2026/9/16 20:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-16T09:57:01"
+    },
     {
       "name": "蔡雨涵",
       "class": "AS2",
@@ -215,23 +287,6 @@
       "updated_at": "2026-09-16T09:11:20"
     },
     {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-16T09:11:20"
-    },
-    {
       "name": "舒泽杨",
       "class": "G11",
       "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 12:00:00  感冒 ",
@@ -271,36 +326,10 @@
       "updated_at": "2026-09-16T09:08:49"
     },
     {
-      "name": "朱金贝",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-16T09:03:44"
-    },
-    {
       "name": "肖含章",
       "class": "G21",
       "reason": "换裤子",
       "type": "请假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-16T09:03:44"
-    },
-    {
-      "name": "宋玟萱",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/16 7:00:00 至 2026/9/16 20:00:00  不舒服 ",
-      "type": "事假",
       "courses": [
         {
           "course": "物理AY(F26)",
@@ -629,14 +658,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "09:10-09:50",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "物理",
@@ -664,59 +685,58 @@
   "trend": [
     {
       "date": "09-10",
-      "attendance": 85.1,
+      "attendance": 87.2,
       "submit": 90.0
     },
     {
       "date": "09-11",
-      "attendance": 83.6,
+      "attendance": 85.7,
       "submit": 90.5
     },
     {
       "date": "09-12",
-      "attendance": 82.1,
+      "attendance": 84.2,
       "submit": 91.0
     },
     {
       "date": "09-13",
-      "attendance": 80.6,
+      "attendance": 82.7,
       "submit": 91.5
     },
     {
       "date": "09-14",
-      "attendance": 79.1,
+      "attendance": 81.2,
       "submit": 92.0
     },
     {
       "date": "09-15",
-      "attendance": 77.6,
+      "attendance": 79.7,
       "submit": 92.5
     },
     {
       "date": "09-16",
-      "attendance": 80.6,
-      "submit": 85.3
+      "attendance": 82.7,
+      "submit": 86.3
     }
   ],
   "lesson": {
-    "completion_rate": 35.6,
-    "called": 16,
+    "completion_rate": 37.8,
+    "called": 17,
     "total": 45,
-    "class_coverage": "6/6",
+    "class_coverage": "7/7",
     "teacher_count": 12,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十年级 G23",
-      "十一年级 AS3",
       "十一年级 AS2",
+      "高数CR2(F26)",
+      "十一年级 AS3",
+      "十年级 G23",
       "九年级 G12",
       "十一年级 AS1",
-      "十年级 G21",
-      "十年级 G22",
-      "高数CR2(F26)",
-      "九年级 G11",
+      "十二年级 A22",
       "化学9A(F26)",
-      "十二年级 A22"
+      "十年级 G22",
+      "十二年级 A21",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -918,14 +938,6 @@
         "teacher": "李俊",
         "time": "09:10-09:50",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "09:10-09:50",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G22",
