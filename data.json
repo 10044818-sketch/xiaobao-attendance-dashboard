@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-16 16:25",
+  "updated_at": "2026-09-16 16:31",
   "school": {
-    "rate": 80.0,
-    "present": 734,
-    "total": 917,
+    "rate": 81.2,
+    "present": 802,
+    "total": 988,
     "late": 8,
-    "absent": 183,
-    "leave": 146
+    "absent": 186,
+    "leave": 149
   },
   "summary": {
     "pending_yesterday": 0,
@@ -81,6 +81,40 @@
       ]
     },
     {
+      "name": "化学BY(F26)",
+      "teacher": "米万宝",
+      "rate": 100.0,
+      "present_text": "48/48人次",
+      "present": 48,
+      "total": 48,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30",
+        "14:40-15:20"
+      ]
+    },
+    {
+      "name": "化学BZ(F26)",
+      "teacher": "米万宝",
+      "rate": 76.9,
+      "present_text": "10/13人次",
+      "present": 10,
+      "total": 13,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
       "name": "化学CB(F26)",
       "teacher": "余越利",
       "rate": 71.4,
@@ -110,6 +144,22 @@
       "status": "异常",
       "time_spans": [
         "14:40-15:20"
+      ]
+    },
+    {
+      "name": "商科BZ(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "10/10人次",
+      "present": 10,
+      "total": 10,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "16:20-17:00"
       ]
     },
     {
@@ -775,6 +825,129 @@
   ],
   "absent_students": [
     {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/15 8:00:00 至 2026/9/16 17:00:00  因个人原因，请假两天，谢谢 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐BR1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "15:30-16:10"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-16T16:27:45"
+    },
+    {
+      "name": "任厚宇",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  医院拆线 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "数学BQ3(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思BR3S(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "15:30-16:10"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-16T16:27:45"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思BR2C(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-16T16:27:45"
+    },
+    {
       "name": "刘宇茗",
       "class": "A22",
       "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  病假 ",
@@ -1030,80 +1203,6 @@
       "updated_at": "2026-09-16T15:37:32"
     },
     {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026/9/15 8:00:00 至 2026/9/16 17:00:00  因个人原因，请假两天，谢谢 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "音乐BR1(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "14:40-15:20"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "15:30-16:10"
-        }
-      ],
-      "updated_at": "2026-09-16T15:31:30"
-    },
-    {
-      "name": "任厚宇",
-      "class": "AS3",
-      "reason": "病假_【已通过】 2026/9/16 8:00:00 至 2026/9/16 17:00:00  医院拆线 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "数学BQ3(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ3(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "雅思BR3S(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "雅思BR3(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "14:40-15:20"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "15:30-16:10"
-        }
-      ],
-      "updated_at": "2026-09-16T15:31:30"
-    },
-    {
       "name": "卓成亮",
       "class": "A21",
       "reason": "当日缺课且无请假单",
@@ -1128,43 +1227,6 @@
         }
       ],
       "updated_at": "2026-09-16T15:30:41"
-    },
-    {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "雅思BR2C(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-16T15:30:39"
     },
     {
       "name": "蔡雨涵",
@@ -1983,38 +2045,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "化学BY(F26)",
-      "class_id": 520900,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "10:00-10:40",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "10:00-10:40",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "10:00-10:40",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "10:00-10:40",
-      "location": "LT3-122"
-    },
-    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "英语第二语言",
@@ -2029,38 +2059,6 @@
       "teacher": "瞿芬",
       "time": "10:50-11:30",
       "location": "LT3-108"
-    },
-    {
-      "class": "化学BY(F26)",
-      "class_id": 520900,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "10:50-11:30",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "10:50-11:30",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "10:50-11:30",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "10:50-11:30",
-      "location": "LT3-122"
     },
     {
       "class": "十年级 G21",
@@ -2183,38 +2181,6 @@
       "location": "LT3-108"
     },
     {
-      "class": "化学BY(F26)",
-      "class_id": 520900,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "14:40-15:20",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "14:40-15:20",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "14:40-15:20",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "14:40-15:20",
-      "location": "LT3-122"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "雅思英语",
@@ -2306,59 +2272,58 @@
   "trend": [
     {
       "date": "09-10",
-      "attendance": 84.5,
+      "attendance": 85.7,
       "submit": 90.0
     },
     {
       "date": "09-11",
-      "attendance": 83.0,
+      "attendance": 84.2,
       "submit": 90.5
     },
     {
       "date": "09-12",
-      "attendance": 81.5,
+      "attendance": 82.7,
       "submit": 91.0
     },
     {
       "date": "09-13",
-      "attendance": 80.0,
+      "attendance": 81.2,
       "submit": 91.5
     },
     {
       "date": "09-14",
-      "attendance": 78.5,
+      "attendance": 79.7,
       "submit": 92.0
     },
     {
       "date": "09-15",
-      "attendance": 77.0,
+      "attendance": 78.2,
       "submit": 92.5
     },
     {
       "date": "09-16",
-      "attendance": 80.0,
-      "submit": 85.0
+      "attendance": 81.2,
+      "submit": 85.6
     }
   ],
   "lesson": {
-    "completion_rate": 68.5,
-    "called": 113,
+    "completion_rate": 75.8,
+    "called": 125,
     "total": 165,
-    "class_coverage": "46/46",
+    "class_coverage": "49/49",
     "teacher_count": 28,
     "uncovered_classes": [
-      "化学BY(F26)",
-      "十一年级 AS2",
+      "九年级 G12",
+      "九年级 G11",
+      "高数CR2(F26)",
       "十年级 G21",
+      "十一年级 AS1",
       "十年级 G23",
+      "十一年级 AS3",
       "十二年级 A21",
       "十年级 G22",
-      "高数CR2(F26)",
-      "十二年级 A22",
-      "十一年级 AS1",
-      "九年级 G11",
-      "十一年级 AS3",
-      "九年级 G12"
+      "十一年级 AS2",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -2458,38 +2423,6 @@
         "location": "LT3-208"
       },
       {
-        "class": "化学BY(F26)",
-        "class_id": 520900,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "10:00-10:40",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "10:00-10:40",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "10:00-10:40",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "10:00-10:40",
-        "location": "LT3-122"
-      },
-      {
         "class": "九年级 G11",
         "class_id": 487607,
         "subject": "英语第二语言",
@@ -2504,38 +2437,6 @@
         "teacher": "瞿芬",
         "time": "10:50-11:30",
         "location": "LT3-108"
-      },
-      {
-        "class": "化学BY(F26)",
-        "class_id": 520900,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "10:50-11:30",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "10:50-11:30",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "10:50-11:30",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "10:50-11:30",
-        "location": "LT3-122"
       },
       {
         "class": "十年级 G21",
@@ -2656,38 +2557,6 @@
         "teacher": "Johannes van Baardewijk",
         "time": "14:40-15:20",
         "location": "LT3-108"
-      },
-      {
-        "class": "化学BY(F26)",
-        "class_id": 520900,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "14:40-15:20",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "14:40-15:20",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "14:40-15:20",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "14:40-15:20",
-        "location": "LT3-122"
       },
       {
         "class": "十二年级 A21",
