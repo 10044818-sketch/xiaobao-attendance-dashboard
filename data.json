@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-17 14:40",
+  "updated_at": "2026-09-17 14:45",
   "school": {
-    "rate": 84.6,
-    "present": 573,
-    "total": 677,
-    "late": 17,
-    "absent": 104,
-    "leave": 74
+    "rate": 84.4,
+    "present": 613,
+    "total": 726,
+    "late": 19,
+    "absent": 113,
+    "leave": 81
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 12,
+    "class_attention": 11,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -62,6 +62,22 @@
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "体育AA(F26)",
+      "teacher": "沈译宇",
+      "rate": 76.5,
+      "present_text": "13/17人次",
+      "present": 13,
+      "total": 17,
+      "absent": 4,
+      "late": 2,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -366,16 +382,17 @@
       "name": "艺术BX(F26)",
       "teacher": "朱嘉怡",
       "rate": 90.0,
-      "present_text": "9/10人次",
-      "present": 9,
-      "total": 10,
-      "absent": 1,
+      "present_text": "18/20人次",
+      "present": 18,
+      "total": 20,
+      "absent": 2,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "关注",
       "time_spans": [
-        "13:50-14:30"
+        "13:50-14:30",
+        "14:40-15:20"
       ]
     },
     {
@@ -431,15 +448,15 @@
     {
       "name": "英语写作AQ3(F26)",
       "teacher": "贺珍谊",
-      "rate": 92.3,
-      "present_text": "12/13人次",
-      "present": 12,
+      "rate": 84.6,
+      "present_text": "11/13人次",
+      "present": 11,
       "total": 13,
-      "absent": 1,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
-      "status": "关注",
+      "leave": 2,
+      "status": "异常",
       "time_spans": [
         "13:50-14:30"
       ]
@@ -610,6 +627,22 @@
       ]
     },
     {
+      "name": "音乐AB(F26)",
+      "teacher": "刘知言",
+      "rate": 86.4,
+      "present_text": "19/22人次",
+      "present": 19,
+      "total": 22,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20"
+      ]
+    },
+    {
       "name": "音乐BR2(F26)",
       "teacher": "刘知言",
       "rate": 84.2,
@@ -627,6 +660,210 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "谢佳妍",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/17 14:30:00 至 2026/9/17 17:00:00  请假就医 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "音乐AB(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-17T14:44:08"
+    },
+    {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ2(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "音乐AB(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-17T14:44:08"
+    },
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "音乐AB(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-17T14:44:08"
+    },
+    {
+      "name": "朱金贝",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语听力阅读AQ3(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-17T14:43:26"
+    },
+    {
+      "name": "尹勋",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-17T14:43:26"
+    },
+    {
+      "name": "钱一诺",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "艺术AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-17T14:43:26"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-17T14:43:26"
+    },
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐BR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-17T14:41:07"
+    },
     {
       "name": "吴昊",
       "class": "AS2",
@@ -709,64 +946,6 @@
         }
       ],
       "updated_at": "2026-09-17T14:36:50"
-    },
-    {
-      "name": "贾征颐",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语听力阅读AQ2(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-17T14:26:52"
-    },
-    {
-      "name": "朱金贝",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR1(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "英语听力阅读AQ3(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "英语写作AQ3(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-17T14:26:45"
     },
     {
       "name": "卓成亮",
@@ -914,23 +1093,6 @@
       "updated_at": "2026-09-17T13:52:35"
     },
     {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐BR2(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "艺术BX(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-17T13:51:59"
-    },
-    {
       "name": "茆睿恺",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1041,81 +1203,6 @@
         }
       ],
       "updated_at": "2026-09-17T13:17:25"
-    },
-    {
-      "name": "钱一诺",
-      "class": "G21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "艺术AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "艺术AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-17T13:08:32"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-17T13:08:32"
-    },
-    {
-      "name": "桂应沁",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR1(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-17T13:08:32"
     },
     {
       "name": "焦怡雯",
@@ -1658,56 +1745,56 @@
   "trend": [
     {
       "date": "09-11",
-      "attendance": 89.1,
+      "attendance": 88.9,
       "submit": 90.0
     },
     {
       "date": "09-12",
-      "attendance": 87.6,
+      "attendance": 87.4,
       "submit": 90.5
     },
     {
       "date": "09-13",
-      "attendance": 86.1,
+      "attendance": 85.9,
       "submit": 91.0
     },
     {
       "date": "09-14",
-      "attendance": 84.6,
+      "attendance": 84.4,
       "submit": 91.5
     },
     {
       "date": "09-15",
-      "attendance": 83.1,
+      "attendance": 82.9,
       "submit": 92.0
     },
     {
       "date": "09-16",
-      "attendance": 81.6,
+      "attendance": 81.4,
       "submit": 92.5
     },
     {
       "date": "09-17",
-      "attendance": 84.6,
-      "submit": 87.3
+      "attendance": 84.4,
+      "submit": 87.2
     }
   ],
   "lesson": {
     "completion_rate": 72.1,
     "called": 101,
     "total": 140,
-    "class_coverage": "37/37",
+    "class_coverage": "39/39",
     "teacher_count": 23,
     "uncovered_classes": [
       "十二年级 A22",
-      "化学CB(F26)",
-      "十二年级 A21",
-      "十一年级 AS1",
       "十年级 G22",
-      "十一年级 AS2",
-      "十年级 G21",
       "十年级 G23",
-      "十一年级 AS3"
+      "十一年级 AS3",
+      "十年级 G21",
+      "十一年级 AS1",
+      "化学CB(F26)",
+      "十一年级 AS2",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
