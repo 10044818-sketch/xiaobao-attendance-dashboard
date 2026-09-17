@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-17 08:45",
+  "updated_at": "2026-09-17 08:50",
   "school": {
-    "rate": 82.6,
-    "present": 76,
+    "rate": 83.7,
+    "present": 77,
     "total": 92,
-    "late": 0,
-    "absent": 16,
+    "late": 1,
+    "absent": 15,
     "leave": 9
   },
   "summary": {
@@ -18,12 +18,12 @@
     {
       "name": "代数C0(F26)",
       "teacher": "张小翼",
-      "rate": 50.0,
-      "present_text": "4/8人次",
-      "present": 4,
+      "rate": 62.5,
+      "present_text": "5/8人次",
+      "present": 5,
       "total": 8,
-      "absent": 4,
-      "late": 0,
+      "absent": 3,
+      "late": 1,
       "early": 0,
       "leave": 0,
       "status": "异常",
@@ -109,20 +109,7 @@
           "time": "08:20-09:00"
         }
       ],
-      "updated_at": "2026-09-17T08:38:08"
-    },
-    {
-      "name": "周沛东",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-17T08:38:08"
+      "updated_at": "2026-09-17T08:49:28"
     },
     {
       "name": "曾禹德",
@@ -135,7 +122,7 @@
           "time": "08:20-09:00"
         }
       ],
-      "updated_at": "2026-09-17T08:38:08"
+      "updated_at": "2026-09-17T08:49:28"
     },
     {
       "name": "段锦沐",
@@ -148,7 +135,7 @@
           "time": "08:20-09:00"
         }
       ],
-      "updated_at": "2026-09-17T08:38:08"
+      "updated_at": "2026-09-17T08:49:28"
     },
     {
       "name": "周原",
@@ -293,38 +280,38 @@
   "trend": [
     {
       "date": "09-11",
-      "attendance": 87.1,
+      "attendance": 88.2,
       "submit": 90.0
     },
     {
       "date": "09-12",
-      "attendance": 85.6,
+      "attendance": 86.7,
       "submit": 90.5
     },
     {
       "date": "09-13",
-      "attendance": 84.1,
+      "attendance": 85.2,
       "submit": 91.0
     },
     {
       "date": "09-14",
-      "attendance": 82.6,
+      "attendance": 83.7,
       "submit": 91.5
     },
     {
       "date": "09-15",
-      "attendance": 81.1,
+      "attendance": 82.2,
       "submit": 92.0
     },
     {
       "date": "09-16",
-      "attendance": 79.6,
+      "attendance": 80.7,
       "submit": 92.5
     },
     {
       "date": "09-17",
-      "attendance": 82.6,
-      "submit": 86.3
+      "attendance": 83.7,
+      "submit": 86.8
     }
   ],
   "lesson": {
