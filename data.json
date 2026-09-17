@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-17 12:50",
+  "updated_at": "2026-09-17 12:56",
   "school": {
-    "rate": 83.8,
-    "present": 337,
-    "total": 402,
+    "rate": 84.1,
+    "present": 350,
+    "total": 416,
     "late": 12,
-    "absent": 65,
-    "leave": 47
+    "absent": 66,
+    "leave": 48
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -248,6 +248,22 @@
       ]
     },
     {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "艺术AA(F26)",
       "teacher": "朱嘉怡",
       "rate": 50.0,
@@ -368,6 +384,31 @@
   ],
   "absent_students": [
     {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  因近期压力比较大，需要请假调整状态 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-17T12:56:12"
+    },
+    {
       "name": "赵浩雯",
       "class": "AS1",
       "reason": "当日缺课且无请假单",
@@ -466,27 +507,6 @@
         }
       ],
       "updated_at": "2026-09-17T12:07:27"
-    },
-    {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  因近期压力比较大，需要请假调整状态 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-17T11:13:26"
     },
     {
       "name": "冯麟",
@@ -965,22 +985,6 @@
       "location": "LT3-107"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
       "class": "化学CB(F26)",
       "class_id": 521021,
       "subject": "化学",
@@ -1080,57 +1084,55 @@
   "trend": [
     {
       "date": "09-11",
-      "attendance": 88.3,
+      "attendance": 88.6,
       "submit": 90.0
     },
     {
       "date": "09-12",
-      "attendance": 86.8,
+      "attendance": 87.1,
       "submit": 90.5
     },
     {
       "date": "09-13",
-      "attendance": 85.3,
+      "attendance": 85.6,
       "submit": 91.0
     },
     {
       "date": "09-14",
-      "attendance": 83.8,
+      "attendance": 84.1,
       "submit": 91.5
     },
     {
       "date": "09-15",
-      "attendance": 82.3,
+      "attendance": 82.6,
       "submit": 92.0
     },
     {
       "date": "09-16",
-      "attendance": 80.8,
+      "attendance": 81.1,
       "submit": 92.5
     },
     {
       "date": "09-17",
-      "attendance": 83.8,
-      "submit": 86.9
+      "attendance": 84.1,
+      "submit": 87.0
     }
   ],
   "lesson": {
-    "completion_rate": 68.4,
-    "called": 65,
+    "completion_rate": 70.5,
+    "called": 67,
     "total": 95,
-    "class_coverage": "21/21",
+    "class_coverage": "22/22",
     "teacher_count": 17,
     "uncovered_classes": [
       "十二年级 A22",
-      "十年级 G22",
-      "九年级 G11",
       "十年级 G21",
-      "化学CB(F26)",
-      "十一年级 AS3",
-      "十二年级 A21",
       "十一年级 AS1",
       "十年级 G23",
-      "九年级 G12"
+      "十年级 G22",
+      "十一年级 AS3",
+      "十二年级 A21",
+      "化学CB(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -1260,22 +1262,6 @@
         "teacher": "费楚淇",
         "time": "10:00-10:40",
         "location": "LT3-107"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
       },
       {
         "class": "化学CB(F26)",
