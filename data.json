@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-17 11:01",
+  "updated_at": "2026-09-17 11:05",
   "school": {
-    "rate": 83.4,
-    "present": 266,
-    "total": 319,
+    "rate": 83.3,
+    "present": 270,
+    "total": 324,
     "late": 12,
-    "absent": 53,
+    "absent": 54,
     "leave": 37
   },
   "summary": {
@@ -234,32 +234,34 @@
       "name": "艺术BZ(F26)",
       "teacher": "朱嘉怡",
       "rate": 50.0,
-      "present_text": "1/2人次",
-      "present": 1,
-      "total": 2,
-      "absent": 1,
+      "present_text": "2/4人次",
+      "present": 2,
+      "total": 4,
+      "absent": 2,
       "late": 0,
       "early": 0,
       "leave": 1,
       "status": "异常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
       "name": "艺术CB(F26)",
       "teacher": "朱嘉怡",
       "rate": 100.0,
-      "present_text": "3/3人次",
-      "present": 3,
-      "total": 3,
+      "present_text": "6/6人次",
+      "present": 6,
+      "total": 6,
       "absent": 0,
       "late": 2,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -314,6 +316,27 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "冯麟",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "艺术BZ(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "艺术BZ(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-17T11:03:21"
+    },
     {
       "name": "茆睿恺",
       "class": "A22",
@@ -548,23 +571,6 @@
         }
       ],
       "updated_at": "2026-09-17T10:12:34"
-    },
-    {
-      "name": "冯麟",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/9/17 8:30:00 至 2026/9/17 10:00:00  腿疼 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "艺术BZ(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-17T10:01:46"
     },
     {
       "name": "朱金贝",
@@ -946,37 +952,37 @@
   "trend": [
     {
       "date": "09-11",
-      "attendance": 87.9,
+      "attendance": 87.8,
       "submit": 90.0
     },
     {
       "date": "09-12",
-      "attendance": 86.4,
+      "attendance": 86.3,
       "submit": 90.5
     },
     {
       "date": "09-13",
-      "attendance": 84.9,
+      "attendance": 84.8,
       "submit": 91.0
     },
     {
       "date": "09-14",
-      "attendance": 83.4,
+      "attendance": 83.3,
       "submit": 91.5
     },
     {
       "date": "09-15",
-      "attendance": 81.9,
+      "attendance": 81.8,
       "submit": 92.0
     },
     {
       "date": "09-16",
-      "attendance": 80.4,
+      "attendance": 80.3,
       "submit": 92.5
     },
     {
       "date": "09-17",
-      "attendance": 83.4,
+      "attendance": 83.3,
       "submit": 86.7
     }
   ],
@@ -987,18 +993,18 @@
     "class_coverage": "18/18",
     "teacher_count": 16,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "化学CB(F26)",
-      "十一年级 AS2",
-      "九年级 G12",
+      "十年级 G23",
       "十二年级 A22",
-      "九年级 G11",
-      "十二年级 A21",
-      "十一年级 AS1",
+      "十年级 G22",
+      "九年级 G12",
       "十年级 G21",
       "化学BZ(F26)",
-      "十年级 G22",
-      "十年级 G23"
+      "九年级 G11",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "十二年级 A21",
+      "十一年级 AS1",
+      "化学CB(F26)"
     ],
     "uncovered_teachers": [
       {
