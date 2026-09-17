@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-17 09:55",
+  "updated_at": "2026-09-17 10:02",
   "school": {
-    "rate": 82.8,
-    "present": 130,
-    "total": 157,
-    "late": 3,
-    "absent": 27,
-    "leave": 18
+    "rate": 83.2,
+    "present": 154,
+    "total": 185,
+    "late": 5,
+    "absent": 31,
+    "leave": 22
   },
   "summary": {
     "pending_yesterday": 0,
@@ -52,16 +52,17 @@
       "name": "化学AA(F26)",
       "teacher": "余越利",
       "rate": 87.0,
-      "present_text": "20/23人次",
-      "present": 20,
-      "total": 23,
-      "absent": 3,
+      "present_text": "40/46人次",
+      "present": 40,
+      "total": 46,
+      "absent": 6,
       "late": 0,
       "early": 0,
-      "leave": 3,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -96,6 +97,38 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 50.0,
+      "present_text": "1/2人次",
+      "present": 1,
+      "total": 2,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
+      "name": "艺术CB(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "3/3人次",
+      "present": 3,
+      "total": 3,
+      "absent": 0,
+      "late": 2,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40"
       ]
     },
     {
@@ -134,6 +167,74 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "冯麟",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/9/17 8:30:00 至 2026/9/17 10:00:00  腿疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "艺术BZ(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-17T10:01:46"
+    },
+    {
+      "name": "朱金贝",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-17T09:58:56"
+    },
+    {
+      "name": "肖含章",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 13:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-17T09:58:56"
+    },
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-17T09:58:56"
+    },
     {
       "name": "钱一诺",
       "class": "G21",
@@ -351,58 +452,6 @@
         }
       ],
       "updated_at": "2026-09-17T08:35:03"
-    },
-    {
-      "name": "冯麟",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/9/17 8:30:00 至 2026/9/17 10:00:00  腿疼 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-17T08:35:03"
-    },
-    {
-      "name": "朱金贝",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-17T08:34:56"
-    },
-    {
-      "name": "肖含章",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 13:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-17T08:34:56"
-    },
-    {
-      "name": "桂应沁",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-17T08:34:56"
     }
   ],
   "pending_roll_call": [
@@ -495,14 +544,6 @@
       "location": "LT3-107"
     },
     {
-      "class": "化学AA(F26)",
-      "class_id": 529342,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "09:10-09:50",
-      "location": "LT3-219"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "雅思英语",
@@ -527,28 +568,12 @@
       "location": "LT3-104"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "09:10-09:50",
-      "location": "LT3-219"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "艺术与设计",
       "teacher": "王丽媛、朱嘉怡",
       "time": "09:10-09:50",
       "location": "LT3-104"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "09:10-09:50",
-      "location": "LT3-219"
     },
     {
       "class": "十年级 G23",
@@ -562,58 +587,57 @@
   "trend": [
     {
       "date": "09-11",
-      "attendance": 87.3,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "09-12",
-      "attendance": 85.8,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "09-13",
-      "attendance": 84.3,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "09-14",
-      "attendance": 82.8,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "09-15",
-      "attendance": 81.3,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "09-16",
-      "attendance": 79.8,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "09-17",
-      "attendance": 82.8,
-      "submit": 86.4
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
-    "completion_rate": 52.5,
-    "called": 21,
+    "completion_rate": 60.0,
+    "called": 24,
     "total": 40,
-    "class_coverage": "7/7",
+    "class_coverage": "9/9",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十年级 G23",
       "十二年级 A22",
-      "九年级 G12",
-      "十年级 G22",
-      "化学A0(F26)",
       "九年级 G11",
       "十一年级 AS3",
+      "九年级 G12",
+      "十年级 G22",
+      "十二年级 A21",
+      "化学A0(F26)",
       "十年级 G21",
-      "十一年级 AS1",
-      "化学AA(F26)"
+      "十年级 G23",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -705,14 +729,6 @@
         "location": "LT3-107"
       },
       {
-        "class": "化学AA(F26)",
-        "class_id": 529342,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "09:10-09:50",
-        "location": "LT3-219"
-      },
-      {
         "class": "十二年级 A21",
         "class_id": 366030,
         "subject": "雅思英语",
@@ -737,28 +753,12 @@
         "location": "LT3-104"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "09:10-09:50",
-        "location": "LT3-219"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "艺术与设计",
         "teacher": "王丽媛、朱嘉怡",
         "time": "09:10-09:50",
         "location": "LT3-104"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "09:10-09:50",
-        "location": "LT3-219"
       },
       {
         "class": "十年级 G23",
