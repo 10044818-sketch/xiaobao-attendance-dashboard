@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-17 14:35",
+  "updated_at": "2026-09-17 14:40",
   "school": {
-    "rate": 84.8,
-    "present": 563,
-    "total": 664,
+    "rate": 84.6,
+    "present": 573,
+    "total": 677,
     "late": 17,
-    "absent": 101,
-    "leave": 71
+    "absent": 104,
+    "leave": 74
   },
   "summary": {
     "pending_yesterday": 0,
@@ -314,6 +314,22 @@
       ]
     },
     {
+      "name": "经济BX(F26)",
+      "teacher": "郝畅",
+      "rate": 76.9,
+      "present_text": "10/13人次",
+      "present": 10,
+      "total": 13,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "艺术A0(F26)",
       "teacher": "朱嘉怡",
       "rate": 92.9,
@@ -611,6 +627,89 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "吴昊",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/17 10:00:00 至 2026/9/17 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "商科BZ(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐BR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-17T14:36:50"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR3(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思BR3(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-17T14:36:50"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐BR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-17T14:36:50"
+    },
     {
       "name": "贾征颐",
       "class": "G22",
@@ -1048,56 +1147,6 @@
       "updated_at": "2026-09-17T13:04:26"
     },
     {
-      "name": "吴昊",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/17 10:00:00 至 2026/9/17 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科BZ(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "商科BZ(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "音乐BR2(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-17T13:01:04"
-    },
-    {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "音乐BR2(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-17T13:01:04"
-    },
-    {
       "name": "李潇行",
       "class": "AS3",
       "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  请假 ",
@@ -1118,27 +1167,6 @@
         {
           "course": "生物BZ(F26)",
           "time": "10:50-11:30"
-        },
-        {
-          "course": "雅思BR3(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-17T12:58:50"
-    },
-    {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR3(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育BR3(F26)",
-          "time": "09:10-09:50"
         },
         {
           "course": "雅思BR3(F26)",
@@ -1573,26 +1601,10 @@
     {
       "class": "十一年级 AS2",
       "class_id": 442960,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "13:50-14:30",
-      "location": "LT3-118"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
       "subject": "艺术与设计",
       "teacher": "王丽媛、朱嘉怡",
       "time": "13:50-14:30",
       "location": "LT3-212"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "13:50-14:30",
-      "location": "LT3-118"
     },
     {
       "class": "十一年级 AS3",
@@ -1646,56 +1658,56 @@
   "trend": [
     {
       "date": "09-11",
-      "attendance": 89.3,
+      "attendance": 89.1,
       "submit": 90.0
     },
     {
       "date": "09-12",
-      "attendance": 87.8,
+      "attendance": 87.6,
       "submit": 90.5
     },
     {
       "date": "09-13",
-      "attendance": 86.3,
+      "attendance": 86.1,
       "submit": 91.0
     },
     {
       "date": "09-14",
-      "attendance": 84.8,
+      "attendance": 84.6,
       "submit": 91.5
     },
     {
       "date": "09-15",
-      "attendance": 83.3,
+      "attendance": 83.1,
       "submit": 92.0
     },
     {
       "date": "09-16",
-      "attendance": 81.8,
+      "attendance": 81.6,
       "submit": 92.5
     },
     {
       "date": "09-17",
-      "attendance": 84.8,
-      "submit": 87.4
+      "attendance": 84.6,
+      "submit": 87.3
     }
   ],
   "lesson": {
-    "completion_rate": 70.7,
-    "called": 99,
+    "completion_rate": 72.1,
+    "called": 101,
     "total": 140,
-    "class_coverage": "36/36",
+    "class_coverage": "37/37",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十年级 G22",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "十年级 G23",
-      "十年级 G21",
       "十二年级 A22",
       "化学CB(F26)",
+      "十二年级 A21",
       "十一年级 AS1",
-      "十二年级 A21"
+      "十年级 G22",
+      "十一年级 AS2",
+      "十年级 G21",
+      "十年级 G23",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -1957,26 +1969,10 @@
       {
         "class": "十一年级 AS2",
         "class_id": 442960,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "13:50-14:30",
-        "location": "LT3-118"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
         "subject": "艺术与设计",
         "teacher": "王丽媛、朱嘉怡",
         "time": "13:50-14:30",
         "location": "LT3-212"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "13:50-14:30",
-        "location": "LT3-118"
       },
       {
         "class": "十一年级 AS3",
