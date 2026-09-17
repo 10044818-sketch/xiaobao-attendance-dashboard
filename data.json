@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-17 11:11",
+  "updated_at": "2026-09-17 11:16",
   "school": {
-    "rate": 83.3,
-    "present": 270,
-    "total": 324,
+    "rate": 83.8,
+    "present": 295,
+    "total": 352,
     "late": 12,
-    "absent": 54,
-    "leave": 38
+    "absent": 57,
+    "leave": 41
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -35,15 +35,15 @@
     {
       "name": "体育9A(F26)",
       "teacher": "沈译宇",
-      "rate": 100.0,
-      "present_text": "14/14人次",
-      "present": 14,
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
       "total": 14,
-      "absent": 0,
+      "absent": 1,
       "late": 3,
       "early": 0,
-      "leave": 0,
-      "status": "正常",
+      "leave": 1,
+      "status": "关注",
       "time_spans": [
         "10:00-10:40"
       ]
@@ -281,6 +281,23 @@
       ]
     },
     {
+      "name": "英语听读写9A(F26)",
+      "teacher": "瞿芬",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
       "name": "雅思BR1(F26)",
       "teacher": "贺珍谊",
       "rate": 82.1,
@@ -316,6 +333,27 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  因近期压力比较大，需要请假调整状态 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-17T11:13:26"
+    },
     {
       "name": "冯麟",
       "class": "AS1",
@@ -733,22 +771,6 @@
   ],
   "pending_roll_call": [
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "雅思英语",
@@ -779,22 +801,6 @@
       "teacher": "王丽媛、朱嘉怡",
       "time": "08:20-09:00",
       "location": "LT3-104"
-    },
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
     },
     {
       "class": "十二年级 A21",
@@ -952,77 +958,59 @@
   "trend": [
     {
       "date": "09-11",
-      "attendance": 87.8,
+      "attendance": 88.3,
       "submit": 90.0
     },
     {
       "date": "09-12",
-      "attendance": 86.3,
+      "attendance": 86.8,
       "submit": 90.5
     },
     {
       "date": "09-13",
-      "attendance": 84.8,
+      "attendance": 85.3,
       "submit": 91.0
     },
     {
       "date": "09-14",
-      "attendance": 83.3,
+      "attendance": 83.8,
       "submit": 91.5
     },
     {
       "date": "09-15",
-      "attendance": 81.8,
+      "attendance": 82.3,
       "submit": 92.0
     },
     {
       "date": "09-16",
-      "attendance": 80.3,
+      "attendance": 80.8,
       "submit": 92.5
     },
     {
       "date": "09-17",
-      "attendance": 83.3,
-      "submit": 86.7
+      "attendance": 83.8,
+      "submit": 86.9
     }
   ],
   "lesson": {
-    "completion_rate": 60.3,
-    "called": 41,
+    "completion_rate": 66.2,
+    "called": 45,
     "total": 68,
-    "class_coverage": "18/18",
+    "class_coverage": "19/19",
     "teacher_count": 16,
     "uncovered_classes": [
-      "十年级 G22",
-      "十一年级 AS3",
-      "十年级 G23",
-      "化学BZ(F26)",
-      "十一年级 AS2",
-      "十一年级 AS1",
-      "九年级 G11",
       "十二年级 A21",
-      "十二年级 A22",
+      "十一年级 AS3",
       "化学CB(F26)",
-      "九年级 G12",
-      "十年级 G21"
+      "化学BZ(F26)",
+      "十年级 G21",
+      "十一年级 AS2",
+      "十年级 G23",
+      "十年级 G22",
+      "十一年级 AS1",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
@@ -1054,22 +1042,6 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "08:20-09:00",
         "location": "LT3-104"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
       },
       {
         "class": "十二年级 A21",
