@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-17 08:30",
+  "updated_at": "2026-09-17 08:35",
   "school": {
-    "rate": 87.9,
-    "present": 29,
-    "total": 33,
+    "rate": 85.7,
+    "present": 72,
+    "total": 84,
     "late": 0,
-    "absent": 4,
-    "leave": 3
+    "absent": 12,
+    "leave": 9
   },
   "summary": {
     "pending_yesterday": 0,
@@ -15,6 +15,22 @@
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "化学AA(F26)",
+      "teacher": "余越利",
+      "rate": 87.0,
+      "present_text": "20/23人次",
+      "present": 20,
+      "total": 23,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
     {
       "name": "商科AA(F26)",
       "teacher": "余震",
@@ -29,6 +45,23 @@
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "雅思BR1(F26)",
+      "teacher": "贺珍谊",
+      "rate": 82.1,
+      "present_text": "23/28人次",
+      "present": 23,
+      "total": 28,
+      "absent": 5,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -49,6 +82,92 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 10:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-17T08:35:03"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-17T08:35:03"
+    },
+    {
+      "name": "冯麟",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/9/17 8:30:00 至 2026/9/17 10:00:00  腿疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-17T08:35:03"
+    },
+    {
+      "name": "朱金贝",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-17T08:34:56"
+    },
+    {
+      "name": "肖含章",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 13:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-17T08:34:56"
+    },
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-17T08:34:56"
+    },
     {
       "name": "贾征颐",
       "class": "G22",
@@ -106,45 +225,45 @@
   "trend": [
     {
       "date": "09-11",
-      "attendance": 92.4,
+      "attendance": 90.2,
       "submit": 90.0
     },
     {
       "date": "09-12",
-      "attendance": 90.9,
+      "attendance": 88.7,
       "submit": 90.5
     },
     {
       "date": "09-13",
-      "attendance": 89.4,
+      "attendance": 87.2,
       "submit": 91.0
     },
     {
       "date": "09-14",
-      "attendance": 87.9,
+      "attendance": 85.7,
       "submit": 91.5
     },
     {
       "date": "09-15",
-      "attendance": 86.4,
+      "attendance": 84.2,
       "submit": 92.0
     },
     {
       "date": "09-16",
-      "attendance": 84.9,
+      "attendance": 82.7,
       "submit": 92.5
     },
     {
       "date": "09-17",
-      "attendance": 87.9,
-      "submit": 89.0
+      "attendance": 85.7,
+      "submit": 87.8
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "2/2",
+    "class_coverage": "4/4",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
