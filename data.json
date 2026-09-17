@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17 08:55",
+  "updated_at": "2026-09-17 09:01",
   "school": {
     "rate": 84.8,
     "present": 78,
@@ -263,7 +263,72 @@
       "updated_at": "2026-09-17T08:21:43"
     }
   ],
-  "pending_roll_call": [],
+  "pending_roll_call": [
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "08:20-09:00",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "08:20-09:00",
+      "location": "LT3-108"
+    },
+    {
+      "class": "化学A0(F26)",
+      "class_id": 524146,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "08:20-09:00",
+      "location": "LT3-107"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "08:20-09:00",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "08:20-09:00",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "08:20-09:00",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "08:20-09:00",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "08:20-09:00",
+      "location": "LT3-107"
+    }
+  ],
   "trend": [
     {
       "date": "09-11",
@@ -302,12 +367,86 @@
     }
   ],
   "lesson": {
-    "completion_rate": 0,
-    "called": 0,
-    "total": 0,
+    "completion_rate": 57.9,
+    "called": 11,
+    "total": 19,
     "class_coverage": "5/5",
-    "teacher_count": 0,
-    "uncovered_classes": [],
-    "uncovered_teachers": []
+    "teacher_count": 9,
+    "uncovered_classes": [
+      "十年级 G23",
+      "化学A0(F26)",
+      "十一年级 AS1",
+      "十一年级 AS3",
+      "十年级 G22",
+      "九年级 G11",
+      "十年级 G21",
+      "九年级 G12"
+    ],
+    "uncovered_teachers": [
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "08:20-09:00",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "08:20-09:00",
+        "location": "LT3-108"
+      },
+      {
+        "class": "化学A0(F26)",
+        "class_id": 524146,
+        "subject": "化学",
+        "teacher": "袁西援",
+        "time": "08:20-09:00",
+        "location": "LT3-107"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "08:20-09:00",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "08:20-09:00",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "08:20-09:00",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "08:20-09:00",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "化学",
+        "teacher": "袁西援",
+        "time": "08:20-09:00",
+        "location": "LT3-107"
+      }
+    ]
   }
 }
