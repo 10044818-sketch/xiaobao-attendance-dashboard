@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-17 11:05",
+  "updated_at": "2026-09-17 11:11",
   "school": {
     "rate": 83.3,
     "present": 270,
     "total": 324,
     "late": 12,
     "absent": 54,
-    "leave": 37
+    "leave": 38
   },
   "summary": {
     "pending_yesterday": 0,
@@ -240,7 +240,7 @@
       "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "10:00-10:40",
@@ -319,8 +319,8 @@
     {
       "name": "冯麟",
       "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
+      "reason": "事假_【已通过】 2026-09-17 10:30:00 至 2026-09-17 11:30:00  睡过头了",
+      "type": "事假",
       "courses": [
         {
           "course": "雅思BR1(F26)",
@@ -335,7 +335,7 @@
           "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-09-17T11:03:21"
+      "updated_at": "2026-09-17T11:07:54"
     },
     {
       "name": "茆睿恺",
@@ -993,18 +993,18 @@
     "class_coverage": "18/18",
     "teacher_count": 16,
     "uncovered_classes": [
-      "十年级 G23",
-      "十二年级 A22",
       "十年级 G22",
-      "九年级 G12",
-      "十年级 G21",
-      "化学BZ(F26)",
-      "九年级 G11",
-      "十一年级 AS2",
       "十一年级 AS3",
-      "十二年级 A21",
+      "十年级 G23",
+      "化学BZ(F26)",
+      "十一年级 AS2",
       "十一年级 AS1",
-      "化学CB(F26)"
+      "九年级 G11",
+      "十二年级 A21",
+      "十二年级 A22",
+      "化学CB(F26)",
+      "九年级 G12",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
