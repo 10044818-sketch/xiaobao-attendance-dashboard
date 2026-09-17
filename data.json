@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-17 10:15",
+  "updated_at": "2026-09-17 10:20",
   "school": {
     "rate": 83.5,
     "present": 213,
     "total": 255,
     "late": 8,
     "absent": 42,
-    "leave": 30
+    "leave": 31
   },
   "summary": {
     "pending_yesterday": 0,
@@ -84,13 +84,13 @@
       "name": "化学AA(F26)",
       "teacher": "余越利",
       "rate": 87.0,
-      "present_text": "47/54人次",
-      "present": 47,
-      "total": 54,
-      "absent": 7,
+      "present_text": "40/46人次",
+      "present": 40,
+      "total": 46,
+      "absent": 6,
       "late": 0,
       "early": 0,
-      "leave": 7,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -112,6 +112,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学AR2(F26)",
+      "teacher": "杨燕霖",
+      "rate": 78.6,
+      "present_text": "11/14人次",
+      "present": 11,
+      "total": 14,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
       ]
     },
     {
@@ -199,14 +215,14 @@
     {
       "name": "雅思BR1(F26)",
       "teacher": "贺珍谊",
-      "rate": 79.4,
-      "present_text": "27/34人次",
-      "present": 27,
-      "total": 34,
-      "absent": 7,
+      "rate": 82.1,
+      "present_text": "23/28人次",
+      "present": 23,
+      "total": 28,
+      "absent": 5,
       "late": 0,
       "early": 0,
-      "leave": 4,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -232,6 +248,69 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "肖含章",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 13:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-17T10:15:54"
+    },
+    {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-17T10:15:54"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-17T10:15:54"
+    },
     {
       "name": "焦怡雯",
       "class": "G23",
@@ -329,23 +408,6 @@
       "name": "朱金贝",
       "class": "G21",
       "reason": "事假_【已通过】 2026/9/14 7:00:00 至 2026/9/18 21:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学AA(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-17T09:58:56"
-    },
-    {
-      "name": "肖含章",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 13:00:00  不舒服 ",
       "type": "事假",
       "courses": [
         {
@@ -459,40 +521,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-17T09:13:58"
-    },
-    {
-      "name": "贾征颐",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-17T09:13:58"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
         {
           "course": "商科AA(F26)",
           "time": "09:10-09:50"
@@ -724,19 +752,19 @@
     "completion_rate": 65.0,
     "called": 26,
     "total": 40,
-    "class_coverage": "13/13",
+    "class_coverage": "14/14",
     "teacher_count": 11,
     "uncovered_classes": [
-      "九年级 G11",
-      "十年级 G22",
-      "化学A0(F26)",
-      "十年级 G23",
-      "十一年级 AS3",
-      "十二年级 A22",
       "十二年级 A21",
       "十一年级 AS1",
+      "九年级 G11",
+      "十一年级 AS3",
       "十年级 G21",
-      "九年级 G12"
+      "化学A0(F26)",
+      "十年级 G23",
+      "十二年级 A22",
+      "九年级 G12",
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
