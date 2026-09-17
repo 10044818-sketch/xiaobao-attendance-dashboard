@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-17 13:45",
+  "updated_at": "2026-09-17 13:50",
   "school": {
-    "rate": 84.5,
-    "present": 458,
-    "total": 542,
+    "rate": 84.8,
+    "present": 490,
+    "total": 578,
     "late": 15,
-    "absent": 84,
-    "leave": 63
+    "absent": 88,
+    "leave": 66
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 7,
+    "class_attention": 8,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -94,6 +94,23 @@
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "化学9A(F26)",
+      "teacher": "张璐菲",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -466,16 +483,17 @@
       "name": "雅思听力阅读C0(F26)",
       "teacher": "瞿芬",
       "rate": 75.0,
-      "present_text": "6/8人次",
-      "present": 6,
-      "total": 8,
-      "absent": 2,
+      "present_text": "12/16人次",
+      "present": 12,
+      "total": 16,
+      "absent": 4,
       "late": 2,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
-        "13:00-13:40"
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -521,9 +539,13 @@
         {
           "course": "雅思听力阅读C0(F26)",
           "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "13:50-14:30"
         }
       ],
-      "updated_at": "2026-09-17T13:30:30"
+      "updated_at": "2026-09-17T13:50:29"
     },
     {
       "name": "段锦沐",
@@ -550,9 +572,46 @@
         {
           "course": "雅思听力阅读C0(F26)",
           "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "13:50-14:30"
         }
       ],
-      "updated_at": "2026-09-17T13:30:30"
+      "updated_at": "2026-09-17T13:50:29"
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  因近期压力比较大，需要请假调整状态 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "化学9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "化学9A(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-17T13:47:36"
     },
     {
       "name": "夏镜贤",
@@ -863,31 +922,6 @@
         }
       ],
       "updated_at": "2026-09-17T12:57:48"
-    },
-    {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/17 17:00:00  因近期压力比较大，需要请假调整状态 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-17T12:56:12"
     },
     {
       "name": "朱金贝",
@@ -1286,30 +1320,6 @@
       "location": ""
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
-      "class": "化学9A(F26)",
-      "class_id": 526214,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "经济学",
@@ -1369,57 +1379,54 @@
   "trend": [
     {
       "date": "09-11",
-      "attendance": 89.0,
+      "attendance": 89.3,
       "submit": 90.0
     },
     {
       "date": "09-12",
-      "attendance": 87.5,
+      "attendance": 87.8,
       "submit": 90.5
     },
     {
       "date": "09-13",
-      "attendance": 86.0,
+      "attendance": 86.3,
       "submit": 91.0
     },
     {
       "date": "09-14",
-      "attendance": 84.5,
+      "attendance": 84.8,
       "submit": 91.5
     },
     {
       "date": "09-15",
-      "attendance": 83.0,
+      "attendance": 83.3,
       "submit": 92.0
     },
     {
       "date": "09-16",
-      "attendance": 81.5,
+      "attendance": 81.8,
       "submit": 92.5
     },
     {
       "date": "09-17",
-      "attendance": 84.5,
-      "submit": 87.2
+      "attendance": 84.8,
+      "submit": 87.4
     }
   ],
   "lesson": {
-    "completion_rate": 69.0,
-    "called": 80,
+    "completion_rate": 71.6,
+    "called": 83,
     "total": 116,
-    "class_coverage": "29/29",
+    "class_coverage": "30/30",
     "teacher_count": 22,
     "uncovered_classes": [
-      "九年级 G12",
-      "十一年级 AS1",
-      "十年级 G23",
-      "化学9A(F26)",
-      "十二年级 A21",
-      "十年级 G22",
       "化学CB(F26)",
-      "九年级 G11",
+      "十一年级 AS1",
+      "十二年级 A21",
       "十年级 G21",
-      "十二年级 A22"
+      "十二年级 A22",
+      "十年级 G22",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
@@ -1629,30 +1636,6 @@
         "teacher": "",
         "time": "10:50-11:30",
         "location": ""
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
-      },
-      {
-        "class": "化学9A(F26)",
-        "class_id": 526214,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
       },
       {
         "class": "十二年级 A21",
