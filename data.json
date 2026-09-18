@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-18 14:47",
+  "updated_at": "2026-09-18 14:50",
   "school": {
     "rate": 84.5,
     "present": 593,
     "total": 702,
     "late": 9,
     "absent": 108,
-    "leave": 69
+    "leave": 71
   },
   "summary": {
     "pending_yesterday": 0,
@@ -506,7 +506,7 @@
       "absent": 10,
       "late": 0,
       "early": 0,
-      "leave": 8,
+      "leave": 10,
       "status": "异常",
       "time_spans": [
         "13:00-13:40",
@@ -661,6 +661,23 @@
   ],
   "absent_students": [
     {
+      "name": "傅泽",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026-09-18 12:00:00 至 2026-09-18 14:30:00  病假就医",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-18T14:50:43"
+    },
+    {
       "name": "金懿帆",
       "class": "G21",
       "reason": "Personal Leave_【Approved】 2026/9/18 7:00:00 to 2026/9/18 16:00:00  不舒服",
@@ -748,23 +765,6 @@
           "course": "经济AX(F26)",
           "time": "10:50-11:30"
         },
-        {
-          "course": "英语口语AQ1(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "英语口语AQ1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-18T14:38:53"
-    },
-    {
-      "name": "傅泽",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
         {
           "course": "英语口语AQ1(F26)",
           "time": "13:00-13:40"
@@ -1774,18 +1774,18 @@
     "class_coverage": "39/39",
     "teacher_count": 25,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "十二年级 A22",
-      "九年级 G11",
-      "十一年级 AS1",
-      "化学BZ(F26)",
-      "十一年级 AS3",
-      "十年级 G23",
-      "十年级 G21",
-      "十年级 G22",
-      "十一年级 AS2",
       "十二年级 A21",
-      "九年级 G12"
+      "十年级 G22",
+      "九年级 G11",
+      "九年级 G12",
+      "十一年级 AS3",
+      "十二年级 A22",
+      "十一年级 AS2",
+      "十一年级 AS1",
+      "十年级 G23",
+      "化学BZ(F26)",
+      "十年级 G21",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
