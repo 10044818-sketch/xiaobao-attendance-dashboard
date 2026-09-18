@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-18 10:05",
+  "updated_at": "2026-09-18 10:10",
   "school": {
-    "rate": 82.8,
-    "present": 149,
+    "rate": 83.9,
+    "present": 151,
     "total": 180,
-    "late": 1,
-    "absent": 31,
+    "late": 3,
+    "absent": 29,
     "leave": 17
   },
   "summary": {
@@ -18,12 +18,12 @@
     {
       "name": "体育A0(F26)",
       "teacher": "沈译宇",
-      "rate": 78.6,
-      "present_text": "11/14人次",
-      "present": 11,
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
       "total": 14,
-      "absent": 3,
-      "late": 0,
+      "absent": 2,
+      "late": 1,
       "early": 0,
       "leave": 2,
       "status": "异常",
@@ -34,12 +34,12 @@
     {
       "name": "体育C0(F26)",
       "teacher": "沈译宇",
-      "rate": 50.0,
-      "present_text": "4/8人次",
-      "present": 4,
+      "rate": 62.5,
+      "present_text": "5/8人次",
+      "present": 5,
       "total": 8,
-      "absent": 4,
-      "late": 0,
+      "absent": 3,
+      "late": 1,
       "early": 0,
       "leave": 1,
       "status": "异常",
@@ -212,7 +212,7 @@
           "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-09-18T10:04:18"
+      "updated_at": "2026-09-18T10:09:41"
     },
     {
       "name": "江雨霏",
@@ -233,7 +233,7 @@
           "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-09-18T10:04:18"
+      "updated_at": "2026-09-18T10:09:41"
     },
     {
       "name": "段锦沐",
@@ -250,33 +250,7 @@
           "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-09-18T10:04:18"
-    },
-    {
-      "name": "陈申达",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-18T10:04:18"
-    },
-    {
-      "name": "赵子晟",
-      "class": "G23",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育A0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-18T10:04:18"
+      "updated_at": "2026-09-18T10:09:41"
     },
     {
       "name": "焦怡雯",
@@ -289,7 +263,7 @@
           "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-09-18T10:04:18"
+      "updated_at": "2026-09-18T10:08:27"
     },
     {
       "name": "耿子涵",
@@ -302,7 +276,7 @@
           "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-09-18T10:04:18"
+      "updated_at": "2026-09-18T10:08:27"
     },
     {
       "name": "贾征颐",
@@ -653,38 +627,38 @@
   "trend": [
     {
       "date": "09-12",
-      "attendance": 87.3,
+      "attendance": 88.4,
       "submit": 90.0
     },
     {
       "date": "09-13",
-      "attendance": 85.8,
+      "attendance": 86.9,
       "submit": 90.5
     },
     {
       "date": "09-14",
-      "attendance": 84.3,
+      "attendance": 85.4,
       "submit": 91.0
     },
     {
       "date": "09-15",
-      "attendance": 82.8,
+      "attendance": 83.9,
       "submit": 91.5
     },
     {
       "date": "09-16",
-      "attendance": 81.3,
+      "attendance": 82.4,
       "submit": 92.0
     },
     {
       "date": "09-17",
-      "attendance": 79.8,
+      "attendance": 80.9,
       "submit": 92.5
     },
     {
       "date": "09-18",
-      "attendance": 82.8,
-      "submit": 86.4
+      "attendance": 83.9,
+      "submit": 87.0
     }
   ],
   "lesson": {
@@ -694,13 +668,13 @@
     "class_coverage": "11/11",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十年级 G23",
-      "十二年级 A22",
       "九年级 G11",
-      "九年级 G12",
-      "十年级 G22",
       "十二年级 A21",
+      "十年级 G23",
+      "十年级 G22",
       "十一年级 AS3",
+      "九年级 G12",
+      "十二年级 A22",
       "十一年级 AS2"
     ],
     "uncovered_teachers": [
