@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-18 10:41",
+  "updated_at": "2026-09-18 10:45",
   "school": {
-    "rate": 83.9,
-    "present": 151,
-    "total": 180,
+    "rate": 82.5,
+    "present": 208,
+    "total": 252,
     "late": 3,
-    "absent": 29,
-    "leave": 17
+    "absent": 44,
+    "leave": 27
   },
   "summary": {
     "pending_yesterday": 0,
@@ -82,6 +82,22 @@
       ]
     },
     {
+      "name": "数学BQ1(F26)",
+      "teacher": "杨燕霖",
+      "rate": 80.0,
+      "present_text": "16/20人次",
+      "present": 16,
+      "total": 20,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "物理AY(F26)",
       "teacher": "职梦凡",
       "rate": 73.5,
@@ -147,6 +163,23 @@
       ]
     },
     {
+      "name": "经济AY(F26)",
+      "teacher": "孙鹏",
+      "rate": 85.7,
+      "present_text": "24/28人次",
+      "present": 24,
+      "total": 28,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
       "rate": 90.9,
@@ -158,6 +191,23 @@
       "early": 0,
       "leave": 2,
       "status": "关注",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "经济CC(F26)",
+      "teacher": "孙鹏",
+      "rate": 70.8,
+      "present_text": "17/24人次",
+      "present": 17,
+      "total": 24,
+      "absent": 7,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
@@ -197,6 +247,188 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/18 7:00:00 至 2026/9/18 16:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-18T10:45:28"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/18 10:00:00 至 2026/9/18 17:00:00  看医生 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-18T10:45:28"
+    },
+    {
+      "name": "岳沐辰",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-18T10:45:12"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-18T10:45:12"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-18T10:45:12"
+    },
+    {
+      "name": "闻誉婷",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-18T10:45:00"
+    },
+    {
+      "name": "朱景璇",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/18 8:00:00 至 2026/9/18 16:00:00  有事回家 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-18T10:44:59"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/18 17:00:00  因个人原因，请假两天，谢谢 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-18T10:44:59"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/9/18 8:00:00 至 2026/9/18 14:30:00  请假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-18T10:44:59"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-18T10:44:59"
+    },
     {
       "name": "茆睿恺",
       "class": "A22",
@@ -339,40 +571,6 @@
       "updated_at": "2026-09-18T09:56:32"
     },
     {
-      "name": "金懿帆",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/18 7:00:00 至 2026/9/18 16:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-18T09:56:32"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/18 7:00:00 至 2026/9/18 10:00:00  看医生 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-18T09:56:32"
-    },
-    {
       "name": "童稷丰",
       "class": "G21",
       "reason": "当日缺课且无请假单",
@@ -384,49 +582,6 @@
         }
       ],
       "updated_at": "2026-09-18T09:56:32"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026/9/17 8:00:00 至 2026/9/18 17:00:00  因个人原因，请假两天，谢谢 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-18T09:10:44"
-    },
-    {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "病假_【已通过】 2026/9/18 8:00:00 至 2026/9/18 14:30:00  请假 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-18T08:21:25"
-    },
-    {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-18T08:21:25"
     },
     {
       "name": "夏镜贤",
@@ -512,22 +667,6 @@
       "location": "LT3-108"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "08:20-09:00",
-      "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "08:20-09:00",
-      "location": "LT3-208"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "物理",
@@ -584,28 +723,12 @@
       "location": "LT3-206"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "09:10-09:50",
-      "location": "LT3-208"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "物理",
       "teacher": "曾靓",
       "time": "09:10-09:50",
       "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "09:10-09:50",
-      "location": "LT3-208"
     },
     {
       "class": "十年级 G22",
@@ -651,14 +774,6 @@
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
-      "teacher": "杨燕霖",
-      "time": "10:00-10:40",
-      "location": "LT3-221"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "数学",
       "teacher": "潘子清",
       "time": "10:00-10:40",
       "location": "LT3-118"
@@ -675,14 +790,6 @@
       "class": "十一年级 AS2",
       "class_id": 442960,
       "subject": "数学",
-      "teacher": "杨燕霖",
-      "time": "10:00-10:40",
-      "location": "LT3-221"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "数学",
       "teacher": "潘子清",
       "time": "10:00-10:40",
       "location": "LT3-118"
@@ -694,14 +801,6 @@
       "teacher": "刘晨璐",
       "time": "10:00-10:40",
       "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "数学",
-      "teacher": "杨燕霖",
-      "time": "10:00-10:40",
-      "location": "LT3-221"
     },
     {
       "class": "十一年级 AS3",
@@ -758,14 +857,6 @@
       "teacher": "李俊",
       "time": "10:00-10:40",
       "location": "LT3-208"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "10:00-10:40",
-      "location": "LT3-111"
     },
     {
       "class": "十年级 G23",
@@ -787,59 +878,58 @@
   "trend": [
     {
       "date": "09-12",
-      "attendance": 88.4,
+      "attendance": 87.0,
       "submit": 90.0
     },
     {
       "date": "09-13",
-      "attendance": 86.9,
+      "attendance": 85.5,
       "submit": 90.5
     },
     {
       "date": "09-14",
-      "attendance": 85.4,
+      "attendance": 84.0,
       "submit": 91.0
     },
     {
       "date": "09-15",
-      "attendance": 83.9,
+      "attendance": 82.5,
       "submit": 91.5
     },
     {
       "date": "09-16",
-      "attendance": 82.4,
+      "attendance": 81.0,
       "submit": 92.0
     },
     {
       "date": "09-17",
-      "attendance": 80.9,
+      "attendance": 79.5,
       "submit": 92.5
     },
     {
       "date": "09-18",
-      "attendance": 83.9,
-      "submit": 87.0
+      "attendance": 82.5,
+      "submit": 86.2
     }
   ],
   "lesson": {
-    "completion_rate": 40.0,
-    "called": 24,
+    "completion_rate": 53.3,
+    "called": 32,
     "total": 60,
-    "class_coverage": "11/11",
+    "class_coverage": "14/14",
     "teacher_count": 16,
     "uncovered_classes": [
-      "十年级 G23",
-      "十一年级 AS3",
-      "化学9A(F26)",
-      "十二年级 A21",
-      "九年级 G12",
-      "十一年级 AS2",
       "十年级 G22",
-      "十二年级 A22",
       "十一年级 AS1",
-      "九年级 G11",
+      "九年级 G12",
+      "十二年级 A22",
+      "十一年级 AS2",
+      "十年级 G23",
+      "十二年级 A21",
+      "化学9A(F26)",
       "高数CR2(F26)",
-      "十年级 G21"
+      "十一年级 AS3",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -857,22 +947,6 @@
         "teacher": "李俊",
         "time": "08:20-09:00",
         "location": "LT3-108"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "08:20-09:00",
-        "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "08:20-09:00",
-        "location": "LT3-208"
       },
       {
         "class": "十年级 G22",
@@ -931,28 +1005,12 @@
         "location": "LT3-206"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "09:10-09:50",
-        "location": "LT3-208"
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "物理",
         "teacher": "曾靓",
         "time": "09:10-09:50",
         "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "09:10-09:50",
-        "location": "LT3-208"
       },
       {
         "class": "十年级 G22",
@@ -998,14 +1056,6 @@
         "class": "十一年级 AS1",
         "class_id": 442959,
         "subject": "数学",
-        "teacher": "杨燕霖",
-        "time": "10:00-10:40",
-        "location": "LT3-221"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "数学",
         "teacher": "潘子清",
         "time": "10:00-10:40",
         "location": "LT3-118"
@@ -1022,14 +1072,6 @@
         "class": "十一年级 AS2",
         "class_id": 442960,
         "subject": "数学",
-        "teacher": "杨燕霖",
-        "time": "10:00-10:40",
-        "location": "LT3-221"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "数学",
         "teacher": "潘子清",
         "time": "10:00-10:40",
         "location": "LT3-118"
@@ -1041,14 +1083,6 @@
         "teacher": "刘晨璐",
         "time": "10:00-10:40",
         "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "数学",
-        "teacher": "杨燕霖",
-        "time": "10:00-10:40",
-        "location": "LT3-221"
       },
       {
         "class": "十一年级 AS3",
@@ -1105,14 +1139,6 @@
         "teacher": "李俊",
         "time": "10:00-10:40",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "10:00-10:40",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G23",
