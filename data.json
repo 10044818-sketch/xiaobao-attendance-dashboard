@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-18 13:45",
+  "updated_at": "2026-09-18 13:50",
   "school": {
-    "rate": 85.2,
-    "present": 460,
-    "total": 540,
+    "rate": 85.7,
+    "present": 480,
+    "total": 560,
     "late": 9,
     "absent": 80,
     "leave": 50
@@ -110,6 +110,23 @@
       "status": "异常",
       "time_spans": [
         "13:00-13:40"
+      ]
+    },
+    {
+      "name": "商科BZ(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "20/20人次",
+      "present": 20,
+      "total": 20,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -1300,14 +1317,6 @@
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "13:00-13:40",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
       "subject": "生物",
       "teacher": "张璐菲",
       "time": "13:00-13:40",
@@ -1324,26 +1333,10 @@
     {
       "class": "十一年级 AS2",
       "class_id": 442960,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "13:00-13:40",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
       "subject": "生物",
       "teacher": "张璐菲",
       "time": "13:00-13:40",
       "location": "LT3-123"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "13:00-13:40",
-      "location": "LT3-121"
     },
     {
       "class": "十一年级 AS3",
@@ -1445,59 +1438,59 @@
   "trend": [
     {
       "date": "09-12",
-      "attendance": 89.7,
+      "attendance": 90.2,
       "submit": 90.0
     },
     {
       "date": "09-13",
-      "attendance": 88.2,
+      "attendance": 88.7,
       "submit": 90.5
     },
     {
       "date": "09-14",
-      "attendance": 86.7,
+      "attendance": 87.2,
       "submit": 91.0
     },
     {
       "date": "09-15",
-      "attendance": 85.2,
+      "attendance": 85.7,
       "submit": 91.5
     },
     {
       "date": "09-16",
-      "attendance": 83.7,
+      "attendance": 84.2,
       "submit": 92.0
     },
     {
       "date": "09-17",
-      "attendance": 82.2,
+      "attendance": 82.7,
       "submit": 92.5
     },
     {
       "date": "09-18",
-      "attendance": 85.2,
-      "submit": 87.6
+      "attendance": 85.7,
+      "submit": 87.8
     }
   ],
   "lesson": {
-    "completion_rate": 65.4,
-    "called": 68,
+    "completion_rate": 68.3,
+    "called": 71,
     "total": 104,
-    "class_coverage": "30/30",
+    "class_coverage": "31/31",
     "teacher_count": 24,
     "uncovered_classes": [
-      "十年级 G22",
-      "十二年级 A22",
-      "九年级 G11",
       "十一年级 AS2",
-      "十年级 G23",
-      "十二年级 A21",
-      "高数CR2(F26)",
-      "化学CB(F26)",
-      "十年级 G21",
+      "十年级 G22",
       "九年级 G12",
+      "十二年级 A21",
+      "十一年级 AS3",
+      "化学CB(F26)",
+      "九年级 G11",
+      "十年级 G21",
+      "高数CR2(F26)",
+      "十二年级 A22",
       "十一年级 AS1",
-      "十一年级 AS3"
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
@@ -1647,14 +1640,6 @@
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "13:00-13:40",
-        "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
         "subject": "生物",
         "teacher": "张璐菲",
         "time": "13:00-13:40",
@@ -1671,26 +1656,10 @@
       {
         "class": "十一年级 AS2",
         "class_id": 442960,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "13:00-13:40",
-        "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
         "subject": "生物",
         "teacher": "张璐菲",
         "time": "13:00-13:40",
         "location": "LT3-123"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "13:00-13:40",
-        "location": "LT3-121"
       },
       {
         "class": "十一年级 AS3",
