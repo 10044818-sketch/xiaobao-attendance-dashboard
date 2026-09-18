@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-18 09:40",
+  "updated_at": "2026-09-18 09:46",
   "school": {
-    "rate": 85.3,
-    "present": 93,
-    "total": 109,
+    "rate": 85.5,
+    "present": 100,
+    "total": 117,
     "late": 1,
-    "absent": 16,
-    "leave": 8
+    "absent": 17,
+    "leave": 9
   },
   "summary": {
     "pending_yesterday": 0,
@@ -98,6 +98,22 @@
       ]
     },
     {
+      "name": "语言艺术C0(F26)",
+      "teacher": "王伊",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
+      ]
+    },
+    {
       "name": "音乐C0(F26)",
       "teacher": "刘知言",
       "rate": 62.5,
@@ -115,6 +131,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/9/18 8:00:00 至 2026/9/18 17:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "语言艺术C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-18T09:44:13"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -137,19 +170,6 @@
       "class": "A22",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-18T08:53:00"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026-09-18 08:00:00 至 2026-09-18 17:00:00  头疼",
-      "type": "病假",
       "courses": [
         {
           "course": "音乐C0(F26)",
@@ -368,53 +388,53 @@
   "trend": [
     {
       "date": "09-12",
-      "attendance": 89.8,
+      "attendance": 90.0,
       "submit": 90.0
     },
     {
       "date": "09-13",
-      "attendance": 88.3,
+      "attendance": 88.5,
       "submit": 90.5
     },
     {
       "date": "09-14",
-      "attendance": 86.8,
+      "attendance": 87.0,
       "submit": 91.0
     },
     {
       "date": "09-15",
-      "attendance": 85.3,
+      "attendance": 85.5,
       "submit": 91.5
     },
     {
       "date": "09-16",
-      "attendance": 83.8,
+      "attendance": 84.0,
       "submit": 92.0
     },
     {
       "date": "09-17",
-      "attendance": 82.3,
+      "attendance": 82.5,
       "submit": 92.5
     },
     {
       "date": "09-18",
-      "attendance": 85.3,
-      "submit": 87.7
+      "attendance": 85.5,
+      "submit": 87.8
     }
   ],
   "lesson": {
     "completion_rate": 68.4,
     "called": 13,
     "total": 19,
-    "class_coverage": "6/6",
+    "class_coverage": "7/7",
     "teacher_count": 10,
     "uncovered_classes": [
+      "十二年级 A22",
       "十年级 G23",
       "十年级 G22",
-      "十二年级 A22",
       "十二年级 A21",
-      "九年级 G12",
-      "九年级 G11"
+      "九年级 G11",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
