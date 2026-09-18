@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-18 14:20",
+  "updated_at": "2026-09-18 14:25",
   "school": {
-    "rate": 84.6,
-    "present": 544,
-    "total": 643,
+    "rate": 85.0,
+    "present": 561,
+    "total": 660,
     "late": 9,
     "absent": 98,
     "leave": 61
@@ -308,6 +308,39 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "生物BZ(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
+      ]
+    },
+    {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "3/3人次",
+      "present": 3,
+      "total": 3,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:50-11:30"
       ]
     },
     {
@@ -1490,52 +1523,12 @@
       "location": "LT3-118"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-208"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-123"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "艺术BC",
       "teacher": "",
       "time": "13:00-13:40",
       "location": ""
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-123"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-123"
     },
     {
       "class": "十二年级 A22",
@@ -1581,58 +1574,58 @@
   "trend": [
     {
       "date": "09-12",
-      "attendance": 89.1,
+      "attendance": 89.5,
       "submit": 90.0
     },
     {
       "date": "09-13",
-      "attendance": 87.6,
+      "attendance": 88.0,
       "submit": 90.5
     },
     {
       "date": "09-14",
-      "attendance": 86.1,
+      "attendance": 86.5,
       "submit": 91.0
     },
     {
       "date": "09-15",
-      "attendance": 84.6,
+      "attendance": 85.0,
       "submit": 91.5
     },
     {
       "date": "09-16",
-      "attendance": 83.1,
+      "attendance": 83.5,
       "submit": 92.0
     },
     {
       "date": "09-17",
-      "attendance": 81.6,
+      "attendance": 82.0,
       "submit": 92.5
     },
     {
       "date": "09-18",
-      "attendance": 84.6,
-      "submit": 87.3
+      "attendance": 85.0,
+      "submit": 87.5
     }
   ],
   "lesson": {
-    "completion_rate": 75.0,
-    "called": 78,
+    "completion_rate": 79.8,
+    "called": 83,
     "total": 104,
-    "class_coverage": "36/36",
+    "class_coverage": "38/38",
     "teacher_count": 24,
     "uncovered_classes": [
-      "九年级 G12",
-      "十二年级 A21",
-      "高数CR2(F26)",
       "十一年级 AS1",
-      "十年级 G21",
-      "十二年级 A22",
-      "十年级 G22",
-      "九年级 G11",
-      "十一年级 AS2",
       "十一年级 AS3",
-      "十年级 G23"
+      "十年级 G22",
+      "十二年级 A21",
+      "九年级 G11",
+      "十年级 G23",
+      "高数CR2(F26)",
+      "十二年级 A22",
+      "九年级 G12",
+      "十一年级 AS2",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -1756,52 +1749,12 @@
         "location": "LT3-118"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-208"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-123"
-      },
-      {
         "class": "十一年级 AS1",
         "class_id": 442959,
         "subject": "艺术BC",
         "teacher": "",
         "time": "13:00-13:40",
         "location": ""
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-123"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-123"
       },
       {
         "class": "十二年级 A22",
