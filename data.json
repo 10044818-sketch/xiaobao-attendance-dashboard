@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-18 14:50",
+  "updated_at": "2026-09-18 14:55",
   "school": {
-    "rate": 84.5,
-    "present": 593,
-    "total": 702,
+    "rate": 84.6,
+    "present": 620,
+    "total": 733,
     "late": 9,
-    "absent": 108,
-    "leave": 71
+    "absent": 112,
+    "leave": 75
   },
   "summary": {
     "pending_yesterday": 0,
@@ -61,6 +61,22 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "体育C1(F26)",
+      "teacher": "沈译宇",
+      "rate": 87.1,
+      "present_text": "27/31人次",
+      "present": 27,
+      "total": 31,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
       ]
     },
     {
@@ -661,6 +677,82 @@
   ],
   "absent_students": [
     {
+      "name": "朱珈禾",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/9/18 13:30:00 至 2026/9/18 14:30:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学CB(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-18T14:54:13"
+    },
+    {
+      "name": "岳沐辰",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-18T14:54:13"
+    },
+    {
+      "name": "王麒鸣",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/9/18 13:30:00 至 2026/9/18 14:30:00  咳嗽 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-18T14:54:13"
+    },
+    {
+      "name": "陈乐涵",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-18T14:54:13"
+    },
+    {
       "name": "傅泽",
       "class": "G22",
       "reason": "病假_【已通过】 2026-09-18 12:00:00 至 2026-09-18 14:30:00  病假就医",
@@ -859,36 +951,6 @@
         }
       ],
       "updated_at": "2026-09-18T13:55:45"
-    },
-    {
-      "name": "朱珈禾",
-      "class": "A21",
-      "reason": "事假_【已通过】 2026-09-18 13:30:00 至 2026-09-18 14:30:00  请假",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学CB(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-18T13:55:18"
-    },
-    {
-      "name": "陈乐涵",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CC(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学CB(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-18T13:55:17"
     },
     {
       "name": "卓成亮",
@@ -1334,27 +1396,6 @@
       "updated_at": "2026-09-18T10:58:53"
     },
     {
-      "name": "岳沐辰",
-      "class": "A21",
-      "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济CC(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济CC(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理CA(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-18T10:56:08"
-    },
-    {
       "name": "雷雯",
       "class": "G23",
       "reason": "当日缺课且无请假单",
@@ -1674,14 +1715,6 @@
       "location": "LT3-209"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "体育",
-      "teacher": "沈译宇",
-      "time": "13:50-14:30",
-      "location": ""
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "历史",
@@ -1696,14 +1729,6 @@
       "teacher": "米万宝",
       "time": "13:50-14:30",
       "location": "LT3-118"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "体育",
-      "teacher": "沈译宇",
-      "time": "13:50-14:30",
-      "location": ""
     },
     {
       "class": "十年级 G21",
@@ -1733,59 +1758,59 @@
   "trend": [
     {
       "date": "09-12",
-      "attendance": 89.0,
+      "attendance": 89.1,
       "submit": 90.0
     },
     {
       "date": "09-13",
-      "attendance": 87.5,
+      "attendance": 87.6,
       "submit": 90.5
     },
     {
       "date": "09-14",
-      "attendance": 86.0,
+      "attendance": 86.1,
       "submit": 91.0
     },
     {
       "date": "09-15",
-      "attendance": 84.5,
+      "attendance": 84.6,
       "submit": 91.5
     },
     {
       "date": "09-16",
-      "attendance": 83.0,
+      "attendance": 83.1,
       "submit": 92.0
     },
     {
       "date": "09-17",
-      "attendance": 81.5,
+      "attendance": 81.6,
       "submit": 92.5
     },
     {
       "date": "09-18",
-      "attendance": 84.5,
-      "submit": 87.2
+      "attendance": 84.6,
+      "submit": 87.3
     }
   ],
   "lesson": {
-    "completion_rate": 75.8,
-    "called": 97,
+    "completion_rate": 77.3,
+    "called": 99,
     "total": 128,
-    "class_coverage": "39/39",
+    "class_coverage": "40/40",
     "teacher_count": 25,
     "uncovered_classes": [
+      "化学BZ(F26)",
       "十二年级 A21",
       "十年级 G22",
-      "九年级 G11",
-      "九年级 G12",
-      "十一年级 AS3",
       "十二年级 A22",
       "十一年级 AS2",
-      "十一年级 AS1",
+      "十一年级 AS3",
+      "九年级 G12",
       "十年级 G23",
-      "化学BZ(F26)",
-      "十年级 G21",
-      "高数CR2(F26)"
+      "十一年级 AS1",
+      "高数CR2(F26)",
+      "九年级 G11",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -1981,14 +2006,6 @@
         "location": "LT3-209"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "体育",
-        "teacher": "沈译宇",
-        "time": "13:50-14:30",
-        "location": ""
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "历史",
@@ -2003,14 +2020,6 @@
         "teacher": "米万宝",
         "time": "13:50-14:30",
         "location": "LT3-118"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "体育",
-        "teacher": "沈译宇",
-        "time": "13:50-14:30",
-        "location": ""
       },
       {
         "class": "十年级 G21",
