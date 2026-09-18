@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-18 10:45",
+  "updated_at": "2026-09-18 10:50",
   "school": {
-    "rate": 82.5,
-    "present": 208,
-    "total": 252,
+    "rate": 83.2,
+    "present": 228,
+    "total": 274,
     "late": 3,
-    "absent": 44,
-    "leave": 27
+    "absent": 46,
+    "leave": 29
   },
   "summary": {
     "pending_yesterday": 0,
@@ -150,16 +150,17 @@
       "name": "经济AX(F26)",
       "teacher": "王肇君",
       "rate": 90.9,
-      "present_text": "20/22人次",
-      "present": 20,
-      "total": 22,
-      "absent": 2,
+      "present_text": "40/44人次",
+      "present": 40,
+      "total": 44,
+      "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "关注",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -247,6 +248,40 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-18T10:49:54"
+    },
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-18T10:49:54"
+    },
     {
       "name": "金懿帆",
       "class": "G21",
@@ -509,32 +544,6 @@
         }
       ],
       "updated_at": "2026-09-18T10:08:27"
-    },
-    {
-      "name": "贾征颐",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-18T09:59:20"
-    },
-    {
-      "name": "桂应沁",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/14 8:00:00 至 2026/9/18 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-18T09:59:20"
     },
     {
       "name": "朱金贝",
@@ -878,38 +887,38 @@
   "trend": [
     {
       "date": "09-12",
-      "attendance": 87.0,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "09-13",
-      "attendance": 85.5,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "09-14",
-      "attendance": 84.0,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "09-15",
-      "attendance": 82.5,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "09-16",
-      "attendance": 81.0,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "09-17",
-      "attendance": 79.5,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "09-18",
-      "attendance": 82.5,
-      "submit": 86.2
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
@@ -920,16 +929,16 @@
     "teacher_count": 16,
     "uncovered_classes": [
       "十年级 G22",
-      "十一年级 AS1",
-      "九年级 G12",
-      "十二年级 A22",
-      "十一年级 AS2",
-      "十年级 G23",
-      "十二年级 A21",
-      "化学9A(F26)",
-      "高数CR2(F26)",
       "十一年级 AS3",
-      "九年级 G11"
+      "十二年级 A21",
+      "九年级 G11",
+      "十年级 G23",
+      "化学9A(F26)",
+      "十一年级 AS2",
+      "高数CR2(F26)",
+      "十一年级 AS1",
+      "十二年级 A22",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
