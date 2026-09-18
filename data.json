@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-18 11:25",
+  "updated_at": "2026-09-18 11:30",
   "school": {
     "rate": 84.3,
     "present": 334,
     "total": 396,
     "late": 9,
     "absent": 62,
-    "leave": 37
+    "leave": 38
   },
   "summary": {
     "pending_yesterday": 0,
@@ -41,7 +41,7 @@
       "absent": 4,
       "late": 1,
       "early": 0,
-      "leave": 2,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
@@ -363,6 +363,19 @@
   ],
   "absent_students": [
     {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026-09-18 11:00:00 至 2026-09-18 11:30:00  腹泻",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育BR1(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-18T11:27:12"
+    },
+    {
       "name": "茆睿恺",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -431,19 +444,6 @@
           "course": "数学BQ1(F26)",
           "time": "10:00-10:40"
         },
-        {
-          "course": "体育BR1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-18T10:58:53"
-    },
-    {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
         {
           "course": "体育BR1(F26)",
           "time": "10:50-11:30"
@@ -1051,6 +1051,62 @@
       "teacher": "李俊",
       "time": "10:00-10:40",
       "location": "LT3-208"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "10:50-11:30",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "10:50-11:30",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "雅思英语",
+      "teacher": "曹德娟",
+      "time": "10:50-11:30",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "10:50-11:30",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "雅思英语",
+      "teacher": "曹德娟",
+      "time": "10:50-11:30",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:50-11:30",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:50-11:30",
+      "location": "LT3-208"
     }
   ],
   "trend": [
@@ -1091,22 +1147,22 @@
     }
   ],
   "lesson": {
-    "completion_rate": 68.3,
-    "called": 41,
-    "total": 60,
+    "completion_rate": 66.2,
+    "called": 51,
+    "total": 77,
     "class_coverage": "21/21",
-    "teacher_count": 16,
+    "teacher_count": 20,
     "uncovered_classes": [
-      "十年级 G23",
-      "十一年级 AS1",
-      "九年级 G12",
-      "九年级 G11",
+      "十二年级 A22",
+      "十一年级 AS3",
       "十一年级 AS2",
       "高数CR2(F26)",
-      "十年级 G22",
+      "十年级 G23",
+      "九年级 G11",
+      "九年级 G12",
       "十二年级 A21",
-      "十二年级 A22",
-      "十一年级 AS3"
+      "十一年级 AS1",
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
@@ -1259,6 +1315,62 @@
         "subject": "高等数学",
         "teacher": "李俊",
         "time": "10:00-10:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "10:50-11:30",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "10:50-11:30",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "雅思英语",
+        "teacher": "曹德娟",
+        "time": "10:50-11:30",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "10:50-11:30",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "雅思英语",
+        "teacher": "曹德娟",
+        "time": "10:50-11:30",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "10:50-11:30",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "10:50-11:30",
         "location": "LT3-208"
       }
     ]
