@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-18 09:10",
+  "updated_at": "2026-09-18 09:18",
   "school": {
-    "rate": 79.2,
-    "present": 61,
-    "total": 77,
+    "rate": 85.3,
+    "present": 93,
+    "total": 109,
     "late": 1,
     "absent": 16,
     "leave": 8
@@ -15,6 +15,23 @@
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "化学BY(F26)",
+      "teacher": "米万宝",
+      "rate": 100.0,
+      "present_text": "32/32人次",
+      "present": 32,
+      "total": 32,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
     {
       "name": "物理AY(F26)",
       "teacher": "职梦凡",
@@ -316,38 +333,6 @@
       "location": "LT3-108"
     },
     {
-      "class": "化学BY(F26)",
-      "class_id": 520900,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "08:20-09:00",
-      "location": "LT3-221"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "08:20-09:00",
-      "location": "LT3-221"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "08:20-09:00",
-      "location": "LT3-221"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "08:20-09:00",
-      "location": "LT3-221"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "经济学",
@@ -383,56 +368,52 @@
   "trend": [
     {
       "date": "09-12",
-      "attendance": 83.7,
+      "attendance": 89.8,
       "submit": 90.0
     },
     {
       "date": "09-13",
-      "attendance": 82.2,
+      "attendance": 88.3,
       "submit": 90.5
     },
     {
       "date": "09-14",
-      "attendance": 80.7,
+      "attendance": 86.8,
       "submit": 91.0
     },
     {
       "date": "09-15",
-      "attendance": 79.2,
+      "attendance": 85.3,
       "submit": 91.5
     },
     {
       "date": "09-16",
-      "attendance": 77.7,
+      "attendance": 83.8,
       "submit": 92.0
     },
     {
       "date": "09-17",
-      "attendance": 76.2,
+      "attendance": 82.3,
       "submit": 92.5
     },
     {
       "date": "09-18",
-      "attendance": 79.2,
-      "submit": 84.6
+      "attendance": 85.3,
+      "submit": 87.7
     }
   ],
   "lesson": {
-    "completion_rate": 47.4,
-    "called": 9,
+    "completion_rate": 68.4,
+    "called": 13,
     "total": 19,
-    "class_coverage": "5/5",
+    "class_coverage": "6/6",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十年级 G22",
-      "十一年级 AS2",
-      "十一年级 AS1",
-      "十年级 G23",
-      "九年级 G12",
-      "九年级 G11",
-      "十一年级 AS3",
-      "化学BY(F26)",
       "十二年级 A22",
+      "十年级 G23",
+      "九年级 G11",
+      "九年级 G12",
+      "十年级 G22",
       "十二年级 A21"
     ],
     "uncovered_teachers": [
@@ -451,38 +432,6 @@
         "teacher": "李俊",
         "time": "08:20-09:00",
         "location": "LT3-108"
-      },
-      {
-        "class": "化学BY(F26)",
-        "class_id": 520900,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "08:20-09:00",
-        "location": "LT3-221"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "08:20-09:00",
-        "location": "LT3-221"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "08:20-09:00",
-        "location": "LT3-221"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "08:20-09:00",
-        "location": "LT3-221"
       },
       {
         "class": "十二年级 A21",
