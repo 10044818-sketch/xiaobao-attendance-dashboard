@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-18 12:43",
+  "updated_at": "2026-09-18 12:45",
   "school": {
-    "rate": 84.5,
-    "present": 388,
-    "total": 459,
+    "rate": 84.8,
+    "present": 401,
+    "total": 473,
     "late": 9,
-    "absent": 71,
-    "leave": 42
+    "absent": 72,
+    "leave": 43
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -246,6 +246,22 @@
       ]
     },
     {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "经济AX(F26)",
       "teacher": "王肇君",
       "rate": 90.9,
@@ -395,6 +411,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/9/18 8:00:00 至 2026/9/18 17:30:00  感到压力比较大，休息调整 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-18T12:45:00"
+    },
     {
       "name": "卓成亮",
       "class": "A21",
@@ -719,19 +752,6 @@
         }
       ],
       "updated_at": "2026-09-18T10:53:16"
-    },
-    {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "事假_【已通过】 2026/9/18 8:00:00 至 2026/9/18 17:30:00  感到压力比较大，休息调整 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学9A(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-18T10:53:15"
     },
     {
       "name": "雷雯",
@@ -1084,22 +1104,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "雅思英语",
@@ -1143,56 +1147,56 @@
   "trend": [
     {
       "date": "09-12",
-      "attendance": 89.0,
+      "attendance": 89.3,
       "submit": 90.0
     },
     {
       "date": "09-13",
-      "attendance": 87.5,
+      "attendance": 87.8,
       "submit": 90.5
     },
     {
       "date": "09-14",
-      "attendance": 86.0,
+      "attendance": 86.3,
       "submit": 91.0
     },
     {
       "date": "09-15",
-      "attendance": 84.5,
+      "attendance": 84.8,
       "submit": 91.5
     },
     {
       "date": "09-16",
-      "attendance": 83.0,
+      "attendance": 83.3,
       "submit": 92.0
     },
     {
       "date": "09-17",
-      "attendance": 81.5,
+      "attendance": 81.8,
       "submit": 92.5
     },
     {
       "date": "09-18",
-      "attendance": 84.5,
-      "submit": 87.2
+      "attendance": 84.8,
+      "submit": 87.4
     }
   ],
   "lesson": {
-    "completion_rate": 75.3,
-    "called": 58,
+    "completion_rate": 77.9,
+    "called": 60,
     "total": 77,
-    "class_coverage": "23/23",
+    "class_coverage": "24/24",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "九年级 G12",
-      "九年级 G11",
-      "高数CR2(F26)",
       "十年级 G23",
+      "十二年级 A21",
+      "十一年级 AS1",
+      "九年级 G12",
+      "十一年级 AS3",
+      "高数CR2(F26)",
+      "九年级 G11",
       "十二年级 A22",
-      "十二年级 A21"
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -1290,22 +1294,6 @@
         "teacher": "李俊",
         "time": "10:00-10:40",
         "location": "LT3-208"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
