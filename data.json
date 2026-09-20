@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-20 13:55",
+  "updated_at": "2026-09-20 14:03",
   "school": {
-    "rate": 83.3,
-    "present": 484,
+    "rate": 83.1,
+    "present": 483,
     "total": 581,
     "late": 22,
-    "absent": 97,
-    "leave": 62
+    "absent": 98,
+    "leave": 63
   },
   "summary": {
     "pending_yesterday": 0,
@@ -398,14 +398,14 @@
     {
       "name": "雅思BR3S(F26)",
       "teacher": "曹德娟",
-      "rate": 85.7,
-      "present_text": "18/21人次",
-      "present": 18,
+      "rate": 81.0,
+      "present_text": "17/21人次",
+      "present": 17,
       "total": 21,
-      "absent": 3,
+      "absent": 4,
       "late": 1,
       "early": 0,
-      "leave": 3,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "13:00-13:40"
@@ -494,6 +494,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "陈俏君",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026-09-20 13:30:00 至 2026-09-20 17:00:00  请假",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思BR3S(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-20T13:58:40"
+    },
     {
       "name": "江雨霏",
       "class": "A22",
@@ -1166,38 +1179,38 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.8,
+      "attendance": 87.6,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.3,
+      "attendance": 86.1,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.8,
+      "attendance": 84.6,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.3,
+      "attendance": 83.1,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.8,
+      "attendance": 81.6,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.3,
+      "attendance": 80.1,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.3,
-      "submit": 86.7
+      "attendance": 83.1,
+      "submit": 86.5
     }
   ],
   "lesson": {
