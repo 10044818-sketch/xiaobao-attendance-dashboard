@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-20 16:35",
+  "updated_at": "2026-09-20 16:41",
   "school": {
-    "rate": 83.2,
-    "present": 748,
-    "total": 899,
+    "rate": 83.0,
+    "present": 750,
+    "total": 904,
     "late": 23,
-    "absent": 151,
+    "absent": 154,
     "leave": 105
   },
   "summary": {
@@ -546,6 +546,38 @@
       ]
     },
     {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
+      "name": "艺术CB(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 0.0,
+      "present_text": "0/3人次",
+      "present": 0,
+      "total": 3,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
       "name": "英语写作AQ1(F26)",
       "teacher": "贺珍谊",
       "rate": 87.5,
@@ -804,6 +836,53 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "姜懿",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-20T16:39:03"
+    },
+    {
+      "name": "洪若玲",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-20T16:39:03"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ3(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "艺术CB(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-20T16:39:03"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -1601,23 +1680,6 @@
       "updated_at": "2026-09-20T12:12:32"
     },
     {
-      "name": "高子涵",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ3(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ3(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-20T12:12:32"
-    },
-    {
       "name": "许宸嘉",
       "class": "A21",
       "reason": "当日缺课且无请假单",
@@ -1755,45 +1817,45 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.7,
+      "attendance": 87.5,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.2,
+      "attendance": 86.0,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.7,
+      "attendance": 84.5,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.2,
+      "attendance": 83.0,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.7,
+      "attendance": 81.5,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.2,
+      "attendance": 80.0,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.2,
-      "submit": 86.6
+      "attendance": 83.0,
+      "submit": 86.5
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "48/48",
+    "class_coverage": "50/50",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
