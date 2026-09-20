@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-20 12:56",
+  "updated_at": "2026-09-20 13:01",
   "school": {
-    "rate": 82.1,
-    "present": 372,
-    "total": 453,
+    "rate": 82.2,
+    "present": 384,
+    "total": 467,
     "late": 15,
-    "absent": 81,
+    "absent": 83,
     "leave": 51
   },
   "summary": {
@@ -162,6 +162,22 @@
       "status": "关注",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "物理A0(F26)",
+      "teacher": "曾靓",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -366,6 +382,64 @@
   ],
   "absent_students": [
     {
+      "name": "焦怡雯",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理A0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-20T13:00:37"
+    },
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理A0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-20T13:00:37"
+    },
+    {
       "name": "卓成亮",
       "class": "A21",
       "reason": "当日缺课且无请假单",
@@ -540,56 +614,6 @@
         }
       ],
       "updated_at": "2026-09-20T11:37:36"
-    },
-    {
-      "name": "焦怡雯",
-      "class": "G23",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-20T11:07:08"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-20T11:07:08"
     },
     {
       "name": "岳沐辰",
@@ -964,45 +988,45 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 86.6,
+      "attendance": 86.7,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 85.1,
+      "attendance": 85.2,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 83.6,
+      "attendance": 83.7,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 82.1,
+      "attendance": 82.2,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 80.6,
+      "attendance": 80.7,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 79.1,
+      "attendance": 79.2,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 82.1,
-      "submit": 86.0
+      "attendance": 82.2,
+      "submit": 86.1
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "21/21",
+    "class_coverage": "22/22",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
