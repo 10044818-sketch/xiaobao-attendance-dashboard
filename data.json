@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-20 13:20",
+  "updated_at": "2026-09-20 13:25",
   "school": {
-    "rate": 82.3,
-    "present": 431,
+    "rate": 82.4,
+    "present": 432,
     "total": 524,
-    "late": 17,
-    "absent": 93,
+    "late": 18,
+    "absent": 92,
     "leave": 56
   },
   "summary": {
@@ -234,12 +234,12 @@
     {
       "name": "物理C0(F26)",
       "teacher": "职梦凡",
-      "rate": 50.0,
-      "present_text": "4/8人次",
-      "present": 4,
+      "rate": 62.5,
+      "present_text": "5/8人次",
+      "present": 5,
       "total": 8,
-      "absent": 4,
-      "late": 0,
+      "absent": 3,
+      "late": 1,
       "early": 0,
       "leave": 1,
       "status": "异常",
@@ -446,6 +446,61 @@
   ],
   "absent_students": [
     {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-20T13:20:48"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/9/20 13:00:00 至 2026/9/20 17:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-20T13:20:48"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-20T13:20:48"
+    },
+    {
       "name": "周原",
       "class": "AS1",
       "reason": "当日缺课且无请假单",
@@ -490,74 +545,6 @@
         }
       ],
       "updated_at": "2026-09-20T13:16:35"
-    },
-    {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-20T13:03:43"
-    },
-    {
-      "name": "曾禹德",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-20T13:03:43"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026/9/20 13:00:00 至 2026/9/20 17:00:00  头疼 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思词汇C0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-20T13:03:43"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-20T13:03:43"
     },
     {
       "name": "王誉涵",
@@ -1110,37 +1097,37 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 86.8,
+      "attendance": 86.9,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 85.3,
+      "attendance": 85.4,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 83.8,
+      "attendance": 83.9,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 82.3,
+      "attendance": 82.4,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 80.8,
+      "attendance": 80.9,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 79.3,
+      "attendance": 79.4,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 82.3,
+      "attendance": 82.4,
       "submit": 86.2
     }
   ],
