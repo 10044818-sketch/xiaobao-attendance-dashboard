@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-20 11:06",
+  "updated_at": "2026-09-20 11:13",
   "school": {
-    "rate": 82.9,
-    "present": 321,
-    "total": 387,
+    "rate": 83.0,
+    "present": 333,
+    "total": 401,
     "late": 15,
-    "absent": 66,
+    "absent": 68,
     "leave": 46
   },
   "summary": {
@@ -252,16 +252,17 @@
       "name": "经济A0(F26)",
       "teacher": "郝畅",
       "rate": 85.7,
-      "present_text": "12/14人次",
-      "present": 12,
-      "total": 14,
-      "absent": 2,
+      "present_text": "24/28人次",
+      "present": 24,
+      "total": 28,
+      "absent": 4,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -331,6 +332,56 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "焦怡雯",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-20T11:07:08"
+    },
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-20T11:07:08"
+    },
     {
       "name": "张翰霆",
       "class": "A22",
@@ -682,48 +733,6 @@
       "updated_at": "2026-09-20T10:02:45"
     },
     {
-      "name": "焦怡雯",
-      "class": "G23",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-20T10:01:39"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-20T10:01:39"
-    },
-    {
       "name": "赵浩雯",
       "class": "AS1",
       "reason": "当日缺课且无请假单",
@@ -852,37 +861,37 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.4,
+      "attendance": 87.5,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 85.9,
+      "attendance": 86.0,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.4,
+      "attendance": 84.5,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 82.9,
+      "attendance": 83.0,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.4,
+      "attendance": 81.5,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 79.9,
+      "attendance": 80.0,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 82.9,
+      "attendance": 83.0,
       "submit": 86.5
     }
   ],
