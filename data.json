@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-20 11:02",
+  "updated_at": "2026-09-20 11:06",
   "school": {
-    "rate": 83.8,
-    "present": 315,
-    "total": 376,
+    "rate": 82.9,
+    "present": 321,
+    "total": 387,
     "late": 15,
-    "absent": 61,
-    "leave": 45
+    "absent": 66,
+    "leave": 46
   },
   "summary": {
     "pending_yesterday": 0,
@@ -202,16 +202,17 @@
       "name": "物理CA(F26)",
       "teacher": "曾靓",
       "rate": 54.5,
-      "present_text": "6/11人次",
-      "present": 6,
-      "total": 11,
-      "absent": 5,
+      "present_text": "12/22人次",
+      "present": 12,
+      "total": 22,
+      "absent": 10,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -330,6 +331,91 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-20T11:03:07"
+    },
+    {
+      "name": "岳沐辰",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-20T11:03:07"
+    },
+    {
+      "name": "许宸嘉",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-20T11:03:07"
+    },
+    {
+      "name": "闻誉婷",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-20T11:03:07"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-20T11:03:07"
+    },
     {
       "name": "李知颖",
       "class": "G11",
@@ -693,71 +779,6 @@
       "updated_at": "2026-09-20T10:01:17"
     },
     {
-      "name": "张翰霆",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-20T10:01:04"
-    },
-    {
-      "name": "岳沐辰",
-      "class": "A21",
-      "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-20T10:01:04"
-    },
-    {
-      "name": "许宸嘉",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-20T10:01:04"
-    },
-    {
-      "name": "闻誉婷",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-20T10:01:04"
-    },
-    {
-      "name": "王子天",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-20T10:01:04"
-    },
-    {
       "name": "贾牧荷",
       "class": "G22",
       "reason": "事假_【已通过】 2026-09-20 08:00:00 至 2026-09-20 09:30:00  家长陪同送来学校了",
@@ -831,38 +852,38 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 88.3,
+      "attendance": 87.4,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.8,
+      "attendance": 85.9,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 85.3,
+      "attendance": 84.4,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.8,
+      "attendance": 82.9,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 82.3,
+      "attendance": 81.4,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.8,
+      "attendance": 79.9,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.8,
-      "submit": 86.9
+      "attendance": 82.9,
+      "submit": 86.5
     }
   ],
   "lesson": {
