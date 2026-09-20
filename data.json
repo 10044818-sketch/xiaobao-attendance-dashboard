@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-20 13:50",
+  "updated_at": "2026-09-20 13:55",
   "school": {
-    "rate": 83.2,
-    "present": 477,
-    "total": 573,
-    "late": 20,
-    "absent": 96,
-    "leave": 61
+    "rate": 83.3,
+    "present": 484,
+    "total": 581,
+    "late": 22,
+    "absent": 97,
+    "leave": 62
   },
   "summary": {
     "pending_yesterday": 0,
@@ -475,9 +475,54 @@
       "time_spans": [
         "13:00-13:40"
       ]
+    },
+    {
+      "name": "音乐C0(F26)",
+      "teacher": "刘知言",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 2,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/9/20 13:00:00 至 2026/9/20 17:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "音乐C0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-20T13:52:55"
+    },
     {
       "name": "陈思佳",
       "class": "AS2",
@@ -617,31 +662,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-20T13:32:05"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026/9/20 13:00:00 至 2026/9/20 17:00:00  头疼 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思词汇C0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:50-11:30"
-        },
         {
           "course": "物理C0(F26)",
           "time": "13:00-13:40"
@@ -1146,45 +1166,45 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.7,
+      "attendance": 87.8,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.2,
+      "attendance": 86.3,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.7,
+      "attendance": 84.8,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.2,
+      "attendance": 83.3,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.7,
+      "attendance": 81.8,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.2,
+      "attendance": 80.3,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.2,
-      "submit": 86.6
+      "attendance": 83.3,
+      "submit": 86.7
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "28/28",
+    "class_coverage": "29/29",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
