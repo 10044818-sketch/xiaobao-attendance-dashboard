@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-20 14:37",
+  "updated_at": "2026-09-20 14:40",
   "school": {
     "rate": 83.2,
-    "present": 495,
-    "total": 595,
+    "present": 497,
+    "total": 597,
     "late": 22,
     "absent": 100,
     "leave": 70
@@ -345,6 +345,22 @@
       "time_spans": [
         "13:00-13:40",
         "13:50-14:30"
+      ]
+    },
+    {
+      "name": "艺术AA(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -1241,7 +1257,7 @@
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "30/30",
+    "class_coverage": "31/31",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
