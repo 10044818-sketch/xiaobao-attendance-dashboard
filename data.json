@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-20 08:21",
+  "updated_at": "2026-09-20 08:25",
   "school": {
-    "rate": 0,
-    "present": 0,
-    "total": 0,
+    "rate": 75.7,
+    "present": 28,
+    "total": 37,
     "late": 0,
-    "absent": 0,
-    "leave": 0
+    "absent": 9,
+    "leave": 1
   },
   "summary": {
     "pending_yesterday": 0,
@@ -14,51 +14,202 @@
     "dorm_attention": 0,
     "invalid_leave": 0
   },
-  "classes": [],
-  "absent_students": [],
+  "classes": [
+    {
+      "name": "数学BQ1(F26)",
+      "teacher": "杨燕霖",
+      "rate": 65.0,
+      "present_text": "13/20人次",
+      "present": 13,
+      "total": 20,
+      "absent": 7,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
+      "name": "数学BQ2(F26)",
+      "teacher": "潘子清",
+      "rate": 88.2,
+      "present_text": "15/17人次",
+      "present": 15,
+      "total": 17,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    }
+  ],
+  "absent_students": [
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T08:24:10"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T08:24:10"
+    },
+    {
+      "name": "于泽轩",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T08:24:10"
+    },
+    {
+      "name": "李雨真",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T08:24:10"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T08:24:10"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T08:24:10"
+    },
+    {
+      "name": "鲍希尔",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T08:24:10"
+    },
+    {
+      "name": "冯昭嘉",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T08:23:15"
+    },
+    {
+      "name": "陈世棋",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T08:23:15"
+    }
+  ],
   "pending_roll_call": [],
   "trend": [
     {
       "date": "09-14",
-      "attendance": 4.5,
+      "attendance": 80.2,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 3.0,
+      "attendance": 78.7,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 1.5,
+      "attendance": 77.2,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 0.0,
+      "attendance": 75.7,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": -1.5,
+      "attendance": 74.2,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": -3.0,
+      "attendance": 72.7,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 0,
-      "submit": 45.0
+      "attendance": 75.7,
+      "submit": 82.8
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "0/0",
+    "class_coverage": "2/2",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
