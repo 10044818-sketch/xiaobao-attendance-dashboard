@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-20 09:36",
+  "updated_at": "2026-09-20 09:40",
   "school": {
-    "rate": 81.2,
-    "present": 104,
+    "rate": 82.0,
+    "present": 105,
     "total": 128,
-    "late": 10,
-    "absent": 24,
+    "late": 11,
+    "absent": 23,
     "leave": 18
   },
   "summary": {
@@ -100,12 +100,12 @@
     {
       "name": "雅思词汇C0(F26)",
       "teacher": "贺珍谊",
-      "rate": 75.0,
-      "present_text": "6/8人次",
-      "present": 6,
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
       "total": 8,
-      "absent": 2,
-      "late": 0,
+      "absent": 1,
+      "late": 1,
       "early": 0,
       "leave": 1,
       "status": "异常",
@@ -126,20 +126,7 @@
           "time": "09:10-09:50"
         }
       ],
-      "updated_at": "2026-09-20T09:35:55"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思词汇C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-20T09:35:55"
+      "updated_at": "2026-09-20T09:37:38"
     },
     {
       "name": "贾牧荷",
@@ -378,38 +365,38 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 85.7,
+      "attendance": 86.5,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 84.2,
+      "attendance": 85.0,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 82.7,
+      "attendance": 83.5,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 81.2,
+      "attendance": 82.0,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 79.7,
+      "attendance": 80.5,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 78.2,
+      "attendance": 79.0,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 81.2,
-      "submit": 85.6
+      "attendance": 82.0,
+      "submit": 86.0
     }
   ],
   "lesson": {
