@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-20 16:25",
+  "updated_at": "2026-09-20 16:31",
   "school": {
-    "rate": 83.0,
-    "present": 738,
-    "total": 889,
+    "rate": 83.2,
+    "present": 748,
+    "total": 899,
     "late": 23,
     "absent": 151,
     "leave": 105
@@ -144,6 +144,22 @@
       "status": "异常",
       "time_spans": [
         "14:40-15:20"
+      ]
+    },
+    {
+      "name": "商科BZ(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "10/10人次",
+      "present": 10,
+      "total": 10,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "16:20-17:00"
       ]
     },
     {
@@ -1739,45 +1755,45 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.5,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.0,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.5,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.0,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.5,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.0,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.0,
-      "submit": 86.5
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "47/47",
+    "class_coverage": "48/48",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
