@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-20 14:50",
+  "updated_at": "2026-09-20 14:55",
   "school": {
-    "rate": 83.1,
-    "present": 546,
-    "total": 657,
+    "rate": 82.9,
+    "present": 556,
+    "total": 671,
     "late": 22,
-    "absent": 111,
-    "leave": 76
+    "absent": 115,
+    "leave": 79
   },
   "summary": {
     "pending_yesterday": 0,
@@ -78,6 +78,22 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "商科AA(F26)",
+      "teacher": "余震",
+      "rate": 71.4,
+      "present_text": "10/14人次",
+      "present": 10,
+      "total": 14,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -562,6 +578,102 @@
   ],
   "absent_students": [
     {
+      "name": "孔维轩",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  生日请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语AQ2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-20T14:51:36"
+    },
+    {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-20T14:51:36"
+    },
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-20T14:51:36"
+    },
+    {
+      "name": "关矞文",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/20 13:00:00 至 2026/9/20 17:00:00  请假半天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-20T14:51:36"
+    },
+    {
       "name": "曾禹德",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -882,31 +994,6 @@
       "updated_at": "2026-09-20T13:50:08"
     },
     {
-      "name": "关矞文",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 12:00:00  上午请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育AB(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-20T13:47:49"
-    },
-    {
       "name": "王誉涵",
       "class": "AS3",
       "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  请假 ",
@@ -1124,31 +1211,6 @@
       "updated_at": "2026-09-20T12:12:02"
     },
     {
-      "name": "孔维轩",
-      "class": "G22",
-      "reason": "Personal Leave_【Approved】 2026/9/20 8:00:00 to 2026/9/20 17:00:00  生日请假一天",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育AB(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语口语AQ2(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-20T11:37:36"
-    },
-    {
       "name": "岳沐辰",
       "class": "A21",
       "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
@@ -1187,27 +1249,6 @@
       "class": "G22",
       "reason": "病假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  病假一天 ",
       "type": "病假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育AB(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-20T10:03:28"
-    },
-    {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  请假一天 ",
-      "type": "事假",
       "courses": [
         {
           "course": "物理AX(F26)",
@@ -1307,37 +1348,37 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.6,
+      "attendance": 87.4,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.1,
+      "attendance": 85.9,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.6,
+      "attendance": 84.4,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.1,
+      "attendance": 82.9,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.6,
+      "attendance": 81.4,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.1,
+      "attendance": 79.9,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.1,
+      "attendance": 82.9,
       "submit": 86.5
     }
   ],
@@ -1345,7 +1386,7 @@
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "33/33",
+    "class_coverage": "34/34",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
