@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-20 14:05",
+  "updated_at": "2026-09-20 14:10",
   "school": {
-    "rate": 83.1,
-    "present": 483,
-    "total": 581,
+    "rate": 83.4,
+    "present": 496,
+    "total": 595,
     "late": 22,
-    "absent": 98,
-    "leave": 63
+    "absent": 99,
+    "leave": 68
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 7,
+    "class_attention": 8,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -108,7 +108,7 @@
       "absent": 10,
       "late": 10,
       "early": 0,
-      "leave": 7,
+      "leave": 9,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -324,7 +324,7 @@
       "absent": 2,
       "late": 1,
       "early": 0,
-      "leave": 0,
+      "leave": 1,
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
@@ -377,6 +377,22 @@
       "status": "关注",
       "time_spans": [
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "雅思BR1(F26)",
+      "teacher": "贺珍谊",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:50-14:30"
       ]
     },
     {
@@ -470,7 +486,7 @@
       "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 0,
+      "leave": 1,
       "status": "异常",
       "time_spans": [
         "13:00-13:40"
@@ -494,6 +510,35 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  因个人原因请假一天，谢谢 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐BR1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-20T14:08:23"
+    },
     {
       "name": "陈俏君",
       "class": "AS3",
@@ -695,31 +740,6 @@
         {
           "course": "数学BQ1(F26)",
           "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐BR1(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-20T13:16:35"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "10:00-10:40"
         },
         {
           "course": "音乐BR1(F26)",
@@ -1179,45 +1199,45 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.6,
+      "attendance": 87.9,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.1,
+      "attendance": 86.4,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.6,
+      "attendance": 84.9,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.1,
+      "attendance": 83.4,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.6,
+      "attendance": 81.9,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.1,
+      "attendance": 80.4,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.1,
-      "submit": 86.5
+      "attendance": 83.4,
+      "submit": 86.7
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "29/29",
+    "class_coverage": "30/30",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
