@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-20 09:46",
+  "updated_at": "2026-09-20 09:50",
   "school": {
-    "rate": 83.1,
-    "present": 118,
-    "total": 142,
-    "late": 11,
-    "absent": 24,
-    "leave": 19
+    "rate": 84.3,
+    "present": 134,
+    "total": 159,
+    "late": 12,
+    "absent": 25,
+    "leave": 20
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -98,6 +98,22 @@
       ]
     },
     {
+      "name": "物理AY(F26)",
+      "teacher": "职梦凡",
+      "rate": 94.1,
+      "present_text": "16/17人次",
+      "present": 16,
+      "total": 17,
+      "absent": 1,
+      "late": 1,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
       "name": "经济9A(F26)",
       "teacher": "郝畅",
       "rate": 92.9,
@@ -131,6 +147,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "朱金贝",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T09:50:47"
+    },
     {
       "name": "李知颖",
       "class": "G11",
@@ -385,45 +414,45 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.6,
+      "attendance": 88.8,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.1,
+      "attendance": 87.3,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.6,
+      "attendance": 85.8,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.1,
+      "attendance": 84.3,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.6,
+      "attendance": 82.8,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.1,
+      "attendance": 81.3,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.1,
-      "submit": 86.5
+      "attendance": 84.3,
+      "submit": 87.2
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "7/7",
+    "class_coverage": "8/8",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
