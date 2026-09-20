@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-20 11:36",
+  "updated_at": "2026-09-20 11:40",
   "school": {
-    "rate": 83.0,
-    "present": 333,
-    "total": 401,
+    "rate": 83.2,
+    "present": 342,
+    "total": 411,
     "late": 15,
-    "absent": 68,
-    "leave": 46
+    "absent": 69,
+    "leave": 47
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -282,6 +282,22 @@
       ]
     },
     {
+      "name": "英语口语AQ2(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 90.0,
+      "present_text": "9/10人次",
+      "present": 9,
+      "total": 10,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "雅思写作口语C0(F26)",
       "teacher": "曹德娟",
       "rate": 81.2,
@@ -332,6 +348,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "孔维轩",
+      "class": "G22",
+      "reason": "Personal Leave_【Approved】 2026/9/20 8:00:00 to 2026/9/20 17:00:00  生日请假一天",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语AQ2(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-20T11:37:36"
+    },
     {
       "name": "焦怡雯",
       "class": "G23",
@@ -657,27 +698,6 @@
       "updated_at": "2026-09-20T10:03:28"
     },
     {
-      "name": "孔维轩",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  生日请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育AB(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-20T10:03:28"
-    },
-    {
       "name": "胡鑫玥",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  请假一天 ",
@@ -861,45 +881,45 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.5,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.0,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.5,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.0,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.5,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.0,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.0,
-      "submit": 86.5
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "19/19",
+    "class_coverage": "20/20",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
