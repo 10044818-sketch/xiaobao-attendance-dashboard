@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-20 15:20",
+  "updated_at": "2026-09-20 15:25",
   "school": {
-    "rate": 83.0,
-    "present": 577,
-    "total": 695,
+    "rate": 83.1,
+    "present": 587,
+    "total": 706,
     "late": 22,
-    "absent": 118,
-    "leave": 80
+    "absent": 119,
+    "leave": 81
   },
   "summary": {
     "pending_yesterday": 0,
@@ -367,18 +367,19 @@
     {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
-      "rate": 86.4,
-      "present_text": "19/22人次",
-      "present": 19,
-      "total": 22,
-      "absent": 3,
+      "rate": 87.9,
+      "present_text": "29/33人次",
+      "present": 29,
+      "total": 33,
+      "absent": 4,
       "late": 1,
       "early": 0,
-      "leave": 2,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
         "10:00-10:40",
-        "10:50-11:30"
+        "10:50-11:30",
+        "14:40-15:20"
       ]
     },
     {
@@ -609,6 +610,43 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  因个人原因请假一天，谢谢 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐BR1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-20T15:25:15"
+    },
     {
       "name": "孔维轩",
       "class": "G22",
@@ -886,39 +924,6 @@
         }
       ],
       "updated_at": "2026-09-20T14:46:41"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  因个人原因请假一天，谢谢 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "音乐BR1(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-20T14:43:54"
     },
     {
       "name": "徐荻",
@@ -1392,37 +1397,37 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.5,
+      "attendance": 87.6,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.0,
+      "attendance": 86.1,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.5,
+      "attendance": 84.6,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.0,
+      "attendance": 83.1,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.5,
+      "attendance": 81.6,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.0,
+      "attendance": 80.1,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.0,
+      "attendance": 83.1,
       "submit": 86.5
     }
   ],
