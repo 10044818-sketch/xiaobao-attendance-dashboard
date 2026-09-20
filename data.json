@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-20 15:01",
+  "updated_at": "2026-09-20 15:05",
   "school": {
-    "rate": 82.9,
-    "present": 556,
-    "total": 671,
+    "rate": 83.0,
+    "present": 577,
+    "total": 695,
     "late": 22,
-    "absent": 115,
-    "leave": 79
+    "absent": 118,
+    "leave": 80
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 7,
+    "class_attention": 8,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -431,6 +431,38 @@
       ]
     },
     {
+      "name": "英语写作AQ2(F26)",
+      "teacher": "贺珍谊",
+      "rate": 90.0,
+      "present_text": "9/10人次",
+      "present": 9,
+      "total": 10,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
+      "name": "英语口语A0(F26)",
+      "teacher": "贺珍谊",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20"
+      ]
+    },
+    {
       "name": "英语口语AQ2(F26)",
       "teacher": "Johannes van Baardewijk",
       "rate": 90.0,
@@ -602,9 +634,79 @@
         {
           "course": "商科AA(F26)",
           "time": "14:40-15:20"
+        },
+        {
+          "course": "英语写作AQ2(F26)",
+          "time": "16:20-17:00"
         }
       ],
-      "updated_at": "2026-09-20T14:51:36"
+      "updated_at": "2026-09-20T15:04:13"
+    },
+    {
+      "name": "焦怡雯",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理A0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语A0(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-20T15:04:07"
+    },
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理A0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语A0(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-20T15:04:07"
     },
     {
       "name": "贾征颐",
@@ -1052,64 +1154,6 @@
       "updated_at": "2026-09-20T13:02:03"
     },
     {
-      "name": "焦怡雯",
-      "class": "G23",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理A0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-20T13:00:37"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理A0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-20T13:00:37"
-    },
-    {
       "name": "卓成亮",
       "class": "A21",
       "reason": "当日缺课且无请假单",
@@ -1348,37 +1392,37 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.4,
+      "attendance": 87.5,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 85.9,
+      "attendance": 86.0,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.4,
+      "attendance": 84.5,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 82.9,
+      "attendance": 83.0,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.4,
+      "attendance": 81.5,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 79.9,
+      "attendance": 80.0,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 82.9,
+      "attendance": 83.0,
       "submit": 86.5
     }
   ],
@@ -1386,7 +1430,7 @@
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "34/34",
+    "class_coverage": "36/36",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
