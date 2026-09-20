@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-20 10:40",
+  "updated_at": "2026-09-20 10:45",
   "school": {
-    "rate": 82.9,
-    "present": 261,
-    "total": 315,
+    "rate": 83.2,
+    "present": 267,
+    "total": 321,
     "late": 14,
     "absent": 54,
     "leave": 39
@@ -194,6 +194,23 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "6/6人次",
+      "present": 6,
+      "total": 6,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -767,45 +784,45 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.4,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 85.9,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.4,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 82.9,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.4,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 79.9,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 82.9,
-      "submit": 86.5
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "17/17",
+    "class_coverage": "18/18",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
