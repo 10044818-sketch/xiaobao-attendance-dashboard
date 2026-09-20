@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-20 15:45",
+  "updated_at": "2026-09-20 15:50",
   "school": {
-    "rate": 83.1,
-    "present": 672,
-    "total": 809,
+    "rate": 83.2,
+    "present": 691,
+    "total": 831,
     "late": 23,
-    "absent": 137,
-    "leave": 94
+    "absent": 140,
+    "leave": 96
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 9,
+    "class_attention": 10,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -577,6 +577,22 @@
       ]
     },
     {
+      "name": "英语听读写9A(F26)",
+      "teacher": "瞿芬",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "雅思BR1(F26)",
       "teacher": "贺珍谊",
       "rate": 85.7,
@@ -639,6 +655,22 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "雅思听力阅读C0(F26)",
+      "teacher": "瞿芬",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
       ]
     },
     {
@@ -707,6 +739,97 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  再续请假休息缓解压力 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "艺术9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "艺术9A(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-20T15:47:40"
+    },
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-20T15:47:33"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 12:30:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "音乐C0(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "几何C0(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "几何C0(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-20T15:47:33"
+    },
     {
       "name": "卓成亮",
       "class": "A21",
@@ -892,43 +1015,6 @@
       "updated_at": "2026-09-20T15:33:46"
     },
     {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026/9/20 13:00:00 至 2026/9/20 17:00:00  头疼 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思词汇C0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "音乐C0(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "几何C0(F26)",
-          "time": "14:40-15:20"
-        },
-        {
-          "course": "几何C0(F26)",
-          "time": "15:30-16:10"
-        }
-      ],
-      "updated_at": "2026-09-20T15:33:46"
-    },
-    {
       "name": "赵浩雯",
       "class": "AS1",
       "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/20 17:00:00  因个人原因请假一天，谢谢 ",
@@ -1018,39 +1104,6 @@
         }
       ],
       "updated_at": "2026-09-20T15:31:04"
-    },
-    {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "Personal Leave_【Approved】 2026/9/20 8:00:00 to 2026/9/20 17:00:00  再续请假休息缓解压力",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "艺术9A(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "艺术9A(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-20T15:30:58"
     },
     {
       "name": "孔维轩",
@@ -1593,45 +1646,45 @@
   "trend": [
     {
       "date": "09-14",
-      "attendance": 87.6,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "09-15",
-      "attendance": 86.1,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "09-16",
-      "attendance": 84.6,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "09-17",
-      "attendance": 83.1,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "09-18",
-      "attendance": 81.6,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "09-19",
-      "attendance": 80.1,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "09-20",
-      "attendance": 83.1,
-      "submit": 86.5
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "42/42",
+    "class_coverage": "44/44",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
