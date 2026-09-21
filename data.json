@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-21 13:25",
+  "updated_at": "2026-09-21 13:31",
   "school": {
-    "rate": 90.7,
-    "present": 214,
-    "total": 236,
+    "rate": 91.2,
+    "present": 228,
+    "total": 250,
     "late": 11,
     "absent": 22,
     "leave": 17
@@ -161,6 +161,22 @@
       "status": "正常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "雅思BR1S(F26)",
+      "teacher": "曹德娟",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "09:10-09:50"
       ]
     },
     {
@@ -517,28 +533,12 @@
       "location": "LT3-118"
     },
     {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "雅思英语",
-      "teacher": "曹德娟",
-      "time": "09:10-09:50",
-      "location": "LT3-123"
-    },
-    {
       "class": "十一年级 AS2",
       "class_id": 442960,
       "subject": "体育",
       "teacher": "沈译宇",
       "time": "09:10-09:50",
       "location": ""
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "雅思英语",
-      "teacher": "曹德娟",
-      "time": "09:10-09:50",
-      "location": "LT3-123"
     },
     {
       "class": "十一年级 AS3",
@@ -872,58 +872,58 @@
   "trend": [
     {
       "date": "09-15",
-      "attendance": 95.2,
+      "attendance": 95.7,
       "submit": 90.0
     },
     {
       "date": "09-16",
-      "attendance": 93.7,
+      "attendance": 94.2,
       "submit": 90.5
     },
     {
       "date": "09-17",
-      "attendance": 92.2,
+      "attendance": 92.7,
       "submit": 91.0
     },
     {
       "date": "09-18",
-      "attendance": 90.7,
+      "attendance": 91.2,
       "submit": 91.5
     },
     {
       "date": "09-19",
-      "attendance": 89.2,
+      "attendance": 89.7,
       "submit": 92.0
     },
     {
       "date": "09-20",
-      "attendance": 87.7,
+      "attendance": 88.2,
       "submit": 92.5
     },
     {
       "date": "09-21",
-      "attendance": 90.7,
-      "submit": 90.3
+      "attendance": 91.2,
+      "submit": 90.6
     }
   ],
   "lesson": {
-    "completion_rate": 24.3,
-    "called": 18,
+    "completion_rate": 27.0,
+    "called": 20,
     "total": 74,
-    "class_coverage": "12/12",
+    "class_coverage": "13/13",
     "teacher_count": 18,
     "uncovered_classes": [
-      "九年级 G12",
-      "十二年级 A22",
-      "十二年级 A21",
+      "十年级 G21",
       "十一年级 AS1",
-      "十年级 G23",
-      "十一年级 AS2",
       "十年级 G22",
-      "高数CR2(F26)",
-      "十一年级 AS3",
       "九年级 G11",
-      "十年级 G21"
+      "九年级 G12",
+      "十二年级 A21",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "十年级 G23",
+      "高数CR2(F26)",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -1023,28 +1023,12 @@
         "location": "LT3-118"
       },
       {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "雅思英语",
-        "teacher": "曹德娟",
-        "time": "09:10-09:50",
-        "location": "LT3-123"
-      },
-      {
         "class": "十一年级 AS2",
         "class_id": 442960,
         "subject": "体育",
         "teacher": "沈译宇",
         "time": "09:10-09:50",
         "location": ""
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "雅思英语",
-        "teacher": "曹德娟",
-        "time": "09:10-09:50",
-        "location": "LT3-123"
       },
       {
         "class": "十一年级 AS3",
