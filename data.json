@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21 14:25",
+  "updated_at": "2026-09-21 14:31",
   "school": {
     "rate": 92.0,
     "present": 277,
@@ -998,6 +998,110 @@
       "teacher": "熊辉",
       "time": "13:00-13:40",
       "location": "LT3-109"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:50-14:30",
+      "location": "LT3-104"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:50-14:30",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "经济学",
+      "teacher": "王肇君",
+      "time": "13:50-14:30",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "13:50-14:30",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "经济学",
+      "teacher": "王肇君",
+      "time": "13:50-14:30",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "13:50-14:30",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思英语口语",
+      "teacher": "钱嘉音",
+      "time": "13:50-14:30",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "13:50-14:30",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思英语口语",
+      "teacher": "钱嘉音",
+      "time": "13:50-14:30",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "13:50-14:30",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "13:50-14:30",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "物理",
+      "teacher": "熊辉",
+      "time": "13:50-14:30",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "英语第二语言听力",
+      "teacher": "王伊",
+      "time": "13:50-14:30",
+      "location": "LT3-107"
     }
   ],
   "trend": [
@@ -1039,22 +1143,22 @@
   ],
   "lesson": {
     "completion_rate": 31.9,
-    "called": 30,
-    "total": 94,
+    "called": 36,
+    "total": 113,
     "class_coverage": "15/15",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十一年级 AS3",
       "十二年级 A22",
-      "九年级 G12",
-      "十一年级 AS1",
-      "九年级 G11",
-      "十年级 G23",
-      "十年级 G22",
-      "十二年级 A21",
       "十年级 G21",
-      "高数CR2(F26)"
+      "十年级 G22",
+      "十一年级 AS3",
+      "十二年级 A21",
+      "十年级 G23",
+      "十一年级 AS2",
+      "九年级 G11",
+      "高数CR2(F26)",
+      "十一年级 AS1",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
@@ -1568,6 +1672,110 @@
         "teacher": "熊辉",
         "time": "13:00-13:40",
         "location": "LT3-109"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:50-14:30",
+        "location": "LT3-104"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:50-14:30",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "经济学",
+        "teacher": "王肇君",
+        "time": "13:50-14:30",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "物理",
+        "teacher": "魏刘伟",
+        "time": "13:50-14:30",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "经济学",
+        "teacher": "王肇君",
+        "time": "13:50-14:30",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "物理",
+        "teacher": "魏刘伟",
+        "time": "13:50-14:30",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思英语口语",
+        "teacher": "钱嘉音",
+        "time": "13:50-14:30",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "13:50-14:30",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思英语口语",
+        "teacher": "钱嘉音",
+        "time": "13:50-14:30",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "13:50-14:30",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "物理",
+        "teacher": "职梦凡",
+        "time": "13:50-14:30",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "物理",
+        "teacher": "熊辉",
+        "time": "13:50-14:30",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "英语第二语言听力",
+        "teacher": "王伊",
+        "time": "13:50-14:30",
+        "location": "LT3-107"
       }
     ]
   }
