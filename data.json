@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-21 10:32",
+  "updated_at": "2026-09-21 10:35",
   "school": {
-    "rate": 92.9,
-    "present": 130,
-    "total": 140,
+    "rate": 92.3,
+    "present": 144,
+    "total": 156,
     "late": 1,
-    "absent": 10,
-    "leave": 8
+    "absent": 12,
+    "leave": 10
   },
   "summary": {
     "pending_yesterday": 0,
@@ -81,6 +81,23 @@
       ]
     },
     {
+      "name": "经济C0(F26)",
+      "teacher": "郝畅",
+      "rate": 87.5,
+      "present_text": "14/16人次",
+      "present": 14,
+      "total": 16,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50",
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "英语口语AQ3(F26)",
       "teacher": "Johannes van Baardewijk",
       "rate": 100.0,
@@ -130,6 +147,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/9/21 8:00:00 至 2026/9/21 17:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济C0(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-21T10:33:29"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -375,26 +409,10 @@
     {
       "class": "十二年级 A21",
       "class_id": 366030,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "09:10-09:50",
-      "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
       "subject": "雅思英语",
       "teacher": "费楚淇",
       "time": "09:10-09:50",
       "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "09:10-09:50",
-      "location": "LT3-209"
     },
     {
       "class": "十二年级 A22",
@@ -424,56 +442,56 @@
   "trend": [
     {
       "date": "09-15",
-      "attendance": 97.4,
+      "attendance": 96.8,
       "submit": 90.0
     },
     {
       "date": "09-16",
-      "attendance": 95.9,
+      "attendance": 95.3,
       "submit": 90.5
     },
     {
       "date": "09-17",
-      "attendance": 94.4,
+      "attendance": 93.8,
       "submit": 91.0
     },
     {
       "date": "09-18",
-      "attendance": 92.9,
+      "attendance": 92.3,
       "submit": 91.5
     },
     {
       "date": "09-19",
-      "attendance": 91.4,
+      "attendance": 90.8,
       "submit": 92.0
     },
     {
       "date": "09-20",
-      "attendance": 89.9,
+      "attendance": 89.3,
       "submit": 92.5
     },
     {
       "date": "09-21",
-      "attendance": 92.9,
-      "submit": 91.5
+      "attendance": 92.3,
+      "submit": 91.2
     }
   ],
   "lesson": {
-    "completion_rate": 15.4,
-    "called": 4,
+    "completion_rate": 23.1,
+    "called": 6,
     "total": 26,
-    "class_coverage": "7/7",
+    "class_coverage": "8/8",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十年级 G21",
-      "十二年级 A22",
-      "九年级 G11",
-      "十二年级 A21",
-      "十一年级 AS1",
+      "十一年级 AS3",
+      "九年级 G12",
       "十一年级 AS2",
       "十年级 G23",
-      "九年级 G12",
-      "十一年级 AS3"
+      "十年级 G21",
+      "十二年级 A21",
+      "十一年级 AS1",
+      "九年级 G11",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -607,26 +625,10 @@
       {
         "class": "十二年级 A21",
         "class_id": 366030,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "09:10-09:50",
-        "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
         "subject": "雅思英语",
         "teacher": "费楚淇",
         "time": "09:10-09:50",
         "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "09:10-09:50",
-        "location": "LT3-209"
       },
       {
         "class": "十二年级 A22",
