@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-21 09:35",
+  "updated_at": "2026-09-21 09:41",
   "school": {
-    "rate": 92.2,
-    "present": 71,
-    "total": 77,
+    "rate": 93.5,
+    "present": 87,
+    "total": 93,
     "late": 1,
     "absent": 6,
     "leave": 5
@@ -15,6 +15,22 @@
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "化学BY(F26)",
+      "teacher": "米万宝",
+      "rate": 100.0,
+      "present_text": "16/16人次",
+      "present": 16,
+      "total": 16,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
     {
       "name": "数学A0(F26)",
       "teacher": "张小翼",
@@ -213,55 +229,55 @@
   "trend": [
     {
       "date": "09-15",
-      "attendance": 96.7,
+      "attendance": 98.0,
       "submit": 90.0
     },
     {
       "date": "09-16",
-      "attendance": 95.2,
+      "attendance": 96.5,
       "submit": 90.5
     },
     {
       "date": "09-17",
-      "attendance": 93.7,
+      "attendance": 95.0,
       "submit": 91.0
     },
     {
       "date": "09-18",
-      "attendance": 92.2,
+      "attendance": 93.5,
       "submit": 91.5
     },
     {
       "date": "09-19",
-      "attendance": 90.7,
+      "attendance": 92.0,
       "submit": 92.0
     },
     {
       "date": "09-20",
-      "attendance": 89.2,
+      "attendance": 90.5,
       "submit": 92.5
     },
     {
       "date": "09-21",
-      "attendance": 92.2,
-      "submit": 91.1
+      "attendance": 93.5,
+      "submit": 91.8
     }
   ],
   "lesson": {
     "completion_rate": 25.0,
     "called": 3,
     "total": 12,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 8,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "九年级 G11",
-      "十年级 G21",
-      "十一年级 AS3",
-      "十二年级 A21",
       "九年级 G12",
-      "十二年级 A22"
+      "十二年级 A22",
+      "十一年级 AS3",
+      "九年级 G11",
+      "十一年级 AS2",
+      "十二年级 A21",
+      "十年级 G21",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
