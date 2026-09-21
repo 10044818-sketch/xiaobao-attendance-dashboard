@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-21 14:55",
+  "updated_at": "2026-09-21 15:02",
   "school": {
-    "rate": 91.6,
-    "present": 370,
-    "total": 404,
+    "rate": 92.2,
+    "present": 428,
+    "total": 464,
     "late": 13,
-    "absent": 34,
-    "leave": 22
+    "absent": 36,
+    "leave": 24
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 8,
+    "class_attention": 9,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -249,6 +249,40 @@
       ]
     },
     {
+      "name": "英语听力A0(F26)",
+      "teacher": "王伊",
+      "rate": 100.0,
+      "present_text": "28/28人次",
+      "present": 28,
+      "total": 28,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:50-14:30",
+        "14:40-15:20"
+      ]
+    },
+    {
+      "name": "英语听力阅读AQ1(F26)",
+      "teacher": "王伊",
+      "rate": 93.8,
+      "present_text": "30/32人次",
+      "present": 30,
+      "total": 32,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "雅思BR1S(F26)",
       "teacher": "曹德娟",
       "rate": 100.0,
@@ -330,6 +364,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/30 17:00:00  已申请退学 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-21T14:57:39"
+    },
     {
       "name": "贾征颐",
       "class": "G22",
@@ -592,23 +651,6 @@
         }
       ],
       "updated_at": "2026-09-21T10:38:14"
-    },
-    {
-      "name": "桂应沁",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/30 17:00:00  已申请退学 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-21T09:14:59"
     }
   ],
   "pending_roll_call": [
@@ -823,26 +865,10 @@
     {
       "class": "十年级 G21",
       "class_id": 517698,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "10:00-10:40",
-      "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
       "subject": "英语第二语言写作",
       "teacher": "贺珍谊",
       "time": "10:00-10:40",
       "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "10:00-10:40",
-      "location": "LT3-109"
     },
     {
       "class": "十年级 G22",
@@ -959,26 +985,10 @@
     {
       "class": "十年级 G21",
       "class_id": 517698,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "10:50-11:30",
-      "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
       "subject": "英语第二语言写作",
       "teacher": "贺珍谊",
       "time": "10:50-11:30",
       "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "10:50-11:30",
-      "location": "LT3-109"
     },
     {
       "class": "十年级 G22",
@@ -1179,71 +1189,63 @@
       "teacher": "熊辉",
       "time": "13:50-14:30",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "英语第二语言听力",
-      "teacher": "王伊",
-      "time": "13:50-14:30",
-      "location": "LT3-107"
     }
   ],
   "trend": [
     {
       "date": "09-15",
-      "attendance": 96.1,
+      "attendance": 96.7,
       "submit": 90.0
     },
     {
       "date": "09-16",
-      "attendance": 94.6,
+      "attendance": 95.2,
       "submit": 90.5
     },
     {
       "date": "09-17",
-      "attendance": 93.1,
+      "attendance": 93.7,
       "submit": 91.0
     },
     {
       "date": "09-18",
-      "attendance": 91.6,
+      "attendance": 92.2,
       "submit": 91.5
     },
     {
       "date": "09-19",
-      "attendance": 90.1,
+      "attendance": 90.7,
       "submit": 92.0
     },
     {
       "date": "09-20",
-      "attendance": 88.6,
+      "attendance": 89.2,
       "submit": 92.5
     },
     {
       "date": "09-21",
-      "attendance": 91.6,
-      "submit": 90.8
+      "attendance": 92.2,
+      "submit": 91.1
     }
   ],
   "lesson": {
-    "completion_rate": 36.3,
-    "called": 41,
+    "completion_rate": 40.7,
+    "called": 46,
     "total": 113,
-    "class_coverage": "19/19",
+    "class_coverage": "21/21",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十一年级 AS1",
       "十二年级 A21",
-      "九年级 G11",
-      "十年级 G22",
+      "十年级 G23",
+      "十一年级 AS1",
       "十一年级 AS2",
       "十二年级 A22",
+      "九年级 G11",
       "十年级 G21",
-      "高数CR2(F26)",
-      "九年级 G12",
+      "十年级 G22",
       "十一年级 AS3",
-      "十年级 G23"
+      "九年级 G12",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -1457,26 +1459,10 @@
       {
         "class": "十年级 G21",
         "class_id": 517698,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "10:00-10:40",
-        "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
         "subject": "英语第二语言写作",
         "teacher": "贺珍谊",
         "time": "10:00-10:40",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "10:00-10:40",
-        "location": "LT3-109"
       },
       {
         "class": "十年级 G22",
@@ -1593,26 +1579,10 @@
       {
         "class": "十年级 G21",
         "class_id": 517698,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "10:50-11:30",
-        "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
         "subject": "英语第二语言写作",
         "teacher": "贺珍谊",
         "time": "10:50-11:30",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "10:50-11:30",
-        "location": "LT3-109"
       },
       {
         "class": "十年级 G22",
@@ -1813,14 +1783,6 @@
         "teacher": "熊辉",
         "time": "13:50-14:30",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "英语第二语言听力",
-        "teacher": "王伊",
-        "time": "13:50-14:30",
-        "location": "LT3-107"
       }
     ]
   }
