@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-21 15:25",
+  "updated_at": "2026-09-21 15:32",
   "school": {
-    "rate": 92.0,
-    "present": 439,
-    "total": 477,
+    "rate": 92.1,
+    "present": 452,
+    "total": 491,
     "late": 13,
-    "absent": 38,
+    "absent": 39,
     "leave": 26
   },
   "summary": {
@@ -69,16 +69,17 @@
       "name": "数学AR2(F26)",
       "teacher": "杨燕霖",
       "rate": 92.9,
-      "present_text": "13/14人次",
-      "present": 13,
-      "total": 14,
-      "absent": 1,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "关注",
       "time_spans": [
-        "14:40-15:20"
+        "14:40-15:20",
+        "15:30-16:10"
       ]
     },
     {
@@ -381,6 +382,23 @@
   ],
   "absent_students": [
     {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学AR2(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-21T15:31:53"
+    },
+    {
       "name": "黄子怿",
       "class": "AS3",
       "reason": "事假_【已通过】 2026/9/20 15:00:00 至 2026/9/30 17:00:00  请假 ",
@@ -450,19 +468,6 @@
         }
       ],
       "updated_at": "2026-09-21T14:57:39"
-    },
-    {
-      "name": "贾征颐",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学AR2(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-21T14:54:03"
     },
     {
       "name": "曾禹德",
@@ -1314,37 +1319,37 @@
   "trend": [
     {
       "date": "09-15",
-      "attendance": 96.5,
+      "attendance": 96.6,
       "submit": 90.0
     },
     {
       "date": "09-16",
-      "attendance": 95.0,
+      "attendance": 95.1,
       "submit": 90.5
     },
     {
       "date": "09-17",
-      "attendance": 93.5,
+      "attendance": 93.6,
       "submit": 91.0
     },
     {
       "date": "09-18",
-      "attendance": 92.0,
+      "attendance": 92.1,
       "submit": 91.5
     },
     {
       "date": "09-19",
-      "attendance": 90.5,
+      "attendance": 90.6,
       "submit": 92.0
     },
     {
       "date": "09-20",
-      "attendance": 89.0,
+      "attendance": 89.1,
       "submit": 92.5
     },
     {
       "date": "09-21",
-      "attendance": 92.0,
+      "attendance": 92.1,
       "submit": 91.0
     }
   ],
@@ -1356,17 +1361,17 @@
     "teacher_count": 26,
     "uncovered_classes": [
       "十一年级 AS3",
-      "十二年级 A21",
-      "化学9A(F26)",
-      "九年级 G11",
-      "高数CR2(F26)",
-      "十年级 G23",
       "十年级 G21",
+      "十二年级 A21",
       "十一年级 AS2",
       "十二年级 A22",
+      "九年级 G11",
       "九年级 G12",
+      "化学9A(F26)",
+      "十年级 G22",
       "十一年级 AS1",
-      "十年级 G22"
+      "十年级 G23",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
