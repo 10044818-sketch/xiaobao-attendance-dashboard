@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-21 11:01",
+  "updated_at": "2026-09-21 11:05",
   "school": {
-    "rate": 91.2,
-    "present": 155,
-    "total": 170,
+    "rate": 91.3,
+    "present": 168,
+    "total": 184,
     "late": 1,
-    "absent": 15,
-    "leave": 13
+    "absent": 16,
+    "leave": 14
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -62,6 +62,22 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:50-11:30"
       ]
     },
     {
@@ -148,6 +164,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/9/21 7:00:00 至 2026/9/21 17:00:00  再续请假休息缓解压力 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "音乐9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-21T11:01:34"
+    },
     {
       "name": "焦怡雯",
       "class": "G23",
@@ -254,19 +287,6 @@
         }
       ],
       "updated_at": "2026-09-21T10:12:54"
-    },
-    {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "事假_【已通过】 2026/9/21 7:00:00 至 2026/9/21 17:00:00  再续请假休息缓解压力 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "音乐9A(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-21T10:01:22"
     },
     {
       "name": "桂应沁",
@@ -576,58 +596,58 @@
   "trend": [
     {
       "date": "09-15",
-      "attendance": 95.7,
+      "attendance": 95.8,
       "submit": 90.0
     },
     {
       "date": "09-16",
-      "attendance": 94.2,
+      "attendance": 94.3,
       "submit": 90.5
     },
     {
       "date": "09-17",
-      "attendance": 92.7,
+      "attendance": 92.8,
       "submit": 91.0
     },
     {
       "date": "09-18",
-      "attendance": 91.2,
+      "attendance": 91.3,
       "submit": 91.5
     },
     {
       "date": "09-19",
-      "attendance": 89.7,
+      "attendance": 89.8,
       "submit": 92.0
     },
     {
       "date": "09-20",
-      "attendance": 88.2,
+      "attendance": 88.3,
       "submit": 92.5
     },
     {
       "date": "09-21",
-      "attendance": 91.2,
-      "submit": 90.6
+      "attendance": 91.3,
+      "submit": 90.7
     }
   ],
   "lesson": {
     "completion_rate": 32.0,
     "called": 16,
     "total": 50,
-    "class_coverage": "8/8",
+    "class_coverage": "9/9",
     "teacher_count": 17,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "九年级 G11",
-      "九年级 G12",
-      "高数CR2(F26)",
+      "十年级 G21",
       "十年级 G22",
       "十年级 G23",
-      "十一年级 AS3",
-      "十年级 G21",
-      "十二年级 A22",
       "十二年级 A21",
-      "十一年级 AS2"
+      "十一年级 AS3",
+      "九年级 G11",
+      "十一年级 AS1",
+      "十一年级 AS2",
+      "十二年级 A22",
+      "高数CR2(F26)",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
