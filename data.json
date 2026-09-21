@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-21 10:01",
+  "updated_at": "2026-09-21 10:06",
   "school": {
     "rate": 93.5,
-    "present": 87,
-    "total": 93,
+    "present": 100,
+    "total": 107,
     "late": 1,
-    "absent": 6,
-    "leave": 5
+    "absent": 7,
+    "leave": 6
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -79,9 +79,38 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "音乐9A(F26)",
+      "teacher": "刘知言",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/9/21 7:00:00 至 2026/9/21 17:00:00  再续请假休息缓解压力 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "音乐9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-21T10:01:22"
+    },
     {
       "name": "桂应沁",
       "class": "G22",
@@ -371,18 +400,18 @@
     "completion_rate": 15.4,
     "called": 4,
     "total": 26,
-    "class_coverage": "4/4",
+    "class_coverage": "5/5",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "十年级 G21",
-      "十年级 G23",
-      "十二年级 A21",
-      "十二年级 A22",
-      "十一年级 AS2",
-      "十一年级 AS1",
       "九年级 G12",
-      "九年级 G11"
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "十二年级 A22",
+      "十年级 G21",
+      "九年级 G11",
+      "十一年级 AS1",
+      "十年级 G23",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
