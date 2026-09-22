@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-22 14:45",
+  "updated_at": "2026-09-22 14:52",
   "school": {
-    "rate": 90.6,
-    "present": 471,
-    "total": 520,
+    "rate": 91.1,
+    "present": 499,
+    "total": 548,
     "late": 33,
     "absent": 49,
     "leave": 30
@@ -394,6 +394,23 @@
       "status": "关注",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "英语口语9A(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 100.0,
+      "present_text": "28/28人次",
+      "present": 28,
+      "total": 28,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -1155,22 +1172,6 @@
       "location": ""
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
       "class": "化学AA(F26)",
       "class_id": 529342,
       "subject": "化学",
@@ -1249,22 +1250,6 @@
       "teacher": "曾靓",
       "time": "13:00-13:40",
       "location": "LT3-107"
-    },
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:50-14:30",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:50-14:30",
-      "location": "LT3-108"
     },
     {
       "class": "化学AA(F26)",
@@ -1406,59 +1391,59 @@
   "trend": [
     {
       "date": "09-16",
-      "attendance": 95.1,
+      "attendance": 95.6,
       "submit": 90.0
     },
     {
       "date": "09-17",
-      "attendance": 93.6,
+      "attendance": 94.1,
       "submit": 90.5
     },
     {
       "date": "09-18",
-      "attendance": 92.1,
+      "attendance": 92.6,
       "submit": 91.0
     },
     {
       "date": "09-19",
-      "attendance": 90.6,
+      "attendance": 91.1,
       "submit": 91.5
     },
     {
       "date": "09-20",
-      "attendance": 89.1,
+      "attendance": 89.6,
       "submit": 92.0
     },
     {
       "date": "09-21",
-      "attendance": 87.6,
+      "attendance": 88.1,
       "submit": 92.5
     },
     {
       "date": "09-22",
-      "attendance": 90.6,
-      "submit": 90.3
+      "attendance": 91.1,
+      "submit": 90.5
     }
   ],
   "lesson": {
-    "completion_rate": 57.4,
-    "called": 81,
+    "completion_rate": 60.3,
+    "called": 85,
     "total": 141,
-    "class_coverage": "31/31",
+    "class_coverage": "32/32",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十年级 G22",
-      "十二年级 A21",
+      "十年级 G23",
       "十二年级 A22",
       "十一年级 AS3",
-      "九年级 G12",
-      "十年级 G21",
-      "高数CR2(F26)",
-      "十一年级 AS2",
-      "九年级 G11",
-      "十年级 G23",
+      "十年级 G22",
+      "十一年级 AS1",
       "化学AA(F26)",
-      "十一年级 AS1"
+      "十年级 G21",
+      "九年级 G11",
+      "高数CR2(F26)",
+      "十二年级 A21",
+      "九年级 G12",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -1694,22 +1679,6 @@
         "location": ""
       },
       {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
-      },
-      {
         "class": "化学AA(F26)",
         "class_id": 529342,
         "subject": "化学",
@@ -1788,22 +1757,6 @@
         "teacher": "曾靓",
         "time": "13:00-13:40",
         "location": "LT3-107"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:50-14:30",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:50-14:30",
-        "location": "LT3-108"
       },
       {
         "class": "化学AA(F26)",
