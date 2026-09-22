@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-22 09:05",
+  "updated_at": "2026-09-22 09:10",
   "school": {
     "rate": 89.1,
     "present": 41,
     "total": 46,
     "late": 5,
     "absent": 5,
-    "leave": 1
+    "leave": 2
   },
   "summary": {
     "pending_yesterday": 0,
@@ -25,7 +25,7 @@
       "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -98,6 +98,19 @@
   ],
   "absent_students": [
     {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026-09-22 08:00:00 至 2026-09-22 17:00:00  因个人原因请假一天，谢谢",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学BZ(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-22T09:09:50"
+    },
+    {
       "name": "邵可心",
       "class": "AS1",
       "reason": "当日缺课且无请假单",
@@ -109,19 +122,6 @@
         }
       ],
       "updated_at": "2026-09-22T08:33:08"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学BZ(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-22T08:23:48"
     },
     {
       "name": "陈思佳",
@@ -321,16 +321,16 @@
     "class_coverage": "5/5",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十年级 G21",
-      "九年级 G12",
       "十二年级 A22",
-      "化学CB(F26)",
       "九年级 G11",
-      "十年级 G23",
+      "化学CB(F26)",
       "十年级 G22",
+      "十年级 G23",
+      "十一年级 AS1",
       "化学C0(F26)",
       "十二年级 A21",
-      "十一年级 AS1"
+      "十年级 G21",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
