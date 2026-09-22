@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-22 08:30",
+  "updated_at": "2026-09-22 08:35",
   "school": {
-    "rate": 90.9,
-    "present": 40,
-    "total": 44,
-    "late": 4,
-    "absent": 4,
+    "rate": 89.1,
+    "present": 41,
+    "total": 46,
+    "late": 5,
+    "absent": 5,
     "leave": 1
   },
   "summary": {
@@ -78,9 +78,38 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 50.0,
+      "present_text": "1/2人次",
+      "present": 1,
+      "total": 2,
+      "absent": 1,
+      "late": 1,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "邵可心",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术BZ(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-22T08:33:08"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -138,45 +167,45 @@
   "trend": [
     {
       "date": "09-16",
-      "attendance": 95.4,
+      "attendance": 93.6,
       "submit": 90.0
     },
     {
       "date": "09-17",
-      "attendance": 93.9,
+      "attendance": 92.1,
       "submit": 90.5
     },
     {
       "date": "09-18",
-      "attendance": 92.4,
+      "attendance": 90.6,
       "submit": 91.0
     },
     {
       "date": "09-19",
-      "attendance": 90.9,
+      "attendance": 89.1,
       "submit": 91.5
     },
     {
       "date": "09-20",
-      "attendance": 89.4,
+      "attendance": 87.6,
       "submit": 92.0
     },
     {
       "date": "09-21",
-      "attendance": 87.9,
+      "attendance": 86.1,
       "submit": 92.5
     },
     {
       "date": "09-22",
-      "attendance": 90.9,
-      "submit": 90.5
+      "attendance": 89.1,
+      "submit": 89.5
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "4/4",
+    "class_coverage": "5/5",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
