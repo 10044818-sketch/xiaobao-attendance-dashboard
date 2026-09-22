@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-22 12:55",
+  "updated_at": "2026-09-22 13:01",
   "school": {
-    "rate": 89.5,
-    "present": 272,
-    "total": 304,
+    "rate": 90.0,
+    "present": 288,
+    "total": 320,
     "late": 33,
     "absent": 32,
     "leave": 17
@@ -131,6 +131,22 @@
       ]
     },
     {
+      "name": "商科AA(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "商科BZ(F26)",
       "teacher": "余震",
       "rate": 95.0,
@@ -245,6 +261,22 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "艺术AA(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -912,57 +944,57 @@
   "trend": [
     {
       "date": "09-16",
-      "attendance": 94.0,
+      "attendance": 94.5,
       "submit": 90.0
     },
     {
       "date": "09-17",
-      "attendance": 92.5,
+      "attendance": 93.0,
       "submit": 90.5
     },
     {
       "date": "09-18",
-      "attendance": 91.0,
+      "attendance": 91.5,
       "submit": 91.0
     },
     {
       "date": "09-19",
-      "attendance": 89.5,
+      "attendance": 90.0,
       "submit": 91.5
     },
     {
       "date": "09-20",
-      "attendance": 88.0,
+      "attendance": 88.5,
       "submit": 92.0
     },
     {
       "date": "09-21",
-      "attendance": 86.5,
+      "attendance": 87.0,
       "submit": 92.5
     },
     {
       "date": "09-22",
-      "attendance": 89.5,
-      "submit": 89.8
+      "attendance": 90.0,
+      "submit": 90.0
     }
   ],
   "lesson": {
     "completion_rate": 60.8,
     "called": 59,
     "total": 97,
-    "class_coverage": "19/19",
+    "class_coverage": "21/21",
     "teacher_count": 20,
     "uncovered_classes": [
+      "十年级 G22",
+      "十二年级 A21",
       "九年级 G12",
+      "十一年级 AS3",
       "十一年级 AS2",
-      "九年级 G11",
-      "十年级 G21",
       "十一年级 AS1",
       "十年级 G23",
-      "十年级 G22",
-      "十二年级 A22",
-      "十一年级 AS3",
-      "十二年级 A21"
+      "十年级 G21",
+      "九年级 G11",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
