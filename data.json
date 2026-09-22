@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-22 13:46",
+  "updated_at": "2026-09-22 13:50",
   "school": {
-    "rate": 90.1,
-    "present": 319,
-    "total": 354,
+    "rate": 90.2,
+    "present": 321,
+    "total": 356,
     "late": 33,
     "absent": 35,
     "leave": 19
@@ -267,16 +267,17 @@
       "name": "艺术AA(F26)",
       "teacher": "朱嘉怡",
       "rate": 100.0,
-      "present_text": "2/2人次",
-      "present": 2,
-      "total": 2,
+      "present_text": "4/4人次",
+      "present": 4,
+      "total": 4,
       "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "13:00-13:40"
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -1110,38 +1111,38 @@
   "trend": [
     {
       "date": "09-16",
-      "attendance": 94.6,
+      "attendance": 94.7,
       "submit": 90.0
     },
     {
       "date": "09-17",
-      "attendance": 93.1,
+      "attendance": 93.2,
       "submit": 90.5
     },
     {
       "date": "09-18",
-      "attendance": 91.6,
+      "attendance": 91.7,
       "submit": 91.0
     },
     {
       "date": "09-19",
-      "attendance": 90.1,
+      "attendance": 90.2,
       "submit": 91.5
     },
     {
       "date": "09-20",
-      "attendance": 88.6,
+      "attendance": 88.7,
       "submit": 92.0
     },
     {
       "date": "09-21",
-      "attendance": 87.1,
+      "attendance": 87.2,
       "submit": 92.5
     },
     {
       "date": "09-22",
-      "attendance": 90.1,
-      "submit": 90.0
+      "attendance": 90.2,
+      "submit": 90.1
     }
   ],
   "lesson": {
@@ -1152,16 +1153,16 @@
     "teacher_count": 24,
     "uncovered_classes": [
       "十二年级 A21",
-      "十年级 G23",
-      "十二年级 A22",
-      "十一年级 AS3",
       "十年级 G22",
-      "十一年级 AS2",
-      "十年级 G21",
+      "化学AA(F26)",
+      "十一年级 AS3",
       "十一年级 AS1",
-      "九年级 G12",
       "九年级 G11",
-      "化学AA(F26)"
+      "十二年级 A22",
+      "十年级 G23",
+      "十一年级 AS2",
+      "九年级 G12",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
