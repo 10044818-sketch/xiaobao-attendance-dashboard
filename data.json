@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-22 16:17",
+  "updated_at": "2026-09-22 16:21",
   "school": {
-    "rate": 90.2,
-    "present": 517,
-    "total": 573,
+    "rate": 89.6,
+    "present": 523,
+    "total": 584,
     "late": 33,
-    "absent": 56,
+    "absent": 61,
     "leave": 31
   },
   "summary": {
@@ -251,16 +251,17 @@
       "name": "日语(F26)",
       "teacher": "马琳",
       "rate": 54.5,
-      "present_text": "6/11人次",
-      "present": 6,
-      "total": 11,
-      "absent": 5,
+      "present_text": "12/22人次",
+      "present": 12,
+      "total": 22,
+      "absent": 10,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "15:30-16:10"
+        "15:30-16:10",
+        "16:20-17:00"
       ]
     },
     {
@@ -584,9 +585,13 @@
         {
           "course": "日语(F26)",
           "time": "15:30-16:10"
+        },
+        {
+          "course": "日语(F26)",
+          "time": "16:20-17:00"
         }
       ],
-      "updated_at": "2026-09-22T15:35:36"
+      "updated_at": "2026-09-22T16:20:42"
     },
     {
       "name": "马佳雯",
@@ -597,9 +602,13 @@
         {
           "course": "日语(F26)",
           "time": "15:30-16:10"
+        },
+        {
+          "course": "日语(F26)",
+          "time": "16:20-17:00"
         }
       ],
-      "updated_at": "2026-09-22T15:35:36"
+      "updated_at": "2026-09-22T16:20:42"
     },
     {
       "name": "贡一鸣",
@@ -610,9 +619,13 @@
         {
           "course": "日语(F26)",
           "time": "15:30-16:10"
+        },
+        {
+          "course": "日语(F26)",
+          "time": "16:20-17:00"
         }
       ],
-      "updated_at": "2026-09-22T15:35:36"
+      "updated_at": "2026-09-22T16:20:42"
     },
     {
       "name": "陈新妤",
@@ -623,9 +636,13 @@
         {
           "course": "日语(F26)",
           "time": "15:30-16:10"
+        },
+        {
+          "course": "日语(F26)",
+          "time": "16:20-17:00"
         }
       ],
-      "updated_at": "2026-09-22T15:35:36"
+      "updated_at": "2026-09-22T16:20:42"
     },
     {
       "name": "陈嘉烨",
@@ -636,9 +653,13 @@
         {
           "course": "日语(F26)",
           "time": "15:30-16:10"
+        },
+        {
+          "course": "日语(F26)",
+          "time": "16:20-17:00"
         }
       ],
-      "updated_at": "2026-09-22T15:35:36"
+      "updated_at": "2026-09-22T16:20:42"
     },
     {
       "name": "焦怡雯",
@@ -1632,38 +1653,38 @@
   "trend": [
     {
       "date": "09-16",
-      "attendance": 94.7,
+      "attendance": 94.1,
       "submit": 90.0
     },
     {
       "date": "09-17",
-      "attendance": 93.2,
+      "attendance": 92.6,
       "submit": 90.5
     },
     {
       "date": "09-18",
-      "attendance": 91.7,
+      "attendance": 91.1,
       "submit": 91.0
     },
     {
       "date": "09-19",
-      "attendance": 90.2,
+      "attendance": 89.6,
       "submit": 91.5
     },
     {
       "date": "09-20",
-      "attendance": 88.7,
+      "attendance": 88.1,
       "submit": 92.0
     },
     {
       "date": "09-21",
-      "attendance": 87.2,
+      "attendance": 86.6,
       "submit": 92.5
     },
     {
       "date": "09-22",
-      "attendance": 90.2,
-      "submit": 90.1
+      "attendance": 89.6,
+      "submit": 89.8
     }
   ],
   "lesson": {
@@ -1673,18 +1694,18 @@
     "class_coverage": "34/34",
     "teacher_count": 28,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "化学AA(F26)",
-      "十一年级 AS1",
-      "十年级 G23",
-      "十一年级 AS2",
       "十二年级 A21",
-      "十年级 G21",
-      "九年级 G11",
-      "十二年级 A22",
       "十一年级 AS3",
+      "十年级 G23",
+      "十年级 G21",
+      "十一年级 AS1",
+      "十一年级 AS2",
       "九年级 G12",
-      "十年级 G22"
+      "化学AA(F26)",
+      "十年级 G22",
+      "十二年级 A22",
+      "九年级 G11",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
