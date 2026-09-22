@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-22 16:28",
+  "updated_at": "2026-09-22 16:31",
   "school": {
-    "rate": 89.6,
-    "present": 523,
+    "rate": 90.1,
+    "present": 526,
     "total": 584,
     "late": 33,
-    "absent": 61,
+    "absent": 58,
     "leave": 31
   },
   "summary": {
@@ -250,11 +250,11 @@
     {
       "name": "日语(F26)",
       "teacher": "马琳",
-      "rate": 54.5,
-      "present_text": "12/22人次",
-      "present": 12,
+      "rate": 68.2,
+      "present_text": "15/22人次",
+      "present": 15,
       "total": 22,
-      "absent": 10,
+      "absent": 7,
       "late": 0,
       "early": 0,
       "leave": 0,
@@ -577,40 +577,6 @@
   ],
   "absent_students": [
     {
-      "name": "唐艾嘉",
-      "class": "G11",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "日语(F26)",
-          "time": "15:30-16:10"
-        },
-        {
-          "course": "日语(F26)",
-          "time": "16:20-17:00"
-        }
-      ],
-      "updated_at": "2026-09-22T16:20:42"
-    },
-    {
-      "name": "马佳雯",
-      "class": "G12",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "日语(F26)",
-          "time": "15:30-16:10"
-        },
-        {
-          "course": "日语(F26)",
-          "time": "16:20-17:00"
-        }
-      ],
-      "updated_at": "2026-09-22T16:20:42"
-    },
-    {
       "name": "贡一鸣",
       "class": "G23",
       "reason": "当日缺课且无请假单",
@@ -625,24 +591,7 @@
           "time": "16:20-17:00"
         }
       ],
-      "updated_at": "2026-09-22T16:20:42"
-    },
-    {
-      "name": "陈新妤",
-      "class": "G12",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "日语(F26)",
-          "time": "15:30-16:10"
-        },
-        {
-          "course": "日语(F26)",
-          "time": "16:20-17:00"
-        }
-      ],
-      "updated_at": "2026-09-22T16:20:42"
+      "updated_at": "2026-09-22T16:29:46"
     },
     {
       "name": "陈嘉烨",
@@ -659,7 +608,46 @@
           "time": "16:20-17:00"
         }
       ],
-      "updated_at": "2026-09-22T16:20:42"
+      "updated_at": "2026-09-22T16:29:46"
+    },
+    {
+      "name": "唐艾嘉",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-22T15:35:36"
+    },
+    {
+      "name": "马佳雯",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-22T15:35:36"
+    },
+    {
+      "name": "陈新妤",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-22T15:35:36"
     },
     {
       "name": "焦怡雯",
@@ -1653,38 +1641,38 @@
   "trend": [
     {
       "date": "09-16",
-      "attendance": 94.1,
+      "attendance": 94.6,
       "submit": 90.0
     },
     {
       "date": "09-17",
-      "attendance": 92.6,
+      "attendance": 93.1,
       "submit": 90.5
     },
     {
       "date": "09-18",
-      "attendance": 91.1,
+      "attendance": 91.6,
       "submit": 91.0
     },
     {
       "date": "09-19",
-      "attendance": 89.6,
+      "attendance": 90.1,
       "submit": 91.5
     },
     {
       "date": "09-20",
-      "attendance": 88.1,
+      "attendance": 88.6,
       "submit": 92.0
     },
     {
       "date": "09-21",
-      "attendance": 86.6,
+      "attendance": 87.1,
       "submit": 92.5
     },
     {
       "date": "09-22",
-      "attendance": 89.6,
-      "submit": 89.8
+      "attendance": 90.1,
+      "submit": 90.0
     }
   ],
   "lesson": {
@@ -1694,18 +1682,18 @@
     "class_coverage": "34/34",
     "teacher_count": 28,
     "uncovered_classes": [
-      "十一年级 AS2",
+      "高数CR2(F26)",
       "十一年级 AS1",
+      "十二年级 A22",
+      "十年级 G23",
+      "化学AA(F26)",
+      "十年级 G21",
       "九年级 G11",
       "十二年级 A21",
-      "十年级 G23",
-      "十年级 G21",
-      "十二年级 A22",
-      "十年级 G22",
-      "高数CR2(F26)",
-      "九年级 G12",
       "十一年级 AS3",
-      "化学AA(F26)"
+      "十一年级 AS2",
+      "九年级 G12",
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
