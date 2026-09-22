@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-22 14:05",
+  "updated_at": "2026-09-22 14:11",
   "school": {
-    "rate": 90.5,
-    "present": 352,
-    "total": 389,
+    "rate": 90.3,
+    "present": 364,
+    "total": 403,
     "late": 33,
-    "absent": 37,
-    "leave": 21
+    "absent": 39,
+    "leave": 22
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 10,
+    "class_attention": 11,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -133,17 +133,18 @@
     {
       "name": "商科AA(F26)",
       "teacher": "余震",
-      "rate": 100.0,
-      "present_text": "14/14人次",
-      "present": 14,
-      "total": 14,
-      "absent": 0,
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 0,
-      "status": "正常",
+      "leave": 1,
+      "status": "关注",
       "time_spans": [
-        "13:00-13:40"
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -428,6 +429,44 @@
   ],
   "absent_students": [
     {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学AR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语口语AQ2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-22T14:10:23"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-22T14:10:23"
+    },
+    {
       "name": "耿子涵",
       "class": "G23",
       "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/23 17:00:00  请假 ",
@@ -608,27 +647,6 @@
         }
       ],
       "updated_at": "2026-09-22T12:36:53"
-    },
-    {
-      "name": "贾征颐",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学AR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语口语AQ2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育AB(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-22T11:55:04"
     },
     {
       "name": "桂应沁",
@@ -1143,37 +1161,37 @@
   "trend": [
     {
       "date": "09-16",
-      "attendance": 95.0,
+      "attendance": 94.8,
       "submit": 90.0
     },
     {
       "date": "09-17",
-      "attendance": 93.5,
+      "attendance": 93.3,
       "submit": 90.5
     },
     {
       "date": "09-18",
-      "attendance": 92.0,
+      "attendance": 91.8,
       "submit": 91.0
     },
     {
       "date": "09-19",
-      "attendance": 90.5,
+      "attendance": 90.3,
       "submit": 91.5
     },
     {
       "date": "09-20",
-      "attendance": 89.0,
+      "attendance": 88.8,
       "submit": 92.0
     },
     {
       "date": "09-21",
-      "attendance": 87.5,
+      "attendance": 87.3,
       "submit": 92.5
     },
     {
       "date": "09-22",
-      "attendance": 90.5,
+      "attendance": 90.3,
       "submit": 90.2
     }
   ],
@@ -1184,17 +1202,17 @@
     "class_coverage": "25/25",
     "teacher_count": 24,
     "uncovered_classes": [
-      "十年级 G22",
-      "十年级 G23",
-      "十一年级 AS3",
-      "十一年级 AS2",
-      "十年级 G21",
-      "十二年级 A21",
-      "化学AA(F26)",
-      "九年级 G12",
-      "九年级 G11",
       "十一年级 AS1",
-      "十二年级 A22"
+      "十一年级 AS3",
+      "十年级 G22",
+      "九年级 G12",
+      "化学AA(F26)",
+      "十一年级 AS2",
+      "十二年级 A22",
+      "十二年级 A21",
+      "九年级 G11",
+      "十年级 G23",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
