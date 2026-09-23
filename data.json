@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-23 16:25",
+  "updated_at": "2026-09-23 16:31",
   "school": {
     "rate": 83.9,
-    "present": 769,
-    "total": 917,
+    "present": 780,
+    "total": 930,
     "late": 13,
-    "absent": 148,
-    "leave": 101
+    "absent": 150,
+    "leave": 102
   },
   "summary": {
     "pending_yesterday": 0,
@@ -596,6 +596,22 @@
       ]
     },
     {
+      "name": "英语口语AQ3(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 84.6,
+      "present_text": "11/13人次",
+      "present": 11,
+      "total": 13,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
       "name": "英语听力阅读AQ1(F26)",
       "teacher": "王伊",
       "rate": 75.0,
@@ -790,6 +806,40 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "肖含章",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-23T16:28:49"
+    },
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "Personal Leave_【Approved】 2026/9/23 14:00:00 to 2026/9/23 17:00:00  请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "15:30-16:10"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-23T16:28:49"
+    },
     {
       "name": "段锦沐",
       "class": "A21",
@@ -1039,23 +1089,6 @@
         {
           "course": "英语听力阅读AQ1(F26)",
           "time": "16:20-17:00"
-        }
-      ],
-      "updated_at": "2026-09-23T15:31:03"
-    },
-    {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/23 14:00:00 至 2026/9/23 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "14:40-15:20"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "15:30-16:10"
         }
       ],
       "updated_at": "2026-09-23T15:31:03"
@@ -2150,19 +2183,19 @@
     "completion_rate": 74.5,
     "called": 120,
     "total": 161,
-    "class_coverage": "47/47",
+    "class_coverage": "48/48",
     "teacher_count": 28,
     "uncovered_classes": [
-      "十年级 G22",
-      "九年级 G11",
-      "十一年级 AS2",
-      "十年级 G21",
-      "九年级 G12",
-      "十二年级 A21",
-      "高数CR2(F26)",
-      "十二年级 A22",
-      "十年级 G23",
       "十一年级 AS1",
+      "九年级 G12",
+      "十一年级 AS2",
+      "十二年级 A22",
+      "十年级 G21",
+      "十年级 G23",
+      "高数CR2(F26)",
+      "十二年级 A21",
+      "九年级 G11",
+      "十年级 G22",
       "十一年级 AS3"
     ],
     "uncovered_teachers": [
