@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-23 08:46",
+  "updated_at": "2026-09-23 08:50",
   "school": {
     "rate": 82.9,
     "present": 34,
     "total": 41,
     "late": 0,
     "absent": 7,
-    "leave": 5
+    "leave": 6
   },
   "summary": {
     "pending_yesterday": 0,
@@ -25,7 +25,7 @@
       "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -52,15 +52,15 @@
     {
       "name": "赵浩雯",
       "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
+      "reason": "事假_【已通过】 2026-09-23 08:00:00 至 2026-09-24 17:00:00  因个人原因，请假两天，谢谢",
+      "type": "事假",
       "courses": [
         {
           "course": "数学BQ1(F26)",
           "time": "08:20-09:00"
         }
       ],
-      "updated_at": "2026-09-23T08:21:27"
+      "updated_at": "2026-09-23T08:48:59"
     },
     {
       "name": "黄子怿",
