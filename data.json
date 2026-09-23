@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-23 09:10",
+  "updated_at": "2026-09-23 09:16",
   "school": {
-    "rate": 77.6,
-    "present": 38,
-    "total": 49,
-    "late": 1,
-    "absent": 11,
-    "leave": 7
+    "rate": 83.5,
+    "present": 86,
+    "total": 103,
+    "late": 4,
+    "absent": 17,
+    "leave": 12
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -19,16 +19,17 @@
       "name": "数学BQ1(F26)",
       "teacher": "杨燕霖",
       "rate": 85.0,
-      "present_text": "17/20人次",
-      "present": 17,
-      "total": 20,
-      "absent": 3,
+      "present_text": "34/40人次",
+      "present": 34,
+      "total": 40,
+      "absent": 6,
       "late": 0,
       "early": 0,
-      "leave": 3,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -45,6 +46,23 @@
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "物理AY(F26)",
+      "teacher": "职梦凡",
+      "rate": 91.2,
+      "present_text": "31/34人次",
+      "present": 31,
+      "total": 34,
+      "absent": 3,
+      "late": 3,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -65,6 +83,87 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/23 8:00:00 至 2026/9/24 17:00:00  因个人原因，请假两天，谢谢 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-23T09:12:59"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/9/20 15:00:00 至 2026/9/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-23T09:12:59"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-23T09:12:59"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "病假_【已通过】 2026/9/23 8:00:00 至 2026/9/23 17:00:00  肠胃炎 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-23T09:12:01"
+    },
+    {
+      "name": "尹勋",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-23T09:12:01"
+    },
     {
       "name": "郑逸",
       "class": "G22",
@@ -168,45 +267,6 @@
         }
       ],
       "updated_at": "2026-09-23T08:58:45"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026-09-23 08:00:00 至 2026-09-24 17:00:00  因个人原因，请假两天，谢谢",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-23T08:48:59"
-    },
-    {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/9/20 15:00:00 至 2026/9/30 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-23T08:21:27"
-    },
-    {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/1 7:00:00 至 2026/9/30 7:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-23T08:21:27"
     }
   ],
   "pending_roll_call": [
@@ -299,14 +359,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "08:20-09:00",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "数学",
@@ -326,57 +378,56 @@
   "trend": [
     {
       "date": "09-17",
-      "attendance": 82.1,
+      "attendance": 88.0,
       "submit": 90.0
     },
     {
       "date": "09-18",
-      "attendance": 80.6,
+      "attendance": 86.5,
       "submit": 90.5
     },
     {
       "date": "09-19",
-      "attendance": 79.1,
+      "attendance": 85.0,
       "submit": 91.0
     },
     {
       "date": "09-20",
-      "attendance": 77.6,
+      "attendance": 83.5,
       "submit": 91.5
     },
     {
       "date": "09-21",
-      "attendance": 76.1,
+      "attendance": 82.0,
       "submit": 92.0
     },
     {
       "date": "09-22",
-      "attendance": 74.6,
+      "attendance": 80.5,
       "submit": 92.5
     },
     {
       "date": "09-23",
-      "attendance": 77.6,
-      "submit": 83.8
+      "attendance": 83.5,
+      "submit": 86.8
     }
   ],
   "lesson": {
-    "completion_rate": 30.0,
-    "called": 6,
+    "completion_rate": 35.0,
+    "called": 7,
     "total": 20,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 9,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "高数CR2(F26)",
-      "十一年级 AS3",
-      "十二年级 A22",
-      "十年级 G21",
       "九年级 G12",
-      "十二年级 A21",
       "九年级 G11",
+      "高数CR2(F26)",
+      "十一年级 AS2",
+      "十一年级 AS3",
       "十年级 G23",
-      "十一年级 AS2"
+      "十二年级 A21",
+      "十二年级 A22",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -466,14 +517,6 @@
         "teacher": "李俊",
         "time": "08:20-09:00",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "08:20-09:00",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G23",
