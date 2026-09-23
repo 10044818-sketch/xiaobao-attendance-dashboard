@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-23 11:20",
+  "updated_at": "2026-09-23 11:25",
   "school": {
-    "rate": 84.5,
-    "present": 257,
+    "rate": 84.2,
+    "present": 256,
     "total": 304,
-    "late": 12,
-    "absent": 47,
+    "late": 11,
+    "absent": 48,
     "leave": 36
   },
   "summary": {
@@ -232,12 +232,12 @@
     {
       "name": "雅思写作口语C0(F26)",
       "teacher": "曹德娟",
-      "rate": 87.5,
-      "present_text": "14/16人次",
-      "present": 14,
+      "rate": 81.2,
+      "present_text": "13/16人次",
+      "present": 13,
       "total": 16,
-      "absent": 2,
-      "late": 4,
+      "absent": 3,
+      "late": 3,
       "early": 0,
       "leave": 2,
       "status": "异常",
@@ -280,6 +280,44 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "刘宇茗",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-23T11:23:24"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【请假审批中】 2026/9/23 8:00:00 至 2026/9/23 17:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-23T11:23:24"
+    },
     {
       "name": "王烁杰",
       "class": "G21",
@@ -364,27 +402,6 @@
         }
       ],
       "updated_at": "2026-09-23T10:58:38"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【请假审批中】 2026/9/23 8:00:00 至 2026/9/23 17:00:00  头疼 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思听力阅读C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-23T10:51:30"
     },
     {
       "name": "赵浩雯",
@@ -570,19 +587,6 @@
         }
       ],
       "updated_at": "2026-09-23T10:13:15"
-    },
-    {
-      "name": "刘宇茗",
-      "class": "A22",
-      "reason": "事假_【已通过】 2026-09-23 08:00:00 至 2026-09-23 09:30:00  家里有事",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思听力阅读C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-23T10:06:23"
     },
     {
       "name": "尹勋",
@@ -928,38 +932,38 @@
   "trend": [
     {
       "date": "09-17",
-      "attendance": 89.0,
+      "attendance": 88.7,
       "submit": 90.0
     },
     {
       "date": "09-18",
-      "attendance": 87.5,
+      "attendance": 87.2,
       "submit": 90.5
     },
     {
       "date": "09-19",
-      "attendance": 86.0,
+      "attendance": 85.7,
       "submit": 91.0
     },
     {
       "date": "09-20",
-      "attendance": 84.5,
+      "attendance": 84.2,
       "submit": 91.5
     },
     {
       "date": "09-21",
-      "attendance": 83.0,
+      "attendance": 82.7,
       "submit": 92.0
     },
     {
       "date": "09-22",
-      "attendance": 81.5,
+      "attendance": 81.2,
       "submit": 92.5
     },
     {
       "date": "09-23",
-      "attendance": 84.5,
-      "submit": 87.2
+      "attendance": 84.2,
+      "submit": 87.1
     }
   ],
   "lesson": {
@@ -969,14 +973,14 @@
     "class_coverage": "16/16",
     "teacher_count": 19,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十一年级 AS2",
-      "高数CR2(F26)",
+      "十二年级 A22",
       "化学BY(F26)",
+      "十二年级 A21",
       "十年级 G22",
+      "高数CR2(F26)",
+      "十一年级 AS2",
       "十一年级 AS3",
-      "十一年级 AS1",
-      "十二年级 A22"
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
