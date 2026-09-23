@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-23 15:41",
+  "updated_at": "2026-09-23 15:46",
   "school": {
-    "rate": 83.6,
-    "present": 702,
-    "total": 840,
+    "rate": 83.7,
+    "present": 736,
+    "total": 879,
     "late": 13,
-    "absent": 138,
-    "leave": 92
+    "absent": 143,
+    "leave": 96
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 9,
+    "class_attention": 11,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -48,6 +48,22 @@
       ]
     },
     {
+      "name": "化学AA(F26)",
+      "teacher": "余越利",
+      "rate": 91.3,
+      "present_text": "21/23人次",
+      "present": 21,
+      "total": 23,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "14:40-15:20"
+      ]
+    },
+    {
       "name": "化学BY(F26)",
       "teacher": "米万宝",
       "rate": 91.7,
@@ -63,6 +79,22 @@
         "10:00-10:40",
         "10:50-11:30",
         "14:40-15:20"
+      ]
+    },
+    {
+      "name": "化学CB(F26)",
+      "teacher": "余越利",
+      "rate": 66.7,
+      "present_text": "4/6人次",
+      "present": 4,
+      "total": 6,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "15:30-16:10"
       ]
     },
     {
@@ -434,6 +466,22 @@
       ]
     },
     {
+      "name": "艺术BX(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 90.0,
+      "present_text": "9/10人次",
+      "present": 9,
+      "total": 10,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "15:30-16:10"
+      ]
+    },
+    {
       "name": "英语写作A0(F26)",
       "teacher": "钱嘉音",
       "rate": 92.9,
@@ -694,6 +742,123 @@
   ],
   "absent_students": [
     {
+      "name": "丁怡霏",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/9/23 13:00:00 至 2026/9/23 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR3S(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "化学BY(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-23T15:45:01"
+    },
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-23T15:44:21"
+    },
+    {
+      "name": "陈乐涵",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/9/23 8:00:00 至 2026/9/23 17:00:00  事假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学CB(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-23T15:44:21"
+    },
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/30 17:00:00  已申请退学 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "15:30-16:10"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-23T15:44:10"
+    },
+    {
+      "name": "房林轩",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/23 14:30:00 至 2026/9/23 17:30:00  看医生 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-09-23T15:44:10"
+    },
+    {
       "name": "郑逸",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/23 8:00:00 至 2026/9/23 17:00:00  请假 ",
@@ -739,43 +904,6 @@
         {
           "course": "经济AX(F26)",
           "time": "15:30-16:10"
-        }
-      ],
-      "updated_at": "2026-09-23T15:31:03"
-    },
-    {
-      "name": "桂应沁",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/30 17:00:00  已申请退学 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育AB(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "数学AR1(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "数学AR1(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "15:30-16:10"
-        },
-        {
-          "course": "英语听力阅读AQ1(F26)",
-          "time": "16:20-17:00"
         }
       ],
       "updated_at": "2026-09-23T15:31:03"
@@ -915,27 +1043,6 @@
         },
         {
           "course": "物理BY(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-23T15:30:15"
-    },
-    {
-      "name": "丁怡霏",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/9/23 13:00:00 至 2026/9/23 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR3S(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "雅思BR3(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "化学BY(F26)",
           "time": "14:40-15:20"
         }
       ],
@@ -1325,23 +1432,6 @@
       "updated_at": "2026-09-23T14:09:14"
     },
     {
-      "name": "汤二璨",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "物理CA(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-23T14:09:14"
-    },
-    {
       "name": "吴梓瑗",
       "class": "AS1",
       "reason": "当日缺课且无请假单",
@@ -1366,19 +1456,6 @@
         }
       ],
       "updated_at": "2026-09-23T14:02:46"
-    },
-    {
-      "name": "房林轩",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/23 14:30:00 至 2026/9/23 17:30:00  看医生 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语听力阅读AQ1(F26)",
-          "time": "16:20-17:00"
-        }
-      ],
-      "updated_at": "2026-09-23T13:57:30"
     },
     {
       "name": "高子涵",
@@ -1867,14 +1944,6 @@
       "location": "LT3-116"
     },
     {
-      "class": "化学AA(F26)",
-      "class_id": 529342,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "14:40-15:20",
-      "location": "LT3-124"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "几何",
@@ -1915,28 +1984,12 @@
       "location": "LT3-104"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "14:40-15:20",
-      "location": "LT3-124"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "艺术与设计",
       "teacher": "王丽媛、朱嘉怡",
       "time": "14:40-15:20",
       "location": "LT3-104"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "14:40-15:20",
-      "location": "LT3-124"
     },
     {
       "class": "十年级 G23",
@@ -1950,58 +2003,57 @@
   "trend": [
     {
       "date": "09-17",
-      "attendance": 88.1,
+      "attendance": 88.2,
       "submit": 90.0
     },
     {
       "date": "09-18",
-      "attendance": 86.6,
+      "attendance": 86.7,
       "submit": 90.5
     },
     {
       "date": "09-19",
-      "attendance": 85.1,
+      "attendance": 85.2,
       "submit": 91.0
     },
     {
       "date": "09-20",
-      "attendance": 83.6,
+      "attendance": 83.7,
       "submit": 91.5
     },
     {
       "date": "09-21",
-      "attendance": 82.1,
+      "attendance": 82.2,
       "submit": 92.0
     },
     {
       "date": "09-22",
-      "attendance": 80.6,
+      "attendance": 80.7,
       "submit": 92.5
     },
     {
       "date": "09-23",
-      "attendance": 83.6,
+      "attendance": 83.7,
       "submit": 86.8
     }
   ],
   "lesson": {
-    "completion_rate": 72.7,
-    "called": 104,
+    "completion_rate": 74.8,
+    "called": 107,
     "total": 143,
-    "class_coverage": "41/41",
+    "class_coverage": "44/44",
     "teacher_count": 27,
     "uncovered_classes": [
       "十一年级 AS2",
-      "十一年级 AS1",
-      "九年级 G12",
-      "十年级 G23",
-      "十二年级 A22",
-      "化学AA(F26)",
-      "高数CR2(F26)",
+      "九年级 G11",
       "十年级 G21",
+      "九年级 G12",
+      "高数CR2(F26)",
+      "十二年级 A22",
+      "十年级 G23",
+      "十一年级 AS1",
       "十年级 G22",
-      "十二年级 A21",
-      "九年级 G11"
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -2237,14 +2289,6 @@
         "location": "LT3-116"
       },
       {
-        "class": "化学AA(F26)",
-        "class_id": 529342,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "14:40-15:20",
-        "location": "LT3-124"
-      },
-      {
         "class": "十二年级 A21",
         "class_id": 366030,
         "subject": "几何",
@@ -2285,28 +2329,12 @@
         "location": "LT3-104"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "14:40-15:20",
-        "location": "LT3-124"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "艺术与设计",
         "teacher": "王丽媛、朱嘉怡",
         "time": "14:40-15:20",
         "location": "LT3-104"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "14:40-15:20",
-        "location": "LT3-124"
       },
       {
         "class": "十年级 G23",
