@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-23 09:05",
+  "updated_at": "2026-09-23 09:10",
   "school": {
-    "rate": 75.5,
-    "present": 37,
+    "rate": 77.6,
+    "present": 38,
     "total": 49,
-    "late": 0,
-    "absent": 12,
+    "late": 1,
+    "absent": 11,
     "leave": 7
   },
   "summary": {
@@ -34,12 +34,12 @@
     {
       "name": "物理AX(F26)",
       "teacher": "熊辉",
-      "rate": 81.0,
-      "present_text": "17/21人次",
-      "present": 17,
+      "rate": 85.7,
+      "present_text": "18/21人次",
+      "present": 18,
       "total": 21,
-      "absent": 4,
-      "late": 0,
+      "absent": 3,
+      "late": 1,
       "early": 0,
       "leave": 3,
       "status": "异常",
@@ -65,6 +65,45 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "郑逸",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/23 8:00:00 至 2026/9/23 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-23T09:08:22"
+    },
+    {
+      "name": "桂应沁",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/30 17:00:00  已申请退学 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-23T09:08:22"
+    },
+    {
+      "name": "关矞文",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/23 8:00:00 至 2026/9/23 9:00:00  第一节课请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-23T09:08:22"
+    },
     {
       "name": "茆睿恺",
       "class": "A22",
@@ -168,58 +207,6 @@
         }
       ],
       "updated_at": "2026-09-23T08:21:27"
-    },
-    {
-      "name": "郑逸",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/23 8:00:00 至 2026/9/23 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-23T08:21:07"
-    },
-    {
-      "name": "谢佳妍",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-23T08:21:07"
-    },
-    {
-      "name": "桂应沁",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/30 17:00:00  已申请退学 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-23T08:21:07"
-    },
-    {
-      "name": "关矞文",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/23 8:00:00 至 2026/9/23 9:00:00  第一节课请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-23T08:21:07"
     }
   ],
   "pending_roll_call": [
@@ -339,38 +326,38 @@
   "trend": [
     {
       "date": "09-17",
-      "attendance": 80.0,
+      "attendance": 82.1,
       "submit": 90.0
     },
     {
       "date": "09-18",
-      "attendance": 78.5,
+      "attendance": 80.6,
       "submit": 90.5
     },
     {
       "date": "09-19",
-      "attendance": 77.0,
+      "attendance": 79.1,
       "submit": 91.0
     },
     {
       "date": "09-20",
-      "attendance": 75.5,
+      "attendance": 77.6,
       "submit": 91.5
     },
     {
       "date": "09-21",
-      "attendance": 74.0,
+      "attendance": 76.1,
       "submit": 92.0
     },
     {
       "date": "09-22",
-      "attendance": 72.5,
+      "attendance": 74.6,
       "submit": 92.5
     },
     {
       "date": "09-23",
-      "attendance": 75.5,
-      "submit": 82.8
+      "attendance": 77.6,
+      "submit": 83.8
     }
   ],
   "lesson": {
@@ -380,16 +367,16 @@
     "class_coverage": "3/3",
     "teacher_count": 9,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十年级 G21",
-      "十年级 G23",
       "十一年级 AS1",
+      "高数CR2(F26)",
       "十一年级 AS3",
       "十二年级 A22",
-      "九年级 G11",
-      "十二年级 A21",
+      "十年级 G21",
       "九年级 G12",
-      "高数CR2(F26)"
+      "十二年级 A21",
+      "九年级 G11",
+      "十年级 G23",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
