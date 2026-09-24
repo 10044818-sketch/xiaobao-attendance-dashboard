@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-24 13:20",
+  "updated_at": "2026-09-24 13:25",
   "school": {
-    "rate": 83.4,
-    "present": 362,
-    "total": 434,
+    "rate": 83.3,
+    "present": 375,
+    "total": 450,
     "late": 14,
-    "absent": 72,
-    "leave": 53
+    "absent": 75,
+    "leave": 56
   },
   "summary": {
     "pending_yesterday": 0,
@@ -332,6 +332,22 @@
       ]
     },
     {
+      "name": "英语写作AQ1(F26)",
+      "teacher": "贺珍谊",
+      "rate": 81.2,
+      "present_text": "13/16人次",
+      "present": 13,
+      "total": 16,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "英语口语A0J(F26)",
       "teacher": "贺珍谊",
       "rate": 85.7,
@@ -416,29 +432,25 @@
   ],
   "absent_students": [
     {
-      "name": "朱金贝",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/24 8:00:00 至 2026/9/24 17:00:00  感冒 ",
+      "name": "郑逸",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/9/24 8:00:00 至 2026/9/24 17:00:00  请假一天 ",
       "type": "事假",
       "courses": [
         {
-          "course": "化学AA(F26)",
+          "course": "商科AA(F26)",
           "time": "08:20-09:00"
         },
         {
-          "course": "化学AA(F26)",
+          "course": "商科AA(F26)",
           "time": "09:10-09:50"
         },
         {
-          "course": "数学AR1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR1(F26)",
-          "time": "10:50-11:30"
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
         }
       ],
-      "updated_at": "2026-09-24T13:12:38"
+      "updated_at": "2026-09-24T13:22:50"
     },
     {
       "name": "张品茹",
@@ -461,14 +473,47 @@
         {
           "course": "数学AR1(F26)",
           "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
         }
       ],
-      "updated_at": "2026-09-24T13:12:38"
+      "updated_at": "2026-09-24T13:22:50"
     },
     {
       "name": "桂应沁",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/20 8:00:00 至 2026/9/30 17:00:00  已申请退学 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-24T13:22:50"
+    },
+    {
+      "name": "朱金贝",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/24 8:00:00 至 2026/9/24 17:00:00  感冒 ",
       "type": "事假",
       "courses": [
         {
@@ -963,23 +1008,6 @@
       "updated_at": "2026-09-24T10:00:16"
     },
     {
-      "name": "郑逸",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/9/24 8:00:00 至 2026/9/24 17:00:00  请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-24T09:42:09"
-    },
-    {
       "name": "关矞文",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/24 8:00:00 至 2026/9/24 9:00:00  第一节课请假 ",
@@ -1272,37 +1300,37 @@
   "trend": [
     {
       "date": "09-18",
-      "attendance": 87.9,
+      "attendance": 87.8,
       "submit": 90.0
     },
     {
       "date": "09-19",
-      "attendance": 86.4,
+      "attendance": 86.3,
       "submit": 90.5
     },
     {
       "date": "09-20",
-      "attendance": 84.9,
+      "attendance": 84.8,
       "submit": 91.0
     },
     {
       "date": "09-21",
-      "attendance": 83.4,
+      "attendance": 83.3,
       "submit": 91.5
     },
     {
       "date": "09-22",
-      "attendance": 81.9,
+      "attendance": 81.8,
       "submit": 92.0
     },
     {
       "date": "09-23",
-      "attendance": 80.4,
+      "attendance": 80.3,
       "submit": 92.5
     },
     {
       "date": "09-24",
-      "attendance": 83.4,
+      "attendance": 83.3,
       "submit": 86.7
     }
   ],
@@ -1310,20 +1338,20 @@
     "completion_rate": 67.4,
     "called": 64,
     "total": 95,
-    "class_coverage": "24/24",
+    "class_coverage": "25/25",
     "teacher_count": 17,
     "uncovered_classes": [
-      "十年级 G23",
-      "十一年级 AS1",
-      "十年级 G21",
-      "十一年级 AS2",
-      "化学BZ(F26)",
-      "九年级 G11",
-      "十年级 G22",
-      "十二年级 A21",
       "十二年级 A22",
+      "十年级 G21",
+      "九年级 G12",
+      "化学BZ(F26)",
+      "十年级 G23",
+      "十年级 G22",
+      "十一年级 AS2",
+      "十二年级 A21",
       "十一年级 AS3",
-      "九年级 G12"
+      "九年级 G11",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
