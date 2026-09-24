@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-24 10:30",
+  "updated_at": "2026-09-24 10:35",
   "school": {
-    "rate": 84.9,
-    "present": 157,
-    "total": 185,
+    "rate": 86.9,
+    "present": 185,
+    "total": 213,
     "late": 7,
     "absent": 28,
     "leave": 18
@@ -61,6 +61,23 @@
       "leave": 4,
       "status": "异常",
       "time_spans": [
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "化学A0(F26)",
+      "teacher": "袁西援",
+      "rate": 100.0,
+      "present_text": "28/28人次",
+      "present": 28,
+      "total": 28,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
         "09:10-09:50"
       ]
     },
@@ -531,14 +548,6 @@
       "location": "LT3-108"
     },
     {
-      "class": "化学A0(F26)",
-      "class_id": 524146,
-      "subject": "化学",
-      "teacher": "袁西援",
-      "time": "08:20-09:00",
-      "location": "LT3-107"
-    },
-    {
       "class": "化学AA(F26)",
       "class_id": 529342,
       "subject": "化学",
@@ -595,14 +604,6 @@
       "location": "LT3-124"
     },
     {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "化学",
-      "teacher": "袁西援",
-      "time": "08:20-09:00",
-      "location": "LT3-107"
-    },
-    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "英语第二语言",
@@ -617,14 +618,6 @@
       "teacher": "瞿芬",
       "time": "09:10-09:50",
       "location": "LT3-108"
-    },
-    {
-      "class": "化学A0(F26)",
-      "class_id": 524146,
-      "subject": "化学",
-      "teacher": "袁西援",
-      "time": "09:10-09:50",
-      "location": "LT3-107"
     },
     {
       "class": "化学AA(F26)",
@@ -689,72 +682,62 @@
       "teacher": "余越利",
       "time": "09:10-09:50",
       "location": "LT3-124"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "化学",
-      "teacher": "袁西援",
-      "time": "09:10-09:50",
-      "location": "LT3-107"
     }
   ],
   "trend": [
     {
       "date": "09-18",
-      "attendance": 89.4,
+      "attendance": 91.4,
       "submit": 90.0
     },
     {
       "date": "09-19",
-      "attendance": 87.9,
+      "attendance": 89.9,
       "submit": 90.5
     },
     {
       "date": "09-20",
-      "attendance": 86.4,
+      "attendance": 88.4,
       "submit": 91.0
     },
     {
       "date": "09-21",
-      "attendance": 84.9,
+      "attendance": 86.9,
       "submit": 91.5
     },
     {
       "date": "09-22",
-      "attendance": 83.4,
+      "attendance": 85.4,
       "submit": 92.0
     },
     {
       "date": "09-23",
-      "attendance": 81.9,
+      "attendance": 83.9,
       "submit": 92.5
     },
     {
       "date": "09-24",
-      "attendance": 84.9,
-      "submit": 87.5
+      "attendance": 86.9,
+      "submit": 88.5
     }
   ],
   "lesson": {
-    "completion_rate": 42.5,
-    "called": 17,
+    "completion_rate": 52.5,
+    "called": 21,
     "total": 40,
-    "class_coverage": "13/13",
+    "class_coverage": "14/14",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十年级 G23",
-      "十一年级 AS1",
       "十二年级 A22",
-      "十二年级 A21",
-      "十年级 G22",
-      "九年级 G11",
-      "十年级 G21",
-      "化学AA(F26)",
       "十一年级 AS3",
-      "化学A0(F26)",
-      "九年级 G12"
+      "十二年级 A21",
+      "九年级 G11",
+      "十年级 G22",
+      "九年级 G12",
+      "十年级 G21",
+      "十一年级 AS1",
+      "十一年级 AS2",
+      "化学AA(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -772,14 +755,6 @@
         "teacher": "瞿芬",
         "time": "08:20-09:00",
         "location": "LT3-108"
-      },
-      {
-        "class": "化学A0(F26)",
-        "class_id": 524146,
-        "subject": "化学",
-        "teacher": "袁西援",
-        "time": "08:20-09:00",
-        "location": "LT3-107"
       },
       {
         "class": "化学AA(F26)",
@@ -838,14 +813,6 @@
         "location": "LT3-124"
       },
       {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "化学",
-        "teacher": "袁西援",
-        "time": "08:20-09:00",
-        "location": "LT3-107"
-      },
-      {
         "class": "九年级 G11",
         "class_id": 487607,
         "subject": "英语第二语言",
@@ -860,14 +827,6 @@
         "teacher": "瞿芬",
         "time": "09:10-09:50",
         "location": "LT3-108"
-      },
-      {
-        "class": "化学A0(F26)",
-        "class_id": 524146,
-        "subject": "化学",
-        "teacher": "袁西援",
-        "time": "09:10-09:50",
-        "location": "LT3-107"
       },
       {
         "class": "化学AA(F26)",
@@ -932,14 +891,6 @@
         "teacher": "余越利",
         "time": "09:10-09:50",
         "location": "LT3-124"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "化学",
-        "teacher": "袁西援",
-        "time": "09:10-09:50",
-        "location": "LT3-107"
       }
     ]
   }
