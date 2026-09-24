@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-24 09:10",
+  "updated_at": "2026-09-24 09:15",
   "school": {
-    "rate": 81.4,
-    "present": 48,
-    "total": 59,
-    "late": 3,
-    "absent": 11,
-    "leave": 7
+    "rate": 79.3,
+    "present": 69,
+    "total": 87,
+    "late": 8,
+    "absent": 18,
+    "leave": 11
   },
   "summary": {
     "pending_yesterday": 0,
@@ -18,17 +18,34 @@
     {
       "name": "代数C0(F26)",
       "teacher": "张小翼",
-      "rate": 50.0,
-      "present_text": "4/8人次",
-      "present": 4,
-      "total": 8,
-      "absent": 4,
+      "rate": 56.2,
+      "present_text": "9/16人次",
+      "present": 9,
+      "total": 16,
+      "absent": 7,
       "late": 1,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "体育BR3(F26)",
+      "teacher": "沈译宇",
+      "rate": 80.0,
+      "present_text": "16/20人次",
+      "present": 16,
+      "total": 20,
+      "absent": 4,
+      "late": 5,
+      "early": 0,
+      "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
       ]
     },
     {
@@ -99,6 +116,109 @@
   ],
   "absent_students": [
     {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "代数C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-24T09:14:10"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "代数C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-24T09:14:10"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "代数C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-24T09:14:10"
+    },
+    {
+      "name": "王誉涵",
+      "class": "AS3",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-24T09:12:15"
+    },
+    {
+      "name": "任厚宇",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/9/24 8:00:00 至 2026/9/24 17:00:00  病假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-24T09:12:15"
+    },
+    {
+      "name": "凌想想",
+      "class": "AS3",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-24T09:12:15"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/9/20 15:00:00 至 2026/9/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-24T09:12:15"
+    },
+    {
       "name": "郑逸",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/24 8:00:00 至 2026/9/24 17:00:00  请假一天 ",
@@ -164,47 +284,8 @@
       "updated_at": "2026-09-24T09:01:04"
     },
     {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-24T08:58:33"
-    },
-    {
       "name": "曾禹德",
       "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-24T08:58:33"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-24T08:58:33"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
@@ -335,56 +416,56 @@
   "trend": [
     {
       "date": "09-18",
-      "attendance": 85.9,
+      "attendance": 83.8,
       "submit": 90.0
     },
     {
       "date": "09-19",
-      "attendance": 84.4,
+      "attendance": 82.3,
       "submit": 90.5
     },
     {
       "date": "09-20",
-      "attendance": 82.9,
+      "attendance": 80.8,
       "submit": 91.0
     },
     {
       "date": "09-21",
-      "attendance": 81.4,
+      "attendance": 79.3,
       "submit": 91.5
     },
     {
       "date": "09-22",
-      "attendance": 79.9,
+      "attendance": 77.8,
       "submit": 92.0
     },
     {
       "date": "09-23",
-      "attendance": 78.4,
+      "attendance": 76.3,
       "submit": 92.5
     },
     {
       "date": "09-24",
-      "attendance": 81.4,
-      "submit": 85.7
+      "attendance": 79.3,
+      "submit": 84.7
     }
   ],
   "lesson": {
     "completion_rate": 42.1,
     "called": 8,
     "total": 19,
-    "class_coverage": "5/5",
+    "class_coverage": "6/6",
     "teacher_count": 9,
     "uncovered_classes": [
-      "化学A0(F26)",
       "十一年级 AS1",
-      "十一年级 AS3",
-      "化学AA(F26)",
-      "十年级 G21",
       "十年级 G23",
       "九年级 G11",
-      "九年级 G12",
-      "十年级 G22"
+      "十一年级 AS3",
+      "十年级 G21",
+      "化学A0(F26)",
+      "化学AA(F26)",
+      "十年级 G22",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
