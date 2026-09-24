@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 13:35",
+  "updated_at": "2026-09-24 13:41",
   "school": {
     "rate": 83.6,
     "present": 387,
@@ -1315,6 +1315,134 @@
       "teacher": "",
       "time": "10:50-11:30",
       "location": ""
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "13:00-13:40",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "13:00-13:40",
+      "location": "LT3-108"
+    },
+    {
+      "class": "化学9A(F26)",
+      "class_id": 526214,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "13:00-13:40",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "13:00-13:40",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "13:00-13:40",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "13:00-13:40",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "物理",
+      "teacher": "曾靓",
+      "time": "13:00-13:40",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "13:00-13:40",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "13:00-13:40",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "物理",
+      "teacher": "曾靓",
+      "time": "13:00-13:40",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "13:00-13:40",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:00-13:40",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "13:00-13:40",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:00-13:40",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "13:00-13:40",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:00-13:40",
+      "location": "LT3-104"
     }
   ],
   "trend": [
@@ -1355,23 +1483,24 @@
     }
   ],
   "lesson": {
-    "completion_rate": 67.4,
-    "called": 64,
-    "total": 95,
+    "completion_rate": 59.5,
+    "called": 69,
+    "total": 116,
     "class_coverage": "26/26",
-    "teacher_count": 17,
+    "teacher_count": 22,
     "uncovered_classes": [
+      "十年级 G22",
+      "十一年级 AS1",
       "十二年级 A21",
-      "九年级 G12",
-      "十一年级 AS3",
-      "十年级 G21",
       "十年级 G23",
-      "化学BZ(F26)",
+      "九年级 G12",
+      "化学9A(F26)",
+      "十年级 G21",
       "九年级 G11",
       "十二年级 A22",
-      "十一年级 AS1",
       "十一年级 AS2",
-      "十年级 G22"
+      "化学BZ(F26)",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -1621,6 +1750,134 @@
         "teacher": "",
         "time": "10:50-11:30",
         "location": ""
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "化学",
+        "teacher": "张璐菲",
+        "time": "13:00-13:40",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "化学",
+        "teacher": "张璐菲",
+        "time": "13:00-13:40",
+        "location": "LT3-108"
+      },
+      {
+        "class": "化学9A(F26)",
+        "class_id": 526214,
+        "subject": "化学",
+        "teacher": "张璐菲",
+        "time": "13:00-13:40",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "13:00-13:40",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "13:00-13:40",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思听力阅读",
+        "teacher": "瞿芬",
+        "time": "13:00-13:40",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "物理",
+        "teacher": "曾靓",
+        "time": "13:00-13:40",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "13:00-13:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思听力阅读",
+        "teacher": "瞿芬",
+        "time": "13:00-13:40",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "物理",
+        "teacher": "曾靓",
+        "time": "13:00-13:40",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "13:00-13:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "13:00-13:40",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "13:00-13:40",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "13:00-13:40",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "13:00-13:40",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:00-13:40",
+        "location": "LT3-104"
       }
     ]
   }
