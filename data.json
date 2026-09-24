@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-24 11:30",
+  "updated_at": "2026-09-24 11:33",
   "school": {
-    "rate": 84.7,
-    "present": 238,
+    "rate": 85.1,
+    "present": 239,
     "total": 281,
-    "late": 11,
-    "absent": 43,
+    "late": 12,
+    "absent": 42,
     "leave": 21
   },
   "summary": {
@@ -165,12 +165,12 @@
     {
       "name": "商科BZ(F26)",
       "teacher": "余震",
-      "rate": 95.0,
-      "present_text": "19/20人次",
-      "present": 19,
+      "rate": 100.0,
+      "present_text": "20/20人次",
+      "present": 20,
       "total": 20,
-      "absent": 1,
-      "late": 0,
+      "absent": 0,
+      "late": 1,
       "early": 0,
       "leave": 0,
       "status": "正常",
@@ -333,19 +333,6 @@
         }
       ],
       "updated_at": "2026-09-24T11:28:50"
-    },
-    {
-      "name": "余天佑",
-      "class": "AS3",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "商科BZ(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-24T10:56:08"
     },
     {
       "name": "茆睿恺",
@@ -1082,38 +1069,38 @@
   "trend": [
     {
       "date": "09-18",
-      "attendance": 89.2,
+      "attendance": 89.6,
       "submit": 90.0
     },
     {
       "date": "09-19",
-      "attendance": 87.7,
+      "attendance": 88.1,
       "submit": 90.5
     },
     {
       "date": "09-20",
-      "attendance": 86.2,
+      "attendance": 86.6,
       "submit": 91.0
     },
     {
       "date": "09-21",
-      "attendance": 84.7,
+      "attendance": 85.1,
       "submit": 91.5
     },
     {
       "date": "09-22",
-      "attendance": 83.2,
+      "attendance": 83.6,
       "submit": 92.0
     },
     {
       "date": "09-23",
-      "attendance": 81.7,
+      "attendance": 82.1,
       "submit": 92.5
     },
     {
       "date": "09-24",
-      "attendance": 84.7,
-      "submit": 87.3
+      "attendance": 85.1,
+      "submit": 87.5
     }
   ],
   "lesson": {
@@ -1123,18 +1110,18 @@
     "class_coverage": "18/18",
     "teacher_count": 17,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "化学BZ(F26)",
-      "化学AA(F26)",
       "九年级 G12",
-      "十年级 G22",
-      "十一年级 AS1",
       "十年级 G23",
+      "化学BZ(F26)",
       "十一年级 AS2",
-      "十二年级 A21",
-      "九年级 G11",
+      "十一年级 AS3",
       "十年级 G21",
+      "九年级 G11",
+      "十二年级 A21",
+      "十一年级 AS1",
       "十二年级 A22",
+      "化学AA(F26)",
+      "十年级 G22",
       "化学CB(F26)"
     ],
     "uncovered_teachers": [
