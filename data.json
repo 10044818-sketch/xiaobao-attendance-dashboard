@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-24 15:05",
+  "updated_at": "2026-09-24 15:10",
   "school": {
-    "rate": 82.6,
-    "present": 545,
-    "total": 660,
+    "rate": 83.2,
+    "present": 575,
+    "total": 691,
     "late": 14,
-    "absent": 115,
-    "leave": 81
+    "absent": 116,
+    "leave": 82
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 7,
+    "class_attention": 8,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -543,6 +543,54 @@
       ]
     },
     {
+      "name": "英语听力阅读AQ2(F26)",
+      "teacher": "王伊",
+      "rate": 100.0,
+      "present_text": "10/10人次",
+      "present": 10,
+      "total": 10,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
+      "name": "英语听力阅读AQ3(F26)",
+      "teacher": "王伊",
+      "rate": 92.3,
+      "present_text": "12/13人次",
+      "present": 12,
+      "total": 13,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
+      "name": "语言艺术C0(F26)",
+      "teacher": "王伊",
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
+      "total": 8,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "14:40-15:20"
+      ]
+    },
+    {
       "name": "雅思BR1(F26)",
       "teacher": "贺珍谊",
       "rate": 89.3,
@@ -649,6 +697,10 @@
           "time": "10:50-11:30"
         },
         {
+          "course": "英语听力阅读AQ3(F26)",
+          "time": "13:00-13:40"
+        },
+        {
           "course": "英语写作AQ3(F26)",
           "time": "13:50-14:30"
         },
@@ -657,7 +709,7 @@
           "time": "14:40-15:20"
         }
       ],
-      "updated_at": "2026-09-24T14:44:37"
+      "updated_at": "2026-09-24T15:09:42"
     },
     {
       "name": "焦怡雯",
@@ -1765,22 +1817,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "13:00-13:40",
-      "location": "LT3-116"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "13:00-13:40",
-      "location": "LT3-116"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "艺术与设计",
@@ -1845,22 +1881,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "13:50-14:30",
-      "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "13:50-14:30",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "数学",
@@ -1872,58 +1892,58 @@
   "trend": [
     {
       "date": "09-18",
-      "attendance": 87.1,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "09-19",
-      "attendance": 85.6,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "09-20",
-      "attendance": 84.1,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "09-21",
-      "attendance": 82.6,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "09-22",
-      "attendance": 81.1,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "09-23",
-      "attendance": 79.6,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "09-24",
-      "attendance": 82.6,
-      "submit": 86.3
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
-    "completion_rate": 65.7,
-    "called": 92,
+    "completion_rate": 68.6,
+    "called": 96,
     "total": 140,
-    "class_coverage": "37/37",
+    "class_coverage": "40/40",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "十二年级 A21",
-      "十年级 G22",
-      "九年级 G11",
-      "十年级 G23",
-      "十一年级 AS1",
       "十一年级 AS2",
-      "十二年级 A22",
-      "九年级 G12",
+      "十一年级 AS3",
+      "化学BZ(F26)",
+      "十年级 G23",
+      "十年级 G22",
+      "十二年级 A21",
       "十年级 G21",
-      "化学BZ(F26)"
+      "九年级 G11",
+      "十一年级 AS1",
+      "十二年级 A22",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
@@ -2207,22 +2227,6 @@
         "location": "LT3-208"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "13:00-13:40",
-        "location": "LT3-116"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "13:00-13:40",
-        "location": "LT3-116"
-      },
-      {
         "class": "十年级 G23",
         "class_id": 521638,
         "subject": "艺术与设计",
@@ -2285,22 +2289,6 @@
         "teacher": "孙鹏",
         "time": "13:50-14:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "13:50-14:30",
-        "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "13:50-14:30",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G23",
