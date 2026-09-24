@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-24 13:30",
+  "updated_at": "2026-09-24 13:35",
   "school": {
-    "rate": 83.3,
-    "present": 375,
-    "total": 450,
+    "rate": 83.6,
+    "present": 387,
+    "total": 463,
     "late": 14,
-    "absent": 75,
-    "leave": 56
+    "absent": 76,
+    "leave": 57
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -348,6 +348,22 @@
       ]
     },
     {
+      "name": "英语写作AQ3(F26)",
+      "teacher": "贺珍谊",
+      "rate": 92.3,
+      "present_text": "12/13人次",
+      "present": 12,
+      "total": 13,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "英语口语A0J(F26)",
       "teacher": "贺珍谊",
       "rate": 85.7,
@@ -432,6 +448,35 @@
   ],
   "absent_students": [
     {
+      "name": "朱金贝",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/24 8:00:00 至 2026/9/24 17:00:00  感冒 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-24T13:34:11"
+    },
+    {
       "name": "郑逸",
       "class": "G22",
       "reason": "事假_【已通过】 2026/9/24 8:00:00 至 2026/9/24 17:00:00  请假一天 ",
@@ -509,31 +554,6 @@
         }
       ],
       "updated_at": "2026-09-24T13:22:50"
-    },
-    {
-      "name": "朱金贝",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/24 8:00:00 至 2026/9/24 17:00:00  感冒 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-24T13:12:38"
     },
     {
       "name": "焦怡雯",
@@ -1300,58 +1320,58 @@
   "trend": [
     {
       "date": "09-18",
-      "attendance": 87.8,
+      "attendance": 88.1,
       "submit": 90.0
     },
     {
       "date": "09-19",
-      "attendance": 86.3,
+      "attendance": 86.6,
       "submit": 90.5
     },
     {
       "date": "09-20",
-      "attendance": 84.8,
+      "attendance": 85.1,
       "submit": 91.0
     },
     {
       "date": "09-21",
-      "attendance": 83.3,
+      "attendance": 83.6,
       "submit": 91.5
     },
     {
       "date": "09-22",
-      "attendance": 81.8,
+      "attendance": 82.1,
       "submit": 92.0
     },
     {
       "date": "09-23",
-      "attendance": 80.3,
+      "attendance": 80.6,
       "submit": 92.5
     },
     {
       "date": "09-24",
-      "attendance": 83.3,
-      "submit": 86.7
+      "attendance": 83.6,
+      "submit": 86.8
     }
   ],
   "lesson": {
     "completion_rate": 67.4,
     "called": 64,
     "total": 95,
-    "class_coverage": "25/25",
+    "class_coverage": "26/26",
     "teacher_count": 17,
     "uncovered_classes": [
-      "化学BZ(F26)",
       "十二年级 A21",
-      "十年级 G22",
-      "十年级 G23",
-      "九年级 G11",
       "九年级 G12",
       "十一年级 AS3",
       "十年级 G21",
+      "十年级 G23",
+      "化学BZ(F26)",
+      "九年级 G11",
+      "十二年级 A22",
       "十一年级 AS1",
       "十一年级 AS2",
-      "十二年级 A22"
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
