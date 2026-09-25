@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25 15:15",
+  "updated_at": "2026-09-25 15:20",
   "school": {
     "rate": 0,
     "present": 0,
@@ -1040,6 +1040,22 @@
       "teacher": "费楚淇",
       "time": "13:50-14:30",
       "location": "LT3-107"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "14:40-15:20",
+      "location": ""
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "14:40-15:20",
+      "location": ""
     }
   ],
   "trend": [
@@ -1082,25 +1098,25 @@
   "lesson": {
     "completion_rate": 0.0,
     "called": 0,
-    "total": 128,
+    "total": 130,
     "class_coverage": "0/0",
     "teacher_count": 25,
     "uncovered_classes": [
-      "化学9A(F26)",
-      "十一年级 AS2",
-      "九年级 G12",
       "十年级 G22",
-      "十一年级 AS1",
-      "九年级 G11",
-      "十二年级 A21",
-      "十一年级 AS3",
-      "高数CR2(F26)",
-      "十二年级 A22",
-      "化学CB(F26)",
-      "化学BZ(F26)",
-      "十年级 G21",
       "化学BY(F26)",
-      "十年级 G23"
+      "十年级 G23",
+      "十二年级 A21",
+      "化学CB(F26)",
+      "九年级 G12",
+      "九年级 G11",
+      "十一年级 AS2",
+      "化学BZ(F26)",
+      "十二年级 A22",
+      "高数CR2(F26)",
+      "化学9A(F26)",
+      "十一年级 AS3",
+      "十年级 G21",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -2126,6 +2142,22 @@
         "teacher": "费楚淇",
         "time": "13:50-14:30",
         "location": "LT3-107"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "14:40-15:20",
+        "location": ""
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "14:40-15:20",
+        "location": ""
       }
     ]
   }
