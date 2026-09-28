@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-28 10:16",
+  "updated_at": "2026-09-28 10:20",
   "school": {
     "rate": 79.8,
-    "present": 186,
-    "total": 233,
+    "present": 202,
+    "total": 253,
     "late": 8,
-    "absent": 47,
-    "leave": 25
+    "absent": 51,
+    "leave": 28
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -41,7 +41,7 @@
       "absent": 9,
       "late": 2,
       "early": 0,
-      "leave": 4,
+      "leave": 5,
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
@@ -132,16 +132,33 @@
       ]
     },
     {
-      "name": "雅思BR1(F26)",
+      "name": "英语写作AQ2(F26)",
       "teacher": "贺珍谊",
-      "rate": 78.6,
-      "present_text": "11/14人次",
-      "present": 11,
-      "total": 14,
-      "absent": 3,
+      "rate": 90.0,
+      "present_text": "18/20人次",
+      "present": 18,
+      "total": 20,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
+      "name": "雅思BR1(F26)",
+      "teacher": "贺珍谊",
+      "rate": 71.4,
+      "present_text": "10/14人次",
+      "present": 10,
+      "total": 14,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -150,14 +167,14 @@
     {
       "name": "雅思BR1S(F26)",
       "teacher": "曹德娟",
-      "rate": 78.6,
-      "present_text": "11/14人次",
-      "present": 11,
+      "rate": 71.4,
+      "present_text": "10/14人次",
+      "present": 10,
       "total": 14,
-      "absent": 3,
+      "absent": 4,
       "late": 2,
       "early": 0,
-      "leave": 3,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "09:10-09:50"
@@ -198,6 +215,52 @@
   ],
   "absent_students": [
     {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作AQ2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ2(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-28T10:17:46"
+    },
+    {
+      "name": "朱景璇",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026-09-28 09:00:00 至 2026-09-28 11:00:00  中文考试",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1S(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-28T10:16:53"
+    },
+    {
       "name": "周原",
       "class": "AS1",
       "reason": "事假_【已通过】 2026-09-28 09:00:00 至 2026-09-28 11:00:00  中文考试",
@@ -217,19 +280,6 @@
         }
       ],
       "updated_at": "2026-09-28T10:16:25"
-    },
-    {
-      "name": "朱景璇",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-28T10:12:20"
     },
     {
       "name": "赵浩雯",
@@ -565,23 +615,6 @@
       "updated_at": "2026-09-28T09:09:39"
     },
     {
-      "name": "贾征颐",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-28T09:09:01"
-    },
-    {
       "name": "贾牧荷",
       "class": "G22",
       "reason": "当日缺课且无请假单",
@@ -752,14 +785,14 @@
     "completion_rate": 61.5,
     "called": 16,
     "total": 26,
-    "class_coverage": "11/11",
+    "class_coverage": "12/12",
     "teacher_count": 10,
     "uncovered_classes": [
       "十一年级 AS3",
-      "十二年级 A21",
+      "十一年级 AS1",
       "十二年级 A22",
-      "十年级 G23",
-      "十一年级 AS1"
+      "十二年级 A21",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
