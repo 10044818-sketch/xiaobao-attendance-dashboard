@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-28 15:40",
+  "updated_at": "2026-09-28 15:46",
   "school": {
-    "rate": 77.3,
-    "present": 510,
-    "total": 660,
-    "late": 13,
-    "absent": 150,
+    "rate": 77.2,
+    "present": 516,
+    "total": 668,
+    "late": 14,
+    "absent": 152,
     "leave": 88
   },
   "summary": {
@@ -482,16 +482,17 @@
       "name": "雅思写作口语C0(F26)",
       "teacher": "曹德娟",
       "rate": 75.0,
-      "present_text": "6/8人次",
-      "present": 6,
-      "total": 8,
-      "absent": 2,
-      "late": 0,
+      "present_text": "12/16人次",
+      "present": 12,
+      "total": 16,
+      "absent": 4,
+      "late": 1,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "14:40-15:20"
+        "14:40-15:20",
+        "15:30-16:10"
       ]
     },
     {
@@ -528,6 +529,52 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-28T15:44:35"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "代数C0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-09-28T15:44:35"
+    },
     {
       "name": "丁怡霏",
       "class": "AS3",
@@ -672,44 +719,6 @@
         }
       ],
       "updated_at": "2026-09-28T15:22:01"
-    },
-    {
-      "name": "曾禹德",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-28T14:59:37"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济C0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "代数C0(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-28T14:59:37"
     },
     {
       "name": "赵浩雯",
@@ -2035,38 +2044,38 @@
   "trend": [
     {
       "date": "09-22",
-      "attendance": 81.8,
+      "attendance": 81.7,
       "submit": 90.0
     },
     {
       "date": "09-23",
-      "attendance": 80.3,
+      "attendance": 80.2,
       "submit": 90.5
     },
     {
       "date": "09-24",
-      "attendance": 78.8,
+      "attendance": 78.7,
       "submit": 91.0
     },
     {
       "date": "09-25",
-      "attendance": 77.3,
+      "attendance": 77.2,
       "submit": 91.5
     },
     {
       "date": "09-26",
-      "attendance": 75.8,
+      "attendance": 75.7,
       "submit": 92.0
     },
     {
       "date": "09-27",
-      "attendance": 74.3,
+      "attendance": 74.2,
       "submit": 92.5
     },
     {
       "date": "09-28",
-      "attendance": 77.3,
-      "submit": 83.7
+      "attendance": 77.2,
+      "submit": 83.6
     }
   ],
   "lesson": {
@@ -2076,19 +2085,19 @@
     "class_coverage": "31/31",
     "teacher_count": 26,
     "uncovered_classes": [
-      "九年级 G11",
+      "高数CR2(F26)",
+      "十二年级 A21",
       "十年级 G22",
       "化学9A(F26)",
-      "十二年级 A22",
-      "化学BY(F26)",
       "十一年级 AS3",
-      "高数CR2(F26)",
-      "十一年级 AS2",
-      "九年级 G12",
       "十年级 G21",
-      "十二年级 A21",
+      "化学BY(F26)",
       "十年级 G23",
-      "十一年级 AS1"
+      "九年级 G11",
+      "九年级 G12",
+      "十一年级 AS1",
+      "十一年级 AS2",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
