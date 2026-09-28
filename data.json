@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-28 18:46",
+  "updated_at": "2026-09-28 18:50",
   "school": {
     "rate": 79.1,
-    "present": 807,
-    "total": 1020,
+    "present": 812,
+    "total": 1026,
     "late": 14,
-    "absent": 213,
+    "absent": 214,
     "leave": 114
   },
   "summary": {
@@ -761,9 +761,46 @@
       "time_spans": [
         "14:40-15:20"
       ]
+    },
+    {
+      "name": "高数BD1(F26)",
+      "teacher": "潘子清",
+      "rate": 83.3,
+      "present_text": "5/6人次",
+      "present": 5,
+      "total": 6,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "18:15-19:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "王誉涵",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "高数BD1(F26)",
+          "time": "18:15-19:00"
+        }
+      ],
+      "updated_at": "2026-09-28T18:49:35"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -1912,23 +1949,6 @@
       "updated_at": "2026-09-28T14:05:58"
     },
     {
-      "name": "王誉涵",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/9/28 8:00:00 至 2026/9/28 11:30:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ3(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ3(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-28T13:52:44"
-    },
-    {
       "name": "毛汝鑫",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -2338,18 +2358,18 @@
     "completion_rate": 84.7,
     "called": 133,
     "total": 157,
-    "class_coverage": "45/45",
+    "class_coverage": "46/46",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "高数CR2(F26)",
-      "十年级 G23",
-      "十二年级 A22",
-      "十二年级 A21",
       "十一年级 AS3",
+      "十二年级 A21",
       "九年级 G12",
+      "十一年级 AS2",
+      "十一年级 AS1",
+      "高数CR2(F26)",
       "九年级 G11",
-      "十一年级 AS1"
+      "十二年级 A22",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
