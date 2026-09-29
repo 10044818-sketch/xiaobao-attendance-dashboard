@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-29 15:46",
+  "updated_at": "2026-09-29 15:53",
   "school": {
-    "rate": 82.6,
-    "present": 560,
-    "total": 678,
+    "rate": 82.7,
+    "present": 572,
+    "total": 692,
     "late": 3,
-    "absent": 118,
-    "leave": 67
+    "absent": 120,
+    "leave": 69
   },
   "summary": {
     "pending_yesterday": 0,
@@ -382,6 +382,22 @@
       ]
     },
     {
+      "name": "经济AY(F26)",
+      "teacher": "孙鹏",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20"
+      ]
+    },
+    {
       "name": "经济BX(F26)",
       "teacher": "郝畅",
       "rate": 76.9,
@@ -642,6 +658,64 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/28 6:00:00 至 2026/9/29 23:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-29T15:50:42"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学AR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-29T15:50:42"
+    },
     {
       "name": "翁瑾萱",
       "class": "G12",
@@ -1236,39 +1310,6 @@
       "updated_at": "2026-09-29T13:49:34"
     },
     {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学AR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育AA(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-09-29T13:49:34"
-    },
-    {
       "name": "吴臻",
       "class": "G12",
       "reason": "病假_【已通过】 2026/9/29 7:00:00 至 2026/9/29 16:00:00  需要到医院进一步检查 ",
@@ -1419,23 +1460,6 @@
       "reason": "已请假",
       "type": "请假",
       "courses": [
-        {
-          "course": "体育AA(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-29T10:53:44"
-    },
-    {
-      "name": "金懿帆",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/28 6:00:00 至 2026/9/29 23:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:00-10:40"
-        },
         {
           "course": "体育AA(F26)",
           "time": "10:50-11:30"
@@ -2032,14 +2056,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "14:40-15:20",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "艺术与设计",
@@ -2059,60 +2075,60 @@
   "trend": [
     {
       "date": "09-23",
-      "attendance": 87.1,
+      "attendance": 87.2,
       "submit": 90.0
     },
     {
       "date": "09-24",
-      "attendance": 85.6,
+      "attendance": 85.7,
       "submit": 90.5
     },
     {
       "date": "09-25",
-      "attendance": 84.1,
+      "attendance": 84.2,
       "submit": 91.0
     },
     {
       "date": "09-26",
-      "attendance": 82.6,
+      "attendance": 82.7,
       "submit": 91.5
     },
     {
       "date": "09-27",
-      "attendance": 81.1,
+      "attendance": 81.2,
       "submit": 92.0
     },
     {
       "date": "09-28",
-      "attendance": 79.6,
+      "attendance": 79.7,
       "submit": 92.5
     },
     {
       "date": "09-29",
-      "attendance": 82.6,
+      "attendance": 82.7,
       "submit": 86.3
     }
   ],
   "lesson": {
-    "completion_rate": 62.3,
-    "called": 99,
+    "completion_rate": 62.9,
+    "called": 100,
     "total": 159,
-    "class_coverage": "38/38",
+    "class_coverage": "39/39",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十年级 G22",
-      "十一年级 AS1",
-      "十二年级 A22",
+      "十二年级 A21",
       "九年级 G11",
-      "十年级 G21",
       "十一年级 AS2",
       "九年级 G12",
-      "十二年级 A21",
-      "高数CR2(F26)",
+      "十二年级 A22",
+      "十一年级 AS3",
       "化学CB(F26)",
+      "高数CR2(F26)",
+      "十一年级 AS1",
+      "十年级 G22",
+      "十年级 G21",
       "十年级 G23",
-      "化学AA(F26)",
-      "十一年级 AS3"
+      "化学AA(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -2570,14 +2586,6 @@
         "teacher": "李俊",
         "time": "14:40-15:20",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "14:40-15:20",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G23",
