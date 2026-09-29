@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-29 14:10",
+  "updated_at": "2026-09-29 14:17",
   "school": {
-    "rate": 83.1,
-    "present": 452,
+    "rate": 83.3,
+    "present": 453,
     "total": 544,
     "late": 3,
-    "absent": 92,
-    "leave": 54
+    "absent": 91,
+    "leave": 53
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -250,15 +250,15 @@
     {
       "name": "物理C0(F26)",
       "teacher": "职梦凡",
-      "rate": 87.5,
-      "present_text": "14/16人次",
-      "present": 14,
+      "rate": 93.8,
+      "present_text": "15/16人次",
+      "present": 15,
       "total": 16,
-      "absent": 2,
+      "absent": 1,
       "late": 1,
       "early": 0,
-      "leave": 2,
-      "status": "异常",
+      "leave": 1,
+      "status": "关注",
       "time_spans": [
         "13:00-13:40",
         "13:50-14:30"
@@ -690,10 +690,6 @@
         {
           "course": "物理C0(F26)",
           "time": "13:00-13:40"
-        },
-        {
-          "course": "物理C0(F26)",
-          "time": "13:50-14:30"
         }
       ],
       "updated_at": "2026-09-29T13:50:36"
@@ -1549,38 +1545,38 @@
   "trend": [
     {
       "date": "09-23",
-      "attendance": 87.6,
+      "attendance": 87.8,
       "submit": 90.0
     },
     {
       "date": "09-24",
-      "attendance": 86.1,
+      "attendance": 86.3,
       "submit": 90.5
     },
     {
       "date": "09-25",
-      "attendance": 84.6,
+      "attendance": 84.8,
       "submit": 91.0
     },
     {
       "date": "09-26",
-      "attendance": 83.1,
+      "attendance": 83.3,
       "submit": 91.5
     },
     {
       "date": "09-27",
-      "attendance": 81.6,
+      "attendance": 81.8,
       "submit": 92.0
     },
     {
       "date": "09-28",
-      "attendance": 80.1,
+      "attendance": 80.3,
       "submit": 92.5
     },
     {
       "date": "09-29",
-      "attendance": 83.1,
-      "submit": 86.5
+      "attendance": 83.3,
+      "submit": 86.7
     }
   ],
   "lesson": {
@@ -1590,17 +1586,17 @@
     "class_coverage": "32/32",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十年级 G21",
       "九年级 G12",
-      "十二年级 A21",
-      "十二年级 A22",
       "化学CB(F26)",
-      "十年级 G22",
-      "十一年级 AS2",
-      "九年级 G11",
+      "十二年级 A21",
       "化学AA(F26)",
+      "十年级 G22",
       "十一年级 AS1",
-      "十一年级 AS3"
+      "九年级 G11",
+      "十年级 G21",
+      "十一年级 AS3",
+      "十一年级 AS2",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
