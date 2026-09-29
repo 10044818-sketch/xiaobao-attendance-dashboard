@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 15:18",
+  "updated_at": "2026-09-29 15:20",
   "school": {
     "rate": 83.2,
     "present": 555,
@@ -1865,6 +1865,110 @@
       "teacher": "李俊",
       "time": "13:50-14:30",
       "location": "LT3-208"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "14:40-15:20",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "14:40-15:20",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "14:40-15:20",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "14:40-15:20",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "14:40-15:20",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "英语语言文学",
+      "teacher": "王伊",
+      "time": "14:40-15:20",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "高等数学",
+      "teacher": "李俊",
+      "time": "14:40-15:20",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "英语语言文学",
+      "teacher": "王伊",
+      "time": "14:40-15:20",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "14:40-15:20",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "高等数学",
+      "teacher": "李俊",
+      "time": "14:40-15:20",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "14:40-15:20",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-104"
+    },
+    {
+      "class": "高数CR2(F26)",
+      "class_id": 521015,
+      "subject": "高等数学",
+      "teacher": "李俊",
+      "time": "14:40-15:20",
+      "location": "LT3-208"
     }
   ],
   "trend": [
@@ -1905,24 +2009,25 @@
     }
   ],
   "lesson": {
-    "completion_rate": 66.4,
-    "called": 93,
-    "total": 140,
+    "completion_rate": 62.3,
+    "called": 99,
+    "total": 159,
     "class_coverage": "37/37",
-    "teacher_count": 25,
+    "teacher_count": 27,
     "uncovered_classes": [
+      "九年级 G12",
+      "十二年级 A22",
       "十年级 G21",
-      "十一年级 AS3",
+      "九年级 G11",
+      "化学CB(F26)",
       "十二年级 A21",
       "化学AA(F26)",
-      "九年级 G11",
-      "高数CR2(F26)",
-      "十一年级 AS2",
-      "化学CB(F26)",
-      "十年级 G22",
       "十一年级 AS1",
-      "十二年级 A22",
-      "九年级 G12"
+      "十一年级 AS2",
+      "十年级 G22",
+      "十年级 G23",
+      "十一年级 AS3",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -2299,6 +2404,110 @@
         "subject": "高等数学",
         "teacher": "李俊",
         "time": "13:50-14:30",
+        "location": "LT3-208"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "物理",
+        "teacher": "职梦凡",
+        "time": "14:40-15:20",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "物理",
+        "teacher": "职梦凡",
+        "time": "14:40-15:20",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "数学",
+        "teacher": "刘晨璐",
+        "time": "14:40-15:20",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "数学",
+        "teacher": "刘晨璐",
+        "time": "14:40-15:20",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "数学",
+        "teacher": "刘晨璐",
+        "time": "14:40-15:20",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "英语语言文学",
+        "teacher": "王伊",
+        "time": "14:40-15:20",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "高等数学",
+        "teacher": "李俊",
+        "time": "14:40-15:20",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "英语语言文学",
+        "teacher": "王伊",
+        "time": "14:40-15:20",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "数学",
+        "teacher": "刘晨璐",
+        "time": "14:40-15:20",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "高等数学",
+        "teacher": "李俊",
+        "time": "14:40-15:20",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "14:40-15:20",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "14:40-15:20",
+        "location": "LT3-104"
+      },
+      {
+        "class": "高数CR2(F26)",
+        "class_id": 521015,
+        "subject": "高等数学",
+        "teacher": "李俊",
+        "time": "14:40-15:20",
         "location": "LT3-208"
       }
     ]
