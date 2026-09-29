@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-29 13:20",
+  "updated_at": "2026-09-29 13:25",
   "school": {
-    "rate": 82.7,
-    "present": 386,
+    "rate": 82.9,
+    "present": 387,
     "total": 467,
-    "late": 2,
-    "absent": 81,
+    "late": 3,
+    "absent": 80,
     "leave": 43
   },
   "summary": {
@@ -233,12 +233,12 @@
     {
       "name": "物理C0(F26)",
       "teacher": "职梦凡",
-      "rate": 75.0,
-      "present_text": "6/8人次",
-      "present": 6,
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
       "total": 8,
-      "absent": 2,
-      "late": 0,
+      "absent": 1,
+      "late": 1,
       "early": 0,
       "leave": 0,
       "status": "异常",
@@ -494,6 +494,23 @@
   ],
   "absent_students": [
     {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-09-29T13:21:58"
+    },
+    {
       "name": "张彧州",
       "class": "G23",
       "reason": "当日缺课且无请假单",
@@ -698,40 +715,6 @@
         }
       ],
       "updated_at": "2026-09-29T13:15:24"
-    },
-    {
-      "name": "曾禹德",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-29T13:03:57"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-29T13:03:57"
     },
     {
       "name": "贾征颐",
@@ -1143,6 +1126,19 @@
       "updated_at": "2026-09-29T09:04:51"
     },
     {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-29T09:04:51"
+    },
+    {
       "name": "余天佑",
       "class": "AS3",
       "reason": "当日缺课且无请假单",
@@ -1398,38 +1394,38 @@
   "trend": [
     {
       "date": "09-23",
-      "attendance": 87.2,
+      "attendance": 87.4,
       "submit": 90.0
     },
     {
       "date": "09-24",
-      "attendance": 85.7,
+      "attendance": 85.9,
       "submit": 90.5
     },
     {
       "date": "09-25",
-      "attendance": 84.2,
+      "attendance": 84.4,
       "submit": 91.0
     },
     {
       "date": "09-26",
-      "attendance": 82.7,
+      "attendance": 82.9,
       "submit": 91.5
     },
     {
       "date": "09-27",
-      "attendance": 81.2,
+      "attendance": 81.4,
       "submit": 92.0
     },
     {
       "date": "09-28",
-      "attendance": 79.7,
+      "attendance": 79.9,
       "submit": 92.5
     },
     {
       "date": "09-29",
-      "attendance": 82.7,
-      "submit": 86.3
+      "attendance": 82.9,
+      "submit": 86.5
     }
   ],
   "lesson": {
@@ -1439,16 +1435,16 @@
     "class_coverage": "29/29",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十二年级 A21",
-      "九年级 G12",
-      "十一年级 AS2",
-      "十年级 G21",
-      "九年级 G11",
       "十年级 G22",
-      "化学CB(F26)",
-      "十一年级 AS1",
+      "十一年级 AS2",
+      "九年级 G12",
       "十二年级 A22",
-      "十一年级 AS3"
+      "十一年级 AS1",
+      "化学CB(F26)",
+      "十一年级 AS3",
+      "十年级 G21",
+      "十二年级 A21",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
