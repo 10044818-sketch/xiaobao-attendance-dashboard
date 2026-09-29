@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-29 08:25",
+  "updated_at": "2026-09-29 08:30",
   "school": {
-    "rate": 86.4,
-    "present": 38,
-    "total": 44,
+    "rate": 86.2,
+    "present": 50,
+    "total": 58,
     "late": 1,
-    "absent": 6,
-    "leave": 3
+    "absent": 8,
+    "leave": 4
   },
   "summary": {
     "pending_yesterday": 0,
@@ -39,6 +39,22 @@
       "present": 7,
       "total": 10,
       "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
+      "name": "数学AR2(F26)",
+      "teacher": "杨燕霖",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
       "late": 0,
       "early": 0,
       "leave": 1,
@@ -81,6 +97,32 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学AR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-29T08:27:14"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学AR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-29T08:27:14"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -164,45 +206,45 @@
   "trend": [
     {
       "date": "09-23",
-      "attendance": 90.9,
+      "attendance": 90.7,
       "submit": 90.0
     },
     {
       "date": "09-24",
-      "attendance": 89.4,
+      "attendance": 89.2,
       "submit": 90.5
     },
     {
       "date": "09-25",
-      "attendance": 87.9,
+      "attendance": 87.7,
       "submit": 91.0
     },
     {
       "date": "09-26",
-      "attendance": 86.4,
+      "attendance": 86.2,
       "submit": 91.5
     },
     {
       "date": "09-27",
-      "attendance": 84.9,
+      "attendance": 84.7,
       "submit": 92.0
     },
     {
       "date": "09-28",
-      "attendance": 83.4,
+      "attendance": 83.2,
       "submit": 92.5
     },
     {
       "date": "09-29",
-      "attendance": 86.4,
-      "submit": 88.2
+      "attendance": 86.2,
+      "submit": 88.1
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "4/4",
+    "class_coverage": "5/5",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
