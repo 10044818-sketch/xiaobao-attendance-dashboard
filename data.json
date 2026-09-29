@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-29 11:30",
+  "updated_at": "2026-09-29 11:35",
   "school": {
-    "rate": 80.9,
-    "present": 258,
-    "total": 319,
+    "rate": 81.2,
+    "present": 264,
+    "total": 325,
     "late": 2,
     "absent": 61,
     "leave": 36
@@ -195,6 +195,23 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "6/6人次",
+      "present": 6,
+      "total": 6,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -1109,22 +1126,6 @@
       "location": "LT3-212"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-208"
-    },
-    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "英语第二语言",
@@ -1237,28 +1238,12 @@
       "location": "LT3-206"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-208"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "物理",
       "teacher": "曾靓",
       "time": "10:50-11:30",
       "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-208"
     },
     {
       "class": "十年级 G21",
@@ -1288,60 +1273,60 @@
   "trend": [
     {
       "date": "09-23",
-      "attendance": 85.4,
+      "attendance": 85.7,
       "submit": 90.0
     },
     {
       "date": "09-24",
-      "attendance": 83.9,
+      "attendance": 84.2,
       "submit": 90.5
     },
     {
       "date": "09-25",
-      "attendance": 82.4,
+      "attendance": 82.7,
       "submit": 91.0
     },
     {
       "date": "09-26",
-      "attendance": 80.9,
+      "attendance": 81.2,
       "submit": 91.5
     },
     {
       "date": "09-27",
-      "attendance": 79.4,
+      "attendance": 79.7,
       "submit": 92.0
     },
     {
       "date": "09-28",
-      "attendance": 77.9,
+      "attendance": 78.2,
       "submit": 92.5
     },
     {
       "date": "09-29",
-      "attendance": 80.9,
-      "submit": 85.5
+      "attendance": 81.2,
+      "submit": 85.6
     }
   ],
   "lesson": {
-    "completion_rate": 53.6,
-    "called": 52,
+    "completion_rate": 57.7,
+    "called": 56,
     "total": 97,
-    "class_coverage": "20/20",
+    "class_coverage": "21/21",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "九年级 G12",
       "十一年级 AS1",
-      "化学A0(F26)",
-      "十一年级 AS3",
-      "十年级 G23",
-      "化学C0(F26)",
-      "十年级 G21",
       "十年级 G22",
-      "化学CB(F26)",
-      "十二年级 A21",
       "九年级 G11",
-      "十二年级 A22"
+      "化学C0(F26)",
+      "十年级 G23",
+      "化学CB(F26)",
+      "九年级 G12",
+      "十一年级 AS3",
+      "十年级 G21",
+      "化学A0(F26)",
+      "十二年级 A21",
+      "十二年级 A22",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -1529,22 +1514,6 @@
         "location": "LT3-212"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-208"
-      },
-      {
         "class": "十年级 G21",
         "class_id": 517698,
         "subject": "英语第二语言",
@@ -1657,28 +1626,12 @@
         "location": "LT3-206"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-208"
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "物理",
         "teacher": "曾靓",
         "time": "10:50-11:30",
         "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-208"
       },
       {
         "class": "十年级 G21",
