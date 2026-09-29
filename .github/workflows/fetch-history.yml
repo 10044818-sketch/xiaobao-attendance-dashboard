@@ -1,0 +1,56 @@
+name: Fetch A2 Absence History
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: '起始日期 YYYY-MM-DD'
+        required: true
+        default: '2026-08-24'
+      end_date:
+        description: '结束日期 YYYY-MM-DD'
+        required: true
+        default: '2026-09-08'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: Fetch A2 absence history
+        env:
+          XIAOBAO_USER: ${{ secrets.XIAOBAO_USER }}
+          XIAOBAO_PASS: ${{ secrets.XIAOBAO_PASS }}
+          START_DATE: ${{ github.event.inputs.start_date }}
+          END_DATE: ${{ github.event.inputs.end_date }}
+        run: python fetch_a2_history.py
+
+      - name: Commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add a2_history.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "A2 absence history ${{ github.event.inputs.start_date }}~${{ github.event.inputs.end_date }}"
+            git pull origin main --rebase
+            git push
+          fi
