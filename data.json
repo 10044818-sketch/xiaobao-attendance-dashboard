@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-29 16:26",
+  "updated_at": "2026-09-29 16:32",
   "school": {
     "rate": 83.0,
     "present": 638,
     "total": 769,
     "late": 4,
     "absent": 131,
-    "leave": 75
+    "leave": 81
   },
   "summary": {
     "pending_yesterday": 0,
@@ -106,7 +106,7 @@
       "absent": 4,
       "late": 1,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -242,7 +242,7 @@
       "absent": 10,
       "late": 0,
       "early": 0,
-      "leave": 8,
+      "leave": 10,
       "status": "异常",
       "time_spans": [
         "13:50-14:30",
@@ -324,7 +324,7 @@
       "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 0,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
         "10:00-10:40",
@@ -708,6 +708,43 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026-09-29 08:00:00 至 2026-09-30 17:00:00  因个人原因，请假两天，",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学BZ(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-09-29T16:27:21"
+    },
     {
       "name": "张翰霆",
       "class": "A22",
@@ -1097,43 +1134,6 @@
         {
           "course": "商科BZ(F26)",
           "time": "09:10-09:50"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-09-29T14:40:49"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学BZ(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "10:50-11:30"
         },
         {
           "course": "雅思BR1(F26)",
@@ -2083,16 +2083,16 @@
     "teacher_count": 27,
     "uncovered_classes": [
       "十年级 G22",
-      "九年级 G11",
-      "高数CR2(F26)",
-      "九年级 G12",
-      "十年级 G23",
       "十一年级 AS3",
-      "十二年级 A22",
+      "高数CR2(F26)",
       "十年级 G21",
+      "九年级 G12",
       "十二年级 A21",
-      "十一年级 AS2",
-      "十一年级 AS1"
+      "十年级 G23",
+      "九年级 G11",
+      "十一年级 AS1",
+      "十二年级 A22",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
