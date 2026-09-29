@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-29 12:25",
+  "updated_at": "2026-09-29 12:31",
   "school": {
-    "rate": 81.8,
-    "present": 284,
-    "total": 347,
+    "rate": 83.1,
+    "present": 320,
+    "total": 385,
     "late": 2,
-    "absent": 63,
+    "absent": 65,
     "leave": 36
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -179,6 +179,23 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "物理BX(F26)",
+      "teacher": "魏刘伟",
+      "rate": 94.7,
+      "present_text": "36/38人次",
+      "present": 36,
+      "total": 38,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -379,6 +396,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学BZ(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-29T12:26:40"
+    },
     {
       "name": "焦怡雯",
       "class": "G23",
@@ -870,23 +912,6 @@
       "updated_at": "2026-09-29T09:16:33"
     },
     {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学BZ(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-29T09:10:44"
-    },
-    {
       "name": "茆睿恺",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1081,14 +1106,6 @@
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
-      "subject": "物理",
-      "teacher": "魏刘伟",
-      "time": "10:00-10:40",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
       "subject": "艺术与设计",
       "teacher": "王丽媛、朱嘉怡",
       "time": "10:00-10:40",
@@ -1097,26 +1114,10 @@
     {
       "class": "十一年级 AS2",
       "class_id": 442960,
-      "subject": "物理",
-      "teacher": "魏刘伟",
-      "time": "10:00-10:40",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
       "subject": "艺术与设计",
       "teacher": "王丽媛、朱嘉怡",
       "time": "10:00-10:40",
       "location": "LT3-212"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "物理",
-      "teacher": "魏刘伟",
-      "time": "10:00-10:40",
-      "location": "LT3-121"
     },
     {
       "class": "十一年级 AS3",
@@ -1161,26 +1162,10 @@
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
-      "subject": "物理",
-      "teacher": "魏刘伟",
-      "time": "10:50-11:30",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
       "subject": "艺术与设计",
       "teacher": "王丽媛、朱嘉怡",
       "time": "10:50-11:30",
       "location": "LT3-212"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "物理",
-      "teacher": "魏刘伟",
-      "time": "10:50-11:30",
-      "location": "LT3-121"
     },
     {
       "class": "十一年级 AS2",
@@ -1197,14 +1182,6 @@
       "teacher": "王丽媛、朱嘉怡",
       "time": "10:50-11:30",
       "location": "LT3-212"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "物理",
-      "teacher": "魏刘伟",
-      "time": "10:50-11:30",
-      "location": "LT3-121"
     },
     {
       "class": "十一年级 AS3",
@@ -1258,57 +1235,57 @@
   "trend": [
     {
       "date": "09-23",
-      "attendance": 86.3,
+      "attendance": 87.6,
       "submit": 90.0
     },
     {
       "date": "09-24",
-      "attendance": 84.8,
+      "attendance": 86.1,
       "submit": 90.5
     },
     {
       "date": "09-25",
-      "attendance": 83.3,
+      "attendance": 84.6,
       "submit": 91.0
     },
     {
       "date": "09-26",
-      "attendance": 81.8,
+      "attendance": 83.1,
       "submit": 91.5
     },
     {
       "date": "09-27",
-      "attendance": 80.3,
+      "attendance": 81.6,
       "submit": 92.0
     },
     {
       "date": "09-28",
-      "attendance": 78.8,
+      "attendance": 80.1,
       "submit": 92.5
     },
     {
       "date": "09-29",
-      "attendance": 81.8,
-      "submit": 85.9
+      "attendance": 83.1,
+      "submit": 86.5
     }
   ],
   "lesson": {
-    "completion_rate": 62.9,
-    "called": 61,
+    "completion_rate": 69.1,
+    "called": 67,
     "total": 97,
-    "class_coverage": "22/22",
+    "class_coverage": "23/23",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十一年级 AS3",
-      "十一年级 AS2",
       "九年级 G11",
-      "化学CB(F26)",
+      "十一年级 AS2",
       "十二年级 A21",
       "十二年级 A22",
+      "十一年级 AS3",
+      "十一年级 AS1",
+      "化学CB(F26)",
+      "十年级 G22",
       "九年级 G12",
-      "十年级 G21",
-      "十年级 G22"
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -1426,14 +1403,6 @@
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
-        "subject": "物理",
-        "teacher": "魏刘伟",
-        "time": "10:00-10:40",
-        "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
         "subject": "艺术与设计",
         "teacher": "王丽媛、朱嘉怡",
         "time": "10:00-10:40",
@@ -1442,26 +1411,10 @@
       {
         "class": "十一年级 AS2",
         "class_id": 442960,
-        "subject": "物理",
-        "teacher": "魏刘伟",
-        "time": "10:00-10:40",
-        "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
         "subject": "艺术与设计",
         "teacher": "王丽媛、朱嘉怡",
         "time": "10:00-10:40",
         "location": "LT3-212"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "物理",
-        "teacher": "魏刘伟",
-        "time": "10:00-10:40",
-        "location": "LT3-121"
       },
       {
         "class": "十一年级 AS3",
@@ -1506,26 +1459,10 @@
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
-        "subject": "物理",
-        "teacher": "魏刘伟",
-        "time": "10:50-11:30",
-        "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
         "subject": "艺术与设计",
         "teacher": "王丽媛、朱嘉怡",
         "time": "10:50-11:30",
         "location": "LT3-212"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "物理",
-        "teacher": "魏刘伟",
-        "time": "10:50-11:30",
-        "location": "LT3-121"
       },
       {
         "class": "十一年级 AS2",
@@ -1542,14 +1479,6 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "10:50-11:30",
         "location": "LT3-212"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "物理",
-        "teacher": "魏刘伟",
-        "time": "10:50-11:30",
-        "location": "LT3-121"
       },
       {
         "class": "十一年级 AS3",
