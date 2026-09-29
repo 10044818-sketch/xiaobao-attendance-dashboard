@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-29 11:01",
+  "updated_at": "2026-09-29 11:05",
   "school": {
-    "rate": 81.0,
-    "present": 247,
+    "rate": 80.7,
+    "present": 246,
     "total": 305,
     "late": 2,
-    "absent": 58,
+    "absent": 59,
     "leave": 34
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -231,15 +231,15 @@
     {
       "name": "艺术BX(F26)",
       "teacher": "朱嘉怡",
-      "rate": 90.0,
-      "present_text": "18/20人次",
-      "present": 18,
+      "rate": 85.0,
+      "present_text": "17/20人次",
+      "present": 17,
       "total": 20,
-      "absent": 2,
+      "absent": 3,
       "late": 0,
       "early": 0,
       "leave": 2,
-      "status": "关注",
+      "status": "异常",
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
@@ -344,6 +344,36 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "丁怡霏",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-29T11:01:39"
+    },
+    {
+      "name": "鲍希尔",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/28 8:00:00 至 2026/9/29 17:00:00  外出 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-29T11:01:39"
+    },
     {
       "name": "贾征颐",
       "class": "G22",
@@ -512,23 +542,6 @@
         }
       ],
       "updated_at": "2026-09-29T10:53:44"
-    },
-    {
-      "name": "鲍希尔",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026/9/28 8:00:00 至 2026/9/29 17:00:00  外出 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "艺术BX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "艺术BX(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-29T10:50:28"
     },
     {
       "name": "王锴杰",
@@ -1130,38 +1143,38 @@
   "trend": [
     {
       "date": "09-23",
-      "attendance": 85.5,
+      "attendance": 85.2,
       "submit": 90.0
     },
     {
       "date": "09-24",
-      "attendance": 84.0,
+      "attendance": 83.7,
       "submit": 90.5
     },
     {
       "date": "09-25",
-      "attendance": 82.5,
+      "attendance": 82.2,
       "submit": 91.0
     },
     {
       "date": "09-26",
-      "attendance": 81.0,
+      "attendance": 80.7,
       "submit": 91.5
     },
     {
       "date": "09-27",
-      "attendance": 79.5,
+      "attendance": 79.2,
       "submit": 92.0
     },
     {
       "date": "09-28",
-      "attendance": 78.0,
+      "attendance": 77.7,
       "submit": 92.5
     },
     {
       "date": "09-29",
-      "attendance": 81.0,
-      "submit": 85.5
+      "attendance": 80.7,
+      "submit": 85.3
     }
   ],
   "lesson": {
@@ -1171,18 +1184,18 @@
     "class_coverage": "20/20",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十年级 G22",
       "十二年级 A21",
-      "化学CB(F26)",
+      "化学C0(F26)",
+      "十年级 G21",
+      "十二年级 A22",
+      "十一年级 AS1",
       "十年级 G23",
       "九年级 G11",
+      "十年级 G22",
       "九年级 G12",
-      "十一年级 AS1",
       "十一年级 AS3",
       "十一年级 AS2",
-      "十二年级 A22",
-      "化学C0(F26)",
-      "十年级 G21"
+      "化学CB(F26)"
     ],
     "uncovered_teachers": [
       {
