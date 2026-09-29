@@ -1,20 +1,36 @@
 {
-  "updated_at": "2026-09-29 10:03",
+  "updated_at": "2026-09-29 10:05",
   "school": {
-    "rate": 81.3,
-    "present": 126,
-    "total": 155,
+    "rate": 81.6,
+    "present": 146,
+    "total": 179,
     "late": 2,
-    "absent": 29,
-    "leave": 10
+    "absent": 33,
+    "leave": 14
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "体育9A(F26)",
+      "teacher": "沈译宇",
+      "rate": 78.6,
+      "present_text": "11/14人次",
+      "present": 11,
+      "total": 14,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
     {
       "name": "化学BZ(F26)",
       "teacher": "米万宝",
@@ -132,6 +148,22 @@
       ]
     },
     {
+      "name": "艺术BX(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 90.0,
+      "present_text": "9/10人次",
+      "present": 9,
+      "total": 10,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "艺术BZ(F26)",
       "teacher": "朱嘉怡",
       "rate": 100.0,
@@ -198,6 +230,58 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "吴臻",
+      "class": "G12",
+      "reason": "病假_【已通过】 2026/9/29 7:00:00 至 2026/9/29 16:00:00  需要到医院进一步检查 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-29T10:04:24"
+    },
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/9/29 7:00:00 至 2026/9/29 17:00:00  小孩身体不适，申请请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-29T10:04:24"
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "病假_【已通过】 2026/9/28 8:00:00 至 2026/9/29 17:30:00  身体不舒服 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-29T10:04:24"
+    },
+    {
+      "name": "鲍希尔",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/28 8:00:00 至 2026/9/29 17:00:00  外出 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-29T10:03:47"
+    },
     {
       "name": "谌鑫亿",
       "class": "A22",
@@ -711,56 +795,56 @@
   "trend": [
     {
       "date": "09-23",
-      "attendance": 85.8,
+      "attendance": 86.1,
       "submit": 90.0
     },
     {
       "date": "09-24",
-      "attendance": 84.3,
+      "attendance": 84.6,
       "submit": 90.5
     },
     {
       "date": "09-25",
-      "attendance": 82.8,
+      "attendance": 83.1,
       "submit": 91.0
     },
     {
       "date": "09-26",
-      "attendance": 81.3,
+      "attendance": 81.6,
       "submit": 91.5
     },
     {
       "date": "09-27",
-      "attendance": 79.8,
+      "attendance": 80.1,
       "submit": 92.0
     },
     {
       "date": "09-28",
-      "attendance": 78.3,
+      "attendance": 78.6,
       "submit": 92.5
     },
     {
       "date": "09-29",
-      "attendance": 81.3,
-      "submit": 85.7
+      "attendance": 81.6,
+      "submit": 85.8
     }
   ],
   "lesson": {
     "completion_rate": 57.4,
     "called": 31,
     "total": 54,
-    "class_coverage": "11/11",
+    "class_coverage": "13/13",
     "teacher_count": 13,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十年级 G21",
+      "化学C0(F26)",
       "九年级 G11",
-      "化学CB(F26)",
-      "十年级 G22",
-      "十二年级 A21",
       "十二年级 A22",
+      "十二年级 A21",
       "九年级 G12",
-      "化学C0(F26)"
+      "化学CB(F26)",
+      "十一年级 AS1",
+      "十年级 G22",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
