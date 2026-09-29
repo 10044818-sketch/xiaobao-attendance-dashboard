@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-29 12:56",
+  "updated_at": "2026-09-29 13:01",
   "school": {
-    "rate": 83.1,
-    "present": 320,
-    "total": 385,
+    "rate": 83.2,
+    "present": 322,
+    "total": 387,
     "late": 2,
     "absent": 65,
     "leave": 36
@@ -278,6 +278,22 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "艺术AA(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -1235,57 +1251,57 @@
   "trend": [
     {
       "date": "09-23",
-      "attendance": 87.6,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "09-24",
-      "attendance": 86.1,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "09-25",
-      "attendance": 84.6,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "09-26",
-      "attendance": 83.1,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "09-27",
-      "attendance": 81.6,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "09-28",
-      "attendance": 80.1,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "09-29",
-      "attendance": 83.1,
-      "submit": 86.5
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
     "completion_rate": 69.1,
     "called": 67,
     "total": 97,
-    "class_coverage": "23/23",
+    "class_coverage": "24/24",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十二年级 A22",
-      "十二年级 A21",
-      "十年级 G21",
       "化学CB(F26)",
+      "十年级 G22",
+      "十年级 G21",
       "十一年级 AS1",
       "九年级 G12",
-      "十一年级 AS3",
-      "十年级 G22",
-      "九年级 G11"
+      "十二年级 A21",
+      "九年级 G11",
+      "十一年级 AS2",
+      "十二年级 A22",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
