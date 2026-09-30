@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-30 14:35",
+  "updated_at": "2026-09-30 14:40",
   "school": {
-    "rate": 81.0,
-    "present": 388,
-    "total": 479,
+    "rate": 80.5,
+    "present": 396,
+    "total": 492,
     "late": 11,
-    "absent": 91,
-    "leave": 56
+    "absent": 96,
+    "leave": 60
   },
   "summary": {
     "pending_yesterday": 0,
@@ -99,17 +99,18 @@
     {
       "name": "化学BZ(F26)",
       "teacher": "米万宝",
-      "rate": 69.2,
-      "present_text": "9/13人次",
-      "present": 9,
-      "total": 13,
-      "absent": 4,
+      "rate": 65.4,
+      "present_text": "17/26人次",
+      "present": 17,
+      "total": 26,
+      "absent": 9,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
-        "13:00-13:40"
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -538,6 +539,115 @@
   ],
   "absent_students": [
     {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/29 8:00:00 至 2026/9/30 17:00:00  因个人原因，请假两天， ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育BR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-30T14:35:55"
+    },
+    {
+      "name": "于泽轩",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/30 8:00:00 至 2026/9/30 21:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-30T14:35:55"
+    },
+    {
+      "name": "刘孝晨",
+      "class": "AS2",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-30T14:35:55"
+    },
+    {
+      "name": "金沐嫣",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-30T14:35:55"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-30T14:35:55"
+    },
+    {
       "name": "周原",
       "class": "AS1",
       "reason": "事假_【已通过】 2026/9/29 8:00:00 至 2026/9/30 15:30:00  回家 ",
@@ -705,86 +815,6 @@
         }
       ],
       "updated_at": "2026-09-30T13:04:37"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026/9/29 8:00:00 至 2026/9/30 17:00:00  因个人原因，请假两天， ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育BR1(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-30T13:02:04"
-    },
-    {
-      "name": "于泽轩",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/9/30 8:00:00 至 2026/9/30 21:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-30T13:02:04"
-    },
-    {
-      "name": "金沐嫣",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学BZ(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-30T13:02:04"
-    },
-    {
-      "name": "陈思佳",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-09-30T13:02:04"
     },
     {
       "name": "王誉涵",
@@ -2067,38 +2097,38 @@
   "trend": [
     {
       "date": "09-24",
-      "attendance": 85.5,
+      "attendance": 85.0,
       "submit": 90.0
     },
     {
       "date": "09-25",
-      "attendance": 84.0,
+      "attendance": 83.5,
       "submit": 90.5
     },
     {
       "date": "09-26",
-      "attendance": 82.5,
+      "attendance": 82.0,
       "submit": 91.0
     },
     {
       "date": "09-27",
-      "attendance": 81.0,
+      "attendance": 80.5,
       "submit": 91.5
     },
     {
       "date": "09-28",
-      "attendance": 79.5,
+      "attendance": 79.0,
       "submit": 92.0
     },
     {
       "date": "09-29",
-      "attendance": 78.0,
+      "attendance": 77.5,
       "submit": 92.5
     },
     {
       "date": "09-30",
-      "attendance": 81.0,
-      "submit": 85.5
+      "attendance": 80.5,
+      "submit": 85.2
     }
   ],
   "lesson": {
@@ -2108,18 +2138,18 @@
     "class_coverage": "32/32",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十年级 G21",
-      "十二年级 A21",
       "十一年级 AS3",
-      "十年级 G22",
-      "化学9A(F26)",
-      "九年级 G12",
       "化学BY(F26)",
-      "高数CR2(F26)",
-      "十一年级 AS2",
-      "九年级 G11",
+      "十二年级 A22",
       "十年级 G23",
+      "高数CR2(F26)",
+      "十年级 G21",
+      "十一年级 AS2",
+      "九年级 G12",
+      "九年级 G11",
+      "化学9A(F26)",
+      "十二年级 A21",
+      "十年级 G22",
       "十一年级 AS1"
     ],
     "uncovered_teachers": [
