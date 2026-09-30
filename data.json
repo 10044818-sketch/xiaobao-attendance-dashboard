@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 16:10",
+  "updated_at": "2026-09-30 16:17",
   "school": {
     "rate": 80.5,
     "present": 396,
@@ -1323,7 +1323,7 @@
       "subject": "数学",
       "teacher": "潘子清",
       "time": "08:20-09:00",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS1",
@@ -1347,7 +1347,7 @@
       "subject": "数学",
       "teacher": "潘子清",
       "time": "08:20-09:00",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS2",
@@ -1475,7 +1475,7 @@
       "subject": "数学",
       "teacher": "潘子清",
       "time": "09:10-09:50",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS1",
@@ -1499,7 +1499,7 @@
       "subject": "数学",
       "teacher": "潘子清",
       "time": "09:10-09:50",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS2",
@@ -1627,7 +1627,7 @@
       "subject": "物理",
       "teacher": "魏刘伟",
       "time": "10:00-10:40",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS2",
@@ -1643,7 +1643,7 @@
       "subject": "物理",
       "teacher": "魏刘伟",
       "time": "10:00-10:40",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS3",
@@ -1763,7 +1763,7 @@
       "subject": "物理",
       "teacher": "魏刘伟",
       "time": "10:50-11:30",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS2",
@@ -1787,7 +1787,7 @@
       "subject": "物理",
       "teacher": "魏刘伟",
       "time": "10:50-11:30",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS3",
@@ -1851,7 +1851,7 @@
       "subject": "雅思英语",
       "teacher": "曹德娟",
       "time": "13:00-13:40",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS2",
@@ -1875,7 +1875,7 @@
       "subject": "雅思英语",
       "teacher": "曹德娟",
       "time": "13:00-13:40",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十二年级 A21",
@@ -2147,7 +2147,7 @@
       "subject": "物理",
       "teacher": "魏刘伟",
       "time": "14:40-15:20",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS2",
@@ -2171,7 +2171,7 @@
       "subject": "物理",
       "teacher": "魏刘伟",
       "time": "14:40-15:20",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS3",
@@ -2307,7 +2307,7 @@
       "subject": "经济学",
       "teacher": "郝畅",
       "time": "15:30-16:10",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS2",
@@ -2331,7 +2331,7 @@
       "subject": "经济学",
       "teacher": "郝畅",
       "time": "15:30-16:10",
-      "location": "LT3-118"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS3",
@@ -2442,21 +2442,21 @@
     "class_coverage": "32/32",
     "teacher_count": 28,
     "uncovered_classes": [
-      "九年级 G12",
+      "十年级 G23",
+      "化学AA(F26)",
+      "高数CR2(F26)",
+      "十一年级 AS1",
+      "十年级 G22",
       "化学CB(F26)",
+      "十一年级 AS3",
       "十一年级 AS2",
       "化学BY(F26)",
-      "十年级 G23",
+      "十年级 G21",
       "十二年级 A21",
       "九年级 G11",
-      "化学AA(F26)",
       "十二年级 A22",
-      "高数CR2(F26)",
-      "十年级 G22",
-      "十年级 G21",
-      "十一年级 AS1",
-      "十一年级 AS3",
-      "化学9A(F26)"
+      "化学9A(F26)",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
@@ -2489,7 +2489,7 @@
         "subject": "数学",
         "teacher": "潘子清",
         "time": "08:20-09:00",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS1",
@@ -2513,7 +2513,7 @@
         "subject": "数学",
         "teacher": "潘子清",
         "time": "08:20-09:00",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS2",
@@ -2641,7 +2641,7 @@
         "subject": "数学",
         "teacher": "潘子清",
         "time": "09:10-09:50",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS1",
@@ -2665,7 +2665,7 @@
         "subject": "数学",
         "teacher": "潘子清",
         "time": "09:10-09:50",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS2",
@@ -2793,7 +2793,7 @@
         "subject": "物理",
         "teacher": "魏刘伟",
         "time": "10:00-10:40",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS2",
@@ -2809,7 +2809,7 @@
         "subject": "物理",
         "teacher": "魏刘伟",
         "time": "10:00-10:40",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS3",
@@ -2929,7 +2929,7 @@
         "subject": "物理",
         "teacher": "魏刘伟",
         "time": "10:50-11:30",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS2",
@@ -2953,7 +2953,7 @@
         "subject": "物理",
         "teacher": "魏刘伟",
         "time": "10:50-11:30",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS3",
@@ -3017,7 +3017,7 @@
         "subject": "雅思英语",
         "teacher": "曹德娟",
         "time": "13:00-13:40",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS2",
@@ -3041,7 +3041,7 @@
         "subject": "雅思英语",
         "teacher": "曹德娟",
         "time": "13:00-13:40",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十二年级 A21",
@@ -3313,7 +3313,7 @@
         "subject": "物理",
         "teacher": "魏刘伟",
         "time": "14:40-15:20",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS2",
@@ -3337,7 +3337,7 @@
         "subject": "物理",
         "teacher": "魏刘伟",
         "time": "14:40-15:20",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS3",
@@ -3473,7 +3473,7 @@
         "subject": "经济学",
         "teacher": "郝畅",
         "time": "15:30-16:10",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS2",
@@ -3497,7 +3497,7 @@
         "subject": "经济学",
         "teacher": "郝畅",
         "time": "15:30-16:10",
-        "location": "LT3-118"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS3",
