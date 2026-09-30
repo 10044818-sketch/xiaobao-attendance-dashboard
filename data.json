@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-30 11:18",
+  "updated_at": "2026-09-30 11:20",
   "school": {
-    "rate": 82.6,
-    "present": 270,
+    "rate": 82.0,
+    "present": 268,
     "total": 327,
-    "late": 9,
-    "absent": 57,
-    "leave": 27
+    "late": 8,
+    "absent": 59,
+    "leave": 33
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -41,7 +41,7 @@
       "absent": 7,
       "late": 1,
       "early": 0,
-      "leave": 5,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
@@ -73,7 +73,7 @@
       "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -138,7 +138,7 @@
       "absent": 8,
       "late": 0,
       "early": 0,
-      "leave": 4,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -181,15 +181,15 @@
     {
       "name": "经济AX(F26)",
       "teacher": "王肇君",
-      "rate": 90.9,
-      "present_text": "20/22人次",
-      "present": 20,
+      "rate": 86.4,
+      "present_text": "19/22人次",
+      "present": 19,
       "total": 22,
-      "absent": 2,
+      "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 2,
-      "status": "关注",
+      "leave": 3,
+      "status": "异常",
       "time_spans": [
         "10:00-10:40"
       ]
@@ -278,15 +278,15 @@
     {
       "name": "雅思BR3S(F26)",
       "teacher": "曹德娟",
-      "rate": 90.5,
-      "present_text": "19/21人次",
-      "present": 19,
+      "rate": 85.7,
+      "present_text": "18/21人次",
+      "present": 18,
       "total": 21,
-      "absent": 2,
-      "late": 1,
+      "absent": 3,
+      "late": 0,
       "early": 0,
-      "leave": 2,
-      "status": "关注",
+      "leave": 3,
+      "status": "异常",
       "time_spans": [
         "10:50-11:30"
       ]
@@ -358,6 +358,57 @@
   ],
   "absent_students": [
     {
+      "name": "王誉涵",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026-09-30 08:00:00 至 2026-09-30 14:30:00  请假",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR3S(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-30T11:20:06"
+    },
+    {
+      "name": "贾牧荷",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026-09-30 08:00:00 至 2026-09-30 12:00:00  病假",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-30T11:18:22"
+    },
+    {
+      "name": "李明汇",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026-09-30 11:00:00 至 2026-09-30 12:00:00  不好上体育课",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育BR1(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-30T11:18:13"
+    },
+    {
       "name": "朱景璇",
       "class": "AS1",
       "reason": "事假_【已通过】 2026/9/30 8:30:00 至 2026/9/30 17:30:00  赶高铁 ",
@@ -421,19 +472,6 @@
       "class": "AS1",
       "reason": "事假_【已通过】 2026/9/30 8:00:00 至 2026/9/30 17:00:00  赶高铁 ",
       "type": "事假",
-      "courses": [
-        {
-          "course": "体育BR1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-09-30T10:57:04"
-    },
-    {
-      "name": "李明汇",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
       "courses": [
         {
           "course": "体育BR1(F26)",
@@ -744,23 +782,6 @@
       "updated_at": "2026-09-30T09:40:38"
     },
     {
-      "name": "贾牧荷",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-09-30T09:40:38"
-    },
-    {
       "name": "董轶尘",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -832,19 +853,6 @@
         }
       ],
       "updated_at": "2026-09-30T08:30:55"
-    },
-    {
-      "name": "王誉涵",
-      "class": "AS3",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学BY(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-30T08:27:29"
     }
   ],
   "pending_roll_call": [
@@ -1276,38 +1284,38 @@
   "trend": [
     {
       "date": "09-24",
-      "attendance": 87.1,
+      "attendance": 86.5,
       "submit": 90.0
     },
     {
       "date": "09-25",
-      "attendance": 85.6,
+      "attendance": 85.0,
       "submit": 90.5
     },
     {
       "date": "09-26",
-      "attendance": 84.1,
+      "attendance": 83.5,
       "submit": 91.0
     },
     {
       "date": "09-27",
-      "attendance": 82.6,
+      "attendance": 82.0,
       "submit": 91.5
     },
     {
       "date": "09-28",
-      "attendance": 81.1,
+      "attendance": 80.5,
       "submit": 92.0
     },
     {
       "date": "09-29",
-      "attendance": 79.6,
+      "attendance": 79.0,
       "submit": 92.5
     },
     {
       "date": "09-30",
-      "attendance": 82.6,
-      "submit": 86.3
+      "attendance": 82.0,
+      "submit": 86.0
     }
   ],
   "lesson": {
@@ -1317,18 +1325,18 @@
     "class_coverage": "21/21",
     "teacher_count": 19,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十年级 G21",
-      "高数CR2(F26)",
-      "十年级 G23",
-      "化学9A(F26)",
-      "十二年级 A21",
-      "化学BY(F26)",
       "九年级 G12",
+      "高数CR2(F26)",
+      "化学BY(F26)",
+      "十二年级 A22",
       "十一年级 AS1",
-      "十一年级 AS3",
       "九年级 G11",
-      "十一年级 AS2"
+      "十一年级 AS3",
+      "化学9A(F26)",
+      "十一年级 AS2",
+      "十年级 G23",
+      "十年级 G21",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
