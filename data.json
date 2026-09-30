@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-30 08:21",
+  "updated_at": "2026-09-30 08:25",
   "school": {
-    "rate": 0,
-    "present": 0,
-    "total": 0,
-    "late": 0,
-    "absent": 0,
-    "leave": 0
+    "rate": 78.6,
+    "present": 22,
+    "total": 28,
+    "late": 3,
+    "absent": 6,
+    "leave": 4
   },
   "summary": {
     "pending_yesterday": 0,
@@ -14,51 +14,163 @@
     "dorm_attention": 0,
     "invalid_leave": 0
   },
-  "classes": [],
-  "absent_students": [],
+  "classes": [
+    {
+      "name": "物理BY(F26)",
+      "teacher": "魏刘伟",
+      "rate": 82.4,
+      "present_text": "14/17人次",
+      "present": 14,
+      "total": 17,
+      "absent": 3,
+      "late": 3,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
+      "name": "经济BY(F26)",
+      "teacher": "王肇君",
+      "rate": 72.7,
+      "present_text": "8/11人次",
+      "present": 8,
+      "total": 11,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    }
+  ],
+  "absent_students": [
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/29 8:00:00 至 2026/9/30 15:30:00  回家 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-30T08:23:31"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/9/29 8:00:00 至 2026/9/30 17:00:00  因个人原因，请假两天， ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-30T08:23:31"
+    },
+    {
+      "name": "余天佑",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-30T08:23:31"
+    },
+    {
+      "name": "于泽轩",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/9/30 8:00:00 至 2026/9/30 21:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-30T08:21:37"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/9/20 15:00:00 至 2026/9/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-30T08:21:37"
+    },
+    {
+      "name": "陈思佳",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-09-30T08:21:37"
+    }
+  ],
   "pending_roll_call": [],
   "trend": [
     {
       "date": "09-24",
-      "attendance": 4.5,
+      "attendance": 83.1,
       "submit": 90.0
     },
     {
       "date": "09-25",
-      "attendance": 3.0,
+      "attendance": 81.6,
       "submit": 90.5
     },
     {
       "date": "09-26",
-      "attendance": 1.5,
+      "attendance": 80.1,
       "submit": 91.0
     },
     {
       "date": "09-27",
-      "attendance": 0.0,
+      "attendance": 78.6,
       "submit": 91.5
     },
     {
       "date": "09-28",
-      "attendance": -1.5,
+      "attendance": 77.1,
       "submit": 92.0
     },
     {
       "date": "09-29",
-      "attendance": -3.0,
+      "attendance": 75.6,
       "submit": 92.5
     },
     {
       "date": "09-30",
-      "attendance": 0,
-      "submit": 45.0
+      "attendance": 78.6,
+      "submit": 84.3
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "0/0",
+    "class_coverage": "2/2",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
