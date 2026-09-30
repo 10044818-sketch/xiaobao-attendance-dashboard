@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-30 09:50",
+  "updated_at": "2026-09-30 09:55",
   "school": {
-    "rate": 81.8,
-    "present": 108,
-    "total": 132,
+    "rate": 83.1,
+    "present": 128,
+    "total": 154,
     "late": 4,
-    "absent": 24,
+    "absent": 26,
     "leave": 9
   },
   "summary": {
@@ -98,6 +98,22 @@
       ]
     },
     {
+      "name": "英语口语A0(F26)",
+      "teacher": "费楚淇",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "英语听力A0(F26)",
       "teacher": "费楚淇",
       "rate": 100.0,
@@ -111,6 +127,22 @@
       "status": "正常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "雅思口语C0(F26)",
+      "teacher": "费楚淇",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
       ]
     },
     {
@@ -131,6 +163,36 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思口语C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-30T09:53:12"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思口语C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-30T09:53:12"
+    },
     {
       "name": "郑逸",
       "class": "G22",
@@ -232,19 +294,6 @@
         }
       ],
       "updated_at": "2026-09-30T09:23:35"
-    },
-    {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-30T08:56:11"
     },
     {
       "name": "吴迪",
@@ -691,58 +740,58 @@
   "trend": [
     {
       "date": "09-24",
-      "attendance": 86.3,
+      "attendance": 87.6,
       "submit": 90.0
     },
     {
       "date": "09-25",
-      "attendance": 84.8,
+      "attendance": 86.1,
       "submit": 90.5
     },
     {
       "date": "09-26",
-      "attendance": 83.3,
+      "attendance": 84.6,
       "submit": 91.0
     },
     {
       "date": "09-27",
-      "attendance": 81.8,
+      "attendance": 83.1,
       "submit": 91.5
     },
     {
       "date": "09-28",
-      "attendance": 80.3,
+      "attendance": 81.6,
       "submit": 92.0
     },
     {
       "date": "09-29",
-      "attendance": 78.8,
+      "attendance": 80.1,
       "submit": 92.5
     },
     {
       "date": "09-30",
-      "attendance": 81.8,
-      "submit": 85.9
+      "attendance": 83.1,
+      "submit": 86.5
     }
   ],
   "lesson": {
     "completion_rate": 5.1,
     "called": 2,
     "total": 39,
-    "class_coverage": "7/7",
+    "class_coverage": "9/9",
     "teacher_count": 11,
     "uncovered_classes": [
+      "十一年级 AS3",
+      "十一年级 AS1",
+      "九年级 G12",
+      "九年级 G11",
       "化学9A(F26)",
       "十年级 G23",
-      "九年级 G12",
-      "十年级 G21",
       "高数CR2(F26)",
-      "十一年级 AS3",
-      "九年级 G11",
-      "十二年级 A22",
-      "十一年级 AS1",
       "十二年级 A21",
-      "十一年级 AS2"
+      "十年级 G21",
+      "十一年级 AS2",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
