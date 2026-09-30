@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-30 11:35",
+  "updated_at": "2026-09-30 11:40",
   "school": {
-    "rate": 82.0,
-    "present": 268,
-    "total": 327,
-    "late": 8,
-    "absent": 59,
-    "leave": 33
+    "rate": 80.7,
+    "present": 301,
+    "total": 373,
+    "late": 9,
+    "absent": 72,
+    "leave": 37
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -162,6 +162,22 @@
       ]
     },
     {
+      "name": "物理CA(F26)",
+      "teacher": "曾靓",
+      "rate": 60.0,
+      "present_text": "6/10人次",
+      "present": 6,
+      "total": 10,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "物理CC(F26)",
       "teacher": "曾靓",
       "rate": 70.8,
@@ -195,6 +211,22 @@
       ]
     },
     {
+      "name": "经济AY(F26)",
+      "teacher": "孙鹏",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
       "rate": 72.7,
@@ -208,6 +240,23 @@
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "经济CC(F26)",
+      "teacher": "孙鹏",
+      "rate": 63.6,
+      "present_text": "14/22人次",
+      "present": 14,
+      "total": 22,
+      "absent": 8,
+      "late": 1,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -357,6 +406,112 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-30T11:39:29"
+    },
+    {
+      "name": "岳沐辰",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-30T11:39:23"
+    },
+    {
+      "name": "闻誉婷",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-30T11:39:23"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-30T11:39:23"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-30T11:39:23"
+    },
+    {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-09-30T11:38:35"
+    },
     {
       "name": "王誉涵",
       "class": "AS3",
@@ -1363,26 +1518,10 @@
     {
       "class": "十二年级 A21",
       "class_id": 366030,
-      "subject": "物理",
-      "teacher": "曾靓",
-      "time": "10:50-11:30",
-      "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
       "subject": "生物",
       "teacher": "张璐菲",
       "time": "10:50-11:30",
       "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "物理",
-      "teacher": "曾靓",
-      "time": "10:50-11:30",
-      "location": "LT3-206"
     },
     {
       "class": "十二年级 A22",
@@ -1420,60 +1559,60 @@
   "trend": [
     {
       "date": "09-24",
-      "attendance": 86.5,
+      "attendance": 85.2,
       "submit": 90.0
     },
     {
       "date": "09-25",
-      "attendance": 85.0,
+      "attendance": 83.7,
       "submit": 90.5
     },
     {
       "date": "09-26",
-      "attendance": 83.5,
+      "attendance": 82.2,
       "submit": 91.0
     },
     {
       "date": "09-27",
-      "attendance": 82.0,
+      "attendance": 80.7,
       "submit": 91.5
     },
     {
       "date": "09-28",
-      "attendance": 80.5,
+      "attendance": 79.2,
       "submit": 92.0
     },
     {
       "date": "09-29",
-      "attendance": 79.0,
+      "attendance": 77.7,
       "submit": 92.5
     },
     {
       "date": "09-30",
-      "attendance": 82.0,
-      "submit": 86.0
+      "attendance": 80.7,
+      "submit": 85.3
     }
   ],
   "lesson": {
-    "completion_rate": 15.7,
-    "called": 13,
+    "completion_rate": 18.1,
+    "called": 15,
     "total": 83,
-    "class_coverage": "21/21",
+    "class_coverage": "24/24",
     "teacher_count": 21,
     "uncovered_classes": [
-      "九年级 G11",
-      "十二年级 A22",
-      "十二年级 A21",
-      "高数CR2(F26)",
-      "十一年级 AS2",
-      "化学9A(F26)",
+      "化学BY(F26)",
       "十一年级 AS1",
       "十年级 G23",
-      "十一年级 AS3",
-      "化学BY(F26)",
+      "十一年级 AS2",
+      "十二年级 A22",
+      "高数CR2(F26)",
       "十年级 G22",
       "九年级 G12",
-      "十年级 G21"
+      "九年级 G11",
+      "化学9A(F26)",
+      "十年级 G21",
+      "十一年级 AS3",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -1983,26 +2122,10 @@
       {
         "class": "十二年级 A21",
         "class_id": 366030,
-        "subject": "物理",
-        "teacher": "曾靓",
-        "time": "10:50-11:30",
-        "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
         "subject": "生物",
         "teacher": "张璐菲",
         "time": "10:50-11:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "物理",
-        "teacher": "曾靓",
-        "time": "10:50-11:30",
-        "location": "LT3-206"
       },
       {
         "class": "十二年级 A22",
