@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-30 10:20",
+  "updated_at": "2026-09-30 10:25",
   "school": {
-    "rate": 82.2,
-    "present": 194,
-    "total": 236,
+    "rate": 83.7,
+    "present": 226,
+    "total": 270,
     "late": 7,
-    "absent": 42,
-    "leave": 17
+    "absent": 44,
+    "leave": 19
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -227,6 +227,23 @@
       ]
     },
     {
+      "name": "英语听力阅读AQ2(F26)",
+      "teacher": "王伊",
+      "rate": 90.0,
+      "present_text": "18/20人次",
+      "present": 18,
+      "total": 20,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "雅思口语C0(F26)",
       "teacher": "费楚淇",
       "rate": 75.0,
@@ -240,6 +257,22 @@
       "status": "异常",
       "time_spans": [
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "音乐A0(F26)",
+      "teacher": "王伊",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:50-11:30"
       ]
     },
     {
@@ -260,6 +293,35 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "孔维轩",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/9/30 8:00:00 至 2026/9/30 17:00:00  病假一天 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语听力阅读AQ2(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-09-30T10:25:14"
+    },
     {
       "name": "茆睿恺",
       "class": "A22",
@@ -481,27 +543,6 @@
         }
       ],
       "updated_at": "2026-09-30T10:02:54"
-    },
-    {
-      "name": "孔维轩",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/9/30 8:00:00 至 2026/9/30 17:00:00  病假一天 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-30T09:59:57"
     },
     {
       "name": "桂应沁",
@@ -946,58 +987,58 @@
   "trend": [
     {
       "date": "09-24",
-      "attendance": 86.7,
+      "attendance": 88.2,
       "submit": 90.0
     },
     {
       "date": "09-25",
-      "attendance": 85.2,
+      "attendance": 86.7,
       "submit": 90.5
     },
     {
       "date": "09-26",
-      "attendance": 83.7,
+      "attendance": 85.2,
       "submit": 91.0
     },
     {
       "date": "09-27",
-      "attendance": 82.2,
+      "attendance": 83.7,
       "submit": 91.5
     },
     {
       "date": "09-28",
-      "attendance": 80.7,
+      "attendance": 82.2,
       "submit": 92.0
     },
     {
       "date": "09-29",
-      "attendance": 79.2,
+      "attendance": 80.7,
       "submit": 92.5
     },
     {
       "date": "09-30",
-      "attendance": 82.2,
-      "submit": 86.1
+      "attendance": 83.7,
+      "submit": 86.8
     }
   ],
   "lesson": {
     "completion_rate": 5.1,
     "called": 2,
     "total": 39,
-    "class_coverage": "15/15",
+    "class_coverage": "17/17",
     "teacher_count": 11,
     "uncovered_classes": [
-      "高数CR2(F26)",
+      "化学9A(F26)",
       "十一年级 AS1",
       "十二年级 A21",
       "十一年级 AS3",
-      "九年级 G12",
-      "十年级 G21",
+      "高数CR2(F26)",
       "九年级 G11",
-      "十一年级 AS2",
-      "化学9A(F26)",
       "十年级 G23",
-      "十二年级 A22"
+      "十二年级 A22",
+      "十年级 G21",
+      "九年级 G12",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
