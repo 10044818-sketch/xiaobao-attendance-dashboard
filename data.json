@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-30 10:06",
+  "updated_at": "2026-09-30 10:10",
   "school": {
-    "rate": 80.7,
-    "present": 176,
-    "total": 218,
+    "rate": 82.1,
+    "present": 192,
+    "total": 234,
     "late": 7,
     "absent": 42,
     "leave": 17
@@ -75,6 +75,22 @@
       "early": 0,
       "leave": 6,
       "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
+      "name": "数学BQ2(F26)",
+      "teacher": "潘子清",
+      "rate": 100.0,
+      "present_text": "16/16人次",
+      "present": 16,
+      "total": 16,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
       "time_spans": [
         "10:00-10:40"
       ]
@@ -913,58 +929,58 @@
   "trend": [
     {
       "date": "09-24",
-      "attendance": 85.2,
+      "attendance": 86.6,
       "submit": 90.0
     },
     {
       "date": "09-25",
-      "attendance": 83.7,
+      "attendance": 85.1,
       "submit": 90.5
     },
     {
       "date": "09-26",
-      "attendance": 82.2,
+      "attendance": 83.6,
       "submit": 91.0
     },
     {
       "date": "09-27",
-      "attendance": 80.7,
+      "attendance": 82.1,
       "submit": 91.5
     },
     {
       "date": "09-28",
-      "attendance": 79.2,
+      "attendance": 80.6,
       "submit": 92.0
     },
     {
       "date": "09-29",
-      "attendance": 77.7,
+      "attendance": 79.1,
       "submit": 92.5
     },
     {
       "date": "09-30",
-      "attendance": 80.7,
-      "submit": 85.3
+      "attendance": 82.1,
+      "submit": 86.0
     }
   ],
   "lesson": {
     "completion_rate": 5.1,
     "called": 2,
     "total": 39,
-    "class_coverage": "13/13",
+    "class_coverage": "14/14",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十一年级 AS1",
+      "十一年级 AS3",
       "十二年级 A21",
-      "十二年级 A22",
-      "十年级 G23",
+      "十一年级 AS1",
       "九年级 G11",
+      "十二年级 A22",
+      "九年级 G12",
       "高数CR2(F26)",
       "化学9A(F26)",
-      "十一年级 AS3",
-      "九年级 G12",
-      "十年级 G21",
-      "十一年级 AS2"
+      "十年级 G23",
+      "十一年级 AS2",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
