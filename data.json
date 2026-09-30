@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 15:16",
+  "updated_at": "2026-09-30 15:20",
   "school": {
     "rate": 80.5,
     "present": 396,
@@ -2092,6 +2092,166 @@
       "teacher": "曾靓",
       "time": "13:50-14:30",
       "location": "LT3-107"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "14:40-15:20",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "14:40-15:20",
+      "location": "LT3-108"
+    },
+    {
+      "class": "化学AA(F26)",
+      "class_id": 529342,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "14:40-15:20",
+      "location": "LT3-124"
+    },
+    {
+      "class": "化学BY(F26)",
+      "class_id": 520900,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "14:40-15:20",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "经济学",
+      "teacher": "王肇君",
+      "time": "14:40-15:20",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "14:40-15:20",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "14:40-15:20",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "14:40-15:20",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "经济学",
+      "teacher": "王肇君",
+      "time": "14:40-15:20",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "14:40-15:20",
+      "location": "LT3-118"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "14:40-15:20",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "几何",
+      "teacher": "张小翼",
+      "time": "14:40-15:20",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "几何",
+      "teacher": "张小翼",
+      "time": "14:40-15:20",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "14:40-15:20",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "14:40-15:20",
+      "location": "LT3-124"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "14:40-15:20",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "14:40-15:20",
+      "location": "LT3-124"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "英语第二语言口语",
+      "teacher": "费楚淇",
+      "time": "14:40-15:20",
+      "location": "LT3-107"
     }
   ],
   "trend": [
@@ -2132,24 +2292,25 @@
     }
   ],
   "lesson": {
-    "completion_rate": 16.0,
+    "completion_rate": 13.7,
     "called": 19,
-    "total": 119,
+    "total": 139,
     "class_coverage": "32/32",
-    "teacher_count": 26,
+    "teacher_count": 27,
     "uncovered_classes": [
-      "十年级 G23",
-      "十年级 G22",
-      "十一年级 AS2",
-      "化学9A(F26)",
       "化学BY(F26)",
-      "十一年级 AS3",
-      "九年级 G11",
-      "十二年级 A22",
-      "十年级 G21",
       "九年级 G12",
-      "十一年级 AS1",
+      "化学AA(F26)",
+      "十一年级 AS3",
+      "十年级 G22",
       "十二年级 A21",
+      "九年级 G11",
+      "十一年级 AS2",
+      "十二年级 A22",
+      "十年级 G23",
+      "十一年级 AS1",
+      "化学9A(F26)",
+      "十年级 G21",
       "高数CR2(F26)"
     ],
     "uncovered_teachers": [
@@ -2951,6 +3112,166 @@
         "subject": "物理",
         "teacher": "曾靓",
         "time": "13:50-14:30",
+        "location": "LT3-107"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "14:40-15:20",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "14:40-15:20",
+        "location": "LT3-108"
+      },
+      {
+        "class": "化学AA(F26)",
+        "class_id": 529342,
+        "subject": "化学",
+        "teacher": "余越利",
+        "time": "14:40-15:20",
+        "location": "LT3-124"
+      },
+      {
+        "class": "化学BY(F26)",
+        "class_id": 520900,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "14:40-15:20",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "经济学",
+        "teacher": "王肇君",
+        "time": "14:40-15:20",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "14:40-15:20",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "物理",
+        "teacher": "魏刘伟",
+        "time": "14:40-15:20",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "14:40-15:20",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "经济学",
+        "teacher": "王肇君",
+        "time": "14:40-15:20",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "物理",
+        "teacher": "魏刘伟",
+        "time": "14:40-15:20",
+        "location": "LT3-118"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "14:40-15:20",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "几何",
+        "teacher": "张小翼",
+        "time": "14:40-15:20",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "几何",
+        "teacher": "张小翼",
+        "time": "14:40-15:20",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "14:40-15:20",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "商科",
+        "teacher": "余震",
+        "time": "14:40-15:20",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "化学",
+        "teacher": "余越利",
+        "time": "14:40-15:20",
+        "location": "LT3-124"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "14:40-15:20",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "商科",
+        "teacher": "余震",
+        "time": "14:40-15:20",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "化学",
+        "teacher": "余越利",
+        "time": "14:40-15:20",
+        "location": "LT3-124"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "英语第二语言口语",
+        "teacher": "费楚淇",
+        "time": "14:40-15:20",
         "location": "LT3-107"
       }
     ]
