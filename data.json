@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-30 11:51",
+  "updated_at": "2026-09-30 11:55",
   "school": {
-    "rate": 80.7,
-    "present": 301,
-    "total": 373,
+    "rate": 81.8,
+    "present": 329,
+    "total": 402,
     "late": 9,
-    "absent": 72,
-    "leave": 37
+    "absent": 73,
+    "leave": 38
   },
   "summary": {
     "pending_yesterday": 0,
@@ -61,6 +61,22 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "体育C1(F26)",
+      "teacher": "沈译宇",
+      "rate": 96.6,
+      "present_text": "28/29人次",
+      "present": 28,
+      "total": 29,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "正常",
+      "time_spans": [
+        "13:50-14:30"
       ]
     },
     {
@@ -407,19 +423,6 @@
   ],
   "absent_students": [
     {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济AY(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-09-30T11:39:29"
-    },
-    {
       "name": "岳沐辰",
       "class": "A21",
       "reason": "事假_【已通过】 2026/9/1 8:00:00 至 2026/9/30 17:00:00  请假 ",
@@ -436,9 +439,26 @@
         {
           "course": "物理CA(F26)",
           "time": "10:50-11:30"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
         }
       ],
-      "updated_at": "2026-09-30T11:39:23"
+      "updated_at": "2026-09-30T11:51:14"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-09-30T11:39:29"
     },
     {
       "name": "闻誉婷",
@@ -1559,60 +1579,60 @@
   "trend": [
     {
       "date": "09-24",
-      "attendance": 85.2,
+      "attendance": 86.3,
       "submit": 90.0
     },
     {
       "date": "09-25",
-      "attendance": 83.7,
+      "attendance": 84.8,
       "submit": 90.5
     },
     {
       "date": "09-26",
-      "attendance": 82.2,
+      "attendance": 83.3,
       "submit": 91.0
     },
     {
       "date": "09-27",
-      "attendance": 80.7,
+      "attendance": 81.8,
       "submit": 91.5
     },
     {
       "date": "09-28",
-      "attendance": 79.2,
+      "attendance": 80.3,
       "submit": 92.0
     },
     {
       "date": "09-29",
-      "attendance": 77.7,
+      "attendance": 78.8,
       "submit": 92.5
     },
     {
       "date": "09-30",
-      "attendance": 80.7,
-      "submit": 85.3
+      "attendance": 81.8,
+      "submit": 85.9
     }
   ],
   "lesson": {
     "completion_rate": 18.1,
     "called": 15,
     "total": 83,
-    "class_coverage": "24/24",
+    "class_coverage": "25/25",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十二年级 A21",
-      "化学BY(F26)",
-      "十年级 G21",
-      "十年级 G23",
-      "高数CR2(F26)",
+      "十年级 G22",
       "九年级 G12",
-      "十一年级 AS1",
+      "十二年级 A21",
       "十一年级 AS2",
       "化学9A(F26)",
-      "十二年级 A22",
+      "九年级 G11",
+      "十一年级 AS1",
+      "十年级 G21",
       "十一年级 AS3",
-      "十年级 G22",
-      "九年级 G11"
+      "化学BY(F26)",
+      "高数CR2(F26)",
+      "十年级 G23",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
