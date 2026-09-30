@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-30 09:20",
+  "updated_at": "2026-09-30 09:25",
   "school": {
-    "rate": 78.1,
-    "present": 50,
-    "total": 64,
+    "rate": 78.9,
+    "present": 60,
+    "total": 76,
     "late": 4,
-    "absent": 14,
+    "absent": 16,
     "leave": 5
   },
   "summary": {
@@ -50,17 +50,18 @@
     {
       "name": "物理CC(F26)",
       "teacher": "曾靓",
-      "rate": 58.3,
-      "present_text": "7/12人次",
-      "present": 7,
-      "total": 12,
-      "absent": 5,
+      "rate": 70.8,
+      "present_text": "17/24人次",
+      "present": 17,
+      "total": 24,
+      "absent": 7,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -97,6 +98,40 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "董轶尘",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-30T09:23:35"
+    },
+    {
+      "name": "陈乐涵",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-09-30T09:23:35"
+    },
     {
       "name": "茆睿恺",
       "class": "A22",
@@ -138,32 +173,6 @@
     },
     {
       "name": "华晟皓",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CC(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-30T08:30:55"
-    },
-    {
-      "name": "董轶尘",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CC(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-09-30T08:30:55"
-    },
-    {
-      "name": "陈乐涵",
       "class": "A21",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
@@ -437,38 +446,38 @@
   "trend": [
     {
       "date": "09-24",
-      "attendance": 82.6,
+      "attendance": 83.4,
       "submit": 90.0
     },
     {
       "date": "09-25",
-      "attendance": 81.1,
+      "attendance": 81.9,
       "submit": 90.5
     },
     {
       "date": "09-26",
-      "attendance": 79.6,
+      "attendance": 80.4,
       "submit": 91.0
     },
     {
       "date": "09-27",
-      "attendance": 78.1,
+      "attendance": 78.9,
       "submit": 91.5
     },
     {
       "date": "09-28",
-      "attendance": 76.6,
+      "attendance": 77.4,
       "submit": 92.0
     },
     {
       "date": "09-29",
-      "attendance": 75.1,
+      "attendance": 75.9,
       "submit": 92.5
     },
     {
       "date": "09-30",
-      "attendance": 78.1,
-      "submit": 84.0
+      "attendance": 78.9,
+      "submit": 84.5
     }
   ],
   "lesson": {
@@ -478,17 +487,17 @@
     "class_coverage": "5/5",
     "teacher_count": 9,
     "uncovered_classes": [
-      "十二年级 A22",
-      "高数CR2(F26)",
-      "十年级 G23",
-      "十一年级 AS3",
-      "十年级 G21",
-      "十一年级 AS1",
       "十二年级 A21",
+      "十二年级 A22",
+      "十一年级 AS1",
+      "高数CR2(F26)",
+      "九年级 G11",
       "九年级 G12",
-      "十年级 G22",
+      "十年级 G23",
       "十一年级 AS2",
-      "九年级 G11"
+      "十年级 G21",
+      "十一年级 AS3",
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
