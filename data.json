@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01 19:55",
+  "updated_at": "2026-10-01 20:00",
   "school": {
     "rate": 0,
     "present": 0,
@@ -1328,6 +1328,38 @@
       "teacher": "潘子清",
       "time": "18:15-19:00",
       "location": "LT3-116"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "19:15-20:00",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "19:15-20:00",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "19:15-20:00",
+      "location": "LT3-116"
+    },
+    {
+      "class": "高数BD1(F26)",
+      "class_id": 529431,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "19:15-20:00",
+      "location": "LT3-116"
     }
   ],
   "trend": [
@@ -1370,29 +1402,29 @@
   "lesson": {
     "completion_rate": 0.0,
     "called": 0,
-    "total": 164,
+    "total": 168,
     "class_coverage": "0/0",
     "teacher_count": 26,
     "uncovered_classes": [
-      "化学A0(F26)",
-      "九年级 G12",
-      "九年级 G11",
-      "化学9A(F26)",
-      "十年级 G23",
-      "十一年级 AS1",
-      "代数C0(F26)",
-      "十年级 G22",
-      "高数BD1(F26)",
-      "十年级 G21",
-      "高数CR2(F26)",
-      "十二年级 A22",
-      "十一年级 AS2",
-      "十二年级 A21",
-      "化学BZ(F26)",
       "化学CB(F26)",
-      "十一年级 AS3",
+      "十二年级 A22",
+      "高数CR2(F26)",
+      "十年级 G23",
+      "高数BD1(F26)",
+      "化学AA(F26)",
       "化学C0(F26)",
-      "化学AA(F26)"
+      "十年级 G22",
+      "十二年级 A21",
+      "十年级 G21",
+      "化学9A(F26)",
+      "化学BZ(F26)",
+      "十一年级 AS3",
+      "代数C0(F26)",
+      "九年级 G11",
+      "十一年级 AS2",
+      "化学A0(F26)",
+      "十一年级 AS1",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
@@ -2705,6 +2737,38 @@
         "subject": "高等数学",
         "teacher": "潘子清",
         "time": "18:15-19:00",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "高等数学",
+        "teacher": "潘子清",
+        "time": "19:15-20:00",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "高等数学",
+        "teacher": "潘子清",
+        "time": "19:15-20:00",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "高等数学",
+        "teacher": "潘子清",
+        "time": "19:15-20:00",
+        "location": "LT3-116"
+      },
+      {
+        "class": "高数BD1(F26)",
+        "class_id": 529431,
+        "subject": "高等数学",
+        "teacher": "潘子清",
+        "time": "19:15-20:00",
         "location": "LT3-116"
       }
     ]
