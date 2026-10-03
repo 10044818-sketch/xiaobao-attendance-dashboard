@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03 23:55",
+  "updated_at": "2026-10-04 00:01",
   "school": {
     "rate": 0,
     "present": 0,
@@ -19,37 +19,37 @@
   "pending_roll_call": [],
   "trend": [
     {
-      "date": "09-27",
+      "date": "09-28",
       "attendance": 4.5,
       "submit": 90.0
     },
     {
-      "date": "09-28",
+      "date": "09-29",
       "attendance": 3.0,
       "submit": 90.5
     },
     {
-      "date": "09-29",
+      "date": "09-30",
       "attendance": 1.5,
       "submit": 91.0
     },
     {
-      "date": "09-30",
+      "date": "10-01",
       "attendance": 0.0,
       "submit": 91.5
     },
     {
-      "date": "10-01",
+      "date": "10-02",
       "attendance": -1.5,
       "submit": 92.0
     },
     {
-      "date": "10-02",
+      "date": "10-03",
       "attendance": -3.0,
       "submit": 92.5
     },
     {
-      "date": "10-03",
+      "date": "10-04",
       "attendance": 0,
       "submit": 45.0
     }
