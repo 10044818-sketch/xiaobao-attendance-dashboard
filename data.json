@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-08 09:05",
+  "updated_at": "2026-10-08 09:10",
   "school": {
-    "rate": 74.2,
-    "present": 49,
-    "total": 66,
+    "rate": 71.0,
+    "present": 71,
+    "total": 100,
     "late": 1,
-    "absent": 17,
-    "leave": 13
+    "absent": 29,
+    "leave": 25
   },
   "summary": {
     "pending_yesterday": 0,
@@ -25,26 +25,43 @@
       "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
       ]
     },
     {
+      "name": "体育BR3(F26)",
+      "teacher": "沈译宇",
+      "rate": 60.0,
+      "present_text": "12/20人次",
+      "present": 12,
+      "total": 20,
+      "absent": 8,
+      "late": 0,
+      "early": 0,
+      "leave": 8,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
+      ]
+    },
+    {
       "name": "商科AA(F26)",
       "teacher": "余震",
       "rate": 71.4,
-      "present_text": "10/14人次",
-      "present": 10,
-      "total": 14,
-      "absent": 4,
+      "present_text": "20/28人次",
+      "present": 20,
+      "total": 28,
+      "absent": 8,
       "late": 0,
       "early": 0,
-      "leave": 3,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -99,6 +116,191 @@
   ],
   "absent_students": [
     {
+      "name": "郑逸",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:09:38"
+    },
+    {
+      "name": "贾征颐",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/13 17:00:00  肝脾肿大后，需静养 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:09:38"
+    },
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/10/8 7:00:00 至 2026/10/8 17:00:00  病假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:09:38"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:09:38"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026-10-08 08:30:00 至 2026-10-08 09:00:00  请假",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-08T09:08:55"
+    },
+    {
+      "name": "王誉涵",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/10/8 8:00:00 至 2026/10/8 17:00:00  病假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:08:25"
+    },
+    {
+      "name": "王景琪",
+      "class": "AS3",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:08:25"
+    },
+    {
+      "name": "任厚宇",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/10/8 8:00:00 至 2026/10/8 17:00:00  拔牙 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:08:25"
+    },
+    {
+      "name": "李潇行",
+      "class": "AS3",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:08:25"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/10/8 8:00:00 至 2026/10/8 12:00:00  请假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:08:25"
+    },
+    {
+      "name": "侯佩琪",
+      "class": "AS3",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:08:25"
+    },
+    {
+      "name": "陈俏君",
+      "class": "AS3",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:08:25"
+    },
+    {
+      "name": "陈静宜",
+      "class": "AS3",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:08:25"
+    },
+    {
       "name": "茆睿恺",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -116,19 +318,6 @@
       "class": "A22",
       "reason": "病假_【已通过】 2026/10/8 8:00:00 至 2026/10/8 17:00:00  头疼 ",
       "type": "病假",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-08T09:04:52"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
       "courses": [
         {
           "course": "代数C0(F26)",
@@ -266,58 +455,6 @@
         }
       ],
       "updated_at": "2026-10-08T08:20:29"
-    },
-    {
-      "name": "郑逸",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-08T08:20:05"
-    },
-    {
-      "name": "贾征颐",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/13 17:00:00  肝脾肿大后，需静养 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-08T08:20:05"
-    },
-    {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/8 7:00:00 至 2026/10/8 17:00:00  病假 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-08T08:20:05"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-08T08:20:05"
     }
   ],
   "pending_roll_call": [
@@ -429,57 +566,57 @@
   "trend": [
     {
       "date": "10-02",
-      "attendance": 78.7,
+      "attendance": 75.5,
       "submit": 90.0
     },
     {
       "date": "10-03",
-      "attendance": 77.2,
+      "attendance": 74.0,
       "submit": 90.5
     },
     {
       "date": "10-04",
-      "attendance": 75.7,
+      "attendance": 72.5,
       "submit": 91.0
     },
     {
       "date": "10-05",
-      "attendance": 74.2,
+      "attendance": 71.0,
       "submit": 91.5
     },
     {
       "date": "10-06",
-      "attendance": 72.7,
+      "attendance": 69.5,
       "submit": 92.0
     },
     {
       "date": "10-07",
-      "attendance": 71.2,
+      "attendance": 68.0,
       "submit": 92.5
     },
     {
       "date": "10-08",
-      "attendance": 74.2,
-      "submit": 82.1
+      "attendance": 71.0,
+      "submit": 80.5
     }
   ],
   "lesson": {
     "completion_rate": 38.1,
     "called": 8,
     "total": 21,
-    "class_coverage": "5/5",
+    "class_coverage": "6/6",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十年级 G23",
-      "九年级 G12",
       "化学A0(F26)",
-      "九年级 G11",
-      "十一年级 AS2",
-      "十年级 G22",
       "十一年级 AS3",
+      "十年级 G21",
+      "九年级 G12",
       "化学AA(F26)",
       "十一年级 AS1",
-      "十年级 G21"
+      "十一年级 AS2",
+      "十年级 G22",
+      "十年级 G23",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
