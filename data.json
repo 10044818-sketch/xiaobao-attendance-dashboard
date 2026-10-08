@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-08 08:36",
+  "updated_at": "2026-10-08 08:40",
   "school": {
-    "rate": 69.7,
-    "present": 23,
-    "total": 33,
+    "rate": 73.0,
+    "present": 27,
+    "total": 37,
     "late": 2,
     "absent": 10,
     "leave": 9
@@ -29,6 +29,23 @@
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "艺术AA(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "4/4人次",
+      "present": 4,
+      "total": 4,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -184,45 +201,45 @@
   "trend": [
     {
       "date": "10-02",
-      "attendance": 74.2,
+      "attendance": 77.5,
       "submit": 90.0
     },
     {
       "date": "10-03",
-      "attendance": 72.7,
+      "attendance": 76.0,
       "submit": 90.5
     },
     {
       "date": "10-04",
-      "attendance": 71.2,
+      "attendance": 74.5,
       "submit": 91.0
     },
     {
       "date": "10-05",
-      "attendance": 69.7,
+      "attendance": 73.0,
       "submit": 91.5
     },
     {
       "date": "10-06",
-      "attendance": 68.2,
+      "attendance": 71.5,
       "submit": 92.0
     },
     {
       "date": "10-07",
-      "attendance": 66.7,
+      "attendance": 70.0,
       "submit": 92.5
     },
     {
       "date": "10-08",
-      "attendance": 69.7,
-      "submit": 79.8
+      "attendance": 73.0,
+      "submit": 81.5
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "2/2",
+    "class_coverage": "3/3",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
