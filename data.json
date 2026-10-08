@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-08 11:40",
+  "updated_at": "2026-10-08 11:46",
   "school": {
-    "rate": 79.8,
-    "present": 265,
-    "total": 332,
+    "rate": 80.6,
+    "present": 279,
+    "total": 346,
     "late": 3,
     "absent": 67,
     "leave": 56
@@ -227,6 +227,22 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
         "10:50-11:30"
       ]
     },
@@ -1091,22 +1107,6 @@
       "location": "LT3-107"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
       "class": "化学CB(F26)",
       "class_id": 521021,
       "subject": "化学",
@@ -1214,59 +1214,59 @@
   "trend": [
     {
       "date": "10-02",
-      "attendance": 84.3,
+      "attendance": 85.1,
       "submit": 90.0
     },
     {
       "date": "10-03",
-      "attendance": 82.8,
+      "attendance": 83.6,
       "submit": 90.5
     },
     {
       "date": "10-04",
-      "attendance": 81.3,
+      "attendance": 82.1,
       "submit": 91.0
     },
     {
       "date": "10-05",
-      "attendance": 79.8,
+      "attendance": 80.6,
       "submit": 91.5
     },
     {
       "date": "10-06",
-      "attendance": 78.3,
+      "attendance": 79.1,
       "submit": 92.0
     },
     {
       "date": "10-07",
-      "attendance": 76.8,
+      "attendance": 77.6,
       "submit": 92.5
     },
     {
       "date": "10-08",
-      "attendance": 79.8,
-      "submit": 84.9
+      "attendance": 80.6,
+      "submit": 85.3
     }
   ],
   "lesson": {
-    "completion_rate": 57.7,
-    "called": 56,
+    "completion_rate": 59.8,
+    "called": 58,
     "total": 97,
-    "class_coverage": "19/19",
+    "class_coverage": "20/20",
     "teacher_count": 17,
     "uncovered_classes": [
-      "十年级 G21",
-      "十年级 G22",
-      "十年级 G23",
-      "十二年级 A21",
       "十一年级 AS2",
-      "十一年级 AS3",
-      "九年级 G11",
-      "十一年级 AS1",
-      "九年级 G12",
-      "化学AA(F26)",
       "化学CB(F26)",
-      "十二年级 A22"
+      "十一年级 AS3",
+      "十二年级 A21",
+      "十二年级 A22",
+      "十年级 G23",
+      "化学AA(F26)",
+      "九年级 G12",
+      "十一年级 AS1",
+      "九年级 G11",
+      "十年级 G21",
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
@@ -1476,22 +1476,6 @@
         "teacher": "费楚淇",
         "time": "10:00-10:40",
         "location": "LT3-107"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
       },
       {
         "class": "化学CB(F26)",
