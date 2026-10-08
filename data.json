@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-08 14:20",
+  "updated_at": "2026-10-08 14:25",
   "school": {
-    "rate": 79.5,
-    "present": 438,
-    "total": 551,
+    "rate": 80.5,
+    "present": 466,
+    "total": 579,
     "late": 5,
     "absent": 113,
     "leave": 80
@@ -94,6 +94,23 @@
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "化学9A(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "28/28人次",
+      "present": 28,
+      "total": 28,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -1616,30 +1633,6 @@
       "location": ""
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
-      "class": "化学9A(F26)",
-      "class_id": 526214,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "雅思英语",
@@ -1731,58 +1724,57 @@
   "trend": [
     {
       "date": "10-02",
-      "attendance": 84.0,
+      "attendance": 85.0,
       "submit": 90.0
     },
     {
       "date": "10-03",
-      "attendance": 82.5,
+      "attendance": 83.5,
       "submit": 90.5
     },
     {
       "date": "10-04",
-      "attendance": 81.0,
+      "attendance": 82.0,
       "submit": 91.0
     },
     {
       "date": "10-05",
-      "attendance": 79.5,
+      "attendance": 80.5,
       "submit": 91.5
     },
     {
       "date": "10-06",
-      "attendance": 78.0,
+      "attendance": 79.0,
       "submit": 92.0
     },
     {
       "date": "10-07",
-      "attendance": 76.5,
+      "attendance": 77.5,
       "submit": 92.5
     },
     {
       "date": "10-08",
-      "attendance": 79.5,
-      "submit": 84.8
+      "attendance": 80.5,
+      "submit": 85.2
     }
   ],
   "lesson": {
-    "completion_rate": 67.8,
-    "called": 80,
+    "completion_rate": 70.3,
+    "called": 83,
     "total": 118,
-    "class_coverage": "31/31",
+    "class_coverage": "32/32",
     "teacher_count": 22,
     "uncovered_classes": [
-      "九年级 G12",
-      "十二年级 A22",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "十一年级 AS1",
-      "十年级 G22",
-      "九年级 G11",
       "十二年级 A21",
-      "化学9A(F26)",
       "十年级 G21",
-      "十年级 G23"
+      "十年级 G22",
+      "十二年级 A22",
+      "十一年级 AS3",
+      "九年级 G11",
+      "十年级 G23",
+      "九年级 G12",
+      "十一年级 AS1",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -1976,30 +1968,6 @@
         "teacher": "",
         "time": "10:50-11:30",
         "location": ""
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
-      },
-      {
-        "class": "化学9A(F26)",
-        "class_id": 526214,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
