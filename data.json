@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-08 18:15",
+  "updated_at": "2026-10-08 18:20",
   "school": {
     "rate": 81.1,
-    "present": 652,
-    "total": 804,
-    "late": 5,
-    "absent": 152,
+    "present": 657,
+    "total": 810,
+    "late": 6,
+    "absent": 153,
     "leave": 117
   },
   "summary": {
@@ -723,9 +723,54 @@
       "time_spans": [
         "13:00-13:40"
       ]
+    },
+    {
+      "name": "高数BD1(F26)",
+      "teacher": "潘子清",
+      "rate": 83.3,
+      "present_text": "5/6人次",
+      "present": 5,
+      "total": 6,
+      "absent": 1,
+      "late": 1,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "18:15-19:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "夏镜贤",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "高数BD1(F26)",
+          "time": "18:15-19:00"
+        }
+      ],
+      "updated_at": "2026-10-08T18:19:19"
+    },
     {
       "name": "黄子怿",
       "class": "AS3",
@@ -798,31 +843,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "物理CC(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "物理CC(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-08T17:44:18"
-    },
-    {
-      "name": "夏镜贤",
-      "class": "A22",
-      "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/8 17:00:00  上课 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思CR2(F26)",
-          "time": "09:10-09:50"
-        },
         {
           "course": "物理CC(F26)",
           "time": "13:00-13:40"
@@ -2164,20 +2184,20 @@
     "completion_rate": 73.8,
     "called": 118,
     "total": 160,
-    "class_coverage": "43/43",
+    "class_coverage": "44/44",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十年级 G23",
-      "九年级 G11",
-      "十一年级 AS3",
-      "九年级 G12",
+      "高数CR2(F26)",
       "十年级 G21",
+      "九年级 G11",
       "十一年级 AS1",
       "十二年级 A22",
       "十一年级 AS2",
-      "高数CR2(F26)",
-      "十年级 G22"
+      "十年级 G23",
+      "十二年级 A21",
+      "十年级 G22",
+      "九年级 G12",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
