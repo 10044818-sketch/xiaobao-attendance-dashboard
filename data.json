@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-08 08:45",
+  "updated_at": "2026-10-08 08:50",
   "school": {
-    "rate": 73.0,
-    "present": 27,
+    "rate": 70.3,
+    "present": 26,
     "total": 37,
-    "late": 2,
-    "absent": 10,
-    "leave": 9
+    "late": 1,
+    "absent": 11,
+    "leave": 10
   },
   "summary": {
     "pending_yesterday": 0,
@@ -51,14 +51,14 @@
     {
       "name": "雅思BR2(F26)",
       "teacher": "曹德娟",
-      "rate": 68.4,
-      "present_text": "13/19人次",
-      "present": 13,
+      "rate": 63.2,
+      "present_text": "12/19人次",
+      "present": 12,
       "total": 19,
-      "absent": 6,
-      "late": 2,
+      "absent": 7,
+      "late": 1,
       "early": 0,
-      "leave": 6,
+      "leave": 7,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -66,6 +66,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026-10-08 08:00:00 至 2026-10-08 19:00:00  不舒服",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-08T08:48:58"
+    },
     {
       "name": "吴昊",
       "class": "AS2",
@@ -201,38 +214,38 @@
   "trend": [
     {
       "date": "10-02",
-      "attendance": 77.5,
+      "attendance": 74.8,
       "submit": 90.0
     },
     {
       "date": "10-03",
-      "attendance": 76.0,
+      "attendance": 73.3,
       "submit": 90.5
     },
     {
       "date": "10-04",
-      "attendance": 74.5,
+      "attendance": 71.8,
       "submit": 91.0
     },
     {
       "date": "10-05",
-      "attendance": 73.0,
+      "attendance": 70.3,
       "submit": 91.5
     },
     {
       "date": "10-06",
-      "attendance": 71.5,
+      "attendance": 68.8,
       "submit": 92.0
     },
     {
       "date": "10-07",
-      "attendance": 70.0,
+      "attendance": 67.3,
       "submit": 92.5
     },
     {
       "date": "10-08",
-      "attendance": 73.0,
-      "submit": 81.5
+      "attendance": 70.3,
+      "submit": 80.2
     }
   ],
   "lesson": {
