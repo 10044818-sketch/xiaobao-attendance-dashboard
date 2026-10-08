@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-08 19:52",
+  "updated_at": "2026-10-08 19:55",
   "school": {
-    "rate": 81.1,
-    "present": 657,
-    "total": 810,
+    "rate": 81.2,
+    "present": 666,
+    "total": 820,
     "late": 6,
-    "absent": 153,
-    "leave": 117
+    "absent": 154,
+    "leave": 118
   },
   "summary": {
     "pending_yesterday": 0,
@@ -234,16 +234,17 @@
       "name": "商科BZ(F26)",
       "teacher": "余震",
       "rate": 90.0,
-      "present_text": "9/10人次",
-      "present": 9,
-      "total": 10,
-      "absent": 1,
+      "present_text": "18/20人次",
+      "present": 18,
+      "total": 20,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -742,6 +743,35 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "吴昊",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/10/8 7:00:00 至 2026/10/8 13:00:00  赶车 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐BR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-08T19:54:22"
+    },
     {
       "name": "夏镜贤",
       "class": "A22",
@@ -1579,31 +1609,6 @@
       "updated_at": "2026-10-08T13:21:48"
     },
     {
-      "name": "吴昊",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/10/8 7:00:00 至 2026/10/8 13:00:00  赶车 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "商科BZ(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "音乐BR2(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-08T13:00:53"
-    },
-    {
       "name": "耿寅潇",
       "class": "AS2",
       "reason": "已请假",
@@ -1905,34 +1910,10 @@
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "10:50-11:30",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
       "subject": "艺术BC",
       "teacher": "",
       "time": "10:50-11:30",
       "location": ""
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "10:50-11:30",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "10:50-11:30",
-      "location": "LT3-121"
     },
     {
       "class": "十二年级 A21",
@@ -2146,58 +2127,58 @@
   "trend": [
     {
       "date": "10-02",
-      "attendance": 85.6,
+      "attendance": 85.7,
       "submit": 90.0
     },
     {
       "date": "10-03",
-      "attendance": 84.1,
+      "attendance": 84.2,
       "submit": 90.5
     },
     {
       "date": "10-04",
-      "attendance": 82.6,
+      "attendance": 82.7,
       "submit": 91.0
     },
     {
       "date": "10-05",
-      "attendance": 81.1,
+      "attendance": 81.2,
       "submit": 91.5
     },
     {
       "date": "10-06",
-      "attendance": 79.6,
+      "attendance": 79.7,
       "submit": 92.0
     },
     {
       "date": "10-07",
-      "attendance": 78.1,
+      "attendance": 78.2,
       "submit": 92.5
     },
     {
       "date": "10-08",
-      "attendance": 81.1,
-      "submit": 85.5
+      "attendance": 81.2,
+      "submit": 85.6
     }
   ],
   "lesson": {
-    "completion_rate": 74.4,
-    "called": 122,
+    "completion_rate": 76.2,
+    "called": 125,
     "total": 164,
     "class_coverage": "44/44",
     "teacher_count": 26,
     "uncovered_classes": [
-      "九年级 G11",
+      "十年级 G23",
       "十一年级 AS2",
-      "高数CR2(F26)",
-      "十二年级 A21",
       "十一年级 AS3",
-      "十年级 G21",
-      "十年级 G22",
       "九年级 G12",
       "十一年级 AS1",
+      "十二年级 A21",
+      "高数CR2(F26)",
       "十二年级 A22",
-      "十年级 G23"
+      "十年级 G22",
+      "十年级 G21",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -2299,34 +2280,10 @@
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "10:50-11:30",
-        "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
         "subject": "艺术BC",
         "teacher": "",
         "time": "10:50-11:30",
         "location": ""
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "10:50-11:30",
-        "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "10:50-11:30",
-        "location": "LT3-121"
       },
       {
         "class": "十二年级 A21",
