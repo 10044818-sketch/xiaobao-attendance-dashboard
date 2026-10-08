@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-08 10:40",
+  "updated_at": "2026-10-08 10:46",
   "school": {
-    "rate": 78.4,
-    "present": 192,
-    "total": 245,
+    "rate": 78.2,
+    "present": 212,
+    "total": 271,
     "late": 3,
-    "absent": 53,
-    "leave": 45
+    "absent": 59,
+    "leave": 49
   },
   "summary": {
     "pending_yesterday": 0,
@@ -147,6 +147,23 @@
       ]
     },
     {
+      "name": "数学AR3(F26)",
+      "teacher": "赵亮",
+      "rate": 76.9,
+      "present_text": "20/26人次",
+      "present": 20,
+      "total": 26,
+      "absent": 6,
+      "late": 0,
+      "early": 0,
+      "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "生物BZ(F26)",
       "teacher": "张璐菲",
       "rate": 85.7,
@@ -264,6 +281,73 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "郑逸",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-08T10:45:56"
+    },
+    {
+      "name": "谢佳妍",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/10/8 8:00:00 至 2026/10/8 17:30:00  您好，谢佳妍昨天感冒了，咳嗽流鼻涕浑身无力，今天请假一天，谢谢老师！ ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-08T10:45:56"
+    },
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/10/8 7:00:00 至 2026/10/8 17:00:00  病假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-08T10:45:56"
+    },
     {
       "name": "段锦沐",
       "class": "A21",
@@ -644,44 +728,10 @@
       "updated_at": "2026-10-08T09:11:55"
     },
     {
-      "name": "郑逸",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-08T09:09:38"
-    },
-    {
       "name": "贾征颐",
       "class": "G22",
       "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/13 17:00:00  肝脾肿大后，需静养 ",
       "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-08T09:09:38"
-    },
-    {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/8 7:00:00 至 2026/10/8 17:00:00  病假 ",
-      "type": "病假",
       "courses": [
         {
           "course": "商科AA(F26)",
@@ -940,14 +990,6 @@
       "location": "LT3-111"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "10:00-10:40",
-      "location": "LT3-122"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "数学",
@@ -964,14 +1006,6 @@
       "location": "LT3-111"
     },
     {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "10:00-10:40",
-      "location": "LT3-122"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "英语第二语言口语",
@@ -983,58 +1017,58 @@
   "trend": [
     {
       "date": "10-02",
-      "attendance": 82.9,
+      "attendance": 82.7,
       "submit": 90.0
     },
     {
       "date": "10-03",
-      "attendance": 81.4,
+      "attendance": 81.2,
       "submit": 90.5
     },
     {
       "date": "10-04",
-      "attendance": 79.9,
+      "attendance": 79.7,
       "submit": 91.0
     },
     {
       "date": "10-05",
-      "attendance": 78.4,
+      "attendance": 78.2,
       "submit": 91.5
     },
     {
       "date": "10-06",
-      "attendance": 76.9,
+      "attendance": 76.7,
       "submit": 92.0
     },
     {
       "date": "10-07",
-      "attendance": 75.4,
+      "attendance": 75.2,
       "submit": 92.5
     },
     {
       "date": "10-08",
-      "attendance": 78.4,
-      "submit": 84.2
+      "attendance": 78.2,
+      "submit": 84.1
     }
   ],
   "lesson": {
-    "completion_rate": 57.1,
-    "called": 40,
+    "completion_rate": 60.0,
+    "called": 42,
     "total": 70,
-    "class_coverage": "15/15",
+    "class_coverage": "16/16",
     "teacher_count": 16,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "九年级 G11",
-      "十年级 G21",
-      "十一年级 AS1",
-      "十二年级 A21",
+      "十年级 G22",
       "化学AA(F26)",
+      "十年级 G21",
       "九年级 G12",
       "十二年级 A22",
-      "化学CB(F26)",
+      "十一年级 AS3",
+      "九年级 G11",
+      "十一年级 AS1",
+      "十二年级 A21",
       "十年级 G23",
-      "十年级 G22"
+      "化学CB(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -1238,14 +1272,6 @@
         "location": "LT3-111"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "10:00-10:40",
-        "location": "LT3-122"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "数学",
@@ -1260,14 +1286,6 @@
         "teacher": "杨燕霖",
         "time": "10:00-10:40",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "10:00-10:40",
-        "location": "LT3-122"
       },
       {
         "class": "十年级 G23",
