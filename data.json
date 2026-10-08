@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-08 09:40",
+  "updated_at": "2026-10-08 09:45",
   "school": {
-    "rate": 72.3,
-    "present": 112,
+    "rate": 72.9,
+    "present": 113,
     "total": 155,
     "late": 1,
-    "absent": 43,
+    "absent": 42,
     "leave": 36
   },
   "summary": {
@@ -18,11 +18,11 @@
     {
       "name": "代数C0(F26)",
       "teacher": "张小翼",
-      "rate": 62.5,
-      "present_text": "10/16人次",
-      "present": 10,
+      "rate": 68.8,
+      "present_text": "11/16人次",
+      "present": 11,
       "total": 16,
-      "absent": 6,
+      "absent": 5,
       "late": 0,
       "early": 0,
       "leave": 3,
@@ -134,6 +134,40 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/10/8 8:00:00 至 2026/10/8 17:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "代数C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:42:38"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "代数C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-08T09:42:38"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -409,47 +443,9 @@
         {
           "course": "代数C0(F26)",
           "time": "08:20-09:00"
-        },
-        {
-          "course": "代数C0(F26)",
-          "time": "09:10-09:50"
         }
       ],
-      "updated_at": "2026-10-08T09:12:19"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026/10/8 8:00:00 至 2026/10/8 17:00:00  头疼 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "代数C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-08T09:12:19"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "代数C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-08T09:12:19"
+      "updated_at": "2026-10-08T09:11:55"
     },
     {
       "name": "郑逸",
@@ -652,38 +648,38 @@
   "trend": [
     {
       "date": "10-02",
-      "attendance": 76.8,
+      "attendance": 77.4,
       "submit": 90.0
     },
     {
       "date": "10-03",
-      "attendance": 75.3,
+      "attendance": 75.9,
       "submit": 90.5
     },
     {
       "date": "10-04",
-      "attendance": 73.8,
+      "attendance": 74.4,
       "submit": 91.0
     },
     {
       "date": "10-05",
-      "attendance": 72.3,
+      "attendance": 72.9,
       "submit": 91.5
     },
     {
       "date": "10-06",
-      "attendance": 70.8,
+      "attendance": 71.4,
       "submit": 92.0
     },
     {
       "date": "10-07",
-      "attendance": 69.3,
+      "attendance": 69.9,
       "submit": 92.5
     },
     {
       "date": "10-08",
-      "attendance": 72.3,
-      "submit": 81.2
+      "attendance": 72.9,
+      "submit": 81.5
     }
   ],
   "lesson": {
@@ -694,14 +690,14 @@
     "teacher_count": 10,
     "uncovered_classes": [
       "化学A0(F26)",
-      "化学AA(F26)",
-      "九年级 G12",
-      "十一年级 AS3",
       "十一年级 AS1",
-      "十年级 G21",
-      "十年级 G23",
+      "十一年级 AS3",
       "九年级 G11",
-      "十年级 G22"
+      "十年级 G23",
+      "化学AA(F26)",
+      "十年级 G22",
+      "九年级 G12",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
