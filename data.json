@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-09 10:15",
+  "updated_at": "2026-10-09 10:20",
   "school": {
-    "rate": 76.1,
-    "present": 191,
-    "total": 251,
+    "rate": 76.8,
+    "present": 202,
+    "total": 263,
     "late": 4,
-    "absent": 60,
-    "leave": 40
+    "absent": 61,
+    "leave": 41
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -131,6 +131,22 @@
       ]
     },
     {
+      "name": "英语口语AQ3(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 91.7,
+      "present_text": "11/12人次",
+      "present": 11,
+      "total": 12,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "雅思BR1(F26)",
       "teacher": "贺珍谊",
       "rate": 92.9,
@@ -213,6 +229,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "Sick Leave_【Approved】 2026/10/9 6:00:00 to 2026/10/10 17:00:00  人不舒服",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-09T10:18:24"
+    },
     {
       "name": "江雨霏",
       "class": "A22",
@@ -665,19 +698,6 @@
       "updated_at": "2026-10-09T09:08:33"
     },
     {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/9 6:00:00 至 2026/10/10 17:00:00  人不舒服 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-09T09:08:33"
-    },
-    {
       "name": "仲斯琦",
       "class": "G23",
       "reason": "病假_【已通过】 2026/10/9 8:00:00 至 2026/10/9 17:00:00  疑似脑震荡 ",
@@ -1004,57 +1024,57 @@
   "trend": [
     {
       "date": "10-03",
-      "attendance": 80.6,
+      "attendance": 81.3,
       "submit": 90.0
     },
     {
       "date": "10-04",
-      "attendance": 79.1,
+      "attendance": 79.8,
       "submit": 90.5
     },
     {
       "date": "10-05",
-      "attendance": 77.6,
+      "attendance": 78.3,
       "submit": 91.0
     },
     {
       "date": "10-06",
-      "attendance": 76.1,
+      "attendance": 76.8,
       "submit": 91.5
     },
     {
       "date": "10-07",
-      "attendance": 74.6,
+      "attendance": 75.3,
       "submit": 92.0
     },
     {
       "date": "10-08",
-      "attendance": 73.1,
+      "attendance": 73.8,
       "submit": 92.5
     },
     {
       "date": "10-09",
-      "attendance": 76.1,
-      "submit": 83.0
+      "attendance": 76.8,
+      "submit": 83.4
     }
   ],
   "lesson": {
     "completion_rate": 18.4,
     "called": 7,
     "total": 38,
-    "class_coverage": "12/12",
+    "class_coverage": "13/13",
     "teacher_count": 11,
     "uncovered_classes": [
-      "九年级 G11",
       "十二年级 A21",
-      "九年级 G12",
+      "十一年级 AS2",
+      "十年级 G22",
+      "化学BY(F26)",
       "十一年级 AS1",
       "十年级 G23",
-      "化学BY(F26)",
-      "十一年级 AS3",
       "十二年级 A22",
-      "十年级 G22",
-      "十一年级 AS2"
+      "九年级 G12",
+      "十一年级 AS3",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
