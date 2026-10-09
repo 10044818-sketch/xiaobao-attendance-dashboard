@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-09 15:30",
+  "updated_at": "2026-10-09 15:35",
   "school": {
-    "rate": 78.2,
-    "present": 561,
-    "total": 717,
+    "rate": 78.5,
+    "present": 576,
+    "total": 734,
     "late": 11,
-    "absent": 156,
-    "leave": 126
+    "absent": 158,
+    "leave": 128
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 9,
+    "class_attention": 10,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -45,6 +45,22 @@
       "status": "异常",
       "time_spans": [
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "化学9A(F26)",
+      "teacher": "张璐菲",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -229,6 +245,22 @@
       "time_spans": [
         "13:00-13:40",
         "13:50-14:30"
+      ]
+    },
+    {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 66.7,
+      "present_text": "2/3人次",
+      "present": 2,
+      "total": 3,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "15:30-16:10"
       ]
     },
     {
@@ -595,6 +627,32 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "王静嘉",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/10/9 15:30:00 至 2026/10/9 17:00:00  考试 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "生物CA(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-09T15:31:21"
+    },
+    {
+      "name": "马佳雯",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/10/9 14:30:00 至 2026/10/9 17:00:00  补牙 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学9A(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-09T15:31:06"
+    },
     {
       "name": "胡鑫玥",
       "class": "G22",
@@ -2454,61 +2512,61 @@
   "trend": [
     {
       "date": "10-03",
-      "attendance": 82.7,
+      "attendance": 83.0,
       "submit": 90.0
     },
     {
       "date": "10-04",
-      "attendance": 81.2,
+      "attendance": 81.5,
       "submit": 90.5
     },
     {
       "date": "10-05",
-      "attendance": 79.7,
+      "attendance": 80.0,
       "submit": 91.0
     },
     {
       "date": "10-06",
-      "attendance": 78.2,
+      "attendance": 78.5,
       "submit": 91.5
     },
     {
       "date": "10-07",
-      "attendance": 76.7,
+      "attendance": 77.0,
       "submit": 92.0
     },
     {
       "date": "10-08",
-      "attendance": 75.2,
+      "attendance": 75.5,
       "submit": 92.5
     },
     {
       "date": "10-09",
-      "attendance": 78.2,
-      "submit": 84.1
+      "attendance": 78.5,
+      "submit": 84.2
     }
   ],
   "lesson": {
     "completion_rate": 27.1,
     "called": 35,
     "total": 129,
-    "class_coverage": "35/35",
+    "class_coverage": "37/37",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十二年级 A22",
-      "化学BY(F26)",
-      "十年级 G22",
-      "十二年级 A21",
-      "十年级 G23",
-      "九年级 G11",
+      "十年级 G21",
       "十一年级 AS1",
-      "九年级 G12",
+      "十二年级 A22",
       "十一年级 AS3",
-      "高数CR2(F26)",
+      "九年级 G12",
+      "十年级 G22",
       "化学CB(F26)",
-      "十一年级 AS2",
+      "化学BY(F26)",
+      "九年级 G11",
+      "高数CR2(F26)",
       "化学9A(F26)",
-      "十年级 G21"
+      "十二年级 A21",
+      "十一年级 AS2",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
