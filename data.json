@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-09 12:59",
+  "updated_at": "2026-10-09 13:00",
   "school": {
-    "rate": 80.3,
-    "present": 309,
-    "total": 385,
+    "rate": 80.7,
+    "present": 326,
+    "total": 404,
     "late": 5,
-    "absent": 76,
-    "leave": 55
+    "absent": 78,
+    "leave": 56
   },
   "summary": {
     "pending_yesterday": 0,
@@ -96,6 +96,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "物理AX(F26)",
+      "teacher": "熊辉",
+      "rate": 89.5,
+      "present_text": "17/19人次",
+      "present": 17,
+      "total": 19,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -313,6 +329,44 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "许睿",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-09T13:00:01"
+    },
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/10/9 6:00:00 至 2026/10/10 17:00:00  人不舒服 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-09T13:00:01"
+    },
     {
       "name": "刘宇茗",
       "class": "A22",
@@ -534,23 +588,6 @@
         }
       ],
       "updated_at": "2026-10-09T10:41:22"
-    },
-    {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "Sick Leave_【Approved】 2026/10/9 6:00:00 to 2026/10/10 17:00:00  人不舒服",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语口语AQ3(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-09T10:18:24"
     },
     {
       "name": "王翊宸",
@@ -883,19 +920,6 @@
         }
       ],
       "updated_at": "2026-10-09T09:14:34"
-    },
-    {
-      "name": "许睿",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-09T09:08:33"
     },
     {
       "name": "徐荻",
@@ -1377,60 +1401,60 @@
   "trend": [
     {
       "date": "10-03",
-      "attendance": 84.8,
+      "attendance": 85.2,
       "submit": 90.0
     },
     {
       "date": "10-04",
-      "attendance": 83.3,
+      "attendance": 83.7,
       "submit": 90.5
     },
     {
       "date": "10-05",
-      "attendance": 81.8,
+      "attendance": 82.2,
       "submit": 91.0
     },
     {
       "date": "10-06",
-      "attendance": 80.3,
+      "attendance": 80.7,
       "submit": 91.5
     },
     {
       "date": "10-07",
-      "attendance": 78.8,
+      "attendance": 79.2,
       "submit": 92.0
     },
     {
       "date": "10-08",
-      "attendance": 77.3,
+      "attendance": 77.7,
       "submit": 92.5
     },
     {
       "date": "10-09",
-      "attendance": 80.3,
-      "submit": 85.2
+      "attendance": 80.7,
+      "submit": 85.3
     }
   ],
   "lesson": {
     "completion_rate": 26.3,
     "called": 20,
     "total": 76,
-    "class_coverage": "18/18",
+    "class_coverage": "19/19",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十一年级 AS2",
-      "九年级 G11",
-      "十二年级 A22",
-      "高数CR2(F26)",
       "化学BY(F26)",
+      "化学9A(F26)",
+      "十一年级 AS2",
       "十一年级 AS1",
+      "十一年级 AS3",
+      "十年级 G23",
       "十年级 G22",
       "十年级 G21",
-      "十年级 G23",
-      "十一年级 AS3",
+      "九年级 G11",
+      "高数CR2(F26)",
       "九年级 G12",
-      "化学9A(F26)"
+      "十二年级 A21",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
