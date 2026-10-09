@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-09 11:45",
+  "updated_at": "2026-10-09 11:51",
   "school": {
-    "rate": 80.5,
-    "present": 310,
+    "rate": 80.3,
+    "present": 309,
     "total": 385,
     "late": 5,
-    "absent": 75,
+    "absent": 76,
     "leave": 55
   },
   "summary": {
@@ -282,11 +282,11 @@
     {
       "name": "雅思听力阅读C0(F26)",
       "teacher": "曹德娟",
-      "rate": 87.5,
-      "present_text": "7/8人次",
-      "present": 7,
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
       "total": 8,
-      "absent": 1,
+      "absent": 2,
       "late": 0,
       "early": 0,
       "leave": 1,
@@ -313,6 +313,40 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "刘宇茗",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-09T11:46:01"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/10/9 8:00:00 至 2026/10/9 17:00:00  重感冒 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-09T11:46:01"
+    },
     {
       "name": "仲斯琦",
       "class": "G23",
@@ -404,27 +438,6 @@
         }
       ],
       "updated_at": "2026-10-09T11:29:17"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026/10/9 8:00:00 至 2026/10/9 17:00:00  重感冒 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济C0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思听力阅读C0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-09T11:25:05"
     },
     {
       "name": "赵浩雯",
@@ -1364,37 +1377,37 @@
   "trend": [
     {
       "date": "10-03",
-      "attendance": 85.0,
+      "attendance": 84.8,
       "submit": 90.0
     },
     {
       "date": "10-04",
-      "attendance": 83.5,
+      "attendance": 83.3,
       "submit": 90.5
     },
     {
       "date": "10-05",
-      "attendance": 82.0,
+      "attendance": 81.8,
       "submit": 91.0
     },
     {
       "date": "10-06",
-      "attendance": 80.5,
+      "attendance": 80.3,
       "submit": 91.5
     },
     {
       "date": "10-07",
-      "attendance": 79.0,
+      "attendance": 78.8,
       "submit": 92.0
     },
     {
       "date": "10-08",
-      "attendance": 77.5,
+      "attendance": 77.3,
       "submit": 92.5
     },
     {
       "date": "10-09",
-      "attendance": 80.5,
+      "attendance": 80.3,
       "submit": 85.2
     }
   ],
@@ -1405,19 +1418,19 @@
     "class_coverage": "18/18",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十年级 G23",
-      "十一年级 AS3",
-      "十二年级 A21",
-      "九年级 G12",
-      "化学BY(F26)",
-      "十二年级 A22",
-      "化学9A(F26)",
       "十一年级 AS2",
-      "九年级 G11",
-      "十年级 G21",
-      "十年级 G22",
+      "九年级 G12",
+      "十二年级 A21",
       "高数CR2(F26)",
-      "十一年级 AS1"
+      "化学9A(F26)",
+      "化学BY(F26)",
+      "十年级 G22",
+      "十年级 G21",
+      "九年级 G11",
+      "十一年级 AS1",
+      "十年级 G23",
+      "十二年级 A22",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
