@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-09 15:41",
+  "updated_at": "2026-10-09 15:45",
   "school": {
-    "rate": 78.2,
-    "present": 582,
-    "total": 744,
+    "rate": 78.4,
+    "present": 602,
+    "total": 768,
     "late": 11,
-    "absent": 162,
-    "leave": 130
+    "absent": 166,
+    "leave": 134
   },
   "summary": {
     "pending_yesterday": 0,
@@ -310,6 +310,23 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "经济BX(F26)",
+      "teacher": "郝畅",
+      "rate": 83.3,
+      "present_text": "20/24人次",
+      "present": 20,
+      "total": 24,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20",
+        "15:30-16:10"
       ]
     },
     {
@@ -643,6 +660,80 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "汤雪儿",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/10/9 7:00:00 至 2026/10/9 13:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-09T15:43:20"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/10/8 13:00:00 至 2026/10/10 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR3(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "经济BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-09T15:43:20"
+    },
     {
       "name": "张翰霆",
       "class": "A22",
@@ -1336,39 +1427,6 @@
       "updated_at": "2026-10-09T13:50:01"
     },
     {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/10/8 13:00:00 至 2026/10/10 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR3(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR3(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-09T13:50:01"
-    },
-    {
       "name": "陈世棋",
       "class": "AS2",
       "reason": "事假_【已通过】 2026/10/8 7:00:00 至 2026/10/10 15:00:00  复习 ",
@@ -1624,31 +1682,6 @@
         }
       ],
       "updated_at": "2026-10-09T11:29:17"
-    },
-    {
-      "name": "汤雪儿",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/10/9 7:00:00 至 2026/10/9 13:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育BR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-09T10:50:53"
     },
     {
       "name": "黄子瑄",
@@ -2553,61 +2586,61 @@
   "trend": [
     {
       "date": "10-03",
-      "attendance": 82.7,
+      "attendance": 82.9,
       "submit": 90.0
     },
     {
       "date": "10-04",
-      "attendance": 81.2,
+      "attendance": 81.4,
       "submit": 90.5
     },
     {
       "date": "10-05",
-      "attendance": 79.7,
+      "attendance": 79.9,
       "submit": 91.0
     },
     {
       "date": "10-06",
-      "attendance": 78.2,
+      "attendance": 78.4,
       "submit": 91.5
     },
     {
       "date": "10-07",
-      "attendance": 76.7,
+      "attendance": 76.9,
       "submit": 92.0
     },
     {
       "date": "10-08",
-      "attendance": 75.2,
+      "attendance": 75.4,
       "submit": 92.5
     },
     {
       "date": "10-09",
-      "attendance": 78.2,
-      "submit": 84.1
+      "attendance": 78.4,
+      "submit": 84.2
     }
   ],
   "lesson": {
     "completion_rate": 27.1,
     "called": 35,
     "total": 129,
-    "class_coverage": "38/38",
+    "class_coverage": "39/39",
     "teacher_count": 25,
     "uncovered_classes": [
-      "九年级 G11",
-      "化学BY(F26)",
-      "十年级 G21",
-      "十年级 G23",
-      "化学9A(F26)",
       "十年级 G22",
-      "化学CB(F26)",
       "十一年级 AS1",
-      "十二年级 A21",
       "十二年级 A22",
-      "十一年级 AS3",
       "十一年级 AS2",
-      "高数CR2(F26)",
-      "九年级 G12"
+      "化学CB(F26)",
+      "九年级 G11",
+      "十二年级 A21",
+      "九年级 G12",
+      "十年级 G23",
+      "十一年级 AS3",
+      "十年级 G21",
+      "化学BY(F26)",
+      "化学9A(F26)",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
