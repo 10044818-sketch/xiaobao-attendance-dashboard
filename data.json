@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-09 09:56",
+  "updated_at": "2026-10-09 10:02",
   "school": {
-    "rate": 74.7,
-    "present": 145,
-    "total": 194,
+    "rate": 76.0,
+    "present": 158,
+    "total": 208,
     "late": 3,
-    "absent": 49,
-    "leave": 30
+    "absent": 50,
+    "leave": 31
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -161,6 +161,22 @@
         "08:20-09:00",
         "09:10-09:50"
       ]
+    },
+    {
+      "name": "音乐9A(F26)",
+      "teacher": "刘知言",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40"
+      ]
     }
   ],
   "absent_students": [
@@ -177,9 +193,13 @@
         {
           "course": "物理9A(F26)",
           "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-10-09T09:53:40"
+      "updated_at": "2026-10-09T09:59:57"
     },
     {
       "name": "李知颖",
@@ -893,57 +913,57 @@
   "trend": [
     {
       "date": "10-03",
-      "attendance": 79.2,
+      "attendance": 80.5,
       "submit": 90.0
     },
     {
       "date": "10-04",
-      "attendance": 77.7,
+      "attendance": 79.0,
       "submit": 90.5
     },
     {
       "date": "10-05",
-      "attendance": 76.2,
+      "attendance": 77.5,
       "submit": 91.0
     },
     {
       "date": "10-06",
-      "attendance": 74.7,
+      "attendance": 76.0,
       "submit": 91.5
     },
     {
       "date": "10-07",
-      "attendance": 73.2,
+      "attendance": 74.5,
       "submit": 92.0
     },
     {
       "date": "10-08",
-      "attendance": 71.7,
+      "attendance": 73.0,
       "submit": 92.5
     },
     {
       "date": "10-09",
-      "attendance": 74.7,
-      "submit": 82.3
+      "attendance": 76.0,
+      "submit": 83.0
     }
   ],
   "lesson": {
     "completion_rate": 18.4,
     "called": 7,
     "total": 38,
-    "class_coverage": "9/9",
+    "class_coverage": "10/10",
     "teacher_count": 11,
     "uncovered_classes": [
-      "九年级 G11",
-      "十一年级 AS1",
-      "九年级 G12",
+      "十年级 G23",
       "十年级 G22",
       "化学BY(F26)",
+      "九年级 G11",
+      "十一年级 AS2",
+      "十二年级 A21",
       "十二年级 A22",
       "十一年级 AS3",
-      "十年级 G23",
-      "十二年级 A21",
-      "十一年级 AS2"
+      "九年级 G12",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
