@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09 14:06",
+  "updated_at": "2026-10-09 14:12",
   "school": {
     "rate": 77.3,
     "present": 477,
@@ -1746,7 +1746,7 @@
       "subject": "数学",
       "teacher": "刘晨璐",
       "time": "10:00-10:40",
-      "location": "LT3-121"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS2",
@@ -1754,7 +1754,7 @@
       "subject": "数学",
       "teacher": "刘晨璐",
       "time": "10:00-10:40",
-      "location": "LT3-121"
+      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS3",
@@ -1762,7 +1762,7 @@
       "subject": "数学",
       "teacher": "刘晨璐",
       "time": "10:00-10:40",
-      "location": "LT3-121"
+      "location": "LT3-114"
     },
     {
       "class": "十二年级 A21",
@@ -1802,7 +1802,7 @@
       "subject": "数学",
       "teacher": "刘晨璐",
       "time": "10:00-10:40",
-      "location": "LT3-121"
+      "location": "LT3-114"
     },
     {
       "class": "十二年级 A22",
@@ -2137,20 +2137,20 @@
     "class_coverage": "28/28",
     "teacher_count": 25,
     "uncovered_classes": [
-      "化学CB(F26)",
+      "十一年级 AS1",
+      "十年级 G23",
       "十二年级 A21",
       "九年级 G11",
-      "十年级 G22",
-      "九年级 G12",
       "十二年级 A22",
-      "十一年级 AS3",
+      "化学CB(F26)",
       "高数CR2(F26)",
       "化学9A(F26)",
       "十一年级 AS2",
+      "十年级 G21",
+      "九年级 G12",
+      "十年级 G22",
       "化学BY(F26)",
-      "十年级 G23",
-      "十一年级 AS1",
-      "十年级 G21"
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -2407,7 +2407,7 @@
         "subject": "数学",
         "teacher": "刘晨璐",
         "time": "10:00-10:40",
-        "location": "LT3-121"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS2",
@@ -2415,7 +2415,7 @@
         "subject": "数学",
         "teacher": "刘晨璐",
         "time": "10:00-10:40",
-        "location": "LT3-121"
+        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS3",
@@ -2423,7 +2423,7 @@
         "subject": "数学",
         "teacher": "刘晨璐",
         "time": "10:00-10:40",
-        "location": "LT3-121"
+        "location": "LT3-114"
       },
       {
         "class": "十二年级 A21",
@@ -2463,7 +2463,7 @@
         "subject": "数学",
         "teacher": "刘晨璐",
         "time": "10:00-10:40",
-        "location": "LT3-121"
+        "location": "LT3-114"
       },
       {
         "class": "十二年级 A22",
