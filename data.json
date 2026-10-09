@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-09 09:51",
+  "updated_at": "2026-10-09 09:56",
   "school": {
-    "rate": 72.8,
-    "present": 131,
-    "total": 180,
-    "late": 2,
+    "rate": 74.7,
+    "present": 145,
+    "total": 194,
+    "late": 3,
     "absent": 49,
     "leave": 30
   },
@@ -51,17 +51,18 @@
     {
       "name": "物理9A(F26)",
       "teacher": "职梦凡",
-      "rate": 78.6,
-      "present_text": "11/14人次",
-      "present": 11,
-      "total": 14,
+      "rate": 89.3,
+      "present_text": "25/28人次",
+      "present": 25,
+      "total": 28,
       "absent": 3,
-      "late": 0,
+      "late": 1,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -163,6 +164,36 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "黄子瑄",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-09T09:53:40"
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-09T09:53:40"
+    },
     {
       "name": "张翰霆",
       "class": "A22",
@@ -607,45 +638,6 @@
         }
       ],
       "updated_at": "2026-10-09T08:34:26"
-    },
-    {
-      "name": "舒泽杨",
-      "class": "G11",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理9A(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-09T08:22:20"
-    },
-    {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理9A(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-09T08:22:20"
-    },
-    {
-      "name": "黄子瑄",
-      "class": "G12",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理9A(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-09T08:22:20"
     }
   ],
   "pending_roll_call": [
@@ -882,14 +874,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "09:10-09:50",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "物理",
@@ -909,58 +893,57 @@
   "trend": [
     {
       "date": "10-03",
-      "attendance": 77.3,
+      "attendance": 79.2,
       "submit": 90.0
     },
     {
       "date": "10-04",
-      "attendance": 75.8,
+      "attendance": 77.7,
       "submit": 90.5
     },
     {
       "date": "10-05",
-      "attendance": 74.3,
+      "attendance": 76.2,
       "submit": 91.0
     },
     {
       "date": "10-06",
-      "attendance": 72.8,
+      "attendance": 74.7,
       "submit": 91.5
     },
     {
       "date": "10-07",
-      "attendance": 71.3,
+      "attendance": 73.2,
       "submit": 92.0
     },
     {
       "date": "10-08",
-      "attendance": 69.8,
+      "attendance": 71.7,
       "submit": 92.5
     },
     {
       "date": "10-09",
-      "attendance": 72.8,
-      "submit": 81.4
+      "attendance": 74.7,
+      "submit": 82.3
     }
   ],
   "lesson": {
-    "completion_rate": 15.8,
-    "called": 6,
+    "completion_rate": 18.4,
+    "called": 7,
     "total": 38,
     "class_coverage": "9/9",
     "teacher_count": 11,
     "uncovered_classes": [
-      "九年级 G12",
-      "十一年级 AS2",
-      "十二年级 A22",
-      "十年级 G21",
-      "十一年级 AS3",
-      "化学BY(F26)",
-      "十年级 G23",
-      "十年级 G22",
       "九年级 G11",
+      "十一年级 AS1",
+      "九年级 G12",
+      "十年级 G22",
+      "化学BY(F26)",
+      "十二年级 A22",
+      "十一年级 AS3",
+      "十年级 G23",
       "十二年级 A21",
-      "十一年级 AS1"
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -1194,14 +1177,6 @@
         "teacher": "孙鹏",
         "time": "09:10-09:50",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "09:10-09:50",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G22",
