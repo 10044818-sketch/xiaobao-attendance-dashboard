@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-09 13:15",
+  "updated_at": "2026-10-09 13:20",
   "school": {
-    "rate": 78.0,
-    "present": 365,
-    "total": 468,
+    "rate": 78.3,
+    "present": 376,
+    "total": 480,
     "late": 5,
-    "absent": 103,
-    "leave": 81
+    "absent": 104,
+    "leave": 82
   },
   "summary": {
     "pending_yesterday": 0,
@@ -281,16 +281,17 @@
       "name": "英语口语AQ3(F26)",
       "teacher": "Johannes van Baardewijk",
       "rate": 91.7,
-      "present_text": "11/12人次",
-      "present": 11,
-      "total": 12,
-      "absent": 1,
+      "present_text": "22/24人次",
+      "present": 22,
+      "total": 24,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -409,6 +410,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "Sick Leave_【Approved】 2026/10/9 6:00:00 to 2026/10/10 17:00:00  人不舒服",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-09T13:16:41"
+    },
     {
       "name": "江雨霏",
       "class": "A22",
@@ -854,27 +880,6 @@
         }
       ],
       "updated_at": "2026-10-09T13:01:17"
-    },
-    {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/9 6:00:00 至 2026/10/10 17:00:00  人不舒服 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语口语AQ3(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-09T13:00:01"
     },
     {
       "name": "刘宇茗",
@@ -1716,38 +1721,38 @@
   "trend": [
     {
       "date": "10-03",
-      "attendance": 82.5,
+      "attendance": 82.8,
       "submit": 90.0
     },
     {
       "date": "10-04",
-      "attendance": 81.0,
+      "attendance": 81.3,
       "submit": 90.5
     },
     {
       "date": "10-05",
-      "attendance": 79.5,
+      "attendance": 79.8,
       "submit": 91.0
     },
     {
       "date": "10-06",
-      "attendance": 78.0,
+      "attendance": 78.3,
       "submit": 91.5
     },
     {
       "date": "10-07",
-      "attendance": 76.5,
+      "attendance": 76.8,
       "submit": 92.0
     },
     {
       "date": "10-08",
-      "attendance": 75.0,
+      "attendance": 75.3,
       "submit": 92.5
     },
     {
       "date": "10-09",
-      "attendance": 78.0,
-      "submit": 84.0
+      "attendance": 78.3,
+      "submit": 84.2
     }
   ],
   "lesson": {
@@ -1757,19 +1762,19 @@
     "class_coverage": "24/24",
     "teacher_count": 20,
     "uncovered_classes": [
-      "九年级 G11",
-      "高数CR2(F26)",
+      "十年级 G22",
       "化学9A(F26)",
       "九年级 G12",
       "十一年级 AS2",
-      "十一年级 AS1",
+      "十年级 G23",
       "十二年级 A21",
-      "十一年级 AS3",
+      "十一年级 AS1",
+      "高数CR2(F26)",
       "十二年级 A22",
-      "十年级 G22",
+      "九年级 G11",
       "十年级 G21",
-      "化学BY(F26)",
-      "十年级 G23"
+      "十一年级 AS3",
+      "化学BY(F26)"
     ],
     "uncovered_teachers": [
       {
