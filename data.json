@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-10 14:50",
+  "updated_at": "2026-10-10 14:55",
   "school": {
-    "rate": 78.5,
-    "present": 474,
-    "total": 604,
+    "rate": 79.0,
+    "present": 492,
+    "total": 623,
     "late": 19,
-    "absent": 129,
-    "leave": 74
+    "absent": 130,
+    "leave": 75
   },
   "summary": {
     "pending_yesterday": 0,
@@ -229,16 +229,17 @@
       "name": "物理AX(F26)",
       "teacher": "熊辉",
       "rate": 94.7,
-      "present_text": "18/19人次",
-      "present": 18,
-      "total": 19,
-      "absent": 1,
+      "present_text": "36/38人次",
+      "present": 36,
+      "total": 38,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -640,6 +641,39 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "徐紫萱",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/10/10 8:00:00 至 2026/10/10 14:30:00  发烧 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:51:35"
+    },
     {
       "name": "汤二璨",
       "class": "A22",
@@ -1359,35 +1393,6 @@
       "updated_at": "2026-10-10T14:05:59"
     },
     {
-      "name": "徐紫萱",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/10 8:00:00 至 2026/10/10 14:30:00  发烧 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "英语写作AQ3(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "英语写作AQ3(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-10T13:18:53"
-    },
-    {
       "name": "余天佑",
       "class": "AS3",
       "reason": "当日缺课且无请假单",
@@ -1683,38 +1688,38 @@
   "trend": [
     {
       "date": "10-04",
-      "attendance": 83.0,
+      "attendance": 83.5,
       "submit": 90.0
     },
     {
       "date": "10-05",
-      "attendance": 81.5,
+      "attendance": 82.0,
       "submit": 90.5
     },
     {
       "date": "10-06",
-      "attendance": 80.0,
+      "attendance": 80.5,
       "submit": 91.0
     },
     {
       "date": "10-07",
-      "attendance": 78.5,
+      "attendance": 79.0,
       "submit": 91.5
     },
     {
       "date": "10-08",
-      "attendance": 77.0,
+      "attendance": 77.5,
       "submit": 92.0
     },
     {
       "date": "10-09",
-      "attendance": 75.5,
+      "attendance": 76.0,
       "submit": 92.5
     },
     {
       "date": "10-10",
-      "attendance": 78.5,
-      "submit": 84.2
+      "attendance": 79.0,
+      "submit": 84.5
     }
   ],
   "lesson": {
