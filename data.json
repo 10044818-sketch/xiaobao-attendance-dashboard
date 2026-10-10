@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-10 13:30",
+  "updated_at": "2026-10-10 13:35",
   "school": {
-    "rate": 80.4,
-    "present": 279,
-    "total": 347,
-    "late": 17,
+    "rate": 81.2,
+    "present": 294,
+    "total": 362,
+    "late": 19,
     "absent": 67,
     "leave": 49
   },
@@ -272,6 +272,42 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "6/6人次",
+      "present": 6,
+      "total": 6,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40",
+        "14:40-15:20",
+        "15:30-16:10"
+      ]
+    },
+    {
+      "name": "艺术CB(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "9/9人次",
+      "present": 9,
+      "total": 9,
+      "absent": 0,
+      "late": 2,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40",
+        "14:40-15:20",
+        "15:30-16:10"
       ]
     },
     {
@@ -1011,45 +1047,45 @@
   "trend": [
     {
       "date": "10-04",
-      "attendance": 84.9,
+      "attendance": 85.7,
       "submit": 90.0
     },
     {
       "date": "10-05",
-      "attendance": 83.4,
+      "attendance": 84.2,
       "submit": 90.5
     },
     {
       "date": "10-06",
-      "attendance": 81.9,
+      "attendance": 82.7,
       "submit": 91.0
     },
     {
       "date": "10-07",
-      "attendance": 80.4,
+      "attendance": 81.2,
       "submit": 91.5
     },
     {
       "date": "10-08",
-      "attendance": 78.9,
+      "attendance": 79.7,
       "submit": 92.0
     },
     {
       "date": "10-09",
-      "attendance": 77.4,
+      "attendance": 78.2,
       "submit": 92.5
     },
     {
       "date": "10-10",
-      "attendance": 80.4,
-      "submit": 85.2
+      "attendance": 81.2,
+      "submit": 85.6
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "24/24",
+    "class_coverage": "26/26",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
