@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-10 08:50",
+  "updated_at": "2026-10-10 08:57",
   "school": {
     "rate": 75.7,
     "present": 53,
     "total": 70,
     "late": 1,
     "absent": 17,
-    "leave": 8
+    "leave": 9
   },
   "summary": {
     "pending_yesterday": 0,
@@ -57,7 +57,7 @@
       "absent": 6,
       "late": 0,
       "early": 0,
-      "leave": 3,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -97,6 +97,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "宋汉明",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026-10-10 08:00:00 至 2026-10-10 12:00:00  不舒服",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-10T08:51:22"
+    },
     {
       "name": "丁怡霏",
       "class": "AS3",
@@ -255,19 +268,6 @@
     },
     {
       "name": "王锴杰",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-10T08:22:02"
-    },
-    {
-      "name": "宋汉明",
       "class": "AS2",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
