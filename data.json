@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-10 14:36",
+  "updated_at": "2026-10-10 14:40",
   "school": {
-    "rate": 78.4,
-    "present": 428,
-    "total": 546,
+    "rate": 78.2,
+    "present": 444,
+    "total": 568,
     "late": 19,
-    "absent": 117,
-    "leave": 66
+    "absent": 123,
+    "leave": 69
   },
   "summary": {
     "pending_yesterday": 0,
@@ -242,19 +242,36 @@
       ]
     },
     {
-      "name": "物理CC(F26)",
+      "name": "物理CA(F26)",
       "teacher": "曾靓",
-      "rate": 50.0,
-      "present_text": "6/12人次",
-      "present": 6,
-      "total": 12,
-      "absent": 6,
+      "rate": 70.0,
+      "present_text": "7/10人次",
+      "present": 7,
+      "total": 10,
+      "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 1,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "10:50-11:30"
+      ]
+    },
+    {
+      "name": "物理CC(F26)",
+      "teacher": "曾靓",
+      "rate": 62.5,
+      "present_text": "15/24人次",
+      "present": 15,
+      "total": 24,
+      "absent": 9,
+      "late": 0,
+      "early": 0,
+      "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -590,6 +607,144 @@
   ],
   "absent_students": [
     {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:37:42"
+    },
+    {
+      "name": "岳沐辰",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/31 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:37:42"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:37:42"
+    },
+    {
+      "name": "徐悦栋",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:37:26"
+    },
+    {
+      "name": "董轶尘",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:37:26"
+    },
+    {
+      "name": "陈乐涵",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/10/10 8:00:00 至 2026/10/10 17:00:00  事假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:37:26"
+    },
+    {
       "name": "赵倚菲",
       "class": "G21",
       "reason": "当日缺课且无请假单",
@@ -645,27 +800,6 @@
       "updated_at": "2026-10-10T14:34:29"
     },
     {
-      "name": "岳沐辰",
-      "class": "A21",
-      "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/31 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济CC(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济CC(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育C1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-10T14:34:05"
-    },
-    {
       "name": "闻誉婷",
       "class": "A21",
       "reason": "当日缺课且无请假单",
@@ -678,31 +812,6 @@
         {
           "course": "经济CC(F26)",
           "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-10T14:34:05"
-    },
-    {
-      "name": "王子天",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济CC(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济CC(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ3(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育C1(F26)",
-          "time": "13:50-14:30"
         }
       ],
       "updated_at": "2026-10-10T14:34:05"
@@ -964,23 +1073,6 @@
       "updated_at": "2026-10-10T14:12:50"
     },
     {
-      "name": "张翰霆",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ3(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育C1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-10T14:12:50"
-    },
-    {
       "name": "俞玥",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -999,23 +1091,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "体育C1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-10T14:12:50"
-    },
-    {
-      "name": "徐悦栋",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CC(F26)",
-          "time": "08:20-09:00"
-        },
         {
           "course": "体育C1(F26)",
           "time": "13:50-14:30"
@@ -1180,40 +1255,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "体育C1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-10T14:12:50"
-    },
-    {
-      "name": "董轶尘",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CC(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育C1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-10T14:12:50"
-    },
-    {
-      "name": "陈乐涵",
-      "class": "A21",
-      "reason": "事假_【已通过】 2026/10/10 8:00:00 至 2026/10/10 17:00:00  事假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理CC(F26)",
-          "time": "08:20-09:00"
-        },
         {
           "course": "体育C1(F26)",
           "time": "13:50-14:30"
@@ -1584,45 +1625,45 @@
   "trend": [
     {
       "date": "10-04",
-      "attendance": 82.9,
+      "attendance": 82.7,
       "submit": 90.0
     },
     {
       "date": "10-05",
-      "attendance": 81.4,
+      "attendance": 81.2,
       "submit": 90.5
     },
     {
       "date": "10-06",
-      "attendance": 79.9,
+      "attendance": 79.7,
       "submit": 91.0
     },
     {
       "date": "10-07",
-      "attendance": 78.4,
+      "attendance": 78.2,
       "submit": 91.5
     },
     {
       "date": "10-08",
-      "attendance": 76.9,
+      "attendance": 76.7,
       "submit": 92.0
     },
     {
       "date": "10-09",
-      "attendance": 75.4,
+      "attendance": 75.2,
       "submit": 92.5
     },
     {
       "date": "10-10",
-      "attendance": 78.4,
-      "submit": 84.2
+      "attendance": 78.2,
+      "submit": 84.1
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "35/35",
+    "class_coverage": "36/36",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
