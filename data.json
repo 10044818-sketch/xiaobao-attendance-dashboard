@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-10 12:15",
+  "updated_at": "2026-10-10 12:20",
   "school": {
-    "rate": 79.1,
-    "present": 219,
-    "total": 277,
+    "rate": 80.3,
+    "present": 236,
+    "total": 294,
     "late": 17,
     "absent": 57,
     "leave": 43
@@ -59,6 +59,22 @@
       "early": 0,
       "leave": 2,
       "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
+      "name": "化学9A(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
       "time_spans": [
         "10:00-10:40"
       ]
@@ -174,6 +190,22 @@
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "3/3人次",
+      "present": 3,
+      "total": 3,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:50-11:30"
       ]
     },
     {
@@ -845,45 +877,45 @@
   "trend": [
     {
       "date": "10-04",
-      "attendance": 83.6,
+      "attendance": 84.8,
       "submit": 90.0
     },
     {
       "date": "10-05",
-      "attendance": 82.1,
+      "attendance": 83.3,
       "submit": 90.5
     },
     {
       "date": "10-06",
-      "attendance": 80.6,
+      "attendance": 81.8,
       "submit": 91.0
     },
     {
       "date": "10-07",
-      "attendance": 79.1,
+      "attendance": 80.3,
       "submit": 91.5
     },
     {
       "date": "10-08",
-      "attendance": 77.6,
+      "attendance": 78.8,
       "submit": 92.0
     },
     {
       "date": "10-09",
-      "attendance": 76.1,
+      "attendance": 77.3,
       "submit": 92.5
     },
     {
       "date": "10-10",
-      "attendance": 79.1,
-      "submit": 84.5
+      "attendance": 80.3,
+      "submit": 85.2
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "19/19",
+    "class_coverage": "21/21",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
