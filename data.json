@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-10 14:25",
+  "updated_at": "2026-10-10 14:31",
   "school": {
-    "rate": 76.9,
-    "present": 339,
-    "total": 441,
+    "rate": 77.6,
+    "present": 353,
+    "total": 455,
     "late": 19,
     "absent": 101,
     "leave": 59
@@ -264,6 +264,22 @@
       "present_text": "3/3人次",
       "present": 3,
       "total": 3,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
       "absent": 0,
       "late": 0,
       "early": 0,
@@ -1401,45 +1417,45 @@
   "trend": [
     {
       "date": "10-04",
-      "attendance": 81.4,
+      "attendance": 82.1,
       "submit": 90.0
     },
     {
       "date": "10-05",
-      "attendance": 79.9,
+      "attendance": 80.6,
       "submit": 90.5
     },
     {
       "date": "10-06",
-      "attendance": 78.4,
+      "attendance": 79.1,
       "submit": 91.0
     },
     {
       "date": "10-07",
-      "attendance": 76.9,
+      "attendance": 77.6,
       "submit": 91.5
     },
     {
       "date": "10-08",
-      "attendance": 75.4,
+      "attendance": 76.1,
       "submit": 92.0
     },
     {
       "date": "10-09",
-      "attendance": 73.9,
+      "attendance": 74.6,
       "submit": 92.5
     },
     {
       "date": "10-10",
-      "attendance": 76.9,
-      "submit": 83.5
+      "attendance": 77.6,
+      "submit": 83.8
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "30/30",
+    "class_coverage": "31/31",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
