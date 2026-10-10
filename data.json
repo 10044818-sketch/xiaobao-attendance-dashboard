@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-10 11:15",
+  "updated_at": "2026-10-10 11:20",
   "school": {
-    "rate": 79.4,
-    "present": 220,
+    "rate": 79.1,
+    "present": 219,
     "total": 277,
     "late": 17,
     "absent": 57,
@@ -277,13 +277,13 @@
     {
       "name": "雅思词汇C0(F26)",
       "teacher": "贺珍谊",
-      "rate": 87.5,
-      "present_text": "7/8人次",
-      "present": 7,
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
       "total": 8,
       "absent": 1,
       "late": 0,
-      "early": 0,
+      "early": 1,
       "leave": 1,
       "status": "异常",
       "time_spans": [
@@ -347,7 +347,7 @@
           "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-10-10T11:07:17"
+      "updated_at": "2026-10-10T11:18:31"
     },
     {
       "name": "周原",
@@ -845,38 +845,38 @@
   "trend": [
     {
       "date": "10-04",
-      "attendance": 83.9,
+      "attendance": 83.6,
       "submit": 90.0
     },
     {
       "date": "10-05",
-      "attendance": 82.4,
+      "attendance": 82.1,
       "submit": 90.5
     },
     {
       "date": "10-06",
-      "attendance": 80.9,
+      "attendance": 80.6,
       "submit": 91.0
     },
     {
       "date": "10-07",
-      "attendance": 79.4,
+      "attendance": 79.1,
       "submit": 91.5
     },
     {
       "date": "10-08",
-      "attendance": 77.9,
+      "attendance": 77.6,
       "submit": 92.0
     },
     {
       "date": "10-09",
-      "attendance": 76.4,
+      "attendance": 76.1,
       "submit": 92.5
     },
     {
       "date": "10-10",
-      "attendance": 79.4,
-      "submit": 84.7
+      "attendance": 79.1,
+      "submit": 84.5
     }
   ],
   "lesson": {
