@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-10 14:31",
+  "updated_at": "2026-10-10 14:36",
   "school": {
-    "rate": 77.6,
-    "present": 353,
-    "total": 455,
+    "rate": 78.4,
+    "present": 428,
+    "total": 546,
     "late": 19,
-    "absent": 101,
-    "leave": 59
+    "absent": 117,
+    "leave": 66
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -307,6 +307,23 @@
       ]
     },
     {
+      "name": "经济AY(F26)",
+      "teacher": "孙鹏",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
       "rate": 81.8,
@@ -317,6 +334,23 @@
       "late": 4,
       "early": 0,
       "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "经济CC(F26)",
+      "teacher": "孙鹏",
+      "rate": 63.6,
+      "present_text": "14/22人次",
+      "present": 14,
+      "total": 22,
+      "absent": 8,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -371,6 +405,39 @@
       "early": 0,
       "leave": 2,
       "status": "关注",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
+      ]
+    },
+    {
+      "name": "英语口语A0(F26)",
+      "teacher": "费楚淇",
+      "rate": 92.3,
+      "present_text": "12/13人次",
+      "present": 12,
+      "total": 13,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
+      "name": "英语口语AQ1(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 82.1,
+      "present_text": "23/28人次",
+      "present": 23,
+      "total": 28,
+      "absent": 5,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
       "time_spans": [
         "13:00-13:40",
         "13:50-14:30"
@@ -522,6 +589,178 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵倚菲",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:34:29"
+    },
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:34:29"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "Personal Leave_【Approved】 2026/9/28 7:00:00 to 2026/10/14 21:00:00  去国外",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:34:29"
+    },
+    {
+      "name": "岳沐辰",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/31 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:34:05"
+    },
+    {
+      "name": "闻誉婷",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-10T14:34:05"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:34:05"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:34:05"
+    },
+    {
+      "name": "仲斯琦",
+      "class": "G23",
+      "reason": "病假_【已通过】 2026/10/10 8:00:00 至 2026/10/10 17:00:00  仍有恶心症状。申请静养一日。 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "英语听力A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语阅读A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语口语A0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T14:31:53"
+    },
     {
       "name": "江雨霏",
       "class": "A22",
@@ -742,19 +981,6 @@
       "updated_at": "2026-10-10T14:12:50"
     },
     {
-      "name": "岳沐辰",
-      "class": "A21",
-      "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/31 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "体育C1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-10T14:12:50"
-    },
-    {
       "name": "俞玥",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -833,23 +1059,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "体育C1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-10T14:12:50"
-    },
-    {
-      "name": "王子天",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ3(F26)",
-          "time": "10:00-10:40"
-        },
         {
           "course": "体育C1(F26)",
           "time": "13:50-14:30"
@@ -971,23 +1180,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "体育C1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-10T14:12:50"
-    },
-    {
-      "name": "高子涵",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ3(F26)",
-          "time": "10:00-10:40"
-        },
         {
           "course": "体育C1(F26)",
           "time": "13:50-14:30"
@@ -1217,31 +1409,6 @@
       "updated_at": "2026-10-10T11:32:32"
     },
     {
-      "name": "仲斯琦",
-      "class": "G23",
-      "reason": "病假_【已通过】 2026/10/10 8:00:00 至 2026/10/10 17:00:00  仍有恶心症状。申请静养一日。 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "英语听力A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语阅读A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "音乐A0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-10T10:51:48"
-    },
-    {
       "name": "胡鑫玥",
       "class": "G22",
       "reason": "病假_【已通过】 2026/10/9 6:00:00 至 2026/10/10 17:00:00  人不舒服 ",
@@ -1417,45 +1584,45 @@
   "trend": [
     {
       "date": "10-04",
-      "attendance": 82.1,
+      "attendance": 82.9,
       "submit": 90.0
     },
     {
       "date": "10-05",
-      "attendance": 80.6,
+      "attendance": 81.4,
       "submit": 90.5
     },
     {
       "date": "10-06",
-      "attendance": 79.1,
+      "attendance": 79.9,
       "submit": 91.0
     },
     {
       "date": "10-07",
-      "attendance": 77.6,
+      "attendance": 78.4,
       "submit": 91.5
     },
     {
       "date": "10-08",
-      "attendance": 76.1,
+      "attendance": 76.9,
       "submit": 92.0
     },
     {
       "date": "10-09",
-      "attendance": 74.6,
+      "attendance": 75.4,
       "submit": 92.5
     },
     {
       "date": "10-10",
-      "attendance": 77.6,
-      "submit": 83.8
+      "attendance": 78.4,
+      "submit": 84.2
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "31/31",
+    "class_coverage": "35/35",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
