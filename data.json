@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-10 13:16",
+  "updated_at": "2026-10-10 13:21",
   "school": {
-    "rate": 79.6,
-    "present": 257,
-    "total": 323,
+    "rate": 80.4,
+    "present": 279,
+    "total": 347,
     "late": 17,
-    "absent": 65,
-    "leave": 47
+    "absent": 67,
+    "leave": 49
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -275,6 +275,23 @@
       ]
     },
     {
+      "name": "英语写作AQ3(F26)",
+      "teacher": "贺珍谊",
+      "rate": 91.7,
+      "present_text": "22/24人次",
+      "present": 22,
+      "total": 24,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "英语听力A0(F26)",
       "teacher": "费楚淇",
       "rate": 84.6,
@@ -388,6 +405,35 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "徐紫萱",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/10/10 8:00:00 至 2026/10/10 14:30:00  发烧 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-10T13:18:53"
+    },
     {
       "name": "余天佑",
       "class": "AS3",
@@ -683,27 +729,6 @@
       "updated_at": "2026-10-10T10:51:48"
     },
     {
-      "name": "徐紫萱",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/10 8:00:00 至 2026/10/10 14:30:00  发烧 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-10T10:49:51"
-    },
-    {
       "name": "胡鑫玥",
       "class": "G22",
       "reason": "病假_【已通过】 2026/10/9 6:00:00 至 2026/10/10 17:00:00  人不舒服 ",
@@ -986,45 +1011,45 @@
   "trend": [
     {
       "date": "10-04",
-      "attendance": 84.1,
+      "attendance": 84.9,
       "submit": 90.0
     },
     {
       "date": "10-05",
-      "attendance": 82.6,
+      "attendance": 83.4,
       "submit": 90.5
     },
     {
       "date": "10-06",
-      "attendance": 81.1,
+      "attendance": 81.9,
       "submit": 91.0
     },
     {
       "date": "10-07",
-      "attendance": 79.6,
+      "attendance": 80.4,
       "submit": 91.5
     },
     {
       "date": "10-08",
-      "attendance": 78.1,
+      "attendance": 78.9,
       "submit": 92.0
     },
     {
       "date": "10-09",
-      "attendance": 76.6,
+      "attendance": 77.4,
       "submit": 92.5
     },
     {
       "date": "10-10",
-      "attendance": 79.6,
-      "submit": 84.8
+      "attendance": 80.4,
+      "submit": 85.2
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "23/23",
+    "class_coverage": "24/24",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
