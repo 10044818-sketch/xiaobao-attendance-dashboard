@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-12 13:03",
+  "updated_at": "2026-10-12 13:05",
   "school": {
-    "rate": 80.0,
-    "present": 323,
-    "total": 404,
+    "rate": 80.4,
+    "present": 337,
+    "total": 419,
     "late": 6,
-    "absent": 81,
+    "absent": 82,
     "leave": 52
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -29,6 +29,22 @@
       "status": "关注",
       "time_spans": [
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "化学BY(F26)",
+      "teacher": "米万宝",
+      "rate": 93.3,
+      "present_text": "14/15人次",
+      "present": 14,
+      "total": 15,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -299,6 +315,27 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "王誉涵",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR3(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学BY(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-12T13:05:26"
+    },
     {
       "name": "李知颖",
       "class": "G11",
@@ -857,23 +894,6 @@
       "updated_at": "2026-10-12T10:27:57"
     },
     {
-      "name": "王誉涵",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/12 11:30:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR3(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR3(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-12T09:36:33"
-    },
-    {
       "name": "陈世棋",
       "class": "AS2",
       "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/15 17:00:00  复习考试 ",
@@ -1143,57 +1163,57 @@
   "trend": [
     {
       "date": "10-06",
-      "attendance": 84.5,
+      "attendance": 84.9,
       "submit": 90.0
     },
     {
       "date": "10-07",
-      "attendance": 83.0,
+      "attendance": 83.4,
       "submit": 90.5
     },
     {
       "date": "10-08",
-      "attendance": 81.5,
+      "attendance": 81.9,
       "submit": 91.0
     },
     {
       "date": "10-09",
-      "attendance": 80.0,
+      "attendance": 80.4,
       "submit": 91.5
     },
     {
       "date": "10-10",
-      "attendance": 78.5,
+      "attendance": 78.9,
       "submit": 92.0
     },
     {
       "date": "10-11",
-      "attendance": 77.0,
+      "attendance": 77.4,
       "submit": 92.5
     },
     {
       "date": "10-12",
-      "attendance": 80.0,
-      "submit": 85.0
+      "attendance": 80.4,
+      "submit": 85.2
     }
   ],
   "lesson": {
     "completion_rate": 63.9,
     "called": 46,
     "total": 72,
-    "class_coverage": "17/17",
+    "class_coverage": "18/18",
     "teacher_count": 18,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "高数CR2(F26)",
       "十年级 G23",
-      "十年级 G22",
       "九年级 G11",
-      "九年级 G12",
-      "十一年级 AS3",
-      "十年级 G21",
       "十二年级 A22",
+      "十一年级 AS1",
+      "十一年级 AS3",
+      "九年级 G12",
       "十一年级 AS2",
+      "高数CR2(F26)",
+      "十年级 G22",
+      "十年级 G21",
       "十二年级 A21"
     ],
     "uncovered_teachers": [
