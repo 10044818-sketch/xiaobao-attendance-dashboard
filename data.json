@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-12 14:01",
+  "updated_at": "2026-10-12 14:05",
   "school": {
-    "rate": 81.5,
-    "present": 435,
-    "total": 534,
+    "rate": 81.7,
+    "present": 454,
+    "total": 556,
     "late": 6,
-    "absent": 99,
-    "leave": 59
+    "absent": 102,
+    "leave": 62
   },
   "summary": {
     "pending_yesterday": 0,
@@ -286,16 +286,33 @@
       "name": "英语听力阅读AQ1(F26)",
       "teacher": "王伊",
       "rate": 78.6,
-      "present_text": "11/14人次",
-      "present": 11,
-      "total": 14,
-      "absent": 3,
+      "present_text": "22/28人次",
+      "present": 22,
+      "total": 28,
+      "absent": 6,
       "late": 0,
       "early": 0,
-      "leave": 3,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
+      "name": "语言艺术C0(F26)",
+      "teacher": "王伊",
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
+      "total": 8,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:50-14:30"
       ]
     },
     {
@@ -398,6 +415,81 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵倚菲",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/10/12 7:00:00 至 2026/10/12 12:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-12T14:02:55"
+    },
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/12 18:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-12T14:02:55"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-12T14:02:55"
+    },
     {
       "name": "沈诗珈",
       "class": "AS2",
@@ -930,69 +1022,6 @@
       "updated_at": "2026-10-12T10:51:41"
     },
     {
-      "name": "赵倚菲",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/10/12 7:00:00 至 2026/10/12 12:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语听力阅读AQ1(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-12T10:47:28"
-    },
-    {
-      "name": "金懿帆",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/12 18:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语听力阅读AQ1(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-12T10:47:28"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语听力阅读AQ1(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-12T10:47:28"
-    },
-    {
       "name": "邱沈尔",
       "class": "AS3",
       "reason": "事假_【已通过】 2026-10-12 08:00:00 至 2026-10-12 11:00:00  中文统考",
@@ -1324,22 +1353,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "10:50-11:30",
-      "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "10:50-11:30",
-      "location": "LT3-109"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "英语第二语言写作",
@@ -1407,58 +1420,57 @@
   "trend": [
     {
       "date": "10-06",
-      "attendance": 86.0,
+      "attendance": 86.2,
       "submit": 90.0
     },
     {
       "date": "10-07",
-      "attendance": 84.5,
+      "attendance": 84.7,
       "submit": 90.5
     },
     {
       "date": "10-08",
-      "attendance": 83.0,
+      "attendance": 83.2,
       "submit": 91.0
     },
     {
       "date": "10-09",
-      "attendance": 81.5,
+      "attendance": 81.7,
       "submit": 91.5
     },
     {
       "date": "10-10",
-      "attendance": 80.0,
+      "attendance": 80.2,
       "submit": 92.0
     },
     {
       "date": "10-11",
-      "attendance": 78.5,
+      "attendance": 78.7,
       "submit": 92.5
     },
     {
       "date": "10-12",
-      "attendance": 81.5,
+      "attendance": 81.7,
       "submit": 85.8
     }
   ],
   "lesson": {
-    "completion_rate": 65.2,
-    "called": 60,
+    "completion_rate": 67.4,
+    "called": 62,
     "total": 92,
-    "class_coverage": "23/23",
+    "class_coverage": "24/24",
     "teacher_count": 23,
     "uncovered_classes": [
-      "九年级 G11",
-      "十二年级 A21",
-      "十年级 G22",
+      "十年级 G21",
+      "十年级 G23",
       "十二年级 A22",
-      "十一年级 AS1",
-      "高数CR2(F26)",
       "十一年级 AS3",
       "十一年级 AS2",
+      "十二年级 A21",
+      "九年级 G11",
+      "高数CR2(F26)",
       "九年级 G12",
-      "十年级 G21",
-      "十年级 G23"
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -1636,22 +1648,6 @@
         "teacher": "李俊",
         "time": "10:50-11:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "10:50-11:30",
-        "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "10:50-11:30",
-        "location": "LT3-109"
       },
       {
         "class": "十年级 G23",
