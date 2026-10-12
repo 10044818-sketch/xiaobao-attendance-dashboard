@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-12 15:23",
+  "updated_at": "2026-10-12 15:25",
   "school": {
     "rate": 80.2,
-    "present": 643,
-    "total": 802,
+    "present": 644,
+    "total": 803,
     "late": 7,
     "absent": 159,
     "leave": 80
@@ -61,6 +61,22 @@
       "status": "关注",
       "time_spans": [
         "13:00-13:40"
+      ]
+    },
+    {
+      "name": "商科CA(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "1/1人次",
+      "present": 1,
+      "total": 1,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "15:30-16:10"
       ]
     },
     {
@@ -1989,22 +2005,22 @@
     "completion_rate": 73.7,
     "called": 98,
     "total": 133,
-    "class_coverage": "35/35",
+    "class_coverage": "36/36",
     "teacher_count": 26,
     "uncovered_classes": [
+      "十年级 G23",
+      "十年级 G21",
+      "化学BY(F26)",
+      "高数CR2(F26)",
       "十一年级 AS3",
       "九年级 G11",
-      "化学9A(F26)",
-      "十二年级 A21",
-      "化学BY(F26)",
-      "十二年级 A22",
-      "九年级 G12",
-      "十一年级 AS1",
+      "十年级 G22",
       "十一年级 AS2",
-      "十年级 G21",
-      "高数CR2(F26)",
-      "十年级 G23",
-      "十年级 G22"
+      "十二年级 A21",
+      "十一年级 AS1",
+      "化学9A(F26)",
+      "十二年级 A22",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
