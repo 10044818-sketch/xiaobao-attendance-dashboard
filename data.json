@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-12 09:45",
+  "updated_at": "2026-10-12 09:50",
   "school": {
     "rate": 86.1,
-    "present": 149,
-    "total": 173,
+    "present": 161,
+    "total": 187,
     "late": 1,
-    "absent": 24,
-    "leave": 18
+    "absent": 26,
+    "leave": 20
   },
   "summary": {
     "pending_yesterday": 0,
@@ -129,6 +129,22 @@
       ]
     },
     {
+      "name": "雅思BR1S(F26)",
+      "teacher": "曹德娟",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
+      ]
+    },
+    {
       "name": "雅思BR2(F26)",
       "teacher": "曹德娟",
       "rate": 88.9,
@@ -163,6 +179,40 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/10/12 8:00:00 至 2026/10/13 17:00:00  头痛 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1S(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-12T09:47:22"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/12 17:00:00  因个人原因请假一天，谢谢 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1S(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-12T09:47:22"
+    },
     {
       "name": "王誉涵",
       "class": "AS3",
@@ -252,19 +302,6 @@
         }
       ],
       "updated_at": "2026-10-12T09:12:07"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026-10-12 08:00:00 至 2026-10-12 17:00:00  因个人原因请假一天，谢谢",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-12T09:11:13"
     },
     {
       "name": "贾牧荷",
@@ -374,19 +411,6 @@
       "updated_at": "2026-10-12T08:55:23"
     },
     {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/10/12 8:00:00 至 2026/10/13 17:00:00  头痛 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-12T08:40:06"
-    },
-    {
       "name": "蔡雨涵",
       "class": "AS2",
       "reason": "已请假",
@@ -429,6 +453,54 @@
       "teacher": "费楚淇",
       "time": "08:20-09:00",
       "location": "LT3-206"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "09:10-09:50",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "09:10-09:50",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思英语",
+      "teacher": "费楚淇",
+      "time": "09:10-09:50",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思英语",
+      "teacher": "费楚淇",
+      "time": "09:10-09:50",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "经济学",
+      "teacher": "王肇君",
+      "time": "09:10-09:50",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "数学",
+      "teacher": "张小翼",
+      "time": "09:10-09:50",
+      "location": "LT3-107"
     }
   ],
   "trend": [
@@ -469,14 +541,18 @@
     }
   ],
   "lesson": {
-    "completion_rate": 83.3,
-    "called": 10,
-    "total": 12,
-    "class_coverage": "9/9",
-    "teacher_count": 8,
+    "completion_rate": 69.2,
+    "called": 18,
+    "total": 26,
+    "class_coverage": "10/10",
+    "teacher_count": 10,
     "uncovered_classes": [
+      "十年级 G23",
+      "十二年级 A22",
       "十二年级 A21",
-      "十二年级 A22"
+      "十年级 G22",
+      "九年级 G12",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -494,6 +570,54 @@
         "teacher": "费楚淇",
         "time": "08:20-09:00",
         "location": "LT3-206"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "物理",
+        "teacher": "职梦凡",
+        "time": "09:10-09:50",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "物理",
+        "teacher": "职梦凡",
+        "time": "09:10-09:50",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思英语",
+        "teacher": "费楚淇",
+        "time": "09:10-09:50",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思英语",
+        "teacher": "费楚淇",
+        "time": "09:10-09:50",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "经济学",
+        "teacher": "王肇君",
+        "time": "09:10-09:50",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "数学",
+        "teacher": "张小翼",
+        "time": "09:10-09:50",
+        "location": "LT3-107"
       }
     ]
   }
