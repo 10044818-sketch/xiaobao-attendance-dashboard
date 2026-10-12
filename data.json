@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-12 17:20",
+  "updated_at": "2026-10-12 17:25",
   "school": {
-    "rate": 81.8,
-    "present": 752,
-    "total": 919,
+    "rate": 81.7,
+    "present": 759,
+    "total": 929,
     "late": 11,
-    "absent": 167,
-    "leave": 87
+    "absent": 170,
+    "leave": 88
   },
   "summary": {
     "pending_yesterday": 0,
@@ -418,17 +418,18 @@
     {
       "name": "艺术BX(F26)",
       "teacher": "朱嘉怡",
-      "rate": 80.0,
-      "present_text": "8/10人次",
-      "present": 8,
-      "total": 10,
-      "absent": 2,
+      "rate": 75.0,
+      "present_text": "15/20人次",
+      "present": 15,
+      "total": 20,
+      "absent": 5,
       "late": 1,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
-        "14:40-15:20"
+        "14:40-15:20",
+        "15:30-16:10"
       ]
     },
     {
@@ -713,6 +714,81 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "沈诗珈",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-12T17:21:37"
+    },
+    {
+      "name": "冯麟",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/10/12 13:00:00 至 2026/10/12 20:00:00  不舒服，回家休息 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-12T17:21:37"
+    },
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-12T17:21:37"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -1276,31 +1352,6 @@
       "updated_at": "2026-10-12T15:08:17"
     },
     {
-      "name": "沈诗珈",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-12T15:08:17"
-    },
-    {
       "name": "刘建瑄",
       "class": "AS2",
       "reason": "当日缺课且无请假单",
@@ -1346,31 +1397,6 @@
         {
           "course": "物理BY(F26)",
           "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-12T15:08:17"
-    },
-    {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "艺术BX(F26)",
-          "time": "14:40-15:20"
         }
       ],
       "updated_at": "2026-10-12T15:08:17"
@@ -1499,19 +1525,6 @@
         }
       ],
       "updated_at": "2026-10-12T14:42:50"
-    },
-    {
-      "name": "冯麟",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/10/12 13:00:00 至 2026/10/12 20:00:00  不舒服，回家休息 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "艺术BX(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-10-12T14:42:04"
     },
     {
       "name": "赵倚菲",
@@ -2098,38 +2111,38 @@
   "trend": [
     {
       "date": "10-06",
-      "attendance": 86.3,
+      "attendance": 86.2,
       "submit": 90.0
     },
     {
       "date": "10-07",
-      "attendance": 84.8,
+      "attendance": 84.7,
       "submit": 90.5
     },
     {
       "date": "10-08",
-      "attendance": 83.3,
+      "attendance": 83.2,
       "submit": 91.0
     },
     {
       "date": "10-09",
-      "attendance": 81.8,
+      "attendance": 81.7,
       "submit": 91.5
     },
     {
       "date": "10-10",
-      "attendance": 80.3,
+      "attendance": 80.2,
       "submit": 92.0
     },
     {
       "date": "10-11",
-      "attendance": 78.8,
+      "attendance": 78.7,
       "submit": 92.5
     },
     {
       "date": "10-12",
-      "attendance": 81.8,
-      "submit": 85.9
+      "attendance": 81.7,
+      "submit": 85.8
     }
   ],
   "lesson": {
@@ -2139,15 +2152,15 @@
     "class_coverage": "42/42",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十年级 G22",
-      "十二年级 A22",
-      "九年级 G12",
-      "高数CR2(F26)",
       "九年级 G11",
       "十一年级 AS2",
-      "十一年级 AS3",
-      "十一年级 AS1",
       "十年级 G21",
+      "高数CR2(F26)",
+      "十一年级 AS3",
+      "九年级 G12",
+      "十年级 G22",
+      "十一年级 AS1",
+      "十二年级 A22",
       "十二年级 A21"
     ],
     "uncovered_teachers": [
