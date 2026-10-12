@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-12 13:15",
+  "updated_at": "2026-10-12 13:20",
   "school": {
-    "rate": 80.4,
-    "present": 337,
-    "total": 419,
+    "rate": 80.8,
+    "present": 345,
+    "total": 427,
     "late": 6,
     "absent": 82,
     "leave": 52
@@ -15,6 +15,22 @@
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "代数C0(F26)",
+      "teacher": "张小翼",
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
+      "total": 8,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
     {
       "name": "体育BR2(F26)",
       "teacher": "沈译宇",
@@ -1163,58 +1179,58 @@
   "trend": [
     {
       "date": "10-06",
-      "attendance": 84.9,
+      "attendance": 85.3,
       "submit": 90.0
     },
     {
       "date": "10-07",
-      "attendance": 83.4,
+      "attendance": 83.8,
       "submit": 90.5
     },
     {
       "date": "10-08",
-      "attendance": 81.9,
+      "attendance": 82.3,
       "submit": 91.0
     },
     {
       "date": "10-09",
-      "attendance": 80.4,
+      "attendance": 80.8,
       "submit": 91.5
     },
     {
       "date": "10-10",
-      "attendance": 78.9,
+      "attendance": 79.3,
       "submit": 92.0
     },
     {
       "date": "10-11",
-      "attendance": 77.4,
+      "attendance": 77.8,
       "submit": 92.5
     },
     {
       "date": "10-12",
-      "attendance": 80.4,
-      "submit": 85.2
+      "attendance": 80.8,
+      "submit": 85.4
     }
   ],
   "lesson": {
     "completion_rate": 63.9,
     "called": 46,
     "total": 72,
-    "class_coverage": "18/18",
+    "class_coverage": "19/19",
     "teacher_count": 18,
     "uncovered_classes": [
+      "十二年级 A22",
+      "十一年级 AS2",
       "十一年级 AS1",
-      "高数CR2(F26)",
-      "九年级 G12",
       "九年级 G11",
       "十二年级 A21",
-      "十年级 G22",
-      "十一年级 AS2",
-      "十二年级 A22",
+      "九年级 G12",
       "十年级 G23",
+      "十年级 G22",
+      "十一年级 AS3",
       "十年级 G21",
-      "十一年级 AS3"
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
