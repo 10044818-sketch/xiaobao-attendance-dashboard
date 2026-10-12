@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-12 12:56",
+  "updated_at": "2026-10-12 13:03",
   "school": {
-    "rate": 78.8,
-    "present": 293,
-    "total": 372,
+    "rate": 80.0,
+    "present": 323,
+    "total": 404,
     "late": 6,
-    "absent": 79,
-    "leave": 51
+    "absent": 81,
+    "leave": 52
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -86,16 +86,17 @@
       "name": "经济AX(F26)",
       "teacher": "王肇君",
       "rate": 94.4,
-      "present_text": "17/18人次",
-      "present": 17,
-      "total": 18,
-      "absent": 1,
+      "present_text": "34/36人次",
+      "present": 34,
+      "total": 36,
+      "absent": 2,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "关注",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -130,6 +131,22 @@
       "time_spans": [
         "09:10-09:50",
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "艺术9A(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -282,6 +299,48 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "艺术9A(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-12T13:01:28"
+    },
+    {
+      "name": "贾牧荷",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-12T13:00:28"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -798,27 +857,6 @@
       "updated_at": "2026-10-12T10:27:57"
     },
     {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐9A(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-12T10:00:36"
-    },
-    {
       "name": "王誉涵",
       "class": "AS3",
       "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/12 11:30:00  请假 ",
@@ -851,19 +889,6 @@
         }
       ],
       "updated_at": "2026-10-12T09:12:07"
-    },
-    {
-      "name": "贾牧荷",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-12T09:10:28"
     },
     {
       "name": "鲍希尔",
@@ -906,14 +931,6 @@
     }
   ],
   "pending_roll_call": [
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "经济学",
-      "teacher": "王肇君",
-      "time": "09:10-09:50",
-      "location": "LT3-109"
-    },
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
@@ -1126,68 +1143,60 @@
   "trend": [
     {
       "date": "10-06",
-      "attendance": 83.3,
+      "attendance": 84.5,
       "submit": 90.0
     },
     {
       "date": "10-07",
-      "attendance": 81.8,
+      "attendance": 83.0,
       "submit": 90.5
     },
     {
       "date": "10-08",
-      "attendance": 80.3,
+      "attendance": 81.5,
       "submit": 91.0
     },
     {
       "date": "10-09",
-      "attendance": 78.8,
+      "attendance": 80.0,
       "submit": 91.5
     },
     {
       "date": "10-10",
-      "attendance": 77.3,
+      "attendance": 78.5,
       "submit": 92.0
     },
     {
       "date": "10-11",
-      "attendance": 75.8,
+      "attendance": 77.0,
       "submit": 92.5
     },
     {
       "date": "10-12",
-      "attendance": 78.8,
-      "submit": 84.4
+      "attendance": 80.0,
+      "submit": 85.0
     }
   ],
   "lesson": {
-    "completion_rate": 62.5,
-    "called": 45,
+    "completion_rate": 63.9,
+    "called": 46,
     "total": 72,
-    "class_coverage": "16/16",
+    "class_coverage": "17/17",
     "teacher_count": 18,
     "uncovered_classes": [
-      "十年级 G21",
-      "九年级 G12",
+      "十一年级 AS1",
+      "高数CR2(F26)",
+      "十年级 G23",
       "十年级 G22",
       "九年级 G11",
-      "十年级 G23",
+      "九年级 G12",
       "十一年级 AS3",
-      "十一年级 AS2",
-      "十二年级 A21",
+      "十年级 G21",
       "十二年级 A22",
-      "高数CR2(F26)",
-      "十一年级 AS1"
+      "十一年级 AS2",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "经济学",
-        "teacher": "王肇君",
-        "time": "09:10-09:50",
-        "location": "LT3-109"
-      },
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
