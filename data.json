@@ -1,20 +1,36 @@
 {
-  "updated_at": "2026-10-12 09:01",
+  "updated_at": "2026-10-12 09:05",
   "school": {
-    "rate": 84.8,
-    "present": 39,
-    "total": 46,
+    "rate": 81.6,
+    "present": 71,
+    "total": 87,
     "late": 1,
-    "absent": 7,
-    "leave": 4
+    "absent": 16,
+    "leave": 11
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "数学A0(F26)",
+      "teacher": "张小翼",
+      "rate": 92.3,
+      "present_text": "12/13人次",
+      "present": 12,
+      "total": 13,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
     {
       "name": "物理9A(F26)",
       "teacher": "职梦凡",
@@ -29,6 +45,23 @@
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "经济AY(F26)",
+      "teacher": "孙鹏",
+      "rate": 71.4,
+      "present_text": "20/28人次",
+      "present": 20,
+      "total": 28,
+      "absent": 8,
+      "late": 0,
+      "early": 0,
+      "leave": 6,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -65,6 +98,87 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-12T09:04:34"
+    },
+    {
+      "name": "赵倚菲",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/10/12 7:00:00 至 2026/10/12 12:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-12T09:02:43"
+    },
+    {
+      "name": "尹勋",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-12T09:02:43"
+    },
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/12 18:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-12T09:02:43"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-12T09:02:43"
+    },
     {
       "name": "鲍希尔",
       "class": "AS1",
@@ -191,79 +305,61 @@
       "location": "LT3-206"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "08:20-09:00",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "经济学",
       "teacher": "王肇君",
       "time": "08:20-09:00",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "08:20-09:00",
-      "location": "LT3-107"
     }
   ],
   "trend": [
     {
       "date": "10-06",
-      "attendance": 89.3,
+      "attendance": 86.1,
       "submit": 90.0
     },
     {
       "date": "10-07",
-      "attendance": 87.8,
+      "attendance": 84.6,
       "submit": 90.5
     },
     {
       "date": "10-08",
-      "attendance": 86.3,
+      "attendance": 83.1,
       "submit": 91.0
     },
     {
       "date": "10-09",
-      "attendance": 84.8,
+      "attendance": 81.6,
       "submit": 91.5
     },
     {
       "date": "10-10",
-      "attendance": 83.3,
+      "attendance": 80.1,
       "submit": 92.0
     },
     {
       "date": "10-11",
-      "attendance": 81.8,
+      "attendance": 78.6,
       "submit": 92.5
     },
     {
       "date": "10-12",
-      "attendance": 84.8,
-      "submit": 87.4
+      "attendance": 81.6,
+      "submit": 85.8
     }
   ],
   "lesson": {
-    "completion_rate": 41.7,
-    "called": 5,
+    "completion_rate": 58.3,
+    "called": 7,
     "total": 12,
-    "class_coverage": "3/3",
+    "class_coverage": "5/5",
     "teacher_count": 8,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十年级 G21",
       "十一年级 AS1",
       "十年级 G22",
-      "十年级 G23",
+      "十二年级 A22",
       "十二年级 A21",
       "十一年级 AS3"
     ],
@@ -301,28 +397,12 @@
         "location": "LT3-206"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "08:20-09:00",
-        "location": "LT3-111"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "经济学",
         "teacher": "王肇君",
         "time": "08:20-09:00",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "08:20-09:00",
-        "location": "LT3-107"
       }
     ]
   }
