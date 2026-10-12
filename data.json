@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-12 09:05",
+  "updated_at": "2026-10-12 09:10",
   "school": {
-    "rate": 81.6,
-    "present": 71,
-    "total": 87,
+    "rate": 83.8,
+    "present": 88,
+    "total": 105,
     "late": 1,
-    "absent": 16,
+    "absent": 17,
     "leave": 11
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -43,6 +43,22 @@
       "early": 0,
       "leave": 0,
       "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
+      "name": "经济AX(F26)",
+      "teacher": "王肇君",
+      "rate": 94.4,
+      "present_text": "17/18人次",
+      "present": 17,
+      "total": 18,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
       "time_spans": [
         "08:20-09:00"
       ]
@@ -98,6 +114,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "贾牧荷",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-12T09:10:28"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -303,65 +332,56 @@
       "teacher": "费楚淇",
       "time": "08:20-09:00",
       "location": "LT3-206"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "经济学",
-      "teacher": "王肇君",
-      "time": "08:20-09:00",
-      "location": "LT3-109"
     }
   ],
   "trend": [
     {
       "date": "10-06",
-      "attendance": 86.1,
+      "attendance": 88.3,
       "submit": 90.0
     },
     {
       "date": "10-07",
-      "attendance": 84.6,
+      "attendance": 86.8,
       "submit": 90.5
     },
     {
       "date": "10-08",
-      "attendance": 83.1,
+      "attendance": 85.3,
       "submit": 91.0
     },
     {
       "date": "10-09",
-      "attendance": 81.6,
+      "attendance": 83.8,
       "submit": 91.5
     },
     {
       "date": "10-10",
-      "attendance": 80.1,
+      "attendance": 82.3,
       "submit": 92.0
     },
     {
       "date": "10-11",
-      "attendance": 78.6,
+      "attendance": 80.8,
       "submit": 92.5
     },
     {
       "date": "10-12",
-      "attendance": 81.6,
-      "submit": 85.8
+      "attendance": 83.8,
+      "submit": 86.9
     }
   ],
   "lesson": {
-    "completion_rate": 58.3,
-    "called": 7,
+    "completion_rate": 66.7,
+    "called": 8,
     "total": 12,
-    "class_coverage": "5/5",
+    "class_coverage": "6/6",
     "teacher_count": 8,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十年级 G22",
       "十二年级 A22",
+      "十一年级 AS3",
       "十二年级 A21",
-      "十一年级 AS3"
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -395,14 +415,6 @@
         "teacher": "费楚淇",
         "time": "08:20-09:00",
         "location": "LT3-206"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "经济学",
-        "teacher": "王肇君",
-        "time": "08:20-09:00",
-        "location": "LT3-109"
       }
     ]
   }
