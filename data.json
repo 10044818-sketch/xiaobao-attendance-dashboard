@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-12 15:55",
+  "updated_at": "2026-10-12 16:02",
   "school": {
-    "rate": 80.7,
-    "present": 679,
-    "total": 841,
+    "rate": 80.9,
+    "present": 687,
+    "total": 849,
     "late": 7,
     "absent": 162,
     "leave": 83
@@ -615,16 +615,17 @@
       "name": "雅思写作口语C0(F26)",
       "teacher": "曹德娟",
       "rate": 100.0,
-      "present_text": "8/8人次",
-      "present": 8,
-      "total": 8,
+      "present_text": "16/16人次",
+      "present": 16,
+      "total": 16,
       "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "14:40-15:20"
+        "14:40-15:20",
+        "15:30-16:10"
       ]
     },
     {
@@ -2004,38 +2005,38 @@
   "trend": [
     {
       "date": "10-06",
-      "attendance": 85.2,
+      "attendance": 85.4,
       "submit": 90.0
     },
     {
       "date": "10-07",
-      "attendance": 83.7,
+      "attendance": 83.9,
       "submit": 90.5
     },
     {
       "date": "10-08",
-      "attendance": 82.2,
+      "attendance": 82.4,
       "submit": 91.0
     },
     {
       "date": "10-09",
-      "attendance": 80.7,
+      "attendance": 80.9,
       "submit": 91.5
     },
     {
       "date": "10-10",
-      "attendance": 79.2,
+      "attendance": 79.4,
       "submit": 92.0
     },
     {
       "date": "10-11",
-      "attendance": 77.7,
+      "attendance": 77.9,
       "submit": 92.5
     },
     {
       "date": "10-12",
-      "attendance": 80.7,
-      "submit": 85.3
+      "attendance": 80.9,
+      "submit": 85.5
     }
   ],
   "lesson": {
@@ -2045,17 +2046,17 @@
     "class_coverage": "40/40",
     "teacher_count": 26,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "十一年级 AS3",
       "十一年级 AS2",
-      "九年级 G11",
-      "九年级 G12",
-      "化学BY(F26)",
       "十一年级 AS1",
-      "十年级 G23",
-      "十二年级 A21",
+      "化学BY(F26)",
       "十二年级 A22",
+      "十二年级 A21",
+      "十一年级 AS3",
+      "九年级 G11",
+      "十年级 G23",
       "十年级 G22",
+      "高数CR2(F26)",
+      "九年级 G12",
       "十年级 G21"
     ],
     "uncovered_teachers": [
