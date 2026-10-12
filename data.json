@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-12 10:06",
+  "updated_at": "2026-10-12 10:11",
   "school": {
-    "rate": 85.5,
-    "present": 200,
-    "total": 234,
+    "rate": 86.0,
+    "present": 208,
+    "total": 242,
     "late": 4,
     "absent": 34,
     "leave": 25
@@ -117,16 +117,17 @@
       "name": "经济C0(F26)",
       "teacher": "郝畅",
       "rate": 100.0,
-      "present_text": "8/8人次",
-      "present": 8,
-      "total": 8,
+      "present_text": "16/16人次",
+      "present": 16,
+      "total": 16,
       "absent": 0,
       "late": 2,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "09:10-09:50"
+        "09:10-09:50",
+        "10:00-10:40"
       ]
     },
     {
@@ -582,38 +583,38 @@
   "trend": [
     {
       "date": "10-06",
-      "attendance": 90.0,
+      "attendance": 90.5,
       "submit": 90.0
     },
     {
       "date": "10-07",
-      "attendance": 88.5,
+      "attendance": 89.0,
       "submit": 90.5
     },
     {
       "date": "10-08",
-      "attendance": 87.0,
+      "attendance": 87.5,
       "submit": 91.0
     },
     {
       "date": "10-09",
-      "attendance": 85.5,
+      "attendance": 86.0,
       "submit": 91.5
     },
     {
       "date": "10-10",
-      "attendance": 84.0,
+      "attendance": 84.5,
       "submit": 92.0
     },
     {
       "date": "10-11",
-      "attendance": 82.5,
+      "attendance": 83.0,
       "submit": 92.5
     },
     {
       "date": "10-12",
-      "attendance": 85.5,
-      "submit": 87.8
+      "attendance": 86.0,
+      "submit": 88.0
     }
   ],
   "lesson": {
@@ -624,9 +625,9 @@
     "teacher_count": 10,
     "uncovered_classes": [
       "十二年级 A22",
-      "十年级 G22",
       "十二年级 A21",
-      "十年级 G23"
+      "十年级 G23",
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
