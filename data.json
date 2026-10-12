@@ -1,64 +1,137 @@
 {
-  "updated_at": "2026-10-12 08:17",
+  "updated_at": "2026-10-12 08:22",
   "school": {
-    "rate": 0,
-    "present": 0,
-    "total": 0,
-    "late": 0,
-    "absent": 0,
-    "leave": 0
+    "rate": 90.6,
+    "present": 29,
+    "total": 32,
+    "late": 1,
+    "absent": 3,
+    "leave": 1
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
-  "classes": [],
-  "absent_students": [],
+  "classes": [
+    {
+      "name": "物理9A(F26)",
+      "teacher": "职梦凡",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
+      "name": "雅思BR2(F26)",
+      "teacher": "曹德娟",
+      "rate": 94.4,
+      "present_text": "17/18人次",
+      "present": 17,
+      "total": 18,
+      "absent": 1,
+      "late": 1,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    }
+  ],
+  "absent_students": [
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-12T08:21:55"
+    },
+    {
+      "name": "舒泽杨",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-12T08:20:15"
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-12T08:20:15"
+    }
+  ],
   "pending_roll_call": [],
   "trend": [
     {
       "date": "10-06",
-      "attendance": 4.5,
+      "attendance": 95.1,
       "submit": 90.0
     },
     {
       "date": "10-07",
-      "attendance": 3.0,
+      "attendance": 93.6,
       "submit": 90.5
     },
     {
       "date": "10-08",
-      "attendance": 1.5,
+      "attendance": 92.1,
       "submit": 91.0
     },
     {
       "date": "10-09",
-      "attendance": 0.0,
+      "attendance": 90.6,
       "submit": 91.5
     },
     {
       "date": "10-10",
-      "attendance": -1.5,
+      "attendance": 89.1,
       "submit": 92.0
     },
     {
       "date": "10-11",
-      "attendance": -3.0,
+      "attendance": 87.6,
       "submit": 92.5
     },
     {
       "date": "10-12",
-      "attendance": 0,
-      "submit": 45.0
+      "attendance": 90.6,
+      "submit": 90.3
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "0/0",
+    "class_coverage": "2/2",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
