@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-13 15:05",
+  "updated_at": "2026-10-13 15:10",
   "school": {
-    "rate": 82.4,
-    "present": 561,
-    "total": 681,
+    "rate": 82.6,
+    "present": 569,
+    "total": 689,
     "late": 10,
     "absent": 120,
-    "leave": 75
+    "leave": 82
   },
   "summary": {
     "pending_yesterday": 0,
@@ -105,7 +105,7 @@
       "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -258,7 +258,7 @@
       "absent": 8,
       "late": 0,
       "early": 0,
-      "leave": 4,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
         "13:50-14:30",
@@ -275,7 +275,7 @@
       "absent": 3,
       "late": 1,
       "early": 0,
-      "leave": 0,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
         "10:00-10:40",
@@ -578,6 +578,22 @@
       ]
     },
     {
+      "name": "语言艺术C0(F26)",
+      "teacher": "王伊",
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
+      "total": 8,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "14:40-15:20"
+      ]
+    },
+    {
       "name": "雅思BR1(F26)",
       "teacher": "贺珍谊",
       "rate": 78.6,
@@ -587,7 +603,7 @@
       "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
         "13:00-13:40"
@@ -660,6 +676,43 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026-10-13 08:00:00 至 2026-10-13 17:00:00  因个人原因，请假一天，谢谢",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学BZ(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-13T15:08:57"
+    },
     {
       "name": "黄子怿",
       "class": "AS3",
@@ -1143,43 +1196,6 @@
         {
           "course": "商科BZ(F26)",
           "time": "09:10-09:50"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-10-13T14:40:52"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学BZ(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "10:50-11:30"
         },
         {
           "course": "雅思BR1(F26)",
@@ -1788,59 +1804,59 @@
   "trend": [
     {
       "date": "10-07",
-      "attendance": 86.9,
+      "attendance": 87.1,
       "submit": 90.0
     },
     {
       "date": "10-08",
-      "attendance": 85.4,
+      "attendance": 85.6,
       "submit": 90.5
     },
     {
       "date": "10-09",
-      "attendance": 83.9,
+      "attendance": 84.1,
       "submit": 91.0
     },
     {
       "date": "10-10",
-      "attendance": 82.4,
+      "attendance": 82.6,
       "submit": 91.5
     },
     {
       "date": "10-11",
-      "attendance": 80.9,
+      "attendance": 81.1,
       "submit": 92.0
     },
     {
       "date": "10-12",
-      "attendance": 79.4,
+      "attendance": 79.6,
       "submit": 92.5
     },
     {
       "date": "10-13",
-      "attendance": 82.4,
-      "submit": 86.2
+      "attendance": 82.6,
+      "submit": 86.3
     }
   ],
   "lesson": {
     "completion_rate": 76.4,
     "called": 107,
     "total": 140,
-    "class_coverage": "39/39",
+    "class_coverage": "40/40",
     "teacher_count": 25,
     "uncovered_classes": [
-      "高数CR2(F26)",
+      "十年级 G21",
       "十年级 G23",
-      "十一年级 AS3",
-      "十二年级 A21",
-      "十年级 G22",
-      "十一年级 AS1",
-      "化学AA(F26)",
-      "九年级 G12",
-      "十二年级 A22",
-      "十一年级 AS2",
       "九年级 G11",
-      "十年级 G21"
+      "高数CR2(F26)",
+      "十一年级 AS1",
+      "十一年级 AS3",
+      "十二年级 A22",
+      "九年级 G12",
+      "化学AA(F26)",
+      "十二年级 A21",
+      "十一年级 AS2",
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
