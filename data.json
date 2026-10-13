@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-13 17:31",
+  "updated_at": "2026-10-13 17:36",
   "school": {
-    "rate": 83.1,
-    "present": 657,
-    "total": 791,
+    "rate": 83.3,
+    "present": 684,
+    "total": 821,
     "late": 10,
-    "absent": 134,
-    "leave": 91
+    "absent": 137,
+    "leave": 92
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 12,
+    "class_attention": 13,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -301,6 +301,22 @@
       ]
     },
     {
+      "name": "物理9A(F26)",
+      "teacher": "职梦凡",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "14:40-15:20"
+      ]
+    },
+    {
       "name": "物理A0(F26)",
       "teacher": "曾靓",
       "rate": 92.3,
@@ -331,6 +347,23 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "物理C0(F26)",
+      "teacher": "职梦凡",
+      "rate": 87.5,
+      "present_text": "14/16人次",
+      "present": 14,
+      "total": 16,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -744,6 +777,64 @@
   ],
   "absent_students": [
     {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/10/13 8:00:00 至 2026/10/13 17:00:00  小孩身体不适，请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        },
+        {
+          "course": "日语(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-10-13T17:34:02"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理C0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-13T17:33:53"
+    },
+    {
       "name": "金懿帆",
       "class": "G21",
       "reason": "事假_【已通过】 2026/10/13 7:00:00 至 2026/10/13 17:00:00  不舒服 ",
@@ -816,43 +907,6 @@
         }
       ],
       "updated_at": "2026-10-13T17:04:32"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "事假_【已通过】 2026/10/13 8:00:00 至 2026/10/13 17:00:00  小孩身体不适，请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "日语(F26)",
-          "time": "15:30-16:10"
-        },
-        {
-          "course": "日语(F26)",
-          "time": "16:20-17:00"
-        }
-      ],
-      "updated_at": "2026-10-13T16:19:28"
     },
     {
       "name": "耿子涵",
@@ -1756,22 +1810,6 @@
       "location": ""
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "13:00-13:40",
-      "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "13:00-13:40",
-      "location": "LT3-209"
-    },
-    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "艺术与设计",
@@ -1814,26 +1852,10 @@
     {
       "class": "十二年级 A21",
       "class_id": 366030,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "13:50-14:30",
-      "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
       "subject": "高等数学",
       "teacher": "李俊",
       "time": "13:50-14:30",
       "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "13:50-14:30",
-      "location": "LT3-209"
     },
     {
       "class": "十二年级 A22",
@@ -1874,22 +1896,6 @@
       "teacher": "李俊",
       "time": "13:50-14:30",
       "location": "LT3-208"
-    },
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "14:40-15:20",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "14:40-15:20",
-      "location": "LT3-108"
     },
     {
       "class": "十一年级 AS1",
@@ -1959,58 +1965,58 @@
   "trend": [
     {
       "date": "10-07",
-      "attendance": 87.6,
+      "attendance": 87.8,
       "submit": 90.0
     },
     {
       "date": "10-08",
-      "attendance": 86.1,
+      "attendance": 86.3,
       "submit": 90.5
     },
     {
       "date": "10-09",
-      "attendance": 84.6,
+      "attendance": 84.8,
       "submit": 91.0
     },
     {
       "date": "10-10",
-      "attendance": 83.1,
+      "attendance": 83.3,
       "submit": 91.5
     },
     {
       "date": "10-11",
-      "attendance": 81.6,
+      "attendance": 81.8,
       "submit": 92.0
     },
     {
       "date": "10-12",
-      "attendance": 80.1,
+      "attendance": 80.3,
       "submit": 92.5
     },
     {
       "date": "10-13",
-      "attendance": 83.1,
-      "submit": 86.5
+      "attendance": 83.3,
+      "submit": 86.7
     }
   ],
   "lesson": {
-    "completion_rate": 76.7,
-    "called": 122,
+    "completion_rate": 80.5,
+    "called": 128,
     "total": 159,
-    "class_coverage": "44/44",
+    "class_coverage": "46/46",
     "teacher_count": 27,
     "uncovered_classes": [
-      "九年级 G11",
-      "十一年级 AS3",
-      "十年级 G21",
-      "十年级 G23",
-      "十二年级 A21",
-      "九年级 G12",
+      "十二年级 A22",
       "十一年级 AS2",
-      "高数CR2(F26)",
-      "十年级 G22",
       "十一年级 AS1",
-      "十二年级 A22"
+      "九年级 G11",
+      "十二年级 A21",
+      "十年级 G21",
+      "十一年级 AS3",
+      "高数CR2(F26)",
+      "九年级 G12",
+      "十年级 G22",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
@@ -2110,22 +2116,6 @@
         "location": ""
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "13:00-13:40",
-        "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "13:00-13:40",
-        "location": "LT3-209"
-      },
-      {
         "class": "十年级 G21",
         "class_id": 517698,
         "subject": "艺术与设计",
@@ -2168,26 +2158,10 @@
       {
         "class": "十二年级 A21",
         "class_id": 366030,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "13:50-14:30",
-        "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
         "subject": "高等数学",
         "teacher": "李俊",
         "time": "13:50-14:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "13:50-14:30",
-        "location": "LT3-209"
       },
       {
         "class": "十二年级 A22",
@@ -2228,22 +2202,6 @@
         "teacher": "李俊",
         "time": "13:50-14:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "14:40-15:20",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "14:40-15:20",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
