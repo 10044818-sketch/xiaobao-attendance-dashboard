@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-13 13:25",
+  "updated_at": "2026-10-13 13:30",
   "school": {
-    "rate": 83.9,
-    "present": 406,
+    "rate": 83.7,
+    "present": 405,
     "total": 484,
     "late": 10,
-    "absent": 78,
-    "leave": 51
+    "absent": 79,
+    "leave": 52
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 6,
+    "class_attention": 7,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -496,21 +496,38 @@
     {
       "name": "音乐BR3(F26)",
       "teacher": "刘知言",
-      "rate": 95.0,
-      "present_text": "19/20人次",
-      "present": 19,
+      "rate": 90.0,
+      "present_text": "18/20人次",
+      "present": 18,
       "total": 20,
-      "absent": 1,
+      "absent": 2,
       "late": 1,
       "early": 0,
-      "leave": 1,
-      "status": "正常",
+      "leave": 2,
+      "status": "关注",
       "time_spans": [
         "13:00-13:40"
       ]
     }
   ],
   "absent_students": [
+    {
+      "name": "邱沈尔",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐BR3(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-13T13:29:17"
+    },
     {
       "name": "许睿",
       "class": "G22",
@@ -1021,19 +1038,6 @@
       "updated_at": "2026-10-13T10:06:25"
     },
     {
-      "name": "邱沈尔",
-      "class": "AS3",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理BX(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-13T10:00:44"
-    },
-    {
       "name": "周原",
       "class": "AS1",
       "reason": "病假_【已通过】 2026/10/12 8:00:00 至 2026/10/13 17:00:00  头痛 ",
@@ -1252,38 +1256,38 @@
   "trend": [
     {
       "date": "10-07",
-      "attendance": 88.4,
+      "attendance": 88.2,
       "submit": 90.0
     },
     {
       "date": "10-08",
-      "attendance": 86.9,
+      "attendance": 86.7,
       "submit": 90.5
     },
     {
       "date": "10-09",
-      "attendance": 85.4,
+      "attendance": 85.2,
       "submit": 91.0
     },
     {
       "date": "10-10",
-      "attendance": 83.9,
+      "attendance": 83.7,
       "submit": 91.5
     },
     {
       "date": "10-11",
-      "attendance": 82.4,
+      "attendance": 82.2,
       "submit": 92.0
     },
     {
       "date": "10-12",
-      "attendance": 80.9,
+      "attendance": 80.7,
       "submit": 92.5
     },
     {
       "date": "10-13",
-      "attendance": 83.9,
-      "submit": 87.0
+      "attendance": 83.7,
+      "submit": 86.8
     }
   ],
   "lesson": {
@@ -1293,14 +1297,14 @@
     "class_coverage": "30/30",
     "teacher_count": 21,
     "uncovered_classes": [
-      "九年级 G11",
       "十二年级 A22",
       "十年级 G22",
       "十一年级 AS3",
+      "九年级 G11",
       "十年级 G21",
-      "十一年级 AS2",
       "九年级 G12",
-      "十一年级 AS1"
+      "十一年级 AS1",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
