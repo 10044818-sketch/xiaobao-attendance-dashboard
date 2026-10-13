@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-13 12:10",
+  "updated_at": "2026-10-13 12:15",
   "school": {
     "rate": 83.6,
     "present": 286,
     "total": 342,
     "late": 9,
     "absent": 56,
-    "leave": 29
+    "leave": 31
   },
   "summary": {
     "pending_yesterday": 0,
@@ -123,7 +123,7 @@
       "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 0,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -381,6 +381,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "陈乐涵",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026-10-13 08:00:00 至 2026-10-13 12:00:00  事假",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学CB(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-13T12:13:06"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -772,23 +789,6 @@
       "updated_at": "2026-10-13T10:00:00"
     },
     {
-      "name": "陈乐涵",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学CB(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学CB(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-13T09:58:19"
-    },
-    {
       "name": "周原",
       "class": "AS1",
       "reason": "病假_【已通过】 2026/10/12 8:00:00 至 2026/10/13 17:00:00  头痛 ",
@@ -1136,12 +1136,12 @@
     "class_coverage": "22/22",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十一年级 AS1",
       "十年级 G21",
-      "九年级 G11",
       "十年级 G22",
       "九年级 G12",
+      "十一年级 AS1",
+      "九年级 G11",
+      "十一年级 AS2",
       "十一年级 AS3",
       "十二年级 A22"
     ],
