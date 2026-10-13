@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-13 15:31",
+  "updated_at": "2026-10-13 15:35",
   "school": {
-    "rate": 82.6,
-    "present": 613,
-    "total": 742,
+    "rate": 82.7,
+    "present": 623,
+    "total": 753,
     "late": 10,
-    "absent": 129,
-    "leave": 87
+    "absent": 130,
+    "leave": 88
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 10,
+    "class_attention": 11,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -281,6 +281,22 @@
       "time_spans": [
         "13:50-14:30",
         "14:40-15:20"
+      ]
+    },
+    {
+      "name": "日语(F26)",
+      "teacher": "马琳",
+      "rate": 90.9,
+      "present_text": "10/11人次",
+      "present": 10,
+      "total": 11,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "15:30-16:10"
       ]
     },
     {
@@ -695,6 +711,39 @@
   ],
   "absent_students": [
     {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/10/13 8:00:00 至 2026/10/13 17:00:00  小孩身体不适，请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-13T15:31:29"
+    },
+    {
       "name": "杨宇齐",
       "class": "G22",
       "reason": "病假_【已通过】 2026/10/13 12:30:00 至 2026/10/13 17:30:00  病假 ",
@@ -941,35 +990,6 @@
         }
       ],
       "updated_at": "2026-10-13T14:43:40"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "事假_【已通过】 2026/10/13 8:00:00 至 2026/10/13 17:00:00  小孩身体不适，请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-13T14:43:28"
     },
     {
       "name": "耿子涵",
@@ -1906,37 +1926,37 @@
   "trend": [
     {
       "date": "10-07",
-      "attendance": 87.1,
+      "attendance": 87.2,
       "submit": 90.0
     },
     {
       "date": "10-08",
-      "attendance": 85.6,
+      "attendance": 85.7,
       "submit": 90.5
     },
     {
       "date": "10-09",
-      "attendance": 84.1,
+      "attendance": 84.2,
       "submit": 91.0
     },
     {
       "date": "10-10",
-      "attendance": 82.6,
+      "attendance": 82.7,
       "submit": 91.5
     },
     {
       "date": "10-11",
-      "attendance": 81.1,
+      "attendance": 81.2,
       "submit": 92.0
     },
     {
       "date": "10-12",
-      "attendance": 79.6,
+      "attendance": 79.7,
       "submit": 92.5
     },
     {
       "date": "10-13",
-      "attendance": 82.6,
+      "attendance": 82.7,
       "submit": 86.3
     }
   ],
@@ -1944,20 +1964,20 @@
     "completion_rate": 75.5,
     "called": 120,
     "total": 159,
-    "class_coverage": "41/41",
+    "class_coverage": "42/42",
     "teacher_count": 27,
     "uncovered_classes": [
-      "九年级 G11",
-      "十年级 G22",
+      "十年级 G21",
+      "十一年级 AS2",
       "十一年级 AS3",
       "九年级 G12",
-      "十一年级 AS2",
-      "十二年级 A21",
-      "十年级 G21",
-      "高数CR2(F26)",
+      "十一年级 AS1",
       "十二年级 A22",
+      "九年级 G11",
+      "十二年级 A21",
+      "高数CR2(F26)",
       "十年级 G23",
-      "十一年级 AS1"
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
