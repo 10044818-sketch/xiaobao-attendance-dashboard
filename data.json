@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-13 12:35",
+  "updated_at": "2026-10-13 12:41",
   "school": {
-    "rate": 83.9,
-    "present": 313,
-    "total": 373,
+    "rate": 84.2,
+    "present": 326,
+    "total": 387,
     "late": 9,
-    "absent": 60,
-    "leave": 34
+    "absent": 61,
+    "leave": 35
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -364,6 +364,22 @@
       ]
     },
     {
+      "name": "英语听读写9A(F26)",
+      "teacher": "瞿芬",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "09:10-09:50"
+      ]
+    },
+    {
       "name": "英语阅读A0(F26)",
       "teacher": "曹德娟",
       "rate": 92.3,
@@ -398,6 +414,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/10/13 8:00:00 至 2026/10/13 17:00:00  小孩身体不适，请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-13T12:35:47"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -809,19 +842,6 @@
       "updated_at": "2026-10-13T10:00:44"
     },
     {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "事假_【已通过】 2026/10/13 8:00:00 至 2026/10/13 17:00:00  小孩身体不适，请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-13T10:00:00"
-    },
-    {
       "name": "周原",
       "class": "AS1",
       "reason": "病假_【已通过】 2026/10/12 8:00:00 至 2026/10/13 17:00:00  头痛 ",
@@ -931,22 +951,6 @@
       "teacher": "赵亮",
       "time": "08:20-09:00",
       "location": "LT3-122"
-    },
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
     },
     {
       "class": "十二年级 A22",
@@ -1088,55 +1092,55 @@
   "trend": [
     {
       "date": "10-07",
-      "attendance": 88.4,
+      "attendance": 88.7,
       "submit": 90.0
     },
     {
       "date": "10-08",
-      "attendance": 86.9,
+      "attendance": 87.2,
       "submit": 90.5
     },
     {
       "date": "10-09",
-      "attendance": 85.4,
+      "attendance": 85.7,
       "submit": 91.0
     },
     {
       "date": "10-10",
-      "attendance": 83.9,
+      "attendance": 84.2,
       "submit": 91.5
     },
     {
       "date": "10-11",
-      "attendance": 82.4,
+      "attendance": 82.7,
       "submit": 92.0
     },
     {
       "date": "10-12",
-      "attendance": 80.9,
+      "attendance": 81.2,
       "submit": 92.5
     },
     {
       "date": "10-13",
-      "attendance": 83.9,
-      "submit": 87.0
+      "attendance": 84.2,
+      "submit": 87.1
     }
   ],
   "lesson": {
-    "completion_rate": 75.3,
-    "called": 73,
+    "completion_rate": 77.3,
+    "called": 75,
     "total": 97,
-    "class_coverage": "23/23",
+    "class_coverage": "24/24",
     "teacher_count": 21,
     "uncovered_classes": [
-      "九年级 G11",
+      "十年级 G21",
+      "十一年级 AS1",
+      "九年级 G12",
       "十二年级 A22",
       "十一年级 AS2",
-      "十年级 G21",
       "十年级 G22",
-      "十一年级 AS3",
-      "十一年级 AS1",
-      "九年级 G12"
+      "九年级 G11",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -1178,22 +1182,6 @@
         "teacher": "赵亮",
         "time": "08:20-09:00",
         "location": "LT3-122"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
       },
       {
         "class": "十二年级 A22",
