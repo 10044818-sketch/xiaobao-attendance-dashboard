@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-13 10:45",
+  "updated_at": "2026-10-13 10:50",
   "school": {
-    "rate": 80.9,
-    "present": 123,
-    "total": 152,
+    "rate": 80.1,
+    "present": 137,
+    "total": 171,
     "late": 4,
-    "absent": 29,
-    "leave": 12
+    "absent": 34,
+    "leave": 15
   },
   "summary": {
     "pending_yesterday": 0,
@@ -147,6 +147,22 @@
       ]
     },
     {
+      "name": "艺术BX(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 60.0,
+      "present_text": "6/10人次",
+      "present": 6,
+      "total": 10,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "艺术BZ(F26)",
       "teacher": "朱嘉怡",
       "rate": 50.0,
@@ -195,6 +211,22 @@
       ]
     },
     {
+      "name": "英语口语AQ2(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 88.9,
+      "present_text": "8/9人次",
+      "present": 8,
+      "total": 9,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "英语阅读A0(F26)",
       "teacher": "曹德娟",
       "rate": 92.3,
@@ -212,6 +244,75 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "孔维轩",
+      "class": "G22",
+      "reason": "Sick Leave_【Approved】 2026/10/13 8:00:00 to 2026/10/13 17:00:00  病假。手指受伤，肠胃不适。",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "英语口语AQ2(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-13T10:46:36"
+    },
+    {
+      "name": "沈诗珈",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-13T10:45:48"
+    },
+    {
+      "name": "冯麟",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术BZ(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-13T10:45:48"
+    },
+    {
+      "name": "丁怡霏",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/10/13 8:00:00 至 2026/10/13 12:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-13T10:45:48"
+    },
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-13T10:45:48"
+    },
     {
       "name": "金懿帆",
       "class": "G21",
@@ -503,19 +604,6 @@
         }
       ],
       "updated_at": "2026-10-13T08:22:42"
-    },
-    {
-      "name": "冯麟",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "艺术BZ(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-13T08:20:50"
     }
   ],
   "pending_roll_call": [
@@ -826,26 +914,10 @@
     {
       "class": "十年级 G21",
       "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "10:00-10:40",
-      "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
       "subject": "英语第二语言",
       "teacher": "王伊",
       "time": "10:00-10:40",
       "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "10:00-10:40",
-      "location": "LT3-111"
     },
     {
       "class": "十年级 G22",
@@ -867,59 +939,59 @@
   "trend": [
     {
       "date": "10-07",
-      "attendance": 85.4,
+      "attendance": 84.6,
       "submit": 90.0
     },
     {
       "date": "10-08",
-      "attendance": 83.9,
+      "attendance": 83.1,
       "submit": 90.5
     },
     {
       "date": "10-09",
-      "attendance": 82.4,
+      "attendance": 81.6,
       "submit": 91.0
     },
     {
       "date": "10-10",
-      "attendance": 80.9,
+      "attendance": 80.1,
       "submit": 91.5
     },
     {
       "date": "10-11",
-      "attendance": 79.4,
+      "attendance": 78.6,
       "submit": 92.0
     },
     {
       "date": "10-12",
-      "attendance": 77.9,
+      "attendance": 77.1,
       "submit": 92.5
     },
     {
       "date": "10-13",
-      "attendance": 80.9,
-      "submit": 85.5
+      "attendance": 80.1,
+      "submit": 85.0
     }
   ],
   "lesson": {
-    "completion_rate": 44.2,
-    "called": 34,
+    "completion_rate": 46.8,
+    "called": 36,
     "total": 77,
-    "class_coverage": "12/12",
+    "class_coverage": "14/14",
     "teacher_count": 20,
     "uncovered_classes": [
+      "十二年级 A21",
+      "九年级 G12",
       "九年级 G11",
+      "十一年级 AS3",
+      "十年级 G21",
+      "十年级 G23",
+      "十一年级 AS2",
+      "化学C0(F26)",
       "十二年级 A22",
       "十一年级 AS1",
-      "十年级 G21",
-      "十一年级 AS3",
-      "十一年级 AS2",
-      "九年级 G12",
-      "化学BZ(F26)",
-      "十二年级 A21",
-      "化学C0(F26)",
-      "十年级 G23",
-      "十年级 G22"
+      "十年级 G22",
+      "化学BZ(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -1229,26 +1301,10 @@
       {
         "class": "十年级 G21",
         "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "10:00-10:40",
-        "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
         "subject": "英语第二语言",
         "teacher": "王伊",
         "time": "10:00-10:40",
         "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "10:00-10:40",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G22",
