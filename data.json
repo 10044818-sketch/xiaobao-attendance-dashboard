@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-13 12:55",
+  "updated_at": "2026-10-13 13:01",
   "school": {
-    "rate": 84.2,
-    "present": 326,
-    "total": 387,
+    "rate": 84.3,
+    "present": 328,
+    "total": 389,
     "late": 9,
     "absent": 61,
     "leave": 35
@@ -264,6 +264,22 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "艺术AA(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -1092,55 +1108,55 @@
   "trend": [
     {
       "date": "10-07",
-      "attendance": 88.7,
+      "attendance": 88.8,
       "submit": 90.0
     },
     {
       "date": "10-08",
-      "attendance": 87.2,
+      "attendance": 87.3,
       "submit": 90.5
     },
     {
       "date": "10-09",
-      "attendance": 85.7,
+      "attendance": 85.8,
       "submit": 91.0
     },
     {
       "date": "10-10",
-      "attendance": 84.2,
+      "attendance": 84.3,
       "submit": 91.5
     },
     {
       "date": "10-11",
-      "attendance": 82.7,
+      "attendance": 82.8,
       "submit": 92.0
     },
     {
       "date": "10-12",
-      "attendance": 81.2,
+      "attendance": 81.3,
       "submit": 92.5
     },
     {
       "date": "10-13",
-      "attendance": 84.2,
-      "submit": 87.1
+      "attendance": 84.3,
+      "submit": 87.2
     }
   ],
   "lesson": {
     "completion_rate": 77.3,
     "called": 75,
     "total": 97,
-    "class_coverage": "24/24",
+    "class_coverage": "25/25",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "九年级 G12",
-      "十年级 G22",
+      "十年级 G21",
       "九年级 G11",
-      "十一年级 AS1",
-      "十一年级 AS2",
       "十二年级 A22",
-      "十年级 G21"
+      "十年级 G22",
+      "十一年级 AS1",
+      "十一年级 AS3",
+      "十一年级 AS2",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
