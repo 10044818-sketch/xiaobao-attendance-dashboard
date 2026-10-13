@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-13 14:31",
+  "updated_at": "2026-10-13 14:36",
   "school": {
-    "rate": 83.2,
-    "present": 442,
-    "total": 531,
+    "rate": 83.7,
+    "present": 468,
+    "total": 559,
     "late": 10,
-    "absent": 89,
-    "leave": 60
+    "absent": 91,
+    "leave": 62
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 7,
+    "class_attention": 8,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -415,6 +415,23 @@
       ]
     },
     {
+      "name": "英语口语9A(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "英语口语AQ2(F26)",
       "teacher": "Johannes van Baardewijk",
       "rate": 88.9,
@@ -545,6 +562,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "Personal Leave_【Approved】 2026/10/13 8:00:00 to 2026/10/13 17:00:00  小孩身体不适，请假一天",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-13T14:36:28"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -919,23 +961,6 @@
         }
       ],
       "updated_at": "2026-10-13T13:04:54"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "事假_【已通过】 2026/10/13 8:00:00 至 2026/10/13 17:00:00  小孩身体不适，请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-13T12:35:47"
     },
     {
       "name": "陈乐涵",
@@ -1327,22 +1352,6 @@
       "location": ""
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "物理",
@@ -1397,22 +1406,6 @@
       "teacher": "曾靓",
       "time": "13:00-13:40",
       "location": "LT3-107"
-    },
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:50-14:30",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:50-14:30",
-      "location": "LT3-108"
     },
     {
       "class": "化学AA(F26)",
@@ -1554,59 +1547,59 @@
   "trend": [
     {
       "date": "10-07",
-      "attendance": 87.7,
+      "attendance": 88.2,
       "submit": 90.0
     },
     {
       "date": "10-08",
-      "attendance": 86.2,
+      "attendance": 86.7,
       "submit": 90.5
     },
     {
       "date": "10-09",
-      "attendance": 84.7,
+      "attendance": 85.2,
       "submit": 91.0
     },
     {
       "date": "10-10",
-      "attendance": 83.2,
+      "attendance": 83.7,
       "submit": 91.5
     },
     {
       "date": "10-11",
-      "attendance": 81.7,
+      "attendance": 82.2,
       "submit": 92.0
     },
     {
       "date": "10-12",
-      "attendance": 80.2,
+      "attendance": 80.7,
       "submit": 92.5
     },
     {
       "date": "10-13",
-      "attendance": 83.2,
-      "submit": 86.6
+      "attendance": 83.7,
+      "submit": 86.8
     }
   ],
   "lesson": {
-    "completion_rate": 67.1,
-    "called": 94,
+    "completion_rate": 70.0,
+    "called": 98,
     "total": 140,
-    "class_coverage": "32/32",
+    "class_coverage": "33/33",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "九年级 G12",
       "十二年级 A22",
-      "十二年级 A21",
-      "高数CR2(F26)",
+      "十年级 G23",
       "化学AA(F26)",
       "十年级 G21",
-      "十年级 G22",
-      "九年级 G11",
-      "十一年级 AS3",
       "十一年级 AS1",
-      "十年级 G23"
+      "十二年级 A21",
+      "十年级 G22",
+      "十一年级 AS2",
+      "九年级 G12",
+      "九年级 G11",
+      "高数CR2(F26)",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -1754,22 +1747,6 @@
         "location": ""
       },
       {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
-      },
-      {
         "class": "十二年级 A21",
         "class_id": 366030,
         "subject": "物理",
@@ -1824,22 +1801,6 @@
         "teacher": "曾靓",
         "time": "13:00-13:40",
         "location": "LT3-107"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:50-14:30",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:50-14:30",
-        "location": "LT3-108"
       },
       {
         "class": "化学AA(F26)",
