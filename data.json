@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-13 13:45",
+  "updated_at": "2026-10-13 13:50",
   "school": {
-    "rate": 83.1,
-    "present": 424,
-    "total": 510,
+    "rate": 83.2,
+    "present": 426,
+    "total": 512,
     "late": 10,
     "absent": 86,
     "leave": 58
@@ -320,16 +320,17 @@
       "name": "艺术AA(F26)",
       "teacher": "朱嘉怡",
       "rate": 100.0,
-      "present_text": "2/2人次",
-      "present": 2,
-      "total": 2,
+      "present_text": "4/4人次",
+      "present": 4,
+      "total": 4,
       "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "13:00-13:40"
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -1373,38 +1374,38 @@
   "trend": [
     {
       "date": "10-07",
-      "attendance": 87.6,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "10-08",
-      "attendance": 86.1,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "10-09",
-      "attendance": 84.6,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "10-10",
-      "attendance": 83.1,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "10-11",
-      "attendance": 81.6,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "10-12",
-      "attendance": 80.1,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "10-13",
-      "attendance": 83.1,
-      "submit": 86.5
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
@@ -1414,16 +1415,16 @@
     "class_coverage": "31/31",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "九年级 G12",
+      "十年级 G23",
       "十二年级 A22",
-      "九年级 G11",
-      "十二年级 A21",
-      "十一年级 AS1",
-      "十年级 G22",
-      "十年级 G21",
       "十一年级 AS2",
-      "十年级 G23"
+      "九年级 G12",
+      "十年级 G21",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十年级 G22",
+      "十一年级 AS3",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
