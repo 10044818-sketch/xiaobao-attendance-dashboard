@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-14 10:55",
+  "updated_at": "2026-10-14 11:01",
   "school": {
-    "rate": 81.6,
-    "present": 235,
+    "rate": 81.2,
+    "present": 234,
     "total": 288,
     "late": 6,
-    "absent": 53,
-    "leave": 37
+    "absent": 54,
+    "leave": 39
   },
   "summary": {
     "pending_yesterday": 0,
@@ -198,14 +198,14 @@
     {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
-      "rate": 63.6,
-      "present_text": "14/22人次",
-      "present": 14,
+      "rate": 59.1,
+      "present_text": "13/22人次",
+      "present": 13,
       "total": 22,
-      "absent": 8,
+      "absent": 9,
       "late": 4,
       "early": 0,
-      "leave": 4,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
         "10:00-10:40",
@@ -295,6 +295,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "沈奕乐",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026-10-14 10:00:00 至 2026-10-14 11:30:00  有事",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-14T10:56:29"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -390,19 +407,6 @@
     },
     {
       "name": "王翊宸",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-14T10:50:39"
-    },
-    {
-      "name": "沈奕乐",
       "class": "AS1",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
@@ -991,38 +995,38 @@
   "trend": [
     {
       "date": "10-08",
-      "attendance": 86.1,
+      "attendance": 85.7,
       "submit": 90.0
     },
     {
       "date": "10-09",
-      "attendance": 84.6,
+      "attendance": 84.2,
       "submit": 90.5
     },
     {
       "date": "10-10",
-      "attendance": 83.1,
+      "attendance": 82.7,
       "submit": 91.0
     },
     {
       "date": "10-11",
-      "attendance": 81.6,
+      "attendance": 81.2,
       "submit": 91.5
     },
     {
       "date": "10-12",
-      "attendance": 80.1,
+      "attendance": 79.7,
       "submit": 92.0
     },
     {
       "date": "10-13",
-      "attendance": 78.6,
+      "attendance": 78.2,
       "submit": 92.5
     },
     {
       "date": "10-14",
-      "attendance": 81.6,
-      "submit": 85.8
+      "attendance": 81.2,
+      "submit": 85.6
     }
   ],
   "lesson": {
@@ -1032,15 +1036,15 @@
     "class_coverage": "17/17",
     "teacher_count": 19,
     "uncovered_classes": [
-      "十年级 G22",
       "十一年级 AS3",
-      "十一年级 AS2",
       "十二年级 A22",
-      "十一年级 AS1",
       "十二年级 A21",
       "高数CR2(F26)",
+      "十年级 G22",
+      "十一年级 AS2",
       "十年级 G23",
-      "化学BY(F26)"
+      "化学BY(F26)",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
