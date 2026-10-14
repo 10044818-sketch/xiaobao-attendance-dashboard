@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-14 09:15",
+  "updated_at": "2026-10-14 09:20",
   "school": {
-    "rate": 86.0,
-    "present": 86,
-    "total": 100,
+    "rate": 85.2,
+    "present": 92,
+    "total": 108,
     "late": 0,
-    "absent": 14,
-    "leave": 10
+    "absent": 16,
+    "leave": 12
   },
   "summary": {
     "pending_yesterday": 0,
@@ -95,9 +95,51 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "雅思词汇C0(F26)",
+      "teacher": "贺珍谊",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【请假审批中】 2026/10/14 8:00:00 至 2026/10/14 12:30:00  感冒 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-14T09:20:17"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/10/14 8:00:00 至 2026/10/14 17:00:00  考雅思 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-14T09:20:17"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -347,53 +389,53 @@
   "trend": [
     {
       "date": "10-08",
-      "attendance": 90.5,
+      "attendance": 89.7,
       "submit": 90.0
     },
     {
       "date": "10-09",
-      "attendance": 89.0,
+      "attendance": 88.2,
       "submit": 90.5
     },
     {
       "date": "10-10",
-      "attendance": 87.5,
+      "attendance": 86.7,
       "submit": 91.0
     },
     {
       "date": "10-11",
-      "attendance": 86.0,
+      "attendance": 85.2,
       "submit": 91.5
     },
     {
       "date": "10-12",
-      "attendance": 84.5,
+      "attendance": 83.7,
       "submit": 92.0
     },
     {
       "date": "10-13",
-      "attendance": 83.0,
+      "attendance": 82.2,
       "submit": 92.5
     },
     {
       "date": "10-14",
-      "attendance": 86.0,
-      "submit": 88.0
+      "attendance": 85.2,
+      "submit": 87.6
     }
   ],
   "lesson": {
     "completion_rate": 42.1,
     "called": 8,
     "total": 19,
-    "class_coverage": "5/5",
+    "class_coverage": "6/6",
     "teacher_count": 9,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十一年级 AS3",
       "十一年级 AS2",
+      "十一年级 AS3",
       "十二年级 A22",
-      "十一年级 AS1",
-      "高数CR2(F26)"
+      "高数CR2(F26)",
+      "十二年级 A21",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
