@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-14 19:11",
+  "updated_at": "2026-10-14 19:17",
   "school": {
     "rate": 79.9,
-    "present": 835,
-    "total": 1045,
+    "present": 845,
+    "total": 1057,
     "late": 9,
-    "absent": 210,
-    "leave": 146
+    "absent": 212,
+    "leave": 148
   },
   "summary": {
     "pending_yesterday": 0,
@@ -743,6 +743,22 @@
       ]
     },
     {
+      "name": "英语口语AQ3(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 83.3,
+      "present_text": "10/12人次",
+      "present": 10,
+      "total": 12,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
       "name": "英语听读写9A(F26)",
       "teacher": "瞿芬",
       "rate": 92.9,
@@ -955,26 +971,9 @@
   ],
   "absent_students": [
     {
-      "name": "汤二璨",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "化学CB(F26)",
-          "time": "15:30-16:10"
-        }
-      ],
-      "updated_at": "2026-10-14T16:52:55"
-    },
-    {
       "name": "杨宇齐",
       "class": "G22",
-      "reason": "病假_【已通过】 2026/10/14 8:00:00 至 2026/10/14 20:30:00  病假 ",
+      "reason": "Sick Leave_【Approved】 2026/10/14 8:00:00 to 2026/10/14 20:30:00  病假",
       "type": "病假",
       "courses": [
         {
@@ -1004,9 +1003,71 @@
         {
           "course": "经济AX(F26)",
           "time": "15:30-16:10"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "16:20-17:00"
         }
       ],
-      "updated_at": "2026-10-14T16:52:40"
+      "updated_at": "2026-10-14T19:16:03"
+    },
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "Sick Leave_【Approved】 2026/10/14 7:00:00 to 2026/10/14 17:00:00  喉咙痛 有低烧",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育AB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "15:30-16:10"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-10-14T19:16:03"
+    },
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-14T16:52:55"
     },
     {
       "name": "张翰霆",
@@ -1602,43 +1663,6 @@
         }
       ],
       "updated_at": "2026-10-14T16:21:35"
-    },
-    {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/14 7:00:00 至 2026/10/14 17:00:00  喉咙痛 有低烧 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育AB(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "14:40-15:20"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "15:30-16:10"
-        }
-      ],
-      "updated_at": "2026-10-14T16:21:29"
     },
     {
       "name": "赵倚珺",
@@ -2475,28 +2499,12 @@
       "location": "LT3-109"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "16:20-17:00",
-      "location": "LT3-122"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "英语第二语言",
       "teacher": "王伊",
       "time": "16:20-17:00",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "16:20-17:00",
-      "location": "LT3-122"
     }
   ],
   "trend": [
@@ -2537,22 +2545,22 @@
     }
   ],
   "lesson": {
-    "completion_rate": 84.8,
-    "called": 151,
+    "completion_rate": 86.0,
+    "called": 153,
     "total": 178,
-    "class_coverage": "57/57",
+    "class_coverage": "58/58",
     "teacher_count": 28,
     "uncovered_classes": [
-      "十二年级 A21",
-      "九年级 G12",
-      "九年级 G11",
-      "十二年级 A22",
       "十一年级 AS2",
-      "十一年级 AS3",
       "十年级 G22",
-      "十年级 G21",
+      "十二年级 A22",
       "高数CR2(F26)",
-      "十一年级 AS1"
+      "十一年级 AS1",
+      "十年级 G21",
+      "九年级 G12",
+      "十一年级 AS3",
+      "九年级 G11",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -2748,28 +2756,12 @@
         "location": "LT3-109"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "16:20-17:00",
-        "location": "LT3-122"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "英语第二语言",
         "teacher": "王伊",
         "time": "16:20-17:00",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "16:20-17:00",
-        "location": "LT3-122"
       }
     ]
   }
