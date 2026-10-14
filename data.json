@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-14 13:50",
+  "updated_at": "2026-10-14 13:55",
   "school": {
-    "rate": 81.6,
-    "present": 350,
-    "total": 429,
-    "late": 7,
-    "absent": 79,
-    "leave": 59
+    "rate": 82.2,
+    "present": 389,
+    "total": 473,
+    "late": 8,
+    "absent": 84,
+    "leave": 63
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -93,6 +93,23 @@
       "early": 0,
       "leave": 4,
       "status": "异常",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
+      ]
+    },
+    {
+      "name": "数学AR2(F26)",
+      "teacher": "杨燕霖",
+      "rate": 92.3,
+      "present_text": "24/26人次",
+      "present": 24,
+      "total": 26,
+      "absent": 2,
+      "late": 1,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
       "time_spans": [
         "13:00-13:40",
         "13:50-14:30"
@@ -313,6 +330,22 @@
       ]
     },
     {
+      "name": "雅思BR2(F26)",
+      "teacher": "曹德娟",
+      "rate": 83.3,
+      "present_text": "15/18人次",
+      "present": 15,
+      "total": 18,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "雅思BR2C(F26)",
       "teacher": "钱嘉音",
       "rate": 77.8,
@@ -428,6 +461,98 @@
   ],
   "absent_students": [
     {
+      "name": "宋汉明",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR2C(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-14T13:52:29"
+    },
+    {
+      "name": "沈诗珈",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思BR2C(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-14T13:52:29"
+    },
+    {
+      "name": "陈世棋",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/15 17:00:00  复习考试 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思BR2C(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-14T13:52:29"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐AA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-14T13:51:37"
+    },
+    {
       "name": "翁瑾萱",
       "class": "G12",
       "reason": "当日缺课且无请假单",
@@ -514,53 +639,6 @@
         }
       ],
       "updated_at": "2026-10-14T13:49:10"
-    },
-    {
-      "name": "宋汉明",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR2C(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-14T13:44:48"
-    },
-    {
-      "name": "沈诗珈",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思BR2C(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-14T13:44:48"
-    },
-    {
-      "name": "陈世棋",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/15 17:00:00  复习考试 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思BR2C(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-14T13:44:48"
     },
     {
       "name": "蔡雨涵",
@@ -805,31 +883,6 @@
         }
       ],
       "updated_at": "2026-10-14T10:56:29"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐AA(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-14T10:53:54"
     },
     {
       "name": "张明轩",
@@ -1419,25 +1472,9 @@
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "数学",
-      "teacher": "杨燕霖",
-      "time": "13:00-13:40",
-      "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "数学",
       "teacher": "赵亮",
       "time": "13:00-13:40",
       "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "数学",
-      "teacher": "杨燕霖",
-      "time": "13:00-13:40",
-      "location": "LT3-111"
     },
     {
       "class": "十年级 G22",
@@ -1459,59 +1496,59 @@
   "trend": [
     {
       "date": "10-08",
-      "attendance": 86.1,
+      "attendance": 86.7,
       "submit": 90.0
     },
     {
       "date": "10-09",
-      "attendance": 84.6,
+      "attendance": 85.2,
       "submit": 90.5
     },
     {
       "date": "10-10",
-      "attendance": 83.1,
+      "attendance": 83.7,
       "submit": 91.0
     },
     {
       "date": "10-11",
-      "attendance": 81.6,
+      "attendance": 82.2,
       "submit": 91.5
     },
     {
       "date": "10-12",
-      "attendance": 80.1,
+      "attendance": 80.7,
       "submit": 92.0
     },
     {
       "date": "10-13",
-      "attendance": 78.6,
+      "attendance": 79.2,
       "submit": 92.5
     },
     {
       "date": "10-14",
-      "attendance": 81.6,
-      "submit": 85.8
+      "attendance": 82.2,
+      "submit": 86.1
     }
   ],
   "lesson": {
-    "completion_rate": 54.5,
-    "called": 55,
+    "completion_rate": 56.4,
+    "called": 57,
     "total": 101,
-    "class_coverage": "25/25",
+    "class_coverage": "27/27",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十一年级 AS1",
+      "十二年级 A22",
+      "高数CR2(F26)",
+      "十年级 G22",
+      "十年级 G21",
       "化学BY(F26)",
       "十二年级 A21",
-      "高数CR2(F26)",
+      "十年级 G23",
       "九年级 G12",
-      "十二年级 A22",
-      "十年级 G21",
       "十一年级 AS3",
-      "十年级 G22",
       "九年级 G11",
-      "十年级 G23"
+      "十一年级 AS2",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -1846,25 +1883,9 @@
         "class": "十年级 G21",
         "class_id": 517698,
         "subject": "数学",
-        "teacher": "杨燕霖",
-        "time": "13:00-13:40",
-        "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "数学",
         "teacher": "赵亮",
         "time": "13:00-13:40",
         "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "数学",
-        "teacher": "杨燕霖",
-        "time": "13:00-13:40",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G22",
