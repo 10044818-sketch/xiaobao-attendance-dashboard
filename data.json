@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-14 11:20",
+  "updated_at": "2026-10-14 11:25",
   "school": {
-    "rate": 81.2,
-    "present": 234,
-    "total": 288,
+    "rate": 81.6,
+    "present": 240,
+    "total": 294,
     "late": 6,
     "absent": 54,
     "leave": 39
@@ -177,6 +177,23 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "6/6人次",
+      "present": 6,
+      "total": 6,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -968,22 +985,6 @@
       "location": "LT3-221"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-208"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "经济学",
@@ -995,56 +996,56 @@
   "trend": [
     {
       "date": "10-08",
-      "attendance": 85.7,
+      "attendance": 86.1,
       "submit": 90.0
     },
     {
       "date": "10-09",
-      "attendance": 84.2,
+      "attendance": 84.6,
       "submit": 90.5
     },
     {
       "date": "10-10",
-      "attendance": 82.7,
+      "attendance": 83.1,
       "submit": 91.0
     },
     {
       "date": "10-11",
-      "attendance": 81.2,
+      "attendance": 81.6,
       "submit": 91.5
     },
     {
       "date": "10-12",
-      "attendance": 79.7,
+      "attendance": 80.1,
       "submit": 92.0
     },
     {
       "date": "10-13",
-      "attendance": 78.2,
+      "attendance": 78.6,
       "submit": 92.5
     },
     {
       "date": "10-14",
-      "attendance": 81.2,
-      "submit": 85.6
+      "attendance": 81.6,
+      "submit": 85.8
     }
   ],
   "lesson": {
-    "completion_rate": 55.9,
-    "called": 33,
+    "completion_rate": 59.3,
+    "called": 35,
     "total": 59,
-    "class_coverage": "17/17",
+    "class_coverage": "18/18",
     "teacher_count": 19,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十一年级 AS2",
-      "十年级 G22",
-      "十二年级 A21",
-      "十一年级 AS3",
-      "十年级 G23",
       "十一年级 AS1",
+      "十二年级 A21",
+      "十一年级 AS2",
+      "高数CR2(F26)",
+      "十年级 G23",
+      "十年级 G22",
+      "十二年级 A22",
       "化学BY(F26)",
-      "高数CR2(F26)"
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -1230,22 +1231,6 @@
         "teacher": "米万宝",
         "time": "10:00-10:40",
         "location": "LT3-221"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-208"
       },
       {
         "class": "十年级 G23",
