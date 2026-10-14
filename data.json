@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-14 09:05",
+  "updated_at": "2026-10-14 09:10",
   "school": {
-    "rate": 86.4,
-    "present": 70,
-    "total": 81,
+    "rate": 86.0,
+    "present": 86,
+    "total": 100,
     "late": 0,
-    "absent": 11,
-    "leave": 8
+    "absent": 14,
+    "leave": 10
   },
   "summary": {
     "pending_yesterday": 0,
@@ -34,17 +34,18 @@
     {
       "name": "数学BQ1(F26)",
       "teacher": "杨燕霖",
-      "rate": 78.9,
-      "present_text": "15/19人次",
-      "present": 15,
-      "total": 19,
-      "absent": 4,
+      "rate": 81.6,
+      "present_text": "31/38人次",
+      "present": 31,
+      "total": 38,
+      "absent": 7,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -98,6 +99,57 @@
   ],
   "absent_students": [
     {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/10/14 8:00:00 至 2026/10/14 17:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-14T09:10:41"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-14T09:10:41"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/10/12 8:00:00 至 2026/10/23 17:00:00  请假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-14T09:10:41"
+    },
+    {
       "name": "翁瑾萱",
       "class": "G12",
       "reason": "事假_【已通过】 2026/10/14 8:30:00 至 2026/10/14 12:30:00  身体不适，请假半日 ",
@@ -137,49 +189,10 @@
       "updated_at": "2026-10-14T09:01:30"
     },
     {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/10/14 8:00:00 至 2026/10/14 17:00:00  头疼 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-14T08:22:13"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-14T08:22:13"
-    },
-    {
       "name": "汤雪儿",
       "class": "AS2",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-14T08:22:13"
-    },
-    {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "病假_【已通过】 2026/10/12 8:00:00 至 2026/10/23 17:00:00  请假 ",
-      "type": "病假",
       "courses": [
         {
           "course": "数学BQ1(F26)",
@@ -334,38 +347,38 @@
   "trend": [
     {
       "date": "10-08",
-      "attendance": 90.9,
+      "attendance": 90.5,
       "submit": 90.0
     },
     {
       "date": "10-09",
-      "attendance": 89.4,
+      "attendance": 89.0,
       "submit": 90.5
     },
     {
       "date": "10-10",
-      "attendance": 87.9,
+      "attendance": 87.5,
       "submit": 91.0
     },
     {
       "date": "10-11",
-      "attendance": 86.4,
+      "attendance": 86.0,
       "submit": 91.5
     },
     {
       "date": "10-12",
-      "attendance": 84.9,
+      "attendance": 84.5,
       "submit": 92.0
     },
     {
       "date": "10-13",
-      "attendance": 83.4,
+      "attendance": 83.0,
       "submit": 92.5
     },
     {
       "date": "10-14",
-      "attendance": 86.4,
-      "submit": 88.2
+      "attendance": 86.0,
+      "submit": 88.0
     }
   ],
   "lesson": {
@@ -375,12 +388,12 @@
     "class_coverage": "5/5",
     "teacher_count": 9,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "十二年级 A22",
+      "十一年级 AS2",
       "十一年级 AS3",
-      "十二年级 A21",
+      "高数CR2(F26)",
       "十一年级 AS1",
-      "十一年级 AS2"
+      "十二年级 A22",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
