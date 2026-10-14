@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-14 10:50",
+  "updated_at": "2026-10-14 10:55",
   "school": {
-    "rate": 80.5,
-    "present": 210,
-    "total": 261,
+    "rate": 81.6,
+    "present": 235,
+    "total": 288,
     "late": 6,
-    "absent": 51,
-    "leave": 35
+    "absent": 53,
+    "leave": 37
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -68,16 +68,17 @@
       "name": "数学A0(F26)",
       "teacher": "张小翼",
       "rate": 92.3,
-      "present_text": "12/13人次",
-      "present": 12,
-      "total": 13,
-      "absent": 1,
+      "present_text": "24/26人次",
+      "present": 24,
+      "total": 26,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -212,6 +213,22 @@
       ]
     },
     {
+      "name": "英语写作AQ1(F26)",
+      "teacher": "贺珍谊",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "雅思写作口语C0(F26)",
       "teacher": "曹德娟",
       "rate": 75.0,
@@ -278,6 +295,48 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "事假_【已通过】 2026/10/9 8:00:00 至 2026/10/16 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-14T10:54:03"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐AA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-14T10:53:54"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -504,27 +563,6 @@
       "updated_at": "2026-10-14T10:41:04"
     },
     {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/9/28 7:00:00 至 2026/10/14 21:00:00  去国外 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐AA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-14T10:41:04"
-    },
-    {
       "name": "谌鑫亿",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -727,19 +765,6 @@
       "updated_at": "2026-10-14T09:03:56"
     },
     {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "事假_【已通过】 2026/10/9 8:00:00 至 2026/10/16 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-14T09:01:30"
-    },
-    {
       "name": "汤雪儿",
       "class": "AS2",
       "reason": "当日缺课且无请假单",
@@ -899,14 +924,6 @@
       "location": "LT3-109"
     },
     {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "09:10-09:50",
-      "location": "LT3-107"
-    },
-    {
       "class": "高数CR2(F26)",
       "class_id": 521015,
       "subject": "高等数学",
@@ -974,56 +991,56 @@
   "trend": [
     {
       "date": "10-08",
-      "attendance": 85.0,
+      "attendance": 86.1,
       "submit": 90.0
     },
     {
       "date": "10-09",
-      "attendance": 83.5,
+      "attendance": 84.6,
       "submit": 90.5
     },
     {
       "date": "10-10",
-      "attendance": 82.0,
+      "attendance": 83.1,
       "submit": 91.0
     },
     {
       "date": "10-11",
-      "attendance": 80.5,
+      "attendance": 81.6,
       "submit": 91.5
     },
     {
       "date": "10-12",
-      "attendance": 79.0,
+      "attendance": 80.1,
       "submit": 92.0
     },
     {
       "date": "10-13",
-      "attendance": 77.5,
+      "attendance": 78.6,
       "submit": 92.5
     },
     {
       "date": "10-14",
-      "attendance": 80.5,
-      "submit": 85.2
+      "attendance": 81.6,
+      "submit": 85.8
     }
   ],
   "lesson": {
-    "completion_rate": 54.2,
-    "called": 32,
+    "completion_rate": 55.9,
+    "called": 33,
     "total": 59,
-    "class_coverage": "16/16",
+    "class_coverage": "17/17",
     "teacher_count": 19,
     "uncovered_classes": [
-      "十年级 G23",
+      "十年级 G22",
       "十一年级 AS3",
-      "化学BY(F26)",
-      "十二年级 A21",
-      "十二年级 A22",
-      "高数CR2(F26)",
       "十一年级 AS2",
+      "十二年级 A22",
       "十一年级 AS1",
-      "十年级 G22"
+      "十二年级 A21",
+      "高数CR2(F26)",
+      "十年级 G23",
+      "化学BY(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -1169,14 +1186,6 @@
         "teacher": "熊辉",
         "time": "09:10-09:50",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "09:10-09:50",
-        "location": "LT3-107"
       },
       {
         "class": "高数CR2(F26)",
