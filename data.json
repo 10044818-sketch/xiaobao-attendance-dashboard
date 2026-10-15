@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-15 13:02",
+  "updated_at": "2026-10-15 13:05",
   "school": {
-    "rate": 78.7,
-    "present": 350,
-    "total": 445,
+    "rate": 79.0,
+    "present": 362,
+    "total": 458,
     "late": 18,
-    "absent": 95,
-    "leave": 55
+    "absent": 96,
+    "leave": 56
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -248,6 +248,22 @@
       ]
     },
     {
+      "name": "艺术A0(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 92.3,
+      "present_text": "12/13人次",
+      "present": 12,
+      "total": 13,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "艺术AA(F26)",
       "teacher": "朱嘉怡",
       "rate": 100.0,
@@ -415,6 +431,35 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "事假_【已通过】 2026/10/9 8:00:00 至 2026/10/16 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语口语A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "艺术A0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-15T13:02:34"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -719,31 +764,6 @@
       "reason": "已请假",
       "type": "请假",
       "courses": [
-        {
-          "course": "体育A0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-15T11:16:36"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "事假_【已通过】 2026/10/9 8:00:00 至 2026/10/16 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语口语A0(F26)",
-          "time": "10:00-10:40"
-        },
         {
           "course": "体育A0(F26)",
           "time": "10:50-11:30"
@@ -1385,56 +1405,56 @@
   "trend": [
     {
       "date": "10-09",
-      "attendance": 83.2,
+      "attendance": 83.5,
       "submit": 90.0
     },
     {
       "date": "10-10",
-      "attendance": 81.7,
+      "attendance": 82.0,
       "submit": 90.5
     },
     {
       "date": "10-11",
-      "attendance": 80.2,
+      "attendance": 80.5,
       "submit": 91.0
     },
     {
       "date": "10-12",
-      "attendance": 78.7,
+      "attendance": 79.0,
       "submit": 91.5
     },
     {
       "date": "10-13",
-      "attendance": 77.2,
+      "attendance": 77.5,
       "submit": 92.0
     },
     {
       "date": "10-14",
-      "attendance": 75.7,
+      "attendance": 76.0,
       "submit": 92.5
     },
     {
       "date": "10-15",
-      "attendance": 78.7,
-      "submit": 84.3
+      "attendance": 79.0,
+      "submit": 84.5
     }
   ],
   "lesson": {
     "completion_rate": 71.1,
     "called": 69,
     "total": 97,
-    "class_coverage": "24/24",
+    "class_coverage": "25/25",
     "teacher_count": 17,
     "uncovered_classes": [
       "十一年级 AS1",
-      "十年级 G22",
-      "十二年级 A21",
-      "十二年级 A22",
       "十年级 G23",
+      "代数C0(F26)",
+      "十年级 G22",
       "十年级 G21",
-      "九年级 G12",
+      "十二年级 A21",
       "九年级 G11",
-      "代数C0(F26)"
+      "九年级 G12",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
