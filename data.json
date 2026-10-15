@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-15 10:30",
+  "updated_at": "2026-10-15 10:35",
   "school": {
-    "rate": 77.7,
-    "present": 230,
+    "rate": 77.0,
+    "present": 228,
     "total": 296,
-    "late": 7,
-    "absent": 66,
-    "leave": 37
+    "late": 6,
+    "absent": 68,
+    "leave": 39
   },
   "summary": {
     "pending_yesterday": 0,
@@ -247,14 +247,14 @@
     {
       "name": "雅思BR2(F26)",
       "teacher": "曹德娟",
-      "rate": 80.6,
-      "present_text": "29/36人次",
-      "present": 29,
+      "rate": 75.0,
+      "present_text": "27/36人次",
+      "present": 27,
       "total": 36,
-      "absent": 7,
-      "late": 2,
+      "absent": 9,
+      "late": 1,
       "early": 0,
-      "leave": 7,
+      "leave": 9,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -296,6 +296,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "王锴杰",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026-10-15 08:00:00 至 2026-10-15 12:00:00  复习",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-15T10:33:01"
+    },
     {
       "name": "洪若玲",
       "class": "A22",
@@ -1008,38 +1025,38 @@
   "trend": [
     {
       "date": "10-09",
-      "attendance": 82.2,
+      "attendance": 81.5,
       "submit": 90.0
     },
     {
       "date": "10-10",
-      "attendance": 80.7,
+      "attendance": 80.0,
       "submit": 90.5
     },
     {
       "date": "10-11",
-      "attendance": 79.2,
+      "attendance": 78.5,
       "submit": 91.0
     },
     {
       "date": "10-12",
-      "attendance": 77.7,
+      "attendance": 77.0,
       "submit": 91.5
     },
     {
       "date": "10-13",
-      "attendance": 76.2,
+      "attendance": 75.5,
       "submit": 92.0
     },
     {
       "date": "10-14",
-      "attendance": 74.7,
+      "attendance": 74.0,
       "submit": 92.5
     },
     {
       "date": "10-15",
-      "attendance": 77.7,
-      "submit": 83.8
+      "attendance": 77.0,
+      "submit": 83.5
     }
   ],
   "lesson": {
@@ -1050,13 +1067,13 @@
     "teacher_count": 11,
     "uncovered_classes": [
       "九年级 G12",
+      "十年级 G21",
+      "代数C0(F26)",
       "化学AA(F26)",
       "十二年级 A22",
-      "十年级 G21",
       "十二年级 A21",
-      "十年级 G22",
       "九年级 G11",
-      "代数C0(F26)"
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
