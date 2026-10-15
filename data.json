@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-15 08:55",
+  "updated_at": "2026-10-15 09:01",
   "school": {
-    "rate": 82.5,
-    "present": 33,
+    "rate": 85.0,
+    "present": 34,
     "total": 40,
-    "late": 2,
-    "absent": 7,
-    "leave": 5
+    "late": 3,
+    "absent": 6,
+    "leave": 4
   },
   "summary": {
     "pending_yesterday": 0,
@@ -34,14 +34,14 @@
     {
       "name": "商科AA(F26)",
       "teacher": "余震",
-      "rate": 75.0,
-      "present_text": "9/12人次",
-      "present": 9,
+      "rate": 83.3,
+      "present_text": "10/12人次",
+      "present": 10,
       "total": 12,
-      "absent": 3,
-      "late": 0,
+      "absent": 2,
+      "late": 1,
       "early": 0,
-      "leave": 2,
+      "leave": 1,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -81,6 +81,32 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/10/15 7:00:00 至 2026/10/15 17:00:00  喉咙痛 有低烧\n ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-15T08:58:33"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-15T08:58:33"
+    },
     {
       "name": "茆睿恺",
       "class": "A22",
@@ -132,92 +158,308 @@
         }
       ],
       "updated_at": "2026-10-15T08:29:46"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026-10-15 08:00:00 至 2026-10-16 17:00:00  身体不适",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-15T08:26:09"
-    },
-    {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/15 7:00:00 至 2026/10/15 17:00:00  喉咙痛 有低烧\n ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-15T08:24:02"
-    },
-    {
-      "name": "关矞文",
-      "class": "G22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-15T08:24:02"
     }
   ],
-  "pending_roll_call": [],
+  "pending_roll_call": [
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "08:20-09:00",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "08:20-09:00",
+      "location": "LT3-108"
+    },
+    {
+      "class": "化学A0(F26)",
+      "class_id": 524146,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "08:20-09:00",
+      "location": "LT3-107"
+    },
+    {
+      "class": "化学AA(F26)",
+      "class_id": 529342,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "08:20-09:00",
+      "location": "LT3-124"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "雅思英语",
+      "teacher": "贺珍谊",
+      "time": "08:20-09:00",
+      "location": "LT3-123"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "08:20-09:00",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "雅思英语",
+      "teacher": "贺珍谊",
+      "time": "08:20-09:00",
+      "location": "LT3-123"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "08:20-09:00",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思英语",
+      "teacher": "费楚淇",
+      "time": "08:20-09:00",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思英语",
+      "teacher": "费楚淇",
+      "time": "08:20-09:00",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "08:20-09:00",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "08:20-09:00",
+      "location": "LT3-124"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "08:20-09:00",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "08:20-09:00",
+      "location": "LT3-124"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "08:20-09:00",
+      "location": "LT3-107"
+    }
+  ],
   "trend": [
     {
       "date": "10-09",
-      "attendance": 87.0,
+      "attendance": 89.5,
       "submit": 90.0
     },
     {
       "date": "10-10",
-      "attendance": 85.5,
+      "attendance": 88.0,
       "submit": 90.5
     },
     {
       "date": "10-11",
-      "attendance": 84.0,
+      "attendance": 86.5,
       "submit": 91.0
     },
     {
       "date": "10-12",
-      "attendance": 82.5,
+      "attendance": 85.0,
       "submit": 91.5
     },
     {
       "date": "10-13",
-      "attendance": 81.0,
+      "attendance": 83.5,
       "submit": 92.0
     },
     {
       "date": "10-14",
-      "attendance": 79.5,
+      "attendance": 82.0,
       "submit": 92.5
     },
     {
       "date": "10-15",
-      "attendance": 82.5,
-      "submit": 86.2
+      "attendance": 85.0,
+      "submit": 87.5
     }
   ],
   "lesson": {
-    "completion_rate": 0,
-    "called": 0,
-    "total": 0,
+    "completion_rate": 28.6,
+    "called": 6,
+    "total": 21,
     "class_coverage": "4/4",
-    "teacher_count": 0,
-    "uncovered_classes": [],
-    "uncovered_teachers": []
+    "teacher_count": 10,
+    "uncovered_classes": [
+      "十一年级 AS1",
+      "九年级 G12",
+      "十二年级 A22",
+      "十年级 G23",
+      "化学A0(F26)",
+      "十年级 G21",
+      "十一年级 AS3",
+      "九年级 G11",
+      "十年级 G22",
+      "十二年级 A21",
+      "化学AA(F26)",
+      "十一年级 AS2"
+    ],
+    "uncovered_teachers": [
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "08:20-09:00",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "08:20-09:00",
+        "location": "LT3-108"
+      },
+      {
+        "class": "化学A0(F26)",
+        "class_id": 524146,
+        "subject": "化学",
+        "teacher": "袁西援",
+        "time": "08:20-09:00",
+        "location": "LT3-107"
+      },
+      {
+        "class": "化学AA(F26)",
+        "class_id": 529342,
+        "subject": "化学",
+        "teacher": "余越利",
+        "time": "08:20-09:00",
+        "location": "LT3-124"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "雅思英语",
+        "teacher": "贺珍谊",
+        "time": "08:20-09:00",
+        "location": "LT3-123"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "08:20-09:00",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "雅思英语",
+        "teacher": "贺珍谊",
+        "time": "08:20-09:00",
+        "location": "LT3-123"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "08:20-09:00",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思英语",
+        "teacher": "费楚淇",
+        "time": "08:20-09:00",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思英语",
+        "teacher": "费楚淇",
+        "time": "08:20-09:00",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "08:20-09:00",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "化学",
+        "teacher": "余越利",
+        "time": "08:20-09:00",
+        "location": "LT3-124"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "08:20-09:00",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "化学",
+        "teacher": "余越利",
+        "time": "08:20-09:00",
+        "location": "LT3-124"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "化学",
+        "teacher": "袁西援",
+        "time": "08:20-09:00",
+        "location": "LT3-107"
+      }
+    ]
   }
 }
