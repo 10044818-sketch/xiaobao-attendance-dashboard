@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-15 17:15",
+  "updated_at": "2026-10-15 17:20",
   "school": {
-    "rate": 79.7,
-    "present": 672,
-    "total": 843,
+    "rate": 80.0,
+    "present": 686,
+    "total": 857,
     "late": 17,
     "absent": 171,
     "leave": 107
@@ -295,6 +295,22 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "物理9A(F26)",
+      "teacher": "职梦凡",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -2190,22 +2206,6 @@
       "location": "LT3-212"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "14:40-15:20",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "14:40-15:20",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "艺术与设计",
@@ -2257,58 +2257,56 @@
   "trend": [
     {
       "date": "10-09",
-      "attendance": 84.2,
+      "attendance": 84.5,
       "submit": 90.0
     },
     {
       "date": "10-10",
-      "attendance": 82.7,
+      "attendance": 83.0,
       "submit": 90.5
     },
     {
       "date": "10-11",
-      "attendance": 81.2,
+      "attendance": 81.5,
       "submit": 91.0
     },
     {
       "date": "10-12",
-      "attendance": 79.7,
+      "attendance": 80.0,
       "submit": 91.5
     },
     {
       "date": "10-13",
-      "attendance": 78.2,
+      "attendance": 78.5,
       "submit": 92.0
     },
     {
       "date": "10-14",
-      "attendance": 76.7,
+      "attendance": 77.0,
       "submit": 92.5
     },
     {
       "date": "10-15",
-      "attendance": 79.7,
-      "submit": 84.8
+      "attendance": 80.0,
+      "submit": 85.0
     }
   ],
   "lesson": {
-    "completion_rate": 81.9,
-    "called": 131,
+    "completion_rate": 83.1,
+    "called": 133,
     "total": 160,
-    "class_coverage": "46/46",
+    "class_coverage": "47/47",
     "teacher_count": 25,
     "uncovered_classes": [
-      "九年级 G11",
       "十一年级 AS3",
-      "九年级 G12",
-      "十二年级 A21",
-      "十年级 G23",
+      "十年级 G21",
+      "十一年级 AS2",
       "十一年级 AS1",
-      "十二年级 A22",
+      "十二年级 A21",
       "高数CR2(F26)",
       "十年级 G22",
-      "十一年级 AS2",
-      "十年级 G21"
+      "十年级 G23",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -2478,22 +2476,6 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "13:50-14:30",
         "location": "LT3-212"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "14:40-15:20",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "14:40-15:20",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
