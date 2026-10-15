@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-15 08:35",
+  "updated_at": "2026-10-15 08:40",
   "school": {
-    "rate": 81.2,
-    "present": 26,
-    "total": 32,
+    "rate": 77.5,
+    "present": 31,
+    "total": 40,
     "late": 2,
-    "absent": 6,
+    "absent": 9,
     "leave": 5
   },
   "summary": {
@@ -15,6 +15,22 @@
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "代数C0(F26)",
+      "teacher": "张小翼",
+      "rate": 62.5,
+      "present_text": "5/8人次",
+      "present": 5,
+      "total": 8,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
     {
       "name": "商科AA(F26)",
       "teacher": "余震",
@@ -65,6 +81,45 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-15T08:40:18"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-15T08:40:18"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-15T08:40:18"
+    },
     {
       "name": "沈诗珈",
       "class": "AS2",
@@ -148,45 +203,45 @@
   "trend": [
     {
       "date": "10-09",
-      "attendance": 85.7,
+      "attendance": 82.0,
       "submit": 90.0
     },
     {
       "date": "10-10",
-      "attendance": 84.2,
+      "attendance": 80.5,
       "submit": 90.5
     },
     {
       "date": "10-11",
-      "attendance": 82.7,
+      "attendance": 79.0,
       "submit": 91.0
     },
     {
       "date": "10-12",
-      "attendance": 81.2,
+      "attendance": 77.5,
       "submit": 91.5
     },
     {
       "date": "10-13",
-      "attendance": 79.7,
+      "attendance": 76.0,
       "submit": 92.0
     },
     {
       "date": "10-14",
-      "attendance": 78.2,
+      "attendance": 74.5,
       "submit": 92.5
     },
     {
       "date": "10-15",
-      "attendance": 81.2,
-      "submit": 85.6
+      "attendance": 77.5,
+      "submit": 83.8
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
