@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-15 14:40",
+  "updated_at": "2026-10-15 14:46",
   "school": {
-    "rate": 78.6,
-    "present": 552,
-    "total": 702,
-    "late": 16,
-    "absent": 150,
-    "leave": 88
+    "rate": 79.5,
+    "present": 614,
+    "total": 772,
+    "late": 17,
+    "absent": 158,
+    "leave": 91
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 8,
+    "class_attention": 10,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -62,6 +62,22 @@
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "体育AA(F26)",
+      "teacher": "沈译宇",
+      "rate": 93.8,
+      "present_text": "15/16人次",
+      "present": 15,
+      "total": 16,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -267,17 +283,18 @@
     {
       "name": "物理BX(F26)",
       "teacher": "魏刘伟",
-      "rate": 36.8,
-      "present_text": "7/19人次",
-      "present": 7,
-      "total": 19,
-      "absent": 12,
-      "late": 0,
+      "rate": 57.9,
+      "present_text": "22/38人次",
+      "present": 22,
+      "total": 38,
+      "absent": 16,
+      "late": 1,
       "early": 0,
       "leave": 10,
       "status": "异常",
       "time_spans": [
-        "13:50-14:30"
+        "13:50-14:30",
+        "14:40-15:20"
       ]
     },
     {
@@ -462,6 +479,22 @@
       ]
     },
     {
+      "name": "英语写作AQ3(F26)",
+      "teacher": "贺珍谊",
+      "rate": 91.7,
+      "present_text": "11/12人次",
+      "present": 11,
+      "total": 12,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "英语口语A0(F26)",
       "teacher": "费楚淇",
       "rate": 92.3,
@@ -475,6 +508,38 @@
       "status": "关注",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "英语口语AQ1(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
+      "name": "英语口语AQ2(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 100.0,
+      "present_text": "9/9人次",
+      "present": 9,
+      "total": 9,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -677,19 +742,6 @@
   ],
   "absent_students": [
     {
-      "name": "谢佳妍",
-      "class": "G22",
-      "reason": "事假_【已通过】 2026/10/15 14:30:00 至 2026/10/15 17:00:00  王老师，您好，今天下午我们想请假去医院打疫苗 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "音乐AB(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-10-15T14:40:44"
-    },
-    {
       "name": "胡鑫玥",
       "class": "G22",
       "reason": "病假_【已通过】 2026/10/15 7:00:00 至 2026/10/15 17:00:00  喉咙痛 有低烧\n ",
@@ -707,6 +759,165 @@
           "course": "英语听力阅读AQ3(F26)",
           "time": "13:00-13:40"
         },
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "音乐AB(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-15T14:46:00"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-15T14:43:11"
+    },
+    {
+      "name": "钱一诺",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-15T14:42:45"
+    },
+    {
+      "name": "周瑞尧",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理BX(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-15T14:41:04"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思BR1S(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-15T14:41:04"
+    },
+    {
+      "name": "任厚宇",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-15T14:41:04"
+    },
+    {
+      "name": "陈静宜",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理BX(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-15T14:41:04"
+    },
+    {
+      "name": "谢佳妍",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/10/15 14:30:00 至 2026/10/15 17:00:00  王老师，您好，今天下午我们想请假去医院打疫苗 ",
+      "type": "事假",
+      "courses": [
         {
           "course": "音乐AB(F26)",
           "time": "14:40-15:20"
@@ -1144,52 +1355,6 @@
       "updated_at": "2026-10-15T13:53:07"
     },
     {
-      "name": "周瑞尧",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/10/15 13:00:00 至 2026/10/15 14:30:00  统考请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理BX(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-15T13:51:36"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "雅思BR1S(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-15T13:51:36"
-    },
-    {
       "name": "阎泽豪",
       "class": "AS3",
       "reason": "事假_【已通过】 2026/10/15 13:00:00 至 2026/10/15 14:30:00  统考请假 ",
@@ -1216,23 +1381,6 @@
       "updated_at": "2026-10-15T13:51:36"
     },
     {
-      "name": "任厚宇",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/10/15 13:00:00 至 2026/10/15 14:30:00  统考请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学BZ(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-15T13:51:36"
-    },
-    {
       "name": "郭怡娜",
       "class": "AS3",
       "reason": "当日缺课且无请假单",
@@ -1247,19 +1395,6 @@
     },
     {
       "name": "陈俏君",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/10/15 13:00:00 至 2026/10/15 14:30:00  统考请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理BX(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-15T13:51:36"
-    },
-    {
-      "name": "陈静宜",
       "class": "AS3",
       "reason": "事假_【已通过】 2026/10/15 13:00:00 至 2026/10/15 14:30:00  统考请假 ",
       "type": "事假",
@@ -1476,35 +1611,6 @@
         }
       ],
       "updated_at": "2026-10-15T13:28:24"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-15T13:08:02"
     },
     {
       "name": "盛欣宜",
@@ -1996,22 +2102,6 @@
       "location": "LT3-114"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:00-13:40",
-      "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:00-13:40",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "艺术与设计",
@@ -2058,92 +2148,60 @@
       "teacher": "曾靓",
       "time": "13:50-14:30",
       "location": "LT3-206"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:50-14:30",
-      "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言写作",
-      "teacher": "贺珍谊",
-      "time": "13:50-14:30",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:50-14:30",
-      "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言写作",
-      "teacher": "贺珍谊",
-      "time": "13:50-14:30",
-      "location": "LT3-122"
     }
   ],
   "trend": [
     {
       "date": "10-09",
-      "attendance": 83.1,
+      "attendance": 84.0,
       "submit": 90.0
     },
     {
       "date": "10-10",
-      "attendance": 81.6,
+      "attendance": 82.5,
       "submit": 90.5
     },
     {
       "date": "10-11",
-      "attendance": 80.1,
+      "attendance": 81.0,
       "submit": 91.0
     },
     {
       "date": "10-12",
-      "attendance": 78.6,
+      "attendance": 79.5,
       "submit": 91.5
     },
     {
       "date": "10-13",
-      "attendance": 77.1,
+      "attendance": 78.0,
       "submit": 92.0
     },
     {
       "date": "10-14",
-      "attendance": 75.6,
+      "attendance": 76.5,
       "submit": 92.5
     },
     {
       "date": "10-15",
-      "attendance": 78.6,
-      "submit": 84.3
+      "attendance": 79.5,
+      "submit": 84.8
     }
   ],
   "lesson": {
-    "completion_rate": 76.8,
-    "called": 109,
+    "completion_rate": 81.0,
+    "called": 115,
     "total": 142,
-    "class_coverage": "40/40",
+    "class_coverage": "44/44",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十年级 G21",
+      "十一年级 AS1",
+      "十二年级 A22",
+      "十二年级 A21",
+      "十一年级 AS2",
       "十一年级 AS3",
       "十年级 G22",
-      "十二年级 A22",
-      "十一年级 AS2",
-      "十一年级 AS1",
       "十年级 G23",
-      "十二年级 A21"
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -2315,22 +2373,6 @@
         "location": "LT3-114"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:00-13:40",
-        "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:00-13:40",
-        "location": "LT3-111"
-      },
-      {
         "class": "十年级 G23",
         "class_id": 521638,
         "subject": "艺术与设计",
@@ -2377,38 +2419,6 @@
         "teacher": "曾靓",
         "time": "13:50-14:30",
         "location": "LT3-206"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:50-14:30",
-        "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言写作",
-        "teacher": "贺珍谊",
-        "time": "13:50-14:30",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:50-14:30",
-        "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言写作",
-        "teacher": "贺珍谊",
-        "time": "13:50-14:30",
-        "location": "LT3-122"
       }
     ]
   }
