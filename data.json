@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-15 08:50",
+  "updated_at": "2026-10-15 08:55",
   "school": {
-    "rate": 80.0,
-    "present": 32,
+    "rate": 82.5,
+    "present": 33,
     "total": 40,
     "late": 2,
-    "absent": 8,
+    "absent": 7,
     "leave": 5
   },
   "summary": {
@@ -18,11 +18,11 @@
     {
       "name": "代数C0(F26)",
       "teacher": "张小翼",
-      "rate": 75.0,
-      "present_text": "6/8人次",
-      "present": 6,
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
       "total": 8,
-      "absent": 2,
+      "absent": 1,
       "late": 0,
       "early": 0,
       "leave": 0,
@@ -92,20 +92,7 @@
           "time": "08:20-09:00"
         }
       ],
-      "updated_at": "2026-10-15T08:44:58"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-15T08:44:58"
+      "updated_at": "2026-10-15T08:51:41"
     },
     {
       "name": "沈诗珈",
@@ -190,38 +177,38 @@
   "trend": [
     {
       "date": "10-09",
-      "attendance": 84.5,
+      "attendance": 87.0,
       "submit": 90.0
     },
     {
       "date": "10-10",
-      "attendance": 83.0,
+      "attendance": 85.5,
       "submit": 90.5
     },
     {
       "date": "10-11",
-      "attendance": 81.5,
+      "attendance": 84.0,
       "submit": 91.0
     },
     {
       "date": "10-12",
-      "attendance": 80.0,
+      "attendance": 82.5,
       "submit": 91.5
     },
     {
       "date": "10-13",
-      "attendance": 78.5,
+      "attendance": 81.0,
       "submit": 92.0
     },
     {
       "date": "10-14",
-      "attendance": 77.0,
+      "attendance": 79.5,
       "submit": 92.5
     },
     {
       "date": "10-15",
-      "attendance": 80.0,
-      "submit": 85.0
+      "attendance": 82.5,
+      "submit": 86.2
     }
   ],
   "lesson": {
