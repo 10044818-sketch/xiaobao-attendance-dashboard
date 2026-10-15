@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-15 09:55",
+  "updated_at": "2026-10-15 10:02",
   "school": {
-    "rate": 76.1,
-    "present": 169,
-    "total": 222,
+    "rate": 77.7,
+    "present": 199,
+    "total": 256,
     "late": 7,
-    "absent": 53,
-    "leave": 27
+    "absent": 57,
+    "leave": 30
   },
   "summary": {
     "pending_yesterday": 0,
@@ -65,6 +65,38 @@
       ]
     },
     {
+      "name": "化学BZ(F26)",
+      "teacher": "米万宝",
+      "rate": 83.3,
+      "present_text": "10/12人次",
+      "present": 10,
+      "total": 12,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
+      "name": "化学C0(F26)",
+      "teacher": "袁西援",
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
+      "total": 8,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "商科AA(F26)",
       "teacher": "余震",
       "rate": 83.3,
@@ -79,6 +111,23 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "生物BZ(F26)",
+      "teacher": "张璐菲",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -184,10 +233,52 @@
   ],
   "absent_students": [
     {
-      "name": "余天佑",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/10/15 8:00:00 至 2026/10/15 11:30:00  请假 ",
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-15T10:02:00"
+    },
+    {
+      "name": "陈世棋",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/15 17:00:00  复习考试 ",
       "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-15T10:02:00"
+    },
+    {
+      "name": "凌想想",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/10/15 8:00:00 至 2026/10/15 17:00:00  病假 ",
+      "type": "病假",
       "courses": [
         {
           "course": "雅思BR3(F26)",
@@ -196,15 +287,23 @@
         {
           "course": "体育BR3(F26)",
           "time": "09:10-09:50"
+        },
+        {
+          "course": "生物BZ(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "生物BZ(F26)",
+          "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-10-15T09:28:44"
+      "updated_at": "2026-10-15T10:01:12"
     },
     {
-      "name": "凌想想",
+      "name": "余天佑",
       "class": "AS3",
-      "reason": "病假_【已通过】 2026/10/15 8:00:00 至 2026/10/15 17:00:00  病假 ",
-      "type": "病假",
+      "reason": "事假_【已通过】 2026/10/15 8:00:00 至 2026/10/15 11:30:00  请假 ",
+      "type": "事假",
       "courses": [
         {
           "course": "雅思BR3(F26)",
@@ -499,23 +598,6 @@
       "updated_at": "2026-10-15T09:22:26"
     },
     {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-15T09:22:26"
-    },
-    {
       "name": "冯麟",
       "class": "AS1",
       "reason": "病假_【已通过】 2026/10/15 8:30:00 至 2026/10/15 10:00:00  她肚子不舒服 ",
@@ -549,23 +631,6 @@
       "name": "沈诗珈",
       "class": "AS2",
       "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/15 16:00:00  冲刺复习 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-15T09:18:09"
-    },
-    {
-      "name": "陈世棋",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/15 17:00:00  复习考试 ",
       "type": "事假",
       "courses": [
         {
@@ -798,55 +863,55 @@
   "trend": [
     {
       "date": "10-09",
-      "attendance": 80.6,
+      "attendance": 82.2,
       "submit": 90.0
     },
     {
       "date": "10-10",
-      "attendance": 79.1,
+      "attendance": 80.7,
       "submit": 90.5
     },
     {
       "date": "10-11",
-      "attendance": 77.6,
+      "attendance": 79.2,
       "submit": 91.0
     },
     {
       "date": "10-12",
-      "attendance": 76.1,
+      "attendance": 77.7,
       "submit": 91.5
     },
     {
       "date": "10-13",
-      "attendance": 74.6,
+      "attendance": 76.2,
       "submit": 92.0
     },
     {
       "date": "10-14",
-      "attendance": 73.1,
+      "attendance": 74.7,
       "submit": 92.5
     },
     {
       "date": "10-15",
-      "attendance": 76.1,
-      "submit": 83.0
+      "attendance": 77.7,
+      "submit": 83.8
     }
   ],
   "lesson": {
     "completion_rate": 59.5,
     "called": 25,
     "total": 42,
-    "class_coverage": "10/10",
+    "class_coverage": "13/13",
     "teacher_count": 11,
     "uncovered_classes": [
-      "九年级 G11",
-      "十二年级 A21",
-      "化学AA(F26)",
-      "代数C0(F26)",
-      "十年级 G22",
-      "十年级 G21",
+      "十二年级 A22",
       "九年级 G12",
-      "十二年级 A22"
+      "代数C0(F26)",
+      "化学AA(F26)",
+      "十年级 G22",
+      "十二年级 A21",
+      "九年级 G11",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
