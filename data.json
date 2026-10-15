@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-15 10:06",
+  "updated_at": "2026-10-15 10:12",
   "school": {
-    "rate": 78.2,
-    "present": 229,
-    "total": 293,
+    "rate": 77.7,
+    "present": 230,
+    "total": 296,
     "late": 7,
-    "absent": 64,
-    "leave": 36
+    "absent": 66,
+    "leave": 37
   },
   "summary": {
     "pending_yesterday": 0,
@@ -196,6 +196,22 @@
       ]
     },
     {
+      "name": "艺术CB(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 33.3,
+      "present_text": "1/3人次",
+      "present": 1,
+      "total": 3,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "英语口语A0(F26)",
       "teacher": "费楚淇",
       "rate": 92.3,
@@ -238,7 +254,7 @@
       "absent": 7,
       "late": 2,
       "early": 0,
-      "leave": 6,
+      "leave": 7,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -280,6 +296,108 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "洪若玲",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-15T10:09:21"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "艺术CB(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-15T10:09:21"
+    },
+    {
+      "name": "陈世棋",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/15 17:00:00  复习考试 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-15T10:08:06"
+    },
+    {
+      "name": "朱宸辰",
+      "class": "AS2",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-15T10:08:06"
+    },
+    {
+      "name": "沈诗珈",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/15 16:00:00  冲刺复习 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-15T10:08:06"
+    },
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-15T10:08:06"
+    },
     {
       "name": "任厚宇",
       "class": "AS3",
@@ -407,27 +525,6 @@
         },
         {
           "course": "雅思BR1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-15T10:02:00"
-    },
-    {
-      "name": "陈世棋",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/15 17:00:00  复习考试 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR2(F26)",
           "time": "09:10-09:50"
         },
         {
@@ -672,23 +769,6 @@
       "updated_at": "2026-10-15T09:28:21"
     },
     {
-      "name": "高子涵",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思CR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-15T09:28:21"
-    },
-    {
       "name": "董轶尘",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -742,53 +822,6 @@
         }
       ],
       "updated_at": "2026-10-15T09:22:26"
-    },
-    {
-      "name": "朱宸辰",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-15T09:18:09"
-    },
-    {
-      "name": "沈诗珈",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/10/12 8:00:00 至 2026/10/15 16:00:00  冲刺复习 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-15T09:18:09"
-    },
-    {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "已请假",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-15T09:18:09"
     },
     {
       "name": "胡鑫玥",
@@ -975,54 +1008,54 @@
   "trend": [
     {
       "date": "10-09",
-      "attendance": 82.7,
+      "attendance": 82.2,
       "submit": 90.0
     },
     {
       "date": "10-10",
-      "attendance": 81.2,
+      "attendance": 80.7,
       "submit": 90.5
     },
     {
       "date": "10-11",
-      "attendance": 79.7,
+      "attendance": 79.2,
       "submit": 91.0
     },
     {
       "date": "10-12",
-      "attendance": 78.2,
+      "attendance": 77.7,
       "submit": 91.5
     },
     {
       "date": "10-13",
-      "attendance": 76.7,
+      "attendance": 76.2,
       "submit": 92.0
     },
     {
       "date": "10-14",
-      "attendance": 75.2,
+      "attendance": 74.7,
       "submit": 92.5
     },
     {
       "date": "10-15",
-      "attendance": 78.2,
-      "submit": 84.1
+      "attendance": 77.7,
+      "submit": 83.8
     }
   ],
   "lesson": {
     "completion_rate": 59.5,
     "called": 25,
     "total": 42,
-    "class_coverage": "16/16",
+    "class_coverage": "17/17",
     "teacher_count": 11,
     "uncovered_classes": [
-      "化学AA(F26)",
-      "九年级 G12",
       "十年级 G22",
       "十年级 G21",
       "九年级 G11",
-      "代数C0(F26)",
+      "九年级 G12",
       "十二年级 A21",
+      "代数C0(F26)",
+      "化学AA(F26)",
       "十二年级 A22"
     ],
     "uncovered_teachers": [
