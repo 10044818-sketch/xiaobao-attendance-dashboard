@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16 11:35",
+  "updated_at": "2026-10-16 11:41",
   "school": {
     "rate": 82.6,
     "present": 337,
@@ -18,10 +18,10 @@
     {
       "name": "体育A0(F26)",
       "teacher": "沈译宇",
-      "rate": 87.5,
-      "present_text": "14/16人次",
-      "present": 14,
-      "total": 16,
+      "rate": 84.6,
+      "present_text": "11/13人次",
+      "present": 11,
+      "total": 13,
       "absent": 2,
       "late": 0,
       "early": 0,
@@ -193,6 +193,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "3/3人次",
+      "present": 3,
+      "total": 3,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:50-11:30"
       ]
     },
     {
@@ -1145,28 +1161,12 @@
       "location": "LT3-206"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-208"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "物理",
       "teacher": "曾靓",
       "time": "10:50-11:30",
       "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-208"
     },
     {
       "class": "十年级 G23",
@@ -1215,22 +1215,22 @@
     }
   ],
   "lesson": {
-    "completion_rate": 67.1,
-    "called": 51,
+    "completion_rate": 69.7,
+    "called": 53,
     "total": 76,
-    "class_coverage": "23/23",
+    "class_coverage": "24/24",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十一年级 AS2",
       "高数CR2(F26)",
-      "十二年级 A22",
-      "十年级 G23",
-      "九年级 G11",
       "十一年级 AS3",
-      "十二年级 A21",
-      "十年级 G22",
       "九年级 G12",
-      "十一年级 AS1"
+      "九年级 G11",
+      "十年级 G23",
+      "十年级 G22",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十二年级 A22",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -1402,28 +1402,12 @@
         "location": "LT3-206"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-208"
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "物理",
         "teacher": "曾靓",
         "time": "10:50-11:30",
         "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-208"
       },
       {
         "class": "十年级 G23",
