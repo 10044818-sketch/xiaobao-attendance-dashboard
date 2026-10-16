@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-16 13:11",
+  "updated_at": "2026-10-16 13:15",
   "school": {
-    "rate": 83.0,
-    "present": 361,
-    "total": 435,
+    "rate": 83.4,
+    "present": 383,
+    "total": 459,
     "late": 3,
-    "absent": 74,
-    "leave": 51
+    "absent": 76,
+    "leave": 53
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -296,6 +296,23 @@
       ]
     },
     {
+      "name": "英语写作AQ3(F26)",
+      "teacher": "贺珍谊",
+      "rate": 91.7,
+      "present_text": "22/24人次",
+      "present": 22,
+      "total": 24,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "英语口语A0(F26)",
       "teacher": "费楚淇",
       "rate": 84.6,
@@ -441,6 +458,35 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/10/16 7:00:00 至 2026/10/16 17:00:00  感冒 有低烧 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-16T13:13:11"
+    },
     {
       "name": "翁瑾萱",
       "class": "G12",
@@ -830,27 +876,6 @@
       "updated_at": "2026-10-16T10:49:50"
     },
     {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/16 7:00:00 至 2026/10/16 17:00:00  感冒 有低烧 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "物理AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-16T10:49:50"
-    },
-    {
       "name": "茆睿恺",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1216,57 +1241,57 @@
   "trend": [
     {
       "date": "10-10",
-      "attendance": 87.5,
+      "attendance": 87.9,
       "submit": 90.0
     },
     {
       "date": "10-11",
-      "attendance": 86.0,
+      "attendance": 86.4,
       "submit": 90.5
     },
     {
       "date": "10-12",
-      "attendance": 84.5,
+      "attendance": 84.9,
       "submit": 91.0
     },
     {
       "date": "10-13",
-      "attendance": 83.0,
+      "attendance": 83.4,
       "submit": 91.5
     },
     {
       "date": "10-14",
-      "attendance": 81.5,
+      "attendance": 81.9,
       "submit": 92.0
     },
     {
       "date": "10-15",
-      "attendance": 80.0,
+      "attendance": 80.4,
       "submit": 92.5
     },
     {
       "date": "10-16",
-      "attendance": 83.0,
-      "submit": 86.5
+      "attendance": 83.4,
+      "submit": 86.7
     }
   ],
   "lesson": {
     "completion_rate": 71.1,
     "called": 54,
     "total": 76,
-    "class_coverage": "26/26",
+    "class_coverage": "27/27",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "九年级 G11",
-      "高数CR2(F26)",
-      "十一年级 AS3",
-      "十年级 G23",
-      "十二年级 A21",
-      "十二年级 A22",
-      "十一年级 AS2",
       "十年级 G22",
-      "九年级 G12"
+      "九年级 G11",
+      "十一年级 AS2",
+      "十二年级 A22",
+      "十一年级 AS3",
+      "十二年级 A21",
+      "十一年级 AS1",
+      "九年级 G12",
+      "高数CR2(F26)",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
