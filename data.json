@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-16 10:55",
+  "updated_at": "2026-10-16 11:01",
   "school": {
-    "rate": 81.1,
-    "present": 249,
-    "total": 307,
+    "rate": 81.0,
+    "present": 255,
+    "total": 315,
     "late": 3,
-    "absent": 58,
+    "absent": 60,
     "leave": 38
   },
   "summary": {
@@ -263,6 +263,22 @@
       ]
     },
     {
+      "name": "雅思词汇C0(F26)",
+      "teacher": "贺珍谊",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "音乐C0(F26)",
       "teacher": "刘知言",
       "rate": 87.5,
@@ -280,6 +296,36 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "马镕锴",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-16T10:57:24"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-16T10:57:24"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -544,19 +590,6 @@
           "course": "音乐C0(F26)",
           "time": "08:20-09:00"
         },
-        {
-          "course": "体育C0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-16T10:05:38"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
         {
           "course": "体育C0(F26)",
           "time": "10:00-10:40"
@@ -996,37 +1029,37 @@
   "trend": [
     {
       "date": "10-10",
-      "attendance": 85.6,
+      "attendance": 85.5,
       "submit": 90.0
     },
     {
       "date": "10-11",
-      "attendance": 84.1,
+      "attendance": 84.0,
       "submit": 90.5
     },
     {
       "date": "10-12",
-      "attendance": 82.6,
+      "attendance": 82.5,
       "submit": 91.0
     },
     {
       "date": "10-13",
-      "attendance": 81.1,
+      "attendance": 81.0,
       "submit": 91.5
     },
     {
       "date": "10-14",
-      "attendance": 79.6,
+      "attendance": 79.5,
       "submit": 92.0
     },
     {
       "date": "10-15",
-      "attendance": 78.1,
+      "attendance": 78.0,
       "submit": 92.5
     },
     {
       "date": "10-16",
-      "attendance": 81.1,
+      "attendance": 81.0,
       "submit": 85.5
     }
   ],
@@ -1034,21 +1067,21 @@
     "completion_rate": 55.9,
     "called": 33,
     "total": 59,
-    "class_coverage": "16/16",
+    "class_coverage": "17/17",
     "teacher_count": 16,
     "uncovered_classes": [
-      "高数CR2(F26)",
       "十一年级 AS1",
-      "九年级 G12",
-      "十年级 G23",
-      "九年级 G11",
-      "十二年级 A21",
-      "十年级 G21",
-      "十二年级 A22",
-      "十一年级 AS3",
-      "十一年级 AS2",
+      "化学9A(F26)",
       "十年级 G22",
-      "化学9A(F26)"
+      "十二年级 A22",
+      "九年级 G12",
+      "十年级 G21",
+      "高数CR2(F26)",
+      "十二年级 A21",
+      "九年级 G11",
+      "十年级 G23",
+      "十一年级 AS3",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
