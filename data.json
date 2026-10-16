@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-16 12:56",
+  "updated_at": "2026-10-16 13:01",
   "school": {
-    "rate": 82.6,
-    "present": 337,
-    "total": 408,
+    "rate": 83.0,
+    "present": 361,
+    "total": 435,
     "late": 3,
-    "absent": 71,
-    "leave": 48
+    "absent": 74,
+    "leave": 51
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -392,6 +392,38 @@
       ]
     },
     {
+      "name": "音乐9A(F26)",
+      "teacher": "刘知言",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
+      "name": "音乐A0(F26)",
+      "teacher": "刘知言",
+      "rate": 84.6,
+      "present_text": "11/13人次",
+      "present": 11,
+      "total": 13,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "音乐C0(F26)",
       "teacher": "刘知言",
       "rate": 87.5,
@@ -422,9 +454,71 @@
         {
           "course": "经济9A(F26)",
           "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "13:00-13:40"
         }
       ],
-      "updated_at": "2026-10-16T11:35:38"
+      "updated_at": "2026-10-16T12:59:15"
+    },
+    {
+      "name": "张彧州",
+      "class": "G23",
+      "reason": "病假_【已通过】 2026/10/16 8:00:00 至 2026/10/16 15:00:00  心脏不适请假就医 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "英语听力A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语阅读A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语口语A0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-16T12:57:56"
+    },
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "事假_【已通过】 2026/10/9 8:00:00 至 2026/10/16 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听力A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语阅读A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语口语A0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-16T12:57:56"
     },
     {
       "name": "刘绍楠",
@@ -501,56 +595,6 @@
         }
       ],
       "updated_at": "2026-10-16T11:13:17"
-    },
-    {
-      "name": "张彧州",
-      "class": "G23",
-      "reason": "病假_【已通过】 2026/10/16 8:00:00 至 2026/10/16 15:00:00  心脏不适请假就医 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "英语听力A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语阅读A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语口语A0(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-16T11:12:57"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "事假_【已通过】 2026/10/9 8:00:00 至 2026/10/16 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语听力A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语阅读A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语口语A0(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-16T11:12:57"
     },
     {
       "name": "马镕锴",
@@ -1167,69 +1211,61 @@
       "teacher": "曾靓",
       "time": "10:50-11:30",
       "location": "LT3-206"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "音乐",
-      "teacher": "刘知言",
-      "time": "10:50-11:30",
-      "location": "LT3-107"
     }
   ],
   "trend": [
     {
       "date": "10-10",
-      "attendance": 87.1,
+      "attendance": 87.5,
       "submit": 90.0
     },
     {
       "date": "10-11",
-      "attendance": 85.6,
+      "attendance": 86.0,
       "submit": 90.5
     },
     {
       "date": "10-12",
-      "attendance": 84.1,
+      "attendance": 84.5,
       "submit": 91.0
     },
     {
       "date": "10-13",
-      "attendance": 82.6,
+      "attendance": 83.0,
       "submit": 91.5
     },
     {
       "date": "10-14",
-      "attendance": 81.1,
+      "attendance": 81.5,
       "submit": 92.0
     },
     {
       "date": "10-15",
-      "attendance": 79.6,
+      "attendance": 80.0,
       "submit": 92.5
     },
     {
       "date": "10-16",
-      "attendance": 82.6,
-      "submit": 86.3
+      "attendance": 83.0,
+      "submit": 86.5
     }
   ],
   "lesson": {
-    "completion_rate": 69.7,
-    "called": 53,
+    "completion_rate": 71.1,
+    "called": 54,
     "total": 76,
-    "class_coverage": "24/24",
+    "class_coverage": "26/26",
     "teacher_count": 20,
     "uncovered_classes": [
+      "十一年级 AS3",
+      "十年级 G22",
+      "十一年级 AS2",
+      "十二年级 A21",
+      "高数CR2(F26)",
       "九年级 G11",
       "十二年级 A22",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "高数CR2(F26)",
-      "十年级 G22",
-      "十二年级 A21",
-      "十一年级 AS1",
       "十年级 G23",
+      "十一年级 AS1",
       "九年级 G12"
     ],
     "uncovered_teachers": [
@@ -1408,14 +1444,6 @@
         "teacher": "曾靓",
         "time": "10:50-11:30",
         "location": "LT3-206"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "音乐",
-        "teacher": "刘知言",
-        "time": "10:50-11:30",
-        "location": "LT3-107"
       }
     ]
   }
