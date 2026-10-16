@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16 09:45",
+  "updated_at": "2026-10-16 09:50",
   "school": {
     "rate": 81.0,
     "present": 102,
@@ -454,6 +454,110 @@
       "teacher": "费楚淇",
       "time": "08:20-09:00",
       "location": "LT3-107"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "数学",
+      "teacher": "李俊",
+      "time": "09:10-09:50",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "数学",
+      "teacher": "李俊",
+      "time": "09:10-09:50",
+      "location": "LT3-108"
+    },
+    {
+      "class": "化学BY(F26)",
+      "class_id": 520900,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思英语口语",
+      "teacher": "费楚淇",
+      "time": "09:10-09:50",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "物理",
+      "teacher": "曾靓",
+      "time": "09:10-09:50",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "09:10-09:50",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思英语口语",
+      "teacher": "费楚淇",
+      "time": "09:10-09:50",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "物理",
+      "teacher": "曾靓",
+      "time": "09:10-09:50",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "09:10-09:50",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "物理",
+      "teacher": "熊辉",
+      "time": "09:10-09:50",
+      "location": "LT3-109"
     }
   ],
   "trend": [
@@ -494,21 +598,22 @@
     }
   ],
   "lesson": {
-    "completion_rate": 42.1,
-    "called": 8,
-    "total": 19,
+    "completion_rate": 36.8,
+    "called": 14,
+    "total": 38,
     "class_coverage": "6/6",
-    "teacher_count": 10,
+    "teacher_count": 11,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十二年级 A21",
-      "九年级 G12",
-      "九年级 G11",
+      "十年级 G22",
       "十一年级 AS3",
       "化学BY(F26)",
+      "九年级 G11",
+      "九年级 G12",
+      "十一年级 AS2",
+      "十二年级 A22",
       "十年级 G23",
-      "十一年级 AS1",
-      "十二年级 A22"
+      "十二年级 A21",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -598,6 +703,110 @@
         "teacher": "费楚淇",
         "time": "08:20-09:00",
         "location": "LT3-107"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "数学",
+        "teacher": "李俊",
+        "time": "09:10-09:50",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "数学",
+        "teacher": "李俊",
+        "time": "09:10-09:50",
+        "location": "LT3-108"
+      },
+      {
+        "class": "化学BY(F26)",
+        "class_id": 520900,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "09:10-09:50",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "09:10-09:50",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "09:10-09:50",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "09:10-09:50",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思英语口语",
+        "teacher": "费楚淇",
+        "time": "09:10-09:50",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "物理",
+        "teacher": "曾靓",
+        "time": "09:10-09:50",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "09:10-09:50",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思英语口语",
+        "teacher": "费楚淇",
+        "time": "09:10-09:50",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "物理",
+        "teacher": "曾靓",
+        "time": "09:10-09:50",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "09:10-09:50",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "物理",
+        "teacher": "熊辉",
+        "time": "09:10-09:50",
+        "location": "LT3-109"
       }
     ]
   }
