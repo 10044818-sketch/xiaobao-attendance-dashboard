@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-16 13:30",
+  "updated_at": "2026-10-16 13:35",
   "school": {
     "rate": 83.3,
     "present": 405,
     "total": 486,
     "late": 3,
     "absent": 81,
-    "leave": 57
+    "leave": 58
   },
   "summary": {
     "pending_yesterday": 0,
@@ -106,7 +106,7 @@
       "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "13:00-13:40"
@@ -511,6 +511,31 @@
   ],
   "absent_students": [
     {
+      "name": "陈世棋",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-16T13:33:40"
+    },
+    {
       "name": "邵可心",
       "class": "AS1",
       "reason": "事假_【已通过】 2026/10/16 10:30:00 至 2026/10/16 17:00:00  有事回家 ",
@@ -556,31 +581,6 @@
         {
           "course": "体育BR1(F26)",
           "time": "10:50-11:30"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-16T13:18:39"
-    },
-    {
-      "name": "陈世棋",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:00-10:40"
         },
         {
           "course": "化学BZ(F26)",
@@ -1354,16 +1354,16 @@
     "class_coverage": "30/30",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十年级 G22",
       "十一年级 AS3",
+      "十二年级 A22",
       "十二年级 A21",
       "高数CR2(F26)",
       "十年级 G23",
+      "十年级 G22",
       "十一年级 AS2",
-      "十二年级 A22",
+      "十一年级 AS1",
       "九年级 G11",
-      "九年级 G12",
-      "十一年级 AS1"
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
