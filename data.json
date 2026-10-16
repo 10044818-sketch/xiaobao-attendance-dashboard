@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-16 08:25",
+  "updated_at": "2026-10-16 08:31",
   "school": {
-    "rate": 73.9,
-    "present": 34,
-    "total": 46,
-    "late": 0,
-    "absent": 12,
+    "rate": 75.9,
+    "present": 41,
+    "total": 54,
+    "late": 1,
+    "absent": 13,
     "leave": 6
   },
   "summary": {
@@ -62,9 +62,38 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "音乐C0(F26)",
+      "teacher": "刘知言",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 1,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-16T08:26:13"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -226,45 +255,45 @@
   "trend": [
     {
       "date": "10-10",
-      "attendance": 78.4,
+      "attendance": 80.4,
       "submit": 90.0
     },
     {
       "date": "10-11",
-      "attendance": 76.9,
+      "attendance": 78.9,
       "submit": 90.5
     },
     {
       "date": "10-12",
-      "attendance": 75.4,
+      "attendance": 77.4,
       "submit": 91.0
     },
     {
       "date": "10-13",
-      "attendance": 73.9,
+      "attendance": 75.9,
       "submit": 91.5
     },
     {
       "date": "10-14",
-      "attendance": 72.4,
+      "attendance": 74.4,
       "submit": 92.0
     },
     {
       "date": "10-15",
-      "attendance": 70.9,
+      "attendance": 72.9,
       "submit": 92.5
     },
     {
       "date": "10-16",
-      "attendance": 73.9,
-      "submit": 82.0
+      "attendance": 75.9,
+      "submit": 83.0
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
