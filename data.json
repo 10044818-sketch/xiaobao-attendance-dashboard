@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-16 13:35",
+  "updated_at": "2026-10-16 13:40",
   "school": {
-    "rate": 83.3,
-    "present": 405,
-    "total": 486,
+    "rate": 83.1,
+    "present": 412,
+    "total": 496,
     "late": 3,
-    "absent": 81,
-    "leave": 58
+    "absent": 84,
+    "leave": 60
   },
   "summary": {
     "pending_yesterday": 0,
@@ -104,6 +104,22 @@
       "present": 10,
       "total": 12,
       "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
+      "name": "商科BZ(F26)",
+      "teacher": "余震",
+      "rate": 70.0,
+      "present_text": "7/10人次",
+      "present": 7,
+      "total": 10,
+      "absent": 3,
       "late": 0,
       "early": 0,
       "leave": 2,
@@ -511,6 +527,77 @@
   ],
   "absent_students": [
     {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/10/16 8:00:00 至 2026/10/16 15:30:00  头痛 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育BR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-16T13:40:37"
+    },
+    {
+      "name": "余天佑",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/10/15 12:00:00 至 2026/10/16 14:30:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思BR3S(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-16T13:40:37"
+    },
+    {
+      "name": "徐荻",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "商科BZ(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-16T13:40:37"
+    },
+    {
       "name": "陈世棋",
       "class": "AS2",
       "reason": "当日缺课且无请假单",
@@ -787,31 +874,6 @@
       "updated_at": "2026-10-16T10:57:24"
     },
     {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/10/16 8:00:00 至 2026/10/16 15:30:00  头痛 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育BR1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-16T10:53:15"
-    },
-    {
       "name": "王思懿",
       "class": "AS1",
       "reason": "当日缺课且无请假单",
@@ -883,31 +945,6 @@
         }
       ],
       "updated_at": "2026-10-16T10:51:30"
-    },
-    {
-      "name": "余天佑",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/10/15 12:00:00 至 2026/10/16 14:30:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思BR3S(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-16T10:50:35"
     },
     {
       "name": "凌想想",
@@ -1308,62 +1345,184 @@
       "teacher": "曾靓",
       "time": "10:50-11:30",
       "location": "LT3-206"
+    },
+    {
+      "class": "化学CB(F26)",
+      "class_id": 521021,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "13:00-13:40",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "13:00-13:40",
+      "location": "LT3-123"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "13:00-13:40",
+      "location": ""
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "13:00-13:40",
+      "location": "LT3-123"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "13:00-13:40",
+      "location": "LT3-123"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "13:00-13:40",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "13:00-13:40",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "13:00-13:40",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "13:00-13:40",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "13:00-13:40",
+      "location": ""
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:00-13:40",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "13:00-13:40",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:00-13:40",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "13:00-13:40",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "数学",
+      "teacher": "张小翼",
+      "time": "13:00-13:40",
+      "location": "LT3-107"
     }
   ],
   "trend": [
     {
       "date": "10-10",
-      "attendance": 87.8,
+      "attendance": 87.6,
       "submit": 90.0
     },
     {
       "date": "10-11",
-      "attendance": 86.3,
+      "attendance": 86.1,
       "submit": 90.5
     },
     {
       "date": "10-12",
-      "attendance": 84.8,
+      "attendance": 84.6,
       "submit": 91.0
     },
     {
       "date": "10-13",
-      "attendance": 83.3,
+      "attendance": 83.1,
       "submit": 91.5
     },
     {
       "date": "10-14",
-      "attendance": 81.8,
+      "attendance": 81.6,
       "submit": 92.0
     },
     {
       "date": "10-15",
-      "attendance": 80.3,
+      "attendance": 80.1,
       "submit": 92.5
     },
     {
       "date": "10-16",
-      "attendance": 83.3,
-      "submit": 86.7
+      "attendance": 83.1,
+      "submit": 86.5
     }
   ],
   "lesson": {
-    "completion_rate": 71.1,
-    "called": 54,
-    "total": 76,
-    "class_coverage": "30/30",
-    "teacher_count": 20,
+    "completion_rate": 64.1,
+    "called": 66,
+    "total": 103,
+    "class_coverage": "31/31",
+    "teacher_count": 25,
     "uncovered_classes": [
+      "十一年级 AS2",
+      "九年级 G11",
       "十一年级 AS3",
+      "十一年级 AS1",
+      "高数CR2(F26)",
+      "九年级 G12",
+      "十年级 G23",
       "十二年级 A22",
       "十二年级 A21",
-      "高数CR2(F26)",
-      "十年级 G23",
       "十年级 G22",
-      "十一年级 AS2",
-      "十一年级 AS1",
-      "九年级 G11",
-      "九年级 G12"
+      "化学CB(F26)",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -1541,6 +1700,126 @@
         "teacher": "曾靓",
         "time": "10:50-11:30",
         "location": "LT3-206"
+      },
+      {
+        "class": "化学CB(F26)",
+        "class_id": 521021,
+        "subject": "化学",
+        "teacher": "余越利",
+        "time": "13:00-13:40",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "13:00-13:40",
+        "location": "LT3-123"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "13:00-13:40",
+        "location": ""
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "13:00-13:40",
+        "location": "LT3-123"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "13:00-13:40",
+        "location": "LT3-123"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思听力阅读",
+        "teacher": "瞿芬",
+        "time": "13:00-13:40",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "化学",
+        "teacher": "余越利",
+        "time": "13:00-13:40",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思听力阅读",
+        "teacher": "瞿芬",
+        "time": "13:00-13:40",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "化学",
+        "teacher": "余越利",
+        "time": "13:00-13:40",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "13:00-13:40",
+        "location": ""
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "13:00-13:40",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "13:00-13:40",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "13:00-13:40",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "13:00-13:40",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "数学",
+        "teacher": "张小翼",
+        "time": "13:00-13:40",
+        "location": "LT3-107"
       }
     ]
   }
