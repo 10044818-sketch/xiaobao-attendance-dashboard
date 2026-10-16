@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-16 11:30",
+  "updated_at": "2026-10-16 11:35",
   "school": {
-    "rate": 81.5,
-    "present": 296,
-    "total": 363,
+    "rate": 82.6,
+    "present": 337,
+    "total": 408,
     "late": 3,
-    "absent": 67,
-    "leave": 45
+    "absent": 71,
+    "leave": 48
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -18,10 +18,10 @@
     {
       "name": "体育A0(F26)",
       "teacher": "沈译宇",
-      "rate": 84.6,
-      "present_text": "11/13人次",
-      "present": 11,
-      "total": 13,
+      "rate": 87.5,
+      "present_text": "14/16人次",
+      "present": 14,
+      "total": 16,
       "absent": 2,
       "late": 0,
       "early": 0,
@@ -58,6 +58,22 @@
       "late": 0,
       "early": 0,
       "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
+      "name": "化学9A(F26)",
+      "teacher": "张璐菲",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
@@ -213,6 +229,23 @@
       ]
     },
     {
+      "name": "经济AY(F26)",
+      "teacher": "孙鹏",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
       "rate": 59.1,
@@ -361,6 +394,65 @@
   ],
   "absent_students": [
     {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/10/16 8:00:00 至 2026/10/16 17:00:00  身体不适，请请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-16T11:35:38"
+    },
+    {
+      "name": "刘绍楠",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-16T11:35:38"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/10/15 8:00:00 至 2026/10/16 17:00:00  身体不适 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-16T11:34:03"
+    },
+    {
       "name": "李明汇",
       "class": "AS1",
       "reason": "病假_【已通过】 2026-10-16 11:00:00 至 2026-10-16 12:00:00  生理期",
@@ -372,32 +464,6 @@
         }
       ],
       "updated_at": "2026-10-16T11:25:09"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "事假_【已通过】 2026/10/16 8:00:00 至 2026/10/16 17:00:00  身体不适，请请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-16T11:13:43"
-    },
-    {
-      "name": "刘绍楠",
-      "class": "G11",
-      "reason": "已请假",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-16T11:13:43"
     },
     {
       "name": "段锦沐",
@@ -827,23 +893,6 @@
       "updated_at": "2026-10-16T09:59:31"
     },
     {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/10/15 8:00:00 至 2026/10/16 17:00:00  身体不适 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-16T09:55:39"
-    },
-    {
       "name": "王锴杰",
       "class": "AS2",
       "reason": "事假_【已通过】 2026-10-16 09:00:00 至 2026-10-16 12:00:00  看医生",
@@ -1000,30 +1049,6 @@
       "location": "LT3-109"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-108"
-    },
-    {
-      "class": "化学9A(F26)",
-      "class_id": 526214,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
@@ -1088,14 +1113,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "10:00-10:40",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "体育A0C0",
@@ -1152,14 +1169,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "10:50-11:30",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "音乐",
@@ -1171,59 +1180,57 @@
   "trend": [
     {
       "date": "10-10",
-      "attendance": 86.0,
+      "attendance": 87.1,
       "submit": 90.0
     },
     {
       "date": "10-11",
-      "attendance": 84.5,
+      "attendance": 85.6,
       "submit": 90.5
     },
     {
       "date": "10-12",
-      "attendance": 83.0,
+      "attendance": 84.1,
       "submit": 91.0
     },
     {
       "date": "10-13",
-      "attendance": 81.5,
+      "attendance": 82.6,
       "submit": 91.5
     },
     {
       "date": "10-14",
-      "attendance": 80.0,
+      "attendance": 81.1,
       "submit": 92.0
     },
     {
       "date": "10-15",
-      "attendance": 78.5,
+      "attendance": 79.6,
       "submit": 92.5
     },
     {
       "date": "10-16",
-      "attendance": 81.5,
-      "submit": 85.8
+      "attendance": 82.6,
+      "submit": 86.3
     }
   ],
   "lesson": {
-    "completion_rate": 60.5,
-    "called": 46,
+    "completion_rate": 67.1,
+    "called": 51,
     "total": 76,
-    "class_coverage": "21/21",
+    "class_coverage": "23/23",
     "teacher_count": 20,
     "uncovered_classes": [
       "十一年级 AS2",
-      "化学9A(F26)",
-      "十年级 G22",
+      "高数CR2(F26)",
+      "十二年级 A22",
+      "十年级 G23",
       "九年级 G11",
       "十一年级 AS3",
-      "十年级 G21",
-      "高数CR2(F26)",
-      "十一年级 AS1",
-      "九年级 G12",
-      "十二年级 A22",
       "十二年级 A21",
-      "十年级 G23"
+      "十年级 G22",
+      "九年级 G12",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -1299,30 +1306,6 @@
         "location": "LT3-109"
       },
       {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-108"
-      },
-      {
-        "class": "化学9A(F26)",
-        "class_id": 526214,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-108"
-      },
-      {
         "class": "十一年级 AS1",
         "class_id": 442959,
         "subject": "数学",
@@ -1387,14 +1370,6 @@
         "location": "LT3-208"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "10:00-10:40",
-        "location": "LT3-111"
-      },
-      {
         "class": "十年级 G23",
         "class_id": 521638,
         "subject": "体育A0C0",
@@ -1449,14 +1424,6 @@
         "teacher": "张璐菲",
         "time": "10:50-11:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "10:50-11:30",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G23",
