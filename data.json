@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-19 14:35",
+  "updated_at": "2026-10-19 14:40",
   "school": {
-    "rate": 81.0,
-    "present": 490,
-    "total": 605,
+    "rate": 81.4,
+    "present": 508,
+    "total": 624,
     "late": 11,
-    "absent": 115,
-    "leave": 70
+    "absent": 116,
+    "leave": 71
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 8,
+    "class_attention": 9,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -145,6 +145,22 @@
       "time_spans": [
         "13:00-13:40",
         "13:50-14:30"
+      ]
+    },
+    {
+      "name": "物理BX(F26)",
+      "teacher": "魏刘伟",
+      "rate": 94.7,
+      "present_text": "18/19人次",
+      "present": 18,
+      "total": 19,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -464,6 +480,39 @@
   ],
   "absent_students": [
     {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/10/19 8:00:00 至 2026/10/19 17:00:00  因个人原因请假一天，谢谢 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1S(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-19T14:40:32"
+    },
+    {
       "name": "栾雨乔",
       "class": "A21",
       "reason": "当日缺课且无请假单",
@@ -669,35 +718,6 @@
         }
       ],
       "updated_at": "2026-10-19T14:17:15"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026-10-19 08:00:00 至 2026-10-19 17:00:00  因个人原因请假一天，谢谢",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR1S(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-19T14:09:39"
     },
     {
       "name": "耿子涵",
@@ -1647,57 +1667,57 @@
   "trend": [
     {
       "date": "10-13",
-      "attendance": 85.5,
+      "attendance": 85.9,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 84.0,
+      "attendance": 84.4,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 82.5,
+      "attendance": 82.9,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 81.0,
+      "attendance": 81.4,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 79.5,
+      "attendance": 79.9,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 78.0,
+      "attendance": 78.4,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 81.0,
-      "submit": 85.5
+      "attendance": 81.4,
+      "submit": 85.7
     }
   ],
   "lesson": {
     "completion_rate": 65.8,
     "called": 73,
     "total": 111,
-    "class_coverage": "27/27",
+    "class_coverage": "28/28",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "高数CR2(F26)",
-      "十一年级 AS3",
-      "十年级 G21",
       "化学BY(F26)",
-      "九年级 G12",
-      "十一年级 AS2",
+      "十年级 G21",
       "十二年级 A22",
+      "十一年级 AS3",
+      "十一年级 AS2",
+      "九年级 G12",
       "九年级 G11",
-      "十二年级 A21"
+      "十二年级 A21",
+      "十一年级 AS1",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
