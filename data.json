@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-19 12:05",
+  "updated_at": "2026-10-19 12:10",
   "school": {
-    "rate": 82.1,
-    "present": 293,
-    "total": 357,
+    "rate": 82.7,
+    "present": 315,
+    "total": 381,
     "late": 9,
-    "absent": 64,
-    "leave": 41
+    "absent": 66,
+    "leave": 43
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -167,6 +167,23 @@
       ]
     },
     {
+      "name": "英语口语AQ3(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 91.7,
+      "present_text": "22/24人次",
+      "present": 22,
+      "total": 24,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "英语听力阅读AQ1(F26)",
       "teacher": "王伊",
       "rate": 92.9,
@@ -266,6 +283,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "Sick Leave_【Approved】 2026/10/19 7:00:00 to 2026/10/19 17:00:00  感冒",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-19T12:10:14"
+    },
     {
       "name": "金懿帆",
       "class": "G21",
@@ -657,23 +699,6 @@
       "updated_at": "2026-10-19T09:11:11"
     },
     {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/19 7:00:00 至 2026/10/19 17:00:00  感冒 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-19T09:09:41"
-    },
-    {
       "name": "李知颖",
       "class": "G11",
       "reason": "当日缺课且无请假单",
@@ -970,22 +995,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "10:00-10:40",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "10:00-10:40",
-      "location": "LT3-122"
-    },
-    {
       "class": "高数CR2(F26)",
       "class_id": 521015,
       "subject": "高等数学",
@@ -1074,22 +1083,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "10:50-11:30",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "10:50-11:30",
-      "location": "LT3-122"
-    },
-    {
       "class": "高数CR2(F26)",
       "class_id": 521015,
       "subject": "高等数学",
@@ -1101,55 +1094,54 @@
   "trend": [
     {
       "date": "10-13",
-      "attendance": 86.6,
+      "attendance": 87.2,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 85.1,
+      "attendance": 85.7,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 83.6,
+      "attendance": 84.2,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 82.1,
+      "attendance": 82.7,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 80.6,
+      "attendance": 81.2,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 79.1,
+      "attendance": 79.7,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 82.1,
-      "submit": 86.0
+      "attendance": 82.7,
+      "submit": 86.3
     }
   ],
   "lesson": {
-    "completion_rate": 58.3,
-    "called": 42,
+    "completion_rate": 63.9,
+    "called": 46,
     "total": 72,
-    "class_coverage": "15/15",
+    "class_coverage": "16/16",
     "teacher_count": 18,
     "uncovered_classes": [
       "十二年级 A22",
-      "十年级 G22",
-      "十一年级 AS3",
       "十一年级 AS1",
-      "十二年级 A21",
       "十一年级 AS2",
       "十年级 G21",
-      "高数CR2(F26)"
+      "高数CR2(F26)",
+      "十二年级 A21",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -1265,22 +1257,6 @@
         "location": "LT3-208"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "10:00-10:40",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "10:00-10:40",
-        "location": "LT3-122"
-      },
-      {
         "class": "高数CR2(F26)",
         "class_id": 521015,
         "subject": "高等数学",
@@ -1367,22 +1343,6 @@
         "teacher": "李俊",
         "time": "10:50-11:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "10:50-11:30",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "10:50-11:30",
-        "location": "LT3-122"
       },
       {
         "class": "高数CR2(F26)",
