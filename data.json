@@ -1,20 +1,36 @@
 {
-  "updated_at": "2026-10-19 13:10",
+  "updated_at": "2026-10-19 13:15",
   "school": {
-    "rate": 81.5,
-    "present": 375,
-    "total": 460,
+    "rate": 81.6,
+    "present": 394,
+    "total": 483,
     "late": 11,
-    "absent": 85,
-    "leave": 58
+    "absent": 89,
+    "leave": 59
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 6,
+    "class_attention": 7,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "代数C0(F26)",
+      "teacher": "张小翼",
+      "rate": 62.5,
+      "present_text": "5/8人次",
+      "present": 5,
+      "total": 8,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
     {
       "name": "体育BR2(F26)",
       "teacher": "沈译宇",
@@ -29,6 +45,22 @@
       "status": "异常",
       "time_spans": [
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "化学BY(F26)",
+      "teacher": "米万宝",
+      "rate": 93.3,
+      "present_text": "14/15人次",
+      "present": 14,
+      "total": 15,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -363,6 +395,66 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "李明汇",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/10/19 13:00:00 至 2026/10/19 14:30:00  考s1 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学BY(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-19T13:14:13"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-19T13:13:10"
+    },
+    {
+      "name": "马镕锴",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "代数C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-19T13:13:10"
+    },
+    {
+      "name": "陈申达",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-19T13:13:10"
+    },
     {
       "name": "杨阳",
       "class": "AS1",
@@ -836,23 +928,6 @@
       "updated_at": "2026-10-19T10:44:27"
     },
     {
-      "name": "马镕锴",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济C0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济C0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-19T10:09:57"
-    },
-    {
       "name": "宋玟萱",
       "class": "G21",
       "reason": "当日缺课且无请假单",
@@ -1263,37 +1338,37 @@
   "trend": [
     {
       "date": "10-13",
-      "attendance": 86.0,
+      "attendance": 86.1,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 84.5,
+      "attendance": 84.6,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 83.0,
+      "attendance": 83.1,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 81.5,
+      "attendance": 81.6,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 80.0,
+      "attendance": 80.1,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 78.5,
+      "attendance": 78.6,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 81.5,
+      "attendance": 81.6,
       "submit": 85.8
     }
   ],
@@ -1301,16 +1376,16 @@
     "completion_rate": 69.4,
     "called": 50,
     "total": 72,
-    "class_coverage": "21/21",
+    "class_coverage": "23/23",
     "teacher_count": 18,
     "uncovered_classes": [
-      "十年级 G21",
+      "十二年级 A22",
+      "十一年级 AS2",
       "高数CR2(F26)",
       "十一年级 AS3",
-      "十一年级 AS1",
       "十二年级 A21",
-      "十一年级 AS2",
-      "十二年级 A22"
+      "十年级 G21",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
