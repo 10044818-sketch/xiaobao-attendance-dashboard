@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-19 10:01",
+  "updated_at": "2026-10-19 10:05",
   "school": {
-    "rate": 78.3,
-    "present": 191,
+    "rate": 79.1,
+    "present": 193,
     "total": 244,
-    "late": 6,
-    "absent": 53,
+    "late": 7,
+    "absent": 51,
     "leave": 31
   },
   "summary": {
@@ -46,6 +46,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学BQ1(F26)",
+      "teacher": "杨燕霖",
+      "rate": 63.2,
+      "present_text": "12/19人次",
+      "present": 12,
+      "total": 19,
+      "absent": 7,
+      "late": 2,
+      "early": 0,
+      "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
       ]
     },
     {
@@ -117,14 +133,14 @@
     {
       "name": "雅思BR2(F26)",
       "teacher": "曹德娟",
-      "rate": 69.0,
-      "present_text": "20/29人次",
-      "present": 20,
-      "total": 29,
-      "absent": 9,
-      "late": 3,
+      "rate": 66.7,
+      "present_text": "12/18人次",
+      "present": 12,
+      "total": 18,
+      "absent": 6,
+      "late": 2,
       "early": 0,
-      "leave": 9,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -150,14 +166,14 @@
     {
       "name": "雅思CR2(F26)",
       "teacher": "费楚淇",
-      "rate": 37.9,
-      "present_text": "11/29人次",
-      "present": 11,
-      "total": 29,
-      "absent": 18,
+      "rate": 42.9,
+      "present_text": "9/21人次",
+      "present": 9,
+      "total": 21,
+      "absent": 12,
       "late": 0,
       "early": 0,
-      "leave": 4,
+      "leave": 3,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -182,6 +198,95 @@
   ],
   "absent_students": [
     {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/10/19 8:00:00 至 2026/10/19 17:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-19T10:00:57"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-19T10:00:57"
+    },
+    {
+      "name": "于泽轩",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/10/19 8:00:00 至 2026/10/19 12:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-19T10:00:57"
+    },
+    {
+      "name": "汤雪儿",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/10/19 8:00:00 至 2026/10/19 12:00:00  复习 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-19T10:00:57"
+    },
+    {
+      "name": "凌想想",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-19T10:00:57"
+    },
+    {
       "name": "黄子怿",
       "class": "AS3",
       "reason": "病假_【已通过】 2026/10/12 8:00:00 至 2026/10/23 17:00:00  请假 ",
@@ -194,15 +299,19 @@
         {
           "course": "雅思BR3(F26)",
           "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-10-19T09:33:40"
+      "updated_at": "2026-10-19T10:00:57"
     },
     {
       "name": "丁怡霏",
       "class": "AS3",
-      "reason": "已请假",
-      "type": "请假",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
       "courses": [
         {
           "course": "雅思BR3(F26)",
@@ -211,9 +320,13 @@
         {
           "course": "雅思BR3(F26)",
           "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-10-19T09:33:40"
+      "updated_at": "2026-10-19T10:00:57"
     },
     {
       "name": "王誉涵",
@@ -298,43 +411,9 @@
       "updated_at": "2026-10-19T09:12:56"
     },
     {
-      "name": "于泽轩",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/10/19 8:00:00 至 2026/10/19 12:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育BR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-19T09:11:11"
-    },
-    {
       "name": "王锴杰",
       "class": "AS2",
       "reason": "事假_【已通过】 2026/10/19 7:00:00 至 2026/10/19 13:00:00  复习 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育BR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-19T09:11:11"
-    },
-    {
-      "name": "汤雪儿",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/10/19 8:00:00 至 2026/10/19 12:00:00  复习 ",
       "type": "事假",
       "courses": [
         {
@@ -467,32 +546,6 @@
         }
       ],
       "updated_at": "2026-10-19T09:03:53"
-    },
-    {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/10/19 8:00:00 至 2026/10/19 17:00:00  头疼 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-19T08:48:42"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-19T08:48:42"
     },
     {
       "name": "冯麟",
@@ -717,52 +770,52 @@
   "trend": [
     {
       "date": "10-13",
-      "attendance": 82.8,
+      "attendance": 83.6,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 81.3,
+      "attendance": 82.1,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 79.8,
+      "attendance": 80.6,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 78.3,
+      "attendance": 79.1,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 76.8,
+      "attendance": 77.6,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 75.3,
+      "attendance": 76.1,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 78.3,
-      "submit": 84.2
+      "attendance": 79.1,
+      "submit": 84.5
     }
   ],
   "lesson": {
     "completion_rate": 76.9,
     "called": 20,
     "total": 26,
-    "class_coverage": "10/10",
+    "class_coverage": "11/11",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十二年级 A21",
       "十二年级 A22",
+      "十年级 G21",
+      "十一年级 AS1",
       "十一年级 AS2",
-      "十年级 G21"
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
