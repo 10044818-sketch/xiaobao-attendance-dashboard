@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-19 08:45",
+  "updated_at": "2026-10-19 08:50",
   "school": {
-    "rate": 66.7,
-    "present": 38,
-    "total": 57,
+    "rate": 67.6,
+    "present": 48,
+    "total": 71,
     "late": 3,
-    "absent": 19,
-    "leave": 9
+    "absent": 23,
+    "leave": 12
   },
   "summary": {
     "pending_yesterday": 0,
@@ -27,6 +27,22 @@
       "early": 0,
       "leave": 1,
       "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
+      "name": "雅思BR1(F26)",
+      "teacher": "贺珍谊",
+      "rate": 71.4,
+      "present_text": "10/14人次",
+      "present": 10,
+      "total": 14,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
       "time_spans": [
         "08:20-09:00"
       ]
@@ -65,6 +81,58 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/10/19 8:00:00 至 2026/10/19 17:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-19T08:48:42"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-19T08:48:42"
+    },
+    {
+      "name": "冯麟",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/10/19 8:30:00 至 2026/10/19 9:00:00  堵车了。晚点到 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-19T08:48:42"
+    },
+    {
+      "name": "鲍希尔",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/10/19 8:00:00 至 2026/10/19 9:00:00  晚点到 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-19T08:48:42"
+    },
     {
       "name": "栾雨乔",
       "class": "A21",
@@ -317,45 +385,45 @@
   "trend": [
     {
       "date": "10-13",
-      "attendance": 71.2,
+      "attendance": 72.1,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 69.7,
+      "attendance": 70.6,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 68.2,
+      "attendance": 69.1,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 66.7,
+      "attendance": 67.6,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 65.2,
+      "attendance": 66.1,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 63.7,
+      "attendance": 64.6,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 66.7,
-      "submit": 78.3
+      "attendance": 67.6,
+      "submit": 78.8
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
