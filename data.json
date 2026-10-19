@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 18:55",
+  "updated_at": "2026-10-19 19:03",
   "school": {
     "rate": 82.3,
     "present": 751,
@@ -2092,6 +2092,38 @@
       "teacher": "王丽媛、朱嘉怡",
       "time": "15:30-16:10",
       "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116"
+    },
+    {
+      "class": "高数BD1(F26)",
+      "class_id": 529431,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116"
     }
   ],
   "trend": [
@@ -2132,21 +2164,22 @@
     }
   ],
   "lesson": {
-    "completion_rate": 77.1,
+    "completion_rate": 75.2,
     "called": 121,
-    "total": 157,
+    "total": 161,
     "class_coverage": "42/42",
     "teacher_count": 27,
     "uncovered_classes": [
+      "十一年级 AS1",
+      "高数CR2(F26)",
+      "九年级 G11",
       "十年级 G21",
       "十二年级 A22",
-      "十一年级 AS2",
-      "九年级 G11",
-      "十一年级 AS1",
-      "十二年级 A21",
       "九年级 G12",
-      "十一年级 AS3",
-      "高数CR2(F26)"
+      "十一年级 AS2",
+      "十二年级 A21",
+      "高数BD1(F26)",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -2436,6 +2469,38 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "15:30-16:10",
         "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "高等数学",
+        "teacher": "潘子清",
+        "time": "18:15-19:00",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "高等数学",
+        "teacher": "潘子清",
+        "time": "18:15-19:00",
+        "location": "LT3-116"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "高等数学",
+        "teacher": "潘子清",
+        "time": "18:15-19:00",
+        "location": "LT3-116"
+      },
+      {
+        "class": "高数BD1(F26)",
+        "class_id": 529431,
+        "subject": "高等数学",
+        "teacher": "潘子清",
+        "time": "18:15-19:00",
+        "location": "LT3-116"
       }
     ]
   }
