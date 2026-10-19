@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 09:45",
+  "updated_at": "2026-10-19 09:50",
   "school": {
     "rate": 79.1,
     "present": 167,
@@ -656,6 +656,46 @@
       "teacher": "孙鹏",
       "time": "08:20-09:00",
       "location": "LT3-111"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "雅思英语",
+      "teacher": "曹德娟",
+      "time": "09:10-09:50",
+      "location": "LT3-123"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "雅思英语",
+      "teacher": "曹德娟",
+      "time": "09:10-09:50",
+      "location": "LT3-123"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思英语",
+      "teacher": "费楚淇",
+      "time": "09:10-09:50",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思英语",
+      "teacher": "费楚淇",
+      "time": "09:10-09:50",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "09:10-09:50",
+      "location": "LT3-111"
     }
   ],
   "trend": [
@@ -696,13 +736,17 @@
     }
   ],
   "lesson": {
-    "completion_rate": 91.7,
-    "called": 11,
-    "total": 12,
+    "completion_rate": 76.9,
+    "called": 20,
+    "total": 26,
     "class_coverage": "9/9",
-    "teacher_count": 8,
+    "teacher_count": 10,
     "uncovered_classes": [
-      "十年级 G21"
+      "十年级 G21",
+      "十一年级 AS2",
+      "十二年级 A22",
+      "十二年级 A21",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -711,6 +755,46 @@
         "subject": "经济学",
         "teacher": "孙鹏",
         "time": "08:20-09:00",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "雅思英语",
+        "teacher": "曹德娟",
+        "time": "09:10-09:50",
+        "location": "LT3-123"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "雅思英语",
+        "teacher": "曹德娟",
+        "time": "09:10-09:50",
+        "location": "LT3-123"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思英语",
+        "teacher": "费楚淇",
+        "time": "09:10-09:50",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思英语",
+        "teacher": "费楚淇",
+        "time": "09:10-09:50",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "09:10-09:50",
         "location": "LT3-111"
       }
     ]
