@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-19 13:15",
+  "updated_at": "2026-10-19 13:21",
   "school": {
-    "rate": 81.6,
-    "present": 394,
+    "rate": 82.0,
+    "present": 396,
     "total": 483,
     "late": 11,
-    "absent": 89,
+    "absent": 87,
     "leave": 59
   },
   "summary": {
@@ -18,11 +18,11 @@
     {
       "name": "代数C0(F26)",
       "teacher": "张小翼",
-      "rate": 62.5,
-      "present_text": "5/8人次",
-      "present": 5,
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
       "total": 8,
-      "absent": 3,
+      "absent": 1,
       "late": 0,
       "early": 0,
       "leave": 0,
@@ -396,32 +396,6 @@
   ],
   "absent_students": [
     {
-      "name": "李明汇",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026/10/19 13:00:00 至 2026/10/19 14:30:00  考s1 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学BY(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-19T13:14:13"
-    },
-    {
-      "name": "曾禹德",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-19T13:13:10"
-    },
-    {
       "name": "马镕锴",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -440,20 +414,20 @@
           "time": "13:00-13:40"
         }
       ],
-      "updated_at": "2026-10-19T13:13:10"
+      "updated_at": "2026-10-19T13:16:33"
     },
     {
-      "name": "陈申达",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
+      "name": "李明汇",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026/10/19 13:00:00 至 2026/10/19 14:30:00  考s1 ",
+      "type": "事假",
       "courses": [
         {
-          "course": "代数C0(F26)",
+          "course": "化学BY(F26)",
           "time": "13:00-13:40"
         }
       ],
-      "updated_at": "2026-10-19T13:13:10"
+      "updated_at": "2026-10-19T13:14:13"
     },
     {
       "name": "杨阳",
@@ -1338,38 +1312,38 @@
   "trend": [
     {
       "date": "10-13",
-      "attendance": 86.1,
+      "attendance": 86.5,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 84.6,
+      "attendance": 85.0,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 83.1,
+      "attendance": 83.5,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 81.6,
+      "attendance": 82.0,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 80.1,
+      "attendance": 80.5,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 78.6,
+      "attendance": 79.0,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 81.6,
-      "submit": 85.8
+      "attendance": 82.0,
+      "submit": 86.0
     }
   ],
   "lesson": {
@@ -1379,13 +1353,13 @@
     "class_coverage": "23/23",
     "teacher_count": 18,
     "uncovered_classes": [
-      "十二年级 A22",
       "十一年级 AS2",
-      "高数CR2(F26)",
-      "十一年级 AS3",
       "十二年级 A21",
       "十年级 G21",
-      "十一年级 AS1"
+      "十一年级 AS1",
+      "十二年级 A22",
+      "高数CR2(F26)",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
