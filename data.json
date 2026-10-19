@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-19 14:50",
+  "updated_at": "2026-10-19 14:55",
   "school": {
-    "rate": 81.6,
-    "present": 528,
-    "total": 647,
+    "rate": 81.8,
+    "present": 540,
+    "total": 660,
     "late": 12,
-    "absent": 119,
+    "absent": 120,
     "leave": 71
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 10,
+    "class_attention": 11,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -78,6 +78,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学AR2(F26)",
+      "teacher": "杨燕霖",
+      "rate": 92.3,
+      "present_text": "12/13人次",
+      "present": 12,
+      "total": 13,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -511,6 +527,27 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "宋玟萱",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "英语写作AQ2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-19T14:53:20"
+    },
     {
       "name": "丁怡霏",
       "class": "AS3",
@@ -1294,23 +1331,6 @@
       "updated_at": "2026-10-19T10:49:47"
     },
     {
-      "name": "宋玟萱",
-      "class": "G21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "英语写作AQ2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作AQ2(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-19T10:08:38"
-    },
-    {
       "name": "凌想想",
       "class": "AS3",
       "reason": "当日缺课且无请假单",
@@ -1711,57 +1731,57 @@
   "trend": [
     {
       "date": "10-13",
-      "attendance": 86.1,
+      "attendance": 86.3,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 84.6,
+      "attendance": 84.8,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 83.1,
+      "attendance": 83.3,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 81.6,
+      "attendance": 81.8,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 80.1,
+      "attendance": 80.3,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 78.6,
+      "attendance": 78.8,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 81.6,
-      "submit": 85.8
+      "attendance": 81.8,
+      "submit": 85.9
     }
   ],
   "lesson": {
     "completion_rate": 65.8,
     "called": 73,
     "total": 111,
-    "class_coverage": "30/30",
+    "class_coverage": "31/31",
     "teacher_count": 23,
     "uncovered_classes": [
-      "九年级 G12",
-      "十二年级 A22",
-      "化学BY(F26)",
-      "十一年级 AS2",
-      "十二年级 A21",
       "十年级 G21",
-      "九年级 G11",
-      "十一年级 AS3",
+      "十二年级 A22",
       "高数CR2(F26)",
-      "十一年级 AS1"
+      "九年级 G11",
+      "九年级 G12",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "十一年级 AS1",
+      "化学BY(F26)",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
