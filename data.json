@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-19 15:16",
+  "updated_at": "2026-10-19 15:20",
   "school": {
-    "rate": 81.3,
-    "present": 623,
-    "total": 766,
+    "rate": 81.8,
+    "present": 643,
+    "total": 786,
     "late": 12,
     "absent": 143,
     "leave": 76
@@ -94,6 +94,23 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学AR1(F26)",
+      "teacher": "潘丽",
+      "rate": 100.0,
+      "present_text": "20/20人次",
+      "present": 20,
+      "total": 20,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "14:40-15:20",
+        "15:30-16:10"
       ]
     },
     {
@@ -1880,62 +1897,119 @@
       "teacher": "职梦凡",
       "time": "13:50-14:30",
       "location": "LT3-111"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "14:40-15:20",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "14:40-15:20",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "14:40-15:20",
+      "location": "LT3-122"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "14:40-15:20",
+      "location": "LT3-122"
     }
   ],
   "trend": [
     {
       "date": "10-13",
-      "attendance": 85.8,
+      "attendance": 86.3,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 84.3,
+      "attendance": 84.8,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 82.8,
+      "attendance": 83.3,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 81.3,
+      "attendance": 81.8,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 79.8,
+      "attendance": 80.3,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 78.3,
+      "attendance": 78.8,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 81.3,
-      "submit": 85.7
+      "attendance": 81.8,
+      "submit": 85.9
     }
   ],
   "lesson": {
-    "completion_rate": 71.2,
-    "called": 79,
-    "total": 111,
-    "class_coverage": "36/36",
-    "teacher_count": 23,
+    "completion_rate": 70.7,
+    "called": 94,
+    "total": 133,
+    "class_coverage": "37/37",
+    "teacher_count": 26,
     "uncovered_classes": [
-      "九年级 G12",
-      "化学BY(F26)",
-      "十一年级 AS2",
-      "高数CR2(F26)",
       "十二年级 A21",
-      "十一年级 AS1",
-      "九年级 G11",
-      "十年级 G21",
       "十二年级 A22",
-      "十一年级 AS3"
+      "十一年级 AS1",
+      "高数CR2(F26)",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "十年级 G21",
+      "化学BY(F26)",
+      "十年级 G22",
+      "九年级 G11",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
@@ -2193,6 +2267,62 @@
         "teacher": "职梦凡",
         "time": "13:50-14:30",
         "location": "LT3-111"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "14:40-15:20",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "14:40-15:20",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "14:40-15:20",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "14:40-15:20",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "14:40-15:20",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "14:40-15:20",
+        "location": "LT3-122"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "14:40-15:20",
+        "location": "LT3-122"
       }
     ]
   }
