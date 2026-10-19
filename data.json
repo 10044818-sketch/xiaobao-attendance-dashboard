@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-19 12:55",
+  "updated_at": "2026-10-19 13:01",
   "school": {
-    "rate": 82.5,
-    "present": 330,
-    "total": 400,
+    "rate": 83.1,
+    "present": 348,
+    "total": 419,
     "late": 10,
-    "absent": 70,
-    "leave": 44
+    "absent": 71,
+    "leave": 45
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -96,6 +96,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "物理AX(F26)",
+      "teacher": "熊辉",
+      "rate": 94.7,
+      "present_text": "18/19人次",
+      "present": 18,
+      "total": 19,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -300,6 +316,35 @@
   ],
   "absent_students": [
     {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/10/19 7:00:00 至 2026/10/19 17:00:00  感冒 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-19T13:00:36"
+    },
+    {
       "name": "张翰霆",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -370,31 +415,6 @@
         }
       ],
       "updated_at": "2026-10-19T12:43:51"
-    },
-    {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "Sick Leave_【Approved】 2026/10/19 7:00:00 to 2026/10/19 17:00:00  感冒",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语口语AQ3(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语口语AQ3(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-19T12:10:14"
     },
     {
       "name": "金懿帆",
@@ -1094,54 +1114,54 @@
   "trend": [
     {
       "date": "10-13",
-      "attendance": 87.0,
+      "attendance": 87.6,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 85.5,
+      "attendance": 86.1,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 84.0,
+      "attendance": 84.6,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 82.5,
+      "attendance": 83.1,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 81.0,
+      "attendance": 81.6,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 79.5,
+      "attendance": 80.1,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 82.5,
-      "submit": 86.2
+      "attendance": 83.1,
+      "submit": 86.5
     }
   ],
   "lesson": {
     "completion_rate": 69.4,
     "called": 50,
     "total": 72,
-    "class_coverage": "17/17",
+    "class_coverage": "18/18",
     "teacher_count": 18,
     "uncovered_classes": [
+      "十一年级 AS1",
       "十一年级 AS3",
       "高数CR2(F26)",
-      "十年级 G21",
-      "十二年级 A21",
       "十一年级 AS2",
-      "十二年级 A22",
-      "十一年级 AS1"
+      "十二年级 A21",
+      "十年级 G21",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
