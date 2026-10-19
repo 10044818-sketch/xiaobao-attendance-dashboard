@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-19 16:05",
+  "updated_at": "2026-10-19 16:12",
   "school": {
     "rate": 82.0,
-    "present": 705,
-    "total": 860,
+    "present": 706,
+    "total": 861,
     "late": 12,
     "absent": 155,
     "leave": 79
@@ -77,6 +77,22 @@
       "status": "关注",
       "time_spans": [
         "13:00-13:40"
+      ]
+    },
+    {
+      "name": "商科CA(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "1/1人次",
+      "present": 1,
+      "total": 1,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "15:30-16:10"
       ]
     },
     {
@@ -2005,6 +2021,94 @@
       "teacher": "赵亮",
       "time": "14:40-15:20",
       "location": "LT3-122"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "15:30-16:10",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "15:30-16:10",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "15:30-16:10",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "15:30-16:10",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "15:30-16:10",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "15:30-16:10",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "15:30-16:10",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "15:30-16:10",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "15:30-16:10",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "15:30-16:10",
+      "location": "LT3-122"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "15:30-16:10",
+      "location": "LT3-122"
     }
   ],
   "trend": [
@@ -2045,23 +2149,23 @@
     }
   ],
   "lesson": {
-    "completion_rate": 73.7,
-    "called": 98,
-    "total": 133,
-    "class_coverage": "39/39",
-    "teacher_count": 26,
+    "completion_rate": 70.7,
+    "called": 111,
+    "total": 157,
+    "class_coverage": "40/40",
+    "teacher_count": 27,
     "uncovered_classes": [
-      "化学BY(F26)",
-      "高数CR2(F26)",
-      "十一年级 AS1",
       "十一年级 AS2",
-      "十二年级 A22",
-      "十年级 G22",
       "十一年级 AS3",
-      "九年级 G12",
+      "化学BY(F26)",
       "九年级 G11",
+      "十年级 G22",
       "十年级 G21",
-      "十二年级 A21"
+      "十一年级 AS1",
+      "十二年级 A21",
+      "高数CR2(F26)",
+      "九年级 G12",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -2342,6 +2446,94 @@
         "subject": "数学",
         "teacher": "赵亮",
         "time": "14:40-15:20",
+        "location": "LT3-122"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "15:30-16:10",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "15:30-16:10",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "15:30-16:10",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "15:30-16:10",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "15:30-16:10",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "15:30-16:10",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "15:30-16:10",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "15:30-16:10",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "15:30-16:10",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "15:30-16:10",
+        "location": "LT3-122"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "15:30-16:10",
         "location": "LT3-122"
       }
     ]
