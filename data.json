@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-19 10:40",
+  "updated_at": "2026-10-19 10:46",
   "school": {
-    "rate": 80.7,
-    "present": 218,
-    "total": 270,
+    "rate": 81.8,
+    "present": 242,
+    "total": 296,
     "late": 9,
-    "absent": 52,
-    "leave": 32
+    "absent": 54,
+    "leave": 34
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -116,6 +116,23 @@
       ]
     },
     {
+      "name": "英语写作A0(F26)",
+      "teacher": "钱嘉音",
+      "rate": 92.3,
+      "present_text": "24/26人次",
+      "present": 24,
+      "total": 26,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "英语写作AQ2(F26)",
       "teacher": "贺珍谊",
       "rate": 88.9,
@@ -215,6 +232,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-19T10:44:27"
+    },
     {
       "name": "马镕锴",
       "class": "A22",
@@ -392,23 +434,6 @@
         }
       ],
       "updated_at": "2026-10-19T09:33:12"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-19T09:27:53"
     },
     {
       "name": "徐悦栋",
@@ -876,14 +901,6 @@
       "location": "LT3-122"
     },
     {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "英语第二语言写作",
-      "teacher": "钱嘉音",
-      "time": "10:00-10:40",
-      "location": "LT3-107"
-    },
-    {
       "class": "高数CR2(F26)",
       "class_id": 521015,
       "subject": "高等数学",
@@ -895,56 +912,55 @@
   "trend": [
     {
       "date": "10-13",
-      "attendance": 85.2,
+      "attendance": 86.3,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 83.7,
+      "attendance": 84.8,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 82.2,
+      "attendance": 83.3,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 80.7,
+      "attendance": 81.8,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 79.2,
+      "attendance": 80.3,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 77.7,
+      "attendance": 78.8,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 80.7,
-      "submit": 85.3
+      "attendance": 81.8,
+      "submit": 85.9
     }
   ],
   "lesson": {
-    "completion_rate": 59.2,
-    "called": 29,
+    "completion_rate": 61.2,
+    "called": 30,
     "total": 49,
-    "class_coverage": "12/12",
+    "class_coverage": "13/13",
     "teacher_count": 17,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十年级 G22",
       "十一年级 AS2",
-      "十年级 G23",
-      "十一年级 AS3",
       "十年级 G21",
-      "十二年级 A21",
+      "十一年级 AS3",
       "高数CR2(F26)",
-      "十二年级 A22"
+      "十年级 G22",
+      "十二年级 A22",
+      "十一年级 AS1",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -1090,14 +1106,6 @@
         "teacher": "Johannes van Baardewijk",
         "time": "10:00-10:40",
         "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "英语第二语言写作",
-        "teacher": "钱嘉音",
-        "time": "10:00-10:40",
-        "location": "LT3-107"
       },
       {
         "class": "高数CR2(F26)",
