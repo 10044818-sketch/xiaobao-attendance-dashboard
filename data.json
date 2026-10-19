@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-19 18:35",
+  "updated_at": "2026-10-19 18:40",
   "school": {
-    "rate": 82.2,
-    "present": 741,
-    "total": 901,
+    "rate": 82.3,
+    "present": 751,
+    "total": 913,
     "late": 12,
-    "absent": 160,
-    "leave": 84
+    "absent": 162,
+    "leave": 86
   },
   "summary": {
     "pending_yesterday": 0,
@@ -151,16 +151,17 @@
       "name": "数学AR3(F26)",
       "teacher": "赵亮",
       "rate": 83.3,
-      "present_text": "10/12人次",
-      "present": 10,
-      "total": 12,
-      "absent": 2,
+      "present_text": "20/24人次",
+      "present": 20,
+      "total": 24,
+      "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
-        "14:40-15:20"
+        "14:40-15:20",
+        "15:30-16:10"
       ]
     },
     {
@@ -714,6 +715,80 @@
   ],
   "absent_students": [
     {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/10/19 7:00:00 至 2026/10/19 19:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听力阅读AQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-19T18:38:13"
+    },
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/10/19 7:00:00 至 2026/10/19 17:00:00  感冒 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济AX(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理AX(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-19T18:38:13"
+    },
+    {
       "name": "丁怡霏",
       "class": "AS3",
       "reason": "当日缺课且无请假单",
@@ -787,72 +862,6 @@
         }
       ],
       "updated_at": "2026-10-19T18:01:54"
-    },
-    {
-      "name": "金懿帆",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/10/19 7:00:00 至 2026/10/19 19:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语听力阅读AQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语听力阅读AQ1(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-10-19T17:47:38"
-    },
-    {
-      "name": "胡鑫玥",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/10/19 7:00:00 至 2026/10/19 17:00:00  感冒 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济AX(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AX(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语口语AQ3(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语口语AQ3(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "物理AX(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-10-19T17:47:38"
     },
     {
       "name": "李明汇",
@@ -2083,78 +2092,61 @@
       "teacher": "王丽媛、朱嘉怡",
       "time": "15:30-16:10",
       "location": "LT3-212"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "15:30-16:10",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "15:30-16:10",
-      "location": "LT3-122"
     }
   ],
   "trend": [
     {
       "date": "10-13",
-      "attendance": 86.7,
+      "attendance": 86.8,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 85.2,
+      "attendance": 85.3,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 83.7,
+      "attendance": 83.8,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 82.2,
+      "attendance": 82.3,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 80.7,
+      "attendance": 80.8,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 79.2,
+      "attendance": 79.3,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 82.2,
-      "submit": 86.1
+      "attendance": 82.3,
+      "submit": 86.2
     }
   ],
   "lesson": {
-    "completion_rate": 75.8,
-    "called": 119,
+    "completion_rate": 77.1,
+    "called": 121,
     "total": 157,
     "class_coverage": "42/42",
     "teacher_count": 27,
     "uncovered_classes": [
-      "九年级 G12",
-      "十年级 G21",
-      "十年级 G22",
       "十一年级 AS1",
-      "十一年级 AS3",
-      "九年级 G11",
+      "十二年级 A21",
+      "十年级 G21",
+      "十二年级 A22",
+      "九年级 G12",
       "高数CR2(F26)",
       "十一年级 AS2",
-      "十二年级 A21",
-      "十二年级 A22"
+      "九年级 G11",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -2444,22 +2436,6 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "15:30-16:10",
         "location": "LT3-212"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "15:30-16:10",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "15:30-16:10",
-        "location": "LT3-122"
       }
     ]
   }
