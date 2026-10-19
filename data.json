@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 14:25",
+  "updated_at": "2026-10-19 14:30",
   "school": {
     "rate": 81.0,
     "present": 490,
@@ -1522,6 +1522,126 @@
       "teacher": "职梦凡",
       "time": "13:00-13:40",
       "location": "LT3-111"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:50-14:30",
+      "location": "LT3-104"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:50-14:30",
+      "location": "LT3-104"
+    },
+    {
+      "class": "化学BY(F26)",
+      "class_id": 520900,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "13:50-14:30",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "经济学",
+      "teacher": "王肇君",
+      "time": "13:50-14:30",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "13:50-14:30",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "13:50-14:30",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "经济学",
+      "teacher": "王肇君",
+      "time": "13:50-14:30",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "13:50-14:30",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "英语语言文学",
+      "teacher": "王伊",
+      "time": "13:50-14:30",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "物理",
+      "teacher": "曾靓",
+      "time": "13:50-14:30",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "13:50-14:30",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "英语语言文学",
+      "teacher": "王伊",
+      "time": "13:50-14:30",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "物理",
+      "teacher": "曾靓",
+      "time": "13:50-14:30",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "13:50-14:30",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "13:50-14:30",
+      "location": "LT3-111"
     }
   ],
   "trend": [
@@ -1562,21 +1682,22 @@
     }
   ],
   "lesson": {
-    "completion_rate": 75.0,
-    "called": 69,
-    "total": 92,
+    "completion_rate": 65.8,
+    "called": 73,
+    "total": 111,
     "class_coverage": "27/27",
     "teacher_count": 23,
     "uncovered_classes": [
       "十二年级 A22",
-      "高数CR2(F26)",
-      "十一年级 AS2",
-      "十年级 G21",
+      "十一年级 AS1",
       "十一年级 AS3",
       "九年级 G12",
+      "化学BY(F26)",
+      "十一年级 AS2",
+      "高数CR2(F26)",
       "九年级 G11",
-      "十二年级 A21",
-      "十一年级 AS1"
+      "十年级 G21",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -1761,6 +1882,126 @@
         "subject": "物理",
         "teacher": "职梦凡",
         "time": "13:00-13:40",
+        "location": "LT3-111"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:50-14:30",
+        "location": "LT3-104"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:50-14:30",
+        "location": "LT3-104"
+      },
+      {
+        "class": "化学BY(F26)",
+        "class_id": 520900,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "13:50-14:30",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "经济学",
+        "teacher": "王肇君",
+        "time": "13:50-14:30",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "13:50-14:30",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "13:50-14:30",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "经济学",
+        "teacher": "王肇君",
+        "time": "13:50-14:30",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "13:50-14:30",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "英语语言文学",
+        "teacher": "王伊",
+        "time": "13:50-14:30",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "物理",
+        "teacher": "曾靓",
+        "time": "13:50-14:30",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "13:50-14:30",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "英语语言文学",
+        "teacher": "王伊",
+        "time": "13:50-14:30",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "物理",
+        "teacher": "曾靓",
+        "time": "13:50-14:30",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "13:50-14:30",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "物理",
+        "teacher": "职梦凡",
+        "time": "13:50-14:30",
         "location": "LT3-111"
       }
     ]
