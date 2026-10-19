@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-19 09:01",
+  "updated_at": "2026-10-19 09:05",
   "school": {
-    "rate": 67.6,
-    "present": 48,
-    "total": 71,
-    "late": 3,
-    "absent": 23,
+    "rate": 75.8,
+    "present": 75,
+    "total": 99,
+    "late": 5,
+    "absent": 24,
     "leave": 12
   },
   "summary": {
@@ -15,6 +15,23 @@
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "物理9A(F26)",
+      "teacher": "职梦凡",
+      "rate": 96.4,
+      "present_text": "27/28人次",
+      "present": 27,
+      "total": 28,
+      "absent": 1,
+      "late": 2,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
     {
       "name": "经济AX(F26)",
       "teacher": "王肇君",
@@ -81,6 +98,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-19T09:03:53"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -383,22 +413,6 @@
   ],
   "pending_roll_call": [
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "雅思英语",
@@ -434,71 +448,53 @@
   "trend": [
     {
       "date": "10-13",
-      "attendance": 72.1,
+      "attendance": 80.3,
       "submit": 90.0
     },
     {
       "date": "10-14",
-      "attendance": 70.6,
+      "attendance": 78.8,
       "submit": 90.5
     },
     {
       "date": "10-15",
-      "attendance": 69.1,
+      "attendance": 77.3,
       "submit": 91.0
     },
     {
       "date": "10-16",
-      "attendance": 67.6,
+      "attendance": 75.8,
       "submit": 91.5
     },
     {
       "date": "10-17",
-      "attendance": 66.1,
+      "attendance": 74.3,
       "submit": 92.0
     },
     {
       "date": "10-18",
-      "attendance": 64.6,
+      "attendance": 72.8,
       "submit": 92.5
     },
     {
       "date": "10-19",
-      "attendance": 67.6,
-      "submit": 78.8
+      "attendance": 75.8,
+      "submit": 82.9
     }
   ],
   "lesson": {
-    "completion_rate": 50.0,
-    "called": 6,
+    "completion_rate": 66.7,
+    "called": 8,
     "total": 12,
-    "class_coverage": "4/4",
+    "class_coverage": "5/5",
     "teacher_count": 8,
     "uncovered_classes": [
-      "十年级 G23",
       "十年级 G21",
-      "十一年级 AS3",
-      "九年级 G11",
-      "九年级 G12",
-      "十一年级 AS1"
+      "十年级 G23",
+      "十一年级 AS1",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
