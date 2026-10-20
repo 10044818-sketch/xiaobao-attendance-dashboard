@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-20 11:16",
+  "updated_at": "2026-10-20 11:21",
   "school": {
-    "rate": 83.9,
-    "present": 219,
+    "rate": 83.5,
+    "present": 218,
     "total": 261,
     "late": 6,
-    "absent": 42,
-    "leave": 16
+    "absent": 43,
+    "leave": 20
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 6,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -89,7 +89,7 @@
       "absent": 5,
       "late": 1,
       "early": 0,
-      "leave": 0,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -295,15 +295,15 @@
     {
       "name": "雅思口语C0(F26)",
       "teacher": "费楚淇",
-      "rate": 93.8,
-      "present_text": "15/16人次",
-      "present": 15,
+      "rate": 87.5,
+      "present_text": "14/16人次",
+      "present": 14,
       "total": 16,
-      "absent": 1,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 0,
-      "status": "关注",
+      "leave": 2,
+      "status": "异常",
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
@@ -311,6 +311,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026-10-20 08:00:00 至 2026-10-20 17:00:00  雅思考试",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思口语C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思口语C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-20T11:18:48"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -412,27 +437,6 @@
         }
       ],
       "updated_at": "2026-10-20T10:49:44"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学C0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "雅思口语C0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-20T10:37:47"
     },
     {
       "name": "赵倚菲",
@@ -1034,38 +1038,38 @@
   "trend": [
     {
       "date": "10-14",
-      "attendance": 88.4,
+      "attendance": 88.0,
       "submit": 90.0
     },
     {
       "date": "10-15",
-      "attendance": 86.9,
+      "attendance": 86.5,
       "submit": 90.5
     },
     {
       "date": "10-16",
-      "attendance": 85.4,
+      "attendance": 85.0,
       "submit": 91.0
     },
     {
       "date": "10-17",
-      "attendance": 83.9,
+      "attendance": 83.5,
       "submit": 91.5
     },
     {
       "date": "10-18",
-      "attendance": 82.4,
+      "attendance": 82.0,
       "submit": 92.0
     },
     {
       "date": "10-19",
-      "attendance": 80.9,
+      "attendance": 80.5,
       "submit": 92.5
     },
     {
       "date": "10-20",
-      "attendance": 83.9,
-      "submit": 87.0
+      "attendance": 83.5,
+      "submit": 86.8
     }
   ],
   "lesson": {
@@ -1075,18 +1079,18 @@
     "class_coverage": "18/18",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十二年级 A22",
-      "九年级 G11",
-      "十年级 G21",
-      "化学CB(F26)",
-      "十二年级 A21",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "化学BZ(F26)",
-      "九年级 G12",
-      "十一年级 AS1",
       "十年级 G22",
-      "十年级 G23"
+      "十二年级 A21",
+      "十年级 G23",
+      "十一年级 AS3",
+      "九年级 G11",
+      "九年级 G12",
+      "化学CB(F26)",
+      "十二年级 A22",
+      "十年级 G21",
+      "化学BZ(F26)",
+      "十一年级 AS1",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
