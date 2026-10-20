@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-20 10:35",
+  "updated_at": "2026-10-20 10:40",
   "school": {
-    "rate": 80.1,
-    "present": 133,
-    "total": 166,
+    "rate": 81.3,
+    "present": 148,
+    "total": 182,
     "late": 6,
-    "absent": 33,
+    "absent": 34,
     "leave": 11
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -225,9 +225,47 @@
       "time_spans": [
         "10:00-10:40"
       ]
+    },
+    {
+      "name": "雅思口语C0(F26)",
+      "teacher": "费楚淇",
+      "rate": 93.8,
+      "present_text": "15/16人次",
+      "present": 15,
+      "total": 16,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思口语C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-20T10:37:47"
+    },
     {
       "name": "赵倚菲",
       "class": "G21",
@@ -434,23 +472,6 @@
     {
       "name": "江雨霏",
       "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-20T09:51:03"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
@@ -819,64 +840,160 @@
       "teacher": "张小翼",
       "time": "09:10-09:50",
       "location": "LT3-107"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "10:00-10:40",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "10:00-10:40",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "10:00-10:40",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "10:00-10:40",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "10:00-10:40",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "10:00-10:40",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "10:00-10:40",
+      "location": "LT3-122"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "10:00-10:40",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "10:00-10:40",
+      "location": "LT3-122"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "数学",
+      "teacher": "张小翼",
+      "time": "10:00-10:40",
+      "location": "LT3-107"
     }
   ],
   "trend": [
     {
       "date": "10-14",
-      "attendance": 84.6,
+      "attendance": 85.8,
       "submit": 90.0
     },
     {
       "date": "10-15",
-      "attendance": 83.1,
+      "attendance": 84.3,
       "submit": 90.5
     },
     {
       "date": "10-16",
-      "attendance": 81.6,
+      "attendance": 82.8,
       "submit": 91.0
     },
     {
       "date": "10-17",
-      "attendance": 80.1,
+      "attendance": 81.3,
       "submit": 91.5
     },
     {
       "date": "10-18",
-      "attendance": 78.6,
+      "attendance": 79.8,
       "submit": 92.0
     },
     {
       "date": "10-19",
-      "attendance": 77.1,
+      "attendance": 78.3,
       "submit": 92.5
     },
     {
       "date": "10-20",
-      "attendance": 80.1,
-      "submit": 85.0
+      "attendance": 81.3,
+      "submit": 85.7
     }
   ],
   "lesson": {
     "completion_rate": 48.1,
-    "called": 26,
-    "total": 54,
-    "class_coverage": "13/13",
-    "teacher_count": 13,
+    "called": 37,
+    "total": 77,
+    "class_coverage": "14/14",
+    "teacher_count": 20,
     "uncovered_classes": [
-      "九年级 G11",
       "化学BZ(F26)",
-      "十一年级 AS2",
-      "十一年级 AS1",
-      "十二年级 A21",
       "十一年级 AS3",
-      "十二年级 A22",
-      "九年级 G12",
+      "十二年级 A21",
       "十年级 G21",
       "十年级 G22",
+      "九年级 G11",
+      "十一年级 AS1",
+      "九年级 G12",
+      "化学CB(F26)",
+      "十二年级 A22",
       "十年级 G23",
-      "化学CB(F26)"
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -1101,6 +1218,102 @@
         "subject": "数学",
         "teacher": "张小翼",
         "time": "09:10-09:50",
+        "location": "LT3-107"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "10:00-10:40",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "10:00-10:40",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "10:00-10:40",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "10:00-10:40",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "10:00-10:40",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "10:00-10:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "10:00-10:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "10:00-10:40",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "10:00-10:40",
+        "location": "LT3-122"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "10:00-10:40",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "10:00-10:40",
+        "location": "LT3-122"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "数学",
+        "teacher": "张小翼",
+        "time": "10:00-10:40",
         "location": "LT3-107"
       }
     ]
