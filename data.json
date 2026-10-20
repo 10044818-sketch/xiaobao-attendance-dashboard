@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-20 15:25",
+  "updated_at": "2026-10-20 15:30",
   "school": {
-    "rate": 85.0,
-    "present": 617,
-    "total": 726,
+    "rate": 83.9,
+    "present": 618,
+    "total": 737,
     "late": 9,
-    "absent": 109,
-    "leave": 58
+    "absent": 119,
+    "leave": 68
   },
   "summary": {
     "pending_yesterday": 0,
@@ -263,6 +263,22 @@
       "time_spans": [
         "13:50-14:30",
         "14:40-15:20"
+      ]
+    },
+    {
+      "name": "日语(F26)",
+      "teacher": "马琳",
+      "rate": 9.1,
+      "present_text": "1/11人次",
+      "present": 1,
+      "total": 11,
+      "absent": 10,
+      "late": 0,
+      "early": 0,
+      "leave": 10,
+      "status": "异常",
+      "time_spans": [
+        "15:30-16:10"
       ]
     },
     {
@@ -708,6 +724,136 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "谢佳妍",
+      "class": "G22",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-20T15:28:19"
+    },
+    {
+      "name": "吴臻",
+      "class": "G12",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-20T15:28:19"
+    },
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-20T15:28:19"
+    },
+    {
+      "name": "唐晟尧",
+      "class": "G11",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-20T15:28:19"
+    },
+    {
+      "name": "唐艾嘉",
+      "class": "G11",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-20T15:28:19"
+    },
+    {
+      "name": "梅彧清",
+      "class": "G11",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-20T15:28:19"
+    },
+    {
+      "name": "马佳雯",
+      "class": "G12",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-20T15:28:19"
+    },
+    {
+      "name": "贡一鸣",
+      "class": "G23",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-20T15:28:19"
+    },
+    {
+      "name": "陈新妤",
+      "class": "G12",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-20T15:28:19"
+    },
+    {
+      "name": "陈嘉烨",
+      "class": "G23",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "日语(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-20T15:28:19"
+    },
     {
       "name": "赵倚菲",
       "class": "G21",
@@ -1932,59 +2078,59 @@
   "trend": [
     {
       "date": "10-14",
-      "attendance": 89.5,
+      "attendance": 88.4,
       "submit": 90.0
     },
     {
       "date": "10-15",
-      "attendance": 88.0,
+      "attendance": 86.9,
       "submit": 90.5
     },
     {
       "date": "10-16",
-      "attendance": 86.5,
+      "attendance": 85.4,
       "submit": 91.0
     },
     {
       "date": "10-17",
-      "attendance": 85.0,
+      "attendance": 83.9,
       "submit": 91.5
     },
     {
       "date": "10-18",
-      "attendance": 83.5,
+      "attendance": 82.4,
       "submit": 92.0
     },
     {
       "date": "10-19",
-      "attendance": 82.0,
+      "attendance": 80.9,
       "submit": 92.5
     },
     {
       "date": "10-20",
-      "attendance": 85.0,
-      "submit": 87.5
+      "attendance": 83.9,
+      "submit": 87.0
     }
   ],
   "lesson": {
     "completion_rate": 71.1,
     "called": 113,
     "total": 159,
-    "class_coverage": "42/42",
+    "class_coverage": "43/43",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "十年级 G21",
+      "十一年级 AS1",
+      "高数CR2(F26)",
+      "十年级 G23",
+      "十二年级 A21",
+      "十一年级 AS2",
       "九年级 G12",
+      "十一年级 AS3",
+      "十二年级 A22",
       "化学BZ(F26)",
       "九年级 G11",
-      "十一年级 AS2",
-      "十一年级 AS1",
       "十年级 G22",
-      "十二年级 A22",
-      "十二年级 A21",
-      "高数CR2(F26)",
-      "十年级 G23"
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
