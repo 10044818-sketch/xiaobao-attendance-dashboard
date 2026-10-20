@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-20 14:31",
+  "updated_at": "2026-10-20 14:35",
   "school": {
-    "rate": 82.4,
-    "present": 413,
-    "total": 501,
+    "rate": 82.8,
+    "present": 428,
+    "total": 517,
     "late": 9,
-    "absent": 88,
+    "absent": 89,
     "leave": 42
   },
   "summary": {
@@ -233,16 +233,17 @@
       "name": "数学BQ2(F26)",
       "teacher": "潘子清",
       "rate": 93.8,
-      "present_text": "15/16人次",
-      "present": 15,
-      "total": 16,
-      "absent": 1,
+      "present_text": "30/32人次",
+      "present": 30,
+      "total": 32,
+      "absent": 2,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "关注",
       "time_spans": [
-        "13:50-14:30"
+        "13:50-14:30",
+        "14:40-15:20"
       ]
     },
     {
@@ -558,6 +559,35 @@
   ],
   "absent_students": [
     {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-20T14:33:25"
+    },
+    {
       "name": "邵杨晟及",
       "class": "G21",
       "reason": "事假_【已通过】 2026/10/20 12:00:00 至 2026/10/20 15:00:00  不舒服 ",
@@ -678,31 +708,6 @@
         }
       ],
       "updated_at": "2026-10-20T13:50:34"
-    },
-    {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "艺术BX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "艺术BX(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-20T13:50:07"
     },
     {
       "name": "赵倚菲",
@@ -1768,38 +1773,38 @@
   "trend": [
     {
       "date": "10-14",
-      "attendance": 86.9,
+      "attendance": 87.3,
       "submit": 90.0
     },
     {
       "date": "10-15",
-      "attendance": 85.4,
+      "attendance": 85.8,
       "submit": 90.5
     },
     {
       "date": "10-16",
-      "attendance": 83.9,
+      "attendance": 84.3,
       "submit": 91.0
     },
     {
       "date": "10-17",
-      "attendance": 82.4,
+      "attendance": 82.8,
       "submit": 91.5
     },
     {
       "date": "10-18",
-      "attendance": 80.9,
+      "attendance": 81.3,
       "submit": 92.0
     },
     {
       "date": "10-19",
-      "attendance": 79.4,
+      "attendance": 79.8,
       "submit": 92.5
     },
     {
       "date": "10-20",
-      "attendance": 82.4,
-      "submit": 86.2
+      "attendance": 82.8,
+      "submit": 86.4
     }
   ],
   "lesson": {
@@ -1809,19 +1814,19 @@
     "class_coverage": "33/33",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十年级 G23",
-      "化学BZ(F26)",
-      "化学AA(F26)",
+      "十年级 G21",
+      "十二年级 A22",
+      "十二年级 A21",
       "十年级 G22",
+      "九年级 G12",
+      "十一年级 AS3",
+      "化学AA(F26)",
+      "高数CR2(F26)",
+      "化学BZ(F26)",
       "九年级 G11",
       "十一年级 AS2",
-      "十一年级 AS3",
-      "十年级 G21",
-      "十二年级 A21",
       "十一年级 AS1",
-      "十二年级 A22",
-      "九年级 G12",
-      "高数CR2(F26)"
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
