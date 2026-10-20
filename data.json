@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-20 13:20",
+  "updated_at": "2026-10-20 13:25",
   "school": {
-    "rate": 84.3,
-    "present": 366,
-    "total": 434,
+    "rate": 82.2,
+    "present": 374,
+    "total": 455,
     "late": 9,
-    "absent": 68,
-    "leave": 35
+    "absent": 81,
+    "leave": 38
   },
   "summary": {
     "pending_yesterday": 0,
@@ -89,7 +89,7 @@
       "absent": 3,
       "late": 1,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "13:00-13:40"
@@ -474,6 +474,22 @@
       ]
     },
     {
+      "name": "雅思CR2(F26)",
+      "teacher": "费楚淇",
+      "rate": 38.1,
+      "present_text": "8/21人次",
+      "present": 8,
+      "total": 21,
+      "absent": 13,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "雅思口语C0(F26)",
       "teacher": "费楚淇",
       "rate": 87.5,
@@ -509,6 +525,220 @@
   ],
   "absent_students": [
     {
+      "name": "赵倚菲",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026-10-20 13:00:00 至 2026-10-20 17:00:00  不舒服",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:23:29"
+    },
+    {
+      "name": "栾雨乔",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "俞玥",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "徐悦栋",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/10/20 13:00:00 至 2026/10/20 16:00:00  身体不适 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "吴迪",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "王麒鸣",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/10/20 13:00:00 至 2026/10/20 14:00:00  复习 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学CB(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "姜懿",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "姜亦程",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "华晟皓",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
+      "name": "董轶尘",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-20T13:22:24"
+    },
+    {
       "name": "赵浩雯",
       "class": "AS1",
       "reason": "事假_【已通过】 2026/10/20 8:00:00 至 2026/10/20 17:00:00  尹个人原因，请假一天，谢谢 ",
@@ -528,23 +758,6 @@
         }
       ],
       "updated_at": "2026-10-20T13:08:04"
-    },
-    {
-      "name": "赵倚菲",
-      "class": "G21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "化学AA(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-20T13:04:15"
     },
     {
       "name": "宋玟萱",
@@ -757,27 +970,6 @@
       "updated_at": "2026-10-20T13:02:50"
     },
     {
-      "name": "汤二璨",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学CB(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学CB(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-20T13:02:26"
-    },
-    {
       "name": "陈乐涵",
       "class": "A21",
       "reason": "当日缺课且无请假单",
@@ -893,19 +1085,6 @@
       "updated_at": "2026-10-20T10:11:57"
     },
     {
-      "name": "张翰霆",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-20T10:08:30"
-    },
-    {
       "name": "岳沐辰",
       "class": "A21",
       "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/31 17:00:00  请假 ",
@@ -921,32 +1100,6 @@
     {
       "name": "闻誉婷",
       "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-20T10:08:30"
-    },
-    {
-      "name": "王子天",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-20T10:08:30"
-    },
-    {
-      "name": "姜亦程",
-      "class": "A22",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
@@ -1011,19 +1164,6 @@
     },
     {
       "name": "洪若玲",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "艺术CB(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-20T09:11:50"
-    },
-    {
-      "name": "高子涵",
       "class": "A22",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
@@ -1382,57 +1522,57 @@
   "trend": [
     {
       "date": "10-14",
-      "attendance": 88.8,
+      "attendance": 86.7,
       "submit": 90.0
     },
     {
       "date": "10-15",
-      "attendance": 87.3,
+      "attendance": 85.2,
       "submit": 90.5
     },
     {
       "date": "10-16",
-      "attendance": 85.8,
+      "attendance": 83.7,
       "submit": 91.0
     },
     {
       "date": "10-17",
-      "attendance": 84.3,
+      "attendance": 82.2,
       "submit": 91.5
     },
     {
       "date": "10-18",
-      "attendance": 82.8,
+      "attendance": 80.7,
       "submit": 92.0
     },
     {
       "date": "10-19",
-      "attendance": 81.3,
+      "attendance": 79.2,
       "submit": 92.5
     },
     {
       "date": "10-20",
-      "attendance": 84.3,
-      "submit": 87.2
+      "attendance": 82.2,
+      "submit": 86.1
     }
   ],
   "lesson": {
     "completion_rate": 64.9,
     "called": 63,
     "total": 97,
-    "class_coverage": "30/30",
+    "class_coverage": "31/31",
     "teacher_count": 21,
     "uncovered_classes": [
-      "九年级 G11",
-      "十年级 G21",
-      "十二年级 A21",
       "十年级 G22",
-      "化学BZ(F26)",
+      "九年级 G11",
+      "十一年级 AS3",
       "十一年级 AS1",
       "九年级 G12",
-      "十一年级 AS3",
-      "十二年级 A22",
-      "十一年级 AS2"
+      "十一年级 AS2",
+      "化学BZ(F26)",
+      "十二年级 A21",
+      "十年级 G21",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
