@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-20 16:16",
+  "updated_at": "2026-10-20 16:21",
   "school": {
-    "rate": 83.9,
-    "present": 618,
-    "total": 737,
+    "rate": 84.1,
+    "present": 629,
+    "total": 748,
     "late": 9,
     "absent": 119,
     "leave": 68
@@ -268,17 +268,18 @@
     {
       "name": "日语(F26)",
       "teacher": "马琳",
-      "rate": 9.1,
-      "present_text": "1/11人次",
-      "present": 1,
-      "total": 11,
+      "rate": 54.5,
+      "present_text": "12/22人次",
+      "present": 12,
+      "total": 22,
       "absent": 10,
       "late": 0,
       "early": 0,
       "leave": 10,
       "status": "异常",
       "time_spans": [
-        "15:30-16:10"
+        "15:30-16:10",
+        "16:20-17:00"
       ]
     },
     {
@@ -2078,37 +2079,37 @@
   "trend": [
     {
       "date": "10-14",
-      "attendance": 88.4,
+      "attendance": 88.6,
       "submit": 90.0
     },
     {
       "date": "10-15",
-      "attendance": 86.9,
+      "attendance": 87.1,
       "submit": 90.5
     },
     {
       "date": "10-16",
-      "attendance": 85.4,
+      "attendance": 85.6,
       "submit": 91.0
     },
     {
       "date": "10-17",
-      "attendance": 83.9,
+      "attendance": 84.1,
       "submit": 91.5
     },
     {
       "date": "10-18",
-      "attendance": 82.4,
+      "attendance": 82.6,
       "submit": 92.0
     },
     {
       "date": "10-19",
-      "attendance": 80.9,
+      "attendance": 81.1,
       "submit": 92.5
     },
     {
       "date": "10-20",
-      "attendance": 83.9,
+      "attendance": 84.1,
       "submit": 87.0
     }
   ],
@@ -2119,18 +2120,18 @@
     "class_coverage": "43/43",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十年级 G22",
       "化学BZ(F26)",
-      "高数CR2(F26)",
+      "十年级 G22",
       "十二年级 A22",
-      "九年级 G12",
+      "十年级 G23",
       "十一年级 AS3",
-      "十年级 G21",
       "十一年级 AS1",
-      "十一年级 AS2",
+      "九年级 G12",
+      "十二年级 A21",
       "九年级 G11",
-      "十年级 G23"
+      "高数CR2(F26)",
+      "十年级 G21",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
