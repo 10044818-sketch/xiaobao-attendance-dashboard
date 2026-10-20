@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-20 09:10",
+  "updated_at": "2026-10-20 09:15",
   "school": {
-    "rate": 80.6,
-    "present": 50,
-    "total": 62,
+    "rate": 78.5,
+    "present": 51,
+    "total": 65,
     "late": 1,
-    "absent": 12,
+    "absent": 14,
     "leave": 6
   },
   "summary": {
@@ -111,9 +111,51 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "艺术CB(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 33.3,
+      "present_text": "1/3人次",
+      "present": 1,
+      "total": 3,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "洪若玲",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-20T09:11:50"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-20T09:11:50"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -346,56 +388,56 @@
   "trend": [
     {
       "date": "10-14",
-      "attendance": 85.1,
+      "attendance": 83.0,
       "submit": 90.0
     },
     {
       "date": "10-15",
-      "attendance": 83.6,
+      "attendance": 81.5,
       "submit": 90.5
     },
     {
       "date": "10-16",
-      "attendance": 82.1,
+      "attendance": 80.0,
       "submit": 91.0
     },
     {
       "date": "10-17",
-      "attendance": 80.6,
+      "attendance": 78.5,
       "submit": 91.5
     },
     {
       "date": "10-18",
-      "attendance": 79.1,
+      "attendance": 77.0,
       "submit": 92.0
     },
     {
       "date": "10-19",
-      "attendance": 77.6,
+      "attendance": 75.5,
       "submit": 92.5
     },
     {
       "date": "10-20",
-      "attendance": 80.6,
-      "submit": 85.3
+      "attendance": 78.5,
+      "submit": 84.2
     }
   ],
   "lesson": {
     "completion_rate": 59.3,
     "called": 16,
     "total": 27,
-    "class_coverage": "6/6",
+    "class_coverage": "7/7",
     "teacher_count": 11,
     "uncovered_classes": [
+      "化学CB(F26)",
       "十一年级 AS1",
-      "十二年级 A21",
-      "九年级 G11",
-      "十二年级 A22",
-      "十年级 G23",
+      "十年级 G21",
       "九年级 G12",
       "十年级 G22",
-      "化学CB(F26)",
-      "十年级 G21"
+      "十二年级 A21",
+      "十年级 G23",
+      "九年级 G11",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
