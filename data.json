@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20 13:35",
+  "updated_at": "2026-10-20 13:40",
   "school": {
     "rate": 82.2,
     "present": 374,
@@ -1517,6 +1517,46 @@
       "teacher": "",
       "time": "10:50-11:30",
       "location": ""
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:00-13:40",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:00-13:40",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:00-13:40",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:00-13:40",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "物理",
+      "teacher": "曾靓",
+      "time": "13:00-13:40",
+      "location": "LT3-107"
     }
   ],
   "trend": [
@@ -1557,22 +1597,23 @@
     }
   ],
   "lesson": {
-    "completion_rate": 64.9,
-    "called": 63,
-    "total": 97,
+    "completion_rate": 66.4,
+    "called": 77,
+    "total": 116,
     "class_coverage": "31/31",
-    "teacher_count": 21,
+    "teacher_count": 23,
     "uncovered_classes": [
-      "十年级 G21",
-      "十一年级 AS2",
-      "十二年级 A22",
-      "九年级 G11",
       "十一年级 AS1",
-      "十年级 G22",
-      "十一年级 AS3",
+      "十年级 G21",
+      "十年级 G23",
       "化学BZ(F26)",
+      "十一年级 AS3",
+      "十二年级 A22",
+      "十年级 G22",
+      "九年级 G12",
+      "九年级 G11",
       "十二年级 A21",
-      "九年级 G12"
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -1846,6 +1887,46 @@
         "teacher": "",
         "time": "10:50-11:30",
         "location": ""
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "13:00-13:40",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "13:00-13:40",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:00-13:40",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:00-13:40",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "物理",
+        "teacher": "曾靓",
+        "time": "13:00-13:40",
+        "location": "LT3-107"
       }
     ]
   }
