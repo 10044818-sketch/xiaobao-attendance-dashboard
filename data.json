@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-21 17:01",
+  "updated_at": "2026-10-21 17:05",
   "school": {
-    "rate": 84.2,
-    "present": 663,
-    "total": 787,
+    "rate": 84.3,
+    "present": 673,
+    "total": 798,
     "late": 5,
-    "absent": 124,
+    "absent": 125,
     "leave": 66
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 14,
+    "class_attention": 15,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -608,6 +608,22 @@
       ]
     },
     {
+      "name": "英语口语AQ3(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 90.9,
+      "present_text": "10/11人次",
+      "present": 10,
+      "total": 11,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
       "name": "英语听读写9A(F26)",
       "teacher": "瞿芬",
       "rate": 92.9,
@@ -770,6 +786,39 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "肖含章",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐AA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "英语口语AQ3(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-10-21T17:05:29"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -1295,35 +1344,6 @@
         }
       ],
       "updated_at": "2026-10-21T16:13:25"
-    },
-    {
-      "name": "肖含章",
-      "class": "G21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐AA(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "化学AA(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-10-21T16:13:17"
     },
     {
       "name": "茆睿恺",
@@ -2131,28 +2151,12 @@
       "location": "LT3-109"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "16:20-17:00",
-      "location": "LT3-122"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "英语第二语言",
       "teacher": "王伊",
       "time": "16:20-17:00",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "16:20-17:00",
-      "location": "LT3-122"
     },
     {
       "class": "十年级 G23",
@@ -2166,60 +2170,60 @@
   "trend": [
     {
       "date": "10-15",
-      "attendance": 88.7,
+      "attendance": 88.8,
       "submit": 90.0
     },
     {
       "date": "10-16",
-      "attendance": 87.2,
+      "attendance": 87.3,
       "submit": 90.5
     },
     {
       "date": "10-17",
-      "attendance": 85.7,
+      "attendance": 85.8,
       "submit": 91.0
     },
     {
       "date": "10-18",
-      "attendance": 84.2,
+      "attendance": 84.3,
       "submit": 91.5
     },
     {
       "date": "10-19",
-      "attendance": 82.7,
+      "attendance": 82.8,
       "submit": 92.0
     },
     {
       "date": "10-20",
-      "attendance": 81.2,
+      "attendance": 81.3,
       "submit": 92.5
     },
     {
       "date": "10-21",
-      "attendance": 84.2,
-      "submit": 87.1
+      "attendance": 84.3,
+      "submit": 87.2
     }
   ],
   "lesson": {
-    "completion_rate": 61.2,
-    "called": 109,
+    "completion_rate": 62.4,
+    "called": 111,
     "total": 178,
-    "class_coverage": "46/46",
+    "class_coverage": "47/47",
     "teacher_count": 28,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "高数CR2(F26)",
-      "十年级 G22",
-      "九年级 G11",
-      "化学BZ(F26)",
       "十二年级 A22",
-      "九年级 G12",
-      "十年级 G23",
-      "十一年级 AS3",
       "化学BY(F26)",
+      "十一年级 AS3",
+      "十一年级 AS1",
+      "十年级 G22",
+      "十年级 G23",
+      "化学BZ(F26)",
+      "十二年级 A21",
+      "九年级 G12",
+      "九年级 G11",
+      "高数CR2(F26)",
       "十年级 G21",
-      "十二年级 A21"
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -2743,28 +2747,12 @@
         "location": "LT3-109"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "16:20-17:00",
-        "location": "LT3-122"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "英语第二语言",
         "teacher": "王伊",
         "time": "16:20-17:00",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "16:20-17:00",
-        "location": "LT3-122"
       },
       {
         "class": "十年级 G23",
