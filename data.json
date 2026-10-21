@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-21 09:00",
+  "updated_at": "2026-10-21 09:05",
   "school": {
-    "rate": 78.9,
-    "present": 15,
-    "total": 19,
+    "rate": 80.0,
+    "present": 28,
+    "total": 35,
     "late": 1,
-    "absent": 4,
-    "leave": 2
+    "absent": 7,
+    "leave": 5
   },
   "summary": {
     "pending_yesterday": 0,
@@ -30,9 +30,64 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "物理AY(F26)",
+      "teacher": "职梦凡",
+      "rate": 81.2,
+      "present_text": "13/16人次",
+      "present": 13,
+      "total": 16,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "赵倚菲",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/10/21 6:00:00 至 2026/10/21 18:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-21T09:01:03"
+    },
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/10/21 6:00:00 至 2026/10/21 18:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-21T09:01:03"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/10/21 7:00:00 至 2026/10/21 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-21T09:01:03"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -184,14 +239,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "08:20-09:00",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "物理",
@@ -219,58 +266,57 @@
   "trend": [
     {
       "date": "10-15",
-      "attendance": 83.4,
+      "attendance": 84.5,
       "submit": 90.0
     },
     {
       "date": "10-16",
-      "attendance": 81.9,
+      "attendance": 83.0,
       "submit": 90.5
     },
     {
       "date": "10-17",
-      "attendance": 80.4,
+      "attendance": 81.5,
       "submit": 91.0
     },
     {
       "date": "10-18",
-      "attendance": 78.9,
+      "attendance": 80.0,
       "submit": 91.5
     },
     {
       "date": "10-19",
-      "attendance": 77.4,
+      "attendance": 78.5,
       "submit": 92.0
     },
     {
       "date": "10-20",
-      "attendance": 75.9,
+      "attendance": 77.0,
       "submit": 92.5
     },
     {
       "date": "10-21",
-      "attendance": 78.9,
-      "submit": 84.5
+      "attendance": 80.0,
+      "submit": 85.0
     }
   ],
   "lesson": {
-    "completion_rate": 15.8,
-    "called": 3,
+    "completion_rate": 21.1,
+    "called": 4,
     "total": 19,
-    "class_coverage": "1/1",
+    "class_coverage": "2/2",
     "teacher_count": 9,
     "uncovered_classes": [
       "十一年级 AS1",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "十二年级 A21",
-      "十年级 G21",
       "高数CR2(F26)",
-      "九年级 G12",
       "十二年级 A22",
+      "九年级 G12",
+      "十年级 G22",
+      "十一年级 AS2",
       "九年级 G11",
+      "十一年级 AS3",
       "十年级 G23",
-      "十年级 G22"
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -368,14 +414,6 @@
         "teacher": "李俊",
         "time": "08:20-09:00",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "08:20-09:00",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G22",
