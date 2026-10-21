@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-21 09:05",
+  "updated_at": "2026-10-21 09:10",
   "school": {
-    "rate": 80.0,
-    "present": 28,
-    "total": 35,
+    "rate": 81.6,
+    "present": 40,
+    "total": 49,
     "late": 1,
-    "absent": 7,
+    "absent": 9,
     "leave": 5
   },
   "summary": {
@@ -46,9 +46,51 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-21T09:09:37"
+    },
+    {
+      "name": "黄子瑄",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-21T09:09:37"
+    },
     {
       "name": "赵倚菲",
       "class": "G21",
@@ -142,22 +184,6 @@
     }
   ],
   "pending_roll_call": [
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
@@ -266,75 +292,57 @@
   "trend": [
     {
       "date": "10-15",
-      "attendance": 84.5,
+      "attendance": 86.1,
       "submit": 90.0
     },
     {
       "date": "10-16",
-      "attendance": 83.0,
+      "attendance": 84.6,
       "submit": 90.5
     },
     {
       "date": "10-17",
-      "attendance": 81.5,
+      "attendance": 83.1,
       "submit": 91.0
     },
     {
       "date": "10-18",
-      "attendance": 80.0,
+      "attendance": 81.6,
       "submit": 91.5
     },
     {
       "date": "10-19",
-      "attendance": 78.5,
+      "attendance": 80.1,
       "submit": 92.0
     },
     {
       "date": "10-20",
-      "attendance": 77.0,
+      "attendance": 78.6,
       "submit": 92.5
     },
     {
       "date": "10-21",
-      "attendance": 80.0,
-      "submit": 85.0
+      "attendance": 81.6,
+      "submit": 85.8
     }
   ],
   "lesson": {
-    "completion_rate": 21.1,
-    "called": 4,
+    "completion_rate": 31.6,
+    "called": 6,
     "total": 19,
-    "class_coverage": "2/2",
+    "class_coverage": "3/3",
     "teacher_count": 9,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "高数CR2(F26)",
-      "十二年级 A22",
-      "九年级 G12",
-      "十年级 G22",
-      "十一年级 AS2",
-      "九年级 G11",
       "十一年级 AS3",
+      "十年级 G22",
+      "十一年级 AS1",
       "十年级 G23",
-      "十二年级 A21"
+      "十一年级 AS2",
+      "十二年级 A21",
+      "十二年级 A22",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
