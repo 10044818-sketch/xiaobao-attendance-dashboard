@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-21 12:40",
+  "updated_at": "2026-10-21 12:46",
   "school": {
-    "rate": 83.6,
-    "present": 199,
-    "total": 238,
+    "rate": 84.6,
+    "present": 225,
+    "total": 266,
     "late": 4,
-    "absent": 39,
-    "leave": 24
+    "absent": 41,
+    "leave": 26
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -62,6 +62,23 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "数学A0(F26)",
+      "teacher": "张小翼",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -262,6 +279,31 @@
   ],
   "absent_students": [
     {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "事假_【已通过】 2026/10/19 8:00:00 至 2026/10/23 15:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济A0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-21T12:43:06"
+    },
+    {
       "name": "宋玟萱",
       "class": "G21",
       "reason": "当日缺课且无请假单",
@@ -294,23 +336,6 @@
         }
       ],
       "updated_at": "2026-10-21T12:07:55"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "事假_【已通过】 2026/10/19 8:00:00 至 2026/10/23 15:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济A0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-21T11:04:22"
     },
     {
       "name": "赵倚菲",
@@ -690,14 +715,6 @@
       "location": "LT3-109"
     },
     {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "08:20-09:00",
-      "location": "LT3-107"
-    },
-    {
       "class": "高数CR2(F26)",
       "class_id": 521015,
       "subject": "高等数学",
@@ -792,14 +809,6 @@
       "teacher": "熊辉",
       "time": "09:10-09:50",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "09:10-09:50",
-      "location": "LT3-107"
     },
     {
       "class": "高数CR2(F26)",
@@ -1021,59 +1030,58 @@
   "trend": [
     {
       "date": "10-15",
-      "attendance": 88.1,
+      "attendance": 89.1,
       "submit": 90.0
     },
     {
       "date": "10-16",
-      "attendance": 86.6,
+      "attendance": 87.6,
       "submit": 90.5
     },
     {
       "date": "10-17",
-      "attendance": 85.1,
+      "attendance": 86.1,
       "submit": 91.0
     },
     {
       "date": "10-18",
-      "attendance": 83.6,
+      "attendance": 84.6,
       "submit": 91.5
     },
     {
       "date": "10-19",
-      "attendance": 82.1,
+      "attendance": 83.1,
       "submit": 92.0
     },
     {
       "date": "10-20",
-      "attendance": 80.6,
+      "attendance": 81.6,
       "submit": 92.5
     },
     {
       "date": "10-21",
-      "attendance": 83.6,
-      "submit": 86.8
+      "attendance": 84.6,
+      "submit": 87.3
     }
   ],
   "lesson": {
-    "completion_rate": 39.8,
-    "called": 33,
+    "completion_rate": 42.2,
+    "called": 35,
     "total": 83,
-    "class_coverage": "15/15",
+    "class_coverage": "16/16",
     "teacher_count": 21,
     "uncovered_classes": [
-      "九年级 G11",
-      "十年级 G22",
-      "九年级 G12",
       "十二年级 A21",
-      "十年级 G23",
-      "十一年级 AS1",
       "十一年级 AS3",
+      "十年级 G22",
+      "九年级 G11",
       "十年级 G21",
-      "化学BY(F26)",
+      "高数CR2(F26)",
+      "九年级 G12",
       "十一年级 AS2",
-      "十二年级 A22",
-      "高数CR2(F26)"
+      "化学BY(F26)",
+      "十一年级 AS1",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -1147,14 +1155,6 @@
         "teacher": "熊辉",
         "time": "08:20-09:00",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "08:20-09:00",
-        "location": "LT3-107"
       },
       {
         "class": "高数CR2(F26)",
@@ -1251,14 +1251,6 @@
         "teacher": "熊辉",
         "time": "09:10-09:50",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "09:10-09:50",
-        "location": "LT3-107"
       },
       {
         "class": "高数CR2(F26)",
