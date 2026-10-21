@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-21 09:35",
+  "updated_at": "2026-10-21 09:40",
   "school": {
-    "rate": 82.5,
-    "present": 47,
+    "rate": 80.7,
+    "present": 46,
     "total": 57,
     "late": 1,
-    "absent": 10,
-    "leave": 6
+    "absent": 11,
+    "leave": 7
   },
   "summary": {
     "pending_yesterday": 0,
@@ -34,14 +34,14 @@
     {
       "name": "物理AY(F26)",
       "teacher": "职梦凡",
-      "rate": 81.2,
-      "present_text": "13/16人次",
-      "present": 13,
+      "rate": 75.0,
+      "present_text": "12/16人次",
+      "present": 12,
       "total": 16,
-      "absent": 3,
+      "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 3,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -81,6 +81,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "肖含章",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026-10-21 08:00:00 至 2026-10-21 13:00:00  肚子疼",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-21T09:38:05"
+    },
     {
       "name": "黄子瑄",
       "class": "G12",
@@ -321,38 +334,38 @@
   "trend": [
     {
       "date": "10-15",
-      "attendance": 87.0,
+      "attendance": 85.2,
       "submit": 90.0
     },
     {
       "date": "10-16",
-      "attendance": 85.5,
+      "attendance": 83.7,
       "submit": 90.5
     },
     {
       "date": "10-17",
-      "attendance": 84.0,
+      "attendance": 82.2,
       "submit": 91.0
     },
     {
       "date": "10-18",
-      "attendance": 82.5,
+      "attendance": 80.7,
       "submit": 91.5
     },
     {
       "date": "10-19",
-      "attendance": 81.0,
+      "attendance": 79.2,
       "submit": 92.0
     },
     {
       "date": "10-20",
-      "attendance": 79.5,
+      "attendance": 77.7,
       "submit": 92.5
     },
     {
       "date": "10-21",
-      "attendance": 82.5,
-      "submit": 86.2
+      "attendance": 80.7,
+      "submit": 85.3
     }
   ],
   "lesson": {
@@ -362,14 +375,14 @@
     "class_coverage": "4/4",
     "teacher_count": 9,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十一年级 AS1",
-      "十二年级 A21",
-      "十二年级 A22",
-      "十年级 G23",
-      "十年级 G22",
       "高数CR2(F26)",
-      "十一年级 AS3"
+      "十二年级 A21",
+      "十一年级 AS1",
+      "十二年级 A22",
+      "十一年级 AS2",
+      "十年级 G22",
+      "十一年级 AS3",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
