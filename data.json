@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-21 15:36",
+  "updated_at": "2026-10-21 15:40",
   "school": {
-    "rate": 85.5,
-    "present": 509,
-    "total": 595,
+    "rate": 85.4,
+    "present": 516,
+    "total": 604,
     "late": 5,
-    "absent": 86,
+    "absent": 88,
     "leave": 48
   },
   "summary": {
@@ -364,6 +364,22 @@
       ]
     },
     {
+      "name": "艺术BX(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 77.8,
+      "present_text": "7/9人次",
+      "present": 7,
+      "total": 9,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "15:30-16:10"
+      ]
+    },
+    {
       "name": "英语写作AQ1(F26)",
       "teacher": "贺珍谊",
       "rate": 78.6,
@@ -541,6 +557,44 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "沈诗珈",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-21T15:39:34"
+    },
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思BR2C(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-10-21T15:39:34"
+    },
     {
       "name": "孔维轩",
       "class": "G22",
@@ -831,27 +885,6 @@
         }
       ],
       "updated_at": "2026-10-21T14:42:31"
-    },
-    {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "雅思BR2C(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-21T14:33:36"
     },
     {
       "name": "冯麟",
@@ -1726,59 +1759,59 @@
   "trend": [
     {
       "date": "10-15",
-      "attendance": 90.0,
+      "attendance": 89.9,
       "submit": 90.0
     },
     {
       "date": "10-16",
-      "attendance": 88.5,
+      "attendance": 88.4,
       "submit": 90.5
     },
     {
       "date": "10-17",
-      "attendance": 87.0,
+      "attendance": 86.9,
       "submit": 91.0
     },
     {
       "date": "10-18",
-      "attendance": 85.5,
+      "attendance": 85.4,
       "submit": 91.5
     },
     {
       "date": "10-19",
-      "attendance": 84.0,
+      "attendance": 83.9,
       "submit": 92.0
     },
     {
       "date": "10-20",
-      "attendance": 82.5,
+      "attendance": 82.4,
       "submit": 92.5
     },
     {
       "date": "10-21",
-      "attendance": 85.5,
-      "submit": 87.8
+      "attendance": 85.4,
+      "submit": 87.7
     }
   ],
   "lesson": {
     "completion_rate": 53.2,
     "called": 74,
     "total": 139,
-    "class_coverage": "32/32",
+    "class_coverage": "33/33",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "十年级 G22",
-      "九年级 G11",
       "十一年级 AS2",
-      "十年级 G23",
+      "十年级 G22",
       "十年级 G21",
-      "化学BY(F26)",
-      "高数CR2(F26)",
       "十二年级 A21",
       "九年级 G12",
+      "十年级 G23",
+      "十一年级 AS3",
       "十一年级 AS1",
-      "十二年级 A22"
+      "高数CR2(F26)",
+      "十二年级 A22",
+      "化学BY(F26)",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
