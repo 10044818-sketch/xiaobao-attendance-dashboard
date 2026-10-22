@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-22 10:32",
+  "updated_at": "2026-10-22 10:35",
   "school": {
-    "rate": 64.4,
-    "present": 112,
-    "total": 174,
+    "rate": 69.3,
+    "present": 140,
+    "total": 202,
     "late": 2,
     "absent": 62,
     "leave": 28
@@ -112,6 +112,23 @@
       "status": "关注",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "英语听读写9A(F26)",
+      "teacher": "瞿芬",
+      "rate": 100.0,
+      "present_text": "28/28人次",
+      "present": 28,
+      "total": 28,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -741,22 +758,6 @@
   ],
   "pending_roll_call": [
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
       "class": "化学A0(F26)",
       "class_id": 524146,
       "subject": "化学",
@@ -829,22 +830,6 @@
       "location": "LT3-107"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
-    },
-    {
       "class": "化学A0(F26)",
       "class_id": 524146,
       "subject": "化学",
@@ -912,75 +897,57 @@
   "trend": [
     {
       "date": "10-16",
-      "attendance": 68.9,
+      "attendance": 73.8,
       "submit": 90.0
     },
     {
       "date": "10-17",
-      "attendance": 67.4,
+      "attendance": 72.3,
       "submit": 90.5
     },
     {
       "date": "10-18",
-      "attendance": 65.9,
+      "attendance": 70.8,
       "submit": 91.0
     },
     {
       "date": "10-19",
-      "attendance": 64.4,
+      "attendance": 69.3,
       "submit": 91.5
     },
     {
       "date": "10-20",
-      "attendance": 62.9,
+      "attendance": 67.8,
       "submit": 92.0
     },
     {
       "date": "10-21",
-      "attendance": 61.4,
+      "attendance": 66.3,
       "submit": 92.5
     },
     {
       "date": "10-22",
-      "attendance": 64.4,
-      "submit": 77.2
+      "attendance": 69.3,
+      "submit": 79.7
     }
   ],
   "lesson": {
-    "completion_rate": 50.0,
-    "called": 21,
+    "completion_rate": 59.5,
+    "called": 25,
     "total": 42,
-    "class_coverage": "9/9",
+    "class_coverage": "10/10",
     "teacher_count": 11,
     "uncovered_classes": [
-      "九年级 G11",
-      "化学A0(F26)",
+      "十一年级 AS1",
       "十一年级 AS3",
-      "十年级 G23",
-      "化学AA(F26)",
       "十年级 G21",
-      "十年级 G22",
-      "九年级 G12",
       "十一年级 AS2",
-      "十一年级 AS1"
+      "化学AA(F26)",
+      "化学A0(F26)",
+      "十年级 G22",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
       {
         "class": "化学A0(F26)",
         "class_id": 524146,
@@ -1052,22 +1019,6 @@
         "teacher": "袁西援",
         "time": "08:20-09:00",
         "location": "LT3-107"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
       },
       {
         "class": "化学A0(F26)",
