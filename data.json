@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23 18:40",
+  "updated_at": "2026-10-23 18:45",
   "school": {
-    "rate": 83.2,
-    "present": 499,
+    "rate": 82.8,
+    "present": 497,
     "total": 600,
     "late": 9,
-    "absent": 101,
-    "leave": 65
+    "absent": 103,
+    "leave": 69
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 7,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -41,7 +41,7 @@
       "absent": 5,
       "late": 1,
       "early": 0,
-      "leave": 3,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
@@ -99,15 +99,15 @@
     {
       "name": "化学BZ(F26)",
       "teacher": "米万宝",
-      "rate": 91.7,
-      "present_text": "11/12人次",
-      "present": 11,
+      "rate": 83.3,
+      "present_text": "10/12人次",
+      "present": 10,
       "total": 12,
-      "absent": 1,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
-      "status": "关注",
+      "leave": 2,
+      "status": "异常",
       "time_spans": [
         "13:00-13:40"
       ]
@@ -395,14 +395,14 @@
     {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
-      "rate": 86.4,
-      "present_text": "19/22人次",
-      "present": 19,
+      "rate": 81.8,
+      "present_text": "18/22人次",
+      "present": 18,
       "total": 22,
-      "absent": 3,
+      "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -657,6 +657,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026-10-23 08:00:00 至 2026-10-23 16:00:00  因个人原因请假一天，谢谢",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育BR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-23T18:45:22"
+    },
     {
       "name": "洪若玲",
       "class": "A22",
@@ -1167,23 +1192,6 @@
         }
       ],
       "updated_at": "2026-10-23T10:55:01"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育BR1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-23T10:53:13"
     },
     {
       "name": "冯麟",
@@ -1705,38 +1713,38 @@
   "trend": [
     {
       "date": "10-17",
-      "attendance": 87.7,
+      "attendance": 87.3,
       "submit": 90.0
     },
     {
       "date": "10-18",
-      "attendance": 86.2,
+      "attendance": 85.8,
       "submit": 90.5
     },
     {
       "date": "10-19",
-      "attendance": 84.7,
+      "attendance": 84.3,
       "submit": 91.0
     },
     {
       "date": "10-20",
-      "attendance": 83.2,
+      "attendance": 82.8,
       "submit": 91.5
     },
     {
       "date": "10-21",
-      "attendance": 81.7,
+      "attendance": 81.3,
       "submit": 92.0
     },
     {
       "date": "10-22",
-      "attendance": 80.2,
+      "attendance": 79.8,
       "submit": 92.5
     },
     {
       "date": "10-23",
-      "attendance": 83.2,
-      "submit": 86.6
+      "attendance": 82.8,
+      "submit": 86.4
     }
   ],
   "lesson": {
@@ -1746,17 +1754,17 @@
     "class_coverage": "39/39",
     "teacher_count": 25,
     "uncovered_classes": [
-      "九年级 G12",
-      "高数CR2(F26)",
-      "十二年级 A21",
-      "十一年级 AS1",
       "九年级 G11",
-      "十年级 G22",
-      "十一年级 AS2",
       "十一年级 AS3",
       "十年级 G21",
-      "化学BZ(F26)",
       "十年级 G23",
+      "十年级 G22",
+      "高数CR2(F26)",
+      "十二年级 A21",
+      "化学BZ(F26)",
+      "十一年级 AS2",
+      "九年级 G12",
+      "十一年级 AS1",
       "十二年级 A22"
     ],
     "uncovered_teachers": [
