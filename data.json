@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23 13:05",
+  "updated_at": "2026-10-23 13:12",
   "school": {
-    "rate": 82.5,
-    "present": 363,
-    "total": 440,
+    "rate": 82.7,
+    "present": 374,
+    "total": 452,
     "late": 8,
-    "absent": 77,
-    "leave": 52
+    "absent": 78,
+    "leave": 53
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -94,6 +94,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "化学BZ(F26)",
+      "teacher": "米万宝",
+      "rate": 91.7,
+      "present_text": "11/12人次",
+      "present": 11,
+      "total": 12,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -444,6 +460,27 @@
   ],
   "absent_students": [
     {
+      "name": "于泽轩",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/10/23 7:00:00 至 2026/10/23 16:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-23T13:09:09"
+    },
+    {
       "name": "周原",
       "class": "AS1",
       "reason": "病假_【已通过】 2026/10/23 8:00:00 至 2026/10/23 15:30:00  医院就诊 ",
@@ -488,23 +525,6 @@
         }
       ],
       "updated_at": "2026-10-23T13:01:35"
-    },
-    {
-      "name": "于泽轩",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/10/23 7:00:00 至 2026/10/23 16:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理BY(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-23T12:43:41"
     },
     {
       "name": "盛欣宜",
@@ -1250,57 +1270,57 @@
   "trend": [
     {
       "date": "10-17",
-      "attendance": 87.0,
+      "attendance": 87.2,
       "submit": 90.0
     },
     {
       "date": "10-18",
-      "attendance": 85.5,
+      "attendance": 85.7,
       "submit": 90.5
     },
     {
       "date": "10-19",
-      "attendance": 84.0,
+      "attendance": 84.2,
       "submit": 91.0
     },
     {
       "date": "10-20",
-      "attendance": 82.5,
+      "attendance": 82.7,
       "submit": 91.5
     },
     {
       "date": "10-21",
-      "attendance": 81.0,
+      "attendance": 81.2,
       "submit": 92.0
     },
     {
       "date": "10-22",
-      "attendance": 79.5,
+      "attendance": 79.7,
       "submit": 92.5
     },
     {
       "date": "10-23",
-      "attendance": 82.5,
-      "submit": 86.2
+      "attendance": 82.7,
+      "submit": 86.3
     }
   ],
   "lesson": {
     "completion_rate": 73.7,
     "called": 56,
     "total": 76,
-    "class_coverage": "26/26",
+    "class_coverage": "27/27",
     "teacher_count": 20,
     "uncovered_classes": [
-      "九年级 G12",
-      "十年级 G23",
       "九年级 G11",
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "十二年级 A22",
       "十二年级 A21",
+      "十二年级 A22",
+      "十一年级 AS2",
+      "十年级 G22",
+      "九年级 G12",
       "高数CR2(F26)",
-      "十年级 G22"
+      "十一年级 AS1",
+      "十一年级 AS3",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
