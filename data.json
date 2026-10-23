@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-23 09:25",
+  "updated_at": "2026-10-23 09:31",
   "school": {
-    "rate": 79.5,
-    "present": 70,
-    "total": 88,
+    "rate": 80.0,
+    "present": 88,
+    "total": 110,
     "late": 0,
-    "absent": 18,
-    "leave": 10
+    "absent": 22,
+    "leave": 12
   },
   "summary": {
     "pending_yesterday": 0,
@@ -82,6 +82,38 @@
       ]
     },
     {
+      "name": "英语听力A0(F26)",
+      "teacher": "费楚淇",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
+      "name": "雅思口语C0(F26)",
+      "teacher": "费楚淇",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
+      ]
+    },
+    {
       "name": "音乐C0(F26)",
       "teacher": "刘知言",
       "rate": 75.0,
@@ -99,6 +131,66 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思口语C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-23T09:26:24"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/10/23 8:00:00 至 2026/10/23 12:00:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思口语C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-23T09:26:24"
+    },
+    {
+      "name": "胡鑫玥",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "英语听力A0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-23T09:26:02"
+    },
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "事假_【已通过】 2026/10/19 8:00:00 至 2026/10/23 15:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听力A0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-23T09:26:02"
+    },
     {
       "name": "陈静宜",
       "class": "AS3",
@@ -197,32 +289,6 @@
         }
       ],
       "updated_at": "2026-10-23T09:02:42"
-    },
-    {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-23T08:32:21"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026/10/23 8:00:00 至 2026/10/23 12:00:00  头疼 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-23T08:32:21"
     },
     {
       "name": "赵浩雯",
@@ -364,67 +430,58 @@
       "teacher": "熊辉",
       "time": "08:20-09:00",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "英语第二语言听力",
-      "teacher": "费楚淇",
-      "time": "08:20-09:00",
-      "location": "LT3-107"
     }
   ],
   "trend": [
     {
       "date": "10-17",
-      "attendance": 84.0,
+      "attendance": 84.5,
       "submit": 90.0
     },
     {
       "date": "10-18",
-      "attendance": 82.5,
+      "attendance": 83.0,
       "submit": 90.5
     },
     {
       "date": "10-19",
-      "attendance": 81.0,
+      "attendance": 81.5,
       "submit": 91.0
     },
     {
       "date": "10-20",
-      "attendance": 79.5,
+      "attendance": 80.0,
       "submit": 91.5
     },
     {
       "date": "10-21",
-      "attendance": 78.0,
+      "attendance": 78.5,
       "submit": 92.0
     },
     {
       "date": "10-22",
-      "attendance": 76.5,
+      "attendance": 77.0,
       "submit": 92.5
     },
     {
       "date": "10-23",
-      "attendance": 79.5,
-      "submit": 84.8
+      "attendance": 80.0,
+      "submit": 85.0
     }
   ],
   "lesson": {
-    "completion_rate": 63.2,
-    "called": 12,
+    "completion_rate": 68.4,
+    "called": 13,
     "total": 19,
-    "class_coverage": "5/5",
+    "class_coverage": "7/7",
     "teacher_count": 10,
     "uncovered_classes": [
+      "九年级 G12",
       "十年级 G21",
       "十二年级 A21",
-      "九年级 G12",
-      "十年级 G22",
+      "十二年级 A22",
       "九年级 G11",
-      "十年级 G23",
-      "十二年级 A22"
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
@@ -474,14 +531,6 @@
         "teacher": "熊辉",
         "time": "08:20-09:00",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "英语第二语言听力",
-        "teacher": "费楚淇",
-        "time": "08:20-09:00",
-        "location": "LT3-107"
       }
     ]
   }
