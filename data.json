@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-23 09:50",
+  "updated_at": "2026-10-23 09:56",
   "school": {
-    "rate": 79.3,
-    "present": 130,
-    "total": 164,
+    "rate": 80.3,
+    "present": 143,
+    "total": 178,
     "late": 0,
-    "absent": 34,
-    "leave": 20
+    "absent": 35,
+    "leave": 21
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -30,6 +30,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学9A(F26)",
+      "teacher": "李俊",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
       ]
     },
     {
@@ -165,6 +181,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/10/23 8:00:00 至 2026/10/23 16:00:00  身体不适，请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-23T09:55:07"
+    },
     {
       "name": "金懿帆",
       "class": "G21",
@@ -520,22 +549,6 @@
   ],
   "pending_roll_call": [
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "数学",
-      "teacher": "李俊",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "数学",
-      "teacher": "李俊",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "物理",
@@ -611,73 +624,57 @@
   "trend": [
     {
       "date": "10-17",
-      "attendance": 83.8,
+      "attendance": 84.8,
       "submit": 90.0
     },
     {
       "date": "10-18",
-      "attendance": 82.3,
+      "attendance": 83.3,
       "submit": 90.5
     },
     {
       "date": "10-19",
-      "attendance": 80.8,
+      "attendance": 81.8,
       "submit": 91.0
     },
     {
       "date": "10-20",
-      "attendance": 79.3,
+      "attendance": 80.3,
       "submit": 91.5
     },
     {
       "date": "10-21",
-      "attendance": 77.8,
+      "attendance": 78.8,
       "submit": 92.0
     },
     {
       "date": "10-22",
-      "attendance": 76.3,
+      "attendance": 77.3,
       "submit": 92.5
     },
     {
       "date": "10-23",
-      "attendance": 79.3,
-      "submit": 84.7
+      "attendance": 80.3,
+      "submit": 85.2
     }
   ],
   "lesson": {
-    "completion_rate": 71.1,
-    "called": 27,
+    "completion_rate": 76.3,
+    "called": 29,
     "total": 38,
-    "class_coverage": "9/9",
+    "class_coverage": "10/10",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十年级 G22",
-      "十一年级 AS3",
-      "十二年级 A21",
-      "十一年级 AS2",
-      "九年级 G11",
       "十年级 G23",
       "十二年级 A22",
-      "九年级 G12"
+      "九年级 G12",
+      "九年级 G11",
+      "十二年级 A21",
+      "十一年级 AS3",
+      "十年级 G22",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "数学",
-        "teacher": "李俊",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "数学",
-        "teacher": "李俊",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
       {
         "class": "十年级 G22",
         "class_id": 521637,
