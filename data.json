@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-23 13:50",
+  "updated_at": "2026-10-23 13:55",
   "school": {
-    "rate": 83.1,
-    "present": 399,
-    "total": 480,
+    "rate": 83.3,
+    "present": 405,
+    "total": 486,
     "late": 8,
     "absent": 81,
     "leave": 56
@@ -82,10 +82,10 @@
     {
       "name": "化学BY(F26)",
       "teacher": "米万宝",
-      "rate": 90.0,
-      "present_text": "27/30人次",
-      "present": 27,
-      "total": 30,
+      "rate": 91.7,
+      "present_text": "33/36人次",
+      "present": 33,
+      "total": 36,
       "absent": 3,
       "late": 0,
       "early": 0,
@@ -1442,38 +1442,38 @@
   "trend": [
     {
       "date": "10-17",
-      "attendance": 87.6,
+      "attendance": 87.8,
       "submit": 90.0
     },
     {
       "date": "10-18",
-      "attendance": 86.1,
+      "attendance": 86.3,
       "submit": 90.5
     },
     {
       "date": "10-19",
-      "attendance": 84.6,
+      "attendance": 84.8,
       "submit": 91.0
     },
     {
       "date": "10-20",
-      "attendance": 83.1,
+      "attendance": 83.3,
       "submit": 91.5
     },
     {
       "date": "10-21",
-      "attendance": 81.6,
+      "attendance": 81.8,
       "submit": 92.0
     },
     {
       "date": "10-22",
-      "attendance": 80.1,
+      "attendance": 80.3,
       "submit": 92.5
     },
     {
       "date": "10-23",
-      "attendance": 83.1,
-      "submit": 86.5
+      "attendance": 83.3,
+      "submit": 86.7
     }
   ],
   "lesson": {
@@ -1483,18 +1483,18 @@
     "class_coverage": "29/29",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十二年级 A21",
-      "十年级 G22",
       "高数CR2(F26)",
-      "十年级 G23",
+      "九年级 G12",
       "九年级 G11",
+      "十一年级 AS3",
       "十年级 G21",
       "十一年级 AS2",
-      "十一年级 AS1",
+      "十二年级 A22",
+      "十年级 G23",
       "化学CB(F26)",
-      "十一年级 AS3",
-      "九年级 G12"
+      "十年级 G22",
+      "十二年级 A21",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
