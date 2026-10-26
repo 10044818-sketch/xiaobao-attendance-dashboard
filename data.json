@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26 13:36",
+  "updated_at": "2026-10-26 13:40",
   "school": {
     "rate": 90.8,
     "present": 444,
@@ -1020,6 +1020,54 @@
       "teacher": "李俊",
       "time": "10:50-11:30",
       "location": "LT3-208"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:00-13:40",
+      "location": "LT3-104"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "13:00-13:40",
+      "location": "LT3-104"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "13:00-13:40",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "13:00-13:40",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "13:00-13:40",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "英语第二语言听力",
+      "teacher": "费楚淇",
+      "time": "13:00-13:40",
+      "location": "LT3-107"
     }
   ],
   "trend": [
@@ -1060,20 +1108,23 @@
     }
   ],
   "lesson": {
-    "completion_rate": 65.3,
-    "called": 47,
-    "total": 72,
+    "completion_rate": 66.3,
+    "called": 61,
+    "total": 92,
     "class_coverage": "23/23",
-    "teacher_count": 18,
+    "teacher_count": 23,
     "uncovered_classes": [
-      "十一年级 AS3",
+      "十年级 G21",
       "十二年级 A22",
       "十一年级 AS1",
-      "十年级 G21",
       "高数CR2(F26)",
-      "十二年级 A21",
+      "九年级 G12",
       "十年级 G22",
-      "十一年级 AS2"
+      "十二年级 A21",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "十年级 G23",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -1275,6 +1326,54 @@
         "teacher": "李俊",
         "time": "10:50-11:30",
         "location": "LT3-208"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:00-13:40",
+        "location": "LT3-104"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "13:00-13:40",
+        "location": "LT3-104"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "13:00-13:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "经济学",
+        "teacher": "孙鹏",
+        "time": "13:00-13:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "物理",
+        "teacher": "职梦凡",
+        "time": "13:00-13:40",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "英语第二语言听力",
+        "teacher": "费楚淇",
+        "time": "13:00-13:40",
+        "location": "LT3-107"
       }
     ]
   }
