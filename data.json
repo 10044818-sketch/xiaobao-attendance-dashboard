@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-26 17:22",
+  "updated_at": "2026-10-26 17:25",
   "school": {
-    "rate": 87.7,
-    "present": 801,
-    "total": 913,
+    "rate": 88.0,
+    "present": 823,
+    "total": 935,
     "late": 15,
     "absent": 112,
     "leave": 61
@@ -549,6 +549,22 @@
       ]
     },
     {
+      "name": "英语听读写9A(F26)",
+      "teacher": "瞿芬",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "15:30-16:10"
+      ]
+    },
+    {
       "name": "英语阅读A0(F26)",
       "teacher": "曹德娟",
       "rate": 92.9,
@@ -678,6 +694,22 @@
       "time_spans": [
         "14:40-15:20",
         "15:30-16:10"
+      ]
+    },
+    {
+      "name": "雅思听力阅读C0(F26)",
+      "teacher": "瞿芬",
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
+      "total": 8,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:50-11:30"
       ]
     },
     {
@@ -1544,26 +1576,10 @@
     {
       "class": "十二年级 A21",
       "class_id": 366030,
-      "subject": "雅思听力阅读",
-      "teacher": "瞿芬",
-      "time": "10:50-11:30",
-      "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
       "subject": "高等数学",
       "teacher": "李俊",
       "time": "10:50-11:30",
       "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "雅思听力阅读",
-      "teacher": "瞿芬",
-      "time": "10:50-11:30",
-      "location": "LT3-209"
     },
     {
       "class": "十二年级 A22",
@@ -1694,22 +1710,6 @@
       "location": "LT3-122"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "15:30-16:10",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "15:30-16:10",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "物理",
@@ -1793,57 +1793,57 @@
   "trend": [
     {
       "date": "10-20",
-      "attendance": 92.2,
+      "attendance": 92.5,
       "submit": 90.0
     },
     {
       "date": "10-21",
-      "attendance": 90.7,
+      "attendance": 91.0,
       "submit": 90.5
     },
     {
       "date": "10-22",
-      "attendance": 89.2,
+      "attendance": 89.5,
       "submit": 91.0
     },
     {
       "date": "10-23",
-      "attendance": 87.7,
+      "attendance": 88.0,
       "submit": 91.5
     },
     {
       "date": "10-24",
-      "attendance": 86.2,
+      "attendance": 86.5,
       "submit": 92.0
     },
     {
       "date": "10-25",
-      "attendance": 84.7,
+      "attendance": 85.0,
       "submit": 92.5
     },
     {
       "date": "10-26",
-      "attendance": 87.7,
-      "submit": 88.8
+      "attendance": 88.0,
+      "submit": 89.0
     }
   ],
   "lesson": {
-    "completion_rate": 73.9,
-    "called": 116,
+    "completion_rate": 76.4,
+    "called": 120,
     "total": 157,
-    "class_coverage": "42/42",
+    "class_coverage": "44/44",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "九年级 G12",
-      "十一年级 AS2",
-      "高数CR2(F26)",
-      "九年级 G11",
+      "十一年级 AS3",
       "十二年级 A21",
-      "十年级 G21",
+      "九年级 G12",
       "十二年级 A22",
+      "十一年级 AS2",
       "十年级 G22",
-      "十一年级 AS3"
+      "高数CR2(F26)",
+      "十年级 G21",
+      "十一年级 AS1",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -1929,26 +1929,10 @@
       {
         "class": "十二年级 A21",
         "class_id": 366030,
-        "subject": "雅思听力阅读",
-        "teacher": "瞿芬",
-        "time": "10:50-11:30",
-        "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
         "subject": "高等数学",
         "teacher": "李俊",
         "time": "10:50-11:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "雅思听力阅读",
-        "teacher": "瞿芬",
-        "time": "10:50-11:30",
-        "location": "LT3-209"
       },
       {
         "class": "十二年级 A22",
@@ -2077,22 +2061,6 @@
         "teacher": "赵亮",
         "time": "14:40-15:20",
         "location": "LT3-122"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "15:30-16:10",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "15:30-16:10",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
