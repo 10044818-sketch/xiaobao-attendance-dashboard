@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26 19:55",
+  "updated_at": "2026-10-26 20:01",
   "school": {
     "rate": 87.8,
     "present": 865,
@@ -1839,22 +1839,22 @@
     }
   ],
   "lesson": {
-    "completion_rate": 82.0,
-    "called": 132,
-    "total": 161,
+    "completion_rate": 82.4,
+    "called": 136,
+    "total": 165,
     "class_coverage": "46/46",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "九年级 G12",
-      "十二年级 A21",
-      "九年级 G11",
       "十年级 G22",
+      "九年级 G11",
       "高数CR2(F26)",
       "十一年级 AS3",
-      "十年级 G21"
+      "十二年级 A22",
+      "十二年级 A21",
+      "十年级 G21",
+      "九年级 G12",
+      "十一年级 AS1",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
