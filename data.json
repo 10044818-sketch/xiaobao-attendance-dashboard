@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-26 11:05",
+  "updated_at": "2026-10-26 11:11",
   "school": {
-    "rate": 88.7,
-    "present": 250,
-    "total": 282,
+    "rate": 90.7,
+    "present": 313,
+    "total": 345,
     "late": 6,
     "absent": 32,
     "leave": 12
@@ -100,6 +100,22 @@
       ]
     },
     {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "经济AX(F26)",
       "teacher": "王肇君",
       "rate": 100.0,
@@ -131,6 +147,23 @@
       "time_spans": [
         "09:10-09:50",
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "英语写作A0(F26)",
+      "teacher": "钱嘉音",
+      "rate": 100.0,
+      "present_text": "28/28人次",
+      "present": 28,
+      "total": 28,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -170,16 +203,17 @@
       "name": "雅思BR3(F26)",
       "teacher": "钱嘉音",
       "rate": 100.0,
-      "present_text": "21/21人次",
-      "present": 21,
-      "total": 21,
+      "present_text": "42/42人次",
+      "present": 42,
+      "total": 42,
       "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -555,14 +589,6 @@
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "雅思英语",
-      "teacher": "钱嘉音",
-      "time": "09:10-09:50",
-      "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "雅思英语",
       "teacher": "曹德娟",
       "time": "09:10-09:50",
       "location": "LT3-123"
@@ -574,14 +600,6 @@
       "teacher": "曹德娟",
       "time": "09:10-09:50",
       "location": "LT3-123"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "雅思英语",
-      "teacher": "钱嘉音",
-      "time": "09:10-09:50",
-      "location": "LT3-114"
     },
     {
       "class": "十二年级 A21",
@@ -688,14 +706,6 @@
       "location": "LT3-122"
     },
     {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "英语第二语言写作",
-      "teacher": "钱嘉音",
-      "time": "10:00-10:40",
-      "location": "LT3-107"
-    },
-    {
       "class": "高数CR2(F26)",
       "class_id": 521015,
       "subject": "高等数学",
@@ -707,55 +717,54 @@
   "trend": [
     {
       "date": "10-20",
-      "attendance": 93.2,
+      "attendance": 95.2,
       "submit": 90.0
     },
     {
       "date": "10-21",
-      "attendance": 91.7,
+      "attendance": 93.7,
       "submit": 90.5
     },
     {
       "date": "10-22",
-      "attendance": 90.2,
+      "attendance": 92.2,
       "submit": 91.0
     },
     {
       "date": "10-23",
-      "attendance": 88.7,
+      "attendance": 90.7,
       "submit": 91.5
     },
     {
       "date": "10-24",
-      "attendance": 87.2,
+      "attendance": 89.2,
       "submit": 92.0
     },
     {
       "date": "10-25",
-      "attendance": 85.7,
+      "attendance": 87.7,
       "submit": 92.5
     },
     {
       "date": "10-26",
-      "attendance": 88.7,
-      "submit": 89.3
+      "attendance": 90.7,
+      "submit": 90.3
     }
   ],
   "lesson": {
-    "completion_rate": 57.1,
-    "called": 28,
+    "completion_rate": 63.3,
+    "called": 31,
     "total": 49,
-    "class_coverage": "12/12",
+    "class_coverage": "14/14",
     "teacher_count": 17,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十年级 G21",
-      "十二年级 A22",
-      "高数CR2(F26)",
-      "十年级 G22",
       "十一年级 AS2",
+      "十二年级 A22",
+      "十二年级 A21",
+      "十年级 G22",
+      "高数CR2(F26)",
+      "十年级 G21",
       "十一年级 AS3",
-      "十年级 G23",
       "十一年级 AS1"
     ],
     "uncovered_teachers": [
@@ -779,14 +788,6 @@
         "class": "十一年级 AS1",
         "class_id": 442959,
         "subject": "雅思英语",
-        "teacher": "钱嘉音",
-        "time": "09:10-09:50",
-        "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "雅思英语",
         "teacher": "曹德娟",
         "time": "09:10-09:50",
         "location": "LT3-123"
@@ -798,14 +799,6 @@
         "teacher": "曹德娟",
         "time": "09:10-09:50",
         "location": "LT3-123"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "雅思英语",
-        "teacher": "钱嘉音",
-        "time": "09:10-09:50",
-        "location": "LT3-114"
       },
       {
         "class": "十二年级 A21",
@@ -910,14 +903,6 @@
         "teacher": "Johannes van Baardewijk",
         "time": "10:00-10:40",
         "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "英语第二语言写作",
-        "teacher": "钱嘉音",
-        "time": "10:00-10:40",
-        "location": "LT3-107"
       },
       {
         "class": "高数CR2(F26)",
