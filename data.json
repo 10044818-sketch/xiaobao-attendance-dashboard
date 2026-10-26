@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-26 10:20",
+  "updated_at": "2026-10-26 10:25",
   "school": {
-    "rate": 88.6,
-    "present": 164,
-    "total": 185,
+    "rate": 89.7,
+    "present": 182,
+    "total": 203,
     "late": 5,
     "absent": 21,
     "leave": 5
@@ -96,6 +96,23 @@
       "time_spans": [
         "09:10-09:50",
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "英语写作AQ2(F26)",
+      "teacher": "贺珍谊",
+      "rate": 100.0,
+      "present_text": "18/18人次",
+      "present": 18,
+      "total": 18,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -513,54 +530,54 @@
   "trend": [
     {
       "date": "10-20",
-      "attendance": 93.1,
+      "attendance": 94.2,
       "submit": 90.0
     },
     {
       "date": "10-21",
-      "attendance": 91.6,
+      "attendance": 92.7,
       "submit": 90.5
     },
     {
       "date": "10-22",
-      "attendance": 90.1,
+      "attendance": 91.2,
       "submit": 91.0
     },
     {
       "date": "10-23",
-      "attendance": 88.6,
+      "attendance": 89.7,
       "submit": 91.5
     },
     {
       "date": "10-24",
-      "attendance": 87.1,
+      "attendance": 88.2,
       "submit": 92.0
     },
     {
       "date": "10-25",
-      "attendance": 85.6,
+      "attendance": 86.7,
       "submit": 92.5
     },
     {
       "date": "10-26",
-      "attendance": 88.6,
-      "submit": 89.3
+      "attendance": 89.7,
+      "submit": 89.8
     }
   ],
   "lesson": {
     "completion_rate": 57.7,
     "called": 15,
     "total": 26,
-    "class_coverage": "9/9",
+    "class_coverage": "10/10",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十年级 G21",
-      "十一年级 AS2",
-      "十二年级 A21",
-      "十年级 G23",
       "十一年级 AS3",
       "十二年级 A22",
-      "十一年级 AS1"
+      "十年级 G21",
+      "十一年级 AS1",
+      "十一年级 AS2",
+      "十年级 G23",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
