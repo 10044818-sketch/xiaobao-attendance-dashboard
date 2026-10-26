@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-26 09:52",
+  "updated_at": "2026-10-26 09:55",
   "school": {
-    "rate": 86.2,
-    "present": 100,
-    "total": 116,
+    "rate": 88.2,
+    "present": 127,
+    "total": 144,
     "late": 3,
-    "absent": 16,
+    "absent": 17,
     "leave": 3
   },
   "summary": {
@@ -28,6 +28,23 @@
       "leave": 0,
       "status": "异常",
       "time_spans": [
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "物理9A(F26)",
+      "teacher": "职梦凡",
+      "rate": 96.4,
+      "present_text": "27/28人次",
+      "present": 27,
+      "total": 28,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
         "09:10-09:50"
       ]
     },
@@ -114,6 +131,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-26T09:54:45"
+    },
     {
       "name": "王锴杰",
       "class": "AS2",
@@ -325,22 +355,6 @@
   ],
   "pending_roll_call": [
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "08:20-09:00",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS2",
       "class_id": 442960,
       "subject": "雅思英语",
@@ -363,22 +377,6 @@
       "teacher": "张小翼",
       "time": "08:20-09:00",
       "location": "LT3-107"
-    },
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
     },
     {
       "class": "十一年级 AS1",
@@ -448,74 +446,56 @@
   "trend": [
     {
       "date": "10-20",
-      "attendance": 90.7,
+      "attendance": 92.7,
       "submit": 90.0
     },
     {
       "date": "10-21",
-      "attendance": 89.2,
+      "attendance": 91.2,
       "submit": 90.5
     },
     {
       "date": "10-22",
-      "attendance": 87.7,
+      "attendance": 89.7,
       "submit": 91.0
     },
     {
       "date": "10-23",
-      "attendance": 86.2,
+      "attendance": 88.2,
       "submit": 91.5
     },
     {
       "date": "10-24",
-      "attendance": 84.7,
+      "attendance": 86.7,
       "submit": 92.0
     },
     {
       "date": "10-25",
-      "attendance": 83.2,
+      "attendance": 85.2,
       "submit": 92.5
     },
     {
       "date": "10-26",
-      "attendance": 86.2,
-      "submit": 88.1
+      "attendance": 88.2,
+      "submit": 89.1
     }
   ],
   "lesson": {
-    "completion_rate": 42.3,
-    "called": 11,
+    "completion_rate": 57.7,
+    "called": 15,
     "total": 26,
-    "class_coverage": "6/6",
+    "class_coverage": "7/7",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十年级 G21",
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "十年级 G23",
-      "九年级 G11",
-      "十二年级 A22",
-      "十二年级 A21",
       "十一年级 AS3",
-      "九年级 G12"
+      "十年级 G21",
+      "十年级 G23",
+      "十一年级 AS2",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "08:20-09:00",
-        "location": "LT3-108"
-      },
       {
         "class": "十一年级 AS2",
         "class_id": 442960,
@@ -539,22 +519,6 @@
         "teacher": "张小翼",
         "time": "08:20-09:00",
         "location": "LT3-107"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
