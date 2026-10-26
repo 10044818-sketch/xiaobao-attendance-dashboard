@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-26 20:16",
+  "updated_at": "2026-10-26 20:21",
   "school": {
-    "rate": 87.8,
-    "present": 865,
-    "total": 985,
+    "rate": 88.1,
+    "present": 887,
+    "total": 1007,
     "late": 16,
     "absent": 120,
     "leave": 63
@@ -142,6 +142,23 @@
       "early": 0,
       "leave": 2,
       "status": "异常",
+      "time_spans": [
+        "14:40-15:20",
+        "15:30-16:10"
+      ]
+    },
+    {
+      "name": "数学AR3(F26)",
+      "teacher": "赵亮",
+      "rate": 100.0,
+      "present_text": "22/22人次",
+      "present": 22,
+      "total": 22,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
       "time_spans": [
         "14:40-15:20",
         "15:30-16:10"
@@ -1705,22 +1722,6 @@
       "location": "LT3-212"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "14:40-15:20",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "14:40-15:20",
-      "location": "LT3-122"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "物理",
@@ -1783,78 +1784,60 @@
       "teacher": "王丽媛、朱嘉怡",
       "time": "15:30-16:10",
       "location": "LT3-212"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "15:30-16:10",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "15:30-16:10",
-      "location": "LT3-122"
     }
   ],
   "trend": [
     {
       "date": "10-20",
-      "attendance": 92.3,
+      "attendance": 92.6,
       "submit": 90.0
     },
     {
       "date": "10-21",
-      "attendance": 90.8,
+      "attendance": 91.1,
       "submit": 90.5
     },
     {
       "date": "10-22",
-      "attendance": 89.3,
+      "attendance": 89.6,
       "submit": 91.0
     },
     {
       "date": "10-23",
-      "attendance": 87.8,
+      "attendance": 88.1,
       "submit": 91.5
     },
     {
       "date": "10-24",
-      "attendance": 86.3,
+      "attendance": 86.6,
       "submit": 92.0
     },
     {
       "date": "10-25",
-      "attendance": 84.8,
+      "attendance": 85.1,
       "submit": 92.5
     },
     {
       "date": "10-26",
-      "attendance": 87.8,
-      "submit": 88.9
+      "attendance": 88.1,
+      "submit": 89.0
     }
   ],
   "lesson": {
-    "completion_rate": 82.4,
-    "called": 136,
+    "completion_rate": 84.8,
+    "called": 140,
     "total": 165,
-    "class_coverage": "46/46",
+    "class_coverage": "47/47",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十年级 G21",
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "高数CR2(F26)",
-      "十二年级 A22",
       "十一年级 AS3",
       "九年级 G12",
-      "十年级 G22",
-      "九年级 G11"
+      "九年级 G11",
+      "十一年级 AS2",
+      "高数CR2(F26)",
+      "十二年级 A21",
+      "十二年级 A22",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -1994,22 +1977,6 @@
         "location": "LT3-212"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "14:40-15:20",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "14:40-15:20",
-        "location": "LT3-122"
-      },
-      {
         "class": "十一年级 AS1",
         "class_id": 442959,
         "subject": "物理",
@@ -2072,22 +2039,6 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "15:30-16:10",
         "location": "LT3-212"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "15:30-16:10",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "15:30-16:10",
-        "location": "LT3-122"
       }
     ]
   }
