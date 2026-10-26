@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-26 12:56",
+  "updated_at": "2026-10-26 13:01",
   "school": {
-    "rate": 90.9,
-    "present": 359,
-    "total": 395,
-    "late": 6,
-    "absent": 36,
+    "rate": 91.1,
+    "present": 388,
+    "total": 426,
+    "late": 7,
+    "absent": 38,
     "leave": 16
   },
   "summary": {
@@ -29,6 +29,22 @@
       "status": "异常",
       "time_spans": [
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "化学BY(F26)",
+      "teacher": "米万宝",
+      "rate": 100.0,
+      "present_text": "15/15人次",
+      "present": 15,
+      "total": 15,
+      "absent": 0,
+      "late": 1,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -97,6 +113,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "物理BY(F26)",
+      "teacher": "魏刘伟",
+      "rate": 87.5,
+      "present_text": "14/16人次",
+      "present": 14,
+      "total": 16,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -285,6 +317,40 @@
   ],
   "absent_students": [
     {
+      "name": "宋汉明",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-26T13:00:13"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-26T13:00:13"
+    },
+    {
       "name": "郭淑君",
       "class": "G21",
       "reason": "事假_【已通过】 2026/10/26 8:00:00 至 2026/10/26 17:00:00  不舒服 ",
@@ -425,23 +491,6 @@
           "course": "雅思BR1(F26)",
           "time": "08:20-09:00"
         },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-26T10:50:50"
-    },
-    {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
         {
           "course": "数学BQ1(F26)",
           "time": "10:00-10:40"
@@ -841,37 +890,37 @@
   "trend": [
     {
       "date": "10-20",
-      "attendance": 95.4,
+      "attendance": 95.6,
       "submit": 90.0
     },
     {
       "date": "10-21",
-      "attendance": 93.9,
+      "attendance": 94.1,
       "submit": 90.5
     },
     {
       "date": "10-22",
-      "attendance": 92.4,
+      "attendance": 92.6,
       "submit": 91.0
     },
     {
       "date": "10-23",
-      "attendance": 90.9,
+      "attendance": 91.1,
       "submit": 91.5
     },
     {
       "date": "10-24",
-      "attendance": 89.4,
+      "attendance": 89.6,
       "submit": 92.0
     },
     {
       "date": "10-25",
-      "attendance": 87.9,
+      "attendance": 88.1,
       "submit": 92.5
     },
     {
       "date": "10-26",
-      "attendance": 90.9,
+      "attendance": 91.1,
       "submit": 90.5
     }
   ],
@@ -879,17 +928,17 @@
     "completion_rate": 65.3,
     "called": 47,
     "total": 72,
-    "class_coverage": "16/16",
+    "class_coverage": "18/18",
     "teacher_count": 18,
     "uncovered_classes": [
-      "十二年级 A21",
       "十二年级 A22",
-      "十一年级 AS1",
-      "十年级 G22",
-      "十一年级 AS3",
-      "十年级 G21",
+      "十二年级 A21",
+      "高数CR2(F26)",
       "十一年级 AS2",
-      "高数CR2(F26)"
+      "十年级 G22",
+      "十一年级 AS1",
+      "十年级 G21",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
