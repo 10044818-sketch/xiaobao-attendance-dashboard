@@ -450,6 +450,16 @@ def analyze(records):
     # 按更新时间倒序：最新被标记缺勤的排最上面
     unique_absent.sort(key=lambda x: x.get("updated_at", "") or "", reverse=True)
 
+    # 按老师聚合：当天最后提交点名（考勤记录最后编辑）的时刻
+    # 用于待点名列表里显示"该老师已点至 HH:MM"，便于催办
+    teacher_last_call = {}
+    for rec in records:
+        t = (rec.get("teacher") or "").strip()
+        le = rec.get("last_edit_at") or ""
+        if t and le:
+            if le > teacher_last_call.get(t, ""):
+                teacher_last_call[t] = le
+
     return {
         "rate": school_rate,
         "present": total_present,
@@ -459,6 +469,7 @@ def analyze(records):
         "leave": total_leave,
         "classes": classes,
         "absent_students": unique_absent,
+        "teacher_last_call": teacher_last_call,
     }
 
 
@@ -514,6 +525,7 @@ def build_output(result, timetable=None, pending_roll_call=None):
         "classes": result["classes"],
         "absent_students": result["absent_students"],
         "pending_roll_call": pending,
+        "teacher_last_call": result.get("teacher_last_call", {}),
         "trend": trend,
         "lesson": {
             "completion_rate": completion_rate,
