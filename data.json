@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-27 16:20",
+  "updated_at": "2026-10-27 16:26",
   "school": {
-    "rate": 86.6,
-    "present": 631,
-    "total": 729,
+    "rate": 87.0,
+    "present": 657,
+    "total": 755,
     "late": 13,
     "absent": 98,
     "leave": 66
@@ -269,16 +269,33 @@
       "name": "日语(F26)",
       "teacher": "马琳",
       "rate": 100.0,
-      "present_text": "11/11人次",
-      "present": 11,
-      "total": 11,
+      "present_text": "22/22人次",
+      "present": 22,
+      "total": 22,
       "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "15:30-16:10"
+        "15:30-16:10",
+        "16:20-17:00"
+      ]
+    },
+    {
+      "name": "物理9A(F26)",
+      "teacher": "职梦凡",
+      "rate": 100.0,
+      "present_text": "15/15人次",
+      "present": 15,
+      "total": 15,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -1789,22 +1806,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "14:40-15:20",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "14:40-15:20",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
@@ -3099,15 +3100,36 @@
       "location": "LT3-109",
       "called_at": "2026-10-27T14:38:42",
       "delay_min": -1
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "14:40-15:20",
+      "location": "LT3-108",
+      "called_at": "2026-10-27T16:24:02",
+      "delay_min": 104
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "14:40-15:20",
+      "location": "LT3-108",
+      "called_at": "2026-10-27T16:24:02",
+      "delay_min": 104
     }
   ],
   "teacher_last_call": {
+    "马琳": "2026-10-27T16:24:24",
+    "职梦凡": "2026-10-27T16:24:02",
     "曾靓": "2026-10-27T16:20:15",
     "潘子清": "2026-10-27T15:55:23",
     "瞿芬": "2026-10-27T15:54:33",
     "郝畅": "2026-10-27T15:53:37",
     "王伊": "2026-10-27T15:51:38",
-    "马琳": "2026-10-27T15:29:08",
     "孙鹏": "2026-10-27T15:22:28",
     "朱嘉怡": "2026-10-27T14:44:25",
     "杨燕霖": "2026-10-27T14:39:50",
@@ -3120,7 +3142,6 @@
     "张璐菲": "2026-10-27T13:05:54",
     "曹德娟": "2026-10-27T13:35:13",
     "魏刘伟": "2026-10-27T13:35:13",
-    "职梦凡": "2026-10-27T13:14:11",
     "袁西援": "2026-10-27T13:35:13",
     "赵亮": "2026-10-27T11:18:18",
     "沈译宇": "2026-10-27T11:35:24",
@@ -3132,60 +3153,60 @@
   "trend": [
     {
       "date": "10-21",
-      "attendance": 91.1,
+      "attendance": 91.5,
       "submit": 90.0
     },
     {
       "date": "10-22",
-      "attendance": 89.6,
+      "attendance": 90.0,
       "submit": 90.5
     },
     {
       "date": "10-23",
-      "attendance": 88.1,
+      "attendance": 88.5,
       "submit": 91.0
     },
     {
       "date": "10-24",
-      "attendance": 86.6,
+      "attendance": 87.0,
       "submit": 91.5
     },
     {
       "date": "10-25",
-      "attendance": 85.1,
+      "attendance": 85.5,
       "submit": 92.0
     },
     {
       "date": "10-26",
-      "attendance": 83.6,
+      "attendance": 84.0,
       "submit": 92.5
     },
     {
       "date": "10-27",
-      "attendance": 86.6,
-      "submit": 88.3
+      "attendance": 87.0,
+      "submit": 88.5
     }
   ],
   "lesson": {
-    "completion_rate": 69.2,
-    "called": 110,
+    "completion_rate": 70.4,
+    "called": 112,
     "total": 159,
-    "class_coverage": "44/44",
+    "class_coverage": "45/45",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十二年级 A22",
-      "十年级 G23",
-      "十年级 G21",
       "十二年级 A21",
-      "十年级 G22",
       "十一年级 AS1",
       "化学AA(F26)",
-      "九年级 G12",
+      "十年级 G22",
       "高数CR2(F26)",
+      "十年级 G21",
+      "十年级 G23",
+      "九年级 G12",
       "十一年级 AS3",
-      "化学BZ(F26)",
-      "九年级 G11"
+      "十二年级 A22",
+      "十一年级 AS2",
+      "九年级 G11",
+      "化学BZ(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -3499,22 +3520,6 @@
         "teacher": "李俊",
         "time": "13:50-14:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "14:40-15:20",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "14:40-15:20",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
