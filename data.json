@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-27 08:36",
+  "updated_at": "2026-10-27 08:40",
   "school": {
     "rate": 82.4,
     "present": 42,
     "total": 51,
     "late": 4,
     "absent": 9,
-    "leave": 4
+    "leave": 6
   },
   "summary": {
     "pending_yesterday": 0,
@@ -41,7 +41,7 @@
       "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 0,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
@@ -114,6 +114,32 @@
   ],
   "absent_students": [
     {
+      "name": "陈乐涵",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026-10-27 08:00:00 至 2026-10-27 12:00:00  请假",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学CB(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-27T08:39:48"
+    },
+    {
+      "name": "叶子瑄",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026-10-27 08:00:00 至 2026-10-27 09:00:00  请假",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学CB(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-27T08:39:18"
+    },
+    {
       "name": "胡鑫玥",
       "class": "G23",
       "reason": "病假_【已通过】 2026/10/27 7:00:00 至 2026/10/27 17:00:00  身体不适 ",
@@ -140,34 +166,8 @@
       "updated_at": "2026-10-27T08:26:42"
     },
     {
-      "name": "叶子瑄",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学CB(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-27T08:25:11"
-    },
-    {
       "name": "汤二璨",
       "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学CB(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-10-27T08:25:11"
-    },
-    {
-      "name": "陈乐涵",
-      "class": "A21",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
