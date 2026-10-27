@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27 17:41",
+  "updated_at": "2026-10-27 17:45",
   "school": {
     "rate": 86.7,
     "present": 734,
@@ -368,7 +368,7 @@
     },
     {
       "name": "物理C0(F26)",
-      "teacher": "职梦凡",
+      "teacher": "孙鹏",
       "rate": 93.8,
       "present_text": "15/16人次",
       "present": 15,
@@ -3328,16 +3328,16 @@
     "class_coverage": "47/47",
     "teacher_count": 27,
     "uncovered_classes": [
+      "十二年级 A22",
       "十年级 G23",
       "高数CR2(F26)",
-      "十年级 G21",
-      "十一年级 AS3",
-      "十二年级 A22",
       "九年级 G12",
-      "十一年级 AS1",
-      "十二年级 A21",
+      "十年级 G21",
       "十一年级 AS2",
       "十年级 G22",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十一年级 AS3",
       "九年级 G11"
     ],
     "uncovered_teachers": [
