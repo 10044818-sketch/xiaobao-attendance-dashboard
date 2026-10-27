@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-27 10:51",
+  "updated_at": "2026-10-27 10:55",
   "school": {
-    "rate": 85.4,
-    "present": 210,
-    "total": 246,
+    "rate": 85.7,
+    "present": 240,
+    "total": 280,
     "late": 8,
-    "absent": 36,
-    "leave": 24
+    "absent": 40,
+    "leave": 27
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 4,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -29,6 +29,38 @@
       "status": "正常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "体育AA(F26)",
+      "teacher": "沈译宇",
+      "rate": 81.2,
+      "present_text": "13/16人次",
+      "present": 13,
+      "total": 16,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
+      "name": "体育AB(F26)",
+      "teacher": "沈译宇",
+      "rate": 94.4,
+      "present_text": "17/18人次",
+      "present": 17,
+      "total": 18,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "10:50-11:30"
       ]
     },
     {
@@ -297,10 +329,23 @@
   ],
   "absent_students": [
     {
+      "name": "傅泽",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育AB(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-27T10:52:23"
+    },
+    {
       "name": "宋玟萱",
       "class": "G21",
-      "reason": "Personal Leave_【Approved】 2026/10/27 8:00:00 to 2026/10/27 12:00:00  不舒服",
-      "type": "请假",
+      "reason": "事假_【已通过】 2026/10/27 8:00:00 至 2026/10/27 12:00:00  不舒服 ",
+      "type": "事假",
       "courses": [
         {
           "course": "数学AR2(F26)",
@@ -313,9 +358,13 @@
         {
           "course": "英语口语AQ2(F26)",
           "time": "10:00-10:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-10-27T10:49:07"
+      "updated_at": "2026-10-27T10:52:23"
     },
     {
       "name": "郭淑君",
@@ -334,9 +383,13 @@
         {
           "course": "英语写作AQ1(F26)",
           "time": "10:00-10:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-10-27T10:22:08"
+      "updated_at": "2026-10-27T10:52:23"
     },
     {
       "name": "边语晴",
@@ -355,9 +408,13 @@
         {
           "course": "英语写作AQ1(F26)",
           "time": "10:00-10:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-10-27T10:22:08"
+      "updated_at": "2026-10-27T10:52:23"
     },
     {
       "name": "胡鑫玥",
@@ -1394,13 +1451,13 @@
     }
   ],
   "teacher_last_call": {
+    "沈译宇": "2026-10-27T10:52:23",
     "Johannes van Baardewijk": "2026-10-27T10:49:07",
     "贺珍谊": "2026-10-27T10:22:08",
     "张小翼": "2026-10-27T10:21:34",
     "袁西援": "2026-10-27T10:20:30",
     "潘丽": "2026-10-27T10:11:54",
     "朱嘉怡": "2026-10-27T10:12:55",
-    "沈译宇": "2026-10-27T10:00:37",
     "魏刘伟": "2026-10-27T10:00:08",
     "余越利": "2026-10-27T09:52:25",
     "张璐菲": "2026-10-27T09:51:51",
@@ -1413,57 +1470,57 @@
   "trend": [
     {
       "date": "10-21",
-      "attendance": 89.9,
+      "attendance": 90.2,
       "submit": 90.0
     },
     {
       "date": "10-22",
-      "attendance": 88.4,
+      "attendance": 88.7,
       "submit": 90.5
     },
     {
       "date": "10-23",
-      "attendance": 86.9,
+      "attendance": 87.2,
       "submit": 91.0
     },
     {
       "date": "10-24",
-      "attendance": 85.4,
+      "attendance": 85.7,
       "submit": 91.5
     },
     {
       "date": "10-25",
-      "attendance": 83.9,
+      "attendance": 84.2,
       "submit": 92.0
     },
     {
       "date": "10-26",
-      "attendance": 82.4,
+      "attendance": 82.7,
       "submit": 92.5
     },
     {
       "date": "10-27",
-      "attendance": 85.4,
-      "submit": 87.7
+      "attendance": 85.7,
+      "submit": 87.8
     }
   ],
   "lesson": {
     "completion_rate": 66.2,
     "called": 51,
     "total": 77,
-    "class_coverage": "17/17",
+    "class_coverage": "19/19",
     "teacher_count": 20,
     "uncovered_classes": [
+      "九年级 G11",
+      "十二年级 A22",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十一年级 AS2",
+      "十年级 G21",
+      "十年级 G22",
       "化学BZ(F26)",
       "十一年级 AS3",
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "十二年级 A21",
-      "十年级 G22",
-      "十年级 G21",
-      "九年级 G12",
-      "九年级 G11",
-      "十二年级 A22"
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
