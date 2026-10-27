@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-27 13:05",
+  "updated_at": "2026-10-27 13:10",
   "school": {
-    "rate": 86.9,
-    "present": 359,
-    "total": 413,
+    "rate": 84.3,
+    "present": 371,
+    "total": 440,
     "late": 9,
-    "absent": 54,
-    "leave": 38
+    "absent": 69,
+    "leave": 41
   },
   "summary": {
     "pending_yesterday": 0,
@@ -281,6 +281,23 @@
       ]
     },
     {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "6/6人次",
+      "present": 6,
+      "total": 6,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "经济9A(F26)",
       "teacher": "郝畅",
       "rate": 92.9,
@@ -442,6 +459,22 @@
       ]
     },
     {
+      "name": "雅思CR2(F26)",
+      "teacher": "费楚淇",
+      "rate": 28.6,
+      "present_text": "6/21人次",
+      "present": 6,
+      "total": 21,
+      "absent": 15,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "雅思口语C0(F26)",
       "teacher": "费楚淇",
       "rate": 87.5,
@@ -460,6 +493,213 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "栾雨乔",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "俞玥",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "徐悦栋",
+      "class": "A22",
+      "reason": "事假_【已通过】 2026/10/27 13:00:00 至 2026/10/27 15:00:00  身体不适 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "徐铭哲",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "吴迪",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "闻誉婷",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "王麒鸣",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/10/27 13:00:00 至 2026/10/27 14:00:00  复习 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学CB(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "姜懿",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "姜亦程",
+      "class": "A22",
+      "reason": "事假_【已通过】 2026/10/26 12:00:00 至 2026/10/27 17:00:00  p4考前补习 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "华晟皓",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
+    {
+      "name": "董轶尘",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:09:09"
+    },
     {
       "name": "陈世棋",
       "class": "AS2",
@@ -751,23 +991,6 @@
       "updated_at": "2026-10-27T10:52:23"
     },
     {
-      "name": "汤二璨",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学CB(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学CB(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-27T09:52:25"
-    },
-    {
       "name": "陈乐涵",
       "class": "A21",
       "reason": "当日缺课且无请假单",
@@ -786,19 +1009,6 @@
     },
     {
       "name": "洪若玲",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "艺术CB(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-27T09:17:16"
-    },
-    {
-      "name": "高子涵",
       "class": "A22",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
@@ -999,28 +1209,12 @@
       "location": "LT3-206"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-208"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "物理",
       "teacher": "曾靓",
       "time": "10:00-10:40",
       "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-208"
     },
     {
       "class": "十年级 G21",
@@ -1103,28 +1297,12 @@
       "location": "LT3-206"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-208"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "物理",
       "teacher": "曾靓",
       "time": "10:50-11:30",
       "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-208"
     },
     {
       "class": "十年级 G21",
@@ -1645,6 +1823,26 @@
       "delay_min": -18
     },
     {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
+      "location": "LT3-208",
+      "called_at": "2026-10-27T13:05:53",
+      "delay_min": 146
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
+      "location": "LT3-208",
+      "called_at": "2026-10-27T13:05:53",
+      "delay_min": 146
+    },
+    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "体育",
@@ -1785,6 +1983,26 @@
       "delay_min": -40
     },
     {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:50-11:30",
+      "location": "LT3-208",
+      "called_at": "2026-10-27T13:05:54",
+      "delay_min": 96
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:50-11:30",
+      "location": "LT3-208",
+      "called_at": "2026-10-27T13:05:54",
+      "delay_min": 96
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "艺术与设计",
@@ -1886,6 +2104,8 @@
     }
   ],
   "teacher_last_call": {
+    "费楚淇": "2026-10-27T13:09:09",
+    "张璐菲": "2026-10-27T13:05:54",
     "朱嘉怡": "2026-10-27T13:03:03",
     "曹德娟": "2026-10-27T13:02:39",
     "魏刘伟": "2026-10-27T13:00:31",
@@ -1893,14 +2113,12 @@
     "袁西援": "2026-10-27T12:23:48",
     "郝畅": "2026-10-27T11:39:30",
     "赵亮": "2026-10-27T11:18:18",
-    "费楚淇": "2026-10-27T10:57:04",
     "沈译宇": "2026-10-27T11:35:24",
     "Johannes van Baardewijk": "2026-10-27T10:49:07",
     "贺珍谊": "2026-10-27T10:22:08",
     "张小翼": "2026-10-27T10:21:34",
     "潘丽": "2026-10-27T10:11:54",
     "余越利": "2026-10-27T09:52:25",
-    "张璐菲": "2026-10-27T09:51:51",
     "余震": "2026-10-27T09:10:25",
     "杨燕霖": "2026-10-27T09:09:55",
     "米万宝": "2026-10-27T08:42:48"
@@ -1908,57 +2126,57 @@
   "trend": [
     {
       "date": "10-21",
-      "attendance": 91.4,
+      "attendance": 88.8,
       "submit": 90.0
     },
     {
       "date": "10-22",
-      "attendance": 89.9,
+      "attendance": 87.3,
       "submit": 90.5
     },
     {
       "date": "10-23",
-      "attendance": 88.4,
+      "attendance": 85.8,
       "submit": 91.0
     },
     {
       "date": "10-24",
-      "attendance": 86.9,
+      "attendance": 84.3,
       "submit": 91.5
     },
     {
       "date": "10-25",
-      "attendance": 85.4,
+      "attendance": 82.8,
       "submit": 92.0
     },
     {
       "date": "10-26",
-      "attendance": 83.9,
+      "attendance": 81.3,
       "submit": 92.5
     },
     {
       "date": "10-27",
-      "attendance": 86.9,
-      "submit": 88.5
+      "attendance": 84.3,
+      "submit": 87.2
     }
   ],
   "lesson": {
-    "completion_rate": 68.0,
-    "called": 66,
+    "completion_rate": 72.2,
+    "called": 70,
     "total": 97,
-    "class_coverage": "27/27",
+    "class_coverage": "29/29",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十二年级 A22",
-      "九年级 G11",
-      "十一年级 AS2",
-      "十年级 G22",
       "十一年级 AS1",
+      "十年级 G22",
       "化学BZ(F26)",
+      "九年级 G11",
+      "十二年级 A21",
       "九年级 G12",
+      "十年级 G21",
+      "十一年级 AS2",
       "十一年级 AS3",
-      "十年级 G21"
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -2066,28 +2284,12 @@
         "location": "LT3-206"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-208"
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "物理",
         "teacher": "曾靓",
         "time": "10:00-10:40",
         "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-208"
       },
       {
         "class": "十年级 G21",
@@ -2170,28 +2372,12 @@
         "location": "LT3-206"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-208"
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "物理",
         "teacher": "曾靓",
         "time": "10:50-11:30",
         "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-208"
       },
       {
         "class": "十年级 G21",
