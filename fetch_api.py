@@ -315,12 +315,12 @@ def parse_dt(s):
     return None
 
 
-def span_end_minutes(ts):
-    """从 '08:20-09:00' 取出下课时间（当天 0 点起的分钟数）"""
+def span_start_minutes(ts):
+    """从 '08:20-09:00' 取出上课开始时间（当天 0 点起的分钟数）"""
     m = re.search(r"(\d{1,2}):(\d{2})\s*[-–~]\s*(\d{1,2}):(\d{2})", ts or "")
     if not m:
         return None
-    return int(m.group(3)) * 60 + int(m.group(4))
+    return int(m.group(1)) * 60 + int(m.group(2))
 
 
 def compute_called_roll_call(timetable, records):
@@ -369,13 +369,14 @@ def compute_called_roll_call(timetable, records):
         if not matched:
             continue   # 未点名，由 pending 负责
 
-        # 延迟 = 实际点名时刻 - 该节课下课时刻（负数表示课前/课中已点）
+        # 延迟 = 实际点名时刻 - 该节课上课开始时刻
+        # 学校口径：上课前 2 分钟 ~ 上课后 2 分钟之间点名算及时（即 -2 ~ +2）
         delay_min = None
-        end_m = span_end_minutes(ts)
+        start_m = span_start_minutes(ts)
         dt = parse_dt(called_at)
-        if end_m is not None and dt is not None:
-            end_dt = dt.replace(hour=0, minute=0, second=0) + timedelta(minutes=end_m)
-            delay_min = int(round((dt - end_dt).total_seconds() / 60.0))
+        if start_m is not None and dt is not None:
+            start_dt = dt.replace(hour=0, minute=0, second=0) + timedelta(minutes=start_m)
+            delay_min = int(round((dt - start_dt).total_seconds() / 60.0))
 
         out.append({
             "class": c.get("class_name", ""),
