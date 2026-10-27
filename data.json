@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-27 16:50",
+  "updated_at": "2026-10-27 16:55",
   "school": {
     "rate": 86.8,
-    "present": 666,
-    "total": 767,
-    "late": 13,
-    "absent": 101,
-    "leave": 75
+    "present": 694,
+    "total": 800,
+    "late": 12,
+    "absent": 106,
+    "leave": 77
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 9,
+    "class_attention": 8,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -267,6 +267,22 @@
       ]
     },
     {
+      "name": "数学BQ3(F26)",
+      "teacher": "刘晨璐",
+      "rate": 78.9,
+      "present_text": "15/19人次",
+      "present": 15,
+      "total": 19,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "日语(F26)",
       "teacher": "马琳",
       "rate": 100.0,
@@ -369,15 +385,15 @@
     {
       "name": "生物BZ(F26)",
       "teacher": "张璐菲",
-      "rate": 92.9,
-      "present_text": "13/14人次",
-      "present": 13,
-      "total": 14,
+      "rate": 88.9,
+      "present_text": "8/9人次",
+      "present": 8,
+      "total": 9,
       "absent": 1,
-      "late": 2,
+      "late": 1,
       "early": 0,
       "leave": 1,
-      "status": "关注",
+      "status": "异常",
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
@@ -501,15 +517,15 @@
     {
       "name": "艺术BX(F26)",
       "teacher": "朱嘉怡",
-      "rate": 94.4,
-      "present_text": "17/18人次",
-      "present": 17,
-      "total": 18,
+      "rate": 95.2,
+      "present_text": "20/21人次",
+      "present": 20,
+      "total": 21,
       "absent": 1,
       "late": 1,
       "early": 0,
       "leave": 0,
-      "status": "关注",
+      "status": "正常",
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
@@ -694,15 +710,15 @@
     {
       "name": "雅思BR2(F26)",
       "teacher": "曹德娟",
-      "rate": 88.2,
-      "present_text": "15/17人次",
-      "present": 15,
-      "total": 17,
-      "absent": 2,
+      "rate": 90.9,
+      "present_text": "30/33人次",
+      "present": 30,
+      "total": 33,
+      "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 2,
-      "status": "异常",
+      "leave": 3,
+      "status": "关注",
       "time_spans": [
         "13:00-13:40"
       ]
@@ -759,6 +775,94 @@
   ],
   "absent_students": [
     {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-27T16:55:33"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-27T16:55:33"
+    },
+    {
+      "name": "任厚宇",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/10/27 8:00:00 至 2026/10/27 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学BZ(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐BR3(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-27T16:55:33"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-27T16:55:33"
+    },
+    {
       "name": "赵浩雯",
       "class": "AS1",
       "reason": "事假_【已通过】 2026/10/27 8:00:00 至 2026/10/27 17:00:00  因个人原因，请假一天，谢谢 ",
@@ -791,35 +895,6 @@
         {
           "course": "数学BQ1(F26)",
           "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-10-27T16:39:20"
-    },
-    {
-      "name": "任厚宇",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/10/27 8:00:00 至 2026/10/27 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学BZ(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学BZ(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "音乐BR3(F26)",
-          "time": "13:00-13:40"
         }
       ],
       "updated_at": "2026-10-27T16:39:20"
@@ -1191,19 +1266,6 @@
       "updated_at": "2026-10-27T13:09:09"
     },
     {
-      "name": "张翰霆",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-27T13:09:09"
-    },
-    {
       "name": "俞玥",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1282,19 +1344,6 @@
       "updated_at": "2026-10-27T13:09:09"
     },
     {
-      "name": "王子天",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-27T13:09:09"
-    },
-    {
       "name": "汤二璨",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1334,23 +1383,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-27T13:09:09"
-    },
-    {
-      "name": "高子涵",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "艺术CB(F26)",
-          "time": "09:10-09:50"
-        },
         {
           "course": "雅思CR2(F26)",
           "time": "13:00-13:40"
@@ -1675,30 +1707,6 @@
       "location": "LT3-124"
     },
     {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "13:50-14:30",
-      "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "13:50-14:30",
-      "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "13:50-14:30",
-      "location": "LT3-114"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "物理",
@@ -1721,14 +1729,6 @@
       "teacher": "职梦凡",
       "time": "13:50-14:30",
       "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "13:50-14:30",
-      "location": "LT3-114"
     },
     {
       "class": "十二年级 A22",
@@ -2948,6 +2948,46 @@
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "13:50-14:30",
+      "location": "LT3-114",
+      "called_at": "2026-10-27T16:55:33",
+      "delay_min": 186
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "13:50-14:30",
+      "location": "LT3-114",
+      "called_at": "2026-10-27T16:55:33",
+      "delay_min": 186
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "13:50-14:30",
+      "location": "LT3-114",
+      "called_at": "2026-10-27T16:55:33",
+      "delay_min": 186
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "13:50-14:30",
+      "location": "LT3-114",
+      "called_at": "2026-10-27T16:55:33",
+      "delay_min": 186
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "数学",
       "teacher": "杨燕霖",
       "time": "13:50-14:30",
       "location": "LT3-221",
@@ -3146,6 +3186,7 @@
     }
   ],
   "teacher_last_call": {
+    "刘晨璐": "2026-10-27T16:55:33",
     "米万宝": "2026-10-27T16:39:20",
     "马琳": "2026-10-27T16:24:24",
     "职梦凡": "2026-10-27T16:24:02",
@@ -3211,24 +3252,24 @@
     }
   ],
   "lesson": {
-    "completion_rate": 73.6,
-    "called": 117,
+    "completion_rate": 76.1,
+    "called": 121,
     "total": 159,
-    "class_coverage": "45/45",
+    "class_coverage": "46/46",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "十二年级 A22",
-      "十二年级 A21",
-      "十一年级 AS2",
-      "化学AA(F26)",
-      "十年级 G23",
-      "十一年级 AS1",
-      "九年级 G11",
-      "高数CR2(F26)",
       "十年级 G21",
+      "化学AA(F26)",
+      "十年级 G22",
+      "十二年级 A21",
+      "十一年级 AS3",
+      "十一年级 AS1",
       "九年级 G12",
-      "十年级 G22"
+      "高数CR2(F26)",
+      "十一年级 AS2",
+      "十年级 G23",
+      "十二年级 A22",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -3400,30 +3441,6 @@
         "location": "LT3-124"
       },
       {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "13:50-14:30",
-        "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "13:50-14:30",
-        "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "13:50-14:30",
-        "location": "LT3-114"
-      },
-      {
         "class": "十二年级 A21",
         "class_id": 366030,
         "subject": "物理",
@@ -3446,14 +3463,6 @@
         "teacher": "职梦凡",
         "time": "13:50-14:30",
         "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "13:50-14:30",
-        "location": "LT3-114"
       },
       {
         "class": "十二年级 A22",
