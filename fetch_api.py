@@ -304,6 +304,94 @@ def compute_pending_roll_call(timetable, records):
     return pending
 
 
+def parse_dt(s):
+    """兼容 2026-10-27T10:20:30 / 2026-10-27 10:20 两种格式"""
+    s = (s or "").strip().replace("T", " ")
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y/%m/%d %H:%M:%S"):
+        try:
+            return datetime.strptime(s, fmt)
+        except ValueError:
+            continue
+    return None
+
+
+def span_end_minutes(ts):
+    """从 '08:20-09:00' 取出下课时间（当天 0 点起的分钟数）"""
+    m = re.search(r"(\d{1,2}):(\d{2})\s*[-–~]\s*(\d{1,2}):(\d{2})", ts or "")
+    if not m:
+        return None
+    return int(m.group(3)) * 60 + int(m.group(4))
+
+
+def compute_called_roll_call(timetable, records):
+    """
+    已结束且已点名的课堂：给出上课时段 + 实际点名时刻 + 相对下课延迟，用于监督点名及时性。
+    判定口径与 compute_pending_roll_call 严格一致（(时段, 班级/课程/老师) 任一匹配），
+    保证同一节课不会同时出现在 pending 与 called 两处。
+    返回 [{class, class_id, subject, teacher, time, location, called_at, delay_min}]
+    """
+    def name_variants(cls, crs, tch):
+        names = [(cls or "").strip(), (crs or "").strip(), (tch or "").strip()]
+        # 联合授课老师拆分
+        names += [n.strip() for n in (tch or "").split("、") if n.strip()]
+        names.append(re.sub(r"[|\s]+", "", (crs or "").strip()))
+        names.append(re.sub(r"[|\s]+", "", (cls or "").strip()))
+        return [n for n in names if n]
+
+    called_keys = set()   # 是否已点名（与 pending 判定一致）
+    idx = {}              # (ts, name) -> 最新点名时刻
+    for rec in records:
+        ts = rec.get("time_span", "")
+        if not ts:
+            continue
+        le = rec.get("last_edit_at") or ""
+        for nm in name_variants(rec.get("class", ""), rec.get("course", ""), rec.get("teacher", "")):
+            called_keys.add((ts, nm))
+            if le and le > idx.get((ts, nm), ""):
+                idx[(ts, nm)] = le
+
+    out = []
+    seen = set()
+    for c in timetable.get("courses", []):
+        ts = c.get("time_span", "")
+        key = (c.get("class_name"), c.get("course"), c.get("teacher"), ts)
+        if key in seen:
+            continue
+        seen.add(key)
+        matched = False
+        called_at = ""
+        for nm in name_variants(c.get("class_name", ""), c.get("course", ""), c.get("teacher", "")):
+            if (ts, nm) in called_keys:
+                matched = True
+                v = idx.get((ts, nm), "")
+                if v > called_at:
+                    called_at = v
+        if not matched:
+            continue   # 未点名，由 pending 负责
+
+        # 延迟 = 实际点名时刻 - 该节课下课时刻（负数表示课前/课中已点）
+        delay_min = None
+        end_m = span_end_minutes(ts)
+        dt = parse_dt(called_at)
+        if end_m is not None and dt is not None:
+            end_dt = dt.replace(hour=0, minute=0, second=0) + timedelta(minutes=end_m)
+            delay_min = int(round((dt - end_dt).total_seconds() / 60.0))
+
+        out.append({
+            "class": c.get("class_name", ""),
+            "class_id": c.get("class_id", ""),
+            "subject": c.get("course", ""),
+            "teacher": c.get("teacher", ""),
+            "time": ts,
+            "location": c.get("location", ""),
+            "called_at": called_at,
+            "delay_min": delay_min,
+        })
+
+    out.sort(key=lambda x: (x.get("time", ""), x.get("teacher", "")))
+    return out
+
+
 def parse_api_rows(rows):
     records = []
     for r in rows:
@@ -473,7 +561,7 @@ def analyze(records):
     }
 
 
-def build_output(result, timetable=None, pending_roll_call=None):
+def build_output(result, timetable=None, pending_roll_call=None, called_roll_call=None):
     today = now_cn()
     # 真实历史趋势：过去 6 天 + 今天（仅用今天真实数据，前几天用占位近似）
     trend = []
@@ -525,6 +613,7 @@ def build_output(result, timetable=None, pending_roll_call=None):
         "classes": result["classes"],
         "absent_students": result["absent_students"],
         "pending_roll_call": pending,
+        "called_roll_call": called_roll_call or [],
         "teacher_last_call": result.get("teacher_last_call", {}),
         "trend": trend,
         "lesson": {
@@ -556,13 +645,21 @@ async def main():
     # 获取当天课表，计算已结束但未点名的课堂
     timetable = None
     pending_roll_call = []
+    called_roll_call = []
     try:
         timetable = fetch_timetable_today(session)
         pending_roll_call = compute_pending_roll_call(timetable, records)
+        called_roll_call = compute_called_roll_call(timetable, records)
+        eprint(f"课表 {len(timetable.get('courses', []))} 节：待点名 {len(pending_roll_call)} 节，已点名 {len(called_roll_call)} 节")
     except Exception as e:
         eprint(f"获取课表失败（未点名模块）: {e}")
 
-    output = build_output(result, timetable=timetable, pending_roll_call=pending_roll_call)
+    output = build_output(
+        result,
+        timetable=timetable,
+        pending_roll_call=pending_roll_call,
+        called_roll_call=called_roll_call,
+    )
 
     # 1) 输出 data.json
     out_path = os.environ.get("OUTPUT_PATH", "data.json")
