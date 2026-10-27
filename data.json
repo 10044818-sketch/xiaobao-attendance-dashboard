@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-27 13:25",
+  "updated_at": "2026-10-27 13:34",
   "school": {
-    "rate": 84.8,
-    "present": 385,
-    "total": 454,
+    "rate": 85.0,
+    "present": 403,
+    "total": 474,
     "late": 9,
-    "absent": 69,
-    "leave": 42
+    "absent": 71,
+    "leave": 44
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 7,
+    "class_attention": 8,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -506,9 +506,67 @@
         "10:00-10:40",
         "10:50-11:30"
       ]
+    },
+    {
+      "name": "音乐BR3(F26)",
+      "teacher": "刘知言",
+      "rate": 90.0,
+      "present_text": "18/20人次",
+      "present": 18,
+      "total": 20,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "任厚宇",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/10/27 8:00:00 至 2026/10/27 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学BZ(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐BR3(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:29:26"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/10/26 8:00:00 至 2026/10/31 17:00:00  请假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济BX(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐BR3(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-27T13:29:26"
+    },
     {
       "name": "江雨霏",
       "class": "A22",
@@ -882,40 +940,6 @@
         }
       ],
       "updated_at": "2026-10-27T13:00:31"
-    },
-    {
-      "name": "任厚宇",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/10/27 8:00:00 至 2026/10/27 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学BZ(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-27T12:50:25"
-    },
-    {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "病假_【已通过】 2026/10/26 8:00:00 至 2026/10/31 17:00:00  请假 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济BX(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-27T11:39:30"
     },
     {
       "name": "傅泽",
@@ -1328,7 +1352,7 @@
       "time": "08:20-09:00",
       "location": "LT3-206",
       "called_at": "2026-10-27T09:52:25",
-      "delay_min": 52
+      "delay_min": 92
     },
     {
       "class": "十二年级 A22",
@@ -1338,7 +1362,7 @@
       "time": "08:20-09:00",
       "location": "LT3-206",
       "called_at": "2026-10-27T09:52:25",
-      "delay_min": 52
+      "delay_min": 92
     },
     {
       "class": "化学CB(F26)",
@@ -1348,7 +1372,7 @@
       "time": "08:20-09:00",
       "location": "LT3-206",
       "called_at": "2026-10-27T09:52:25",
-      "delay_min": 52
+      "delay_min": 92
     },
     {
       "class": "十一年级 AS1",
@@ -1358,7 +1382,7 @@
       "time": "08:20-09:00",
       "location": "LT3-121",
       "called_at": "2026-10-27T08:22:02",
-      "delay_min": -38
+      "delay_min": 2
     },
     {
       "class": "十一年级 AS2",
@@ -1368,7 +1392,7 @@
       "time": "08:20-09:00",
       "location": "LT3-121",
       "called_at": "2026-10-27T08:22:02",
-      "delay_min": -38
+      "delay_min": 2
     },
     {
       "class": "十一年级 AS3",
@@ -1378,7 +1402,7 @@
       "time": "08:20-09:00",
       "location": "LT3-121",
       "called_at": "2026-10-27T08:22:02",
-      "delay_min": -38
+      "delay_min": 2
     },
     {
       "class": "十一年级 AS1",
@@ -1388,7 +1412,7 @@
       "time": "08:20-09:00",
       "location": "LT3-123",
       "called_at": "2026-10-27T09:08:55",
-      "delay_min": 9
+      "delay_min": 49
     },
     {
       "class": "十一年级 AS2",
@@ -1398,7 +1422,7 @@
       "time": "08:20-09:00",
       "location": "LT3-123",
       "called_at": "2026-10-27T09:08:55",
-      "delay_min": 9
+      "delay_min": 49
     },
     {
       "class": "十一年级 AS3",
@@ -1408,7 +1432,7 @@
       "time": "08:20-09:00",
       "location": "LT3-123",
       "called_at": "2026-10-27T09:08:55",
-      "delay_min": 9
+      "delay_min": 49
     },
     {
       "class": "十年级 G23",
@@ -1418,7 +1442,7 @@
       "time": "08:20-09:00",
       "location": "LT3-107",
       "called_at": "2026-10-27T08:26:42",
-      "delay_min": -33
+      "delay_min": 7
     },
     {
       "class": "十年级 G21",
@@ -1428,7 +1452,7 @@
       "time": "08:20-09:00",
       "location": "LT3-111",
       "called_at": "2026-10-27T08:59:57",
-      "delay_min": 0
+      "delay_min": 40
     },
     {
       "class": "十年级 G22",
@@ -1438,7 +1462,7 @@
       "time": "08:20-09:00",
       "location": "LT3-111",
       "called_at": "2026-10-27T08:59:57",
-      "delay_min": 0
+      "delay_min": 40
     },
     {
       "class": "十年级 G21",
@@ -1448,7 +1472,7 @@
       "time": "08:20-09:00",
       "location": "LT3-109",
       "called_at": "2026-10-27T10:11:51",
-      "delay_min": 72
+      "delay_min": 112
     },
     {
       "class": "十年级 G22",
@@ -1458,7 +1482,7 @@
       "time": "08:20-09:00",
       "location": "LT3-109",
       "called_at": "2026-10-27T10:11:51",
-      "delay_min": 72
+      "delay_min": 112
     },
     {
       "class": "十一年级 AS1",
@@ -1468,7 +1492,7 @@
       "time": "08:20-09:00",
       "location": "LT3-212",
       "called_at": "2026-10-27T08:24:30",
-      "delay_min": -36
+      "delay_min": 4
     },
     {
       "class": "十一年级 AS1",
@@ -1478,7 +1502,7 @@
       "time": "08:20-09:00",
       "location": "LT3-114",
       "called_at": "2026-10-27T08:42:48",
-      "delay_min": -17
+      "delay_min": 23
     },
     {
       "class": "十一年级 AS2",
@@ -1488,7 +1512,7 @@
       "time": "08:20-09:00",
       "location": "LT3-114",
       "called_at": "2026-10-27T08:42:48",
-      "delay_min": -17
+      "delay_min": 23
     },
     {
       "class": "十一年级 AS3",
@@ -1498,7 +1522,7 @@
       "time": "08:20-09:00",
       "location": "LT3-114",
       "called_at": "2026-10-27T08:42:48",
-      "delay_min": -17
+      "delay_min": 23
     },
     {
       "class": "十二年级 A22",
@@ -1508,7 +1532,7 @@
       "time": "08:20-09:00",
       "location": "LT3-114",
       "called_at": "2026-10-27T08:42:48",
-      "delay_min": -17
+      "delay_min": 23
     },
     {
       "class": "化学BZ(F26)",
@@ -1518,7 +1542,7 @@
       "time": "08:20-09:00",
       "location": "LT3-114",
       "called_at": "2026-10-27T08:42:48",
-      "delay_min": -17
+      "delay_min": 23
     },
     {
       "class": "十二年级 A21",
@@ -1528,7 +1552,7 @@
       "time": "08:20-09:00",
       "location": "LT3-209",
       "called_at": "2026-10-27T09:06:11",
-      "delay_min": 6
+      "delay_min": 46
     },
     {
       "class": "十二年级 A22",
@@ -1538,7 +1562,7 @@
       "time": "08:20-09:00",
       "location": "LT3-209",
       "called_at": "2026-10-27T09:06:11",
-      "delay_min": 6
+      "delay_min": 46
     },
     {
       "class": "化学C0(F26)",
@@ -1548,7 +1572,7 @@
       "time": "08:20-09:00",
       "location": "LT3-209",
       "called_at": "2026-10-27T09:06:11",
-      "delay_min": 6
+      "delay_min": 46
     },
     {
       "class": "十年级 G21",
@@ -1558,7 +1582,7 @@
       "time": "08:20-09:00",
       "location": "LT3-122",
       "called_at": "2026-10-27T11:18:12",
-      "delay_min": 138
+      "delay_min": 178
     },
     {
       "class": "十年级 G22",
@@ -1568,7 +1592,7 @@
       "time": "08:20-09:00",
       "location": "LT3-122",
       "called_at": "2026-10-27T11:18:12",
-      "delay_min": 138
+      "delay_min": 178
     },
     {
       "class": "九年级 G11",
@@ -1578,7 +1602,7 @@
       "time": "08:20-09:00",
       "location": "LT3-108",
       "called_at": "2026-10-27T09:04:59",
-      "delay_min": 5
+      "delay_min": 45
     },
     {
       "class": "九年级 G12",
@@ -1588,7 +1612,7 @@
       "time": "08:20-09:00",
       "location": "LT3-108",
       "called_at": "2026-10-27T09:04:59",
-      "delay_min": 5
+      "delay_min": 45
     },
     {
       "class": "十二年级 A21",
@@ -1598,7 +1622,7 @@
       "time": "09:10-09:50",
       "location": "LT3-206",
       "called_at": "2026-10-27T09:51:57",
-      "delay_min": 2
+      "delay_min": 42
     },
     {
       "class": "十二年级 A22",
@@ -1608,7 +1632,7 @@
       "time": "09:10-09:50",
       "location": "LT3-206",
       "called_at": "2026-10-27T09:51:57",
-      "delay_min": 2
+      "delay_min": 42
     },
     {
       "class": "化学CB(F26)",
@@ -1618,7 +1642,7 @@
       "time": "09:10-09:50",
       "location": "LT3-206",
       "called_at": "2026-10-27T09:51:57",
-      "delay_min": 2
+      "delay_min": 42
     },
     {
       "class": "十一年级 AS1",
@@ -1628,7 +1652,7 @@
       "time": "09:10-09:50",
       "location": "LT3-121",
       "called_at": "2026-10-27T09:10:25",
-      "delay_min": -40
+      "delay_min": 0
     },
     {
       "class": "十一年级 AS2",
@@ -1638,7 +1662,7 @@
       "time": "09:10-09:50",
       "location": "LT3-121",
       "called_at": "2026-10-27T09:10:25",
-      "delay_min": -40
+      "delay_min": 0
     },
     {
       "class": "十一年级 AS3",
@@ -1648,7 +1672,7 @@
       "time": "09:10-09:50",
       "location": "LT3-121",
       "called_at": "2026-10-27T09:10:25",
-      "delay_min": -40
+      "delay_min": 0
     },
     {
       "class": "十年级 G23",
@@ -1658,7 +1682,7 @@
       "time": "09:10-09:50",
       "location": "LT3-107",
       "called_at": "2026-10-27T10:21:21",
-      "delay_min": 31
+      "delay_min": 71
     },
     {
       "class": "十一年级 AS1",
@@ -1668,7 +1692,7 @@
       "time": "09:10-09:50",
       "location": "LT3-123",
       "called_at": "2026-10-27T09:51:51",
-      "delay_min": 2
+      "delay_min": 42
     },
     {
       "class": "十一年级 AS2",
@@ -1678,7 +1702,7 @@
       "time": "09:10-09:50",
       "location": "LT3-123",
       "called_at": "2026-10-27T09:51:51",
-      "delay_min": 2
+      "delay_min": 42
     },
     {
       "class": "十一年级 AS3",
@@ -1688,7 +1712,7 @@
       "time": "09:10-09:50",
       "location": "LT3-123",
       "called_at": "2026-10-27T09:51:51",
-      "delay_min": 2
+      "delay_min": 42
     },
     {
       "class": "十年级 G21",
@@ -1698,7 +1722,7 @@
       "time": "09:10-09:50",
       "location": "LT3-111",
       "called_at": "2026-10-27T09:09:55",
-      "delay_min": -40
+      "delay_min": 0
     },
     {
       "class": "十年级 G22",
@@ -1708,7 +1732,7 @@
       "time": "09:10-09:50",
       "location": "LT3-111",
       "called_at": "2026-10-27T09:09:55",
-      "delay_min": -40
+      "delay_min": 0
     },
     {
       "class": "十年级 G21",
@@ -1718,7 +1742,7 @@
       "time": "09:10-09:50",
       "location": "LT3-109",
       "called_at": "2026-10-27T10:11:54",
-      "delay_min": 22
+      "delay_min": 62
     },
     {
       "class": "十年级 G22",
@@ -1728,7 +1752,7 @@
       "time": "09:10-09:50",
       "location": "LT3-109",
       "called_at": "2026-10-27T10:11:54",
-      "delay_min": 22
+      "delay_min": 62
     },
     {
       "class": "十二年级 A22",
@@ -1738,7 +1762,7 @@
       "time": "09:10-09:50",
       "location": "LT3-212",
       "called_at": "2026-10-27T09:17:16",
-      "delay_min": -33
+      "delay_min": 7
     },
     {
       "class": "十二年级 A21",
@@ -1748,7 +1772,7 @@
       "time": "09:10-09:50",
       "location": "LT3-209",
       "called_at": "2026-10-27T10:20:30",
-      "delay_min": 30
+      "delay_min": 70
     },
     {
       "class": "十二年级 A22",
@@ -1758,7 +1782,7 @@
       "time": "09:10-09:50",
       "location": "LT3-209",
       "called_at": "2026-10-27T10:20:30",
-      "delay_min": 30
+      "delay_min": 70
     },
     {
       "class": "化学C0(F26)",
@@ -1768,7 +1792,7 @@
       "time": "09:10-09:50",
       "location": "LT3-209",
       "called_at": "2026-10-27T10:20:30",
-      "delay_min": 30
+      "delay_min": 70
     },
     {
       "class": "十年级 G21",
@@ -1778,7 +1802,7 @@
       "time": "09:10-09:50",
       "location": "LT3-122",
       "called_at": "2026-10-27T11:18:18",
-      "delay_min": 88
+      "delay_min": 128
     },
     {
       "class": "十年级 G22",
@@ -1788,7 +1812,7 @@
       "time": "09:10-09:50",
       "location": "LT3-122",
       "called_at": "2026-10-27T11:18:18",
-      "delay_min": 88
+      "delay_min": 128
     },
     {
       "class": "十年级 G21",
@@ -1798,7 +1822,7 @@
       "time": "10:00-10:40",
       "location": "LT3-111",
       "called_at": "2026-10-27T10:49:07",
-      "delay_min": 9
+      "delay_min": 49
     },
     {
       "class": "十年级 G22",
@@ -1808,7 +1832,7 @@
       "time": "10:00-10:40",
       "location": "LT3-111",
       "called_at": "2026-10-27T10:49:07",
-      "delay_min": 9
+      "delay_min": 49
     },
     {
       "class": "十年级 G23",
@@ -1818,7 +1842,7 @@
       "time": "10:00-10:40",
       "location": "LT3-107",
       "called_at": "2026-10-27T10:21:34",
-      "delay_min": -18
+      "delay_min": 22
     },
     {
       "class": "十二年级 A21",
@@ -1828,7 +1852,7 @@
       "time": "10:00-10:40",
       "location": "LT3-208",
       "called_at": "2026-10-27T13:05:53",
-      "delay_min": 146
+      "delay_min": 186
     },
     {
       "class": "十二年级 A22",
@@ -1838,7 +1862,7 @@
       "time": "10:00-10:40",
       "location": "LT3-208",
       "called_at": "2026-10-27T13:05:53",
-      "delay_min": 146
+      "delay_min": 186
     },
     {
       "class": "九年级 G11",
@@ -1848,7 +1872,7 @@
       "time": "10:00-10:40",
       "location": "",
       "called_at": "2026-10-27T10:00:37",
-      "delay_min": -39
+      "delay_min": 1
     },
     {
       "class": "九年级 G12",
@@ -1858,7 +1882,7 @@
       "time": "10:00-10:40",
       "location": "",
       "called_at": "2026-10-27T10:00:37",
-      "delay_min": -39
+      "delay_min": 1
     },
     {
       "class": "十一年级 AS1",
@@ -1868,7 +1892,7 @@
       "time": "10:00-10:40",
       "location": "LT3-212",
       "called_at": "2026-10-27T10:12:55",
-      "delay_min": -27
+      "delay_min": 13
     },
     {
       "class": "十一年级 AS2",
@@ -1878,7 +1902,7 @@
       "time": "10:00-10:40",
       "location": "LT3-212",
       "called_at": "2026-10-27T10:12:55",
-      "delay_min": -27
+      "delay_min": 13
     },
     {
       "class": "十一年级 AS3",
@@ -1888,7 +1912,7 @@
       "time": "10:00-10:40",
       "location": "LT3-212",
       "called_at": "2026-10-27T10:12:55",
-      "delay_min": -27
+      "delay_min": 13
     },
     {
       "class": "十二年级 A21",
@@ -1898,7 +1922,7 @@
       "time": "10:00-10:40",
       "location": "LT3-209",
       "called_at": "2026-10-27T10:56:59",
-      "delay_min": 17
+      "delay_min": 57
     },
     {
       "class": "十二年级 A22",
@@ -1908,7 +1932,7 @@
       "time": "10:00-10:40",
       "location": "LT3-209",
       "called_at": "2026-10-27T10:56:59",
-      "delay_min": 17
+      "delay_min": 57
     },
     {
       "class": "十年级 G21",
@@ -1918,7 +1942,7 @@
       "time": "10:00-10:40",
       "location": "LT3-109",
       "called_at": "2026-10-27T10:22:08",
-      "delay_min": -18
+      "delay_min": 22
     },
     {
       "class": "十年级 G22",
@@ -1928,7 +1952,7 @@
       "time": "10:00-10:40",
       "location": "LT3-109",
       "called_at": "2026-10-27T10:22:08",
-      "delay_min": -18
+      "delay_min": 22
     },
     {
       "class": "十一年级 AS2",
@@ -1938,7 +1962,7 @@
       "time": "10:00-10:40",
       "location": "LT3-114",
       "called_at": "2026-10-27T11:39:30",
-      "delay_min": 60
+      "delay_min": 100
     },
     {
       "class": "十一年级 AS3",
@@ -1948,7 +1972,7 @@
       "time": "10:00-10:40",
       "location": "LT3-114",
       "called_at": "2026-10-27T11:39:30",
-      "delay_min": 60
+      "delay_min": 100
     },
     {
       "class": "十一年级 AS1",
@@ -1958,7 +1982,7 @@
       "time": "10:00-10:40",
       "location": "LT3-121",
       "called_at": "2026-10-27T10:00:08",
-      "delay_min": -40
+      "delay_min": 0
     },
     {
       "class": "十一年级 AS2",
@@ -1968,7 +1992,7 @@
       "time": "10:00-10:40",
       "location": "LT3-121",
       "called_at": "2026-10-27T10:00:08",
-      "delay_min": -40
+      "delay_min": 0
     },
     {
       "class": "十一年级 AS3",
@@ -1978,7 +2002,7 @@
       "time": "10:00-10:40",
       "location": "LT3-121",
       "called_at": "2026-10-27T10:00:08",
-      "delay_min": -40
+      "delay_min": 0
     },
     {
       "class": "十二年级 A21",
@@ -1988,7 +2012,7 @@
       "time": "10:50-11:30",
       "location": "LT3-208",
       "called_at": "2026-10-27T13:05:54",
-      "delay_min": 96
+      "delay_min": 136
     },
     {
       "class": "十二年级 A22",
@@ -1998,7 +2022,7 @@
       "time": "10:50-11:30",
       "location": "LT3-208",
       "called_at": "2026-10-27T13:05:54",
-      "delay_min": 96
+      "delay_min": 136
     },
     {
       "class": "十一年级 AS1",
@@ -2008,7 +2032,7 @@
       "time": "10:50-11:30",
       "location": "LT3-212",
       "called_at": "2026-10-27T13:02:59",
-      "delay_min": 93
+      "delay_min": 133
     },
     {
       "class": "十一年级 AS2",
@@ -2018,7 +2042,7 @@
       "time": "10:50-11:30",
       "location": "LT3-212",
       "called_at": "2026-10-27T13:02:59",
-      "delay_min": 93
+      "delay_min": 133
     },
     {
       "class": "十一年级 AS3",
@@ -2028,7 +2052,7 @@
       "time": "10:50-11:30",
       "location": "LT3-212",
       "called_at": "2026-10-27T13:02:59",
-      "delay_min": 93
+      "delay_min": 133
     },
     {
       "class": "十年级 G23",
@@ -2038,7 +2062,7 @@
       "time": "10:50-11:30",
       "location": "LT3-107",
       "called_at": "2026-10-27T12:23:48",
-      "delay_min": 54
+      "delay_min": 94
     },
     {
       "class": "化学A0(F26)",
@@ -2048,7 +2072,7 @@
       "time": "10:50-11:30",
       "location": "LT3-107",
       "called_at": "2026-10-27T12:23:48",
-      "delay_min": 54
+      "delay_min": 94
     },
     {
       "class": "十二年级 A21",
@@ -2058,7 +2082,7 @@
       "time": "10:50-11:30",
       "location": "LT3-209",
       "called_at": "2026-10-27T10:57:04",
-      "delay_min": -33
+      "delay_min": 7
     },
     {
       "class": "十二年级 A22",
@@ -2068,7 +2092,7 @@
       "time": "10:50-11:30",
       "location": "LT3-209",
       "called_at": "2026-10-27T10:57:04",
-      "delay_min": -33
+      "delay_min": 7
     },
     {
       "class": "十一年级 AS1",
@@ -2078,7 +2102,7 @@
       "time": "10:50-11:30",
       "location": "LT3-121",
       "called_at": "2026-10-27T12:50:25",
-      "delay_min": 80
+      "delay_min": 120
     },
     {
       "class": "十一年级 AS2",
@@ -2088,7 +2112,7 @@
       "time": "10:50-11:30",
       "location": "LT3-121",
       "called_at": "2026-10-27T12:50:25",
-      "delay_min": 80
+      "delay_min": 120
     },
     {
       "class": "十一年级 AS3",
@@ -2098,10 +2122,11 @@
       "time": "10:50-11:30",
       "location": "LT3-121",
       "called_at": "2026-10-27T12:50:25",
-      "delay_min": 80
+      "delay_min": 120
     }
   ],
   "teacher_last_call": {
+    "刘知言": "2026-10-27T13:29:26",
     "贺珍谊": "2026-10-27T13:13:18",
     "费楚淇": "2026-10-27T13:09:09",
     "张璐菲": "2026-10-27T13:05:54",
@@ -2124,57 +2149,57 @@
   "trend": [
     {
       "date": "10-21",
-      "attendance": 89.3,
+      "attendance": 89.5,
       "submit": 90.0
     },
     {
       "date": "10-22",
-      "attendance": 87.8,
+      "attendance": 88.0,
       "submit": 90.5
     },
     {
       "date": "10-23",
-      "attendance": 86.3,
+      "attendance": 86.5,
       "submit": 91.0
     },
     {
       "date": "10-24",
-      "attendance": 84.8,
+      "attendance": 85.0,
       "submit": 91.5
     },
     {
       "date": "10-25",
-      "attendance": 83.3,
+      "attendance": 83.5,
       "submit": 92.0
     },
     {
       "date": "10-26",
-      "attendance": 81.8,
+      "attendance": 82.0,
       "submit": 92.5
     },
     {
       "date": "10-27",
-      "attendance": 84.8,
-      "submit": 87.4
+      "attendance": 85.0,
+      "submit": 87.5
     }
   ],
   "lesson": {
     "completion_rate": 72.2,
     "called": 70,
     "total": 97,
-    "class_coverage": "30/30",
+    "class_coverage": "31/31",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十二年级 A22",
       "化学BZ(F26)",
-      "十年级 G22",
       "九年级 G11",
-      "十一年级 AS1",
       "十一年级 AS3",
-      "十一年级 AS2",
-      "九年级 G12",
       "十年级 G21",
-      "十二年级 A21"
+      "十年级 G22",
+      "十二年级 A21",
+      "九年级 G12",
+      "十二年级 A22",
+      "十一年级 AS1",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
