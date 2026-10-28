@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-28 15:41",
+  "updated_at": "2026-10-28 15:47",
   "school": {
-    "rate": 85.1,
-    "present": 705,
+    "rate": 84.9,
+    "present": 703,
     "total": 828,
     "late": 8,
-    "absent": 123,
-    "leave": 87
+    "absent": 125,
+    "leave": 89
   },
   "summary": {
     "pending_yesterday": 0,
@@ -467,14 +467,14 @@
     {
       "name": "英语写作A0(F26)",
       "teacher": "钱嘉音",
-      "rate": 85.7,
-      "present_text": "24/28人次",
-      "present": 24,
+      "rate": 78.6,
+      "present_text": "22/28人次",
+      "present": 22,
       "total": 28,
-      "absent": 4,
+      "absent": 6,
       "late": 0,
       "early": 0,
-      "leave": 4,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
         "15:30-16:10",
@@ -740,6 +740,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "雷雯",
+      "class": "G23",
+      "reason": "病假_【已通过】 2026-10-28 15:30:00 至 2026-10-28 17:00:00  病假",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "英语写作A0(F26)",
+          "time": "15:30-16:10"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-10-28T15:45:55"
+    },
     {
       "name": "沈诗珈",
       "class": "AS2",
@@ -2943,7 +2960,7 @@
     "朱嘉怡": "2026-10-28T15:39:10",
     "Johannes van Baardewijk": "2026-10-28T15:30:55",
     "魏刘伟": "2026-10-28T15:30:09",
-    "钱嘉音": "2026-10-28T15:27:22",
+    "钱嘉音": "2026-10-28T15:45:55",
     "费楚淇": "2026-10-28T15:23:46",
     "赵亮": "2026-10-28T14:47:39",
     "张小翼": "2026-10-28T14:47:32",
@@ -2967,37 +2984,37 @@
   "trend": [
     {
       "date": "10-22",
-      "attendance": 89.6,
+      "attendance": 89.4,
       "submit": 90.0
     },
     {
       "date": "10-23",
-      "attendance": 88.1,
+      "attendance": 87.9,
       "submit": 90.5
     },
     {
       "date": "10-24",
-      "attendance": 86.6,
+      "attendance": 86.4,
       "submit": 91.0
     },
     {
       "date": "10-25",
-      "attendance": 85.1,
+      "attendance": 84.9,
       "submit": 91.5
     },
     {
       "date": "10-26",
-      "attendance": 83.6,
+      "attendance": 83.4,
       "submit": 92.0
     },
     {
       "date": "10-27",
-      "attendance": 82.1,
+      "attendance": 81.9,
       "submit": 92.5
     },
     {
       "date": "10-28",
-      "attendance": 85.1,
+      "attendance": 84.9,
       "submit": 87.5
     }
   ],
@@ -3008,18 +3025,18 @@
     "class_coverage": "44/44",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十二年级 A22",
-      "十年级 G22",
-      "高数CR2(F26)",
       "九年级 G12",
-      "化学BY(F26)",
+      "十年级 G21",
+      "高数CR2(F26)",
+      "十二年级 A22",
       "十一年级 AS2",
-      "十一年级 AS3",
       "九年级 G11",
-      "十年级 G23",
+      "十年级 G22",
+      "十一年级 AS3",
       "十一年级 AS1",
-      "十年级 G21"
+      "化学BY(F26)",
+      "十二年级 A21",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
