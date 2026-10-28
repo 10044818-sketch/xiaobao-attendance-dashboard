@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-28 12:55",
+  "updated_at": "2026-10-28 13:01",
   "school": {
-    "rate": 87.3,
-    "present": 317,
-    "total": 363,
+    "rate": 87.8,
+    "present": 346,
+    "total": 394,
     "late": 0,
-    "absent": 46,
-    "leave": 40
+    "absent": 48,
+    "leave": 41
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -181,6 +181,22 @@
       ]
     },
     {
+      "name": "物理C0(F26)",
+      "teacher": "职梦凡",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "物理CA(F26)",
       "teacher": "曾靓",
       "rate": 72.7,
@@ -281,6 +297,22 @@
       ]
     },
     {
+      "name": "艺术9A(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 93.3,
+      "present_text": "14/15人次",
+      "present": 14,
+      "total": 15,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "英语写作AQ1(F26)",
       "teacher": "贺珍谊",
       "rate": 85.7,
@@ -292,6 +324,22 @@
       "early": 0,
       "leave": 2,
       "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
+      "name": "雅思写作口语C0(F26)",
+      "teacher": "曹德娟",
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
+      "total": 8,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
       "time_spans": [
         "10:50-11:30"
       ]
@@ -346,6 +394,32 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "唐晟尧",
+      "class": "G11",
+      "reason": "事假_【已通过】 2026/10/28 11:30:00 至 2026/10/28 17:00:00  搬家 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "艺术9A(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-28T13:00:30"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-28T12:59:49"
+    },
     {
       "name": "黄子怿",
       "class": "AS3",
@@ -918,22 +992,6 @@
       "location": "LT3-221"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "雅思写作口语",
-      "teacher": "曹德娟",
-      "time": "10:50-11:30",
-      "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "雅思写作口语",
-      "teacher": "曹德娟",
-      "time": "10:50-11:30",
-      "location": "LT3-209"
-    },
-    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "英语第二语言口语",
@@ -1360,6 +1418,26 @@
     {
       "class": "十二年级 A21",
       "class_id": 366030,
+      "subject": "雅思写作口语",
+      "teacher": "曹德娟",
+      "time": "10:50-11:30",
+      "location": "LT3-209",
+      "called_at": "2026-10-28T12:59:58",
+      "delay_min": 130
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思写作口语",
+      "teacher": "曹德娟",
+      "time": "10:50-11:30",
+      "location": "LT3-209",
+      "called_at": "2026-10-28T12:59:58",
+      "delay_min": 130
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
       "subject": "物理",
       "teacher": "曾靓",
       "time": "10:50-11:30",
@@ -1449,10 +1527,12 @@
     }
   ],
   "teacher_last_call": {
+    "朱嘉怡": "2026-10-28T13:00:30",
+    "曹德娟": "2026-10-28T12:59:58",
+    "职梦凡": "2026-10-28T12:59:49",
     "郝畅": "2026-10-28T11:40:00",
     "张小翼": "2026-10-28T11:32:59",
     "曾靓": "2026-10-28T11:26:53",
-    "职梦凡": "2026-10-28T11:03:21",
     "贺珍谊": "2026-10-28T10:59:17",
     "魏刘伟": "2026-10-28T10:49:32",
     "王肇君": "2026-10-28T10:48:51",
@@ -1468,58 +1548,58 @@
   "trend": [
     {
       "date": "10-22",
-      "attendance": 91.8,
+      "attendance": 92.3,
       "submit": 90.0
     },
     {
       "date": "10-23",
-      "attendance": 90.3,
+      "attendance": 90.8,
       "submit": 90.5
     },
     {
       "date": "10-24",
-      "attendance": 88.8,
+      "attendance": 89.3,
       "submit": 91.0
     },
     {
       "date": "10-25",
-      "attendance": 87.3,
+      "attendance": 87.8,
       "submit": 91.5
     },
     {
       "date": "10-26",
-      "attendance": 85.8,
+      "attendance": 86.3,
       "submit": 92.0
     },
     {
       "date": "10-27",
-      "attendance": 84.3,
+      "attendance": 84.8,
       "submit": 92.5
     },
     {
       "date": "10-28",
-      "attendance": 87.3,
-      "submit": 88.7
+      "attendance": 87.8,
+      "submit": 88.9
     }
   ],
   "lesson": {
-    "completion_rate": 57.8,
-    "called": 48,
+    "completion_rate": 60.2,
+    "called": 50,
     "total": 83,
-    "class_coverage": "20/20",
+    "class_coverage": "23/23",
     "teacher_count": 21,
     "uncovered_classes": [
-      "化学BY(F26)",
-      "九年级 G11",
-      "十年级 G21",
-      "十二年级 A21",
-      "十年级 G22",
-      "十二年级 A22",
-      "十一年级 AS3",
       "九年级 G12",
+      "九年级 G11",
+      "十二年级 A22",
+      "十年级 G21",
+      "十年级 G22",
+      "化学BY(F26)",
+      "十一年级 AS2",
+      "十一年级 AS3",
       "高数CR2(F26)",
-      "十一年级 AS1",
-      "十一年级 AS2"
+      "十二年级 A21",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -1753,22 +1833,6 @@
         "teacher": "米万宝",
         "time": "10:50-11:30",
         "location": "LT3-221"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "雅思写作口语",
-        "teacher": "曹德娟",
-        "time": "10:50-11:30",
-        "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "雅思写作口语",
-        "teacher": "曹德娟",
-        "time": "10:50-11:30",
-        "location": "LT3-209"
       },
       {
         "class": "十年级 G21",
