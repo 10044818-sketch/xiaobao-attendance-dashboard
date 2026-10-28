@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-28 08:40",
+  "updated_at": "2026-10-28 08:45",
   "school": {
-    "rate": 81.8,
-    "present": 27,
-    "total": 33,
+    "rate": 83.3,
+    "present": 40,
+    "total": 48,
     "late": 0,
-    "absent": 6,
-    "leave": 5
+    "absent": 8,
+    "leave": 6
   },
   "summary": {
     "pending_yesterday": 0,
@@ -46,9 +46,51 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 86.7,
+      "present_text": "13/15人次",
+      "present": 13,
+      "total": 15,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-28T08:42:49"
+    },
+    {
+      "name": "龚禧",
+      "class": "G12",
+      "reason": "病假_【已通过】 2026/10/28 8:00:00 至 2026/10/28 10:00:00  医院急诊不能复查，只有上午才有复查。故作调整 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-10-28T08:42:49"
+    },
     {
       "name": "胡鑫玥",
       "class": "G23",
@@ -131,51 +173,52 @@
   "pending_roll_call": [],
   "called_roll_call": [],
   "teacher_last_call": {
+    "郝畅": "2026-10-28T08:42:49",
     "张小翼": "2026-10-28T08:29:10",
     "杨燕霖": "2026-10-28T08:20:44"
   },
   "trend": [
     {
       "date": "10-22",
-      "attendance": 86.3,
+      "attendance": 87.8,
       "submit": 90.0
     },
     {
       "date": "10-23",
-      "attendance": 84.8,
+      "attendance": 86.3,
       "submit": 90.5
     },
     {
       "date": "10-24",
-      "attendance": 83.3,
+      "attendance": 84.8,
       "submit": 91.0
     },
     {
       "date": "10-25",
-      "attendance": 81.8,
+      "attendance": 83.3,
       "submit": 91.5
     },
     {
       "date": "10-26",
-      "attendance": 80.3,
+      "attendance": 81.8,
       "submit": 92.0
     },
     {
       "date": "10-27",
-      "attendance": 78.8,
+      "attendance": 80.3,
       "submit": 92.5
     },
     {
       "date": "10-28",
-      "attendance": 81.8,
-      "submit": 85.9
+      "attendance": 83.3,
+      "submit": 86.7
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "2/2",
+    "class_coverage": "3/3",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
