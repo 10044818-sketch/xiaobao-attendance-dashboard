@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-28 14:21",
+  "updated_at": "2026-10-28 14:25",
   "school": {
-    "rate": 85.9,
-    "present": 470,
+    "rate": 86.5,
+    "present": 473,
     "total": 547,
     "late": 7,
-    "absent": 77,
+    "absent": 74,
     "leave": 53
   },
   "summary": {
@@ -479,11 +479,11 @@
     {
       "name": "音乐C0(F26)",
       "teacher": "刘知言",
-      "rate": 50.0,
-      "present_text": "4/8人次",
-      "present": 4,
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
       "total": 8,
-      "absent": 4,
+      "absent": 1,
       "late": 0,
       "early": 0,
       "leave": 0,
@@ -494,6 +494,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-28T14:25:22"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -564,58 +577,6 @@
         }
       ],
       "updated_at": "2026-10-28T14:02:20"
-    },
-    {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-28T14:01:07"
-    },
-    {
-      "name": "曾禹德",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-28T14:01:07"
-    },
-    {
-      "name": "马镕锴",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-28T14:01:07"
-    },
-    {
-      "name": "刘宇茗",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-28T14:01:07"
     },
     {
       "name": "郭淑君",
@@ -2086,7 +2047,7 @@
   ],
   "teacher_last_call": {
     "贺珍谊": "2026-10-28T14:02:20",
-    "刘知言": "2026-10-28T14:01:07",
+    "刘知言": "2026-10-28T14:25:22",
     "杨燕霖": "2026-10-28T13:51:15",
     "朱嘉怡": "2026-10-28T13:48:45",
     "米万宝": "2026-10-28T13:38:38",
@@ -2107,38 +2068,38 @@
   "trend": [
     {
       "date": "10-22",
-      "attendance": 90.4,
+      "attendance": 91.0,
       "submit": 90.0
     },
     {
       "date": "10-23",
-      "attendance": 88.9,
+      "attendance": 89.5,
       "submit": 90.5
     },
     {
       "date": "10-24",
-      "attendance": 87.4,
+      "attendance": 88.0,
       "submit": 91.0
     },
     {
       "date": "10-25",
-      "attendance": 85.9,
+      "attendance": 86.5,
       "submit": 91.5
     },
     {
       "date": "10-26",
-      "attendance": 84.4,
+      "attendance": 85.0,
       "submit": 92.0
     },
     {
       "date": "10-27",
-      "attendance": 82.9,
+      "attendance": 83.5,
       "submit": 92.5
     },
     {
       "date": "10-28",
-      "attendance": 85.9,
-      "submit": 88.0
+      "attendance": 86.5,
+      "submit": 88.2
     }
   ],
   "lesson": {
@@ -2148,17 +2109,17 @@
     "class_coverage": "29/29",
     "teacher_count": 26,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "九年级 G12",
-      "十年级 G23",
-      "九年级 G11",
-      "十年级 G21",
-      "十二年级 A21",
       "十年级 G22",
-      "十二年级 A22"
+      "九年级 G11",
+      "十一年级 AS2",
+      "高数CR2(F26)",
+      "十年级 G21",
+      "九年级 G12",
+      "十二年级 A22",
+      "十一年级 AS1",
+      "十年级 G23",
+      "十二年级 A21",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
