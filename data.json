@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-29 11:45",
+  "updated_at": "2026-10-29 11:50",
   "school": {
-    "rate": 78.6,
-    "present": 294,
-    "total": 374,
+    "rate": 79.4,
+    "present": 309,
+    "total": 389,
     "late": 5,
     "absent": 80,
     "leave": 52
@@ -227,6 +227,22 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 100.0,
+      "present_text": "15/15人次",
+      "present": 15,
+      "total": 15,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
         "10:50-11:30"
       ]
     },
@@ -1156,22 +1172,6 @@
       "location": "LT3-122"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "经济学",
-      "teacher": "郝畅",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
       "class": "化学CB(F26)",
       "class_id": 521021,
       "subject": "化学",
@@ -1942,9 +1942,30 @@
       "location": "LT3-114",
       "called_at": "2026-10-29T10:52:25",
       "delay_min": 2
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "10:50-11:30",
+      "location": "LT3-108",
+      "called_at": "2026-10-29T11:50:47",
+      "delay_min": 61
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "10:50-11:30",
+      "location": "LT3-108",
+      "called_at": "2026-10-29T11:50:47",
+      "delay_min": 61
     }
   ],
   "teacher_last_call": {
+    "郝畅": "2026-10-29T11:50:47",
     "张璐菲": "2026-10-29T11:27:15",
     "费楚淇": "2026-10-29T11:14:14",
     "沈译宇": "2026-10-29T11:44:10",
@@ -1961,58 +1982,58 @@
   "trend": [
     {
       "date": "10-23",
-      "attendance": 83.1,
+      "attendance": 83.9,
       "submit": 90.0
     },
     {
       "date": "10-24",
-      "attendance": 81.6,
+      "attendance": 82.4,
       "submit": 90.5
     },
     {
       "date": "10-25",
-      "attendance": 80.1,
+      "attendance": 80.9,
       "submit": 91.0
     },
     {
       "date": "10-26",
-      "attendance": 78.6,
+      "attendance": 79.4,
       "submit": 91.5
     },
     {
       "date": "10-27",
-      "attendance": 77.1,
+      "attendance": 77.9,
       "submit": 92.0
     },
     {
       "date": "10-28",
-      "attendance": 75.6,
+      "attendance": 76.4,
       "submit": 92.5
     },
     {
       "date": "10-29",
-      "attendance": 78.6,
-      "submit": 84.3
+      "attendance": 79.4,
+      "submit": 84.7
     }
   ],
   "lesson": {
-    "completion_rate": 62.9,
-    "called": 61,
+    "completion_rate": 64.9,
+    "called": 63,
     "total": 97,
-    "class_coverage": "20/20",
+    "class_coverage": "21/21",
     "teacher_count": 17,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十一年级 AS1",
-      "十年级 G23",
-      "化学CB(F26)",
-      "十年级 G22",
-      "十二年级 A22",
-      "九年级 G12",
-      "十年级 G21",
-      "十一年级 AS2",
       "九年级 G11",
-      "十一年级 AS3"
+      "十二年级 A22",
+      "十二年级 A21",
+      "十年级 G21",
+      "九年级 G12",
+      "十一年级 AS1",
+      "十年级 G22",
+      "化学CB(F26)",
+      "十年级 G23",
+      "十一年级 AS3",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -2166,22 +2187,6 @@
         "teacher": "赵亮",
         "time": "10:00-10:40",
         "location": "LT3-122"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "经济学",
-        "teacher": "郝畅",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
       },
       {
         "class": "化学CB(F26)",
