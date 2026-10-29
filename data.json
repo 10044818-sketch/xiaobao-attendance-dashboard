@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-29 12:05",
+  "updated_at": "2026-10-29 12:10",
   "school": {
-    "rate": 79.4,
-    "present": 309,
-    "total": 389,
+    "rate": 79.1,
+    "present": 317,
+    "total": 401,
     "late": 5,
-    "absent": 80,
-    "leave": 52
+    "absent": 84,
+    "leave": 54
   },
   "summary": {
     "pending_yesterday": 0,
@@ -161,6 +161,23 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "化学CB(F26)",
+      "teacher": "余越利",
+      "rate": 66.7,
+      "present_text": "8/12人次",
+      "present": 8,
+      "total": 12,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -364,6 +381,48 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-29T12:07:29"
+    },
+    {
+      "name": "陈乐涵",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/10/29 8:00:00 至 2026/10/29 17:00:00  事假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学CB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-29T12:07:29"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -778,23 +837,6 @@
       "updated_at": "2026-10-29T09:51:24"
     },
     {
-      "name": "汤二璨",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思CR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-29T09:51:24"
-    },
-    {
       "name": "毛汝鑫",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1100,14 +1142,6 @@
       "location": "LT3-104"
     },
     {
-      "class": "化学CB(F26)",
-      "class_id": 521021,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "10:00-10:40",
-      "location": "LT3-206"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "艺术BC",
@@ -1116,22 +1150,6 @@
       "location": ""
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "10:00-10:40",
-      "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "10:00-10:40",
-      "location": "LT3-206"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "艺术BC",
@@ -1170,14 +1188,6 @@
       "teacher": "赵亮",
       "time": "10:00-10:40",
       "location": "LT3-122"
-    },
-    {
-      "class": "化学CB(F26)",
-      "class_id": 521021,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "10:50-11:30",
-      "location": "LT3-206"
     },
     {
       "class": "十一年级 AS1",
@@ -1220,28 +1230,12 @@
       "location": ""
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "10:50-11:30",
-      "location": "LT3-206"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "体育A0C0",
       "teacher": "",
       "time": "10:50-11:30",
       "location": ""
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "10:50-11:30",
-      "location": "LT3-206"
     },
     {
       "class": "十二年级 A22",
@@ -1654,6 +1648,36 @@
       "delay_min": -30
     },
     {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "10:00-10:40",
+      "location": "LT3-206",
+      "called_at": "2026-10-29T12:07:23",
+      "delay_min": 127
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "10:00-10:40",
+      "location": "LT3-206",
+      "called_at": "2026-10-29T12:07:23",
+      "delay_min": 127
+    },
+    {
+      "class": "化学CB(F26)",
+      "class_id": 521021,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "10:00-10:40",
+      "location": "LT3-206",
+      "called_at": "2026-10-29T12:07:23",
+      "delay_min": 127
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "商科",
@@ -1844,6 +1868,36 @@
       "delay_min": 74
     },
     {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "10:50-11:30",
+      "location": "LT3-206",
+      "called_at": "2026-10-29T12:07:29",
+      "delay_min": 77
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "10:50-11:30",
+      "location": "LT3-206",
+      "called_at": "2026-10-29T12:07:29",
+      "delay_min": 77
+    },
+    {
+      "class": "化学CB(F26)",
+      "class_id": 521021,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "10:50-11:30",
+      "location": "LT3-206",
+      "called_at": "2026-10-29T12:07:29",
+      "delay_min": 77
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "生物",
@@ -1965,6 +2019,7 @@
     }
   ],
   "teacher_last_call": {
+    "余越利": "2026-10-29T12:07:29",
     "郝畅": "2026-10-29T11:50:47",
     "张璐菲": "2026-10-29T11:27:15",
     "费楚淇": "2026-10-29T11:14:14",
@@ -1976,64 +2031,62 @@
     "朱嘉怡": "2026-10-29T10:07:13",
     "余震": "2026-10-29T10:00:52",
     "张小翼": "2026-10-29T09:49:50",
-    "余越利": "2026-10-29T09:09:04",
     "贺珍谊": "2026-10-29T08:40:18"
   },
   "trend": [
     {
       "date": "10-23",
-      "attendance": 83.9,
+      "attendance": 83.6,
       "submit": 90.0
     },
     {
       "date": "10-24",
-      "attendance": 82.4,
+      "attendance": 82.1,
       "submit": 90.5
     },
     {
       "date": "10-25",
-      "attendance": 80.9,
+      "attendance": 80.6,
       "submit": 91.0
     },
     {
       "date": "10-26",
-      "attendance": 79.4,
+      "attendance": 79.1,
       "submit": 91.5
     },
     {
       "date": "10-27",
-      "attendance": 77.9,
+      "attendance": 77.6,
       "submit": 92.0
     },
     {
       "date": "10-28",
-      "attendance": 76.4,
+      "attendance": 76.1,
       "submit": 92.5
     },
     {
       "date": "10-29",
-      "attendance": 79.4,
-      "submit": 84.7
+      "attendance": 79.1,
+      "submit": 84.5
     }
   ],
   "lesson": {
-    "completion_rate": 64.9,
-    "called": 63,
+    "completion_rate": 71.1,
+    "called": 69,
     "total": 97,
-    "class_coverage": "21/21",
+    "class_coverage": "22/22",
     "teacher_count": 17,
     "uncovered_classes": [
+      "九年级 G11",
+      "十二年级 A22",
+      "十一年级 AS3",
       "十年级 G21",
       "十年级 G23",
-      "十二年级 A22",
-      "十一年级 AS1",
-      "化学CB(F26)",
-      "十一年级 AS2",
       "九年级 G12",
-      "十二年级 A21",
       "十年级 G22",
-      "九年级 G11",
-      "十一年级 AS3"
+      "十一年级 AS2",
+      "十一年级 AS1",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -2117,14 +2170,6 @@
         "location": "LT3-104"
       },
       {
-        "class": "化学CB(F26)",
-        "class_id": 521021,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "10:00-10:40",
-        "location": "LT3-206"
-      },
-      {
         "class": "十一年级 AS1",
         "class_id": 442959,
         "subject": "艺术BC",
@@ -2133,22 +2178,6 @@
         "location": ""
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "10:00-10:40",
-        "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "10:00-10:40",
-        "location": "LT3-206"
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "艺术BC",
@@ -2187,14 +2216,6 @@
         "teacher": "赵亮",
         "time": "10:00-10:40",
         "location": "LT3-122"
-      },
-      {
-        "class": "化学CB(F26)",
-        "class_id": 521021,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "10:50-11:30",
-        "location": "LT3-206"
       },
       {
         "class": "十一年级 AS1",
@@ -2237,28 +2258,12 @@
         "location": ""
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "10:50-11:30",
-        "location": "LT3-206"
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "体育A0C0",
         "teacher": "",
         "time": "10:50-11:30",
         "location": ""
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "10:50-11:30",
-        "location": "LT3-206"
       },
       {
         "class": "十二年级 A22",
