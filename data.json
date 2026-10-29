@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-29 11:40",
+  "updated_at": "2026-10-29 11:45",
   "school": {
-    "rate": 78.3,
-    "present": 293,
+    "rate": 78.6,
+    "present": 294,
     "total": 374,
-    "late": 4,
-    "absent": 81,
+    "late": 5,
+    "absent": 80,
     "leave": 52
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -51,15 +51,15 @@
     {
       "name": "体育A0(F26)",
       "teacher": "沈译宇",
-      "rate": 85.7,
-      "present_text": "12/14人次",
-      "present": 12,
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
       "total": 14,
-      "absent": 2,
-      "late": 0,
+      "absent": 1,
+      "late": 1,
       "early": 0,
       "leave": 1,
-      "status": "异常",
+      "status": "关注",
       "time_spans": [
         "10:50-11:30"
       ]
@@ -349,27 +349,6 @@
   ],
   "absent_students": [
     {
-      "name": "王誉涵",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/10/29 8:00:00 至 2026/10/29 11:30:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "体育BR3(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "生物BZ(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "生物BZ(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-29T11:27:15"
-    },
-    {
       "name": "耿子涵",
       "class": "G23",
       "reason": "事假_【已通过】 2026/10/26 8:00:00 至 2026/10/30 15:00:00  请假 ",
@@ -392,20 +371,28 @@
           "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-10-29T11:14:14"
+      "updated_at": "2026-10-29T11:44:10"
     },
     {
-      "name": "雷雯",
-      "class": "G23",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
+      "name": "王誉涵",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/10/29 8:00:00 至 2026/10/29 11:30:00  请假 ",
+      "type": "事假",
       "courses": [
         {
-          "course": "体育A0(F26)",
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "生物BZ(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "生物BZ(F26)",
           "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-10-29T10:53:19"
+      "updated_at": "2026-10-29T11:27:15"
     },
     {
       "name": "茆睿恺",
@@ -1960,7 +1947,7 @@
   "teacher_last_call": {
     "张璐菲": "2026-10-29T11:27:15",
     "费楚淇": "2026-10-29T11:14:14",
-    "沈译宇": "2026-10-29T10:53:19",
+    "沈译宇": "2026-10-29T11:44:10",
     "米万宝": "2026-10-29T10:52:25",
     "杨燕霖": "2026-10-29T10:51:20",
     "袁西援": "2026-10-29T10:20:42",
@@ -1974,38 +1961,38 @@
   "trend": [
     {
       "date": "10-23",
-      "attendance": 82.8,
+      "attendance": 83.1,
       "submit": 90.0
     },
     {
       "date": "10-24",
-      "attendance": 81.3,
+      "attendance": 81.6,
       "submit": 90.5
     },
     {
       "date": "10-25",
-      "attendance": 79.8,
+      "attendance": 80.1,
       "submit": 91.0
     },
     {
       "date": "10-26",
-      "attendance": 78.3,
+      "attendance": 78.6,
       "submit": 91.5
     },
     {
       "date": "10-27",
-      "attendance": 76.8,
+      "attendance": 77.1,
       "submit": 92.0
     },
     {
       "date": "10-28",
-      "attendance": 75.3,
+      "attendance": 75.6,
       "submit": 92.5
     },
     {
       "date": "10-29",
-      "attendance": 78.3,
-      "submit": 84.2
+      "attendance": 78.6,
+      "submit": 84.3
     }
   ],
   "lesson": {
@@ -2015,17 +2002,17 @@
     "class_coverage": "20/20",
     "teacher_count": 17,
     "uncovered_classes": [
-      "九年级 G12",
-      "十一年级 AS3",
       "十二年级 A21",
-      "十一年级 AS2",
       "十一年级 AS1",
-      "十年级 G21",
-      "十二年级 A22",
-      "九年级 G11",
       "十年级 G23",
       "化学CB(F26)",
-      "十年级 G22"
+      "十年级 G22",
+      "十二年级 A22",
+      "九年级 G12",
+      "十年级 G21",
+      "十一年级 AS2",
+      "九年级 G11",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
