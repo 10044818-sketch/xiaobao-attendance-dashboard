@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-29 14:55",
+  "updated_at": "2026-10-29 15:01",
   "school": {
-    "rate": 81.4,
-    "present": 522,
-    "total": 641,
+    "rate": 81.5,
+    "present": 530,
+    "total": 650,
     "late": 5,
-    "absent": 119,
+    "absent": 120,
     "leave": 75
   },
   "summary": {
@@ -414,16 +414,17 @@
       "name": "艺术BX(F26)",
       "teacher": "朱嘉怡",
       "rate": 88.9,
-      "present_text": "8/9人次",
-      "present": 8,
-      "total": 9,
-      "absent": 1,
+      "present_text": "16/18人次",
+      "present": 16,
+      "total": 18,
+      "absent": 2,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "13:50-14:30"
+        "13:50-14:30",
+        "14:40-15:20"
       ]
     },
     {
@@ -641,6 +642,35 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐BR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-10-29T14:57:39"
+    },
     {
       "name": "马佳雯",
       "class": "G12",
@@ -967,31 +997,6 @@
         }
       ],
       "updated_at": "2026-10-29T14:17:25"
-    },
-    {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐BR2(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "艺术BX(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-10-29T14:01:18"
     },
     {
       "name": "赵浩雯",
@@ -2963,13 +2968,13 @@
     }
   ],
   "teacher_last_call": {
+    "朱嘉怡": "2026-10-29T14:57:39",
     "沈译宇": "2026-10-29T14:45:40",
     "王伊": "2026-10-29T14:41:53",
     "刘知言": "2026-10-29T14:40:00",
     "郝畅": "2026-10-29T14:35:37",
     "张璐菲": "2026-10-29T14:52:26",
     "张小翼": "2026-10-29T14:17:25",
-    "朱嘉怡": "2026-10-29T14:01:18",
     "贺珍谊": "2026-10-29T13:53:43",
     "魏刘伟": "2026-10-29T13:50:59",
     "潘丽": "2026-10-29T13:44:06",
@@ -2985,38 +2990,38 @@
   "trend": [
     {
       "date": "10-23",
-      "attendance": 85.9,
+      "attendance": 86.0,
       "submit": 90.0
     },
     {
       "date": "10-24",
-      "attendance": 84.4,
+      "attendance": 84.5,
       "submit": 90.5
     },
     {
       "date": "10-25",
-      "attendance": 82.9,
+      "attendance": 83.0,
       "submit": 91.0
     },
     {
       "date": "10-26",
-      "attendance": 81.4,
+      "attendance": 81.5,
       "submit": 91.5
     },
     {
       "date": "10-27",
-      "attendance": 79.9,
+      "attendance": 80.0,
       "submit": 92.0
     },
     {
       "date": "10-28",
-      "attendance": 78.4,
+      "attendance": 78.5,
       "submit": 92.5
     },
     {
       "date": "10-29",
-      "attendance": 81.4,
-      "submit": 85.7
+      "attendance": 81.5,
+      "submit": 85.8
     }
   ],
   "lesson": {
@@ -3026,16 +3031,16 @@
     "class_coverage": "38/38",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十一年级 AS3",
-      "十年级 G23",
       "九年级 G11",
+      "十一年级 AS1",
+      "十年级 G23",
       "十年级 G22",
       "十二年级 A22",
+      "九年级 G12",
       "十一年级 AS2",
       "十二年级 A21",
-      "十年级 G21",
-      "九年级 G12"
+      "十一年级 AS3",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
