@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-29 13:40",
+  "updated_at": "2026-10-29 13:46",
   "school": {
-    "rate": 78.2,
-    "present": 363,
-    "total": 464,
+    "rate": 79.1,
+    "present": 383,
+    "total": 484,
     "late": 5,
     "absent": 101,
     "leave": 62
@@ -211,6 +211,23 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "数学AR1(F26)",
+      "teacher": "潘丽",
+      "rate": 100.0,
+      "present_text": "20/20人次",
+      "present": 20,
+      "total": 20,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -1340,25 +1357,9 @@
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "数学",
-      "teacher": "潘丽",
-      "time": "10:00-10:40",
-      "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "数学",
       "teacher": "赵亮",
       "time": "10:00-10:40",
       "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "数学",
-      "teacher": "潘丽",
-      "time": "10:00-10:40",
-      "location": "LT3-109"
     },
     {
       "class": "十年级 G22",
@@ -1428,25 +1429,9 @@
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "数学",
-      "teacher": "潘丽",
-      "time": "10:50-11:30",
-      "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "数学",
       "teacher": "赵亮",
       "time": "10:50-11:30",
       "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "数学",
-      "teacher": "潘丽",
-      "time": "10:50-11:30",
-      "location": "LT3-109"
     },
     {
       "class": "十年级 G22",
@@ -2085,6 +2070,26 @@
       "delay_min": 2
     },
     {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "10:00-10:40",
+      "location": "LT3-109",
+      "called_at": "2026-10-29T13:44:03",
+      "delay_min": 224
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "10:00-10:40",
+      "location": "LT3-109",
+      "called_at": "2026-10-29T13:44:03",
+      "delay_min": 224
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "化学",
@@ -2255,6 +2260,26 @@
       "delay_min": 1
     },
     {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "10:50-11:30",
+      "location": "LT3-109",
+      "called_at": "2026-10-29T13:44:06",
+      "delay_min": 174
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "10:50-11:30",
+      "location": "LT3-109",
+      "called_at": "2026-10-29T13:44:06",
+      "delay_min": 174
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "化学",
@@ -2386,6 +2411,7 @@
     }
   ],
   "teacher_last_call": {
+    "潘丽": "2026-10-29T13:44:06",
     "贺珍谊": "2026-10-29T13:36:49",
     "曾靓": "2026-10-29T13:08:06",
     "刘知言": "2026-10-29T13:04:59",
@@ -2405,58 +2431,58 @@
   "trend": [
     {
       "date": "10-23",
-      "attendance": 82.7,
+      "attendance": 83.6,
       "submit": 90.0
     },
     {
       "date": "10-24",
-      "attendance": 81.2,
+      "attendance": 82.1,
       "submit": 90.5
     },
     {
       "date": "10-25",
-      "attendance": 79.7,
+      "attendance": 80.6,
       "submit": 91.0
     },
     {
       "date": "10-26",
-      "attendance": 78.2,
+      "attendance": 79.1,
       "submit": 91.5
     },
     {
       "date": "10-27",
-      "attendance": 76.7,
+      "attendance": 77.6,
       "submit": 92.0
     },
     {
       "date": "10-28",
-      "attendance": 75.2,
+      "attendance": 76.1,
       "submit": 92.5
     },
     {
       "date": "10-29",
-      "attendance": 78.2,
-      "submit": 84.1
+      "attendance": 79.1,
+      "submit": 84.5
     }
   ],
   "lesson": {
-    "completion_rate": 62.7,
-    "called": 74,
+    "completion_rate": 66.1,
+    "called": 78,
     "total": 118,
-    "class_coverage": "26/26",
+    "class_coverage": "27/27",
     "teacher_count": 22,
     "uncovered_classes": [
-      "十年级 G21",
-      "九年级 G12",
       "十二年级 A22",
-      "十一年级 AS3",
-      "十年级 G23",
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "九年级 G11",
       "十二年级 A21",
+      "十年级 G23",
+      "十一年级 AS3",
+      "化学9A(F26)",
+      "十一年级 AS2",
+      "十一年级 AS1",
       "十年级 G22",
-      "化学9A(F26)"
+      "九年级 G12",
+      "九年级 G11",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -2559,25 +2585,9 @@
         "class": "十年级 G21",
         "class_id": 517698,
         "subject": "数学",
-        "teacher": "潘丽",
-        "time": "10:00-10:40",
-        "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "数学",
         "teacher": "赵亮",
         "time": "10:00-10:40",
         "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "数学",
-        "teacher": "潘丽",
-        "time": "10:00-10:40",
-        "location": "LT3-109"
       },
       {
         "class": "十年级 G22",
@@ -2647,25 +2657,9 @@
         "class": "十年级 G21",
         "class_id": 517698,
         "subject": "数学",
-        "teacher": "潘丽",
-        "time": "10:50-11:30",
-        "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "数学",
         "teacher": "赵亮",
         "time": "10:50-11:30",
         "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "数学",
-        "teacher": "潘丽",
-        "time": "10:50-11:30",
-        "location": "LT3-109"
       },
       {
         "class": "十年级 G22",
