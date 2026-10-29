@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-29 13:51",
+  "updated_at": "2026-10-29 13:55",
   "school": {
-    "rate": 79.7,
-    "present": 401,
-    "total": 503,
+    "rate": 80.2,
+    "present": 412,
+    "total": 514,
     "late": 5,
     "absent": 102,
     "leave": 62
@@ -393,6 +393,22 @@
       "status": "异常",
       "time_spans": [
         "13:00-13:40"
+      ]
+    },
+    {
+      "name": "英语写作AQ3(F26)",
+      "teacher": "贺珍谊",
+      "rate": 100.0,
+      "present_text": "11/11人次",
+      "present": 11,
+      "total": 11,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:50-14:30"
       ]
     },
     {
@@ -2431,9 +2447,9 @@
     }
   ],
   "teacher_last_call": {
+    "贺珍谊": "2026-10-29T13:53:43",
     "魏刘伟": "2026-10-29T13:50:59",
     "潘丽": "2026-10-29T13:44:06",
-    "贺珍谊": "2026-10-29T13:36:49",
     "曾靓": "2026-10-29T13:08:06",
     "刘知言": "2026-10-29T13:04:59",
     "朱嘉怡": "2026-10-29T13:03:06",
@@ -2452,56 +2468,56 @@
   "trend": [
     {
       "date": "10-23",
-      "attendance": 84.2,
+      "attendance": 84.7,
       "submit": 90.0
     },
     {
       "date": "10-24",
-      "attendance": 82.7,
+      "attendance": 83.2,
       "submit": 90.5
     },
     {
       "date": "10-25",
-      "attendance": 81.2,
+      "attendance": 81.7,
       "submit": 91.0
     },
     {
       "date": "10-26",
-      "attendance": 79.7,
+      "attendance": 80.2,
       "submit": 91.5
     },
     {
       "date": "10-27",
-      "attendance": 78.2,
+      "attendance": 78.7,
       "submit": 92.0
     },
     {
       "date": "10-28",
-      "attendance": 76.7,
+      "attendance": 77.2,
       "submit": 92.5
     },
     {
       "date": "10-29",
-      "attendance": 79.7,
-      "submit": 84.8
+      "attendance": 80.2,
+      "submit": 85.1
     }
   ],
   "lesson": {
     "completion_rate": 66.1,
     "called": 78,
     "total": 118,
-    "class_coverage": "28/28",
+    "class_coverage": "29/29",
     "teacher_count": 22,
     "uncovered_classes": [
-      "九年级 G12",
-      "十一年级 AS1",
-      "十二年级 A21",
-      "十一年级 AS3",
-      "九年级 G11",
-      "十二年级 A22",
-      "化学9A(F26)",
-      "十年级 G22",
       "十一年级 AS2",
+      "十二年级 A22",
+      "十一年级 AS3",
+      "十二年级 A21",
+      "十年级 G22",
+      "九年级 G12",
+      "九年级 G11",
+      "十一年级 AS1",
+      "化学9A(F26)",
       "十年级 G23",
       "十年级 G21"
     ],
