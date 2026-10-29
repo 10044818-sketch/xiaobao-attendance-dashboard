@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-29 10:15",
+  "updated_at": "2026-10-29 10:20",
   "school": {
-    "rate": 74.1,
-    "present": 186,
-    "total": 251,
+    "rate": 75.6,
+    "present": 217,
+    "total": 287,
     "late": 2,
-    "absent": 65,
-    "leave": 40
+    "absent": 70,
+    "leave": 44
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -65,6 +65,23 @@
       ]
     },
     {
+      "name": "化学A0(F26)",
+      "teacher": "袁西援",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
       "name": "化学AA(F26)",
       "teacher": "余越利",
       "rate": 95.2,
@@ -79,6 +96,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "化学C0(F26)",
+      "teacher": "袁西援",
+      "rate": 62.5,
+      "present_text": "5/8人次",
+      "present": 5,
+      "total": 8,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
       ]
     },
     {
@@ -232,6 +265,78 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/10/29 8:00:00 至 2026/10/29 20:00:00  发烧 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "代数C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学C0(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-29T10:20:42"
+    },
+    {
+      "name": "刘宇茗",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学C0(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-29T10:20:42"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/10/29 8:00:00 至 2026/10/29 17:00:00  感冒 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "代数C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "化学C0(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-10-29T10:20:42"
+    },
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "事假_【已通过】 2026/10/26 8:00:00 至 2026/10/30 15:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学A0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-29T10:20:21"
+    },
     {
       "name": "王锴杰",
       "class": "AS2",
@@ -593,40 +698,6 @@
       "updated_at": "2026-10-29T09:51:24"
     },
     {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026/10/29 8:00:00 至 2026/10/29 20:00:00  发烧 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "代数C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-29T09:49:50"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026/10/29 8:00:00 至 2026/10/29 17:00:00  感冒 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "代数C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-29T09:49:50"
-    },
-    {
       "name": "童稷丰",
       "class": "G21",
       "reason": "已请假",
@@ -826,14 +897,6 @@
       "location": "LT3-108"
     },
     {
-      "class": "化学A0(F26)",
-      "class_id": 524146,
-      "subject": "化学",
-      "teacher": "袁西援",
-      "time": "08:20-09:00",
-      "location": "LT3-107"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "雅思英语",
@@ -866,14 +929,6 @@
       "location": "LT3-104"
     },
     {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "化学",
-      "teacher": "袁西援",
-      "time": "08:20-09:00",
-      "location": "LT3-107"
-    },
-    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "英语第二语言",
@@ -890,14 +945,6 @@
       "location": "LT3-108"
     },
     {
-      "class": "化学A0(F26)",
-      "class_id": 524146,
-      "subject": "化学",
-      "teacher": "袁西援",
-      "time": "09:10-09:50",
-      "location": "LT3-107"
-    },
-    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "艺术与设计",
@@ -912,14 +959,6 @@
       "teacher": "王丽媛、朱嘉怡",
       "time": "09:10-09:50",
       "location": "LT3-104"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "化学",
-      "teacher": "袁西援",
-      "time": "09:10-09:50",
-      "location": "LT3-107"
     }
   ],
   "called_roll_call": [
@@ -1032,6 +1071,26 @@
       "location": "LT3-104",
       "called_at": "2026-10-29T10:02:17",
       "delay_min": 102
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "08:20-09:00",
+      "location": "LT3-107",
+      "called_at": "2026-10-29T10:20:11",
+      "delay_min": 120
+    },
+    {
+      "class": "化学A0(F26)",
+      "class_id": 524146,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "08:20-09:00",
+      "location": "LT3-107",
+      "called_at": "2026-10-29T10:20:11",
+      "delay_min": 120
     },
     {
       "class": "十二年级 A21",
@@ -1204,6 +1263,26 @@
       "delay_min": 52
     },
     {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "09:10-09:50",
+      "location": "LT3-107",
+      "called_at": "2026-10-29T10:20:21",
+      "delay_min": 70
+    },
+    {
+      "class": "化学A0(F26)",
+      "class_id": 524146,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "09:10-09:50",
+      "location": "LT3-107",
+      "called_at": "2026-10-29T10:20:21",
+      "delay_min": 70
+    },
+    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "雅思英语",
@@ -1245,6 +1324,7 @@
     }
   ],
   "teacher_last_call": {
+    "袁西援": "2026-10-29T10:20:42",
     "曹德娟": "2026-10-29T10:11:11",
     "朱嘉怡": "2026-10-29T10:07:13",
     "杨燕霖": "2026-10-29T10:02:45",
@@ -1258,55 +1338,53 @@
   "trend": [
     {
       "date": "10-23",
-      "attendance": 78.6,
+      "attendance": 80.1,
       "submit": 90.0
     },
     {
       "date": "10-24",
-      "attendance": 77.1,
+      "attendance": 78.6,
       "submit": 90.5
     },
     {
       "date": "10-25",
-      "attendance": 75.6,
+      "attendance": 77.1,
       "submit": 91.0
     },
     {
       "date": "10-26",
-      "attendance": 74.1,
+      "attendance": 75.6,
       "submit": 91.5
     },
     {
       "date": "10-27",
-      "attendance": 72.6,
+      "attendance": 74.1,
       "submit": 92.0
     },
     {
       "date": "10-28",
-      "attendance": 71.1,
+      "attendance": 72.6,
       "submit": 92.5
     },
     {
       "date": "10-29",
-      "attendance": 74.1,
-      "submit": 82.0
+      "attendance": 75.6,
+      "submit": 82.8
     }
   ],
   "lesson": {
-    "completion_rate": 66.7,
-    "called": 28,
+    "completion_rate": 76.2,
+    "called": 32,
     "total": 42,
-    "class_coverage": "13/13",
+    "class_coverage": "15/15",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十年级 G23",
-      "十一年级 AS1",
+      "十年级 G21",
       "十年级 G22",
-      "九年级 G12",
-      "化学A0(F26)",
-      "九年级 G11",
+      "十一年级 AS1",
       "十一年级 AS3",
-      "十年级 G21"
+      "九年级 G12",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -1324,14 +1402,6 @@
         "teacher": "瞿芬",
         "time": "08:20-09:00",
         "location": "LT3-108"
-      },
-      {
-        "class": "化学A0(F26)",
-        "class_id": 524146,
-        "subject": "化学",
-        "teacher": "袁西援",
-        "time": "08:20-09:00",
-        "location": "LT3-107"
       },
       {
         "class": "十一年级 AS1",
@@ -1366,14 +1436,6 @@
         "location": "LT3-104"
       },
       {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "化学",
-        "teacher": "袁西援",
-        "time": "08:20-09:00",
-        "location": "LT3-107"
-      },
-      {
         "class": "九年级 G11",
         "class_id": 487607,
         "subject": "英语第二语言",
@@ -1390,14 +1452,6 @@
         "location": "LT3-108"
       },
       {
-        "class": "化学A0(F26)",
-        "class_id": 524146,
-        "subject": "化学",
-        "teacher": "袁西援",
-        "time": "09:10-09:50",
-        "location": "LT3-107"
-      },
-      {
         "class": "十年级 G21",
         "class_id": 517698,
         "subject": "艺术与设计",
@@ -1412,14 +1466,6 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "09:10-09:50",
         "location": "LT3-104"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "化学",
-        "teacher": "袁西援",
-        "time": "09:10-09:50",
-        "location": "LT3-107"
       }
     ]
   }
