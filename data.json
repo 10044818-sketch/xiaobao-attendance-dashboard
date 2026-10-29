@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-29 09:05",
+  "updated_at": "2026-10-29 09:10",
   "school": {
-    "rate": 74.5,
-    "present": 35,
-    "total": 47,
+    "rate": 84.3,
+    "present": 75,
+    "total": 89,
     "late": 0,
-    "absent": 12,
-    "leave": 7
+    "absent": 14,
+    "leave": 9
   },
   "summary": {
     "pending_yesterday": 0,
@@ -29,6 +29,23 @@
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "化学AA(F26)",
+      "teacher": "余越利",
+      "rate": 95.2,
+      "present_text": "40/42人次",
+      "present": 40,
+      "total": 42,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -66,6 +83,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "尹勋",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/10/29 8:00:00 至 2026/10/29 12:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-10-29T09:09:04"
+    },
     {
       "name": "茆睿恺",
       "class": "A22",
@@ -222,14 +256,6 @@
       "location": "LT3-107"
     },
     {
-      "class": "化学AA(F26)",
-      "class_id": 529342,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "08:20-09:00",
-      "location": "LT3-124"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "雅思英语",
@@ -278,28 +304,12 @@
       "location": "LT3-104"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "08:20-09:00",
-      "location": "LT3-124"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "艺术与设计",
       "teacher": "王丽媛、朱嘉怡",
       "time": "08:20-09:00",
       "location": "LT3-104"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "08:20-09:00",
-      "location": "LT3-124"
     },
     {
       "class": "十年级 G23",
@@ -311,6 +321,36 @@
     }
   ],
   "called_roll_call": [
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "08:20-09:00",
+      "location": "LT3-124",
+      "called_at": "2026-10-29T09:08:54",
+      "delay_min": 49
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "08:20-09:00",
+      "location": "LT3-124",
+      "called_at": "2026-10-29T09:08:54",
+      "delay_min": 49
+    },
+    {
+      "class": "化学AA(F26)",
+      "class_id": 529342,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "08:20-09:00",
+      "location": "LT3-124",
+      "called_at": "2026-10-29T09:08:54",
+      "delay_min": 49
+    },
     {
       "class": "十年级 G21",
       "class_id": 517698,
@@ -383,6 +423,7 @@
     }
   ],
   "teacher_last_call": {
+    "余越利": "2026-10-29T09:09:04",
     "张小翼": "2026-10-29T08:54:15",
     "贺珍谊": "2026-10-29T08:40:18",
     "余震": "2026-10-29T08:27:02"
@@ -390,59 +431,58 @@
   "trend": [
     {
       "date": "10-23",
-      "attendance": 79.0,
+      "attendance": 88.8,
       "submit": 90.0
     },
     {
       "date": "10-24",
-      "attendance": 77.5,
+      "attendance": 87.3,
       "submit": 90.5
     },
     {
       "date": "10-25",
-      "attendance": 76.0,
+      "attendance": 85.8,
       "submit": 91.0
     },
     {
       "date": "10-26",
-      "attendance": 74.5,
+      "attendance": 84.3,
       "submit": 91.5
     },
     {
       "date": "10-27",
-      "attendance": 73.0,
+      "attendance": 82.8,
       "submit": 92.0
     },
     {
       "date": "10-28",
-      "attendance": 71.5,
+      "attendance": 81.3,
       "submit": 92.5
     },
     {
       "date": "10-29",
-      "attendance": 74.5,
-      "submit": 82.2
+      "attendance": 84.3,
+      "submit": 87.2
     }
   ],
   "lesson": {
-    "completion_rate": 33.3,
-    "called": 7,
+    "completion_rate": 47.6,
+    "called": 10,
     "total": 21,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十年级 G21",
-      "九年级 G12",
-      "九年级 G11",
-      "十一年级 AS3",
-      "化学A0(F26)",
-      "十年级 G22",
-      "十年级 G23",
-      "十二年级 A21",
       "十一年级 AS2",
-      "化学AA(F26)",
-      "十一年级 AS1"
+      "十二年级 A22",
+      "十一年级 AS1",
+      "十年级 G23",
+      "九年级 G11",
+      "十年级 G22",
+      "化学A0(F26)",
+      "十二年级 A21",
+      "九年级 G12",
+      "十年级 G21",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -468,14 +508,6 @@
         "teacher": "袁西援",
         "time": "08:20-09:00",
         "location": "LT3-107"
-      },
-      {
-        "class": "化学AA(F26)",
-        "class_id": 529342,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "08:20-09:00",
-        "location": "LT3-124"
       },
       {
         "class": "十一年级 AS1",
@@ -526,28 +558,12 @@
         "location": "LT3-104"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "08:20-09:00",
-        "location": "LT3-124"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "艺术与设计",
         "teacher": "王丽媛、朱嘉怡",
         "time": "08:20-09:00",
         "location": "LT3-104"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "08:20-09:00",
-        "location": "LT3-124"
       },
       {
         "class": "十年级 G23",
