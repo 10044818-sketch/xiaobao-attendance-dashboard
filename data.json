@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-30 12:55",
+  "updated_at": "2026-10-30 13:01",
   "school": {
-    "rate": 82.3,
-    "present": 279,
-    "total": 339,
+    "rate": 82.8,
+    "present": 293,
+    "total": 354,
     "late": 5,
-    "absent": 60,
-    "leave": 24
+    "absent": 61,
+    "leave": 25
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -326,6 +326,22 @@
       ]
     },
     {
+      "name": "音乐9A(F26)",
+      "teacher": "刘知言",
+      "rate": 93.3,
+      "present_text": "14/15人次",
+      "present": 14,
+      "total": 15,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "音乐A0(F26)",
       "teacher": "刘知言",
       "rate": 78.6,
@@ -359,6 +375,27 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "余天泽",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-30T12:59:49"
+    },
     {
       "name": "王誉涵",
       "class": "AS3",
@@ -447,23 +484,6 @@
         }
       ],
       "updated_at": "2026-10-30T11:39:16"
-    },
-    {
-      "name": "余天泽",
-      "class": "G12",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "化学9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-30T11:29:14"
     },
     {
       "name": "茆睿恺",
@@ -1608,11 +1628,11 @@
     }
   ],
   "teacher_last_call": {
+    "刘知言": "2026-10-30T12:59:49",
     "张璐菲": "2026-10-30T11:29:19",
     "郝畅": "2026-10-30T11:25:36",
     "贺珍谊": "2026-10-30T11:10:12",
     "曾靓": "2026-10-30T10:54:17",
-    "刘知言": "2026-10-30T11:39:16",
     "王肇君": "2026-10-30T10:49:34",
     "魏刘伟": "2026-10-30T10:51:05",
     "米万宝": "2026-10-30T12:55:15",
@@ -1626,58 +1646,58 @@
   "trend": [
     {
       "date": "10-24",
-      "attendance": 86.8,
+      "attendance": 87.3,
       "submit": 90.0
     },
     {
       "date": "10-25",
-      "attendance": 85.3,
+      "attendance": 85.8,
       "submit": 90.5
     },
     {
       "date": "10-26",
-      "attendance": 83.8,
+      "attendance": 84.3,
       "submit": 91.0
     },
     {
       "date": "10-27",
-      "attendance": 82.3,
+      "attendance": 82.8,
       "submit": 91.5
     },
     {
       "date": "10-28",
-      "attendance": 80.8,
+      "attendance": 81.3,
       "submit": 92.0
     },
     {
       "date": "10-29",
-      "attendance": 79.3,
+      "attendance": 79.8,
       "submit": 92.5
     },
     {
       "date": "10-30",
-      "attendance": 82.3,
-      "submit": 86.2
+      "attendance": 82.8,
+      "submit": 86.4
     }
   ],
   "lesson": {
     "completion_rate": 64.5,
     "called": 49,
     "total": 76,
-    "class_coverage": "21/21",
+    "class_coverage": "22/22",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十年级 G22",
-      "十年级 G23",
-      "十二年级 A22",
-      "十年级 G21",
-      "九年级 G11",
-      "十一年级 AS3",
-      "十一年级 AS2",
-      "十二年级 A21",
       "九年级 G12",
+      "十一年级 AS1",
+      "九年级 G11",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "十年级 G21",
+      "十二年级 A21",
+      "十年级 G22",
       "高数CR2(F26)",
-      "十一年级 AS1"
+      "十年级 G23",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
