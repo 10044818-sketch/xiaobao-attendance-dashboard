@@ -1,20 +1,37 @@
 {
-  "updated_at": "2026-10-30 09:55",
+  "updated_at": "2026-10-30 10:01",
   "school": {
-    "rate": 82.4,
-    "present": 89,
-    "total": 108,
+    "rate": 84.0,
+    "present": 105,
+    "total": 125,
     "late": 3,
-    "absent": 19,
-    "leave": 7
+    "absent": 20,
+    "leave": 8
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "商科CA(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
     {
       "name": "数学BQ1(F26)",
       "teacher": "杨燕霖",
@@ -29,6 +46,22 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "物理BY(F26)",
+      "teacher": "魏刘伟",
+      "rate": 93.3,
+      "present_text": "14/15人次",
+      "present": 14,
+      "total": 15,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
       ]
     },
     {
@@ -130,6 +163,27 @@
   ],
   "absent_students": [
     {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/10/26 8:00:00 至 2026/10/31 17:00:00  请假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思BR3S(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-10-30T09:59:19"
+    },
+    {
       "name": "周原",
       "class": "AS1",
       "reason": "病假_【已通过】 2026/10/26 8:00:00 至 2026/10/30 15:30:00  看医生 ",
@@ -181,23 +235,6 @@
         {
           "course": "数学BQ1(F26)",
           "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-10-30T09:14:45"
-    },
-    {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "病假_【已通过】 2026/10/26 8:00:00 至 2026/10/31 17:00:00  请假 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思BR3S(F26)",
-          "time": "10:50-11:30"
         }
       ],
       "updated_at": "2026-10-30T09:14:45"
@@ -403,14 +440,6 @@
     {
       "class": "十一年级 AS2",
       "class_id": 442960,
-      "subject": "物理",
-      "teacher": "魏刘伟",
-      "time": "08:20-09:00",
-      "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
       "subject": "化学",
       "teacher": "米万宝",
       "time": "08:20-09:00",
@@ -423,14 +452,6 @@
       "teacher": "王肇君",
       "time": "08:20-09:00",
       "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "物理",
-      "teacher": "魏刘伟",
-      "time": "08:20-09:00",
-      "location": "LT3-114"
     },
     {
       "class": "十一年级 AS3",
@@ -667,6 +688,26 @@
       "delay_min": 15
     },
     {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "08:20-09:00",
+      "location": "LT3-114",
+      "called_at": "2026-10-30T09:59:19",
+      "delay_min": 99
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "08:20-09:00",
+      "location": "LT3-114",
+      "called_at": "2026-10-30T09:59:19",
+      "delay_min": 99
+    },
+    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "英语第二语言阅读",
@@ -678,6 +719,8 @@
     }
   ],
   "teacher_last_call": {
+    "余震": "2026-10-30T09:59:57",
+    "魏刘伟": "2026-10-30T09:59:19",
     "杨燕霖": "2026-10-30T09:14:45",
     "钱嘉音": "2026-10-30T08:55:56",
     "王肇君": "2026-10-30T08:48:14",
@@ -688,58 +731,58 @@
   "trend": [
     {
       "date": "10-24",
-      "attendance": 86.9,
+      "attendance": 88.5,
       "submit": 90.0
     },
     {
       "date": "10-25",
-      "attendance": 85.4,
+      "attendance": 87.0,
       "submit": 90.5
     },
     {
       "date": "10-26",
-      "attendance": 83.9,
+      "attendance": 85.5,
       "submit": 91.0
     },
     {
       "date": "10-27",
-      "attendance": 82.4,
+      "attendance": 84.0,
       "submit": 91.5
     },
     {
       "date": "10-28",
-      "attendance": 80.9,
+      "attendance": 82.5,
       "submit": 92.0
     },
     {
       "date": "10-29",
-      "attendance": 79.4,
+      "attendance": 81.0,
       "submit": 92.5
     },
     {
       "date": "10-30",
-      "attendance": 82.4,
-      "submit": 86.2
+      "attendance": 84.0,
+      "submit": 87.0
     }
   ],
   "lesson": {
-    "completion_rate": 13.2,
-    "called": 5,
+    "completion_rate": 18.4,
+    "called": 7,
     "total": 38,
-    "class_coverage": "7/7",
+    "class_coverage": "9/9",
     "teacher_count": 11,
     "uncovered_classes": [
+      "十年级 G21",
+      "九年级 G11",
+      "十一年级 AS3",
+      "十一年级 AS1",
+      "九年级 G12",
+      "化学BY(F26)",
+      "十一年级 AS2",
       "十二年级 A21",
       "十年级 G22",
-      "十一年级 AS1",
-      "十二年级 A22",
       "十年级 G23",
-      "十一年级 AS3",
-      "十一年级 AS2",
-      "九年级 G12",
-      "十年级 G21",
-      "化学BY(F26)",
-      "九年级 G11"
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -785,14 +828,6 @@
       {
         "class": "十一年级 AS2",
         "class_id": 442960,
-        "subject": "物理",
-        "teacher": "魏刘伟",
-        "time": "08:20-09:00",
-        "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
         "subject": "化学",
         "teacher": "米万宝",
         "time": "08:20-09:00",
@@ -805,14 +840,6 @@
         "teacher": "王肇君",
         "time": "08:20-09:00",
         "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "物理",
-        "teacher": "魏刘伟",
-        "time": "08:20-09:00",
-        "location": "LT3-114"
       },
       {
         "class": "十一年级 AS3",
