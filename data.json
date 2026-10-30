@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-30 19:16",
+  "updated_at": "2026-10-30 19:20",
   "school": {
-    "rate": 82.9,
-    "present": 557,
-    "total": 672,
+    "rate": 82.8,
+    "present": 563,
+    "total": 680,
     "late": 6,
-    "absent": 114,
-    "leave": 64
+    "absent": 116,
+    "leave": 66
   },
   "summary": {
     "pending_yesterday": 0,
@@ -331,13 +331,13 @@
       "name": "生物BZ(F26)",
       "teacher": "张璐菲",
       "rate": 71.4,
-      "present_text": "10/14人次",
-      "present": 10,
-      "total": 14,
-      "absent": 4,
+      "present_text": "15/21人次",
+      "present": 15,
+      "total": 21,
+      "absent": 6,
       "late": 0,
       "early": 0,
-      "leave": 4,
+      "leave": 6,
       "status": "异常",
       "time_spans": [
         "13:00-13:40",
@@ -482,10 +482,10 @@
     {
       "name": "英语口语AQ1(F26)",
       "teacher": "Johannes van Baardewijk",
-      "rate": 57.1,
-      "present_text": "16/28人次",
-      "present": 16,
-      "total": 28,
+      "rate": 58.6,
+      "present_text": "17/29人次",
+      "present": 17,
+      "total": 29,
       "absent": 12,
       "late": 0,
       "early": 0,
@@ -2813,38 +2813,38 @@
   "trend": [
     {
       "date": "10-24",
-      "attendance": 87.4,
+      "attendance": 87.3,
       "submit": 90.0
     },
     {
       "date": "10-25",
-      "attendance": 85.9,
+      "attendance": 85.8,
       "submit": 90.5
     },
     {
       "date": "10-26",
-      "attendance": 84.4,
+      "attendance": 84.3,
       "submit": 91.0
     },
     {
       "date": "10-27",
-      "attendance": 82.9,
+      "attendance": 82.8,
       "submit": 91.5
     },
     {
       "date": "10-28",
-      "attendance": 81.4,
+      "attendance": 81.3,
       "submit": 92.0
     },
     {
       "date": "10-29",
-      "attendance": 79.9,
+      "attendance": 79.8,
       "submit": 92.5
     },
     {
       "date": "10-30",
-      "attendance": 82.9,
-      "submit": 86.5
+      "attendance": 82.8,
+      "submit": 86.4
     }
   ],
   "lesson": {
@@ -2854,15 +2854,15 @@
     "class_coverage": "40/40",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十年级 G21",
-      "十年级 G23",
       "高数CR2(F26)",
-      "十一年级 AS1",
-      "十二年级 A22",
       "十二年级 A21",
-      "九年级 G12",
       "十年级 G22",
-      "九年级 G11"
+      "十年级 G21",
+      "九年级 G12",
+      "九年级 G11",
+      "十二年级 A22",
+      "十年级 G23",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
