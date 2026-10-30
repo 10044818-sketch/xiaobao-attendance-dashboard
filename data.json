@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-30 13:25",
+  "updated_at": "2026-10-30 13:32",
   "school": {
-    "rate": 81.4,
-    "present": 307,
-    "total": 377,
-    "late": 5,
-    "absent": 70,
-    "leave": 29
+    "rate": 81.3,
+    "present": 308,
+    "total": 379,
+    "late": 6,
+    "absent": 71,
+    "leave": 30
   },
   "summary": {
     "pending_yesterday": 0,
@@ -279,6 +279,22 @@
       ]
     },
     {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 50.0,
+      "present_text": "1/2人次",
+      "present": 1,
+      "total": 2,
+      "absent": 1,
+      "late": 1,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "艺术CB(F26)",
       "teacher": "朱嘉怡",
       "rate": 66.7,
@@ -408,6 +424,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "冯麟",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026-10-30 13:00:00 至 2026-10-30 14:00:00  胳膊疼",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育BR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "艺术BZ(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-10-30T13:31:32"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -660,19 +693,6 @@
         }
       ],
       "updated_at": "2026-10-30T11:10:12"
-    },
-    {
-      "name": "冯麟",
-      "class": "AS1",
-      "reason": "事假_【已通过】 2026-10-30 10:30:00 至 2026-10-30 11:30:00  补请假",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "体育BR1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-30T11:00:04"
     },
     {
       "name": "张翰霆",
@@ -1724,8 +1744,8 @@
     }
   ],
   "teacher_last_call": {
+    "朱嘉怡": "2026-10-30T13:31:32",
     "余震": "2026-10-30T13:13:23",
-    "朱嘉怡": "2026-10-30T13:04:18",
     "刘知言": "2026-10-30T12:59:49",
     "张璐菲": "2026-10-30T11:29:19",
     "郝畅": "2026-10-30T11:25:36",
@@ -1743,37 +1763,37 @@
   "trend": [
     {
       "date": "10-24",
-      "attendance": 85.9,
+      "attendance": 85.8,
       "submit": 90.0
     },
     {
       "date": "10-25",
-      "attendance": 84.4,
+      "attendance": 84.3,
       "submit": 90.5
     },
     {
       "date": "10-26",
-      "attendance": 82.9,
+      "attendance": 82.8,
       "submit": 91.0
     },
     {
       "date": "10-27",
-      "attendance": 81.4,
+      "attendance": 81.3,
       "submit": 91.5
     },
     {
       "date": "10-28",
-      "attendance": 79.9,
+      "attendance": 79.8,
       "submit": 92.0
     },
     {
       "date": "10-29",
-      "attendance": 78.4,
+      "attendance": 78.3,
       "submit": 92.5
     },
     {
       "date": "10-30",
-      "attendance": 81.4,
+      "attendance": 81.3,
       "submit": 85.7
     }
   ],
@@ -1781,20 +1801,20 @@
     "completion_rate": 64.5,
     "called": 49,
     "total": 76,
-    "class_coverage": "24/24",
+    "class_coverage": "25/25",
     "teacher_count": 20,
     "uncovered_classes": [
-      "十年级 G21",
-      "十年级 G22",
-      "十年级 G23",
-      "九年级 G12",
-      "十二年级 A21",
-      "十一年级 AS2",
-      "十二年级 A22",
-      "十一年级 AS1",
-      "九年级 G11",
       "十一年级 AS3",
-      "高数CR2(F26)"
+      "九年级 G12",
+      "十一年级 AS2",
+      "十年级 G21",
+      "十二年级 A21",
+      "九年级 G11",
+      "十年级 G23",
+      "十年级 G22",
+      "高数CR2(F26)",
+      "十二年级 A22",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
