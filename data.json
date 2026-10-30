@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30 13:55",
+  "updated_at": "2026-10-30 14:02",
   "school": {
-    "rate": 82.3,
-    "present": 330,
+    "rate": 82.0,
+    "present": 329,
     "total": 401,
     "late": 6,
     "absent": 71,
@@ -313,13 +313,13 @@
     {
       "name": "英语写作AQ3(F26)",
       "teacher": "贺珍谊",
-      "rate": 100.0,
-      "present_text": "22/22人次",
-      "present": 22,
+      "rate": 95.5,
+      "present_text": "21/22人次",
+      "present": 21,
       "total": 22,
       "absent": 0,
       "late": 0,
-      "early": 0,
+      "early": 1,
       "leave": 0,
       "status": "正常",
       "time_spans": [
@@ -1991,7 +1991,7 @@
     }
   ],
   "teacher_last_call": {
-    "贺珍谊": "2026-10-30T13:42:06",
+    "贺珍谊": "2026-10-30T13:59:40",
     "朱嘉怡": "2026-10-30T13:31:32",
     "余震": "2026-10-30T13:13:23",
     "刘知言": "2026-10-30T12:59:49",
@@ -2010,38 +2010,38 @@
   "trend": [
     {
       "date": "10-24",
-      "attendance": 86.8,
+      "attendance": 86.5,
       "submit": 90.0
     },
     {
       "date": "10-25",
-      "attendance": 85.3,
+      "attendance": 85.0,
       "submit": 90.5
     },
     {
       "date": "10-26",
-      "attendance": 83.8,
+      "attendance": 83.5,
       "submit": 91.0
     },
     {
       "date": "10-27",
-      "attendance": 82.3,
+      "attendance": 82.0,
       "submit": 91.5
     },
     {
       "date": "10-28",
-      "attendance": 80.8,
+      "attendance": 80.5,
       "submit": 92.0
     },
     {
       "date": "10-29",
-      "attendance": 79.3,
+      "attendance": 79.0,
       "submit": 92.5
     },
     {
       "date": "10-30",
-      "attendance": 82.3,
-      "submit": 86.2
+      "attendance": 82.0,
+      "submit": 86.0
     }
   ],
   "lesson": {
@@ -2051,19 +2051,19 @@
     "class_coverage": "26/26",
     "teacher_count": 25,
     "uncovered_classes": [
-      "化学CB(F26)",
-      "十年级 G22",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "高数CR2(F26)",
+      "十二年级 A22",
       "十一年级 AS2",
+      "化学BZ(F26)",
+      "九年级 G11",
+      "化学CB(F26)",
+      "九年级 G12",
       "十年级 G23",
       "十一年级 AS3",
-      "高数CR2(F26)",
-      "十一年级 AS1",
-      "九年级 G11",
       "十年级 G21",
-      "九年级 G12",
-      "十二年级 A21",
-      "化学BZ(F26)",
-      "十二年级 A22"
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
