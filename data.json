@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-30 19:20",
+  "updated_at": "2026-10-30 19:25",
   "school": {
-    "rate": 82.8,
-    "present": 563,
+    "rate": 82.6,
+    "present": 562,
     "total": 680,
     "late": 6,
-    "absent": 116,
-    "leave": 66
+    "absent": 117,
+    "leave": 64
   },
   "summary": {
     "pending_yesterday": 0,
@@ -143,6 +143,22 @@
       "status": "异常",
       "time_spans": [
         "13:00-13:40"
+      ]
+    },
+    {
+      "name": "历史C0(F26)",
+      "teacher": "钱嘉音",
+      "rate": 62.5,
+      "present_text": "5/8人次",
+      "present": 5,
+      "total": 8,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
       ]
     },
     {
@@ -331,13 +347,13 @@
       "name": "生物BZ(F26)",
       "teacher": "张璐菲",
       "rate": 71.4,
-      "present_text": "15/21人次",
-      "present": 15,
-      "total": 21,
-      "absent": 6,
+      "present_text": "10/14人次",
+      "present": 10,
+      "total": 14,
+      "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 6,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "13:00-13:40",
@@ -482,10 +498,10 @@
     {
       "name": "英语口语AQ1(F26)",
       "teacher": "Johannes van Baardewijk",
-      "rate": 58.6,
-      "present_text": "17/29人次",
-      "present": 17,
-      "total": 29,
+      "rate": 57.1,
+      "present_text": "16/28人次",
+      "present": 16,
+      "total": 28,
       "absent": 12,
       "late": 0,
       "early": 0,
@@ -674,6 +690,81 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "历史C0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-30T19:20:52"
+    },
+    {
+      "name": "马镕锴",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "历史C0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-30T19:20:52"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "历史C0(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-30T19:20:52"
+    },
     {
       "name": "谢佳妍",
       "class": "G22",
@@ -936,69 +1027,6 @@
         }
       ],
       "updated_at": "2026-10-30T16:20:48"
-    },
-    {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思词汇C0(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "雅思听力阅读C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-30T16:20:34"
-    },
-    {
-      "name": "马镕锴",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思听力阅读C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-30T16:20:34"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思词汇C0(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "雅思听力阅读C0(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-10-30T16:20:34"
     },
     {
       "name": "耿子涵",
@@ -1687,22 +1715,6 @@
       "teacher": "王伊",
       "time": "13:00-13:40",
       "location": "LT3-111"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "历史",
-      "teacher": "钱嘉音",
-      "time": "13:50-14:30",
-      "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "历史",
-      "teacher": "钱嘉音",
-      "time": "13:50-14:30",
-      "location": "LT3-209"
     },
     {
       "class": "十年级 G21",
@@ -2783,9 +2795,30 @@
       "location": "LT3-122",
       "called_at": "2026-10-30T13:59:40",
       "delay_min": 10
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "历史",
+      "teacher": "钱嘉音",
+      "time": "13:50-14:30",
+      "location": "LT3-209",
+      "called_at": "2026-10-30T19:20:52",
+      "delay_min": 331
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "历史",
+      "teacher": "钱嘉音",
+      "time": "13:50-14:30",
+      "location": "LT3-209",
+      "called_at": "2026-10-30T19:20:52",
+      "delay_min": 331
     }
   ],
   "teacher_last_call": {
+    "钱嘉音": "2026-10-30T19:20:52",
     "熊辉": "2026-10-30T16:41:55",
     "刘晨璐": "2026-10-30T16:38:53",
     "沈译宇": "2026-10-30T16:30:39",
@@ -2807,62 +2840,61 @@
     "魏刘伟": "2026-10-30T10:51:05",
     "潘子清": "2026-10-30T10:07:44",
     "杨燕霖": "2026-10-30T15:28:38",
-    "钱嘉音": "2026-10-30T08:55:56",
     "曹德娟": "2026-10-30T12:55:15"
   },
   "trend": [
     {
       "date": "10-24",
-      "attendance": 87.3,
+      "attendance": 87.1,
       "submit": 90.0
     },
     {
       "date": "10-25",
-      "attendance": 85.8,
+      "attendance": 85.6,
       "submit": 90.5
     },
     {
       "date": "10-26",
-      "attendance": 84.3,
+      "attendance": 84.1,
       "submit": 91.0
     },
     {
       "date": "10-27",
-      "attendance": 82.8,
+      "attendance": 82.6,
       "submit": 91.5
     },
     {
       "date": "10-28",
-      "attendance": 81.3,
+      "attendance": 81.1,
       "submit": 92.0
     },
     {
       "date": "10-29",
-      "attendance": 79.8,
+      "attendance": 79.6,
       "submit": 92.5
     },
     {
       "date": "10-30",
-      "attendance": 82.8,
-      "submit": 86.4
+      "attendance": 82.6,
+      "submit": 86.3
     }
   ],
   "lesson": {
-    "completion_rate": 78.6,
-    "called": 103,
+    "completion_rate": 80.2,
+    "called": 105,
     "total": 131,
-    "class_coverage": "40/40",
+    "class_coverage": "41/41",
     "teacher_count": 25,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "十二年级 A21",
-      "十年级 G22",
-      "十年级 G21",
-      "九年级 G12",
-      "九年级 G11",
+      "十一年级 AS1",
       "十二年级 A22",
+      "九年级 G12",
+      "十二年级 A21",
+      "十年级 G21",
+      "十年级 G22",
+      "高数CR2(F26)",
       "十年级 G23",
-      "十一年级 AS1"
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -3024,22 +3056,6 @@
         "teacher": "王伊",
         "time": "13:00-13:40",
         "location": "LT3-111"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "历史",
-        "teacher": "钱嘉音",
-        "time": "13:50-14:30",
-        "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "历史",
-        "teacher": "钱嘉音",
-        "time": "13:50-14:30",
-        "location": "LT3-209"
       },
       {
         "class": "十年级 G21",
