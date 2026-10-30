@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-30 16:25",
+  "updated_at": "2026-10-30 16:31",
   "school": {
-    "rate": 82.0,
-    "present": 482,
-    "total": 588,
+    "rate": 82.5,
+    "present": 509,
+    "total": 617,
     "late": 6,
-    "absent": 105,
-    "leave": 58
+    "absent": 107,
+    "leave": 60
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 11,
+    "class_attention": 12,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -61,6 +61,22 @@
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "体育C1(F26)",
+      "teacher": "沈译宇",
+      "rate": 93.1,
+      "present_text": "27/29人次",
+      "present": 27,
+      "total": 29,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "13:50-14:30"
       ]
     },
     {
@@ -626,6 +642,44 @@
   ],
   "absent_students": [
     {
+      "name": "岳沐辰",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/31 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-30T16:30:39"
+    },
+    {
+      "name": "夏镜贤",
+      "class": "A22",
+      "reason": "事假_【已通过】 2026/10/30 8:00:00 至 2026/10/30 15:00:00  雅思 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理CC(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育C1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-10-30T16:30:39"
+    },
+    {
       "name": "邵杨晟及",
       "class": "G21",
       "reason": "事假_【已通过】 2026/10/30 7:00:00 至 2026/10/30 16:00:00  不舒服 ",
@@ -1168,19 +1222,6 @@
       "updated_at": "2026-10-30T10:54:17"
     },
     {
-      "name": "岳沐辰",
-      "class": "A21",
-      "reason": "事假_【已通过】 2026/10/8 8:00:00 至 2026/10/31 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理CA(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-10-30T10:54:17"
-    },
-    {
       "name": "王子天",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1198,23 +1239,6 @@
       "class": "A22",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
-      "courses": [
-        {
-          "course": "物理CC(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理CC(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-10-30T10:53:48"
-    },
-    {
-      "name": "夏镜贤",
-      "class": "A22",
-      "reason": "事假_【已通过】 2026/10/30 8:00:00 至 2026/10/30 15:00:00  雅思 ",
-      "type": "事假",
       "courses": [
         {
           "course": "物理CC(F26)",
@@ -1660,28 +1684,12 @@
       "location": "LT3-209"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "体育",
-      "teacher": "沈译宇",
-      "time": "13:50-14:30",
-      "location": ""
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "历史",
       "teacher": "钱嘉音",
       "time": "13:50-14:30",
       "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "体育",
-      "teacher": "沈译宇",
-      "time": "13:50-14:30",
-      "location": ""
     },
     {
       "class": "十年级 G21",
@@ -2584,6 +2592,26 @@
       "delay_min": 61
     },
     {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "体育",
+      "teacher": "沈译宇",
+      "time": "13:50-14:30",
+      "location": "",
+      "called_at": "2026-10-30T16:30:39",
+      "delay_min": 161
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "体育",
+      "teacher": "沈译宇",
+      "time": "13:50-14:30",
+      "location": "",
+      "called_at": "2026-10-30T16:30:39",
+      "delay_min": 161
+    },
+    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "英语第二语言",
@@ -2685,6 +2713,7 @@
     }
   ],
   "teacher_last_call": {
+    "沈译宇": "2026-10-30T16:30:39",
     "职梦凡": "2026-10-30T16:24:22",
     "瞿芬": "2026-10-30T16:20:48",
     "费楚淇": "2026-10-30T16:18:02",
@@ -2701,7 +2730,6 @@
     "曾靓": "2026-10-30T10:54:17",
     "王肇君": "2026-10-30T15:28:38",
     "魏刘伟": "2026-10-30T10:51:05",
-    "沈译宇": "2026-10-30T15:28:38",
     "潘子清": "2026-10-30T10:07:44",
     "杨燕霖": "2026-10-30T15:28:38",
     "钱嘉音": "2026-10-30T08:55:56",
@@ -2710,58 +2738,58 @@
   "trend": [
     {
       "date": "10-24",
-      "attendance": 86.5,
+      "attendance": 87.0,
       "submit": 90.0
     },
     {
       "date": "10-25",
-      "attendance": 85.0,
+      "attendance": 85.5,
       "submit": 90.5
     },
     {
       "date": "10-26",
-      "attendance": 83.5,
+      "attendance": 84.0,
       "submit": 91.0
     },
     {
       "date": "10-27",
-      "attendance": 82.0,
+      "attendance": 82.5,
       "submit": 91.5
     },
     {
       "date": "10-28",
-      "attendance": 80.5,
+      "attendance": 81.0,
       "submit": 92.0
     },
     {
       "date": "10-29",
-      "attendance": 79.0,
+      "attendance": 79.5,
       "submit": 92.5
     },
     {
       "date": "10-30",
-      "attendance": 82.0,
-      "submit": 86.0
+      "attendance": 82.5,
+      "submit": 86.2
     }
   ],
   "lesson": {
-    "completion_rate": 72.5,
-    "called": 95,
+    "completion_rate": 74.0,
+    "called": 97,
     "total": 131,
-    "class_coverage": "37/37",
+    "class_coverage": "38/38",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十一年级 AS3",
-      "十二年级 A21",
-      "十一年级 AS2",
-      "九年级 G12",
-      "十二年级 A22",
+      "十年级 G21",
       "十年级 G22",
+      "十一年级 AS2",
       "九年级 G11",
-      "十年级 G23",
+      "十一年级 AS3",
+      "九年级 G12",
       "高数CR2(F26)",
-      "十年级 G21"
+      "十年级 G23",
+      "十一年级 AS1",
+      "十二年级 A22",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -2981,28 +3009,12 @@
         "location": "LT3-209"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "体育",
-        "teacher": "沈译宇",
-        "time": "13:50-14:30",
-        "location": ""
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "历史",
         "teacher": "钱嘉音",
         "time": "13:50-14:30",
         "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "体育",
-        "teacher": "沈译宇",
-        "time": "13:50-14:30",
-        "location": ""
       },
       {
         "class": "十年级 G21",
