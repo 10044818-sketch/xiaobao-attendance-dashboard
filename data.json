@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-02 15:20",
+  "updated_at": "2026-11-02 15:25",
   "school": {
-    "rate": 84.5,
-    "present": 587,
-    "total": 695,
+    "rate": 84.6,
+    "present": 603,
+    "total": 713,
     "late": 11,
-    "absent": 108,
+    "absent": 110,
     "leave": 66
   },
   "summary": {
@@ -316,6 +316,23 @@
       ]
     },
     {
+      "name": "艺术BX(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 88.9,
+      "present_text": "16/18人次",
+      "present": 16,
+      "total": 18,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20",
+        "15:30-16:10"
+      ]
+    },
+    {
       "name": "英语写作A0(F26)",
       "teacher": "钱嘉音",
       "rate": 92.9,
@@ -546,6 +563,39 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学BQ2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "艺术BX(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-11-02T15:24:34"
+    },
     {
       "name": "江雨霏",
       "class": "A22",
@@ -1104,31 +1154,6 @@
         }
       ],
       "updated_at": "2026-11-02T10:59:59"
-    },
-    {
-      "name": "蔡雨涵",
-      "class": "AS2",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育BR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学BQ2(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-02T10:50:25"
     },
     {
       "name": "张翰霆",
@@ -2558,6 +2583,36 @@
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-212",
+      "called_at": "2026-11-02T15:24:18",
+      "delay_min": 44
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-212",
+      "called_at": "2026-11-02T15:24:18",
+      "delay_min": 44
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-212",
+      "called_at": "2026-11-02T15:24:18",
+      "delay_min": 44
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
       "subject": "物理",
       "teacher": "魏刘伟",
       "time": "14:40-15:20",
@@ -2587,13 +2642,13 @@
     }
   ],
   "teacher_last_call": {
+    "朱嘉怡": "2026-11-02T15:24:34",
     "曹德娟": "2026-11-02T14:47:56",
     "魏刘伟": "2026-11-02T14:43:00",
     "杨燕霖": "2026-11-02T14:41:25",
     "刘知言": "2026-11-02T14:40:50",
     "米万宝": "2026-11-02T14:33:36",
     "曾靓": "2026-11-02T14:03:30",
-    "朱嘉怡": "2026-11-02T13:50:46",
     "王肇君": "2026-11-02T13:50:17",
     "王伊": "2026-11-02T13:48:09",
     "Johannes van Baardewijk": "2026-11-02T13:21:25",
@@ -2611,58 +2666,58 @@
   "trend": [
     {
       "date": "10-27",
-      "attendance": 89.0,
+      "attendance": 89.1,
       "submit": 90.0
     },
     {
       "date": "10-28",
-      "attendance": 87.5,
+      "attendance": 87.6,
       "submit": 90.5
     },
     {
       "date": "10-29",
-      "attendance": 86.0,
+      "attendance": 86.1,
       "submit": 91.0
     },
     {
       "date": "10-30",
-      "attendance": 84.5,
+      "attendance": 84.6,
       "submit": 91.5
     },
     {
       "date": "10-31",
-      "attendance": 83.0,
+      "attendance": 83.1,
       "submit": 92.0
     },
     {
       "date": "11-01",
-      "attendance": 81.5,
+      "attendance": 81.6,
       "submit": 92.5
     },
     {
       "date": "11-02",
-      "attendance": 84.5,
-      "submit": 87.2
+      "attendance": 84.6,
+      "submit": 87.3
     }
   ],
   "lesson": {
     "completion_rate": 69.2,
     "called": 92,
     "total": 133,
-    "class_coverage": "32/32",
+    "class_coverage": "33/33",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "九年级 G12",
-      "十年级 G22",
-      "十年级 G23",
-      "十二年级 A22",
-      "化学9A(F26)",
-      "十一年级 AS2",
-      "九年级 G11",
       "十年级 G21",
+      "十一年级 AS2",
+      "十年级 G23",
+      "九年级 G12",
+      "十一年级 AS1",
       "高数CR2(F26)",
       "十一年级 AS3",
+      "十二年级 A22",
+      "化学9A(F26)",
+      "十年级 G22",
+      "九年级 G11",
       "十二年级 A21"
     ],
     "uncovered_teachers": [
