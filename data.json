@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 11:25",
+  "updated_at": "2026-11-02 11:31",
   "school": {
     "rate": 84.7,
     "present": 349,
@@ -885,6 +885,126 @@
       "teacher": "李俊",
       "time": "10:00-10:40",
       "location": "LT3-208"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "10:50-11:30",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "10:50-11:30",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "10:50-11:30",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "10:50-11:30",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "10:50-11:30",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "10:50-11:30",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "高等数学",
+      "teacher": "李俊",
+      "time": "10:50-11:30",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "10:50-11:30",
+      "location": "LT3-209"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "10:50-11:30",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "高等数学",
+      "teacher": "李俊",
+      "time": "10:50-11:30",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "10:50-11:30",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "10:50-11:30",
+      "location": "LT3-122"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "10:50-11:30",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "10:50-11:30",
+      "location": "LT3-122"
+    },
+    {
+      "class": "高数CR2(F26)",
+      "class_id": 521015,
+      "subject": "高等数学",
+      "teacher": "李俊",
+      "time": "10:50-11:30",
+      "location": "LT3-208"
     }
   ],
   "called_roll_call": [
@@ -1287,6 +1407,86 @@
       "location": "LT3-107",
       "called_at": "2026-11-02T10:10:49",
       "delay_min": 11
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "数学",
+      "teacher": "杨燕霖",
+      "time": "10:50-11:30",
+      "location": "LT3-221",
+      "called_at": "2026-11-02T10:59:59",
+      "delay_min": 10
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "数学",
+      "teacher": "杨燕霖",
+      "time": "10:50-11:30",
+      "location": "LT3-221",
+      "called_at": "2026-11-02T10:59:59",
+      "delay_min": 10
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "数学",
+      "teacher": "杨燕霖",
+      "time": "10:50-11:30",
+      "location": "LT3-221",
+      "called_at": "2026-11-02T10:59:59",
+      "delay_min": 10
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "数学",
+      "teacher": "潘子清",
+      "time": "10:50-11:30",
+      "location": "LT3-121",
+      "called_at": "2026-11-02T10:50:25",
+      "delay_min": 0
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "数学",
+      "teacher": "潘子清",
+      "time": "10:50-11:30",
+      "location": "LT3-121",
+      "called_at": "2026-11-02T10:50:25",
+      "delay_min": 0
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言写作",
+      "teacher": "贺珍谊",
+      "time": "10:50-11:30",
+      "location": "LT3-111",
+      "called_at": "2026-11-02T10:09:51",
+      "delay_min": -40
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言写作",
+      "teacher": "贺珍谊",
+      "time": "10:50-11:30",
+      "location": "LT3-111",
+      "called_at": "2026-11-02T10:09:51",
+      "delay_min": -40
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "英语第二语言写作",
+      "teacher": "钱嘉音",
+      "time": "10:50-11:30",
+      "location": "LT3-107",
+      "called_at": "2026-11-02T10:10:57",
+      "delay_min": -39
     }
   ],
   "teacher_last_call": {
@@ -1343,16 +1543,21 @@
     }
   ],
   "lesson": {
-    "completion_rate": 81.6,
-    "called": 40,
-    "total": 49,
+    "completion_rate": 66.7,
+    "called": 48,
+    "total": 72,
     "class_coverage": "17/17",
-    "teacher_count": 17,
+    "teacher_count": 18,
     "uncovered_classes": [
-      "十年级 G22",
-      "十二年级 A22",
-      "高数CR2(F26)",
       "十二年级 A21",
+      "九年级 G12",
+      "九年级 G11",
+      "十一年级 AS1",
+      "十年级 G22",
+      "十一年级 AS2",
+      "高数CR2(F26)",
+      "十一年级 AS3",
+      "十二年级 A22",
       "十年级 G21"
     ],
     "uncovered_teachers": [
@@ -1426,6 +1631,126 @@
         "subject": "高等数学",
         "teacher": "李俊",
         "time": "10:00-10:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "10:50-11:30",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "10:50-11:30",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "数学",
+        "teacher": "刘晨璐",
+        "time": "10:50-11:30",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "数学",
+        "teacher": "刘晨璐",
+        "time": "10:50-11:30",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "数学",
+        "teacher": "刘晨璐",
+        "time": "10:50-11:30",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思听力阅读",
+        "teacher": "瞿芬",
+        "time": "10:50-11:30",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "高等数学",
+        "teacher": "李俊",
+        "time": "10:50-11:30",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思听力阅读",
+        "teacher": "瞿芬",
+        "time": "10:50-11:30",
+        "location": "LT3-209"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "数学",
+        "teacher": "刘晨璐",
+        "time": "10:50-11:30",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "高等数学",
+        "teacher": "李俊",
+        "time": "10:50-11:30",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "10:50-11:30",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "10:50-11:30",
+        "location": "LT3-122"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "10:50-11:30",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "10:50-11:30",
+        "location": "LT3-122"
+      },
+      {
+        "class": "高数CR2(F26)",
+        "class_id": 521015,
+        "subject": "高等数学",
+        "teacher": "李俊",
+        "time": "10:50-11:30",
         "location": "LT3-208"
       }
     ]
