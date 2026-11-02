@@ -1,20 +1,36 @@
 {
-  "updated_at": "2026-11-02 09:10",
+  "updated_at": "2026-11-02 09:15",
   "school": {
-    "rate": 80.7,
-    "present": 92,
-    "total": 114,
+    "rate": 82.0,
+    "present": 105,
+    "total": 128,
     "late": 2,
-    "absent": 22,
-    "leave": 12
+    "absent": 23,
+    "leave": 13
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "数学A0(F26)",
+      "teacher": "张小翼",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
     {
       "name": "经济AX(F26)",
       "teacher": "王肇君",
@@ -99,6 +115,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-02T09:13:10"
+    },
     {
       "name": "金懿帆",
       "class": "G21",
@@ -400,14 +429,6 @@
       "teacher": "钱嘉音",
       "time": "08:20-09:00",
       "location": "LT3-114"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "08:20-09:00",
-      "location": "LT3-107"
     }
   ],
   "called_roll_call": [
@@ -420,6 +441,16 @@
       "location": "LT3-111",
       "called_at": "2026-11-02T09:02:48",
       "delay_min": 43
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "数学",
+      "teacher": "张小翼",
+      "time": "08:20-09:00",
+      "location": "LT3-107",
+      "called_at": "2026-11-02T09:13:10",
+      "delay_min": 53
     },
     {
       "class": "十一年级 AS2",
@@ -483,6 +514,7 @@
     }
   ],
   "teacher_last_call": {
+    "张小翼": "2026-11-02T09:13:10",
     "王肇君": "2026-11-02T09:09:50",
     "孙鹏": "2026-11-02T09:02:55",
     "费楚淇": "2026-11-02T08:49:09",
@@ -492,52 +524,51 @@
   "trend": [
     {
       "date": "10-27",
-      "attendance": 85.2,
+      "attendance": 86.5,
       "submit": 90.0
     },
     {
       "date": "10-28",
-      "attendance": 83.7,
+      "attendance": 85.0,
       "submit": 90.5
     },
     {
       "date": "10-29",
-      "attendance": 82.2,
+      "attendance": 83.5,
       "submit": 91.0
     },
     {
       "date": "10-30",
-      "attendance": 80.7,
+      "attendance": 82.0,
       "submit": 91.5
     },
     {
       "date": "10-31",
-      "attendance": 79.2,
+      "attendance": 80.5,
       "submit": 92.0
     },
     {
       "date": "11-01",
-      "attendance": 77.7,
+      "attendance": 79.0,
       "submit": 92.5
     },
     {
       "date": "11-02",
-      "attendance": 80.7,
-      "submit": 85.3
+      "attendance": 82.0,
+      "submit": 86.0
     }
   ],
   "lesson": {
-    "completion_rate": 58.3,
-    "called": 7,
+    "completion_rate": 66.7,
+    "called": 8,
     "total": 12,
-    "class_coverage": "5/5",
+    "class_coverage": "6/6",
     "teacher_count": 8,
     "uncovered_classes": [
       "十一年级 AS1",
-      "九年级 G12",
-      "九年级 G11",
       "十一年级 AS3",
-      "十年级 G23"
+      "九年级 G12",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -571,14 +602,6 @@
         "teacher": "钱嘉音",
         "time": "08:20-09:00",
         "location": "LT3-114"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "08:20-09:00",
-        "location": "LT3-107"
       }
     ]
   }
