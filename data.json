@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 11:20",
+  "updated_at": "2026-11-02 11:25",
   "school": {
     "rate": 84.7,
     "present": 349,
@@ -1349,11 +1349,11 @@
     "class_coverage": "17/17",
     "teacher_count": 17,
     "uncovered_classes": [
-      "十年级 G21",
-      "十二年级 A22",
       "十年级 G22",
+      "十二年级 A22",
+      "高数CR2(F26)",
       "十二年级 A21",
-      "高数CR2(F26)"
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
