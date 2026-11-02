@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-02 19:15",
+  "updated_at": "2026-11-02 19:21",
   "school": {
-    "rate": 83.0,
-    "present": 764,
-    "total": 921,
+    "rate": 83.2,
+    "present": 776,
+    "total": 933,
     "late": 9,
     "absent": 157,
     "leave": 94
@@ -711,6 +711,23 @@
       "status": "异常",
       "time_spans": [
         "14:40-15:20"
+      ]
+    },
+    {
+      "name": "高数BD1(F26)",
+      "teacher": "潘子清",
+      "rate": 100.0,
+      "present_text": "12/12人次",
+      "present": 12,
+      "total": 12,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "18:15-19:00",
+        "19:15-20:00"
       ]
     }
   ],
@@ -1978,38 +1995,6 @@
       "teacher": "王丽媛、朱嘉怡",
       "time": "15:30-16:10",
       "location": "LT3-212"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "高等数学",
-      "teacher": "潘子清",
-      "time": "18:15-19:00",
-      "location": "LT3-116"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "高等数学",
-      "teacher": "潘子清",
-      "time": "18:15-19:00",
-      "location": "LT3-116"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "高等数学",
-      "teacher": "潘子清",
-      "time": "18:15-19:00",
-      "location": "LT3-116"
-    },
-    {
-      "class": "高数BD1(F26)",
-      "class_id": 529431,
-      "subject": "高等数学",
-      "teacher": "潘子清",
-      "time": "18:15-19:00",
-      "location": "LT3-116"
     }
   ],
   "called_roll_call": [
@@ -3362,9 +3347,50 @@
       "location": "LT3-121",
       "called_at": "2026-11-02T16:45:40",
       "delay_min": 76
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116",
+      "called_at": "2026-11-02T19:17:35",
+      "delay_min": 63
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116",
+      "called_at": "2026-11-02T19:17:35",
+      "delay_min": 63
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116",
+      "called_at": "2026-11-02T19:17:35",
+      "delay_min": 63
+    },
+    {
+      "class": "高数BD1(F26)",
+      "class_id": 529431,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116",
+      "called_at": "2026-11-02T19:17:35",
+      "delay_min": 63
     }
   ],
   "teacher_last_call": {
+    "潘子清": "2026-11-02T19:17:37",
     "曾靓": "2026-11-02T17:06:42",
     "潘丽": "2026-11-02T16:20:35",
     "赵亮": "2026-11-02T15:56:28",
@@ -3382,7 +3408,6 @@
     "王伊": "2026-11-02T13:48:09",
     "Johannes van Baardewijk": "2026-11-02T13:21:25",
     "张小翼": "2026-11-02T13:18:22",
-    "潘子清": "2026-11-02T10:50:25",
     "刘晨璐": "2026-11-02T10:43:22",
     "钱嘉音": "2026-11-02T11:41:06",
     "贺珍谊": "2026-11-02T16:45:40",
@@ -3393,58 +3418,57 @@
   "trend": [
     {
       "date": "10-27",
-      "attendance": 87.5,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "10-28",
-      "attendance": 86.0,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "10-29",
-      "attendance": 84.5,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "10-30",
-      "attendance": 83.0,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "10-31",
-      "attendance": 81.5,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "11-01",
-      "attendance": 80.0,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "11-02",
-      "attendance": 83.0,
-      "submit": 86.5
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
-    "completion_rate": 77.6,
-    "called": 125,
+    "completion_rate": 80.1,
+    "called": 129,
     "total": 161,
-    "class_coverage": "42/42",
+    "class_coverage": "43/43",
     "teacher_count": 27,
     "uncovered_classes": [
       "十一年级 AS2",
-      "高数CR2(F26)",
-      "九年级 G11",
       "十年级 G21",
-      "十二年级 A22",
-      "高数BD1(F26)",
-      "十一年级 AS1",
-      "十二年级 A21",
       "九年级 G12",
-      "十一年级 AS3",
-      "十年级 G22"
+      "十年级 G22",
+      "十二年级 A21",
+      "九年级 G11",
+      "高数CR2(F26)",
+      "十一年级 AS1",
+      "十二年级 A22",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -3702,38 +3726,6 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "15:30-16:10",
         "location": "LT3-212"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "高等数学",
-        "teacher": "潘子清",
-        "time": "18:15-19:00",
-        "location": "LT3-116"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "高等数学",
-        "teacher": "潘子清",
-        "time": "18:15-19:00",
-        "location": "LT3-116"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "高等数学",
-        "teacher": "潘子清",
-        "time": "18:15-19:00",
-        "location": "LT3-116"
-      },
-      {
-        "class": "高数BD1(F26)",
-        "class_id": 529431,
-        "subject": "高等数学",
-        "teacher": "潘子清",
-        "time": "18:15-19:00",
-        "location": "LT3-116"
       }
     ]
   }
