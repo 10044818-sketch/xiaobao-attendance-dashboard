@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03 16:20",
+  "updated_at": "2026-11-03 16:31",
   "school": {
-    "rate": 87.2,
-    "present": 557,
-    "total": 639,
+    "rate": 87.0,
+    "present": 589,
+    "total": 677,
     "late": 19,
-    "absent": 82,
+    "absent": 88,
     "leave": 50
   },
   "summary": {
@@ -226,6 +226,23 @@
       "late": 0,
       "early": 0,
       "leave": 4,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30",
+        "14:40-15:20"
+      ]
+    },
+    {
+      "name": "数学BQ3(F26)",
+      "teacher": "刘晨璐",
+      "rate": 84.2,
+      "present_text": "32/38人次",
+      "present": 32,
+      "total": 38,
+      "absent": 6,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
       "status": "异常",
       "time_spans": [
         "13:50-14:30",
@@ -644,6 +661,73 @@
   ],
   "absent_students": [
     {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-03T16:24:19"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-03T16:24:19"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-03T16:24:19"
+    },
+    {
       "name": "金懿帆",
       "class": "G21",
       "reason": "事假_【已通过】 2026/11/3 8:00:00 至 2026/11/3 17:00:00  不舒服 ",
@@ -947,19 +1031,6 @@
       "updated_at": "2026-11-03T13:28:23"
     },
     {
-      "name": "张翰霆",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-03T13:28:23"
-    },
-    {
       "name": "曾乐融",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1016,19 +1087,6 @@
       "updated_at": "2026-11-03T13:28:23"
     },
     {
-      "name": "王子天",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-03T13:28:23"
-    },
-    {
       "name": "姜懿",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -1047,23 +1105,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-03T13:28:23"
-    },
-    {
-      "name": "高子涵",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "艺术CB(F26)",
-          "time": "09:10-09:50"
-        },
         {
           "course": "雅思CR2(F26)",
           "time": "13:00-13:40"
@@ -1484,14 +1525,6 @@
       "location": "LT3-121"
     },
     {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "13:50-14:30",
-      "location": "LT3-114"
-    },
-    {
       "class": "十一年级 AS2",
       "class_id": 442960,
       "subject": "数学",
@@ -1500,36 +1533,12 @@
       "location": "LT3-121"
     },
     {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "13:50-14:30",
-      "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "13:50-14:30",
-      "location": "LT3-114"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "高等数学",
       "teacher": "李俊",
       "time": "13:50-14:30",
       "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "13:50-14:30",
-      "location": "LT3-114"
     },
     {
       "class": "十二年级 A22",
@@ -1604,14 +1613,6 @@
       "location": "LT3-121"
     },
     {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "14:40-15:20",
-      "location": "LT3-114"
-    },
-    {
       "class": "十一年级 AS2",
       "class_id": 442960,
       "subject": "数学",
@@ -1620,36 +1621,12 @@
       "location": "LT3-121"
     },
     {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "14:40-15:20",
-      "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "14:40-15:20",
-      "location": "LT3-114"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "高等数学",
       "teacher": "李俊",
       "time": "14:40-15:20",
       "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "数学",
-      "teacher": "刘晨璐",
-      "time": "14:40-15:20",
-      "location": "LT3-114"
     },
     {
       "class": "十二年级 A22",
@@ -2701,6 +2678,46 @@
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "13:50-14:30",
+      "location": "LT3-114",
+      "called_at": "2026-11-03T16:24:05",
+      "delay_min": 154
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "13:50-14:30",
+      "location": "LT3-114",
+      "called_at": "2026-11-03T16:24:05",
+      "delay_min": 154
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "13:50-14:30",
+      "location": "LT3-114",
+      "called_at": "2026-11-03T16:24:05",
+      "delay_min": 154
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "13:50-14:30",
+      "location": "LT3-114",
+      "called_at": "2026-11-03T16:24:05",
+      "delay_min": 154
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "数学",
       "teacher": "杨燕霖",
       "time": "13:50-14:30",
       "location": "LT3-221",
@@ -2776,6 +2793,46 @@
       "location": "LT3-107",
       "called_at": "2026-11-03T13:28:29",
       "delay_min": -22
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "14:40-15:20",
+      "location": "LT3-114",
+      "called_at": "2026-11-03T16:24:19",
+      "delay_min": 104
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "14:40-15:20",
+      "location": "LT3-114",
+      "called_at": "2026-11-03T16:24:19",
+      "delay_min": 104
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "14:40-15:20",
+      "location": "LT3-114",
+      "called_at": "2026-11-03T16:24:19",
+      "delay_min": 104
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "数学",
+      "teacher": "刘晨璐",
+      "time": "14:40-15:20",
+      "location": "LT3-114",
+      "called_at": "2026-11-03T16:24:19",
+      "delay_min": 104
     },
     {
       "class": "十年级 G21",
@@ -2859,6 +2916,7 @@
     }
   ],
   "teacher_last_call": {
+    "刘晨璐": "2026-11-03T16:24:19",
     "孙鹏": "2026-11-03T15:28:42",
     "杨燕霖": "2026-11-03T14:45:34",
     "朱嘉怡": "2026-11-03T14:41:53",
@@ -2884,59 +2942,59 @@
   "trend": [
     {
       "date": "10-28",
-      "attendance": 91.7,
+      "attendance": 91.5,
       "submit": 90.0
     },
     {
       "date": "10-29",
-      "attendance": 90.2,
+      "attendance": 90.0,
       "submit": 90.5
     },
     {
       "date": "10-30",
-      "attendance": 88.7,
+      "attendance": 88.5,
       "submit": 91.0
     },
     {
       "date": "10-31",
-      "attendance": 87.2,
+      "attendance": 87.0,
       "submit": 91.5
     },
     {
       "date": "11-01",
-      "attendance": 85.7,
+      "attendance": 85.5,
       "submit": 92.0
     },
     {
       "date": "11-02",
-      "attendance": 84.2,
+      "attendance": 84.0,
       "submit": 92.5
     },
     {
       "date": "11-03",
-      "attendance": 87.2,
-      "submit": 88.6
+      "attendance": 87.0,
+      "submit": 88.5
     }
   ],
   "lesson": {
-    "completion_rate": 66.0,
-    "called": 105,
+    "completion_rate": 71.1,
+    "called": 113,
     "total": 159,
-    "class_coverage": "38/38",
+    "class_coverage": "39/39",
     "teacher_count": 27,
     "uncovered_classes": [
-      "九年级 G11",
       "九年级 G12",
-      "高数CR2(F26)",
-      "十二年级 A22",
-      "十一年级 AS2",
-      "十二年级 A21",
       "化学AA(F26)",
-      "十年级 G22",
-      "十一年级 AS1",
+      "十二年级 A22",
       "十年级 G21",
+      "十一年级 AS2",
+      "十年级 G22",
       "十一年级 AS3",
-      "十年级 G23"
+      "十一年级 AS1",
+      "高数CR2(F26)",
+      "十年级 G23",
+      "九年级 G11",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -3180,14 +3238,6 @@
         "location": "LT3-121"
       },
       {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "13:50-14:30",
-        "location": "LT3-114"
-      },
-      {
         "class": "十一年级 AS2",
         "class_id": 442960,
         "subject": "数学",
@@ -3196,36 +3246,12 @@
         "location": "LT3-121"
       },
       {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "13:50-14:30",
-        "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "13:50-14:30",
-        "location": "LT3-114"
-      },
-      {
         "class": "十二年级 A21",
         "class_id": 366030,
         "subject": "高等数学",
         "teacher": "李俊",
         "time": "13:50-14:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "13:50-14:30",
-        "location": "LT3-114"
       },
       {
         "class": "十二年级 A22",
@@ -3300,14 +3326,6 @@
         "location": "LT3-121"
       },
       {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "14:40-15:20",
-        "location": "LT3-114"
-      },
-      {
         "class": "十一年级 AS2",
         "class_id": 442960,
         "subject": "数学",
@@ -3316,36 +3334,12 @@
         "location": "LT3-121"
       },
       {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "14:40-15:20",
-        "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "14:40-15:20",
-        "location": "LT3-114"
-      },
-      {
         "class": "十二年级 A21",
         "class_id": 366030,
         "subject": "高等数学",
         "teacher": "李俊",
         "time": "14:40-15:20",
         "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "数学",
-        "teacher": "刘晨璐",
-        "time": "14:40-15:20",
-        "location": "LT3-114"
       },
       {
         "class": "十二年级 A22",
