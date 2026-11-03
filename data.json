@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03 09:11",
+  "updated_at": "2026-11-03 09:18",
   "school": {
-    "rate": 87.9,
-    "present": 102,
-    "total": 116,
-    "late": 4,
-    "absent": 14,
+    "rate": 87.8,
+    "present": 115,
+    "total": 131,
+    "late": 7,
+    "absent": 16,
     "leave": 8
   },
   "summary": {
@@ -18,17 +18,18 @@
     {
       "name": "化学BZ(F26)",
       "teacher": "米万宝",
-      "rate": 75.0,
-      "present_text": "9/12人次",
-      "present": 9,
-      "total": 12,
+      "rate": 87.5,
+      "present_text": "21/24人次",
+      "present": 21,
+      "total": 24,
       "absent": 3,
-      "late": 0,
+      "late": 3,
       "early": 0,
       "leave": 0,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -161,9 +162,51 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "艺术CB(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 33.3,
+      "present_text": "1/3人次",
+      "present": 1,
+      "total": 3,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "洪若玲",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-03T09:14:59"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-03T09:14:59"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -606,64 +649,64 @@
     }
   ],
   "teacher_last_call": {
+    "朱嘉怡": "2026-11-03T09:14:59",
+    "米万宝": "2026-11-03T09:12:58",
     "余震": "2026-11-03T09:10:35",
     "杨燕霖": "2026-11-03T09:10:26",
     "余越利": "2026-11-03T09:10:15",
     "袁西援": "2026-11-03T08:56:03",
     "潘丽": "2026-11-03T08:28:34",
-    "米万宝": "2026-11-03T08:24:40",
     "郝畅": "2026-11-03T08:23:15",
-    "张璐菲": "2026-11-03T08:23:12",
-    "朱嘉怡": "2026-11-03T08:22:11"
+    "张璐菲": "2026-11-03T08:23:12"
   },
   "trend": [
     {
       "date": "10-28",
-      "attendance": 92.4,
+      "attendance": 92.3,
       "submit": 90.0
     },
     {
       "date": "10-29",
-      "attendance": 90.9,
+      "attendance": 90.8,
       "submit": 90.5
     },
     {
       "date": "10-30",
-      "attendance": 89.4,
+      "attendance": 89.3,
       "submit": 91.0
     },
     {
       "date": "10-31",
-      "attendance": 87.9,
+      "attendance": 87.8,
       "submit": 91.5
     },
     {
       "date": "11-01",
-      "attendance": 86.4,
+      "attendance": 86.3,
       "submit": 92.0
     },
     {
       "date": "11-02",
-      "attendance": 84.9,
+      "attendance": 84.8,
       "submit": 92.5
     },
     {
       "date": "11-03",
-      "attendance": 87.9,
-      "submit": 89.0
+      "attendance": 87.8,
+      "submit": 88.9
     }
   ],
   "lesson": {
     "completion_rate": 85.2,
     "called": 23,
     "total": 27,
-    "class_coverage": "9/9",
+    "class_coverage": "10/10",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十年级 G23",
       "十年级 G21",
+      "十一年级 AS1",
       "十年级 G22",
-      "十一年级 AS1"
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
