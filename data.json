@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-03 09:50",
+  "updated_at": "2026-11-03 09:55",
   "school": {
-    "rate": 87.8,
-    "present": 115,
-    "total": 131,
+    "rate": 88.3,
+    "present": 128,
+    "total": 145,
     "late": 7,
-    "absent": 16,
-    "leave": 8
+    "absent": 17,
+    "leave": 9
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 2,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -78,6 +78,22 @@
       "status": "关注",
       "time_spans": [
         "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学A0(F26)",
+      "teacher": "张小翼",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
         "09:10-09:50"
       ]
     },
@@ -181,6 +197,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "病假_【已通过】 2026/11/2 8:00:00 至 2026/11/6 15:00:00  请假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-03T09:54:06"
+    },
     {
       "name": "洪若玲",
       "class": "A22",
@@ -516,14 +545,6 @@
       "teacher": "赵亮",
       "time": "09:10-09:50",
       "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "09:10-09:50",
-      "location": "LT3-107"
     }
   ],
   "called_roll_call": [
@@ -798,6 +819,16 @@
       "delay_min": 1
     },
     {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "数学",
+      "teacher": "张小翼",
+      "time": "09:10-09:50",
+      "location": "LT3-107",
+      "called_at": "2026-11-03T09:54:06",
+      "delay_min": 44
+    },
+    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "数学",
@@ -899,6 +930,7 @@
     }
   ],
   "teacher_last_call": {
+    "张小翼": "2026-11-03T09:54:06",
     "朱嘉怡": "2026-11-03T09:14:59",
     "米万宝": "2026-11-03T09:12:58",
     "余震": "2026-11-03T09:10:35",
@@ -912,58 +944,58 @@
   "trend": [
     {
       "date": "10-28",
-      "attendance": 92.3,
+      "attendance": 92.8,
       "submit": 90.0
     },
     {
       "date": "10-29",
-      "attendance": 90.8,
+      "attendance": 91.3,
       "submit": 90.5
     },
     {
       "date": "10-30",
-      "attendance": 89.3,
+      "attendance": 89.8,
       "submit": 91.0
     },
     {
       "date": "10-31",
-      "attendance": 87.8,
+      "attendance": 88.3,
       "submit": 91.5
     },
     {
       "date": "11-01",
-      "attendance": 86.3,
+      "attendance": 86.8,
       "submit": 92.0
     },
     {
       "date": "11-02",
-      "attendance": 84.8,
+      "attendance": 85.3,
       "submit": 92.5
     },
     {
       "date": "11-03",
-      "attendance": 87.8,
-      "submit": 88.9
+      "attendance": 88.3,
+      "submit": 89.2
     }
   ],
   "lesson": {
-    "completion_rate": 64.8,
-    "called": 35,
+    "completion_rate": 66.7,
+    "called": 36,
     "total": 54,
-    "class_coverage": "10/10",
+    "class_coverage": "11/11",
     "teacher_count": 13,
     "uncovered_classes": [
-      "化学CB(F26)",
-      "十一年级 AS2",
-      "十二年级 A22",
-      "九年级 G12",
       "九年级 G11",
-      "十年级 G23",
-      "化学C0(F26)",
+      "十二年级 A22",
       "十年级 G21",
-      "十一年级 AS1",
-      "十年级 G22",
       "十一年级 AS3",
+      "十年级 G23",
+      "十一年级 AS2",
+      "十一年级 AS1",
+      "化学CB(F26)",
+      "化学C0(F26)",
+      "九年级 G12",
+      "十年级 G22",
       "十二年级 A21"
     ],
     "uncovered_teachers": [
@@ -1110,14 +1142,6 @@
         "teacher": "赵亮",
         "time": "09:10-09:50",
         "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "09:10-09:50",
-        "location": "LT3-107"
       }
     ]
   }
