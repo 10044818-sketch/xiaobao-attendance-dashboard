@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-03 08:25",
+  "updated_at": "2026-11-03 08:30",
   "school": {
-    "rate": 84.7,
-    "present": 50,
-    "total": 59,
+    "rate": 88.6,
+    "present": 70,
+    "total": 79,
     "late": 1,
     "absent": 9,
     "leave": 5
@@ -45,6 +45,23 @@
       "status": "关注",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "数学AR1(F26)",
+      "teacher": "潘丽",
+      "rate": 100.0,
+      "present_text": "20/20人次",
+      "present": 20,
+      "total": 20,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -234,6 +251,7 @@
   "pending_roll_call": [],
   "called_roll_call": [],
   "teacher_last_call": {
+    "潘丽": "2026-11-03T08:28:34",
     "米万宝": "2026-11-03T08:24:40",
     "余震": "2026-11-03T08:23:35",
     "郝畅": "2026-11-03T08:23:15",
@@ -244,45 +262,45 @@
   "trend": [
     {
       "date": "10-28",
-      "attendance": 89.2,
+      "attendance": 93.1,
       "submit": 90.0
     },
     {
       "date": "10-29",
-      "attendance": 87.7,
+      "attendance": 91.6,
       "submit": 90.5
     },
     {
       "date": "10-30",
-      "attendance": 86.2,
+      "attendance": 90.1,
       "submit": 91.0
     },
     {
       "date": "10-31",
-      "attendance": 84.7,
+      "attendance": 88.6,
       "submit": 91.5
     },
     {
       "date": "11-01",
-      "attendance": 83.2,
+      "attendance": 87.1,
       "submit": 92.0
     },
     {
       "date": "11-02",
-      "attendance": 81.7,
+      "attendance": 85.6,
       "submit": 92.5
     },
     {
       "date": "11-03",
-      "attendance": 84.7,
-      "submit": 87.3
+      "attendance": 88.6,
+      "submit": 89.3
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "6/6",
+    "class_coverage": "7/7",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
