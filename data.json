@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-03 22:55",
+  "updated_at": "2026-11-03 23:01",
   "school": {
-    "rate": 86.7,
-    "present": 618,
-    "total": 713,
+    "rate": 86.8,
+    "present": 638,
+    "total": 735,
     "late": 19,
-    "absent": 95,
-    "leave": 53
+    "absent": 97,
+    "leave": 55
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 8,
+    "class_attention": 9,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -210,6 +210,23 @@
       "early": 0,
       "leave": 2,
       "status": "异常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学AR3(F26)",
+      "teacher": "赵亮",
+      "rate": 90.9,
+      "present_text": "20/22人次",
+      "present": 20,
+      "total": 22,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
@@ -694,6 +711,35 @@
   ],
   "absent_students": [
     {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/11/3 8:00:00 至 2026/11/3 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学AR3(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-03T23:00:58"
+    },
+    {
       "name": "耿子涵",
       "class": "G23",
       "reason": "病假_【已通过】 2026/11/2 8:00:00 至 2026/11/6 15:00:00  请假 ",
@@ -829,27 +875,6 @@
         }
       ],
       "updated_at": "2026-11-03T16:24:19"
-    },
-    {
-      "name": "金懿帆",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/11/3 8:00:00 至 2026/11/3 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育AA(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "经济AY(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-11-03T15:28:42"
     },
     {
       "name": "郭淑君",
@@ -1363,44 +1388,12 @@
       "location": "LT3-212"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "08:20-09:00",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "08:20-09:00",
-      "location": "LT3-122"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "艺术与设计",
       "teacher": "王丽媛、朱嘉怡",
       "time": "09:10-09:50",
       "location": "LT3-212"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "09:10-09:50",
-      "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "数学",
-      "teacher": "赵亮",
-      "time": "09:10-09:50",
-      "location": "LT3-122"
     },
     {
       "class": "十一年级 AS1",
@@ -1915,6 +1908,26 @@
       "delay_min": 36
     },
     {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "08:20-09:00",
+      "location": "LT3-122",
+      "called_at": "2026-11-03T23:00:52",
+      "delay_min": 881
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "08:20-09:00",
+      "location": "LT3-122",
+      "called_at": "2026-11-03T23:00:52",
+      "delay_min": 881
+    },
+    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "经济学",
@@ -2183,6 +2196,26 @@
       "location": "LT3-209",
       "called_at": "2026-11-03T10:28:03",
       "delay_min": 78
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "09:10-09:50",
+      "location": "LT3-122",
+      "called_at": "2026-11-03T23:00:58",
+      "delay_min": 831
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "09:10-09:50",
+      "location": "LT3-122",
+      "called_at": "2026-11-03T23:00:58",
+      "delay_min": 831
     },
     {
       "class": "十年级 G21",
@@ -2996,6 +3029,7 @@
     }
   ],
   "teacher_last_call": {
+    "赵亮": "2026-11-03T23:00:58",
     "曾靓": "2026-11-03T16:48:40",
     "刘晨璐": "2026-11-03T16:24:19",
     "孙鹏": "2026-11-03T15:28:42",
@@ -3023,59 +3057,59 @@
   "trend": [
     {
       "date": "10-28",
-      "attendance": 91.2,
+      "attendance": 91.3,
       "submit": 90.0
     },
     {
       "date": "10-29",
-      "attendance": 89.7,
+      "attendance": 89.8,
       "submit": 90.5
     },
     {
       "date": "10-30",
-      "attendance": 88.2,
+      "attendance": 88.3,
       "submit": 91.0
     },
     {
       "date": "10-31",
-      "attendance": 86.7,
+      "attendance": 86.8,
       "submit": 91.5
     },
     {
       "date": "11-01",
-      "attendance": 85.2,
+      "attendance": 85.3,
       "submit": 92.0
     },
     {
       "date": "11-02",
-      "attendance": 83.7,
+      "attendance": 83.8,
       "submit": 92.5
     },
     {
       "date": "11-03",
-      "attendance": 86.7,
-      "submit": 88.3
+      "attendance": 86.8,
+      "submit": 88.4
     }
   ],
   "lesson": {
-    "completion_rate": 74.2,
-    "called": 118,
+    "completion_rate": 76.7,
+    "called": 122,
     "total": 159,
-    "class_coverage": "41/41",
+    "class_coverage": "42/42",
     "teacher_count": 27,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十年级 G22",
-      "十一年级 AS1",
+      "高数CR2(F26)",
       "九年级 G12",
-      "十二年级 A21",
+      "十一年级 AS1",
       "十年级 G21",
-      "十年级 G23",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "化学AA(F26)",
       "十二年级 A22",
       "九年级 G11",
-      "十一年级 AS3",
-      "高数CR2(F26)",
-      "化学AA(F26)"
+      "十二年级 A21",
+      "十年级 G23",
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
@@ -3087,44 +3121,12 @@
         "location": "LT3-212"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "08:20-09:00",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "08:20-09:00",
-        "location": "LT3-122"
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "艺术与设计",
         "teacher": "王丽媛、朱嘉怡",
         "time": "09:10-09:50",
         "location": "LT3-212"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "09:10-09:50",
-        "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "数学",
-        "teacher": "赵亮",
-        "time": "09:10-09:50",
-        "location": "LT3-122"
       },
       {
         "class": "十一年级 AS1",
