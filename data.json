@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03 09:38",
+  "updated_at": "2026-11-03 09:40",
   "school": {
     "rate": 87.8,
     "present": 115,
@@ -705,8 +705,8 @@
     "uncovered_classes": [
       "十年级 G21",
       "十一年级 AS1",
-      "十年级 G23",
-      "十年级 G22"
+      "十年级 G22",
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
