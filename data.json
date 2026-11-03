@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-03 14:31",
+  "updated_at": "2026-11-03 14:35",
   "school": {
-    "rate": 86.9,
-    "present": 464,
-    "total": 534,
+    "rate": 86.8,
+    "present": 473,
+    "total": 545,
     "late": 19,
-    "absent": 70,
-    "leave": 40
+    "absent": 72,
+    "leave": 41
   },
   "summary": {
     "pending_yesterday": 0,
@@ -134,16 +134,17 @@
       "name": "商科AA(F26)",
       "teacher": "余震",
       "rate": 81.8,
-      "present_text": "9/11人次",
-      "present": 9,
-      "total": 11,
-      "absent": 2,
+      "present_text": "18/22人次",
+      "present": 18,
+      "total": 22,
+      "absent": 4,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
-        "13:00-13:40"
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -577,6 +578,56 @@
   ],
   "absent_students": [
     {
+      "name": "童稷丰",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-11-03T14:34:43"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/11/2 8:00:00 至 2026/11/3 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学AR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-11-03T14:34:43"
+    },
+    {
       "name": "段锦沐",
       "class": "A21",
       "reason": "事假_【已通过】 2026/11/3 8:00:00 至 2026/11/3 17:00:00  请假 ",
@@ -926,48 +977,6 @@
         }
       ],
       "updated_at": "2026-11-03T13:03:54"
-    },
-    {
-      "name": "童稷丰",
-      "class": "G21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-03T13:03:13"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/11/2 8:00:00 至 2026/11/3 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学AR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育AA(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-03T13:03:13"
     },
     {
       "name": "陈乐涵",
@@ -1467,14 +1476,6 @@
     {
       "class": "十年级 G21",
       "class_id": 517698,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "13:50-14:30",
-      "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
       "subject": "化学",
       "teacher": "余越利",
       "time": "13:50-14:30",
@@ -1487,14 +1488,6 @@
       "teacher": "王丽媛、朱嘉怡",
       "time": "13:50-14:30",
       "location": "LT3-104"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "13:50-14:30",
-      "location": "LT3-109"
     },
     {
       "class": "十年级 G22",
@@ -2475,6 +2468,26 @@
       "delay_min": 5
     },
     {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "13:50-14:30",
+      "location": "LT3-109",
+      "called_at": "2026-11-03T14:34:43",
+      "delay_min": 45
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "13:50-14:30",
+      "location": "LT3-109",
+      "called_at": "2026-11-03T14:34:43",
+      "delay_min": 45
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
@@ -2556,13 +2569,13 @@
     }
   ],
   "teacher_last_call": {
+    "余震": "2026-11-03T14:34:43",
     "王伊": "2026-11-03T13:51:34",
     "杨燕霖": "2026-11-03T13:51:27",
     "朱嘉怡": "2026-11-03T13:51:14",
     "职梦凡": "2026-11-03T13:49:10",
     "费楚淇": "2026-11-03T13:28:29",
     "贺珍谊": "2026-11-03T13:05:26",
-    "余震": "2026-11-03T13:03:13",
     "曹德娟": "2026-11-03T13:03:54",
     "张小翼": "2026-11-03T12:43:18",
     "袁西援": "2026-11-03T12:02:17",
@@ -2579,58 +2592,58 @@
   "trend": [
     {
       "date": "10-28",
-      "attendance": 91.4,
+      "attendance": 91.3,
       "submit": 90.0
     },
     {
       "date": "10-29",
-      "attendance": 89.9,
+      "attendance": 89.8,
       "submit": 90.5
     },
     {
       "date": "10-30",
-      "attendance": 88.4,
+      "attendance": 88.3,
       "submit": 91.0
     },
     {
       "date": "10-31",
-      "attendance": 86.9,
+      "attendance": 86.8,
       "submit": 91.5
     },
     {
       "date": "11-01",
-      "attendance": 85.4,
+      "attendance": 85.3,
       "submit": 92.0
     },
     {
       "date": "11-02",
-      "attendance": 83.9,
+      "attendance": 83.8,
       "submit": 92.5
     },
     {
       "date": "11-03",
-      "attendance": 86.9,
-      "submit": 88.5
+      "attendance": 86.8,
+      "submit": 88.4
     }
   ],
   "lesson": {
-    "completion_rate": 65.7,
-    "called": 92,
+    "completion_rate": 67.1,
+    "called": 94,
     "total": 140,
     "class_coverage": "34/34",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十年级 G22",
-      "高数CR2(F26)",
-      "十一年级 AS2",
+      "九年级 G12",
       "九年级 G11",
-      "化学AA(F26)",
       "十年级 G23",
       "十二年级 A21",
-      "十二年级 A22",
-      "十年级 G21",
       "十一年级 AS1",
-      "九年级 G12",
+      "十二年级 A22",
+      "高数CR2(F26)",
+      "十年级 G22",
+      "十一年级 AS2",
+      "化学AA(F26)",
+      "十年级 G21",
       "十一年级 AS3"
     ],
     "uncovered_teachers": [
@@ -2973,14 +2986,6 @@
       {
         "class": "十年级 G21",
         "class_id": 517698,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "13:50-14:30",
-        "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
         "subject": "化学",
         "teacher": "余越利",
         "time": "13:50-14:30",
@@ -2993,14 +2998,6 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "13:50-14:30",
         "location": "LT3-104"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "13:50-14:30",
-        "location": "LT3-109"
       },
       {
         "class": "十年级 G22",
