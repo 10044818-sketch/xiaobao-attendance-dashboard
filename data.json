@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-04 09:16",
+  "updated_at": "2026-11-04 09:20",
   "school": {
-    "rate": 76.5,
-    "present": 65,
-    "total": 85,
+    "rate": 76.0,
+    "present": 79,
+    "total": 104,
     "late": 1,
-    "absent": 20,
-    "leave": 11
+    "absent": 25,
+    "leave": 12
   },
   "summary": {
     "pending_yesterday": 0,
@@ -35,16 +35,17 @@
       "name": "数学BQ3(F26)",
       "teacher": "刘晨璐",
       "rate": 73.7,
-      "present_text": "14/19人次",
-      "present": 14,
-      "total": 19,
-      "absent": 5,
+      "present_text": "28/38人次",
+      "present": 28,
+      "total": 38,
+      "absent": 10,
       "late": 1,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "异常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -91,9 +92,13 @@
         {
           "course": "数学BQ3(F26)",
           "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "09:10-09:50"
         }
       ],
-      "updated_at": "2026-11-04T09:10:45"
+      "updated_at": "2026-11-04T09:20:16"
     },
     {
       "name": "王子天",
@@ -104,9 +109,13 @@
         {
           "course": "数学BQ3(F26)",
           "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "09:10-09:50"
         }
       ],
-      "updated_at": "2026-11-04T09:10:45"
+      "updated_at": "2026-11-04T09:20:16"
     },
     {
       "name": "王誉涵",
@@ -117,9 +126,13 @@
         {
           "course": "数学BQ3(F26)",
           "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "09:10-09:50"
         }
       ],
-      "updated_at": "2026-11-04T09:10:45"
+      "updated_at": "2026-11-04T09:20:16"
     },
     {
       "name": "李潇行",
@@ -130,9 +143,13 @@
         {
           "course": "数学BQ3(F26)",
           "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "09:10-09:50"
         }
       ],
-      "updated_at": "2026-11-04T09:10:45"
+      "updated_at": "2026-11-04T09:20:16"
     },
     {
       "name": "高子涵",
@@ -143,9 +160,13 @@
         {
           "course": "数学BQ3(F26)",
           "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "09:10-09:50"
         }
       ],
-      "updated_at": "2026-11-04T09:10:45"
+      "updated_at": "2026-11-04T09:20:16"
     },
     {
       "name": "金懿帆",
@@ -502,7 +523,7 @@
     }
   ],
   "teacher_last_call": {
-    "刘晨璐": "2026-11-04T09:10:45",
+    "刘晨璐": "2026-11-04T09:20:16",
     "职梦凡": "2026-11-04T09:05:26",
     "郝畅": "2026-11-04T08:59:10",
     "杨燕霖": "2026-11-04T08:25:11"
@@ -510,38 +531,38 @@
   "trend": [
     {
       "date": "10-29",
-      "attendance": 81.0,
+      "attendance": 80.5,
       "submit": 90.0
     },
     {
       "date": "10-30",
-      "attendance": 79.5,
+      "attendance": 79.0,
       "submit": 90.5
     },
     {
       "date": "10-31",
-      "attendance": 78.0,
+      "attendance": 77.5,
       "submit": 91.0
     },
     {
       "date": "11-01",
-      "attendance": 76.5,
+      "attendance": 76.0,
       "submit": 91.5
     },
     {
       "date": "11-02",
-      "attendance": 75.0,
+      "attendance": 74.5,
       "submit": 92.0
     },
     {
       "date": "11-03",
-      "attendance": 73.5,
+      "attendance": 73.0,
       "submit": 92.5
     },
     {
       "date": "11-04",
-      "attendance": 76.5,
-      "submit": 83.2
+      "attendance": 76.0,
+      "submit": 83.0
     }
   ],
   "lesson": {
@@ -551,13 +572,13 @@
     "class_coverage": "4/4",
     "teacher_count": 9,
     "uncovered_classes": [
-      "十年级 G23",
-      "高数CR2(F26)",
-      "十二年级 A22",
       "十二年级 A21",
       "十一年级 AS1",
+      "十一年级 AS2",
       "十年级 G22",
-      "十一年级 AS2"
+      "十年级 G23",
+      "高数CR2(F26)",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
