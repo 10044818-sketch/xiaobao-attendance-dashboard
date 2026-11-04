@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04 16:55",
+  "updated_at": "2026-11-04 17:01",
   "school": {
     "rate": 83.3,
     "present": 786,
@@ -2139,6 +2139,70 @@
       "teacher": "王丽媛、朱嘉怡",
       "time": "15:30-16:10",
       "location": "LT3-212"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "数学",
+      "teacher": "李俊",
+      "time": "16:20-17:00",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "数学",
+      "teacher": "李俊",
+      "time": "16:20-17:00",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "16:20-17:00",
+      "location": ""
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "16:20-17:00",
+      "location": ""
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "16:20-17:00",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "16:20-17:00",
+      "location": "LT3-122"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "16:20-17:00",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "16:20-17:00",
+      "location": "LT3-122"
     }
   ],
   "called_roll_call": [
@@ -3481,6 +3545,136 @@
       "location": "LT3-121",
       "called_at": "2026-11-04T15:31:22",
       "delay_min": 1
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "16:20-17:00",
+      "location": "LT3-121",
+      "called_at": "2026-11-04T16:23:32",
+      "delay_min": 4
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "16:20-17:00",
+      "location": "LT3-121",
+      "called_at": "2026-11-04T16:23:32",
+      "delay_min": 4
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "16:20-17:00",
+      "location": "LT3-121",
+      "called_at": "2026-11-04T16:23:32",
+      "delay_min": 4
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "商科",
+      "teacher": "孙鹏",
+      "time": "16:20-17:00",
+      "location": "LT3-209",
+      "called_at": "2026-11-04T16:27:57",
+      "delay_min": 8
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "商科",
+      "teacher": "孙鹏",
+      "time": "16:20-17:00",
+      "location": "LT3-209",
+      "called_at": "2026-11-04T16:27:57",
+      "delay_min": 8
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "16:20-17:00",
+      "location": "LT3-114",
+      "called_at": "2026-11-04T16:45:16",
+      "delay_min": 25
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "16:20-17:00",
+      "location": "LT3-114",
+      "called_at": "2026-11-04T16:45:16",
+      "delay_min": 25
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "16:20-17:00",
+      "location": "LT3-114",
+      "called_at": "2026-11-04T16:45:16",
+      "delay_min": 25
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "16:20-17:00",
+      "location": "LT3-114",
+      "called_at": "2026-11-04T16:45:16",
+      "delay_min": 25
+    },
+    {
+      "class": "化学BZ(F26)",
+      "class_id": 520906,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "16:20-17:00",
+      "location": "LT3-114",
+      "called_at": "2026-11-04T16:45:16",
+      "delay_min": 25
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言写作",
+      "teacher": "贺珍谊",
+      "time": "16:20-17:00",
+      "location": "LT3-111",
+      "called_at": "2026-11-04T16:29:30",
+      "delay_min": 10
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言写作",
+      "teacher": "贺珍谊",
+      "time": "16:20-17:00",
+      "location": "LT3-111",
+      "called_at": "2026-11-04T16:29:30",
+      "delay_min": 10
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "英语第二语言写作",
+      "teacher": "钱嘉音",
+      "time": "16:20-17:00",
+      "location": "LT3-107",
+      "called_at": "2026-11-04T16:27:34",
+      "delay_min": 8
     }
   ],
   "teacher_last_call": {
@@ -3547,22 +3741,22 @@
     }
   ],
   "lesson": {
-    "completion_rate": 79.6,
-    "called": 125,
-    "total": 157,
+    "completion_rate": 77.5,
+    "called": 138,
+    "total": 178,
     "class_coverage": "52/52",
     "teacher_count": 28,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "十年级 G21",
-      "十年级 G22",
-      "九年级 G11",
-      "十二年级 A21",
       "九年级 G12",
-      "十一年级 AS1",
-      "十一年级 AS2",
+      "九年级 G11",
       "十二年级 A22",
-      "十一年级 AS3"
+      "十一年级 AS1",
+      "十一年级 AS3",
+      "十年级 G21",
+      "十二年级 A21",
+      "十年级 G22",
+      "十一年级 AS2",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -3820,6 +4014,70 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "15:30-16:10",
         "location": "LT3-212"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "数学",
+        "teacher": "李俊",
+        "time": "16:20-17:00",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "数学",
+        "teacher": "李俊",
+        "time": "16:20-17:00",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "16:20-17:00",
+        "location": ""
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "16:20-17:00",
+        "location": ""
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "16:20-17:00",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "16:20-17:00",
+        "location": "LT3-122"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言",
+        "teacher": "王伊",
+        "time": "16:20-17:00",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "英语第二语言口语",
+        "teacher": "Johannes van Baardewijk",
+        "time": "16:20-17:00",
+        "location": "LT3-122"
       }
     ]
   }
