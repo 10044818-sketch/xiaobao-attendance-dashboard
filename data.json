@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-04 16:18",
+  "updated_at": "2026-11-04 16:21",
   "school": {
-    "rate": 82.9,
-    "present": 475,
-    "total": 573,
+    "rate": 82.5,
+    "present": 477,
+    "total": 578,
     "late": 17,
-    "absent": 98,
+    "absent": 101,
     "leave": 68
   },
   "summary": {
@@ -398,6 +398,38 @@
       ]
     },
     {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
+      "name": "艺术CB(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 0.0,
+      "present_text": "0/3人次",
+      "present": 0,
+      "total": 3,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
       "name": "英语写作AQ1(F26)",
       "teacher": "贺珍谊",
       "rate": 92.9,
@@ -544,6 +576,53 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "姜懿",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-11-04T16:21:23"
+    },
+    {
+      "name": "洪若玲",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "艺术CB(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-11-04T16:21:23"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ3(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "艺术CB(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-11-04T16:21:23"
+    },
     {
       "name": "蔡雨涵",
       "class": "AS2",
@@ -1139,23 +1218,6 @@
       "class": "AS3",
       "reason": "病假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 17:00:00  身体不适 ",
       "type": "病假",
-      "courses": [
-        {
-          "course": "数学BQ3(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ3(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-04T09:20:16"
-    },
-    {
-      "name": "高子涵",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
       "courses": [
         {
           "course": "数学BQ3(F26)",
@@ -2745,7 +2807,7 @@
     }
   ],
   "teacher_last_call": {
-    "朱嘉怡": "2026-11-04T16:06:47",
+    "朱嘉怡": "2026-11-04T16:21:26",
     "张小翼": "2026-11-04T15:34:44",
     "Johannes van Baardewijk": "2026-11-04T15:32:01",
     "王肇君": "2026-11-04T15:31:41",
@@ -2766,61 +2828,61 @@
   "trend": [
     {
       "date": "10-29",
-      "attendance": 87.4,
+      "attendance": 87.0,
       "submit": 90.0
     },
     {
       "date": "10-30",
-      "attendance": 85.9,
+      "attendance": 85.5,
       "submit": 90.5
     },
     {
       "date": "10-31",
-      "attendance": 84.4,
+      "attendance": 84.0,
       "submit": 91.0
     },
     {
       "date": "11-01",
-      "attendance": 82.9,
+      "attendance": 82.5,
       "submit": 91.5
     },
     {
       "date": "11-02",
-      "attendance": 81.4,
+      "attendance": 81.0,
       "submit": 92.0
     },
     {
       "date": "11-03",
-      "attendance": 79.9,
+      "attendance": 79.5,
       "submit": 92.5
     },
     {
       "date": "11-04",
-      "attendance": 82.9,
-      "submit": 86.5
+      "attendance": 82.5,
+      "submit": 86.2
     }
   ],
   "lesson": {
     "completion_rate": 51.0,
     "called": 80,
     "total": 157,
-    "class_coverage": "32/32",
+    "class_coverage": "34/34",
     "teacher_count": 28,
     "uncovered_classes": [
       "九年级 G11",
-      "化学AA(F26)",
+      "十二年级 A21",
+      "化学CB(F26)",
+      "高数CR2(F26)",
+      "十一年级 AS3",
+      "化学BY(F26)",
+      "十二年级 A22",
       "十一年级 AS2",
       "十年级 G21",
+      "十年级 G22",
+      "化学AA(F26)",
       "十一年级 AS1",
       "十年级 G23",
-      "十二年级 A22",
-      "高数CR2(F26)",
-      "九年级 G12",
-      "十一年级 AS3",
-      "十二年级 A21",
-      "十年级 G22",
-      "化学CB(F26)",
-      "化学BY(F26)"
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
