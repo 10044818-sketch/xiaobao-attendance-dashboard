@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-04 10:40",
+  "updated_at": "2026-11-04 10:45",
   "school": {
-    "rate": 83.0,
-    "present": 234,
-    "total": 282,
+    "rate": 83.2,
+    "present": 252,
+    "total": 303,
     "late": 9,
-    "absent": 48,
-    "leave": 30
+    "absent": 51,
+    "leave": 32
   },
   "summary": {
     "pending_yesterday": 0,
@@ -29,6 +29,22 @@
       "status": "关注",
       "time_spans": [
         "10:00-10:40"
+      ]
+    },
+    {
+      "name": "化学9A(F26)",
+      "teacher": "张璐菲",
+      "rate": 80.0,
+      "present_text": "12/15人次",
+      "present": 12,
+      "total": 15,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
       ]
     },
     {
@@ -165,6 +181,23 @@
       ]
     },
     {
+      "name": "生物CA(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "6/6人次",
+      "present": 6,
+      "total": 6,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "经济9A(F26)",
       "teacher": "郝畅",
       "rate": 73.3,
@@ -274,11 +307,15 @@
           "time": "08:20-09:00"
         },
         {
+          "course": "化学9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
           "course": "物理9A(F26)",
           "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-11-04T10:39:43"
+      "updated_at": "2026-11-04T10:44:33"
     },
     {
       "name": "翁瑾萱",
@@ -291,11 +328,15 @@
           "time": "08:20-09:00"
         },
         {
+          "course": "化学9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
           "course": "物理9A(F26)",
           "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-11-04T10:39:43"
+      "updated_at": "2026-11-04T10:44:33"
     },
     {
       "name": "李知颖",
@@ -308,11 +349,15 @@
           "time": "08:20-09:00"
         },
         {
+          "course": "化学9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
           "course": "物理9A(F26)",
           "time": "10:00-10:40"
         }
       ],
-      "updated_at": "2026-11-04T10:39:43"
+      "updated_at": "2026-11-04T10:44:33"
     },
     {
       "name": "胡鑫玥",
@@ -757,30 +802,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
-    },
-    {
-      "class": "化学9A(F26)",
-      "class_id": 526214,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "09:10-09:50",
-      "location": "LT3-108"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
@@ -885,28 +906,12 @@
       "location": "LT3-206"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-208"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "物理",
       "teacher": "曾靓",
       "time": "10:00-10:40",
       "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-208"
     }
   ],
   "called_roll_call": [
@@ -1081,6 +1086,36 @@
       "delay_min": 60
     },
     {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "09:10-09:50",
+      "location": "LT3-108",
+      "called_at": "2026-11-04T10:44:33",
+      "delay_min": 95
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "09:10-09:50",
+      "location": "LT3-108",
+      "called_at": "2026-11-04T10:44:33",
+      "delay_min": 95
+    },
+    {
+      "class": "化学9A(F26)",
+      "class_id": 526214,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "09:10-09:50",
+      "location": "LT3-108",
+      "called_at": "2026-11-04T10:44:33",
+      "delay_min": 95
+    },
+    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "物理",
@@ -1139,6 +1174,26 @@
       "location": "LT3-111",
       "called_at": "2026-11-04T10:09:45",
       "delay_min": 10
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
+      "location": "LT3-208",
+      "called_at": "2026-11-04T10:44:37",
+      "delay_min": 45
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
+      "location": "LT3-208",
+      "called_at": "2026-11-04T10:44:37",
+      "delay_min": 45
     },
     {
       "class": "十二年级 A21",
@@ -1242,6 +1297,7 @@
     }
   ],
   "teacher_last_call": {
+    "张璐菲": "2026-11-04T10:44:39",
     "职梦凡": "2026-11-04T10:39:43",
     "郝畅": "2026-11-04T10:23:37",
     "曹德娟": "2026-11-04T10:11:13",
@@ -1259,57 +1315,54 @@
   "trend": [
     {
       "date": "10-29",
-      "attendance": 87.5,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "10-30",
-      "attendance": 86.0,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "10-31",
-      "attendance": 84.5,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "11-01",
-      "attendance": 83.0,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "11-02",
-      "attendance": 81.5,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "11-03",
-      "attendance": 80.0,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "11-04",
-      "attendance": 83.0,
-      "submit": 86.5
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
-    "completion_rate": 55.9,
-    "called": 33,
+    "completion_rate": 64.4,
+    "called": 38,
     "total": 59,
-    "class_coverage": "15/15",
+    "class_coverage": "17/17",
     "teacher_count": 19,
     "uncovered_classes": [
-      "十一年级 AS1",
-      "十二年级 A21",
       "化学BY(F26)",
+      "十一年级 AS1",
       "十二年级 A22",
-      "九年级 G11",
-      "化学9A(F26)",
+      "高数CR2(F26)",
+      "十二年级 A21",
       "十一年级 AS3",
-      "十一年级 AS2",
-      "九年级 G12",
-      "高数CR2(F26)"
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -1367,30 +1420,6 @@
         "teacher": "李俊",
         "time": "08:20-09:00",
         "location": "LT3-208"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
-      },
-      {
-        "class": "化学9A(F26)",
-        "class_id": 526214,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "09:10-09:50",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
@@ -1497,28 +1526,12 @@
         "location": "LT3-206"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-208"
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "物理",
         "teacher": "曾靓",
         "time": "10:00-10:40",
         "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-208"
       }
     ]
   }
