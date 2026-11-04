@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-04 09:40",
+  "updated_at": "2026-11-04 09:46",
   "school": {
-    "rate": 75.9,
-    "present": 85,
-    "total": 112,
+    "rate": 80.4,
+    "present": 119,
+    "total": 148,
     "late": 1,
-    "absent": 27,
-    "leave": 15
+    "absent": 29,
+    "leave": 16
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -43,6 +43,23 @@
       "early": 0,
       "leave": 4,
       "status": "异常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "物理AX(F26)",
+      "teacher": "熊辉",
+      "rate": 94.4,
+      "present_text": "34/36人次",
+      "present": 34,
+      "total": 36,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
@@ -99,6 +116,32 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "许睿",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-04T09:44:47"
+    },
+    {
+      "name": "谢佳妍",
+      "class": "G22",
+      "reason": "事假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 9:00:00  今天下雨，路上很堵，稍微晚到一会儿，谢谢老师 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AX(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-04T09:44:47"
+    },
     {
       "name": "王誉涵",
       "class": "AS3",
@@ -438,14 +481,6 @@
       "location": "LT3-208"
     },
     {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "物理",
-      "teacher": "熊辉",
-      "time": "08:20-09:00",
-      "location": "LT3-109"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "数学",
@@ -534,6 +569,16 @@
       "delay_min": 5
     },
     {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "物理",
+      "teacher": "熊辉",
+      "time": "08:20-09:00",
+      "location": "LT3-109",
+      "called_at": "2026-11-04T09:44:47",
+      "delay_min": 85
+    },
+    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "物理",
@@ -565,6 +610,7 @@
     }
   ],
   "teacher_last_call": {
+    "熊辉": "2026-11-04T09:45:00",
     "贺珍谊": "2026-11-04T09:31:42",
     "刘晨璐": "2026-11-04T09:39:47",
     "职梦凡": "2026-11-04T09:05:26",
@@ -574,53 +620,52 @@
   "trend": [
     {
       "date": "10-29",
-      "attendance": 80.4,
+      "attendance": 84.9,
       "submit": 90.0
     },
     {
       "date": "10-30",
-      "attendance": 78.9,
+      "attendance": 83.4,
       "submit": 90.5
     },
     {
       "date": "10-31",
-      "attendance": 77.4,
+      "attendance": 81.9,
       "submit": 91.0
     },
     {
       "date": "11-01",
-      "attendance": 75.9,
+      "attendance": 80.4,
       "submit": 91.5
     },
     {
       "date": "11-02",
-      "attendance": 74.4,
+      "attendance": 78.9,
       "submit": 92.0
     },
     {
       "date": "11-03",
-      "attendance": 72.9,
+      "attendance": 77.4,
       "submit": 92.5
     },
     {
       "date": "11-04",
-      "attendance": 75.9,
-      "submit": 83.0
+      "attendance": 80.4,
+      "submit": 85.2
     }
   ],
   "lesson": {
-    "completion_rate": 52.6,
-    "called": 10,
+    "completion_rate": 57.9,
+    "called": 11,
     "total": 19,
-    "class_coverage": "5/5",
+    "class_coverage": "6/6",
     "teacher_count": 9,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十二年级 A21",
-      "十年级 G22",
-      "十二年级 A22",
-      "高数CR2(F26)",
       "十年级 G23",
+      "高数CR2(F26)",
+      "十二年级 A22",
+      "十二年级 A21",
+      "十一年级 AS2",
       "十一年级 AS1"
     ],
     "uncovered_teachers": [
@@ -671,14 +716,6 @@
         "teacher": "李俊",
         "time": "08:20-09:00",
         "location": "LT3-208"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "物理",
-        "teacher": "熊辉",
-        "time": "08:20-09:00",
-        "location": "LT3-109"
       },
       {
         "class": "十年级 G23",
