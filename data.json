@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-04 17:01",
+  "updated_at": "2026-11-04 17:07",
   "school": {
-    "rate": 83.3,
-    "present": 786,
-    "total": 944,
+    "rate": 83.5,
+    "present": 817,
+    "total": 978,
     "late": 17,
-    "absent": 158,
-    "leave": 100
+    "absent": 161,
+    "leave": 103
   },
   "summary": {
     "pending_yesterday": 0,
@@ -725,6 +725,38 @@
       ]
     },
     {
+      "name": "英语口语AQ3(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 100.0,
+      "present_text": "11/11人次",
+      "present": 11,
+      "total": 11,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "16:20-17:00"
+      ]
+    },
+    {
+      "name": "英语听读写9A(F26)",
+      "teacher": "瞿芬",
+      "rate": 86.7,
+      "present_text": "13/15人次",
+      "present": 13,
+      "total": 15,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "雅思BR1(F26)",
       "teacher": "贺珍谊",
       "rate": 78.6,
@@ -807,6 +839,22 @@
       ]
     },
     {
+      "name": "雅思听力阅读C0(F26)",
+      "teacher": "瞿芬",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
       "name": "雅思词汇C0(F26)",
       "teacher": "贺珍谊",
       "rate": 75.0,
@@ -872,6 +920,125 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 17:00:00  感冒 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理C0(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "音乐C0(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "几何C0(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "几何C0(F26)",
+          "time": "15:30-16:10"
+        },
+        {
+          "course": "商科C0(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-11-04T17:03:11"
+    },
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 17:00:00  身体不适，请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "艺术9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "艺术9A(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-04T17:02:51"
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "病假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 17:00:00  感冒，再休息一天 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "艺术9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "艺术9A(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-04T17:02:51"
+    },
     {
       "name": "郭淑君",
       "class": "G21",
@@ -1478,47 +1645,6 @@
       "updated_at": "2026-11-04T16:29:01"
     },
     {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 17:00:00  感冒 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思词汇C0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "雅思写作口语C0(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "物理C0(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "音乐C0(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "几何C0(F26)",
-          "time": "14:40-15:20"
-        },
-        {
-          "course": "几何C0(F26)",
-          "time": "15:30-16:10"
-        },
-        {
-          "course": "商科C0(F26)",
-          "time": "16:20-17:00"
-        }
-      ],
-      "updated_at": "2026-11-04T16:27:57"
-    },
-    {
       "name": "蔡雨涵",
       "class": "AS2",
       "reason": "当日缺课且无请假单",
@@ -1628,77 +1754,11 @@
       "updated_at": "2026-11-04T15:32:01"
     },
     {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "Personal Leave_【Approved】 2026/11/4 8:00:00 to 2026/11/4 17:00:00  身体不适，请假一天",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "艺术9A(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "艺术9A(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-11-04T15:32:01"
-    },
-    {
       "name": "刘钰航",
       "class": "G12",
       "reason": "Personal Leave_【Approved】 2026/11/4 13:00:00 to 2026/11/4 17:00:00  家里有事",
       "type": "请假",
       "courses": [
-        {
-          "course": "艺术9A(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "艺术9A(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-11-04T15:32:01"
-    },
-    {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "Sick Leave_【Approved】 2026/11/4 8:00:00 to 2026/11/4 17:00:00  感冒，再休息一天",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "物理9A(F26)",
-          "time": "10:00-10:40"
-        },
         {
           "course": "艺术9A(F26)",
           "time": "13:00-13:40"
@@ -1903,26 +1963,10 @@
     {
       "class": "十二年级 A21",
       "class_id": 366030,
-      "subject": "雅思听力阅读",
-      "teacher": "瞿芬",
-      "time": "08:20-09:00",
-      "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
       "subject": "高等数学",
       "teacher": "李俊",
       "time": "08:20-09:00",
       "location": "LT3-208"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "雅思听力阅读",
-      "teacher": "瞿芬",
-      "time": "08:20-09:00",
-      "location": "LT3-209"
     },
     {
       "class": "十二年级 A22",
@@ -1979,22 +2023,6 @@
       "teacher": "李俊",
       "time": "09:10-09:50",
       "location": "LT3-208"
-    },
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "10:50-11:30",
-      "location": "LT3-108"
     },
     {
       "class": "十年级 G21",
@@ -2181,28 +2209,12 @@
       "location": "LT3-109"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "16:20-17:00",
-      "location": "LT3-122"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "英语第二语言",
       "teacher": "王伊",
       "time": "16:20-17:00",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "16:20-17:00",
-      "location": "LT3-122"
     }
   ],
   "called_roll_call": [
@@ -2295,6 +2307,26 @@
       "location": "LT3-109",
       "called_at": "2026-11-04T14:58:09",
       "delay_min": 398
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "08:20-09:00",
+      "location": "LT3-209",
+      "called_at": "2026-11-04T17:03:11",
+      "delay_min": 523
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "08:20-09:00",
+      "location": "LT3-209",
+      "called_at": "2026-11-04T17:03:11",
+      "delay_min": 523
     },
     {
       "class": "十年级 G21",
@@ -2785,6 +2817,26 @@
       "location": "LT3-121",
       "called_at": "2026-11-04T14:14:38",
       "delay_min": 205
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "10:50-11:30",
+      "location": "LT3-108",
+      "called_at": "2026-11-04T17:02:51",
+      "delay_min": 373
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "10:50-11:30",
+      "location": "LT3-108",
+      "called_at": "2026-11-04T17:02:51",
+      "delay_min": 373
     },
     {
       "class": "十一年级 AS1",
@@ -3547,6 +3599,26 @@
       "delay_min": 1
     },
     {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "16:20-17:00",
+      "location": "LT3-122",
+      "called_at": "2026-11-04T17:05:40",
+      "delay_min": 46
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "16:20-17:00",
+      "location": "LT3-122",
+      "called_at": "2026-11-04T17:05:40",
+      "delay_min": 46
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "商科",
@@ -3678,6 +3750,8 @@
     }
   ],
   "teacher_last_call": {
+    "Johannes van Baardewijk": "2026-11-04T17:05:40",
+    "瞿芬": "2026-11-04T17:03:11",
     "杨燕霖": "2026-11-04T16:54:42",
     "余越利": "2026-11-04T16:53:09",
     "赵亮": "2026-11-04T16:47:03",
@@ -3691,7 +3765,6 @@
     "余震": "2026-11-04T16:23:32",
     "朱嘉怡": "2026-11-04T16:21:26",
     "张小翼": "2026-11-04T15:34:44",
-    "Johannes van Baardewijk": "2026-11-04T15:32:01",
     "王肇君": "2026-11-04T15:31:41",
     "魏刘伟": "2026-11-04T15:31:22",
     "刘知言": "2026-11-04T14:14:38",
@@ -3706,57 +3779,57 @@
   "trend": [
     {
       "date": "10-29",
-      "attendance": 87.8,
+      "attendance": 88.0,
       "submit": 90.0
     },
     {
       "date": "10-30",
-      "attendance": 86.3,
+      "attendance": 86.5,
       "submit": 90.5
     },
     {
       "date": "10-31",
-      "attendance": 84.8,
+      "attendance": 85.0,
       "submit": 91.0
     },
     {
       "date": "11-01",
-      "attendance": 83.3,
+      "attendance": 83.5,
       "submit": 91.5
     },
     {
       "date": "11-02",
-      "attendance": 81.8,
+      "attendance": 82.0,
       "submit": 92.0
     },
     {
       "date": "11-03",
-      "attendance": 80.3,
+      "attendance": 80.5,
       "submit": 92.5
     },
     {
       "date": "11-04",
-      "attendance": 83.3,
-      "submit": 86.7
+      "attendance": 83.5,
+      "submit": 86.8
     }
   ],
   "lesson": {
-    "completion_rate": 77.5,
-    "called": 138,
+    "completion_rate": 80.9,
+    "called": 144,
     "total": 178,
-    "class_coverage": "52/52",
+    "class_coverage": "55/55",
     "teacher_count": 28,
     "uncovered_classes": [
-      "九年级 G12",
-      "九年级 G11",
-      "十二年级 A22",
-      "十一年级 AS1",
       "十一年级 AS3",
-      "十年级 G21",
-      "十二年级 A21",
-      "十年级 G22",
       "十一年级 AS2",
-      "高数CR2(F26)"
+      "十二年级 A21",
+      "十一年级 AS1",
+      "九年级 G11",
+      "九年级 G12",
+      "十二年级 A22",
+      "十年级 G21",
+      "高数CR2(F26)",
+      "十年级 G22"
     ],
     "uncovered_teachers": [
       {
@@ -3778,26 +3851,10 @@
       {
         "class": "十二年级 A21",
         "class_id": 366030,
-        "subject": "雅思听力阅读",
-        "teacher": "瞿芬",
-        "time": "08:20-09:00",
-        "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
         "subject": "高等数学",
         "teacher": "李俊",
         "time": "08:20-09:00",
         "location": "LT3-208"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "雅思听力阅读",
-        "teacher": "瞿芬",
-        "time": "08:20-09:00",
-        "location": "LT3-209"
       },
       {
         "class": "十二年级 A22",
@@ -3854,22 +3911,6 @@
         "teacher": "李俊",
         "time": "09:10-09:50",
         "location": "LT3-208"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "10:50-11:30",
-        "location": "LT3-108"
       },
       {
         "class": "十年级 G21",
@@ -4056,28 +4097,12 @@
         "location": "LT3-109"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "16:20-17:00",
-        "location": "LT3-122"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "英语第二语言",
         "teacher": "王伊",
         "time": "16:20-17:00",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "16:20-17:00",
-        "location": "LT3-122"
       }
     ]
   }
