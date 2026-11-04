@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-04 09:35",
+  "updated_at": "2026-11-04 09:40",
   "school": {
     "rate": 75.9,
     "present": 85,
     "total": 112,
     "late": 1,
     "absent": 27,
-    "leave": 13
+    "leave": 15
   },
   "summary": {
     "pending_yesterday": 0,
@@ -41,7 +41,7 @@
       "absent": 10,
       "late": 1,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -100,6 +100,23 @@
   ],
   "absent_students": [
     {
+      "name": "王誉涵",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026-11-04 08:00:00 至 2026-11-04 10:00:00  请假",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ3(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-04T09:39:47"
+    },
+    {
       "name": "茆睿恺",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -145,23 +162,6 @@
     {
       "name": "王子天",
       "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ3(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ3(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-04T09:20:16"
-    },
-    {
-      "name": "王誉涵",
-      "class": "AS3",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
@@ -470,8 +470,8 @@
       "teacher": "刘晨璐",
       "time": "08:20-09:00",
       "location": "LT3-114",
-      "called_at": "2026-11-04T09:10:45",
-      "delay_min": 51
+      "called_at": "2026-11-04T09:39:47",
+      "delay_min": 80
     },
     {
       "class": "十一年级 AS2",
@@ -480,8 +480,8 @@
       "teacher": "刘晨璐",
       "time": "08:20-09:00",
       "location": "LT3-114",
-      "called_at": "2026-11-04T09:10:45",
-      "delay_min": 51
+      "called_at": "2026-11-04T09:39:47",
+      "delay_min": 80
     },
     {
       "class": "十一年级 AS3",
@@ -490,8 +490,8 @@
       "teacher": "刘晨璐",
       "time": "08:20-09:00",
       "location": "LT3-114",
-      "called_at": "2026-11-04T09:10:45",
-      "delay_min": 51
+      "called_at": "2026-11-04T09:39:47",
+      "delay_min": 80
     },
     {
       "class": "十二年级 A22",
@@ -500,8 +500,8 @@
       "teacher": "刘晨璐",
       "time": "08:20-09:00",
       "location": "LT3-114",
-      "called_at": "2026-11-04T09:10:45",
-      "delay_min": 51
+      "called_at": "2026-11-04T09:39:47",
+      "delay_min": 80
     },
     {
       "class": "十一年级 AS1",
@@ -566,7 +566,7 @@
   ],
   "teacher_last_call": {
     "贺珍谊": "2026-11-04T09:31:42",
-    "刘晨璐": "2026-11-04T09:20:16",
+    "刘晨璐": "2026-11-04T09:39:47",
     "职梦凡": "2026-11-04T09:05:26",
     "郝畅": "2026-11-04T08:59:10",
     "杨燕霖": "2026-11-04T08:25:11"
@@ -615,13 +615,13 @@
     "class_coverage": "5/5",
     "teacher_count": 9,
     "uncovered_classes": [
+      "十一年级 AS2",
       "十二年级 A21",
       "十年级 G22",
-      "高数CR2(F26)",
-      "十一年级 AS1",
       "十二年级 A22",
+      "高数CR2(F26)",
       "十年级 G23",
-      "十一年级 AS2"
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
