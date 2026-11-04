@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-04 10:35",
+  "updated_at": "2026-11-04 10:40",
   "school": {
-    "rate": 83.1,
-    "present": 222,
-    "total": 267,
+    "rate": 83.0,
+    "present": 234,
+    "total": 282,
     "late": 9,
-    "absent": 45,
-    "leave": 28
+    "absent": 48,
+    "leave": 30
   },
   "summary": {
     "pending_yesterday": 0,
@@ -96,6 +96,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "物理9A(F26)",
+      "teacher": "职梦凡",
+      "rate": 80.0,
+      "present_text": "12/15人次",
+      "present": 12,
+      "total": 15,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
       ]
     },
     {
@@ -247,6 +263,57 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "余天泽",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-04T10:39:43"
+    },
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 17:00:00  身体不适，请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-04T10:39:43"
+    },
+    {
+      "name": "李知颖",
+      "class": "G11",
+      "reason": "病假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 17:00:00  感冒，再休息一天 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-04T10:39:43"
+    },
     {
       "name": "胡鑫玥",
       "class": "G23",
@@ -567,48 +634,9 @@
       "updated_at": "2026-11-04T09:05:13"
     },
     {
-      "name": "余天泽",
-      "class": "G12",
-      "reason": "已请假",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-04T08:59:10"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "事假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 17:00:00  身体不适，请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-04T08:59:10"
-    },
-    {
       "name": "唐晟尧",
       "class": "G11",
       "reason": "病假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 9:30:00  感冒观察服药 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-04T08:59:10"
-    },
-    {
-      "name": "李知颖",
-      "class": "G11",
-      "reason": "病假_【已通过】 2026/11/4 8:00:00 至 2026/11/4 17:00:00  感冒，再休息一天 ",
       "type": "病假",
       "courses": [
         {
@@ -814,6 +842,70 @@
       "subject": "高等数学",
       "teacher": "李俊",
       "time": "09:10-09:50",
+      "location": "LT3-208"
+    },
+    {
+      "class": "化学BY(F26)",
+      "class_id": 520900,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "10:00-10:40",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "10:00-10:40",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "10:00-10:40",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "10:00-10:40",
+      "location": "LT3-221"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "物理",
+      "teacher": "曾靓",
+      "time": "10:00-10:40",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
+      "location": "LT3-208"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "物理",
+      "teacher": "曾靓",
+      "time": "10:00-10:40",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
       "location": "LT3-208"
     }
   ],
@@ -1027,9 +1119,130 @@
       "location": "LT3-209",
       "called_at": "2026-11-04T09:31:42",
       "delay_min": 22
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "10:00-10:40",
+      "location": "LT3-219",
+      "called_at": "2026-11-04T10:03:12",
+      "delay_min": 3
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "音乐",
+      "teacher": "刘知言",
+      "time": "10:00-10:40",
+      "location": "LT3-111",
+      "called_at": "2026-11-04T10:09:45",
+      "delay_min": 10
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思写作口语",
+      "teacher": "曹德娟",
+      "time": "10:00-10:40",
+      "location": "LT3-209",
+      "called_at": "2026-11-04T10:11:09",
+      "delay_min": 11
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思写作口语",
+      "teacher": "曹德娟",
+      "time": "10:00-10:40",
+      "location": "LT3-209",
+      "called_at": "2026-11-04T10:11:09",
+      "delay_min": 11
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "体育",
+      "teacher": "沈译宇",
+      "time": "10:00-10:40",
+      "location": "",
+      "called_at": "2026-11-04T10:02:07",
+      "delay_min": 2
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "经济学",
+      "teacher": "王肇君",
+      "time": "10:00-10:40",
+      "location": "LT3-121",
+      "called_at": "2026-11-04T10:01:31",
+      "delay_min": 2
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "经济学",
+      "teacher": "王肇君",
+      "time": "10:00-10:40",
+      "location": "LT3-121",
+      "called_at": "2026-11-04T10:01:31",
+      "delay_min": 2
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "10:00-10:40",
+      "location": "LT3-108",
+      "called_at": "2026-11-04T10:39:43",
+      "delay_min": 40
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "10:00-10:40",
+      "location": "LT3-108",
+      "called_at": "2026-11-04T10:39:43",
+      "delay_min": 40
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "10:00-10:40",
+      "location": "LT3-107",
+      "called_at": "2026-11-04T10:23:37",
+      "delay_min": 24
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "10:00-10:40",
+      "location": "LT3-114",
+      "called_at": "2026-11-04T10:00:50",
+      "delay_min": 1
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "10:00-10:40",
+      "location": "LT3-114",
+      "called_at": "2026-11-04T10:00:50",
+      "delay_min": 1
     }
   ],
   "teacher_last_call": {
+    "职梦凡": "2026-11-04T10:39:43",
     "郝畅": "2026-11-04T10:23:37",
     "曹德娟": "2026-11-04T10:11:13",
     "刘知言": "2026-11-04T10:09:45",
@@ -1041,62 +1254,62 @@
     "熊辉": "2026-11-04T09:45:00",
     "贺珍谊": "2026-11-04T09:31:42",
     "刘晨璐": "2026-11-04T09:39:47",
-    "职梦凡": "2026-11-04T09:05:26",
     "杨燕霖": "2026-11-04T08:25:11"
   },
   "trend": [
     {
       "date": "10-29",
-      "attendance": 87.6,
+      "attendance": 87.5,
       "submit": 90.0
     },
     {
       "date": "10-30",
-      "attendance": 86.1,
+      "attendance": 86.0,
       "submit": 90.5
     },
     {
       "date": "10-31",
-      "attendance": 84.6,
+      "attendance": 84.5,
       "submit": 91.0
     },
     {
       "date": "11-01",
-      "attendance": 83.1,
+      "attendance": 83.0,
       "submit": 91.5
     },
     {
       "date": "11-02",
-      "attendance": 81.6,
+      "attendance": 81.5,
       "submit": 92.0
     },
     {
       "date": "11-03",
-      "attendance": 80.1,
+      "attendance": 80.0,
       "submit": 92.5
     },
     {
       "date": "11-04",
-      "attendance": 83.1,
+      "attendance": 83.0,
       "submit": 86.5
     }
   ],
   "lesson": {
-    "completion_rate": 53.8,
-    "called": 21,
-    "total": 39,
-    "class_coverage": "14/14",
-    "teacher_count": 11,
+    "completion_rate": 55.9,
+    "called": 33,
+    "total": 59,
+    "class_coverage": "15/15",
+    "teacher_count": 19,
     "uncovered_classes": [
+      "十一年级 AS1",
+      "十二年级 A21",
+      "化学BY(F26)",
       "十二年级 A22",
       "九年级 G11",
-      "十一年级 AS2",
-      "十一年级 AS1",
-      "十一年级 AS3",
       "化学9A(F26)",
+      "十一年级 AS3",
+      "十一年级 AS2",
       "九年级 G12",
-      "高数CR2(F26)",
-      "十二年级 A21"
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -1241,6 +1454,70 @@
         "subject": "高等数学",
         "teacher": "李俊",
         "time": "09:10-09:50",
+        "location": "LT3-208"
+      },
+      {
+        "class": "化学BY(F26)",
+        "class_id": 520900,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "10:00-10:40",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "10:00-10:40",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "10:00-10:40",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "10:00-10:40",
+        "location": "LT3-221"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "物理",
+        "teacher": "曾靓",
+        "time": "10:00-10:40",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "10:00-10:40",
+        "location": "LT3-208"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "物理",
+        "teacher": "曾靓",
+        "time": "10:00-10:40",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "10:00-10:40",
         "location": "LT3-208"
       }
     ]
