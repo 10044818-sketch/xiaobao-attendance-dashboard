@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04 10:33",
+  "updated_at": "2026-11-04 10:35",
   "school": {
     "rate": 83.1,
     "present": 222,
@@ -1088,15 +1088,15 @@
     "class_coverage": "14/14",
     "teacher_count": 11,
     "uncovered_classes": [
-      "化学9A(F26)",
       "十二年级 A22",
       "九年级 G11",
-      "十一年级 AS1",
-      "十二年级 A21",
       "十一年级 AS2",
-      "高数CR2(F26)",
+      "十一年级 AS1",
       "十一年级 AS3",
-      "九年级 G12"
+      "化学9A(F26)",
+      "九年级 G12",
+      "高数CR2(F26)",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
