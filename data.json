@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-04 11:15",
+  "updated_at": "2026-11-04 11:21",
   "school": {
-    "rate": 83.5,
-    "present": 274,
-    "total": 328,
+    "rate": 83.9,
+    "present": 287,
+    "total": 342,
     "late": 13,
-    "absent": 54,
-    "leave": 34
+    "absent": 55,
+    "leave": 35
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -248,6 +248,22 @@
       ]
     },
     {
+      "name": "英语写作AQ1(F26)",
+      "teacher": "贺珍谊",
+      "rate": 92.9,
+      "present_text": "13/14人次",
+      "present": 13,
+      "total": 14,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "雅思写作口语C0(F26)",
       "teacher": "曹德娟",
       "rate": 87.5,
@@ -298,6 +314,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/11/4 7:00:00 至 2026/11/4 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐AA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-04T11:18:05"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -505,27 +546,6 @@
       "class": "G21",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐AA(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-11-04T10:09:45"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/11/4 7:00:00 至 2026/11/4 17:00:00  不舒服 ",
-      "type": "事假",
       "courses": [
         {
           "course": "物理AY(F26)",
@@ -1311,6 +1331,7 @@
     }
   ],
   "teacher_last_call": {
+    "贺珍谊": "2026-11-04T11:18:05",
     "王肇君": "2026-11-04T10:52:43",
     "魏刘伟": "2026-11-04T10:51:12",
     "张璐菲": "2026-11-04T10:44:39",
@@ -1322,61 +1343,60 @@
     "沈译宇": "2026-11-04T10:02:07",
     "张小翼": "2026-11-04T10:10:12",
     "熊辉": "2026-11-04T09:45:00",
-    "贺珍谊": "2026-11-04T09:31:42",
     "刘晨璐": "2026-11-04T09:39:47",
     "杨燕霖": "2026-11-04T08:25:11"
   },
   "trend": [
     {
       "date": "10-29",
-      "attendance": 88.0,
+      "attendance": 88.4,
       "submit": 90.0
     },
     {
       "date": "10-30",
-      "attendance": 86.5,
+      "attendance": 86.9,
       "submit": 90.5
     },
     {
       "date": "10-31",
-      "attendance": 85.0,
+      "attendance": 85.4,
       "submit": 91.0
     },
     {
       "date": "11-01",
-      "attendance": 83.5,
+      "attendance": 83.9,
       "submit": 91.5
     },
     {
       "date": "11-02",
-      "attendance": 82.0,
+      "attendance": 82.4,
       "submit": 92.0
     },
     {
       "date": "11-03",
-      "attendance": 80.5,
+      "attendance": 80.9,
       "submit": 92.5
     },
     {
       "date": "11-04",
-      "attendance": 83.5,
-      "submit": 86.8
+      "attendance": 83.9,
+      "submit": 87.0
     }
   ],
   "lesson": {
     "completion_rate": 64.4,
     "called": 38,
     "total": 59,
-    "class_coverage": "17/17",
+    "class_coverage": "18/18",
     "teacher_count": 19,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "十二年级 A21",
       "十二年级 A22",
-      "十一年级 AS1",
       "化学BY(F26)",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十一年级 AS3",
       "十一年级 AS2",
-      "十一年级 AS3"
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
