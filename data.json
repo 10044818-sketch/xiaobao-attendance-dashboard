@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-05 18:21",
+  "updated_at": "2026-11-05 18:25",
   "school": {
     "rate": 81.2,
-    "present": 711,
-    "total": 876,
+    "present": 716,
+    "total": 882,
     "late": 18,
-    "absent": 165,
+    "absent": 166,
     "leave": 105
   },
   "summary": {
@@ -806,9 +806,46 @@
       "time_spans": [
         "13:00-13:40"
       ]
+    },
+    {
+      "name": "高数BD1(F26)",
+      "teacher": "潘子清",
+      "rate": 83.3,
+      "present_text": "5/6人次",
+      "present": 5,
+      "total": 6,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "18:15-19:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "邱沈尔",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR3(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "高数BD1(F26)",
+          "time": "18:15-19:00"
+        }
+      ],
+      "updated_at": "2026-11-05T18:21:59"
+    },
     {
       "name": "翁瑾萱",
       "class": "G12",
@@ -945,23 +982,6 @@
         }
       ],
       "updated_at": "2026-11-05T16:40:41"
-    },
-    {
-      "name": "邱沈尔",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/11/5 8:00:00 至 2026/11/5 11:00:00  中文统考 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思BR3(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育BR3(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-05T16:31:14"
     },
     {
       "name": "倪正凝",
@@ -3656,6 +3676,7 @@
     }
   ],
   "teacher_last_call": {
+    "潘子清": "2026-11-05T18:21:59",
     "职梦凡": "2026-11-05T17:07:02",
     "杨燕霖": "2026-11-05T16:44:40",
     "瞿芬": "2026-11-05T16:41:11",
@@ -3722,18 +3743,18 @@
     "completion_rate": 81.2,
     "called": 130,
     "total": 160,
-    "class_coverage": "48/48",
+    "class_coverage": "49/49",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十年级 G23",
-      "十一年级 AS2",
-      "十二年级 A22",
-      "十一年级 AS1",
       "十年级 G21",
-      "高数CR2(F26)",
-      "十年级 G22",
+      "十一年级 AS3",
+      "十二年级 A22",
       "十二年级 A21",
-      "十一年级 AS3"
+      "十年级 G22",
+      "十一年级 AS1",
+      "高数CR2(F26)",
+      "十年级 G23",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
