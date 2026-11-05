@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-05 14:21",
+  "updated_at": "2026-11-05 14:25",
   "school": {
-    "rate": 76.4,
-    "present": 386,
-    "total": 505,
+    "rate": 78.0,
+    "present": 428,
+    "total": 549,
     "late": 18,
-    "absent": 119,
-    "leave": 67
+    "absent": 121,
+    "leave": 69
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 10,
+    "class_attention": 11,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -94,6 +94,23 @@
       "status": "正常",
       "time_spans": [
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "化学9A(F26)",
+      "teacher": "张璐菲",
+      "rate": 93.3,
+      "present_text": "28/30人次",
+      "present": 28,
+      "total": 30,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -260,6 +277,23 @@
       "status": "异常",
       "time_spans": [
         "13:00-13:40"
+      ]
+    },
+    {
+      "name": "生物BZ(F26)",
+      "teacher": "张璐菲",
+      "rate": 100.0,
+      "present_text": "14/14人次",
+      "present": 14,
+      "total": 14,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -494,6 +528,35 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/11/5 8:00:00 至 2026/11/5 17:00:00  身体不适，请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "化学9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "化学9A(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-11-05T14:21:23"
+    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -870,27 +933,6 @@
         }
       ],
       "updated_at": "2026-11-05T11:29:03"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "事假_【已通过】 2026-11-05 08:00:00 至 2026-11-05 17:00:00  身体不适，请假一天",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-05T10:53:04"
     },
     {
       "name": "余天佑",
@@ -1534,34 +1576,10 @@
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-123"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
       "subject": "艺术BC",
       "teacher": "",
       "time": "10:00-10:40",
       "location": ""
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-123"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:00-10:40",
-      "location": "LT3-123"
     },
     {
       "class": "十二年级 A22",
@@ -1622,34 +1640,10 @@
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-123"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
       "subject": "艺术BC",
       "teacher": "",
       "time": "10:50-11:30",
       "location": ""
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-123"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "生物",
-      "teacher": "张璐菲",
-      "time": "10:50-11:30",
-      "location": "LT3-123"
     },
     {
       "class": "十二年级 A21",
@@ -1730,30 +1724,6 @@
       "teacher": "",
       "time": "10:50-11:30",
       "location": ""
-    },
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
-    },
-    {
-      "class": "化学9A(F26)",
-      "class_id": 526214,
-      "subject": "化学",
-      "teacher": "张璐菲",
-      "time": "13:00-13:40",
-      "location": "LT3-108"
     },
     {
       "class": "十一年级 AS1",
@@ -2286,6 +2256,36 @@
       "delay_min": 52
     },
     {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
+      "location": "LT3-123",
+      "called_at": "2026-11-05T14:21:14",
+      "delay_min": 261
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
+      "location": "LT3-123",
+      "called_at": "2026-11-05T14:21:14",
+      "delay_min": 261
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:00-10:40",
+      "location": "LT3-123",
+      "called_at": "2026-11-05T14:21:14",
+      "delay_min": 261
+    },
+    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "体育",
@@ -2458,6 +2458,36 @@
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:50-11:30",
+      "location": "LT3-123",
+      "called_at": "2026-11-05T14:21:16",
+      "delay_min": 211
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:50-11:30",
+      "location": "LT3-123",
+      "called_at": "2026-11-05T14:21:16",
+      "delay_min": 211
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "10:50-11:30",
+      "location": "LT3-123",
+      "called_at": "2026-11-05T14:21:16",
+      "delay_min": 211
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
       "subject": "化学",
       "teacher": "米万宝",
       "time": "10:50-11:30",
@@ -2536,6 +2566,36 @@
       "delay_min": 4
     },
     {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "13:00-13:40",
+      "location": "LT3-108",
+      "called_at": "2026-11-05T14:21:20",
+      "delay_min": 81
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "13:00-13:40",
+      "location": "LT3-108",
+      "called_at": "2026-11-05T14:21:20",
+      "delay_min": 81
+    },
+    {
+      "class": "化学9A(F26)",
+      "class_id": 526214,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "13:00-13:40",
+      "location": "LT3-108",
+      "called_at": "2026-11-05T14:21:20",
+      "delay_min": 81
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "雅思英语",
@@ -2607,6 +2667,7 @@
     }
   ],
   "teacher_last_call": {
+    "张璐菲": "2026-11-05T14:21:23",
     "张小翼": "2026-11-05T14:03:51",
     "朱嘉怡": "2026-11-05T13:53:18",
     "魏刘伟": "2026-11-05T13:50:50",
@@ -2626,58 +2687,56 @@
   "trend": [
     {
       "date": "10-30",
-      "attendance": 80.9,
+      "attendance": 82.5,
       "submit": 90.0
     },
     {
       "date": "10-31",
-      "attendance": 79.4,
+      "attendance": 81.0,
       "submit": 90.5
     },
     {
       "date": "11-01",
-      "attendance": 77.9,
+      "attendance": 79.5,
       "submit": 91.0
     },
     {
       "date": "11-02",
-      "attendance": 76.4,
+      "attendance": 78.0,
       "submit": 91.5
     },
     {
       "date": "11-03",
-      "attendance": 74.9,
+      "attendance": 76.5,
       "submit": 92.0
     },
     {
       "date": "11-04",
-      "attendance": 73.4,
+      "attendance": 75.0,
       "submit": 92.5
     },
     {
       "date": "11-05",
-      "attendance": 76.4,
-      "submit": 83.2
+      "attendance": 78.0,
+      "submit": 84.0
     }
   ],
   "lesson": {
-    "completion_rate": 60.2,
-    "called": 71,
+    "completion_rate": 67.8,
+    "called": 80,
     "total": 118,
-    "class_coverage": "29/29",
+    "class_coverage": "31/31",
     "teacher_count": 22,
     "uncovered_classes": [
-      "十年级 G21",
-      "十年级 G22",
-      "十二年级 A21",
-      "十一年级 AS2",
-      "化学9A(F26)",
-      "九年级 G12",
-      "十一年级 AS3",
+      "九年级 G11",
       "十一年级 AS1",
       "十二年级 A22",
+      "十年级 G21",
+      "十二年级 A21",
+      "十一年级 AS3",
+      "十年级 G22",
       "十年级 G23",
-      "九年级 G11"
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
@@ -2747,34 +2806,10 @@
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-123"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
         "subject": "艺术BC",
         "teacher": "",
         "time": "10:00-10:40",
         "location": ""
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-123"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:00-10:40",
-        "location": "LT3-123"
       },
       {
         "class": "十二年级 A22",
@@ -2835,34 +2870,10 @@
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-123"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
         "subject": "艺术BC",
         "teacher": "",
         "time": "10:50-11:30",
         "location": ""
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-123"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "生物",
-        "teacher": "张璐菲",
-        "time": "10:50-11:30",
-        "location": "LT3-123"
       },
       {
         "class": "十二年级 A21",
@@ -2943,30 +2954,6 @@
         "teacher": "",
         "time": "10:50-11:30",
         "location": ""
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
-      },
-      {
-        "class": "化学9A(F26)",
-        "class_id": 526214,
-        "subject": "化学",
-        "teacher": "张璐菲",
-        "time": "13:00-13:40",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
