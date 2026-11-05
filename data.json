@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 17:21",
+  "updated_at": "2026-11-05 17:31",
   "school": {
     "rate": 81.2,
     "present": 711,
@@ -2083,6 +2083,14 @@
       "location": ""
     },
     {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "英语第二语言听力",
+      "teacher": "王偲儿",
+      "time": "10:00-10:40",
+      "location": "LT3-107"
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "艺术BC",
@@ -2845,16 +2853,6 @@
       "location": "LT3-209",
       "called_at": "2026-11-05T10:08:03",
       "delay_min": 8
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "英语第二语言口语",
-      "teacher": "费楚淇",
-      "time": "10:00-10:40",
-      "location": "LT3-107",
-      "called_at": "2026-11-05T09:21:42",
-      "delay_min": -38
     },
     {
       "class": "十年级 G21",
@@ -3721,21 +3719,21 @@
     }
   ],
   "lesson": {
-    "completion_rate": 81.9,
-    "called": 131,
+    "completion_rate": 81.2,
+    "called": 130,
     "total": 160,
     "class_coverage": "48/48",
-    "teacher_count": 26,
+    "teacher_count": 25,
     "uncovered_classes": [
-      "十二年级 A21",
       "十一年级 AS1",
-      "十二年级 A22",
-      "十一年级 AS2",
+      "十二年级 A21",
+      "十一年级 AS3",
+      "十年级 G22",
+      "十年级 G23",
       "十年级 G21",
       "高数CR2(F26)",
-      "十一年级 AS3",
-      "十年级 G23",
-      "十年级 G22"
+      "十一年级 AS2",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -3817,6 +3815,14 @@
         "teacher": "",
         "time": "10:00-10:40",
         "location": ""
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "英语第二语言听力",
+        "teacher": "王偲儿",
+        "time": "10:00-10:40",
+        "location": "LT3-107"
       },
       {
         "class": "十一年级 AS1",
