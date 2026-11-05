@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-05 14:41",
+  "updated_at": "2026-11-05 14:45",
   "school": {
-    "rate": 79.5,
-    "present": 480,
-    "total": 604,
+    "rate": 80.5,
+    "present": 523,
+    "total": 650,
     "late": 18,
-    "absent": 124,
-    "leave": 71
+    "absent": 127,
+    "leave": 74
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 12,
+    "class_attention": 14,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -463,15 +463,15 @@
     {
       "name": "英语写作AQ3(F26)",
       "teacher": "贺珍谊",
-      "rate": 100.0,
-      "present_text": "11/11人次",
-      "present": 11,
+      "rate": 90.9,
+      "present_text": "10/11人次",
+      "present": 10,
       "total": 11,
-      "absent": 0,
+      "absent": 1,
       "late": 0,
       "early": 0,
-      "leave": 0,
-      "status": "正常",
+      "leave": 1,
+      "status": "关注",
       "time_spans": [
         "13:50-14:30"
       ]
@@ -493,6 +493,38 @@
       ]
     },
     {
+      "name": "英语听力阅读AQ2(F26)",
+      "teacher": "王伊",
+      "rate": 100.0,
+      "present_text": "9/9人次",
+      "present": 9,
+      "total": 9,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
+      "name": "英语听力阅读AQ3(F26)",
+      "teacher": "王伊",
+      "rate": 100.0,
+      "present_text": "11/11人次",
+      "present": 11,
+      "total": 11,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "英语听读写9A(F26)",
       "teacher": "瞿芬",
       "rate": 86.7,
@@ -506,6 +538,22 @@
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "语言艺术C0(F26)",
+      "teacher": "王伊",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -576,6 +624,22 @@
       ]
     },
     {
+      "name": "音乐AB(F26)",
+      "teacher": "刘知言",
+      "rate": 94.4,
+      "present_text": "17/18人次",
+      "present": 17,
+      "total": 18,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "14:40-15:20"
+      ]
+    },
+    {
       "name": "音乐BR2(F26)",
       "teacher": "刘知言",
       "rate": 66.7,
@@ -593,6 +657,44 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "贾牧荷",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026-11-05 14:30:00 至 2026-11-05 17:00:00  身体不适",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "英语写作AQ3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "音乐AB(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-05T14:45:17"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "代数C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "语言艺术C0(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-05T14:42:50"
+    },
     {
       "name": "赵倚菲",
       "class": "G21",
@@ -1091,23 +1193,6 @@
         }
       ],
       "updated_at": "2026-11-05T10:08:03"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "代数C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "代数C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-05T09:46:03"
     },
     {
       "name": "张熙露",
@@ -1811,28 +1896,12 @@
       "location": "LT3-111"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "13:00-13:40",
-      "location": "LT3-122"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "英语第二语言口语",
       "teacher": "Johannes van Baardewijk",
       "time": "13:00-13:40",
       "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "13:00-13:40",
-      "location": "LT3-122"
     },
     {
       "class": "十年级 G23",
@@ -1923,28 +1992,12 @@
       "location": "LT3-109"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "13:50-14:30",
-      "location": "LT3-111"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "英语第二语言口语",
       "teacher": "Johannes van Baardewijk",
       "time": "13:50-14:30",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言",
-      "teacher": "王伊",
-      "time": "13:50-14:30",
-      "location": "LT3-111"
     }
   ],
   "called_roll_call": [
@@ -2841,6 +2894,26 @@
     {
       "class": "十年级 G21",
       "class_id": 517698,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "13:00-13:40",
+      "location": "LT3-122",
+      "called_at": "2026-11-05T14:42:36",
+      "delay_min": 103
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "13:00-13:40",
+      "location": "LT3-122",
+      "called_at": "2026-11-05T14:42:36",
+      "delay_min": 103
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
       "subject": "英语第二语言写作",
       "teacher": "贺珍谊",
       "time": "13:00-13:40",
@@ -2931,12 +3004,32 @@
     {
       "class": "十年级 G21",
       "class_id": 517698,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "13:50-14:30",
+      "location": "LT3-111",
+      "called_at": "2026-11-05T14:42:44",
+      "delay_min": 53
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言",
+      "teacher": "王伊",
+      "time": "13:50-14:30",
+      "location": "LT3-111",
+      "called_at": "2026-11-05T14:42:44",
+      "delay_min": 53
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
       "subject": "英语第二语言写作",
       "teacher": "贺珍谊",
       "time": "13:50-14:30",
       "location": "LT3-122",
-      "called_at": "2026-11-05T14:33:32",
-      "delay_min": 44
+      "called_at": "2026-11-05T14:45:17",
+      "delay_min": 55
     },
     {
       "class": "十年级 G22",
@@ -2945,8 +3038,8 @@
       "teacher": "贺珍谊",
       "time": "13:50-14:30",
       "location": "LT3-122",
-      "called_at": "2026-11-05T14:33:32",
-      "delay_min": 44
+      "called_at": "2026-11-05T14:45:17",
+      "delay_min": 55
     },
     {
       "class": "十一年级 AS2",
@@ -3000,9 +3093,11 @@
     }
   ],
   "teacher_last_call": {
+    "王伊": "2026-11-05T14:42:50",
+    "刘知言": "2026-11-05T14:45:17",
     "潘丽": "2026-11-05T14:37:37",
     "赵亮": "2026-11-05T14:33:42",
-    "贺珍谊": "2026-11-05T14:33:32",
+    "贺珍谊": "2026-11-05T14:45:17",
     "郝畅": "2026-11-05T14:32:17",
     "张璐菲": "2026-11-05T14:21:23",
     "张小翼": "2026-11-05T14:03:51",
@@ -3011,7 +3106,6 @@
     "曹德娟": "2026-11-05T13:50:29",
     "米万宝": "2026-11-05T13:32:54",
     "曾靓": "2026-11-05T13:15:17",
-    "刘知言": "2026-11-05T13:04:05",
     "余震": "2026-11-05T12:32:44",
     "沈译宇": "2026-11-05T10:51:49",
     "余越利": "2026-11-05T10:50:01",
@@ -3022,57 +3116,57 @@
   "trend": [
     {
       "date": "10-30",
-      "attendance": 84.0,
+      "attendance": 85.0,
       "submit": 90.0
     },
     {
       "date": "10-31",
-      "attendance": 82.5,
+      "attendance": 83.5,
       "submit": 90.5
     },
     {
       "date": "11-01",
-      "attendance": 81.0,
+      "attendance": 82.0,
       "submit": 91.0
     },
     {
       "date": "11-02",
-      "attendance": 79.5,
+      "attendance": 80.5,
       "submit": 91.5
     },
     {
       "date": "11-03",
-      "attendance": 78.0,
+      "attendance": 79.0,
       "submit": 92.0
     },
     {
       "date": "11-04",
-      "attendance": 76.5,
+      "attendance": 77.5,
       "submit": 92.5
     },
     {
       "date": "11-05",
-      "attendance": 79.5,
-      "submit": 84.8
+      "attendance": 80.5,
+      "submit": 85.2
     }
   ],
   "lesson": {
-    "completion_rate": 68.3,
-    "called": 97,
+    "completion_rate": 71.1,
+    "called": 101,
     "total": 142,
-    "class_coverage": "35/35",
+    "class_coverage": "39/39",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十一年级 AS1",
+      "十年级 G22",
       "十一年级 AS3",
       "十年级 G21",
-      "十年级 G22",
+      "十二年级 A22",
       "十年级 G23",
+      "十二年级 A21",
+      "九年级 G11",
       "十一年级 AS2",
       "九年级 G12",
-      "九年级 G11",
-      "十二年级 A21"
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -3300,28 +3394,12 @@
         "location": "LT3-111"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "13:00-13:40",
-        "location": "LT3-122"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "英语第二语言口语",
         "teacher": "Johannes van Baardewijk",
         "time": "13:00-13:40",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "13:00-13:40",
-        "location": "LT3-122"
       },
       {
         "class": "十年级 G23",
@@ -3412,28 +3490,12 @@
         "location": "LT3-109"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "13:50-14:30",
-        "location": "LT3-111"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "英语第二语言口语",
         "teacher": "Johannes van Baardewijk",
         "time": "13:50-14:30",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言",
-        "teacher": "王伊",
-        "time": "13:50-14:30",
-        "location": "LT3-111"
       }
     ]
   }
