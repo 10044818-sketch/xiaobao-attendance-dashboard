@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-05 08:40",
+  "updated_at": "2026-11-05 08:45",
   "school": {
-    "rate": 66.7,
-    "present": 64,
-    "total": 96,
+    "rate": 62.8,
+    "present": 71,
+    "total": 113,
     "late": 1,
-    "absent": 32,
-    "leave": 13
+    "absent": 42,
+    "leave": 23
   },
   "summary": {
     "pending_yesterday": 0,
@@ -81,6 +81,22 @@
       ]
     },
     {
+      "name": "雅思BR2(F26)",
+      "teacher": "曹德娟",
+      "rate": 41.2,
+      "present_text": "7/17人次",
+      "present": 7,
+      "total": 17,
+      "absent": 10,
+      "late": 0,
+      "early": 0,
+      "leave": 10,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
       "name": "雅思CR2(F26)",
       "teacher": "费楚淇",
       "rate": 28.6,
@@ -98,6 +114,136 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "朱宸辰",
+      "class": "AS2",
+      "reason": "考中文",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:45:34"
+    },
+    {
+      "name": "赵倚珺",
+      "class": "AS2",
+      "reason": "考中文",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:45:34"
+    },
+    {
+      "name": "于泽轩",
+      "class": "AS2",
+      "reason": "考中文",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:45:34"
+    },
+    {
+      "name": "许馨文",
+      "class": "AS2",
+      "reason": "考中文",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:45:34"
+    },
+    {
+      "name": "汤雪儿",
+      "class": "AS2",
+      "reason": "考中文",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:45:34"
+    },
+    {
+      "name": "宋汉明",
+      "class": "AS2",
+      "reason": "考中文",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:45:34"
+    },
+    {
+      "name": "沈诗珈",
+      "class": "AS2",
+      "reason": "考中文",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:45:34"
+    },
+    {
+      "name": "刘建瑄",
+      "class": "AS2",
+      "reason": "考中文",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:45:34"
+    },
+    {
+      "name": "陈世棋",
+      "class": "AS2",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:45:34"
+    },
+    {
+      "name": "蔡雨涵",
+      "class": "AS2",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:45:34"
+    },
     {
       "name": "冯麟",
       "class": "AS1",
@@ -482,6 +628,7 @@
   "pending_roll_call": [],
   "called_roll_call": [],
   "teacher_last_call": {
+    "曹德娟": "2026-11-05T08:45:34",
     "余震": "2026-11-05T08:35:16",
     "费楚淇": "2026-11-05T08:35:48",
     "余越利": "2026-11-05T08:31:50",
@@ -491,45 +638,45 @@
   "trend": [
     {
       "date": "10-30",
-      "attendance": 71.2,
+      "attendance": 67.3,
       "submit": 90.0
     },
     {
       "date": "10-31",
-      "attendance": 69.7,
+      "attendance": 65.8,
       "submit": 90.5
     },
     {
       "date": "11-01",
-      "attendance": 68.2,
+      "attendance": 64.3,
       "submit": 91.0
     },
     {
       "date": "11-02",
-      "attendance": 66.7,
+      "attendance": 62.8,
       "submit": 91.5
     },
     {
       "date": "11-03",
-      "attendance": 65.2,
+      "attendance": 61.3,
       "submit": 92.0
     },
     {
       "date": "11-04",
-      "attendance": 63.7,
+      "attendance": 59.8,
       "submit": 92.5
     },
     {
       "date": "11-05",
-      "attendance": 66.7,
-      "submit": 78.3
+      "attendance": 62.8,
+      "submit": 76.4
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "5/5",
+    "class_coverage": "6/6",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
