@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-05 10:50",
+  "updated_at": "2026-11-05 10:55",
   "school": {
-    "rate": 73.6,
-    "present": 268,
-    "total": 364,
+    "rate": 74.0,
+    "present": 273,
+    "total": 369,
     "late": 14,
     "absent": 96,
-    "leave": 57
+    "leave": 56
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 7,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -35,15 +35,15 @@
     {
       "name": "体育9A(F26)",
       "teacher": "沈译宇",
-      "rate": 100.0,
-      "present_text": "15/15人次",
-      "present": 15,
+      "rate": 93.3,
+      "present_text": "14/15人次",
+      "present": 14,
       "total": 15,
-      "absent": 0,
+      "absent": 1,
       "late": 0,
       "early": 0,
-      "leave": 0,
-      "status": "正常",
+      "leave": 1,
+      "status": "关注",
       "time_spans": [
         "10:00-10:40"
       ]
@@ -206,7 +206,7 @@
       "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 1,
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
@@ -215,15 +215,15 @@
     {
       "name": "经济9A(F26)",
       "teacher": "郝畅",
-      "rate": 86.7,
-      "present_text": "13/15人次",
-      "present": 13,
+      "rate": 93.3,
+      "present_text": "14/15人次",
+      "present": 14,
       "total": 15,
-      "absent": 2,
+      "absent": 1,
       "late": 0,
       "early": 0,
-      "leave": 2,
-      "status": "异常",
+      "leave": 1,
+      "status": "关注",
       "time_spans": [
         "10:50-11:30"
       ]
@@ -249,32 +249,34 @@
       "name": "艺术BZ(F26)",
       "teacher": "朱嘉怡",
       "rate": 100.0,
-      "present_text": "2/2人次",
-      "present": 2,
-      "total": 2,
+      "present_text": "4/4人次",
+      "present": 4,
+      "total": 4,
       "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
       "name": "艺术CB(F26)",
       "teacher": "朱嘉怡",
       "rate": 100.0,
-      "present_text": "3/3人次",
-      "present": 3,
-      "total": 3,
+      "present_text": "6/6人次",
+      "present": 6,
+      "total": 6,
       "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -363,22 +365,9 @@
   ],
   "absent_students": [
     {
-      "name": "余天泽",
-      "class": "G12",
-      "reason": "已请假",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-05T10:50:48"
-    },
-    {
       "name": "翁瑾萱",
       "class": "G12",
-      "reason": "事假_【请假审批中】 2026/11/5 8:00:00 至 2026/11/5 17:00:00  身体不适，请假一天 ",
+      "reason": "事假_【已通过】 2026-11-05 08:00:00 至 2026-11-05 17:00:00  身体不适，请假一天",
       "type": "事假",
       "courses": [
         {
@@ -386,11 +375,74 @@
           "time": "08:20-09:00"
         },
         {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
           "course": "经济9A(F26)",
           "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-11-05T10:50:48"
+      "updated_at": "2026-11-05T10:53:04"
+    },
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/11/2 8:00:00 至 2026/11/6 15:30:00  看医生 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-05T10:51:45"
+    },
+    {
+      "name": "余天佑",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-05T10:51:45"
+    },
+    {
+      "name": "宋汉明",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思BR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-05T10:51:45"
     },
     {
       "name": "耿子涵",
@@ -505,61 +557,6 @@
         }
       ],
       "updated_at": "2026-11-05T10:06:39"
-    },
-    {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/11/2 8:00:00 至 2026/11/6 15:30:00  看医生 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "商科BZ(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-11-05T10:01:12"
-    },
-    {
-      "name": "余天佑",
-      "class": "AS3",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育BR3(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "商科BZ(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-11-05T10:01:12"
-    },
-    {
-      "name": "李晨瑞",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/11/5 8:00:00 至 2026/11/5 11:00:00  中文统考 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "体育BR3(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "商科BZ(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-11-05T10:01:12"
     },
     {
       "name": "江雨霏",
@@ -936,23 +933,6 @@
       "updated_at": "2026-11-05T09:15:07"
     },
     {
-      "name": "宋汉明",
-      "class": "AS2",
-      "reason": "考中文",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "雅思BR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思BR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-05T09:15:07"
-    },
-    {
       "name": "沈诗珈",
       "class": "AS2",
       "reason": "考中文",
@@ -1061,6 +1041,19 @@
     },
     {
       "name": "李锦怡",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/11/5 8:00:00 至 2026/11/5 11:00:00  中文统考 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "体育BR3(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-05T09:13:34"
+    },
+    {
+      "name": "李晨瑞",
       "class": "AS3",
       "reason": "事假_【已通过】 2026/11/5 8:00:00 至 2026/11/5 11:00:00  中文统考 ",
       "type": "事假",
@@ -1496,8 +1489,8 @@
       "teacher": "瞿芬",
       "time": "08:20-09:00",
       "location": "LT3-108",
-      "called_at": "2026-11-05T08:19:52",
-      "delay_min": 0
+      "called_at": "2026-11-05T10:51:49",
+      "delay_min": 152
     },
     {
       "class": "九年级 G12",
@@ -1506,8 +1499,8 @@
       "teacher": "瞿芬",
       "time": "08:20-09:00",
       "location": "LT3-108",
-      "called_at": "2026-11-05T08:19:52",
-      "delay_min": 0
+      "called_at": "2026-11-05T10:51:49",
+      "delay_min": 152
     },
     {
       "class": "十年级 G23",
@@ -1796,8 +1789,8 @@
       "teacher": "余震",
       "time": "10:00-10:40",
       "location": "LT3-121",
-      "called_at": "2026-11-05T10:01:12",
-      "delay_min": 1
+      "called_at": "2026-11-05T10:51:45",
+      "delay_min": 52
     },
     {
       "class": "十一年级 AS2",
@@ -1806,8 +1799,8 @@
       "teacher": "余震",
       "time": "10:00-10:40",
       "location": "LT3-121",
-      "called_at": "2026-11-05T10:01:12",
-      "delay_min": 1
+      "called_at": "2026-11-05T10:51:45",
+      "delay_min": 52
     },
     {
       "class": "十一年级 AS3",
@@ -1816,8 +1809,8 @@
       "teacher": "余震",
       "time": "10:00-10:40",
       "location": "LT3-121",
-      "called_at": "2026-11-05T10:01:12",
-      "delay_min": 1
+      "called_at": "2026-11-05T10:51:45",
+      "delay_min": 52
     },
     {
       "class": "九年级 G11",
@@ -1826,8 +1819,8 @@
       "teacher": "沈译宇",
       "time": "10:00-10:40",
       "location": "",
-      "called_at": "2026-11-05T10:00:02",
-      "delay_min": 0
+      "called_at": "2026-11-05T10:51:49",
+      "delay_min": 52
     },
     {
       "class": "九年级 G12",
@@ -1836,8 +1829,8 @@
       "teacher": "沈译宇",
       "time": "10:00-10:40",
       "location": "",
-      "called_at": "2026-11-05T10:00:02",
-      "delay_min": 0
+      "called_at": "2026-11-05T10:51:49",
+      "delay_min": 52
     },
     {
       "class": "十一年级 AS1",
@@ -1931,54 +1924,54 @@
     }
   ],
   "teacher_last_call": {
-    "郝畅": "2026-11-05T10:50:48",
-    "沈译宇": "2026-11-05T10:50:24",
+    "朱嘉怡": "2026-11-05T10:54:43",
+    "郝畅": "2026-11-05T10:53:04",
+    "沈译宇": "2026-11-05T10:51:49",
     "余越利": "2026-11-05T10:50:01",
-    "朱嘉怡": "2026-11-05T10:14:26",
     "袁西援": "2026-11-05T10:08:03",
     "米万宝": "2026-11-05T10:06:39",
-    "余震": "2026-11-05T10:01:12",
+    "余震": "2026-11-05T10:51:45",
     "张小翼": "2026-11-05T09:46:03",
     "费楚淇": "2026-11-05T09:33:12",
     "曹德娟": "2026-11-05T09:15:07",
     "贺珍谊": "2026-11-05T08:40:11",
-    "瞿芬": "2026-11-05T08:19:52"
+    "瞿芬": "2026-11-05T10:51:49"
   },
   "trend": [
     {
       "date": "10-30",
-      "attendance": 78.1,
+      "attendance": 78.5,
       "submit": 90.0
     },
     {
       "date": "10-31",
-      "attendance": 76.6,
+      "attendance": 77.0,
       "submit": 90.5
     },
     {
       "date": "11-01",
-      "attendance": 75.1,
+      "attendance": 75.5,
       "submit": 91.0
     },
     {
       "date": "11-02",
-      "attendance": 73.6,
+      "attendance": 74.0,
       "submit": 91.5
     },
     {
       "date": "11-03",
-      "attendance": 72.1,
+      "attendance": 72.5,
       "submit": 92.0
     },
     {
       "date": "11-04",
-      "attendance": 70.6,
+      "attendance": 71.0,
       "submit": 92.5
     },
     {
       "date": "11-05",
-      "attendance": 73.6,
-      "submit": 81.8
+      "attendance": 74.0,
+      "submit": 82.0
     }
   ],
   "lesson": {
@@ -1988,14 +1981,14 @@
     "class_coverage": "21/21",
     "teacher_count": 16,
     "uncovered_classes": [
-      "九年级 G12",
-      "十一年级 AS1",
+      "十二年级 A22",
       "十一年级 AS3",
+      "十一年级 AS1",
+      "十年级 G21",
       "九年级 G11",
       "十年级 G22",
-      "十一年级 AS2",
-      "十年级 G21",
-      "十二年级 A22"
+      "九年级 G12",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
