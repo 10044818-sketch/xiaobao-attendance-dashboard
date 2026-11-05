@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-05 13:11",
+  "updated_at": "2026-11-05 13:15",
   "school": {
-    "rate": 74.6,
-    "present": 317,
-    "total": 425,
+    "rate": 74.4,
+    "present": 325,
+    "total": 437,
     "late": 15,
-    "absent": 108,
+    "absent": 112,
     "leave": 63
   },
   "summary": {
@@ -214,6 +214,22 @@
       ]
     },
     {
+      "name": "物理CC(F26)",
+      "teacher": "曾靓",
+      "rate": 66.7,
+      "present_text": "8/12人次",
+      "present": 8,
+      "total": 12,
+      "absent": 4,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "经济9A(F26)",
       "teacher": "郝畅",
       "rate": 93.3,
@@ -413,6 +429,82 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "孟圆圆",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CC(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-05T13:15:17"
+    },
+    {
+      "name": "毛汝鑫",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-05T13:15:17"
+    },
+    {
+      "name": "董轶尘",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-05T13:15:17"
+    },
+    {
+      "name": "陈乐涵",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学CB(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "物理CC(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-05T13:15:17"
+    },
     {
       "name": "赵倚菲",
       "class": "G21",
@@ -729,23 +821,6 @@
       "updated_at": "2026-11-05T10:50:01"
     },
     {
-      "name": "陈乐涵",
-      "class": "A21",
-      "reason": "已请假",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "化学CB(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "化学CB(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-05T10:50:01"
-    },
-    {
       "name": "曾禹德",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -963,23 +1038,6 @@
       "updated_at": "2026-11-05T09:21:34"
     },
     {
-      "name": "毛汝鑫",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思CR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-05T09:21:34"
-    },
-    {
       "name": "姜懿",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -998,23 +1056,6 @@
     },
     {
       "name": "高子涵",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "雅思CR2(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-05T09:21:34"
-    },
-    {
-      "name": "董轶尘",
       "class": "A22",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
@@ -2271,6 +2312,7 @@
     }
   ],
   "teacher_last_call": {
+    "曾靓": "2026-11-05T13:15:17",
     "贺珍谊": "2026-11-05T13:09:43",
     "朱嘉怡": "2026-11-05T13:06:48",
     "刘知言": "2026-11-05T13:04:05",
@@ -2288,58 +2330,58 @@
   "trend": [
     {
       "date": "10-30",
-      "attendance": 79.1,
+      "attendance": 78.9,
       "submit": 90.0
     },
     {
       "date": "10-31",
-      "attendance": 77.6,
+      "attendance": 77.4,
       "submit": 90.5
     },
     {
       "date": "11-01",
-      "attendance": 76.1,
+      "attendance": 75.9,
       "submit": 91.0
     },
     {
       "date": "11-02",
-      "attendance": 74.6,
+      "attendance": 74.4,
       "submit": 91.5
     },
     {
       "date": "11-03",
-      "attendance": 73.1,
+      "attendance": 72.9,
       "submit": 92.0
     },
     {
       "date": "11-04",
-      "attendance": 71.6,
+      "attendance": 71.4,
       "submit": 92.5
     },
     {
       "date": "11-05",
-      "attendance": 74.6,
-      "submit": 82.3
+      "attendance": 74.4,
+      "submit": 82.2
     }
   ],
   "lesson": {
     "completion_rate": 60.8,
     "called": 59,
     "total": 97,
-    "class_coverage": "24/24",
+    "class_coverage": "25/25",
     "teacher_count": 17,
     "uncovered_classes": [
-      "十一年级 AS1",
       "十年级 G22",
-      "十年级 G23",
-      "十年级 G21",
-      "十二年级 A21",
       "化学BZ(F26)",
-      "九年级 G12",
+      "十一年级 AS3",
+      "十二年级 A21",
+      "十年级 G23",
       "九年级 G11",
-      "十二年级 A22",
       "十一年级 AS2",
-      "十一年级 AS3"
+      "十二年级 A22",
+      "十年级 G21",
+      "九年级 G12",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
