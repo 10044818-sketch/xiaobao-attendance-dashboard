@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-05 17:05",
+  "updated_at": "2026-11-05 17:11",
   "school": {
-    "rate": 81.0,
-    "present": 697,
-    "total": 861,
+    "rate": 81.2,
+    "present": 711,
+    "total": 876,
     "late": 18,
-    "absent": 164,
-    "leave": 104
+    "absent": 165,
+    "leave": 105
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 15,
+    "class_attention": 16,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -312,6 +312,22 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "物理9A(F26)",
+      "teacher": "职梦凡",
+      "rate": 93.3,
+      "present_text": "14/15人次",
+      "present": 14,
+      "total": 15,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -794,6 +810,43 @@
   ],
   "absent_students": [
     {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/11/5 8:00:00 至 2026/11/5 17:00:00  身体不适，请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "化学9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "化学9A(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-05T17:07:02"
+    },
+    {
       "name": "张熙露",
       "class": "G22",
       "reason": "当日缺课且无请假单",
@@ -875,39 +928,6 @@
         }
       ],
       "updated_at": "2026-11-05T16:41:11"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "事假_【已通过】 2026/11/5 8:00:00 至 2026/11/5 17:00:00  身体不适，请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "化学9A(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "化学9A(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-11-05T16:40:41"
     },
     {
       "name": "黄子瑄",
@@ -2133,22 +2153,6 @@
       "teacher": "瞿芬",
       "time": "13:50-14:30",
       "location": "LT3-209"
-    },
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "14:40-15:20",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "14:40-15:20",
-      "location": "LT3-108"
     },
     {
       "class": "十一年级 AS1",
@@ -3591,6 +3595,26 @@
       "delay_min": 3
     },
     {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "14:40-15:20",
+      "location": "LT3-108",
+      "called_at": "2026-11-05T17:07:02",
+      "delay_min": 147
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "14:40-15:20",
+      "location": "LT3-108",
+      "called_at": "2026-11-05T17:07:02",
+      "delay_min": 147
+    },
+    {
       "class": "十一年级 AS2",
       "class_id": 442960,
       "subject": "经济学",
@@ -3642,6 +3666,7 @@
     }
   ],
   "teacher_last_call": {
+    "职梦凡": "2026-11-05T17:07:02",
     "杨燕霖": "2026-11-05T16:44:40",
     "瞿芬": "2026-11-05T16:41:11",
     "钱嘉音": "2026-11-05T16:31:14",
@@ -3669,58 +3694,56 @@
   "trend": [
     {
       "date": "10-30",
-      "attendance": 85.5,
+      "attendance": 85.7,
       "submit": 90.0
     },
     {
       "date": "10-31",
-      "attendance": 84.0,
+      "attendance": 84.2,
       "submit": 90.5
     },
     {
       "date": "11-01",
-      "attendance": 82.5,
+      "attendance": 82.7,
       "submit": 91.0
     },
     {
       "date": "11-02",
-      "attendance": 81.0,
+      "attendance": 81.2,
       "submit": 91.5
     },
     {
       "date": "11-03",
-      "attendance": 79.5,
+      "attendance": 79.7,
       "submit": 92.0
     },
     {
       "date": "11-04",
-      "attendance": 78.0,
+      "attendance": 78.2,
       "submit": 92.5
     },
     {
       "date": "11-05",
-      "attendance": 81.0,
-      "submit": 85.5
+      "attendance": 81.2,
+      "submit": 85.6
     }
   ],
   "lesson": {
-    "completion_rate": 83.1,
-    "called": 133,
+    "completion_rate": 84.4,
+    "called": 135,
     "total": 160,
-    "class_coverage": "47/47",
+    "class_coverage": "48/48",
     "teacher_count": 25,
     "uncovered_classes": [
-      "九年级 G12",
-      "十年级 G22",
-      "十二年级 A22",
-      "九年级 G11",
-      "十一年级 AS1",
+      "十二年级 A21",
+      "十年级 G21",
       "高数CR2(F26)",
-      "十年级 G23",
       "十一年级 AS3",
       "十一年级 AS2",
-      "十二年级 A21",
-      "十年级 G21"
+      "十年级 G22",
+      "十年级 G23",
+      "十一年级 AS1",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -3874,22 +3897,6 @@
         "teacher": "瞿芬",
         "time": "13:50-14:30",
         "location": "LT3-209"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "14:40-15:20",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "14:40-15:20",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
