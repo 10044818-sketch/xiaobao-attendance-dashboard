@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-05 08:51",
+  "updated_at": "2026-11-05 08:55",
   "school": {
-    "rate": 62.8,
-    "present": 76,
-    "total": 121,
-    "late": 1,
-    "absent": 45,
+    "rate": 64.2,
+    "present": 79,
+    "total": 123,
+    "late": 2,
+    "absent": 44,
     "leave": 24
   },
   "summary": {
@@ -64,6 +64,22 @@
       ]
     },
     {
+      "name": "艺术AA(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
       "name": "英语听读写9A(F26)",
       "teacher": "瞿芬",
       "rate": 86.7,
@@ -115,12 +131,12 @@
     {
       "name": "雅思CR2(F26)",
       "teacher": "费楚淇",
-      "rate": 28.6,
-      "present_text": "6/21人次",
-      "present": 6,
+      "rate": 33.3,
+      "present_text": "7/21人次",
+      "present": 7,
       "total": 21,
-      "absent": 15,
-      "late": 1,
+      "absent": 14,
+      "late": 2,
       "early": 0,
       "leave": 1,
       "status": "异常",
@@ -130,6 +146,188 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "栾雨乔",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "谌鑫亿",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "俞玥",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "徐悦栋",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "徐铭哲",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "王麒鸣",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/11/5 8:00:00 至 2026/11/5 10:00:00  备考 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "毛汝鑫",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "姜懿",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "华晟皓",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "高子涵",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
+    {
+      "name": "董轶尘",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-05T08:52:31"
+    },
     {
       "name": "茆睿恺",
       "class": "A22",
@@ -334,201 +532,6 @@
       "updated_at": "2026-11-05T08:39:39"
     },
     {
-      "name": "栾雨乔",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "谌鑫亿",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "张翰霆",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "俞玥",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "徐悦栋",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "徐铭哲",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "王麒鸣",
-      "class": "A21",
-      "reason": "事假_【已通过】 2026/11/5 8:00:00 至 2026/11/5 10:00:00  备考 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "王子天",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "汤二璨",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "毛汝鑫",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "姜懿",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "姜亦程",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "华晟皓",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "高子涵",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
-      "name": "董轶尘",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思CR2(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-05T08:35:48"
-    },
-    {
       "name": "郭淑君",
       "class": "G21",
       "reason": "当日缺课且无请假单",
@@ -683,10 +686,11 @@
   "pending_roll_call": [],
   "called_roll_call": [],
   "teacher_last_call": {
+    "朱嘉怡": "2026-11-05T08:55:43",
     "张小翼": "2026-11-05T08:51:30",
     "曹德娟": "2026-11-05T08:45:34",
     "余震": "2026-11-05T08:35:16",
-    "费楚淇": "2026-11-05T08:35:48",
+    "费楚淇": "2026-11-05T08:52:31",
     "余越利": "2026-11-05T08:31:50",
     "贺珍谊": "2026-11-05T08:40:11",
     "瞿芬": "2026-11-05T08:19:52"
@@ -694,45 +698,45 @@
   "trend": [
     {
       "date": "10-30",
-      "attendance": 67.3,
+      "attendance": 68.7,
       "submit": 90.0
     },
     {
       "date": "10-31",
-      "attendance": 65.8,
+      "attendance": 67.2,
       "submit": 90.5
     },
     {
       "date": "11-01",
-      "attendance": 64.3,
+      "attendance": 65.7,
       "submit": 91.0
     },
     {
       "date": "11-02",
-      "attendance": 62.8,
+      "attendance": 64.2,
       "submit": 91.5
     },
     {
       "date": "11-03",
-      "attendance": 61.3,
+      "attendance": 62.7,
       "submit": 92.0
     },
     {
       "date": "11-04",
-      "attendance": 59.8,
+      "attendance": 61.2,
       "submit": 92.5
     },
     {
       "date": "11-05",
-      "attendance": 62.8,
-      "submit": 76.4
+      "attendance": 64.2,
+      "submit": 77.1
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "7/7",
+    "class_coverage": "8/8",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
