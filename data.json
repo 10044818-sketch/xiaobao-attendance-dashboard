@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-05 10:10",
+  "updated_at": "2026-11-05 10:16",
   "school": {
-    "rate": 71.3,
-    "present": 221,
-    "total": 310,
+    "rate": 71.7,
+    "present": 226,
+    "total": 315,
     "late": 4,
     "absent": 89,
     "leave": 52
@@ -178,6 +178,38 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
+      "name": "艺术CB(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "3/3人次",
+      "present": 3,
+      "total": 3,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40"
       ]
     },
     {
@@ -1530,12 +1562,12 @@
     }
   ],
   "teacher_last_call": {
+    "朱嘉怡": "2026-11-05T10:14:26",
     "袁西援": "2026-11-05T10:08:03",
     "米万宝": "2026-11-05T10:06:39",
     "余震": "2026-11-05T10:01:12",
     "沈译宇": "2026-11-05T10:00:02",
     "余越利": "2026-11-05T09:36:06",
-    "朱嘉怡": "2026-11-05T09:33:06",
     "张小翼": "2026-11-05T09:46:03",
     "费楚淇": "2026-11-05T09:33:12",
     "曹德娟": "2026-11-05T09:15:07",
@@ -1545,53 +1577,53 @@
   "trend": [
     {
       "date": "10-30",
-      "attendance": 75.8,
+      "attendance": 76.2,
       "submit": 90.0
     },
     {
       "date": "10-31",
-      "attendance": 74.3,
+      "attendance": 74.7,
       "submit": 90.5
     },
     {
       "date": "11-01",
-      "attendance": 72.8,
+      "attendance": 73.2,
       "submit": 91.0
     },
     {
       "date": "11-02",
-      "attendance": 71.3,
+      "attendance": 71.7,
       "submit": 91.5
     },
     {
       "date": "11-03",
-      "attendance": 69.8,
+      "attendance": 70.2,
       "submit": 92.0
     },
     {
       "date": "11-04",
-      "attendance": 68.3,
+      "attendance": 68.7,
       "submit": 92.5
     },
     {
       "date": "11-05",
-      "attendance": 71.3,
-      "submit": 80.7
+      "attendance": 71.7,
+      "submit": 80.8
     }
   ],
   "lesson": {
     "completion_rate": 81.0,
     "called": 34,
     "total": 42,
-    "class_coverage": "15/15",
+    "class_coverage": "17/17",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十一年级 AS1",
       "十一年级 AS3",
-      "十年级 G21",
-      "九年级 G11",
+      "九年级 G12",
       "十年级 G22",
-      "九年级 G12"
+      "九年级 G11",
+      "十一年级 AS1",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
