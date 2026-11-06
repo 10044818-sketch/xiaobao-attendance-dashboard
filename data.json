@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-06 13:40",
+  "updated_at": "2026-11-06 13:45",
   "school": {
-    "rate": 85.5,
-    "present": 376,
-    "total": 440,
+    "rate": 85.7,
+    "present": 394,
+    "total": 460,
     "late": 10,
-    "absent": 64,
-    "leave": 39
+    "absent": 66,
+    "leave": 41
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 6,
+    "class_attention": 7,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -94,6 +94,23 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "商科BZ(F26)",
+      "teacher": "余震",
+      "rate": 90.0,
+      "present_text": "18/20人次",
+      "present": 18,
+      "total": 20,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -444,6 +461,39 @@
   ],
   "absent_students": [
     {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/11/2 8:00:00 至 2026/11/6 15:30:00  看医生 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育BR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-11-06T13:43:34"
+    },
+    {
       "name": "洪若玲",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -668,31 +718,6 @@
       "reason": "事假_【已通过】 2026/11/6 8:00:00 至 2026/11/6 17:00:00  赶回家 ",
       "type": "事假",
       "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育BR1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-06T10:55:33"
-    },
-    {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/11/2 8:00:00 至 2026/11/6 15:30:00  看医生 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "09:10-09:50"
-        },
         {
           "course": "数学BQ1(F26)",
           "time": "10:00-10:40"
@@ -1122,14 +1147,6 @@
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "13:00-13:40",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
       "subject": "化学",
       "teacher": "米万宝",
       "time": "13:00-13:40",
@@ -1154,14 +1171,6 @@
     {
       "class": "十一年级 AS2",
       "class_id": 442960,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "13:00-13:40",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
       "subject": "化学",
       "teacher": "米万宝",
       "time": "13:00-13:40",
@@ -1174,14 +1183,6 @@
       "teacher": "张璐菲",
       "time": "13:00-13:40",
       "location": "LT3-123"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "商科",
-      "teacher": "余震",
-      "time": "13:00-13:40",
-      "location": "LT3-121"
     },
     {
       "class": "十一年级 AS3",
@@ -1840,6 +1841,36 @@
       "delay_min": 6
     },
     {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "13:00-13:40",
+      "location": "LT3-121",
+      "called_at": "2026-11-06T13:43:31",
+      "delay_min": 44
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "13:00-13:40",
+      "location": "LT3-121",
+      "called_at": "2026-11-06T13:43:31",
+      "delay_min": 44
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "13:00-13:40",
+      "location": "LT3-121",
+      "called_at": "2026-11-06T13:43:31",
+      "delay_min": 44
+    },
+    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "音乐",
@@ -1881,6 +1912,7 @@
     }
   ],
   "teacher_last_call": {
+    "余震": "2026-11-06T13:43:34",
     "朱嘉怡": "2026-11-06T13:15:13",
     "贺珍谊": "2026-11-06T13:08:58",
     "刘晨璐": "2026-11-06T13:05:36",
@@ -1892,7 +1924,6 @@
     "曹德娟": "2026-11-06T10:50:37",
     "王肇君": "2026-11-06T10:49:31",
     "杨燕霖": "2026-11-06T10:26:30",
-    "余震": "2026-11-06T10:01:36",
     "米万宝": "2026-11-06T09:54:51",
     "王偲儿": "2026-11-06T09:20:41",
     "李昊骏": "2026-11-06T09:40:07",
@@ -1902,60 +1933,60 @@
   "trend": [
     {
       "date": "10-31",
-      "attendance": 90.0,
+      "attendance": 90.2,
       "submit": 90.0
     },
     {
       "date": "11-01",
-      "attendance": 88.5,
+      "attendance": 88.7,
       "submit": 90.5
     },
     {
       "date": "11-02",
-      "attendance": 87.0,
+      "attendance": 87.2,
       "submit": 91.0
     },
     {
       "date": "11-03",
-      "attendance": 85.5,
+      "attendance": 85.7,
       "submit": 91.5
     },
     {
       "date": "11-04",
-      "attendance": 84.0,
+      "attendance": 84.2,
       "submit": 92.0
     },
     {
       "date": "11-05",
-      "attendance": 82.5,
+      "attendance": 82.7,
       "submit": 92.5
     },
     {
       "date": "11-06",
-      "attendance": 85.5,
+      "attendance": 85.7,
       "submit": 87.8
     }
   ],
   "lesson": {
-    "completion_rate": 57.3,
-    "called": 59,
+    "completion_rate": 60.2,
+    "called": 62,
     "total": 103,
-    "class_coverage": "26/26",
+    "class_coverage": "27/27",
     "teacher_count": 26,
     "uncovered_classes": [
       "十年级 G23",
-      "九年级 G11",
-      "化学CB(F26)",
-      "化学BZ(F26)",
-      "十年级 G22",
-      "十二年级 A21",
-      "高数CR2(F26)",
-      "九年级 G12",
       "十一年级 AS2",
+      "化学BZ(F26)",
+      "十二年级 A21",
+      "九年级 G11",
+      "高数CR2(F26)",
+      "化学CB(F26)",
+      "十年级 G22",
+      "九年级 G12",
       "十一年级 AS1",
-      "十一年级 AS3",
       "十二年级 A22",
-      "十年级 G21"
+      "十年级 G21",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -2145,14 +2176,6 @@
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "13:00-13:40",
-        "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
         "subject": "化学",
         "teacher": "米万宝",
         "time": "13:00-13:40",
@@ -2177,14 +2200,6 @@
       {
         "class": "十一年级 AS2",
         "class_id": 442960,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "13:00-13:40",
-        "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
         "subject": "化学",
         "teacher": "米万宝",
         "time": "13:00-13:40",
@@ -2197,14 +2212,6 @@
         "teacher": "张璐菲",
         "time": "13:00-13:40",
         "location": "LT3-123"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "商科",
-        "teacher": "余震",
-        "time": "13:00-13:40",
-        "location": "LT3-121"
       },
       {
         "class": "十一年级 AS3",
