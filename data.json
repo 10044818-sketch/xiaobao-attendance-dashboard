@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-06 09:01",
+  "updated_at": "2026-11-06 09:05",
   "school": {
-    "rate": 86.5,
-    "present": 32,
-    "total": 37,
+    "rate": 93.2,
+    "present": 68,
+    "total": 73,
     "late": 1,
     "absent": 5,
     "leave": 4
@@ -29,6 +29,23 @@
       "status": "异常",
       "time_spans": [
         "08:20-09:00"
+      ]
+    },
+    {
+      "name": "物理AX(F26)",
+      "teacher": "熊辉",
+      "rate": 100.0,
+      "present_text": "36/36人次",
+      "present": 36,
+      "total": 36,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -219,14 +236,6 @@
       "teacher": "职梦凡",
       "time": "08:20-09:00",
       "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "物理",
-      "teacher": "熊辉",
-      "time": "08:20-09:00",
-      "location": "LT3-109"
     }
   ],
   "called_roll_call": [
@@ -249,6 +258,16 @@
       "location": "LT3-209",
       "called_at": "2026-11-06T08:20:25",
       "delay_min": 0
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "物理",
+      "teacher": "熊辉",
+      "time": "08:20-09:00",
+      "location": "LT3-109",
+      "called_at": "2026-11-06T09:02:38",
+      "delay_min": 43
     },
     {
       "class": "十年级 G23",
@@ -302,6 +321,7 @@
     }
   ],
   "teacher_last_call": {
+    "熊辉": "2026-11-06T09:02:45",
     "王偲儿": "2026-11-06T09:01:12",
     "米万宝": "2026-11-06T08:22:47",
     "刘知言": "2026-11-06T08:20:25"
@@ -309,56 +329,55 @@
   "trend": [
     {
       "date": "10-31",
-      "attendance": 91.0,
+      "attendance": 97.7,
       "submit": 90.0
     },
     {
       "date": "11-01",
-      "attendance": 89.5,
+      "attendance": 96.2,
       "submit": 90.5
     },
     {
       "date": "11-02",
-      "attendance": 88.0,
+      "attendance": 94.7,
       "submit": 91.0
     },
     {
       "date": "11-03",
-      "attendance": 86.5,
+      "attendance": 93.2,
       "submit": 91.5
     },
     {
       "date": "11-04",
-      "attendance": 85.0,
+      "attendance": 91.7,
       "submit": 92.0
     },
     {
       "date": "11-05",
-      "attendance": 83.5,
+      "attendance": 90.2,
       "submit": 92.5
     },
     {
       "date": "11-06",
-      "attendance": 86.5,
-      "submit": 88.2
+      "attendance": 93.2,
+      "submit": 91.6
     }
   ],
   "lesson": {
-    "completion_rate": 36.8,
-    "called": 7,
+    "completion_rate": 42.1,
+    "called": 8,
     "total": 19,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 10,
     "uncovered_classes": [
       "九年级 G11",
-      "十一年级 AS1",
-      "十年级 G21",
-      "九年级 G12",
+      "十一年级 AS2",
       "十二年级 A21",
       "十一年级 AS3",
-      "十年级 G22",
       "十二年级 A22",
-      "十一年级 AS2"
+      "九年级 G12",
+      "十一年级 AS1",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -448,14 +467,6 @@
         "teacher": "职梦凡",
         "time": "08:20-09:00",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "物理",
-        "teacher": "熊辉",
-        "time": "08:20-09:00",
-        "location": "LT3-109"
       }
     ]
   }
