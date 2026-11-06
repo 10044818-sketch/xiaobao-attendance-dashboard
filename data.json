@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-06 12:55",
+  "updated_at": "2026-11-06 13:01",
   "school": {
-    "rate": 85.5,
-    "present": 312,
-    "total": 365,
+    "rate": 85.8,
+    "present": 338,
+    "total": 394,
     "late": 7,
-    "absent": 53,
-    "leave": 35
+    "absent": 56,
+    "leave": 37
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -329,6 +329,38 @@
       ]
     },
     {
+      "name": "音乐9A(F26)",
+      "teacher": "刘知言",
+      "rate": 93.3,
+      "present_text": "14/15人次",
+      "present": 14,
+      "total": 15,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
+      "name": "音乐A0(F26)",
+      "teacher": "刘知言",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "音乐C0(F26)",
       "teacher": "刘知言",
       "rate": 75.0,
@@ -347,6 +379,65 @@
   ],
   "absent_students": [
     {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/11/6 8:00:00 至 2026/11/6 16:30:00  身体不适，请假一天 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-06T12:59:54"
+    },
+    {
+      "name": "雷雯",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐A0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-06T12:57:53"
+    },
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "病假_【已通过】 2026/11/2 8:00:00 至 2026/11/6 15:00:00  请假 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "英语听力A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语听力A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐A0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-06T12:57:53"
+    },
+    {
       "name": "郭淑君",
       "class": "G21",
       "reason": "事假_【已通过】 2026/11/6 8:00:00 至 2026/11/6 16:00:00  不舒服 ",
@@ -362,23 +453,6 @@
         }
       ],
       "updated_at": "2026-11-06T11:28:12"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "事假_【已通过】 2026/11/6 8:00:00 至 2026/11/6 16:30:00  身体不适，请假一天 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-06T10:55:40"
     },
     {
       "name": "朱景璇",
@@ -628,27 +702,6 @@
         }
       ],
       "updated_at": "2026-11-06T10:04:22"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "病假_【已通过】 2026/11/2 8:00:00 至 2026/11/6 15:00:00  请假 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "英语听力A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语听力A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育A0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-11-06T10:04:21"
     },
     {
       "name": "岳沐辰",
@@ -966,14 +1019,6 @@
       "teacher": "曾靓",
       "time": "10:50-11:30",
       "location": "LT3-206"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "音乐",
-      "teacher": "刘知言",
-      "time": "10:50-11:30",
-      "location": "LT3-107"
     }
   ],
   "called_roll_call": [
@@ -1358,6 +1403,16 @@
       "delay_min": -48
     },
     {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "音乐",
+      "teacher": "刘知言",
+      "time": "10:50-11:30",
+      "location": "LT3-107",
+      "called_at": "2026-11-06T12:57:53",
+      "delay_min": 128
+    },
+    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "经济学",
@@ -1479,6 +1534,7 @@
     }
   ],
   "teacher_last_call": {
+    "刘知言": "2026-11-06T12:59:54",
     "孙鹏": "2026-11-06T11:28:12",
     "郝畅": "2026-11-06T10:55:40",
     "沈译宇": "2026-11-06T10:55:33",
@@ -1492,62 +1548,61 @@
     "王偲儿": "2026-11-06T09:20:41",
     "李昊骏": "2026-11-06T09:40:07",
     "魏刘伟": "2026-11-06T09:10:15",
-    "熊辉": "2026-11-06T09:02:45",
-    "刘知言": "2026-11-06T09:40:07"
+    "熊辉": "2026-11-06T09:02:45"
   },
   "trend": [
     {
       "date": "10-31",
-      "attendance": 90.0,
+      "attendance": 90.3,
       "submit": 90.0
     },
     {
       "date": "11-01",
-      "attendance": 88.5,
+      "attendance": 88.8,
       "submit": 90.5
     },
     {
       "date": "11-02",
-      "attendance": 87.0,
+      "attendance": 87.3,
       "submit": 91.0
     },
     {
       "date": "11-03",
-      "attendance": 85.5,
+      "attendance": 85.8,
       "submit": 91.5
     },
     {
       "date": "11-04",
-      "attendance": 84.0,
+      "attendance": 84.3,
       "submit": 92.0
     },
     {
       "date": "11-05",
-      "attendance": 82.5,
+      "attendance": 82.8,
       "submit": 92.5
     },
     {
       "date": "11-06",
-      "attendance": 85.5,
-      "submit": 87.8
+      "attendance": 85.8,
+      "submit": 87.9
     }
   ],
   "lesson": {
-    "completion_rate": 65.8,
-    "called": 50,
+    "completion_rate": 67.1,
+    "called": 51,
     "total": 76,
-    "class_coverage": "20/20",
+    "class_coverage": "22/22",
     "teacher_count": 21,
     "uncovered_classes": [
-      "高数CR2(F26)",
       "十一年级 AS1",
-      "十一年级 AS3",
-      "十一年级 AS2",
-      "九年级 G11",
+      "高数CR2(F26)",
+      "九年级 G12",
       "十二年级 A21",
       "十二年级 A22",
       "十年级 G21",
-      "九年级 G12",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "九年级 G11",
       "十年级 G23"
     ],
     "uncovered_teachers": [
@@ -1750,14 +1805,6 @@
         "teacher": "曾靓",
         "time": "10:50-11:30",
         "location": "LT3-206"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "音乐",
-        "teacher": "刘知言",
-        "time": "10:50-11:30",
-        "location": "LT3-107"
       }
     ]
   }
