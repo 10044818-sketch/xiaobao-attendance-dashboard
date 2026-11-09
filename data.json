@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 15:15",
+  "updated_at": "2026-11-09 15:21",
   "school": {
     "rate": 93.9,
     "present": 169,
@@ -1075,6 +1075,166 @@
       "teacher": "熊辉",
       "time": "13:50-14:30",
       "location": "LT3-109"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "14:40-15:20",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "14:40-15:20",
+      "location": "LT3-108"
+    },
+    {
+      "class": "化学9A(F26)",
+      "class_id": 526214,
+      "subject": "化学",
+      "teacher": "张璐菲",
+      "time": "14:40-15:20",
+      "location": "LT3-108"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "14:40-15:20",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "14:40-15:20",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "14:40-15:20",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "物理",
+      "teacher": "魏刘伟",
+      "time": "14:40-15:20",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "经济学",
+      "teacher": "郝畅",
+      "time": "14:40-15:20",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "14:40-15:20",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "14:40-15:20",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思英语",
+      "teacher": "钱嘉音",
+      "time": "14:40-15:20",
+      "location": "LT3-206"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "14:40-15:20",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "杨燕霖",
+      "time": "14:40-15:20",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "14:40-15:20",
+      "location": "LT3-122"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "14:40-15:20",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "杨燕霖",
+      "time": "14:40-15:20",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "14:40-15:20",
+      "location": "LT3-122"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "音乐",
+      "teacher": "刘知言",
+      "time": "14:40-15:20",
+      "location": "LT3-107"
     }
   ],
   "called_roll_call": [
@@ -1247,6 +1407,26 @@
       "location": "LT3-107",
       "called_at": "2026-11-09T13:31:37",
       "delay_min": -18
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思写作口语",
+      "teacher": "曹德娟",
+      "time": "14:40-15:20",
+      "location": "LT3-209",
+      "called_at": "2026-11-09T13:31:40",
+      "delay_min": -68
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思写作口语",
+      "teacher": "曹德娟",
+      "time": "14:40-15:20",
+      "location": "LT3-209",
+      "called_at": "2026-11-09T13:31:40",
+      "delay_min": -68
     }
   ],
   "teacher_last_call": {
@@ -1294,24 +1474,25 @@
     }
   ],
   "lesson": {
-    "completion_rate": 15.3,
-    "called": 17,
-    "total": 111,
+    "completion_rate": 14.3,
+    "called": 19,
+    "total": 133,
     "class_coverage": "11/11",
-    "teacher_count": 24,
+    "teacher_count": 27,
     "uncovered_classes": [
-      "十年级 G23",
+      "十一年级 AS3",
       "高数CR2(F26)",
-      "十年级 G21",
-      "十二年级 A21",
-      "十二年级 A22",
-      "九年级 G12",
-      "九年级 G11",
-      "十一年级 AS2",
-      "十一年级 AS1",
-      "化学BY(F26)",
       "十年级 G22",
-      "十一年级 AS3"
+      "十年级 G23",
+      "化学BY(F26)",
+      "化学9A(F26)",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十一年级 AS2",
+      "九年级 G12",
+      "十年级 G21",
+      "十二年级 A22",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
@@ -2065,6 +2246,166 @@
         "teacher": "熊辉",
         "time": "13:50-14:30",
         "location": "LT3-109"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "化学",
+        "teacher": "张璐菲",
+        "time": "14:40-15:20",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "化学",
+        "teacher": "张璐菲",
+        "time": "14:40-15:20",
+        "location": "LT3-108"
+      },
+      {
+        "class": "化学9A(F26)",
+        "class_id": 526214,
+        "subject": "化学",
+        "teacher": "张璐菲",
+        "time": "14:40-15:20",
+        "location": "LT3-108"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "物理",
+        "teacher": "魏刘伟",
+        "time": "14:40-15:20",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "14:40-15:20",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "物理",
+        "teacher": "魏刘伟",
+        "time": "14:40-15:20",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "14:40-15:20",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "14:40-15:20",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "物理",
+        "teacher": "魏刘伟",
+        "time": "14:40-15:20",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "经济学",
+        "teacher": "郝畅",
+        "time": "14:40-15:20",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "14:40-15:20",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十二年级 A21",
+        "class_id": 366030,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "14:40-15:20",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "雅思英语",
+        "teacher": "钱嘉音",
+        "time": "14:40-15:20",
+        "location": "LT3-206"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "潘丽",
+        "time": "14:40-15:20",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "杨燕霖",
+        "time": "14:40-15:20",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "14:40-15:20",
+        "location": "LT3-122"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "潘丽",
+        "time": "14:40-15:20",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "杨燕霖",
+        "time": "14:40-15:20",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "14:40-15:20",
+        "location": "LT3-122"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "音乐",
+        "teacher": "刘知言",
+        "time": "14:40-15:20",
+        "location": "LT3-107"
       }
     ]
   }
