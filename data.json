@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-09 10:10",
+  "updated_at": "2026-11-09 10:15",
   "school": {
-    "rate": 87.7,
-    "present": 64,
+    "rate": 95.9,
+    "present": 70,
     "total": 73,
     "late": 0,
-    "absent": 9,
+    "absent": 3,
     "leave": 2
   },
   "summary": {
@@ -51,15 +51,15 @@
     {
       "name": "经济AY(F26)",
       "teacher": "孙鹏",
-      "rate": 78.6,
-      "present_text": "22/28人次",
-      "present": 22,
+      "rate": 100.0,
+      "present_text": "28/28人次",
+      "present": 28,
       "total": 28,
-      "absent": 6,
+      "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
-      "status": "异常",
+      "status": "正常",
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
@@ -67,57 +67,6 @@
     }
   ],
   "absent_students": [
-    {
-      "name": "童稷丰",
-      "class": "G21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AY(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-09T10:10:10"
-    },
-    {
-      "name": "金懿帆",
-      "class": "G21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AY(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-09T10:10:10"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济AY(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-09T10:10:10"
-    },
     {
       "name": "耿子涵",
       "class": "G23",
@@ -327,8 +276,8 @@
       "teacher": "孙鹏",
       "time": "08:20-09:00",
       "location": "LT3-111",
-      "called_at": "2026-11-09T08:26:19",
-      "delay_min": 6
+      "called_at": "2026-11-09T10:15:04",
+      "delay_min": 115
     },
     {
       "class": "十年级 G23",
@@ -357,8 +306,8 @@
       "teacher": "孙鹏",
       "time": "09:10-09:50",
       "location": "LT3-111",
-      "called_at": "2026-11-09T10:10:10",
-      "delay_min": 60
+      "called_at": "2026-11-09T10:15:23",
+      "delay_min": 65
     },
     {
       "class": "十年级 G23",
@@ -372,45 +321,45 @@
     }
   ],
   "teacher_last_call": {
-    "孙鹏": "2026-11-09T10:10:10",
+    "孙鹏": "2026-11-09T10:15:23",
     "张小翼": "2026-11-09T09:44:21",
     "王肇君": "2026-11-09T08:23:56"
   },
   "trend": [
     {
       "date": "11-03",
-      "attendance": 92.2,
+      "attendance": 100.4,
       "submit": 90.0
     },
     {
       "date": "11-04",
-      "attendance": 90.7,
+      "attendance": 98.9,
       "submit": 90.5
     },
     {
       "date": "11-05",
-      "attendance": 89.2,
+      "attendance": 97.4,
       "submit": 91.0
     },
     {
       "date": "11-06",
-      "attendance": 87.7,
+      "attendance": 95.9,
       "submit": 91.5
     },
     {
       "date": "11-07",
-      "attendance": 86.2,
+      "attendance": 94.4,
       "submit": 92.0
     },
     {
       "date": "11-08",
-      "attendance": 84.7,
+      "attendance": 92.9,
       "submit": 92.5
     },
     {
       "date": "11-09",
-      "attendance": 87.7,
-      "submit": 88.8
+      "attendance": 95.9,
+      "submit": 93.0
     }
   ],
   "lesson": {
@@ -421,13 +370,13 @@
     "teacher_count": 10,
     "uncovered_classes": [
       "十年级 G22",
+      "九年级 G12",
+      "十一年级 AS2",
+      "十二年级 A21",
+      "十一年级 AS3",
       "十一年级 AS1",
       "十二年级 A22",
-      "十一年级 AS2",
-      "九年级 G12",
-      "九年级 G11",
-      "十一年级 AS3",
-      "十二年级 A21"
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
