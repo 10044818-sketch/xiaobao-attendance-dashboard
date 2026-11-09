@@ -1,66 +1,99 @@
 {
-  "updated_at": "2026-11-09 08:20",
+  "updated_at": "2026-11-09 08:25",
   "school": {
-    "rate": 0,
-    "present": 0,
-    "total": 0,
+    "rate": 94.1,
+    "present": 16,
+    "total": 17,
     "late": 0,
-    "absent": 0,
+    "absent": 1,
     "leave": 0
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 0,
+    "class_attention": 1,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
-  "classes": [],
-  "absent_students": [],
+  "classes": [
+    {
+      "name": "经济AX(F26)",
+      "teacher": "王肇君",
+      "rate": 94.1,
+      "present_text": "16/17人次",
+      "present": 16,
+      "total": 17,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    }
+  ],
+  "absent_students": [
+    {
+      "name": "谢佳妍",
+      "class": "G22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-09T08:23:56"
+    }
+  ],
   "pending_roll_call": [],
   "called_roll_call": [],
-  "teacher_last_call": {},
+  "teacher_last_call": {
+    "王肇君": "2026-11-09T08:23:56"
+  },
   "trend": [
     {
       "date": "11-03",
-      "attendance": 4.5,
+      "attendance": 98.6,
       "submit": 90.0
     },
     {
       "date": "11-04",
-      "attendance": 3.0,
+      "attendance": 97.1,
       "submit": 90.5
     },
     {
       "date": "11-05",
-      "attendance": 1.5,
+      "attendance": 95.6,
       "submit": 91.0
     },
     {
       "date": "11-06",
-      "attendance": 0.0,
+      "attendance": 94.1,
       "submit": 91.5
     },
     {
       "date": "11-07",
-      "attendance": -1.5,
+      "attendance": 92.6,
       "submit": 92.0
     },
     {
       "date": "11-08",
-      "attendance": -3.0,
+      "attendance": 91.1,
       "submit": 92.5
     },
     {
       "date": "11-09",
-      "attendance": 0,
-      "submit": 45.0
+      "attendance": 94.1,
+      "submit": 92.0
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "0/0",
+    "class_coverage": "1/1",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
