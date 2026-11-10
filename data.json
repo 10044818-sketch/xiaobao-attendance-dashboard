@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-10 09:45",
+  "updated_at": "2026-11-10 09:52",
   "school": {
-    "rate": 63.0,
-    "present": 29,
-    "total": 46,
+    "rate": 67.2,
+    "present": 39,
+    "total": 58,
     "late": 0,
-    "absent": 17,
+    "absent": 19,
     "leave": 7
   },
   "summary": {
@@ -26,6 +26,23 @@
       "late": 0,
       "early": 0,
       "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "化学CB(F26)",
+      "teacher": "余越利",
+      "rate": 83.3,
+      "present_text": "10/12人次",
+      "present": 10,
+      "total": 12,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -98,6 +115,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学CB(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学CB(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-10T09:50:52"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -321,14 +355,6 @@
       "location": "LT3-114"
     },
     {
-      "class": "化学CB(F26)",
-      "class_id": 521021,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "08:20-09:00",
-      "location": "LT3-206"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "化学",
@@ -385,28 +411,12 @@
       "location": "LT3-123"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "08:20-09:00",
-      "location": "LT3-206"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "化学",
       "teacher": "米万宝",
       "time": "08:20-09:00",
       "location": "LT3-114"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "化学",
-      "teacher": "余越利",
-      "time": "08:20-09:00",
-      "location": "LT3-206"
     },
     {
       "class": "十年级 G21",
@@ -463,9 +473,207 @@
       "teacher": "曹德娟",
       "time": "08:20-09:00",
       "location": "LT3-107"
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "09:10-09:50",
+      "location": "LT3-108"
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "09:10-09:50",
+      "location": "LT3-108"
+    },
+    {
+      "class": "化学BZ(F26)",
+      "class_id": 520906,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "09:10-09:50",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "09:10-09:50",
+      "location": "LT3-123"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "09:10-09:50",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "09:10-09:50",
+      "location": "LT3-123"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "商科",
+      "teacher": "余震",
+      "time": "09:10-09:50",
+      "location": "LT3-121"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "生物",
+      "teacher": "张璐菲",
+      "time": "09:10-09:50",
+      "location": "LT3-123"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-114"
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "09:10-09:50",
+      "location": "LT3-212"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "09:10-09:50",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "杨燕霖",
+      "time": "09:10-09:50",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "09:10-09:50",
+      "location": "LT3-122"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "潘丽",
+      "time": "09:10-09:50",
+      "location": "LT3-109"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "杨燕霖",
+      "time": "09:10-09:50",
+      "location": "LT3-111"
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "数学",
+      "teacher": "赵亮",
+      "time": "09:10-09:50",
+      "location": "LT3-122"
+    },
+    {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "数学",
+      "teacher": "张小翼",
+      "time": "09:10-09:50",
+      "location": "LT3-107"
     }
   ],
   "called_roll_call": [
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "08:20-09:00",
+      "location": "LT3-206",
+      "called_at": "2026-11-10T09:50:30",
+      "delay_min": 90
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "08:20-09:00",
+      "location": "LT3-206",
+      "called_at": "2026-11-10T09:50:30",
+      "delay_min": 90
+    },
+    {
+      "class": "化学CB(F26)",
+      "class_id": 521021,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "08:20-09:00",
+      "location": "LT3-206",
+      "called_at": "2026-11-10T09:50:30",
+      "delay_min": 90
+    },
     {
       "class": "十一年级 AS1",
       "class_id": 442959,
@@ -555,9 +763,80 @@
       "location": "LT3-108",
       "called_at": "2026-11-10T08:34:03",
       "delay_min": 14
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "09:10-09:50",
+      "location": "LT3-206",
+      "called_at": "2026-11-10T09:50:52",
+      "delay_min": 41
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "09:10-09:50",
+      "location": "LT3-206",
+      "called_at": "2026-11-10T09:50:52",
+      "delay_min": 41
+    },
+    {
+      "class": "化学CB(F26)",
+      "class_id": 521021,
+      "subject": "化学",
+      "teacher": "余越利",
+      "time": "09:10-09:50",
+      "location": "LT3-206",
+      "called_at": "2026-11-10T09:50:52",
+      "delay_min": 41
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "艺术与设计",
+      "teacher": "王丽媛、朱嘉怡",
+      "time": "09:10-09:50",
+      "location": "LT3-212",
+      "called_at": "2026-11-10T08:58:07",
+      "delay_min": -12
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "09:10-09:50",
+      "location": "LT3-209",
+      "called_at": "2026-11-10T09:17:21",
+      "delay_min": 7
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "09:10-09:50",
+      "location": "LT3-209",
+      "called_at": "2026-11-10T09:17:21",
+      "delay_min": 7
+    },
+    {
+      "class": "化学C0(F26)",
+      "class_id": 520876,
+      "subject": "化学",
+      "teacher": "袁西援",
+      "time": "09:10-09:50",
+      "location": "LT3-209",
+      "called_at": "2026-11-10T09:17:21",
+      "delay_min": 7
     }
   ],
   "teacher_last_call": {
+    "余越利": "2026-11-10T09:50:52",
     "余震": "2026-11-10T09:42:46",
     "袁西援": "2026-11-10T09:17:21",
     "朱嘉怡": "2026-11-10T08:58:07",
@@ -566,57 +845,57 @@
   "trend": [
     {
       "date": "11-04",
-      "attendance": 67.5,
+      "attendance": 71.7,
       "submit": 90.0
     },
     {
       "date": "11-05",
-      "attendance": 66.0,
+      "attendance": 70.2,
       "submit": 90.5
     },
     {
       "date": "11-06",
-      "attendance": 64.5,
+      "attendance": 68.7,
       "submit": 91.0
     },
     {
       "date": "11-07",
-      "attendance": 63.0,
+      "attendance": 67.2,
       "submit": 91.5
     },
     {
       "date": "11-08",
-      "attendance": 61.5,
+      "attendance": 65.7,
       "submit": 92.0
     },
     {
       "date": "11-09",
-      "attendance": 60.0,
+      "attendance": 64.2,
       "submit": 92.5
     },
     {
       "date": "11-10",
-      "attendance": 63.0,
-      "submit": 76.5
+      "attendance": 67.2,
+      "submit": 78.6
     }
   ],
   "lesson": {
-    "completion_rate": 29.6,
-    "called": 8,
-    "total": 27,
-    "class_coverage": "5/5",
-    "teacher_count": 11,
+    "completion_rate": 31.5,
+    "called": 17,
+    "total": 54,
+    "class_coverage": "6/6",
+    "teacher_count": 13,
     "uncovered_classes": [
-      "十年级 G22",
-      "十一年级 AS3",
-      "化学CB(F26)",
-      "十一年级 AS2",
-      "十二年级 A22",
-      "十二年级 A21",
-      "十一年级 AS1",
       "十年级 G23",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "化学BZ(F26)",
+      "九年级 G12",
+      "九年级 G11",
+      "十二年级 A22",
       "十年级 G21",
-      "化学BZ(F26)"
+      "十年级 G22",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -626,14 +905,6 @@
         "teacher": "米万宝",
         "time": "08:20-09:00",
         "location": "LT3-114"
-      },
-      {
-        "class": "化学CB(F26)",
-        "class_id": 521021,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "08:20-09:00",
-        "location": "LT3-206"
       },
       {
         "class": "十一年级 AS1",
@@ -692,28 +963,12 @@
         "location": "LT3-123"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "08:20-09:00",
-        "location": "LT3-206"
-      },
-      {
         "class": "十二年级 A22",
         "class_id": 366031,
         "subject": "化学",
         "teacher": "米万宝",
         "time": "08:20-09:00",
         "location": "LT3-114"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "化学",
-        "teacher": "余越利",
-        "time": "08:20-09:00",
-        "location": "LT3-206"
       },
       {
         "class": "十年级 G21",
@@ -769,6 +1024,174 @@
         "subject": "英语第二语言阅读",
         "teacher": "曹德娟",
         "time": "08:20-09:00",
+        "location": "LT3-107"
+      },
+      {
+        "class": "九年级 G11",
+        "class_id": 487607,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "09:10-09:50",
+        "location": "LT3-108"
+      },
+      {
+        "class": "九年级 G12",
+        "class_id": 521410,
+        "subject": "英语第二语言",
+        "teacher": "瞿芬",
+        "time": "09:10-09:50",
+        "location": "LT3-108"
+      },
+      {
+        "class": "化学BZ(F26)",
+        "class_id": 520906,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "09:10-09:50",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "商科",
+        "teacher": "余震",
+        "time": "09:10-09:50",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "09:10-09:50",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "09:10-09:50",
+        "location": "LT3-123"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "商科",
+        "teacher": "余震",
+        "time": "09:10-09:50",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "09:10-09:50",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS2",
+        "class_id": 442960,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "09:10-09:50",
+        "location": "LT3-123"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "商科",
+        "teacher": "余震",
+        "time": "09:10-09:50",
+        "location": "LT3-121"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "09:10-09:50",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十一年级 AS3",
+        "class_id": 442961,
+        "subject": "生物",
+        "teacher": "张璐菲",
+        "time": "09:10-09:50",
+        "location": "LT3-123"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "化学",
+        "teacher": "米万宝",
+        "time": "09:10-09:50",
+        "location": "LT3-114"
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "艺术与设计",
+        "teacher": "王丽媛、朱嘉怡",
+        "time": "09:10-09:50",
+        "location": "LT3-212"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "潘丽",
+        "time": "09:10-09:50",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "杨燕霖",
+        "time": "09:10-09:50",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G21",
+        "class_id": 517698,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "09:10-09:50",
+        "location": "LT3-122"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "潘丽",
+        "time": "09:10-09:50",
+        "location": "LT3-109"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "杨燕霖",
+        "time": "09:10-09:50",
+        "location": "LT3-111"
+      },
+      {
+        "class": "十年级 G22",
+        "class_id": 521637,
+        "subject": "数学",
+        "teacher": "赵亮",
+        "time": "09:10-09:50",
+        "location": "LT3-122"
+      },
+      {
+        "class": "十年级 G23",
+        "class_id": 521638,
+        "subject": "数学",
+        "teacher": "张小翼",
+        "time": "09:10-09:50",
         "location": "LT3-107"
       }
     ]
