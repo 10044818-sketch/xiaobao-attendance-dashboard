@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-10 08:25",
+  "updated_at": "2026-11-10 08:31",
   "school": {
-    "rate": 52.2,
-    "present": 12,
-    "total": 23,
+    "rate": 56.0,
+    "present": 14,
+    "total": 25,
     "late": 0,
     "absent": 11,
     "leave": 3
@@ -43,6 +43,22 @@
       "early": 0,
       "leave": 2,
       "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
       "time_spans": [
         "08:20-09:00"
       ]
@@ -196,51 +212,52 @@
   "pending_roll_call": [],
   "called_roll_call": [],
   "teacher_last_call": {
+    "朱嘉怡": "2026-11-10T08:30:41",
     "袁西援": "2026-11-10T08:25:33",
     "郝畅": "2026-11-10T08:19:40"
   },
   "trend": [
     {
       "date": "11-04",
-      "attendance": 56.7,
+      "attendance": 60.5,
       "submit": 90.0
     },
     {
       "date": "11-05",
-      "attendance": 55.2,
+      "attendance": 59.0,
       "submit": 90.5
     },
     {
       "date": "11-06",
-      "attendance": 53.7,
+      "attendance": 57.5,
       "submit": 91.0
     },
     {
       "date": "11-07",
-      "attendance": 52.2,
+      "attendance": 56.0,
       "submit": 91.5
     },
     {
       "date": "11-08",
-      "attendance": 50.7,
+      "attendance": 54.5,
       "submit": 92.0
     },
     {
       "date": "11-09",
-      "attendance": 49.2,
+      "attendance": 53.0,
       "submit": 92.5
     },
     {
       "date": "11-10",
-      "attendance": 52.2,
-      "submit": 71.1
+      "attendance": 56.0,
+      "submit": 73.0
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "2/2",
+    "class_coverage": "3/3",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
