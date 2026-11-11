@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-11 10:05",
+  "updated_at": "2026-11-11 10:11",
   "school": {
-    "rate": 88.3,
-    "present": 174,
-    "total": 197,
+    "rate": 87.8,
+    "present": 194,
+    "total": 221,
     "late": 3,
-    "absent": 23,
-    "leave": 21
+    "absent": 27,
+    "leave": 24
   },
   "summary": {
     "pending_yesterday": 0,
@@ -180,6 +180,22 @@
       ]
     },
     {
+      "name": "雅思写作口语C0(F26)",
+      "teacher": "曹德娟",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "雅思词汇C0(F26)",
       "teacher": "贺珍谊",
       "rate": 87.5,
@@ -194,9 +210,81 @@
       "time_spans": [
         "09:10-09:50"
       ]
+    },
+    {
+      "name": "音乐AA(F26)",
+      "teacher": "刘知言",
+      "rate": 87.5,
+      "present_text": "14/16人次",
+      "present": 14,
+      "total": 16,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【请假审批中】 2026/11/11 8:00:00 至 2026/11/11 12:00:00  感冒 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-11T10:10:30"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思写作口语C0(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-11T10:10:30"
+    },
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/11/11 8:00:00 至 2026/11/20 18:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "音乐AA(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-11T10:06:52"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/11/11 8:00:00 至 2026/11/11 17:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "音乐AA(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-11T10:06:52"
+    },
     {
       "name": "孔维轩",
       "class": "G22",
@@ -349,19 +437,6 @@
         }
       ],
       "updated_at": "2026-11-11T09:22:05"
-    },
-    {
-      "name": "江雨霏",
-      "class": "A22",
-      "reason": "病假_【请假审批中】 2026/11/11 8:00:00 至 2026/11/11 12:00:00  感冒 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思词汇C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-11T09:21:00"
     },
     {
       "name": "朱景璇",
@@ -749,6 +824,8 @@
     }
   ],
   "teacher_last_call": {
+    "曹德娟": "2026-11-11T10:10:30",
+    "刘知言": "2026-11-11T10:06:52",
     "沈译宇": "2026-11-11T10:02:01",
     "米万宝": "2026-11-11T10:02:00",
     "王肇君": "2026-11-11T10:01:29",
@@ -764,58 +841,58 @@
   "trend": [
     {
       "date": "11-05",
-      "attendance": 92.8,
+      "attendance": 92.3,
       "submit": 90.0
     },
     {
       "date": "11-06",
-      "attendance": 91.3,
+      "attendance": 90.8,
       "submit": 90.5
     },
     {
       "date": "11-07",
-      "attendance": 89.8,
+      "attendance": 89.3,
       "submit": 91.0
     },
     {
       "date": "11-08",
-      "attendance": 88.3,
+      "attendance": 87.8,
       "submit": 91.5
     },
     {
       "date": "11-09",
-      "attendance": 86.8,
+      "attendance": 86.3,
       "submit": 92.0
     },
     {
       "date": "11-10",
-      "attendance": 85.3,
+      "attendance": 84.8,
       "submit": 92.5
     },
     {
       "date": "11-11",
-      "attendance": 88.3,
-      "submit": 89.2
+      "attendance": 87.8,
+      "submit": 88.9
     }
   ],
   "lesson": {
     "completion_rate": 43.6,
     "called": 17,
     "total": 39,
-    "class_coverage": "11/11",
+    "class_coverage": "13/13",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十一年级 AS3",
+      "十一年级 AS1",
       "高数CR2(F26)",
       "九年级 G12",
+      "十一年级 AS3",
       "十二年级 A21",
-      "十二年级 A22",
-      "十年级 G22",
-      "九年级 G11",
       "化学9A(F26)",
-      "十一年级 AS1",
+      "九年级 G11",
       "十年级 G21",
-      "十一年级 AS2"
+      "十年级 G22",
+      "十一年级 AS2",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
