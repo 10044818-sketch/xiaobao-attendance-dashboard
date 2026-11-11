@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-11 16:46",
+  "updated_at": "2026-11-11 16:55",
   "school": {
-    "rate": 84.8,
-    "present": 603,
-    "total": 711,
+    "rate": 85.0,
+    "present": 623,
+    "total": 733,
     "late": 9,
-    "absent": 108,
-    "leave": 77
+    "absent": 110,
+    "leave": 79
   },
   "summary": {
     "pending_yesterday": 0,
@@ -96,6 +96,22 @@
       "status": "异常",
       "time_spans": [
         "14:40-15:20"
+      ]
+    },
+    {
+      "name": "商科C0(F26)",
+      "teacher": "孙鹏",
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
+      "total": 8,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "16:20-17:00"
       ]
     },
     {
@@ -364,6 +380,22 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "经济AY(F26)",
+      "teacher": "孙鹏",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "15:30-16:10"
       ]
     },
     {
@@ -676,6 +708,76 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/11/11 8:00:00 至 2026/11/20 18:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐AA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-11-11T16:55:30"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/11/11 8:00:00 至 2026/11/11 17:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐AA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "经济AY(F26)",
+          "time": "15:30-16:10"
+        }
+      ],
+      "updated_at": "2026-11-11T16:55:30"
+    },
     {
       "name": "黄子怿",
       "class": "AS3",
@@ -1192,43 +1294,6 @@
       "updated_at": "2026-11-11T15:16:09"
     },
     {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/11/11 8:00:00 至 2026/11/11 17:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐AA(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "14:40-15:20"
-        }
-      ],
-      "updated_at": "2026-11-11T14:59:36"
-    },
-    {
       "name": "周原",
       "class": "AS1",
       "reason": "病假_【已通过】 2026/11/9 8:00:00 至 2026/11/13 15:30:00  看医生 ",
@@ -1379,31 +1444,6 @@
         }
       ],
       "updated_at": "2026-11-11T13:01:29"
-    },
-    {
-      "name": "金懿帆",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/11/11 8:00:00 至 2026/11/20 18:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐AA(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-11T13:00:49"
     }
   ],
   "pending_roll_call": [
@@ -1838,14 +1878,6 @@
       "teacher": "余越利",
       "time": "15:30-16:10",
       "location": "LT3-206"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "经济学",
-      "teacher": "孙鹏",
-      "time": "15:30-16:10",
-      "location": "LT3-111"
     },
     {
       "class": "十年级 G22",
@@ -2856,6 +2888,16 @@
       "delay_min": 1
     },
     {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "经济学",
+      "teacher": "孙鹏",
+      "time": "15:30-16:10",
+      "location": "LT3-111",
+      "called_at": "2026-11-11T16:55:30",
+      "delay_min": 86
+    },
+    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "几何",
@@ -2957,6 +2999,7 @@
     }
   ],
   "teacher_last_call": {
+    "孙鹏": "2026-11-11T16:55:35",
     "郝畅": "2026-11-11T16:37:54",
     "贺珍谊": "2026-11-11T16:28:40",
     "朱嘉怡": "2026-11-11T16:28:09",
@@ -2981,60 +3024,60 @@
   "trend": [
     {
       "date": "11-05",
-      "attendance": 89.3,
+      "attendance": 89.5,
       "submit": 90.0
     },
     {
       "date": "11-06",
-      "attendance": 87.8,
+      "attendance": 88.0,
       "submit": 90.5
     },
     {
       "date": "11-07",
-      "attendance": 86.3,
+      "attendance": 86.5,
       "submit": 91.0
     },
     {
       "date": "11-08",
-      "attendance": 84.8,
+      "attendance": 85.0,
       "submit": 91.5
     },
     {
       "date": "11-09",
-      "attendance": 83.3,
+      "attendance": 83.5,
       "submit": 92.0
     },
     {
       "date": "11-10",
-      "attendance": 81.8,
+      "attendance": 82.0,
       "submit": 92.5
     },
     {
       "date": "11-11",
-      "attendance": 84.8,
-      "submit": 87.4
+      "attendance": 85.0,
+      "submit": 87.5
     }
   ],
   "lesson": {
-    "completion_rate": 63.7,
-    "called": 100,
+    "completion_rate": 64.3,
+    "called": 101,
     "total": 157,
-    "class_coverage": "40/40",
+    "class_coverage": "42/42",
     "teacher_count": 29,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十年级 G23",
-      "化学CB(F26)",
       "九年级 G11",
-      "高数CR2(F26)",
-      "十年级 G21",
-      "化学AA(F26)",
+      "十一年级 AS3",
       "十年级 G22",
       "十一年级 AS1",
       "九年级 G12",
+      "化学AA(F26)",
+      "十年级 G23",
+      "化学CB(F26)",
       "十二年级 A22",
-      "十一年级 AS3",
-      "十二年级 A21"
+      "十一年级 AS2",
+      "高数CR2(F26)",
+      "十二年级 A21",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -3468,14 +3511,6 @@
         "teacher": "余越利",
         "time": "15:30-16:10",
         "location": "LT3-206"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "经济学",
-        "teacher": "孙鹏",
-        "time": "15:30-16:10",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G22",
