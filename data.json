@@ -1,20 +1,36 @@
 {
-  "updated_at": "2026-11-11 09:55",
+  "updated_at": "2026-11-11 10:01",
   "school": {
-    "rate": 87.6,
-    "present": 120,
-    "total": 137,
+    "rate": 88.2,
+    "present": 135,
+    "total": 153,
     "late": 3,
-    "absent": 17,
-    "leave": 15
+    "absent": 18,
+    "leave": 16
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "商科CA(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "1/1人次",
+      "present": 1,
+      "total": 1,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
     {
       "name": "数学A0(F26)",
       "teacher": "张小翼",
@@ -83,6 +99,22 @@
       ]
     },
     {
+      "name": "物理BY(F26)",
+      "teacher": "魏刘伟",
+      "rate": 93.3,
+      "present_text": "14/15人次",
+      "present": 14,
+      "total": 15,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "经济9A(F26)",
       "teacher": "郝畅",
       "rate": 93.3,
@@ -116,6 +148,27 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/11/11 8:00:00 至 2026/11/11 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "物理BY(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-11T10:00:13"
+    },
     {
       "name": "翁瑾萱",
       "class": "G12",
@@ -215,23 +268,6 @@
       "class": "AS1",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-11T09:10:54"
-    },
-    {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/11/11 8:00:00 至 2026/11/11 17:00:00  请假 ",
-      "type": "事假",
       "courses": [
         {
           "course": "数学BQ1(F26)",
@@ -626,6 +662,8 @@
     }
   ],
   "teacher_last_call": {
+    "余震": "2026-11-11T10:01:06",
+    "魏刘伟": "2026-11-11T10:00:13",
     "郝畅": "2026-11-11T09:27:24",
     "张小翼": "2026-11-11T09:22:05",
     "贺珍谊": "2026-11-11T09:21:00",
@@ -636,58 +674,58 @@
   "trend": [
     {
       "date": "11-05",
-      "attendance": 92.1,
+      "attendance": 92.7,
       "submit": 90.0
     },
     {
       "date": "11-06",
-      "attendance": 90.6,
+      "attendance": 91.2,
       "submit": 90.5
     },
     {
       "date": "11-07",
-      "attendance": 89.1,
+      "attendance": 89.7,
       "submit": 91.0
     },
     {
       "date": "11-08",
-      "attendance": 87.6,
+      "attendance": 88.2,
       "submit": 91.5
     },
     {
       "date": "11-09",
-      "attendance": 86.1,
+      "attendance": 86.7,
       "submit": 92.0
     },
     {
       "date": "11-10",
-      "attendance": 84.6,
+      "attendance": 85.2,
       "submit": 92.5
     },
     {
       "date": "11-11",
-      "attendance": 87.6,
-      "submit": 88.8
+      "attendance": 88.2,
+      "submit": 89.1
     }
   ],
   "lesson": {
     "completion_rate": 43.6,
     "called": 17,
     "total": 39,
-    "class_coverage": "6/6",
+    "class_coverage": "8/8",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十二年级 A21",
-      "九年级 G11",
       "高数CR2(F26)",
-      "十二年级 A22",
-      "十年级 G22",
-      "十一年级 AS3",
-      "十一年级 AS2",
-      "九年级 G12",
-      "化学9A(F26)",
+      "十一年级 AS1",
       "十年级 G21",
-      "十一年级 AS1"
+      "九年级 G12",
+      "九年级 G11",
+      "十一年级 AS3",
+      "十年级 G22",
+      "十二年级 A22",
+      "化学9A(F26)",
+      "十一年级 AS2",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
