@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-13 11:15",
+  "updated_at": "2026-11-13 11:20",
   "school": {
-    "rate": 85.8,
-    "present": 188,
-    "total": 219,
+    "rate": 85.5,
+    "present": 194,
+    "total": 227,
     "late": 24,
-    "absent": 31,
+    "absent": 33,
     "leave": 16
   },
   "summary": {
@@ -213,6 +213,22 @@
       ]
     },
     {
+      "name": "雅思词汇C0(F26)",
+      "teacher": "贺珍谊",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "音乐A0(F26)",
       "teacher": "刘知言",
       "rate": 85.7,
@@ -246,6 +262,36 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "马镕锴",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-13T11:19:02"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思口语C0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思词汇C0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-13T11:19:02"
+    },
     {
       "name": "翁瑾萱",
       "class": "G12",
@@ -505,19 +551,6 @@
         }
       ],
       "updated_at": "2026-11-13T09:11:07"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思口语C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-13T09:09:49"
     },
     {
       "name": "王锴杰",
@@ -1054,6 +1087,7 @@
     }
   ],
   "teacher_last_call": {
+    "贺珍谊": "2026-11-13T11:19:02",
     "郝畅": "2026-11-13T11:01:26",
     "沈译宇": "2026-11-13T10:54:04",
     "刘知言": "2026-11-13T10:52:31",
@@ -1068,59 +1102,59 @@
   "trend": [
     {
       "date": "11-07",
-      "attendance": 90.3,
+      "attendance": 90.0,
       "submit": 90.0
     },
     {
       "date": "11-08",
-      "attendance": 88.8,
+      "attendance": 88.5,
       "submit": 90.5
     },
     {
       "date": "11-09",
-      "attendance": 87.3,
+      "attendance": 87.0,
       "submit": 91.0
     },
     {
       "date": "11-10",
-      "attendance": 85.8,
+      "attendance": 85.5,
       "submit": 91.5
     },
     {
       "date": "11-11",
-      "attendance": 84.3,
+      "attendance": 84.0,
       "submit": 92.0
     },
     {
       "date": "11-12",
-      "attendance": 82.8,
+      "attendance": 82.5,
       "submit": 92.5
     },
     {
       "date": "11-13",
-      "attendance": 85.8,
-      "submit": 87.9
+      "attendance": 85.5,
+      "submit": 87.8
     }
   ],
   "lesson": {
     "completion_rate": 37.3,
     "called": 22,
     "total": 59,
-    "class_coverage": "14/14",
+    "class_coverage": "15/15",
     "teacher_count": 16,
     "uncovered_classes": [
-      "十年级 G21",
-      "九年级 G12",
-      "十一年级 AS1",
-      "九年级 G11",
-      "十一年级 AS2",
       "高数CR2(F26)",
+      "化学BY(F26)",
+      "九年级 G11",
+      "十年级 G23",
       "十一年级 AS3",
+      "十年级 G22",
+      "十年级 G21",
+      "十一年级 AS1",
       "十二年级 A21",
       "十二年级 A22",
-      "十年级 G23",
-      "十年级 G22",
-      "化学BY(F26)"
+      "九年级 G12",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
