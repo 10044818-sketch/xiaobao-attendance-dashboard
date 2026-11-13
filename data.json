@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-13 08:35",
+  "updated_at": "2026-11-13 08:50",
   "school": {
-    "rate": 90.9,
-    "present": 30,
+    "rate": 84.8,
+    "present": 28,
     "total": 33,
-    "late": 5,
-    "absent": 3,
+    "late": 3,
+    "absent": 5,
     "leave": 2
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 1,
+    "class_attention": 0,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -34,15 +34,15 @@
     {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
-      "rate": 90.0,
-      "present_text": "9/10人次",
-      "present": 9,
+      "rate": 70.0,
+      "present_text": "7/10人次",
+      "present": 7,
       "total": 10,
-      "absent": 1,
-      "late": 2,
+      "absent": 3,
+      "late": 0,
       "early": 0,
       "leave": 1,
-      "status": "关注",
+      "status": "异常",
       "time_spans": [
         "08:20-09:00"
       ]
@@ -76,7 +76,33 @@
           "time": "08:20-09:00"
         }
       ],
-      "updated_at": "2026-11-13T08:22:15"
+      "updated_at": "2026-11-13T08:36:47"
+    },
+    {
+      "name": "余天佑",
+      "class": "AS3",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-13T08:36:47"
+    },
+    {
+      "name": "杨阳",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-13T08:36:47"
     },
     {
       "name": "王锴杰",
@@ -109,44 +135,44 @@
   "called_roll_call": [],
   "teacher_last_call": {
     "刘知言": "2026-11-13T08:32:25",
-    "王肇君": "2026-11-13T08:22:15",
+    "王肇君": "2026-11-13T08:36:47",
     "魏刘伟": "2026-11-13T08:21:04"
   },
   "trend": [
     {
       "date": "11-07",
-      "attendance": 95.4,
+      "attendance": 89.3,
       "submit": 90.0
     },
     {
       "date": "11-08",
-      "attendance": 93.9,
+      "attendance": 87.8,
       "submit": 90.5
     },
     {
       "date": "11-09",
-      "attendance": 92.4,
+      "attendance": 86.3,
       "submit": 91.0
     },
     {
       "date": "11-10",
-      "attendance": 90.9,
+      "attendance": 84.8,
       "submit": 91.5
     },
     {
       "date": "11-11",
-      "attendance": 89.4,
+      "attendance": 83.3,
       "submit": 92.0
     },
     {
       "date": "11-12",
-      "attendance": 87.9,
+      "attendance": 81.8,
       "submit": 92.5
     },
     {
       "date": "11-13",
-      "attendance": 90.9,
-      "submit": 90.5
+      "attendance": 84.8,
+      "submit": 87.4
     }
   ],
   "lesson": {
