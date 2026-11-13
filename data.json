@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-13 09:06",
+  "updated_at": "2026-11-13 09:10",
   "school": {
-    "rate": 84.8,
-    "present": 28,
-    "total": 33,
+    "rate": 85.4,
+    "present": 35,
+    "total": 41,
     "late": 3,
-    "absent": 5,
+    "absent": 6,
     "leave": 2
   },
   "summary": {
@@ -48,6 +48,22 @@
       ]
     },
     {
+      "name": "雅思口语C0(F26)",
+      "teacher": "李昊骏",
+      "rate": 87.5,
+      "present_text": "7/8人次",
+      "present": 7,
+      "total": 8,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
+      ]
+    },
+    {
       "name": "音乐C0(F26)",
       "teacher": "刘知言",
       "rate": 100.0,
@@ -65,6 +81,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "雅思口语C0(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-13T09:09:49"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -300,6 +329,7 @@
     }
   ],
   "teacher_last_call": {
+    "李昊骏": "2026-11-13T09:09:49",
     "刘知言": "2026-11-13T08:32:25",
     "王肇君": "2026-11-13T08:36:47",
     "魏刘伟": "2026-11-13T08:21:04"
@@ -307,58 +337,58 @@
   "trend": [
     {
       "date": "11-07",
-      "attendance": 89.3,
+      "attendance": 89.9,
       "submit": 90.0
     },
     {
       "date": "11-08",
-      "attendance": 87.8,
+      "attendance": 88.4,
       "submit": 90.5
     },
     {
       "date": "11-09",
-      "attendance": 86.3,
+      "attendance": 86.9,
       "submit": 91.0
     },
     {
       "date": "11-10",
-      "attendance": 84.8,
+      "attendance": 85.4,
       "submit": 91.5
     },
     {
       "date": "11-11",
-      "attendance": 83.3,
+      "attendance": 83.9,
       "submit": 92.0
     },
     {
       "date": "11-12",
-      "attendance": 81.8,
+      "attendance": 82.4,
       "submit": 92.5
     },
     {
       "date": "11-13",
-      "attendance": 84.8,
-      "submit": 87.4
+      "attendance": 85.4,
+      "submit": 87.7
     }
   ],
   "lesson": {
     "completion_rate": 31.6,
     "called": 6,
     "total": 19,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 10,
     "uncovered_classes": [
+      "十一年级 AS3",
+      "十一年级 AS1",
+      "化学BY(F26)",
+      "十二年级 A22",
       "九年级 G12",
       "十年级 G21",
-      "十年级 G22",
-      "十二年级 A22",
-      "九年级 G11",
       "十年级 G23",
-      "十二年级 A21",
-      "十一年级 AS1",
-      "十一年级 AS3",
+      "九年级 G11",
+      "十年级 G22",
       "十一年级 AS2",
-      "化学BY(F26)"
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
