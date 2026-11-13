@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-13 08:31",
+  "updated_at": "2026-11-13 08:35",
   "school": {
-    "rate": 87.9,
-    "present": 29,
+    "rate": 90.9,
+    "present": 30,
     "total": 33,
-    "late": 4,
-    "absent": 4,
+    "late": 5,
+    "absent": 3,
     "leave": 2
   },
   "summary": {
@@ -50,34 +50,21 @@
     {
       "name": "音乐C0(F26)",
       "teacher": "刘知言",
-      "rate": 87.5,
-      "present_text": "7/8人次",
-      "present": 7,
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
       "total": 8,
-      "absent": 1,
-      "late": 1,
+      "absent": 0,
+      "late": 2,
       "early": 0,
       "leave": 0,
-      "status": "异常",
+      "status": "正常",
       "time_spans": [
         "08:20-09:00"
       ]
     }
   ],
   "absent_students": [
-    {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-13T08:24:44"
-    },
     {
       "name": "周原",
       "class": "AS1",
@@ -121,45 +108,45 @@
   "pending_roll_call": [],
   "called_roll_call": [],
   "teacher_last_call": {
-    "刘知言": "2026-11-13T08:24:44",
+    "刘知言": "2026-11-13T08:32:25",
     "王肇君": "2026-11-13T08:22:15",
     "魏刘伟": "2026-11-13T08:21:04"
   },
   "trend": [
     {
       "date": "11-07",
-      "attendance": 92.4,
+      "attendance": 95.4,
       "submit": 90.0
     },
     {
       "date": "11-08",
-      "attendance": 90.9,
+      "attendance": 93.9,
       "submit": 90.5
     },
     {
       "date": "11-09",
-      "attendance": 89.4,
+      "attendance": 92.4,
       "submit": 91.0
     },
     {
       "date": "11-10",
-      "attendance": 87.9,
+      "attendance": 90.9,
       "submit": 91.5
     },
     {
       "date": "11-11",
-      "attendance": 86.4,
+      "attendance": 89.4,
       "submit": 92.0
     },
     {
       "date": "11-12",
-      "attendance": 84.9,
+      "attendance": 87.9,
       "submit": 92.5
     },
     {
       "date": "11-13",
-      "attendance": 87.9,
-      "submit": 89.0
+      "attendance": 90.9,
+      "submit": 90.5
     }
   ],
   "lesson": {
