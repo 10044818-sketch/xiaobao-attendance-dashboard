@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-13 14:02",
+  "updated_at": "2026-11-13 14:08",
   "school": {
-    "rate": 85.8,
-    "present": 343,
-    "total": 400,
-    "late": 24,
-    "absent": 57,
-    "leave": 36
+    "rate": 85.6,
+    "present": 344,
+    "total": 402,
+    "late": 25,
+    "absent": 58,
+    "leave": 37
   },
   "summary": {
     "pending_yesterday": 0,
@@ -263,6 +263,22 @@
       ]
     },
     {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 50.0,
+      "present_text": "1/2人次",
+      "present": 1,
+      "total": 2,
+      "absent": 1,
+      "late": 1,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "艺术CB(F26)",
       "teacher": "朱嘉怡",
       "rate": 100.0,
@@ -426,6 +442,23 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "冯麟",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/11/13 13:00:00 至 2026/11/13 14:00:00  胳膊疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "体育BR1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "艺术BZ(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-13T14:06:07"
+    },
     {
       "name": "胡鑫玥",
       "class": "G23",
@@ -761,19 +794,6 @@
           "course": "数学BQ1(F26)",
           "time": "10:00-10:40"
         },
-        {
-          "course": "体育BR1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-13T10:54:04"
-    },
-    {
-      "name": "冯麟",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/11/13 10:30:00 至 2026/11/13 11:30:00  胳膊疼 ",
-      "type": "病假",
-      "courses": [
         {
           "course": "体育BR1(F26)",
           "time": "10:50-11:30"
@@ -1827,13 +1847,13 @@
     }
   ],
   "teacher_last_call": {
+    "朱嘉怡": "2026-11-13T14:06:07",
     "曹德娟": "2026-11-13T13:54:13",
     "余震": "2026-11-13T13:52:27",
     "贺珍谊": "2026-11-13T13:36:22",
     "潘子清": "2026-11-13T13:27:43",
     "刘知言": "2026-11-13T13:49:05",
     "张璐菲": "2026-11-13T13:49:06",
-    "朱嘉怡": "2026-11-13T12:59:59",
     "孙鹏": "2026-11-13T11:56:04",
     "郝畅": "2026-11-13T13:49:06",
     "沈译宇": "2026-11-13T11:22:51",
@@ -1846,61 +1866,61 @@
   "trend": [
     {
       "date": "11-07",
-      "attendance": 90.3,
+      "attendance": 90.1,
       "submit": 90.0
     },
     {
       "date": "11-08",
-      "attendance": 88.8,
+      "attendance": 88.6,
       "submit": 90.5
     },
     {
       "date": "11-09",
-      "attendance": 87.3,
+      "attendance": 87.1,
       "submit": 91.0
     },
     {
       "date": "11-10",
-      "attendance": 85.8,
+      "attendance": 85.6,
       "submit": 91.5
     },
     {
       "date": "11-11",
-      "attendance": 84.3,
+      "attendance": 84.1,
       "submit": 92.0
     },
     {
       "date": "11-12",
-      "attendance": 82.8,
+      "attendance": 82.6,
       "submit": 92.5
     },
     {
       "date": "11-13",
-      "attendance": 85.8,
-      "submit": 87.9
+      "attendance": 85.6,
+      "submit": 87.8
     }
   ],
   "lesson": {
     "completion_rate": 48.5,
     "called": 50,
     "total": 103,
-    "class_coverage": "25/25",
+    "class_coverage": "26/26",
     "teacher_count": 26,
     "uncovered_classes": [
-      "九年级 G12",
-      "十一年级 AS2",
-      "十二年级 A22",
       "十年级 G22",
-      "化学BZ(F26)",
+      "十一年级 AS2",
+      "九年级 G11",
       "十年级 G21",
       "十年级 G23",
-      "十二年级 A21",
-      "高数CR2(F26)",
-      "化学CB(F26)",
-      "十一年级 AS1",
       "化学BY(F26)",
-      "九年级 G11",
-      "十一年级 AS3"
+      "十二年级 A22",
+      "高数CR2(F26)",
+      "化学BZ(F26)",
+      "九年级 G12",
+      "十二年级 A21",
+      "化学CB(F26)",
+      "十一年级 AS3",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
