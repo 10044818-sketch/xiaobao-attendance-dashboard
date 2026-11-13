@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 16:05",
+  "updated_at": "2026-11-13 16:10",
   "school": {
     "rate": 84.6,
     "present": 441,
@@ -1598,6 +1598,22 @@
       "teacher": "",
       "time": "14:40-15:20",
       "location": ""
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "15:30-16:10",
+      "location": ""
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "15:30-16:10",
+      "location": ""
     }
   ],
   "called_roll_call": [
@@ -2431,26 +2447,26 @@
     }
   ],
   "lesson": {
-    "completion_rate": 59.7,
+    "completion_rate": 58.8,
     "called": 77,
-    "total": 129,
+    "total": 131,
     "class_coverage": "32/32",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十一年级 AS1",
-      "十年级 G21",
-      "高数CR2(F26)",
       "九年级 G12",
-      "化学CB(F26)",
-      "化学BZ(F26)",
-      "十一年级 AS3",
       "化学BY(F26)",
       "十二年级 A21",
+      "十一年级 AS3",
       "十年级 G22",
+      "化学CB(F26)",
+      "十年级 G21",
       "九年级 G11",
+      "高数CR2(F26)",
+      "十二年级 A22",
+      "化学BZ(F26)",
+      "十一年级 AS2",
       "十年级 G23",
-      "十二年级 A22"
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
@@ -2867,6 +2883,22 @@
         "subject": "艺术BC",
         "teacher": "",
         "time": "14:40-15:20",
+        "location": ""
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "15:30-16:10",
+        "location": ""
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "15:30-16:10",
         "location": ""
       }
     ]
