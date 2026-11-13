@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-13 11:20",
+  "updated_at": "2026-11-13 11:25",
   "school": {
-    "rate": 85.5,
-    "present": 194,
+    "rate": 84.6,
+    "present": 192,
     "total": 227,
     "late": 24,
-    "absent": 33,
-    "leave": 16
+    "absent": 35,
+    "leave": 20
   },
   "summary": {
     "pending_yesterday": 0,
@@ -41,7 +41,7 @@
       "absent": 5,
       "late": 0,
       "early": 0,
-      "leave": 3,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
@@ -106,7 +106,7 @@
       "absent": 7,
       "late": 1,
       "early": 0,
-      "leave": 4,
+      "leave": 5,
       "status": "异常",
       "time_spans": [
         "10:00-10:40"
@@ -165,14 +165,14 @@
     {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
-      "rate": 70.0,
-      "present_text": "14/20人次",
-      "present": 14,
+      "rate": 60.0,
+      "present_text": "12/20人次",
+      "present": 12,
       "total": 20,
-      "absent": 6,
+      "absent": 8,
       "late": 2,
       "early": 0,
-      "leave": 2,
+      "leave": 4,
       "status": "异常",
       "time_spans": [
         "08:20-09:00",
@@ -262,6 +262,31 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "事假_【已通过】 2026-11-13 08:00:00 至 2026-11-13 17:00:00  因个人原因请假一天，谢谢",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育BR1(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-13T11:22:51"
+    },
     {
       "name": "马镕锴",
       "class": "A22",
@@ -353,23 +378,6 @@
           "course": "经济BY(F26)",
           "time": "09:10-09:50"
         },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育BR1(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-13T10:54:04"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
         {
           "course": "数学BQ1(F26)",
           "time": "10:00-10:40"
@@ -902,8 +910,8 @@
       "teacher": "王肇君",
       "time": "08:20-09:00",
       "location": "LT3-121",
-      "called_at": "2026-11-13T08:36:47",
-      "delay_min": 17
+      "called_at": "2026-11-13T11:22:51",
+      "delay_min": 183
     },
     {
       "class": "十一年级 AS3",
@@ -912,8 +920,8 @@
       "teacher": "王肇君",
       "time": "08:20-09:00",
       "location": "LT3-121",
-      "called_at": "2026-11-13T08:36:47",
-      "delay_min": 17
+      "called_at": "2026-11-13T11:22:51",
+      "delay_min": 183
     },
     {
       "class": "十一年级 AS2",
@@ -972,8 +980,8 @@
       "teacher": "王肇君",
       "time": "09:10-09:50",
       "location": "LT3-121",
-      "called_at": "2026-11-13T09:11:07",
-      "delay_min": 1
+      "called_at": "2026-11-13T11:22:51",
+      "delay_min": 133
     },
     {
       "class": "十一年级 AS3",
@@ -982,8 +990,8 @@
       "teacher": "王肇君",
       "time": "09:10-09:50",
       "location": "LT3-121",
-      "called_at": "2026-11-13T09:11:07",
-      "delay_min": 1
+      "called_at": "2026-11-13T11:22:51",
+      "delay_min": 133
     },
     {
       "class": "十一年级 AS2",
@@ -1052,8 +1060,8 @@
       "teacher": "杨燕霖",
       "time": "10:00-10:40",
       "location": "LT3-221",
-      "called_at": "2026-11-13T10:04:18",
-      "delay_min": 4
+      "called_at": "2026-11-13T11:22:51",
+      "delay_min": 83
     },
     {
       "class": "十一年级 AS2",
@@ -1062,8 +1070,8 @@
       "teacher": "杨燕霖",
       "time": "10:00-10:40",
       "location": "LT3-221",
-      "called_at": "2026-11-13T10:04:18",
-      "delay_min": 4
+      "called_at": "2026-11-13T11:22:51",
+      "delay_min": 83
     },
     {
       "class": "十一年级 AS3",
@@ -1072,8 +1080,8 @@
       "teacher": "杨燕霖",
       "time": "10:00-10:40",
       "location": "LT3-221",
-      "called_at": "2026-11-13T10:04:18",
-      "delay_min": 4
+      "called_at": "2026-11-13T11:22:51",
+      "delay_min": 83
     },
     {
       "class": "十年级 G22",
@@ -1089,12 +1097,12 @@
   "teacher_last_call": {
     "贺珍谊": "2026-11-13T11:19:02",
     "郝畅": "2026-11-13T11:01:26",
-    "沈译宇": "2026-11-13T10:54:04",
+    "沈译宇": "2026-11-13T11:22:51",
     "刘知言": "2026-11-13T10:52:31",
-    "王肇君": "2026-11-13T10:51:23",
+    "王肇君": "2026-11-13T11:22:51",
     "张璐菲": "2026-11-13T10:38:53",
     "王偲儿": "2026-11-13T10:05:16",
-    "杨燕霖": "2026-11-13T10:04:18",
+    "杨燕霖": "2026-11-13T11:22:51",
     "余震": "2026-11-13T10:01:34",
     "魏刘伟": "2026-11-13T09:11:33",
     "李昊骏": "2026-11-13T09:09:49"
@@ -1102,38 +1110,38 @@
   "trend": [
     {
       "date": "11-07",
-      "attendance": 90.0,
+      "attendance": 89.1,
       "submit": 90.0
     },
     {
       "date": "11-08",
-      "attendance": 88.5,
+      "attendance": 87.6,
       "submit": 90.5
     },
     {
       "date": "11-09",
-      "attendance": 87.0,
+      "attendance": 86.1,
       "submit": 91.0
     },
     {
       "date": "11-10",
-      "attendance": 85.5,
+      "attendance": 84.6,
       "submit": 91.5
     },
     {
       "date": "11-11",
-      "attendance": 84.0,
+      "attendance": 83.1,
       "submit": 92.0
     },
     {
       "date": "11-12",
-      "attendance": 82.5,
+      "attendance": 81.6,
       "submit": 92.5
     },
     {
       "date": "11-13",
-      "attendance": 85.5,
-      "submit": 87.8
+      "attendance": 84.6,
+      "submit": 87.3
     }
   ],
   "lesson": {
@@ -1143,18 +1151,18 @@
     "class_coverage": "15/15",
     "teacher_count": 16,
     "uncovered_classes": [
-      "高数CR2(F26)",
-      "化学BY(F26)",
-      "九年级 G11",
-      "十年级 G23",
-      "十一年级 AS3",
-      "十年级 G22",
       "十年级 G21",
-      "十一年级 AS1",
-      "十二年级 A21",
+      "十一年级 AS2",
       "十二年级 A22",
       "九年级 G12",
-      "十一年级 AS2"
+      "化学BY(F26)",
+      "高数CR2(F26)",
+      "十一年级 AS1",
+      "十年级 G22",
+      "九年级 G11",
+      "十年级 G23",
+      "十二年级 A21",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
