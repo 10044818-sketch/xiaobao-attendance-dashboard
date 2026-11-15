@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 23:55",
+  "updated_at": "2026-11-16 00:01",
   "school": {
     "rate": 0,
     "present": 0,
@@ -21,37 +21,37 @@
   "teacher_last_call": {},
   "trend": [
     {
-      "date": "11-09",
+      "date": "11-10",
       "attendance": 4.5,
       "submit": 90.0
     },
     {
-      "date": "11-10",
+      "date": "11-11",
       "attendance": 3.0,
       "submit": 90.5
     },
     {
-      "date": "11-11",
+      "date": "11-12",
       "attendance": 1.5,
       "submit": 91.0
     },
     {
-      "date": "11-12",
+      "date": "11-13",
       "attendance": 0.0,
       "submit": 91.5
     },
     {
-      "date": "11-13",
+      "date": "11-14",
       "attendance": -1.5,
       "submit": 92.0
     },
     {
-      "date": "11-14",
+      "date": "11-15",
       "attendance": -3.0,
       "submit": 92.5
     },
     {
-      "date": "11-15",
+      "date": "11-16",
       "attendance": 0,
       "submit": 45.0
     }
