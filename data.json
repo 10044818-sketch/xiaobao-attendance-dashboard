@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-16 13:05",
+  "updated_at": "2026-11-16 13:11",
   "school": {
-    "rate": 87.5,
-    "present": 293,
-    "total": 335,
-    "late": 9,
-    "absent": 42,
-    "leave": 31
+    "rate": 85.4,
+    "present": 344,
+    "total": 403,
+    "late": 11,
+    "absent": 59,
+    "leave": 48
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -182,6 +182,23 @@
       ]
     },
     {
+      "name": "英语写作A0(F26)",
+      "teacher": "王偲儿",
+      "rate": 92.9,
+      "present_text": "26/28人次",
+      "present": 26,
+      "total": 28,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "英语写作AQ2(F26)",
       "teacher": "贺珍谊",
       "rate": 100.0,
@@ -264,6 +281,23 @@
       ]
     },
     {
+      "name": "雅思CR2(F26)",
+      "teacher": "王偲儿",
+      "rate": 62.5,
+      "present_text": "25/40人次",
+      "present": 25,
+      "total": 40,
+      "absent": 15,
+      "late": 2,
+      "early": 0,
+      "leave": 15,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
       "name": "音乐9A(F26)",
       "teacher": "刘知言",
       "rate": 86.7,
@@ -281,6 +315,163 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-16T13:10:35"
+    },
+    {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-16T13:08:21"
+    },
+    {
+      "name": "徐悦栋",
+      "class": "A22",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-16T13:08:21"
+    },
+    {
+      "name": "王麒鸣",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/11/16 8:00:00 至 2026/11/16 10:00:00  准备ESAT ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-16T13:08:21"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-16T13:08:21"
+    },
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-16T13:08:21"
+    },
+    {
+      "name": "姜懿",
+      "class": "A22",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-16T13:08:21"
+    },
+    {
+      "name": "董轶尘",
+      "class": "A22",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思CR2(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-16T13:08:21"
+    },
+    {
+      "name": "俞玥",
+      "class": "A22",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "雅思CR2(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-16T13:06:51"
+    },
     {
       "name": "王锴杰",
       "class": "AS2",
@@ -427,23 +618,6 @@
         }
       ],
       "updated_at": "2026-11-16T11:22:23"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "已请假",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-16T10:54:44"
     },
     {
       "name": "周原",
@@ -612,22 +786,6 @@
       "location": "LT3-114"
     },
     {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "雅思英语",
-      "teacher": "王偲儿",
-      "time": "08:20-09:00",
-      "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "雅思英语",
-      "teacher": "王偲儿",
-      "time": "08:20-09:00",
-      "location": "LT3-206"
-    },
-    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "雅思英语",
@@ -642,22 +800,6 @@
       "teacher": "钱嘉音",
       "time": "09:10-09:50",
       "location": "LT3-114"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
-      "subject": "雅思英语",
-      "teacher": "王偲儿",
-      "time": "09:10-09:50",
-      "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "雅思英语",
-      "teacher": "王偲儿",
-      "time": "09:10-09:50",
-      "location": "LT3-206"
     },
     {
       "class": "十一年级 AS1",
@@ -738,14 +880,6 @@
       "teacher": "王伊",
       "time": "10:00-10:40",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "英语第二语言写作",
-      "teacher": "王偲儿",
-      "time": "10:00-10:40",
-      "location": "LT3-107"
     },
     {
       "class": "高数CR2(F26)",
@@ -850,14 +984,6 @@
       "teacher": "王伊",
       "time": "10:50-11:30",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "英语第二语言写作",
-      "teacher": "王偲儿",
-      "time": "10:50-11:30",
-      "location": "LT3-107"
     },
     {
       "class": "高数CR2(F26)",
@@ -898,6 +1024,26 @@
       "location": "LT3-121",
       "called_at": "2026-11-16T08:35:37",
       "delay_min": 16
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思英语",
+      "teacher": "王偲儿",
+      "time": "08:20-09:00",
+      "location": "LT3-206",
+      "called_at": "2026-11-16T13:06:51",
+      "delay_min": 287
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思英语",
+      "teacher": "王偲儿",
+      "time": "08:20-09:00",
+      "location": "LT3-206",
+      "called_at": "2026-11-16T13:06:51",
+      "delay_min": 287
     },
     {
       "class": "十年级 G22",
@@ -998,6 +1144,26 @@
       "location": "",
       "called_at": "2026-11-16T09:12:30",
       "delay_min": 2
+    },
+    {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思英语",
+      "teacher": "王偲儿",
+      "time": "09:10-09:50",
+      "location": "LT3-206",
+      "called_at": "2026-11-16T13:08:21",
+      "delay_min": 238
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思英语",
+      "teacher": "王偲儿",
+      "time": "09:10-09:50",
+      "location": "LT3-206",
+      "called_at": "2026-11-16T13:08:21",
+      "delay_min": 238
     },
     {
       "class": "十年级 G22",
@@ -1120,6 +1286,16 @@
       "delay_min": 1
     },
     {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "英语第二语言写作",
+      "teacher": "王偲儿",
+      "time": "10:00-10:40",
+      "location": "LT3-107",
+      "called_at": "2026-11-16T13:10:23",
+      "delay_min": 190
+    },
+    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "英语第二语言写作",
@@ -1210,6 +1386,16 @@
       "delay_min": 0
     },
     {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "英语第二语言写作",
+      "teacher": "王偲儿",
+      "time": "10:50-11:30",
+      "location": "LT3-107",
+      "called_at": "2026-11-16T13:10:35",
+      "delay_min": 141
+    },
+    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "英语第二语言写作",
@@ -1251,6 +1437,7 @@
     }
   ],
   "teacher_last_call": {
+    "王偲儿": "2026-11-16T13:10:35",
     "魏刘伟": "2026-11-16T13:00:45",
     "朱嘉怡": "2026-11-16T13:00:35",
     "Johannes van Baardewijk": "2026-11-16T11:36:28",
@@ -1268,55 +1455,54 @@
   "trend": [
     {
       "date": "11-10",
-      "attendance": 92.0,
+      "attendance": 89.9,
       "submit": 90.0
     },
     {
       "date": "11-11",
-      "attendance": 90.5,
+      "attendance": 88.4,
       "submit": 90.5
     },
     {
       "date": "11-12",
-      "attendance": 89.0,
+      "attendance": 86.9,
       "submit": 91.0
     },
     {
       "date": "11-13",
-      "attendance": 87.5,
+      "attendance": 85.4,
       "submit": 91.5
     },
     {
       "date": "11-14",
-      "attendance": 86.0,
+      "attendance": 83.9,
       "submit": 92.0
     },
     {
       "date": "11-15",
-      "attendance": 84.5,
+      "attendance": 82.4,
       "submit": 92.5
     },
     {
       "date": "11-16",
-      "attendance": 87.5,
-      "submit": 88.8
+      "attendance": 85.4,
+      "submit": 87.7
     }
   ],
   "lesson": {
-    "completion_rate": 52.8,
-    "called": 38,
+    "completion_rate": 61.1,
+    "called": 44,
     "total": 72,
-    "class_coverage": "16/16",
+    "class_coverage": "18/18",
     "teacher_count": 18,
     "uncovered_classes": [
-      "十年级 G21",
-      "高数CR2(F26)",
-      "十一年级 AS3",
-      "十二年级 A21",
       "十年级 G22",
       "十二年级 A22",
+      "十年级 G21",
+      "高数CR2(F26)",
       "十一年级 AS1",
-      "十年级 G23",
+      "十二年级 A21",
+      "十一年级 AS3",
       "十一年级 AS2"
     ],
     "uncovered_teachers": [
@@ -1337,22 +1523,6 @@
         "location": "LT3-114"
       },
       {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "雅思英语",
-        "teacher": "王偲儿",
-        "time": "08:20-09:00",
-        "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "雅思英语",
-        "teacher": "王偲儿",
-        "time": "08:20-09:00",
-        "location": "LT3-206"
-      },
-      {
         "class": "十一年级 AS1",
         "class_id": 442959,
         "subject": "雅思英语",
@@ -1367,22 +1537,6 @@
         "teacher": "钱嘉音",
         "time": "09:10-09:50",
         "location": "LT3-114"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
-        "subject": "雅思英语",
-        "teacher": "王偲儿",
-        "time": "09:10-09:50",
-        "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "雅思英语",
-        "teacher": "王偲儿",
-        "time": "09:10-09:50",
-        "location": "LT3-206"
       },
       {
         "class": "十一年级 AS1",
@@ -1463,14 +1617,6 @@
         "teacher": "王伊",
         "time": "10:00-10:40",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "英语第二语言写作",
-        "teacher": "王偲儿",
-        "time": "10:00-10:40",
-        "location": "LT3-107"
       },
       {
         "class": "高数CR2(F26)",
@@ -1575,14 +1721,6 @@
         "teacher": "王伊",
         "time": "10:50-11:30",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "英语第二语言写作",
-        "teacher": "王偲儿",
-        "time": "10:50-11:30",
-        "location": "LT3-107"
       },
       {
         "class": "高数CR2(F26)",
