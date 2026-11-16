@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-16 09:50",
+  "updated_at": "2026-11-16 09:56",
   "school": {
-    "rate": 87.8,
-    "present": 108,
-    "total": 123,
+    "rate": 87.6,
+    "present": 120,
+    "total": 137,
     "late": 6,
-    "absent": 15,
-    "leave": 8
+    "absent": 17,
+    "leave": 10
   },
   "summary": {
     "pending_yesterday": 0,
@@ -114,6 +114,22 @@
       ]
     },
     {
+      "name": "雅思BR1S(F26)",
+      "teacher": "曹德娟",
+      "rate": 85.7,
+      "present_text": "12/14人次",
+      "present": 12,
+      "total": 14,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "09:10-09:50"
+      ]
+    },
+    {
       "name": "雅思BR2(F26)",
       "teacher": "曹德娟",
       "rate": 93.8,
@@ -131,6 +147,40 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1S(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-16T09:52:06"
+    },
+    {
+      "name": "冯麟",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/16 10:30:00  头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "雅思BR1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "雅思BR1S(F26)",
+          "time": "09:10-09:50"
+        }
+      ],
+      "updated_at": "2026-11-16T09:52:06"
+    },
     {
       "name": "王锴杰",
       "class": "AS2",
@@ -175,36 +225,10 @@
       "updated_at": "2026-11-16T09:12:30"
     },
     {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-16T09:04:36"
-    },
-    {
       "name": "赵浩雯",
       "class": "AS1",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
-      "courses": [
-        {
-          "course": "雅思BR1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-16T09:04:36"
-    },
-    {
-      "name": "冯麟",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/16 10:30:00  头疼 ",
-      "type": "病假",
       "courses": [
         {
           "course": "雅思BR1(F26)",
@@ -341,22 +365,6 @@
       "location": "LT3-114"
     },
     {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "雅思英语",
-      "teacher": "曹德娟",
-      "time": "09:10-09:50",
-      "location": "LT3-123"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "雅思英语",
-      "teacher": "曹德娟",
-      "time": "09:10-09:50",
-      "location": "LT3-123"
-    },
-    {
       "class": "十一年级 AS3",
       "class_id": 442961,
       "subject": "雅思英语",
@@ -469,6 +477,26 @@
       "delay_min": 45
     },
     {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "雅思英语",
+      "teacher": "曹德娟",
+      "time": "09:10-09:50",
+      "location": "LT3-123",
+      "called_at": "2026-11-16T09:52:06",
+      "delay_min": 42
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "雅思英语",
+      "teacher": "曹德娟",
+      "time": "09:10-09:50",
+      "location": "LT3-123",
+      "called_at": "2026-11-16T09:52:06",
+      "delay_min": 42
+    },
+    {
       "class": "十一年级 AS2",
       "class_id": 442960,
       "subject": "体育",
@@ -530,65 +558,64 @@
     }
   ],
   "teacher_last_call": {
+    "曹德娟": "2026-11-16T09:52:06",
     "郝畅": "2026-11-16T09:18:00",
     "沈译宇": "2026-11-16T09:12:30",
     "王肇君": "2026-11-16T09:08:26",
     "贺珍谊": "2026-11-16T09:04:36",
     "张小翼": "2026-11-16T09:02:59",
-    "职梦凡": "2026-11-16T09:01:32",
-    "曹德娟": "2026-11-16T08:35:37"
+    "职梦凡": "2026-11-16T09:01:32"
   },
   "trend": [
     {
       "date": "11-10",
-      "attendance": 92.3,
+      "attendance": 92.1,
       "submit": 90.0
     },
     {
       "date": "11-11",
-      "attendance": 90.8,
+      "attendance": 90.6,
       "submit": 90.5
     },
     {
       "date": "11-12",
-      "attendance": 89.3,
+      "attendance": 89.1,
       "submit": 91.0
     },
     {
       "date": "11-13",
-      "attendance": 87.8,
+      "attendance": 87.6,
       "submit": 91.5
     },
     {
       "date": "11-14",
-      "attendance": 86.3,
+      "attendance": 86.1,
       "submit": 92.0
     },
     {
       "date": "11-15",
-      "attendance": 84.8,
+      "attendance": 84.6,
       "submit": 92.5
     },
     {
       "date": "11-16",
-      "attendance": 87.8,
-      "submit": 88.9
+      "attendance": 87.6,
+      "submit": 88.8
     }
   ],
   "lesson": {
-    "completion_rate": 50.0,
-    "called": 13,
+    "completion_rate": 57.7,
+    "called": 15,
     "total": 26,
-    "class_coverage": "7/7",
+    "class_coverage": "8/8",
     "teacher_count": 10,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十二年级 A21",
-      "十年级 G21",
-      "十二年级 A22",
       "十一年级 AS1",
+      "十一年级 AS3",
       "十年级 G23",
-      "十一年级 AS3"
+      "十二年级 A22",
+      "十二年级 A21",
+      "十年级 G21"
     ],
     "uncovered_teachers": [
       {
@@ -638,22 +665,6 @@
         "teacher": "钱嘉音",
         "time": "09:10-09:50",
         "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "雅思英语",
-        "teacher": "曹德娟",
-        "time": "09:10-09:50",
-        "location": "LT3-123"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "雅思英语",
-        "teacher": "曹德娟",
-        "time": "09:10-09:50",
-        "location": "LT3-123"
       },
       {
         "class": "十一年级 AS3",
