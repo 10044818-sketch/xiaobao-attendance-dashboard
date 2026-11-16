@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-16 14:17",
+  "updated_at": "2026-11-16 14:20",
   "school": {
-    "rate": 85.4,
-    "present": 421,
-    "total": 493,
+    "rate": 86.0,
+    "present": 448,
+    "total": 521,
     "late": 12,
-    "absent": 72,
+    "absent": 73,
     "leave": 52
   },
   "summary": {
@@ -298,6 +298,23 @@
       ]
     },
     {
+      "name": "英语口语A0(F26)",
+      "teacher": "李昊骏",
+      "rate": 96.4,
+      "present_text": "27/28人次",
+      "present": 27,
+      "total": 28,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40",
+        "15:30-16:10"
+      ]
+    },
+    {
       "name": "英语口语AQ3(F26)",
       "teacher": "Johannes van Baardewijk",
       "rate": 100.0,
@@ -397,6 +414,35 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语口语A0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-16T14:20:04"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -673,31 +719,6 @@
         }
       ],
       "updated_at": "2026-11-16T13:39:02"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "已请假",
-      "type": "请假",
-      "courses": [
-        {
-          "course": "数学A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "英语写作A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作A0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-16T13:10:35"
     },
     {
       "name": "张翰霆",
@@ -1202,14 +1223,6 @@
       "teacher": "熊辉",
       "time": "13:00-13:40",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "英语第二语言口语",
-      "teacher": "李昊骏",
-      "time": "13:00-13:40",
-      "location": "LT3-107"
     }
   ],
   "called_roll_call": [
@@ -1704,6 +1717,16 @@
       "delay_min": 48
     },
     {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "英语第二语言口语",
+      "teacher": "李昊骏",
+      "time": "13:00-13:40",
+      "location": "LT3-107",
+      "called_at": "2026-11-16T14:20:04",
+      "delay_min": 80
+    },
+    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "艺术与设计",
@@ -1815,6 +1838,7 @@
     }
   ],
   "teacher_last_call": {
+    "李昊骏": "2026-11-16T14:20:14",
     "王肇君": "2026-11-16T13:51:13",
     "米万宝": "2026-11-16T13:50:37",
     "朱嘉怡": "2026-11-16T13:48:56",
@@ -1835,58 +1859,57 @@
   "trend": [
     {
       "date": "11-10",
-      "attendance": 89.9,
+      "attendance": 90.5,
       "submit": 90.0
     },
     {
       "date": "11-11",
-      "attendance": 88.4,
+      "attendance": 89.0,
       "submit": 90.5
     },
     {
       "date": "11-12",
-      "attendance": 86.9,
+      "attendance": 87.5,
       "submit": 91.0
     },
     {
       "date": "11-13",
-      "attendance": 85.4,
+      "attendance": 86.0,
       "submit": 91.5
     },
     {
       "date": "11-14",
-      "attendance": 83.9,
+      "attendance": 84.5,
       "submit": 92.0
     },
     {
       "date": "11-15",
-      "attendance": 82.4,
+      "attendance": 83.0,
       "submit": 92.5
     },
     {
       "date": "11-16",
-      "attendance": 85.4,
-      "submit": 87.7
+      "attendance": 86.0,
+      "submit": 88.0
     }
   ],
   "lesson": {
-    "completion_rate": 63.0,
-    "called": 58,
+    "completion_rate": 64.1,
+    "called": 59,
     "total": 92,
-    "class_coverage": "23/23",
+    "class_coverage": "24/24",
     "teacher_count": 24,
     "uncovered_classes": [
+      "十一年级 AS1",
       "高数CR2(F26)",
       "九年级 G11",
-      "十一年级 AS1",
-      "十年级 G23",
+      "十一年级 AS3",
       "十年级 G21",
+      "十一年级 AS2",
+      "十二年级 A21",
       "十二年级 A22",
       "十年级 G22",
-      "十一年级 AS3",
-      "十二年级 A21",
-      "九年级 G12",
-      "十一年级 AS2"
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
@@ -2152,14 +2175,6 @@
         "teacher": "熊辉",
         "time": "13:00-13:40",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "英语第二语言口语",
-        "teacher": "李昊骏",
-        "time": "13:00-13:40",
-        "location": "LT3-107"
       }
     ]
   }
