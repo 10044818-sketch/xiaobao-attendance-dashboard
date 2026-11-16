@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-16 11:35",
+  "updated_at": "2026-11-16 11:40",
   "school": {
-    "rate": 86.6,
-    "present": 245,
-    "total": 283,
+    "rate": 87.5,
+    "present": 267,
+    "total": 305,
     "late": 9,
     "absent": 38,
     "leave": 29
@@ -156,6 +156,23 @@
       "present_text": "18/18人次",
       "present": 18,
       "total": 18,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
+      ]
+    },
+    {
+      "name": "英语口语AQ3(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 100.0,
+      "present_text": "22/22人次",
+      "present": 22,
+      "total": 22,
       "absent": 0,
       "late": 0,
       "early": 0,
@@ -667,28 +684,12 @@
       "location": "LT3-109"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "10:00-10:40",
-      "location": "LT3-122"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "英语第二语言",
       "teacher": "王伊",
       "time": "10:00-10:40",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "10:00-10:40",
-      "location": "LT3-122"
     },
     {
       "class": "十年级 G23",
@@ -795,28 +796,12 @@
       "location": "LT3-109"
     },
     {
-      "class": "十年级 G21",
-      "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "10:50-11:30",
-      "location": "LT3-122"
-    },
-    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "英语第二语言",
       "teacher": "王伊",
       "time": "10:50-11:30",
       "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "10:50-11:30",
-      "location": "LT3-122"
     },
     {
       "class": "十年级 G23",
@@ -1017,6 +1002,26 @@
       "delay_min": 8
     },
     {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "10:00-10:40",
+      "location": "LT3-122",
+      "called_at": "2026-11-16T11:36:23",
+      "delay_min": 96
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "10:00-10:40",
+      "location": "LT3-122",
+      "called_at": "2026-11-16T11:36:23",
+      "delay_min": 96
+    },
+    {
       "class": "九年级 G11",
       "class_id": 487607,
       "subject": "音乐",
@@ -1107,6 +1112,26 @@
       "delay_min": 1
     },
     {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "10:50-11:30",
+      "location": "LT3-122",
+      "called_at": "2026-11-16T11:36:28",
+      "delay_min": 46
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "10:50-11:30",
+      "location": "LT3-122",
+      "called_at": "2026-11-16T11:36:28",
+      "delay_min": 46
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
@@ -1178,6 +1203,7 @@
     }
   ],
   "teacher_last_call": {
+    "Johannes van Baardewijk": "2026-11-16T11:36:28",
     "孙鹏": "2026-11-16T11:22:23",
     "郝畅": "2026-11-16T11:08:09",
     "张小翼": "2026-11-16T10:54:44",
@@ -1192,56 +1218,56 @@
   "trend": [
     {
       "date": "11-10",
-      "attendance": 91.1,
+      "attendance": 92.0,
       "submit": 90.0
     },
     {
       "date": "11-11",
-      "attendance": 89.6,
+      "attendance": 90.5,
       "submit": 90.5
     },
     {
       "date": "11-12",
-      "attendance": 88.1,
+      "attendance": 89.0,
       "submit": 91.0
     },
     {
       "date": "11-13",
-      "attendance": 86.6,
+      "attendance": 87.5,
       "submit": 91.5
     },
     {
       "date": "11-14",
-      "attendance": 85.1,
+      "attendance": 86.0,
       "submit": 92.0
     },
     {
       "date": "11-15",
-      "attendance": 83.6,
+      "attendance": 84.5,
       "submit": 92.5
     },
     {
       "date": "11-16",
-      "attendance": 86.6,
-      "submit": 88.3
+      "attendance": 87.5,
+      "submit": 88.8
     }
   ],
   "lesson": {
-    "completion_rate": 47.2,
-    "called": 34,
+    "completion_rate": 52.8,
+    "called": 38,
     "total": 72,
-    "class_coverage": "13/13",
+    "class_coverage": "14/14",
     "teacher_count": 18,
     "uncovered_classes": [
-      "十一年级 AS2",
       "十一年级 AS3",
-      "十一年级 AS1",
-      "十年级 G22",
-      "十二年级 A21",
-      "高数CR2(F26)",
       "十年级 G21",
       "十年级 G23",
-      "十二年级 A22"
+      "十二年级 A22",
+      "高数CR2(F26)",
+      "十年级 G22",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
       {
@@ -1381,28 +1407,12 @@
         "location": "LT3-109"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "10:00-10:40",
-        "location": "LT3-122"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "英语第二语言",
         "teacher": "王伊",
         "time": "10:00-10:40",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "10:00-10:40",
-        "location": "LT3-122"
       },
       {
         "class": "十年级 G23",
@@ -1509,28 +1519,12 @@
         "location": "LT3-109"
       },
       {
-        "class": "十年级 G21",
-        "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "10:50-11:30",
-        "location": "LT3-122"
-      },
-      {
         "class": "十年级 G22",
         "class_id": 521637,
         "subject": "英语第二语言",
         "teacher": "王伊",
         "time": "10:50-11:30",
         "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "10:50-11:30",
-        "location": "LT3-122"
       },
       {
         "class": "十年级 G23",
