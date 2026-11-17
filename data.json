@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-17 09:01",
+  "updated_at": "2026-11-17 09:06",
   "school": {
-    "rate": 84.8,
-    "present": 67,
+    "rate": 86.1,
+    "present": 68,
     "total": 79,
-    "late": 3,
-    "absent": 12,
+    "late": 4,
+    "absent": 11,
     "leave": 7
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -34,15 +34,15 @@
     {
       "name": "商科BZ(F26)",
       "teacher": "余震",
-      "rate": 80.0,
-      "present_text": "8/10人次",
-      "present": 8,
+      "rate": 90.0,
+      "present_text": "9/10人次",
+      "present": 9,
       "total": 10,
-      "absent": 2,
-      "late": 0,
+      "absent": 1,
+      "late": 1,
       "early": 0,
       "leave": 1,
-      "status": "异常",
+      "status": "关注",
       "time_spans": [
         "08:20-09:00"
       ]
@@ -131,6 +131,19 @@
   ],
   "absent_students": [
     {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "商科BZ(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-17T09:01:34"
+    },
+    {
       "name": "赵浩雯",
       "class": "AS1",
       "reason": "事假_【已通过】 2026-11-16 08:00:00 至 2026-11-17 17:00:00  因个人原因请假两天，谢谢",
@@ -181,32 +194,6 @@
         }
       ],
       "updated_at": "2026-11-17T08:22:09"
-    },
-    {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "商科BZ(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-17T08:21:26"
-    },
-    {
-      "name": "余天佑",
-      "class": "AS3",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "商科BZ(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-17T08:21:26"
     },
     {
       "name": "余天泽",
@@ -368,8 +355,8 @@
       "teacher": "余震",
       "time": "08:20-09:00",
       "location": "LT3-121",
-      "called_at": "2026-11-17T08:21:26",
-      "delay_min": 1
+      "called_at": "2026-11-17T09:01:34",
+      "delay_min": 42
     },
     {
       "class": "十一年级 AS2",
@@ -378,8 +365,8 @@
       "teacher": "余震",
       "time": "08:20-09:00",
       "location": "LT3-121",
-      "called_at": "2026-11-17T08:21:26",
-      "delay_min": 1
+      "called_at": "2026-11-17T09:01:34",
+      "delay_min": 42
     },
     {
       "class": "十一年级 AS3",
@@ -388,8 +375,8 @@
       "teacher": "余震",
       "time": "08:20-09:00",
       "location": "LT3-121",
-      "called_at": "2026-11-17T08:21:26",
-      "delay_min": 1
+      "called_at": "2026-11-17T09:01:34",
+      "delay_min": 42
     },
     {
       "class": "十一年级 AS1",
@@ -547,45 +534,45 @@
     "米万宝": "2026-11-17T08:55:00",
     "张璐菲": "2026-11-17T08:22:54",
     "杨燕霖": "2026-11-17T08:22:09",
-    "余震": "2026-11-17T08:21:26",
+    "余震": "2026-11-17T09:01:34",
     "郝畅": "2026-11-17T08:21:18",
     "潘丽": "2026-11-17T08:20:17"
   },
   "trend": [
     {
       "date": "11-11",
-      "attendance": 89.3,
+      "attendance": 90.6,
       "submit": 90.0
     },
     {
       "date": "11-12",
-      "attendance": 87.8,
+      "attendance": 89.1,
       "submit": 90.5
     },
     {
       "date": "11-13",
-      "attendance": 86.3,
+      "attendance": 87.6,
       "submit": 91.0
     },
     {
       "date": "11-14",
-      "attendance": 84.8,
+      "attendance": 86.1,
       "submit": 91.5
     },
     {
       "date": "11-15",
-      "attendance": 83.3,
+      "attendance": 84.6,
       "submit": 92.0
     },
     {
       "date": "11-16",
-      "attendance": 81.8,
+      "attendance": 83.1,
       "submit": 92.5
     },
     {
       "date": "11-17",
-      "attendance": 84.8,
-      "submit": 87.4
+      "attendance": 86.1,
+      "submit": 88.0
     }
   ],
   "lesson": {
@@ -595,14 +582,14 @@
     "class_coverage": "7/7",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十年级 G21",
-      "十一年级 AS1",
-      "十年级 G23",
-      "十二年级 A21",
-      "化学C0(F26)",
       "化学CB(F26)",
+      "十年级 G23",
+      "十一年级 AS1",
+      "十二年级 A22",
       "十年级 G22",
-      "十二年级 A22"
+      "化学C0(F26)",
+      "十年级 G21",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
