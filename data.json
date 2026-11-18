@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-18 10:05",
+  "updated_at": "2026-11-18 10:12",
   "school": {
-    "rate": 83.4,
-    "present": 136,
-    "total": 163,
+    "rate": 81.8,
+    "present": 144,
+    "total": 176,
     "late": 4,
-    "absent": 27,
-    "leave": 20
+    "absent": 32,
+    "leave": 21
   },
   "summary": {
     "pending_yesterday": 0,
@@ -45,6 +45,23 @@
       "status": "异常",
       "time_spans": [
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "商科CA(F26)",
+      "teacher": "余震",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -129,6 +146,22 @@
       ]
     },
     {
+      "name": "物理CA(F26)",
+      "teacher": "曾靓",
+      "rate": 54.5,
+      "present_text": "6/11人次",
+      "present": 6,
+      "total": 11,
+      "absent": 5,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
       "rate": 90.0,
@@ -178,6 +211,71 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "张翰霆",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-18T10:09:37"
+    },
+    {
+      "name": "岳沐辰",
+      "class": "A21",
+      "reason": "事假_【已通过】 2026/11/2 8:00:00 至 2026/11/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-18T10:09:37"
+    },
+    {
+      "name": "王子天",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-18T10:09:37"
+    },
+    {
+      "name": "汤二璨",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-18T10:09:37"
+    },
+    {
+      "name": "姜亦程",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理CA(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-18T10:09:37"
+    },
     {
       "name": "江雨霏",
       "class": "A22",
@@ -795,6 +893,8 @@
     }
   ],
   "teacher_last_call": {
+    "余震": "2026-11-18T10:10:32",
+    "曾靓": "2026-11-18T10:09:37",
     "曹德娟": "2026-11-18T10:04:01",
     "沈译宇": "2026-11-18T10:02:52",
     "刘知言": "2026-11-18T10:01:58",
@@ -809,57 +909,57 @@
   "trend": [
     {
       "date": "11-12",
-      "attendance": 87.9,
+      "attendance": 86.3,
       "submit": 90.0
     },
     {
       "date": "11-13",
-      "attendance": 86.4,
+      "attendance": 84.8,
       "submit": 90.5
     },
     {
       "date": "11-14",
-      "attendance": 84.9,
+      "attendance": 83.3,
       "submit": 91.0
     },
     {
       "date": "11-15",
-      "attendance": 83.4,
+      "attendance": 81.8,
       "submit": 91.5
     },
     {
       "date": "11-16",
-      "attendance": 81.9,
+      "attendance": 80.3,
       "submit": 92.0
     },
     {
       "date": "11-17",
-      "attendance": 80.4,
+      "attendance": 78.8,
       "submit": 92.5
     },
     {
       "date": "11-18",
-      "attendance": 83.4,
-      "submit": 86.7
+      "attendance": 81.8,
+      "submit": 85.9
     }
   ],
   "lesson": {
     "completion_rate": 25.6,
     "called": 10,
     "total": 39,
-    "class_coverage": "10/10",
+    "class_coverage": "12/12",
     "teacher_count": 11,
     "uncovered_classes": [
-      "十一年级 AS1",
       "十一年级 AS2",
+      "十二年级 A21",
+      "十一年级 AS3",
       "十年级 G21",
+      "十二年级 A22",
+      "十年级 G22",
       "高数CR2(F26)",
       "九年级 G11",
-      "十年级 G22",
-      "十二年级 A22",
-      "九年级 G12",
-      "十二年级 A21",
-      "十一年级 AS3"
+      "十一年级 AS1",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
