@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-18 15:01",
+  "updated_at": "2026-11-18 15:08",
   "school": {
-    "rate": 83.0,
-    "present": 529,
-    "total": 637,
+    "rate": 83.2,
+    "present": 538,
+    "total": 647,
     "late": 8,
-    "absent": 108,
-    "leave": 78
+    "absent": 109,
+    "leave": 79
   },
   "summary": {
     "pending_yesterday": 0,
@@ -337,17 +337,18 @@
       "name": "经济BY(F26)",
       "teacher": "王肇君",
       "rate": 90.0,
-      "present_text": "18/20人次",
-      "present": 18,
-      "total": 20,
-      "absent": 2,
+      "present_text": "27/30人次",
+      "present": 27,
+      "total": 30,
+      "absent": 3,
       "late": 0,
       "early": 0,
-      "leave": 2,
+      "leave": 3,
       "status": "关注",
       "time_spans": [
         "10:00-10:40",
-        "10:50-11:30"
+        "10:50-11:30",
+        "14:40-15:20"
       ]
     },
     {
@@ -548,6 +549,43 @@
   ],
   "absent_students": [
     {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐BR1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-18T15:04:30"
+    },
+    {
       "name": "曾禹德",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -609,39 +647,6 @@
         }
       ],
       "updated_at": "2026-11-18T14:44:34"
-    },
-    {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "音乐BR1(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-11-18T14:42:43"
     },
     {
       "name": "张翰霆",
@@ -2461,9 +2466,9 @@
     }
   ],
   "teacher_last_call": {
+    "王肇君": "2026-11-18T15:04:30",
     "张小翼": "2026-11-18T14:48:50",
     "米万宝": "2026-11-18T14:44:34",
-    "王肇君": "2026-11-18T14:42:43",
     "王偲儿": "2026-11-18T14:42:23",
     "余震": "2026-11-18T14:42:03",
     "魏刘伟": "2026-11-18T14:40:18",
@@ -2483,38 +2488,38 @@
   "trend": [
     {
       "date": "11-12",
-      "attendance": 87.5,
+      "attendance": 87.7,
       "submit": 90.0
     },
     {
       "date": "11-13",
-      "attendance": 86.0,
+      "attendance": 86.2,
       "submit": 90.5
     },
     {
       "date": "11-14",
-      "attendance": 84.5,
+      "attendance": 84.7,
       "submit": 91.0
     },
     {
       "date": "11-15",
-      "attendance": 83.0,
+      "attendance": 83.2,
       "submit": 91.5
     },
     {
       "date": "11-16",
-      "attendance": 81.5,
+      "attendance": 81.7,
       "submit": 92.0
     },
     {
       "date": "11-17",
-      "attendance": 80.0,
+      "attendance": 80.2,
       "submit": 92.5
     },
     {
       "date": "11-18",
-      "attendance": 83.0,
-      "submit": 86.5
+      "attendance": 83.2,
+      "submit": 86.6
     }
   ],
   "lesson": {
@@ -2524,17 +2529,17 @@
     "class_coverage": "32/32",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十年级 G21",
-      "十一年级 AS2",
-      "九年级 G11",
       "十年级 G23",
       "十年级 G22",
+      "高数CR2(F26)",
+      "十年级 G21",
       "十二年级 A21",
-      "九年级 G12",
-      "十一年级 AS3",
       "十一年级 AS1",
-      "高数CR2(F26)"
+      "十一年级 AS2",
+      "九年级 G12",
+      "十二年级 A22",
+      "十一年级 AS3",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
