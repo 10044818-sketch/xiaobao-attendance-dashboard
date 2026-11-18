@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-18 14:31",
+  "updated_at": "2026-11-18 14:36",
   "school": {
-    "rate": 82.2,
-    "present": 419,
-    "total": 510,
+    "rate": 82.7,
+    "present": 435,
+    "total": 526,
     "late": 7,
     "absent": 91,
     "leave": 63
@@ -343,6 +343,22 @@
       "early": 0,
       "leave": 1,
       "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
+      "name": "雅思BR2(F26)",
+      "teacher": "曹德娟",
+      "rate": 100.0,
+      "present_text": "16/16人次",
+      "present": 16,
+      "total": 16,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
       "time_spans": [
         "13:50-14:30"
       ]
@@ -1504,14 +1520,6 @@
       "location": "LT3-114"
     },
     {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "雅思英语",
-      "teacher": "曹德娟",
-      "time": "13:50-14:30",
-      "location": "LT3-121"
-    },
-    {
       "class": "十一年级 AS3",
       "class_id": 442961,
       "subject": "雅思英语",
@@ -2192,6 +2200,16 @@
       "delay_min": 24
     },
     {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "雅思英语",
+      "teacher": "曹德娟",
+      "time": "13:50-14:30",
+      "location": "LT3-121",
+      "called_at": "2026-11-18T14:34:44",
+      "delay_min": 45
+    },
+    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "数学",
@@ -2273,6 +2291,7 @@
     }
   ],
   "teacher_last_call": {
+    "曹德娟": "2026-11-18T14:34:44",
     "刘知言": "2026-11-18T14:14:00",
     "贺珍谊": "2026-11-18T14:05:28",
     "杨燕霖": "2026-11-18T13:49:54",
@@ -2281,7 +2300,6 @@
     "王偲儿": "2026-11-18T13:29:23",
     "熊辉": "2026-11-18T13:22:07",
     "潘丽": "2026-11-18T13:02:37",
-    "曹德娟": "2026-11-18T13:00:26",
     "职梦凡": "2026-11-18T13:23:58",
     "郝畅": "2026-11-18T11:33:55",
     "张璐菲": "2026-11-18T11:27:29",
@@ -2294,59 +2312,59 @@
   "trend": [
     {
       "date": "11-12",
-      "attendance": 86.7,
+      "attendance": 87.2,
       "submit": 90.0
     },
     {
       "date": "11-13",
-      "attendance": 85.2,
+      "attendance": 85.7,
       "submit": 90.5
     },
     {
       "date": "11-14",
-      "attendance": 83.7,
+      "attendance": 84.2,
       "submit": 91.0
     },
     {
       "date": "11-15",
-      "attendance": 82.2,
+      "attendance": 82.7,
       "submit": 91.5
     },
     {
       "date": "11-16",
-      "attendance": 80.7,
+      "attendance": 81.2,
       "submit": 92.0
     },
     {
       "date": "11-17",
-      "attendance": 79.2,
+      "attendance": 79.7,
       "submit": 92.5
     },
     {
       "date": "11-18",
-      "attendance": 82.2,
-      "submit": 86.1
+      "attendance": 82.7,
+      "submit": 86.3
     }
   ],
   "lesson": {
-    "completion_rate": 56.3,
-    "called": 67,
+    "completion_rate": 57.1,
+    "called": 68,
     "total": 119,
-    "class_coverage": "27/27",
+    "class_coverage": "28/28",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十二年级 A21",
-      "化学BY(F26)",
+      "十一年级 AS2",
+      "十年级 G22",
+      "高数CR2(F26)",
+      "九年级 G11",
+      "十一年级 AS1",
       "九年级 G12",
       "十二年级 A22",
       "十年级 G23",
-      "十一年级 AS1",
-      "九年级 G11",
+      "化学BY(F26)",
+      "十二年级 A21",
       "十年级 G21",
-      "十年级 G22",
-      "高数CR2(F26)",
-      "十一年级 AS3",
-      "十一年级 AS2"
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -2708,14 +2726,6 @@
         "teacher": "钱嘉音",
         "time": "13:50-14:30",
         "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "雅思英语",
-        "teacher": "曹德娟",
-        "time": "13:50-14:30",
-        "location": "LT3-121"
       },
       {
         "class": "十一年级 AS3",
