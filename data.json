@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-18 08:20",
+  "updated_at": "2026-11-18 08:25",
   "school": {
-    "rate": 94.7,
-    "present": 18,
-    "total": 19,
-    "late": 0,
-    "absent": 1,
-    "leave": 1
+    "rate": 84.9,
+    "present": 45,
+    "total": 53,
+    "late": 1,
+    "absent": 8,
+    "leave": 7
   },
   "summary": {
     "pending_yesterday": 0,
@@ -15,6 +15,22 @@
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "数学BQ1(F26)",
+      "teacher": "杨燕霖",
+      "rate": 78.9,
+      "present_text": "15/19人次",
+      "present": 15,
+      "total": 19,
+      "absent": 4,
+      "late": 1,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
     {
       "name": "物理AX(F26)",
       "teacher": "熊辉",
@@ -30,9 +46,116 @@
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "物理AY(F26)",
+      "teacher": "职梦凡",
+      "rate": 80.0,
+      "present_text": "12/15人次",
+      "present": 12,
+      "total": 15,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026-11-18 08:00:00 至 2026-11-20 17:00:00  不舒服",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-18T08:24:22"
+    },
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-18T08:24:08"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-18T08:24:08"
+    },
+    {
+      "name": "凌想想",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/11/18 8:00:00 至 2026/11/18 9:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-18T08:24:08"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/11/12 8:00:00 至 2026/11/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-18T08:24:08"
+    },
+    {
+      "name": "孔维轩",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/11/18 8:00:00 至 2026/11/18 17:00:00  身体不适 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-18T08:23:34"
+    },
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/11/11 8:00:00 至 2026/11/20 18:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-18T08:23:34"
+    },
     {
       "name": "宋玟萱",
       "class": "G21",
@@ -50,50 +173,52 @@
   "pending_roll_call": [],
   "called_roll_call": [],
   "teacher_last_call": {
+    "杨燕霖": "2026-11-18T08:24:08",
+    "职梦凡": "2026-11-18T08:24:22",
     "熊辉": "2026-11-18T08:20:12"
   },
   "trend": [
     {
       "date": "11-12",
-      "attendance": 99.2,
+      "attendance": 89.4,
       "submit": 90.0
     },
     {
       "date": "11-13",
-      "attendance": 97.7,
+      "attendance": 87.9,
       "submit": 90.5
     },
     {
       "date": "11-14",
-      "attendance": 96.2,
+      "attendance": 86.4,
       "submit": 91.0
     },
     {
       "date": "11-15",
-      "attendance": 94.7,
+      "attendance": 84.9,
       "submit": 91.5
     },
     {
       "date": "11-16",
-      "attendance": 93.2,
+      "attendance": 83.4,
       "submit": 92.0
     },
     {
       "date": "11-17",
-      "attendance": 91.7,
+      "attendance": 81.9,
       "submit": 92.5
     },
     {
       "date": "11-18",
-      "attendance": 94.7,
-      "submit": 92.3
+      "attendance": 84.9,
+      "submit": 87.5
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "1/1",
+    "class_coverage": "3/3",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
