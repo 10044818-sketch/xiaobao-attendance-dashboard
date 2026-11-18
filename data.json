@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-18 13:02",
+  "updated_at": "2026-11-18 13:05",
   "school": {
-    "rate": 82.1,
-    "present": 279,
-    "total": 340,
+    "rate": 82.9,
+    "present": 310,
+    "total": 374,
     "late": 6,
-    "absent": 61,
-    "leave": 40
+    "absent": 64,
+    "leave": 41
   },
   "summary": {
     "pending_yesterday": 0,
@@ -79,6 +79,23 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学AR1(F26)",
+      "teacher": "潘丽",
+      "rate": 100.0,
+      "present_text": "20/20人次",
+      "present": 20,
+      "total": 20,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40",
+        "13:50-14:30"
       ]
     },
     {
@@ -357,9 +374,76 @@
       "time_spans": [
         "10:00-10:40"
       ]
+    },
+    {
+      "name": "音乐BR1(F26)",
+      "teacher": "刘知言",
+      "rate": 78.6,
+      "present_text": "11/14人次",
+      "present": 11,
+      "total": 14,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐BR1(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-18T13:02:55"
+    },
+    {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "音乐BR1(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-18T13:02:55"
+    },
+    {
+      "name": "冯昭嘉",
+      "class": "AS2",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐BR1(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-18T13:02:55"
+    },
     {
       "name": "余天泽",
       "class": "G12",
@@ -794,36 +878,6 @@
         }
       ],
       "updated_at": "2026-11-18T10:01:58"
-    },
-    {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-11-18T10:01:30"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-18T08:24:08"
     },
     {
       "name": "凌想想",
@@ -1590,6 +1644,8 @@
     }
   ],
   "teacher_last_call": {
+    "刘知言": "2026-11-18T13:02:55",
+    "潘丽": "2026-11-18T13:02:37",
     "朱嘉怡": "2026-11-18T13:01:26",
     "曹德娟": "2026-11-18T13:00:26",
     "职梦凡": "2026-11-18T12:57:51",
@@ -1599,7 +1655,6 @@
     "曾靓": "2026-11-18T10:54:20",
     "余震": "2026-11-18T10:10:32",
     "沈译宇": "2026-11-18T10:02:52",
-    "刘知言": "2026-11-18T10:01:58",
     "王肇君": "2026-11-18T10:01:30",
     "魏刘伟": "2026-11-18T09:59:56",
     "张小翼": "2026-11-18T09:37:58",
@@ -1609,58 +1664,58 @@
   "trend": [
     {
       "date": "11-12",
-      "attendance": 86.6,
+      "attendance": 87.4,
       "submit": 90.0
     },
     {
       "date": "11-13",
-      "attendance": 85.1,
+      "attendance": 85.9,
       "submit": 90.5
     },
     {
       "date": "11-14",
-      "attendance": 83.6,
+      "attendance": 84.4,
       "submit": 91.0
     },
     {
       "date": "11-15",
-      "attendance": 82.1,
+      "attendance": 82.9,
       "submit": 91.5
     },
     {
       "date": "11-16",
-      "attendance": 80.6,
+      "attendance": 81.4,
       "submit": 92.0
     },
     {
       "date": "11-17",
-      "attendance": 79.1,
+      "attendance": 79.9,
       "submit": 92.5
     },
     {
       "date": "11-18",
-      "attendance": 82.1,
-      "submit": 86.0
+      "attendance": 82.9,
+      "submit": 86.5
     }
   ],
   "lesson": {
     "completion_rate": 49.4,
     "called": 41,
     "total": 83,
-    "class_coverage": "21/21",
+    "class_coverage": "23/23",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十一年级 AS2",
-      "十二年级 A22",
       "十一年级 AS1",
-      "十一年级 AS3",
+      "十年级 G22",
+      "九年级 G11",
       "十年级 G21",
       "高数CR2(F26)",
       "化学BY(F26)",
-      "九年级 G11",
-      "十年级 G22",
-      "九年级 G12"
+      "十二年级 A22",
+      "九年级 G12",
+      "十二年级 A21",
+      "十一年级 AS2",
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
