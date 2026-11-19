@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-19 19:12",
+  "updated_at": "2026-11-19 19:17",
   "school": {
-    "rate": 81.4,
-    "present": 647,
-    "total": 795,
+    "rate": 81.5,
+    "present": 653,
+    "total": 801,
     "late": 7,
     "absent": 148,
     "leave": 102
@@ -730,16 +730,17 @@
       "name": "高数BD1(F26)",
       "teacher": "潘子清",
       "rate": 100.0,
-      "present_text": "6/6人次",
-      "present": 6,
-      "total": 6,
+      "present_text": "12/12人次",
+      "present": 12,
+      "total": 12,
       "absent": 0,
       "late": 1,
       "early": 0,
       "leave": 0,
       "status": "正常",
       "time_spans": [
-        "18:15-19:00"
+        "18:15-19:00",
+        "19:15-20:00"
       ]
     }
   ],
@@ -3454,7 +3455,7 @@
     }
   ],
   "teacher_last_call": {
-    "潘子清": "2026-11-19T18:22:35",
+    "潘子清": "2026-11-19T19:13:21",
     "瞿芬": "2026-11-19T17:27:34",
     "曾靓": "2026-11-19T17:02:24",
     "孙鹏": "2026-11-19T15:43:04",
@@ -3480,38 +3481,38 @@
   "trend": [
     {
       "date": "11-13",
-      "attendance": 85.9,
+      "attendance": 86.0,
       "submit": 90.0
     },
     {
       "date": "11-14",
-      "attendance": 84.4,
+      "attendance": 84.5,
       "submit": 90.5
     },
     {
       "date": "11-15",
-      "attendance": 82.9,
+      "attendance": 83.0,
       "submit": 91.0
     },
     {
       "date": "11-16",
-      "attendance": 81.4,
+      "attendance": 81.5,
       "submit": 91.5
     },
     {
       "date": "11-17",
-      "attendance": 79.9,
+      "attendance": 80.0,
       "submit": 92.0
     },
     {
       "date": "11-18",
-      "attendance": 78.4,
+      "attendance": 78.5,
       "submit": 92.5
     },
     {
       "date": "11-19",
-      "attendance": 81.4,
-      "submit": 85.7
+      "attendance": 81.5,
+      "submit": 85.8
     }
   ],
   "lesson": {
@@ -3521,17 +3522,17 @@
     "class_coverage": "44/44",
     "teacher_count": 26,
     "uncovered_classes": [
+      "十一年级 AS3",
+      "十二年级 A21",
+      "十年级 G22",
+      "九年级 G12",
+      "九年级 G11",
+      "高数CR2(F26)",
+      "十一年级 AS2",
       "十一年级 AS1",
       "十二年级 A22",
       "十年级 G21",
-      "十一年级 AS2",
-      "十二年级 A21",
-      "九年级 G12",
-      "十一年级 AS3",
-      "十年级 G23",
-      "十年级 G22",
-      "高数CR2(F26)",
-      "九年级 G11"
+      "十年级 G23"
     ],
     "uncovered_teachers": [
       {
