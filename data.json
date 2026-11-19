@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-19 10:45",
+  "updated_at": "2026-11-19 10:50",
   "school": {
-    "rate": 72.9,
-    "present": 151,
-    "total": 207,
+    "rate": 74.8,
+    "present": 172,
+    "total": 230,
     "late": 2,
-    "absent": 56,
-    "leave": 36
+    "absent": 58,
+    "leave": 38
   },
   "summary": {
     "pending_yesterday": 0,
@@ -101,32 +101,34 @@
       "name": "商科BZ(F26)",
       "teacher": "余震",
       "rate": 90.0,
-      "present_text": "9/10人次",
-      "present": 9,
-      "total": 10,
-      "absent": 1,
+      "present_text": "18/20人次",
+      "present": 18,
+      "total": 20,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
       "name": "数学AR2(F26)",
       "teacher": "杨燕霖",
       "rate": 92.3,
-      "present_text": "12/13人次",
-      "present": 12,
-      "total": 13,
-      "absent": 1,
+      "present_text": "24/26人次",
+      "present": 24,
+      "total": 26,
+      "absent": 2,
       "late": 0,
       "early": 0,
-      "leave": 1,
+      "leave": 2,
       "status": "关注",
       "time_spans": [
-        "10:00-10:40"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -215,9 +217,13 @@
         {
           "course": "商科BZ(F26)",
           "time": "10:00-10:40"
+        },
+        {
+          "course": "商科BZ(F26)",
+          "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-11-19T10:03:15"
+      "updated_at": "2026-11-19T10:49:47"
     },
     {
       "name": "郭淑君",
@@ -236,9 +242,13 @@
         {
           "course": "数学AR2(F26)",
           "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:50-11:30"
         }
       ],
-      "updated_at": "2026-11-19T10:03:03"
+      "updated_at": "2026-11-19T10:49:46"
     },
     {
       "name": "赵浩雯",
@@ -1395,8 +1405,8 @@
     }
   ],
   "teacher_last_call": {
-    "余震": "2026-11-19T10:03:15",
-    "杨燕霖": "2026-11-19T10:03:03",
+    "余震": "2026-11-19T10:49:47",
+    "杨燕霖": "2026-11-19T10:49:46",
     "米万宝": "2026-11-19T10:01:31",
     "钱嘉音": "2026-11-19T09:32:13",
     "贺珍谊": "2026-11-19T09:17:00",
@@ -1409,38 +1419,38 @@
   "trend": [
     {
       "date": "11-13",
-      "attendance": 77.4,
+      "attendance": 79.3,
       "submit": 90.0
     },
     {
       "date": "11-14",
-      "attendance": 75.9,
+      "attendance": 77.8,
       "submit": 90.5
     },
     {
       "date": "11-15",
-      "attendance": 74.4,
+      "attendance": 76.3,
       "submit": 91.0
     },
     {
       "date": "11-16",
-      "attendance": 72.9,
+      "attendance": 74.8,
       "submit": 91.5
     },
     {
       "date": "11-17",
-      "attendance": 71.4,
+      "attendance": 73.3,
       "submit": 92.0
     },
     {
       "date": "11-18",
-      "attendance": 69.9,
+      "attendance": 71.8,
       "submit": 92.5
     },
     {
       "date": "11-19",
-      "attendance": 72.9,
-      "submit": 81.5
+      "attendance": 74.8,
+      "submit": 82.4
     }
   ],
   "lesson": {
@@ -1450,19 +1460,19 @@
     "class_coverage": "11/11",
     "teacher_count": 16,
     "uncovered_classes": [
-      "化学CB(F26)",
-      "十一年级 AS2",
-      "十年级 G21",
       "十一年级 AS3",
-      "化学AA(F26)",
-      "十一年级 AS1",
-      "十年级 G22",
-      "化学A0(F26)",
-      "九年级 G11",
       "十年级 G23",
-      "九年级 G12",
+      "十一年级 AS1",
+      "十一年级 AS2",
       "化学C0(F26)",
+      "化学AA(F26)",
+      "九年级 G11",
+      "化学CB(F26)",
+      "十年级 G22",
       "十二年级 A21",
+      "十年级 G21",
+      "化学A0(F26)",
+      "九年级 G12",
       "十二年级 A22"
     ],
     "uncovered_teachers": [
