@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-19 14:40",
+  "updated_at": "2026-11-19 14:50",
   "school": {
-    "rate": 79.8,
-    "present": 487,
-    "total": 610,
+    "rate": 80.2,
+    "present": 535,
+    "total": 667,
     "late": 6,
-    "absent": 123,
-    "leave": 81
+    "absent": 132,
+    "leave": 89
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 6,
+    "class_attention": 7,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -62,6 +62,22 @@
       "status": "异常",
       "time_spans": [
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "体育AA(F26)",
+      "teacher": "沈译宇",
+      "rate": 81.2,
+      "present_text": "13/16人次",
+      "present": 13,
+      "total": 16,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -448,6 +464,38 @@
       ]
     },
     {
+      "name": "英语口语AQ1(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 78.6,
+      "present_text": "11/14人次",
+      "present": 11,
+      "total": 14,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
+      "name": "英语口语AQ2(F26)",
+      "teacher": "Johannes van Baardewijk",
+      "rate": 77.8,
+      "present_text": "7/9人次",
+      "present": 7,
+      "total": 9,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "英语听力A0(F26)",
       "teacher": "王偲儿",
       "rate": 85.7,
@@ -531,6 +579,22 @@
       ]
     },
     {
+      "name": "音乐AB(F26)",
+      "teacher": "刘知言",
+      "rate": 94.4,
+      "present_text": "17/18人次",
+      "present": 17,
+      "total": 18,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "14:40-15:20"
+      ]
+    },
+    {
       "name": "音乐BR2(F26)",
       "teacher": "刘知言",
       "rate": 100.0,
@@ -548,6 +612,159 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "朱梓宁",
+      "class": "G21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-11-19T14:49:26"
+    },
+    {
+      "name": "金懿帆",
+      "class": "G21",
+      "reason": "Personal Leave_【Approved】 2026/11/11 8:00:00 to 2026/11/20 18:00:00  有事",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "化学AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-19T14:49:26"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "Personal Leave_【Approved】 2026/11/18 8:00:00 to 2026/11/20 17:00:00  不舒服",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语AQ1(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-19T14:49:26"
+    },
+    {
+      "name": "尹勋",
+      "class": "G21",
+      "reason": "Personal Leave_【Approved】 2026/11/19 13:00:00 to 2026/11/19 16:00:00  拉肚子",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "英语口语AQ2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-19T14:48:54"
+    },
+    {
+      "name": "孔维轩",
+      "class": "G22",
+      "reason": "Sick Leave_【Approved】 2026/11/19 8:00:00 to 2026/11/19 17:00:00  喉咙疼加重，头疼，视情就医。",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "商科AA(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "数学AR3(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "英语口语AQ2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "音乐AB(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-19T14:48:54"
+    },
     {
       "name": "赵浩雯",
       "class": "AS1",
@@ -689,60 +906,6 @@
         }
       ],
       "updated_at": "2026-11-19T14:22:46"
-    },
-    {
-      "name": "朱梓宁",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/11/19 8:00:00 至 2026/11/19 12:00:00  看医生 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-19T14:22:31"
-    },
-    {
-      "name": "金懿帆",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/11/11 8:00:00 至 2026/11/20 18:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-19T14:22:31"
     },
     {
       "name": "徐悦栋",
@@ -1017,35 +1180,6 @@
       "updated_at": "2026-11-19T13:39:55"
     },
     {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/11/18 8:00:00 至 2026/11/20 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-19T13:11:02"
-    },
-    {
       "name": "冯麟",
       "class": "AS1",
       "reason": "病假_【已通过】 2026/11/19 10:00:00 至 2026/11/19 11:30:00  头疼没好 ",
@@ -1069,31 +1203,6 @@
         }
       ],
       "updated_at": "2026-11-19T12:59:01"
-    },
-    {
-      "name": "孔维轩",
-      "class": "G22",
-      "reason": "病假_【已通过】 2026/11/19 8:00:00 至 2026/11/19 17:00:00  喉咙疼加重，头疼，视情就医。 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "商科AA(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "商科AA(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "数学AR3(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-19T11:32:43"
     },
     {
       "name": "龚禧",
@@ -1706,26 +1815,10 @@
     {
       "class": "十年级 G21",
       "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:00-13:40",
-      "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
       "subject": "英语第二语言",
       "teacher": "王伊",
       "time": "13:00-13:40",
       "location": "LT3-122"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:00-13:40",
-      "location": "LT3-111"
     },
     {
       "class": "十年级 G22",
@@ -1818,26 +1911,10 @@
     {
       "class": "十年级 G21",
       "class_id": 517698,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:50-14:30",
-      "location": "LT3-109"
-    },
-    {
-      "class": "十年级 G21",
-      "class_id": 517698,
       "subject": "英语第二语言",
       "teacher": "王伊",
       "time": "13:50-14:30",
       "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "英语第二语言口语",
-      "teacher": "Johannes van Baardewijk",
-      "time": "13:50-14:30",
-      "location": "LT3-109"
     },
     {
       "class": "十年级 G22",
@@ -2600,6 +2677,26 @@
       "delay_min": 42
     },
     {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:00-13:40",
+      "location": "LT3-111",
+      "called_at": "2026-11-19T14:48:54",
+      "delay_min": 109
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:00-13:40",
+      "location": "LT3-111",
+      "called_at": "2026-11-19T14:48:54",
+      "delay_min": 109
+    },
+    {
       "class": "十一年级 AS2",
       "class_id": 442960,
       "subject": "音乐",
@@ -2708,6 +2805,26 @@
       "location": "LT3-114",
       "called_at": "2026-11-19T13:39:55",
       "delay_min": 40
+    },
+    {
+      "class": "十年级 G21",
+      "class_id": 517698,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:50-14:30",
+      "location": "LT3-109",
+      "called_at": "2026-11-19T14:49:26",
+      "delay_min": 59
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "英语第二语言口语",
+      "teacher": "Johannes van Baardewijk",
+      "time": "13:50-14:30",
+      "location": "LT3-109",
+      "called_at": "2026-11-19T14:49:26",
+      "delay_min": 59
     },
     {
       "class": "十年级 G23",
@@ -2851,6 +2968,9 @@
     }
   ],
   "teacher_last_call": {
+    "Johannes van Baardewijk": "2026-11-19T14:49:26",
+    "沈译宇": "2026-11-19T14:42:24",
+    "刘知言": "2026-11-19T14:41:02",
     "魏刘伟": "2026-11-19T14:38:31",
     "朱嘉怡": "2026-11-19T14:36:31",
     "张璐菲": "2026-11-19T14:28:27",
@@ -2859,11 +2979,9 @@
     "张小翼": "2026-11-19T13:49:08",
     "钱嘉音": "2026-11-19T13:39:55",
     "贺珍谊": "2026-11-19T13:11:11",
-    "刘知言": "2026-11-19T13:03:42",
     "赵亮": "2026-11-19T11:32:43",
     "王偲儿": "2026-11-19T10:57:26",
     "瞿芬": "2026-11-19T10:56:27",
-    "沈译宇": "2026-11-19T10:56:13",
     "袁西援": "2026-11-19T10:54:43",
     "余震": "2026-11-19T10:49:47",
     "杨燕霖": "2026-11-19T10:49:46",
@@ -2872,58 +2990,58 @@
   "trend": [
     {
       "date": "11-13",
-      "attendance": 84.3,
+      "attendance": 84.7,
       "submit": 90.0
     },
     {
       "date": "11-14",
-      "attendance": 82.8,
+      "attendance": 83.2,
       "submit": 90.5
     },
     {
       "date": "11-15",
-      "attendance": 81.3,
+      "attendance": 81.7,
       "submit": 91.0
     },
     {
       "date": "11-16",
-      "attendance": 79.8,
+      "attendance": 80.2,
       "submit": 91.5
     },
     {
       "date": "11-17",
-      "attendance": 78.3,
+      "attendance": 78.7,
       "submit": 92.0
     },
     {
       "date": "11-18",
-      "attendance": 76.8,
+      "attendance": 77.2,
       "submit": 92.5
     },
     {
       "date": "11-19",
-      "attendance": 79.8,
-      "submit": 84.9
+      "attendance": 80.2,
+      "submit": 85.1
     }
   ],
   "lesson": {
-    "completion_rate": 64.8,
-    "called": 92,
+    "completion_rate": 67.6,
+    "called": 96,
     "total": 142,
-    "class_coverage": "32/32",
+    "class_coverage": "36/36",
     "teacher_count": 23,
     "uncovered_classes": [
-      "十二年级 A22",
-      "化学BZ(F26)",
       "十年级 G23",
-      "十二年级 A21",
-      "九年级 G12",
       "十一年级 AS1",
-      "十一年级 AS3",
-      "十年级 G22",
       "九年级 G11",
+      "九年级 G12",
+      "化学BZ(F26)",
+      "十一年级 AS3",
+      "十二年级 A21",
+      "十年级 G22",
+      "十年级 G21",
       "十一年级 AS2",
-      "十年级 G21"
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
@@ -3185,26 +3303,10 @@
       {
         "class": "十年级 G21",
         "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:00-13:40",
-        "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
         "subject": "英语第二语言",
         "teacher": "王伊",
         "time": "13:00-13:40",
         "location": "LT3-122"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:00-13:40",
-        "location": "LT3-111"
       },
       {
         "class": "十年级 G22",
@@ -3297,26 +3399,10 @@
       {
         "class": "十年级 G21",
         "class_id": 517698,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:50-14:30",
-        "location": "LT3-109"
-      },
-      {
-        "class": "十年级 G21",
-        "class_id": 517698,
         "subject": "英语第二语言",
         "teacher": "王伊",
         "time": "13:50-14:30",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "英语第二语言口语",
-        "teacher": "Johannes van Baardewijk",
-        "time": "13:50-14:30",
-        "location": "LT3-109"
       },
       {
         "class": "十年级 G22",
