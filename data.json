@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 18:36",
+  "updated_at": "2026-11-19 18:40",
   "school": {
     "rate": 81.4,
     "present": 647,
@@ -662,7 +662,7 @@
     },
     {
       "name": "雅思CR2(F26)",
-      "teacher": "钱嘉音",
+      "teacher": "王偲儿",
       "rate": 35.0,
       "present_text": "14/40人次",
       "present": 14,
@@ -3481,16 +3481,16 @@
     "class_coverage": "44/44",
     "teacher_count": 25,
     "uncovered_classes": [
-      "十二年级 A21",
-      "九年级 G12",
-      "十一年级 AS2",
-      "十年级 G23",
       "十年级 G21",
-      "高数CR2(F26)",
-      "九年级 G11",
-      "十年级 G22",
       "十二年级 A22",
+      "九年级 G12",
+      "十年级 G22",
+      "十二年级 A21",
+      "十一年级 AS2",
       "十一年级 AS3",
+      "十年级 G23",
+      "九年级 G11",
+      "高数CR2(F26)",
       "十一年级 AS1"
     ],
     "uncovered_teachers": [
