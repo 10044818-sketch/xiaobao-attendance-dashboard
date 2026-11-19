@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-19 08:35",
+  "updated_at": "2026-11-19 08:42",
   "school": {
-    "rate": 87.5,
-    "present": 49,
-    "total": 56,
+    "rate": 81.2,
+    "present": 52,
+    "total": 64,
     "late": 0,
-    "absent": 7,
-    "leave": 5
+    "absent": 12,
+    "leave": 6
   },
   "summary": {
     "pending_yesterday": 0,
@@ -15,6 +15,22 @@
     "invalid_leave": 0
   },
   "classes": [
+    {
+      "name": "代数C0(F26)",
+      "teacher": "张小翼",
+      "rate": 37.5,
+      "present_text": "3/8人次",
+      "present": 3,
+      "total": 8,
+      "absent": 5,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
     {
       "name": "化学AA(F26)",
       "teacher": "余越利",
@@ -82,6 +98,71 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-19T08:38:28"
+    },
+    {
+      "name": "周沛东",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-19T08:38:28"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-19T08:38:28"
+    },
+    {
+      "name": "江雨霏",
+      "class": "A22",
+      "reason": "病假_【已通过】 2026/11/19 8:00:00 至 2026/11/19 12:30:00  感冒 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-19T08:38:28"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "代数C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-19T08:38:28"
+    },
     {
       "name": "朱梓宁",
       "class": "G21",
@@ -177,6 +258,7 @@
   "pending_roll_call": [],
   "called_roll_call": [],
   "teacher_last_call": {
+    "张小翼": "2026-11-19T08:38:28",
     "余越利": "2026-11-19T08:25:25",
     "朱嘉怡": "2026-11-19T08:22:03",
     "余震": "2026-11-19T08:21:52",
@@ -185,45 +267,45 @@
   "trend": [
     {
       "date": "11-13",
-      "attendance": 92.0,
+      "attendance": 85.7,
       "submit": 90.0
     },
     {
       "date": "11-14",
-      "attendance": 90.5,
+      "attendance": 84.2,
       "submit": 90.5
     },
     {
       "date": "11-15",
-      "attendance": 89.0,
+      "attendance": 82.7,
       "submit": 91.0
     },
     {
       "date": "11-16",
-      "attendance": 87.5,
+      "attendance": 81.2,
       "submit": 91.5
     },
     {
       "date": "11-17",
-      "attendance": 86.0,
+      "attendance": 79.7,
       "submit": 92.0
     },
     {
       "date": "11-18",
-      "attendance": 84.5,
+      "attendance": 78.2,
       "submit": 92.5
     },
     {
       "date": "11-19",
-      "attendance": 87.5,
-      "submit": 88.8
+      "attendance": 81.2,
+      "submit": 85.6
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "4/4",
+    "class_coverage": "5/5",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
