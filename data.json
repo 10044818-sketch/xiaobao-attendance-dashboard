@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-20 10:40",
+  "updated_at": "2026-11-20 10:46",
   "school": {
-    "rate": 77.3,
-    "present": 143,
-    "total": 185,
+    "rate": 78.1,
+    "present": 153,
+    "total": 196,
     "late": 6,
-    "absent": 42,
-    "leave": 15
+    "absent": 43,
+    "leave": 16
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 2,
+    "class_attention": 3,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -147,6 +147,22 @@
       ]
     },
     {
+      "name": "经济AX(F26)",
+      "teacher": "王肇君",
+      "rate": 90.9,
+      "present_text": "10/11人次",
+      "present": 10,
+      "total": 11,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "10:00-10:40"
+      ]
+    },
+    {
       "name": "经济BY(F26)",
       "teacher": "王肇君",
       "rate": 85.0,
@@ -214,6 +230,19 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "孔维轩",
+      "class": "G22",
+      "reason": "病假_【已通过】 2026/11/20 8:00:00 至 2026/11/20 17:00:00  感冒头疼 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济AX(F26)",
+          "time": "10:00-10:40"
+        }
+      ],
+      "updated_at": "2026-11-20T10:45:31"
+    },
     {
       "name": "余天泽",
       "class": "G12",
@@ -839,14 +868,6 @@
       "location": "LT3-111"
     },
     {
-      "class": "十年级 G22",
-      "class_id": 521637,
-      "subject": "经济学",
-      "teacher": "王肇君",
-      "time": "10:00-10:40",
-      "location": "LT3-109"
-    },
-    {
       "class": "十年级 G23",
       "class_id": 521638,
       "subject": "体育A0C0",
@@ -1193,9 +1214,20 @@
       "location": "LT3-221",
       "called_at": "2026-11-20T10:02:43",
       "delay_min": 3
+    },
+    {
+      "class": "十年级 G22",
+      "class_id": 521637,
+      "subject": "经济学",
+      "teacher": "王肇君",
+      "time": "10:00-10:40",
+      "location": "LT3-109",
+      "called_at": "2026-11-20T10:45:31",
+      "delay_min": 46
     }
   ],
   "teacher_last_call": {
+    "王肇君": "2026-11-20T10:45:31",
     "张璐菲": "2026-11-20T10:39:28",
     "米万宝": "2026-11-20T10:14:09",
     "余震": "2026-11-20T10:06:17",
@@ -1203,7 +1235,6 @@
     "沈译宇": "2026-11-20T10:01:34",
     "曾靓": "2026-11-20T09:26:39",
     "李昊骏": "2026-11-20T09:13:51",
-    "王肇君": "2026-11-20T09:10:13",
     "孙鹏": "2026-11-20T09:06:56",
     "刘知言": "2026-11-20T08:30:40",
     "魏刘伟": "2026-11-20T08:21:01"
@@ -1211,58 +1242,58 @@
   "trend": [
     {
       "date": "11-14",
-      "attendance": 81.8,
+      "attendance": 82.6,
       "submit": 90.0
     },
     {
       "date": "11-15",
-      "attendance": 80.3,
+      "attendance": 81.1,
       "submit": 90.5
     },
     {
       "date": "11-16",
-      "attendance": 78.8,
+      "attendance": 79.6,
       "submit": 91.0
     },
     {
       "date": "11-17",
-      "attendance": 77.3,
+      "attendance": 78.1,
       "submit": 91.5
     },
     {
       "date": "11-18",
-      "attendance": 75.8,
+      "attendance": 76.6,
       "submit": 92.0
     },
     {
       "date": "11-19",
-      "attendance": 74.3,
+      "attendance": 75.1,
       "submit": 92.5
     },
     {
       "date": "11-20",
-      "attendance": 77.3,
-      "submit": 83.7
+      "attendance": 78.1,
+      "submit": 84.0
     }
   ],
   "lesson": {
-    "completion_rate": 55.9,
-    "called": 33,
+    "completion_rate": 57.6,
+    "called": 34,
     "total": 59,
-    "class_coverage": "12/12",
+    "class_coverage": "13/13",
     "teacher_count": 16,
     "uncovered_classes": [
-      "十年级 G22",
-      "十二年级 A21",
-      "十一年级 AS1",
-      "十年级 G21",
-      "九年级 G12",
-      "九年级 G11",
+      "高数CR2(F26)",
       "十一年级 AS2",
+      "十年级 G21",
+      "十年级 G22",
+      "九年级 G12",
       "十一年级 AS3",
       "十二年级 A22",
+      "十一年级 AS1",
       "十年级 G23",
-      "高数CR2(F26)"
+      "九年级 G11",
+      "十二年级 A21"
     ],
     "uncovered_teachers": [
       {
@@ -1448,14 +1479,6 @@
         "teacher": "孙鹏",
         "time": "10:00-10:40",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G22",
-        "class_id": 521637,
-        "subject": "经济学",
-        "teacher": "王肇君",
-        "time": "10:00-10:40",
-        "location": "LT3-109"
       },
       {
         "class": "十年级 G23",
