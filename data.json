@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-20 08:25",
+  "updated_at": "2026-11-20 08:30",
   "school": {
-    "rate": 85.0,
-    "present": 34,
-    "total": 40,
-    "late": 1,
-    "absent": 6,
+    "rate": 83.3,
+    "present": 40,
+    "total": 48,
+    "late": 3,
+    "absent": 8,
     "leave": 3
   },
   "summary": {
@@ -55,16 +55,71 @@
       "present": 9,
       "total": 10,
       "absent": 1,
-      "late": 0,
+      "late": 2,
       "early": 0,
       "leave": 1,
       "status": "关注",
       "time_spans": [
         "08:20-09:00"
       ]
+    },
+    {
+      "name": "音乐C0(F26)",
+      "teacher": "刘知言",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "08:20-09:00"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-20T08:30:40"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-20T08:30:40"
+    },
+    {
+      "name": "周原",
+      "class": "AS1",
+      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-20T08:30:40"
+    },
     {
       "name": "王誉涵",
       "class": "AS3",
@@ -129,70 +184,58 @@
         }
       ],
       "updated_at": "2026-11-20T08:21:01"
-    },
-    {
-      "name": "周原",
-      "class": "AS1",
-      "reason": "病假_【已通过】 2026/11/16 8:00:00 至 2026/11/20 15:30:00  看医生 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "08:20-09:00"
-        }
-      ],
-      "updated_at": "2026-11-20T08:20:15"
     }
   ],
   "pending_roll_call": [],
   "called_roll_call": [],
   "teacher_last_call": {
+    "刘知言": "2026-11-20T08:30:40",
     "米万宝": "2026-11-20T08:23:00",
     "魏刘伟": "2026-11-20T08:21:01",
-    "王肇君": "2026-11-20T08:20:15"
+    "王肇君": "2026-11-20T08:30:40"
   },
   "trend": [
     {
       "date": "11-14",
-      "attendance": 89.5,
+      "attendance": 87.8,
       "submit": 90.0
     },
     {
       "date": "11-15",
-      "attendance": 88.0,
+      "attendance": 86.3,
       "submit": 90.5
     },
     {
       "date": "11-16",
-      "attendance": 86.5,
+      "attendance": 84.8,
       "submit": 91.0
     },
     {
       "date": "11-17",
-      "attendance": 85.0,
+      "attendance": 83.3,
       "submit": 91.5
     },
     {
       "date": "11-18",
-      "attendance": 83.5,
+      "attendance": 81.8,
       "submit": 92.0
     },
     {
       "date": "11-19",
-      "attendance": 82.0,
+      "attendance": 80.3,
       "submit": 92.5
     },
     {
       "date": "11-20",
-      "attendance": 85.0,
-      "submit": 87.5
+      "attendance": 83.3,
+      "submit": 86.7
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "3/3",
+    "class_coverage": "4/4",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
