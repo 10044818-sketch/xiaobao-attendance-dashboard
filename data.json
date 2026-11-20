@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-20 15:17",
+  "updated_at": "2026-11-20 15:25",
   "school": {
-    "rate": 82.8,
-    "present": 366,
-    "total": 442,
+    "rate": 82.6,
+    "present": 384,
+    "total": 465,
     "late": 7,
-    "absent": 76,
-    "leave": 36
+    "absent": 81,
+    "leave": 39
   },
   "summary": {
     "pending_yesterday": 0,
@@ -382,6 +382,22 @@
       ]
     },
     {
+      "name": "英语听读写9A(F26)",
+      "teacher": "瞿芬",
+      "rate": 80.0,
+      "present_text": "12/15人次",
+      "present": 12,
+      "total": 15,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "13:50-14:30"
+      ]
+    },
+    {
       "name": "雅思BR2C(F26)",
       "teacher": "钱嘉音",
       "rate": 100.0,
@@ -427,6 +443,22 @@
       "status": "异常",
       "time_spans": [
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "雅思听力阅读C0(F26)",
+      "teacher": "瞿芬",
+      "rate": 75.0,
+      "present_text": "6/8人次",
+      "present": 6,
+      "total": 8,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -479,6 +511,107 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "事假_【已通过】 2026/11/18 8:00:00 至 2026/11/20 17:00:00  身体不适，申请请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-11-20T15:17:30"
+    },
+    {
+      "name": "唐晟尧",
+      "class": "G11",
+      "reason": "病假_【已通过】 2026/11/20 9:00:00 至 2026/11/20 17:00:00  发烧 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "化学9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-11-20T15:17:30"
+    },
+    {
+      "name": "龚禧",
+      "class": "G12",
+      "reason": "病假_【已通过】 2026/11/20 8:00:00 至 2026/11/20 14:30:00  感冒喉咙痛 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "化学9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "13:50-14:30"
+        }
+      ],
+      "updated_at": "2026-11-20T15:17:30"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "音乐C0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "体育C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-20T15:17:18"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育C0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思听力阅读C0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-20T15:17:18"
+    },
     {
       "name": "钱一诺",
       "class": "G21",
@@ -635,57 +768,6 @@
       "class": "G12",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
-      "courses": [
-        {
-          "course": "化学9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "音乐9A(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-20T13:01:04"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "事假_【已通过】 2026/11/18 8:00:00 至 2026/11/20 17:00:00  身体不适，申请请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "音乐9A(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-20T13:01:04"
-    },
-    {
-      "name": "唐晟尧",
-      "class": "G11",
-      "reason": "病假_【已通过】 2026/11/20 9:00:00 至 2026/11/20 17:00:00  发烧 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "化学9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "音乐9A(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-20T13:01:04"
-    },
-    {
-      "name": "龚禧",
-      "class": "G12",
-      "reason": "病假_【已通过】 2026/11/20 8:00:00 至 2026/11/20 14:30:00  感冒喉咙痛 ",
-      "type": "病假",
       "courses": [
         {
           "course": "化学9A(F26)",
@@ -964,23 +1046,6 @@
       "updated_at": "2026-11-20T10:01:34"
     },
     {
-      "name": "曾禹德",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "音乐C0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "体育C0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-11-20T10:01:34"
-    },
-    {
       "name": "刘宇茗",
       "class": "A22",
       "reason": "当日缺课且无请假单",
@@ -996,19 +1061,6 @@
     {
       "name": "江雨霏",
       "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育C0(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-11-20T10:01:34"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
@@ -1397,26 +1449,10 @@
     {
       "class": "十二年级 A21",
       "class_id": 366030,
-      "subject": "雅思听力阅读",
-      "teacher": "瞿芬",
-      "time": "13:00-13:40",
-      "location": "LT3-209"
-    },
-    {
-      "class": "十二年级 A21",
-      "class_id": 366030,
       "subject": "化学",
       "teacher": "余越利",
       "time": "13:00-13:40",
       "location": "LT3-206"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "雅思听力阅读",
-      "teacher": "瞿芬",
-      "time": "13:00-13:40",
-      "location": "LT3-209"
     },
     {
       "class": "十二年级 A22",
@@ -1459,22 +1495,6 @@
       "location": "LT3-107"
     },
     {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "13:50-14:30",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "英语第二语言",
-      "teacher": "瞿芬",
-      "time": "13:50-14:30",
-      "location": "LT3-108"
-    },
-    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "体育",
@@ -1513,6 +1533,22 @@
       "teacher": "曹德娟",
       "time": "13:50-14:30",
       "location": "LT3-107"
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "14:40-15:20",
+      "location": ""
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "艺术BC",
+      "teacher": "",
+      "time": "14:40-15:20",
+      "location": ""
     }
   ],
   "called_roll_call": [
@@ -2097,6 +2133,26 @@
       "delay_min": 1
     },
     {
+      "class": "十二年级 A21",
+      "class_id": 366030,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "13:00-13:40",
+      "location": "LT3-209",
+      "called_at": "2026-11-20T15:17:18",
+      "delay_min": 137
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "雅思听力阅读",
+      "teacher": "瞿芬",
+      "time": "13:00-13:40",
+      "location": "LT3-209",
+      "called_at": "2026-11-20T15:17:18",
+      "delay_min": 137
+    },
+    {
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "化学",
@@ -2245,6 +2301,26 @@
       "location": "LT3-123",
       "called_at": "2026-11-20T14:31:55",
       "delay_min": 42
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "13:50-14:30",
+      "location": "LT3-108",
+      "called_at": "2026-11-20T15:17:30",
+      "delay_min": 88
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "英语第二语言",
+      "teacher": "瞿芬",
+      "time": "13:50-14:30",
+      "location": "LT3-108",
+      "called_at": "2026-11-20T15:17:30",
+      "delay_min": 88
     },
     {
       "class": "十一年级 AS1",
@@ -2338,6 +2414,7 @@
     }
   ],
   "teacher_last_call": {
+    "瞿芬": "2026-11-20T15:17:30",
     "Johannes van Baardewijk": "2026-11-20T14:40:00",
     "米万宝": "2026-11-20T14:34:11",
     "钱嘉音": "2026-11-20T14:21:20",
@@ -2358,57 +2435,57 @@
   "trend": [
     {
       "date": "11-14",
-      "attendance": 87.3,
+      "attendance": 87.1,
       "submit": 90.0
     },
     {
       "date": "11-15",
-      "attendance": 85.8,
+      "attendance": 85.6,
       "submit": 90.5
     },
     {
       "date": "11-16",
-      "attendance": 84.3,
+      "attendance": 84.1,
       "submit": 91.0
     },
     {
       "date": "11-17",
-      "attendance": 82.8,
+      "attendance": 82.6,
       "submit": 91.5
     },
     {
       "date": "11-18",
-      "attendance": 81.3,
+      "attendance": 81.1,
       "submit": 92.0
     },
     {
       "date": "11-19",
-      "attendance": 79.8,
+      "attendance": 79.6,
       "submit": 92.5
     },
     {
       "date": "11-20",
-      "attendance": 82.8,
-      "submit": 86.4
+      "attendance": 82.6,
+      "submit": 86.3
     }
   ],
   "lesson": {
-    "completion_rate": 64.6,
-    "called": 82,
-    "total": 127,
-    "class_coverage": "28/28",
+    "completion_rate": 66.7,
+    "called": 86,
+    "total": 129,
+    "class_coverage": "30/30",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "十二年级 A22",
-      "十年级 G22",
       "十年级 G21",
-      "高数CR2(F26)",
-      "十一年级 AS2",
-      "化学CB(F26)",
-      "九年级 G11",
-      "十二年级 A21",
       "九年级 G12",
+      "十年级 G22",
+      "九年级 G11",
+      "高数CR2(F26)",
+      "十二年级 A22",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "化学CB(F26)",
+      "十二年级 A21",
       "十一年级 AS1",
       "十年级 G23"
     ],
@@ -2656,26 +2733,10 @@
       {
         "class": "十二年级 A21",
         "class_id": 366030,
-        "subject": "雅思听力阅读",
-        "teacher": "瞿芬",
-        "time": "13:00-13:40",
-        "location": "LT3-209"
-      },
-      {
-        "class": "十二年级 A21",
-        "class_id": 366030,
         "subject": "化学",
         "teacher": "余越利",
         "time": "13:00-13:40",
         "location": "LT3-206"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "雅思听力阅读",
-        "teacher": "瞿芬",
-        "time": "13:00-13:40",
-        "location": "LT3-209"
       },
       {
         "class": "十二年级 A22",
@@ -2718,22 +2779,6 @@
         "location": "LT3-107"
       },
       {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "13:50-14:30",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "英语第二语言",
-        "teacher": "瞿芬",
-        "time": "13:50-14:30",
-        "location": "LT3-108"
-      },
-      {
         "class": "十二年级 A21",
         "class_id": 366030,
         "subject": "体育",
@@ -2772,6 +2817,22 @@
         "teacher": "曹德娟",
         "time": "13:50-14:30",
         "location": "LT3-107"
+      },
+      {
+        "class": "十一年级 AS1",
+        "class_id": 442959,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "14:40-15:20",
+        "location": ""
+      },
+      {
+        "class": "十二年级 A22",
+        "class_id": 366031,
+        "subject": "艺术BC",
+        "teacher": "",
+        "time": "14:40-15:20",
+        "location": ""
       }
     ]
   }
