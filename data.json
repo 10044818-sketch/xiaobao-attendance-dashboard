@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-20 11:35",
+  "updated_at": "2026-11-20 11:40",
   "school": {
-    "rate": 77.2,
-    "present": 179,
-    "total": 232,
+    "rate": 78.3,
+    "present": 198,
+    "total": 253,
     "late": 7,
-    "absent": 53,
-    "leave": 19
+    "absent": 55,
+    "leave": 21
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -230,6 +230,22 @@
       ]
     },
     {
+      "name": "雅思BR3S(F26)",
+      "teacher": "曹德娟",
+      "rate": 90.5,
+      "present_text": "19/21人次",
+      "present": 19,
+      "total": 21,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "关注",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "雅思口语C0(F26)",
       "teacher": "李昊骏",
       "rate": 87.5,
@@ -263,6 +279,48 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "王誉涵",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/11/20 8:00:00 至 2026/11/20 14:30:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "化学BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "化学BY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思BR3S(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-20T11:38:32"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/11/12 8:00:00 至 2026/11/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理BY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "雅思BR3S(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-20T11:38:32"
+    },
     {
       "name": "张翰霆",
       "class": "A22",
@@ -474,23 +532,6 @@
       "updated_at": "2026-11-20T10:39:28"
     },
     {
-      "name": "王誉涵",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/11/20 8:00:00 至 2026/11/20 14:30:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "化学BY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "化学BY(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-20T10:14:09"
-    },
-    {
       "name": "吴昊",
       "class": "AS2",
       "reason": "当日缺课且无请假单",
@@ -522,23 +563,6 @@
       "reason": "当日缺课且无请假单",
       "type": "旷课",
       "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "10:00-10:40"
-        }
-      ],
-      "updated_at": "2026-11-20T10:02:43"
-    },
-    {
-      "name": "黄子怿",
-      "class": "AS3",
-      "reason": "事假_【已通过】 2026/11/12 8:00:00 至 2026/11/30 17:00:00  请假 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理BY(F26)",
-          "time": "08:20-09:00"
-        },
         {
           "course": "数学BQ1(F26)",
           "time": "10:00-10:40"
@@ -1027,28 +1051,12 @@
       "location": "LT3-108"
     },
     {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "雅思英语",
-      "teacher": "曹德娟",
-      "time": "10:50-11:30",
-      "location": "LT3-114"
-    },
-    {
       "class": "十一年级 AS2",
       "class_id": 442960,
       "subject": "雅思英语",
       "teacher": "钱嘉音",
       "time": "10:50-11:30",
       "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "雅思英语",
-      "teacher": "曹德娟",
-      "time": "10:50-11:30",
-      "location": "LT3-114"
     },
     {
       "class": "十二年级 A21",
@@ -1451,6 +1459,26 @@
       "delay_min": -44
     },
     {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "雅思英语",
+      "teacher": "曹德娟",
+      "time": "10:50-11:30",
+      "location": "LT3-114",
+      "called_at": "2026-11-20T11:38:32",
+      "delay_min": 49
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "雅思英语",
+      "teacher": "曹德娟",
+      "time": "10:50-11:30",
+      "location": "LT3-114",
+      "called_at": "2026-11-20T11:38:32",
+      "delay_min": 49
+    },
+    {
       "class": "十二年级 A21",
       "class_id": 366030,
       "subject": "物理",
@@ -1502,6 +1530,7 @@
     }
   ],
   "teacher_last_call": {
+    "曹德娟": "2026-11-20T11:38:32",
     "曾靓": "2026-11-20T11:03:04",
     "沈译宇": "2026-11-20T10:55:35",
     "王肇君": "2026-11-20T10:50:25",
@@ -1517,58 +1546,58 @@
   "trend": [
     {
       "date": "11-14",
-      "attendance": 81.7,
+      "attendance": 82.8,
       "submit": 90.0
     },
     {
       "date": "11-15",
-      "attendance": 80.2,
+      "attendance": 81.3,
       "submit": 90.5
     },
     {
       "date": "11-16",
-      "attendance": 78.7,
+      "attendance": 79.8,
       "submit": 91.0
     },
     {
       "date": "11-17",
-      "attendance": 77.2,
+      "attendance": 78.3,
       "submit": 91.5
     },
     {
       "date": "11-18",
-      "attendance": 75.7,
+      "attendance": 76.8,
       "submit": 92.0
     },
     {
       "date": "11-19",
-      "attendance": 74.2,
+      "attendance": 75.3,
       "submit": 92.5
     },
     {
       "date": "11-20",
-      "attendance": 77.2,
-      "submit": 83.6
+      "attendance": 78.3,
+      "submit": 84.2
     }
   ],
   "lesson": {
-    "completion_rate": 52.6,
-    "called": 40,
+    "completion_rate": 55.3,
+    "called": 42,
     "total": 76,
-    "class_coverage": "15/15",
+    "class_coverage": "16/16",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十年级 G21",
-      "十一年级 AS2",
-      "十年级 G22",
       "九年级 G11",
-      "十年级 G23",
+      "十一年级 AS3",
       "十二年级 A22",
-      "十一年级 AS1",
-      "十二年级 A21",
-      "九年级 G12",
+      "十年级 G22",
+      "十年级 G23",
       "高数CR2(F26)",
-      "十一年级 AS3"
+      "十年级 G21",
+      "十二年级 A21",
+      "十一年级 AS2",
+      "十一年级 AS1",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
@@ -1788,28 +1817,12 @@
         "location": "LT3-108"
       },
       {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "雅思英语",
-        "teacher": "曹德娟",
-        "time": "10:50-11:30",
-        "location": "LT3-114"
-      },
-      {
         "class": "十一年级 AS2",
         "class_id": 442960,
         "subject": "雅思英语",
         "teacher": "钱嘉音",
         "time": "10:50-11:30",
         "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "雅思英语",
-        "teacher": "曹德娟",
-        "time": "10:50-11:30",
-        "location": "LT3-114"
       },
       {
         "class": "十二年级 A21",
