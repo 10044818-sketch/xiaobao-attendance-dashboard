@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-23 18:36",
+  "updated_at": "2026-11-23 18:46",
   "school": {
-    "rate": 83.0,
-    "present": 710,
-    "total": 855,
+    "rate": 83.3,
+    "present": 722,
+    "total": 867,
     "late": 11,
     "absent": 145,
     "leave": 111
@@ -676,6 +676,23 @@
       "status": "异常",
       "time_spans": [
         "14:40-15:20"
+      ]
+    },
+    {
+      "name": "高数BD1(F26)",
+      "teacher": "潘子清",
+      "rate": 100.0,
+      "present_text": "12/12人次",
+      "present": 12,
+      "total": 12,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "18:15-19:00",
+        "19:15-20:00"
       ]
     }
   ],
@@ -3243,6 +3260,7 @@
     }
   ],
   "teacher_last_call": {
+    "潘子清": "2026-11-23T18:41:54",
     "郝畅": "2026-11-23T17:13:56",
     "孙鹏": "2026-11-23T16:32:19",
     "曾靓": "2026-11-23T16:00:07",
@@ -3262,7 +3280,6 @@
     "熊辉": "2026-11-23T13:48:36",
     "李昊骏": "2026-11-23T13:42:18",
     "张小翼": "2026-11-23T13:33:09",
-    "潘子清": "2026-11-23T13:02:57",
     "贺珍谊": "2026-11-23T17:47:25",
     "沈译宇": "2026-11-23T09:10:37",
     "王偲儿": "2026-11-23T09:25:06"
@@ -3270,58 +3287,58 @@
   "trend": [
     {
       "date": "11-17",
-      "attendance": 87.5,
+      "attendance": 87.8,
       "submit": 90.0
     },
     {
       "date": "11-18",
-      "attendance": 86.0,
+      "attendance": 86.3,
       "submit": 90.5
     },
     {
       "date": "11-19",
-      "attendance": 84.5,
+      "attendance": 84.8,
       "submit": 91.0
     },
     {
       "date": "11-20",
-      "attendance": 83.0,
+      "attendance": 83.3,
       "submit": 91.5
     },
     {
       "date": "11-21",
-      "attendance": 81.5,
+      "attendance": 81.8,
       "submit": 92.0
     },
     {
       "date": "11-22",
-      "attendance": 80.0,
+      "attendance": 80.3,
       "submit": 92.5
     },
     {
       "date": "11-23",
-      "attendance": 83.0,
-      "submit": 86.5
+      "attendance": 83.3,
+      "submit": 86.7
     }
   ],
   "lesson": {
     "completion_rate": 72.6,
     "called": 114,
     "total": 157,
-    "class_coverage": "40/40",
+    "class_coverage": "41/41",
     "teacher_count": 28,
     "uncovered_classes": [
-      "十年级 G21",
-      "十年级 G22",
-      "十二年级 A21",
-      "高数CR2(F26)",
-      "九年级 G12",
-      "十一年级 AS2",
-      "十二年级 A22",
       "十年级 G23",
+      "高数CR2(F26)",
+      "十年级 G22",
+      "十一年级 AS3",
       "十一年级 AS1",
+      "九年级 G12",
+      "十年级 G21",
+      "十一年级 AS2",
       "九年级 G11",
-      "十一年级 AS3"
+      "十二年级 A21",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
