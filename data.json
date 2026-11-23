@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23 18:55",
+  "updated_at": "2026-11-23 19:01",
   "school": {
     "rate": 83.3,
     "present": 722,
@@ -3257,6 +3257,46 @@
       "location": "LT3-121",
       "called_at": "2026-11-23T17:47:25",
       "delay_min": 137
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116",
+      "called_at": "2026-11-23T18:41:52",
+      "delay_min": 27
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116",
+      "called_at": "2026-11-23T18:41:52",
+      "delay_min": 27
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116",
+      "called_at": "2026-11-23T18:41:52",
+      "delay_min": 27
+    },
+    {
+      "class": "高数BD1(F26)",
+      "class_id": 529431,
+      "subject": "高等数学",
+      "teacher": "潘子清",
+      "time": "18:15-19:00",
+      "location": "LT3-116",
+      "called_at": "2026-11-23T18:41:52",
+      "delay_min": 27
     }
   ],
   "teacher_last_call": {
@@ -3322,23 +3362,23 @@
     }
   ],
   "lesson": {
-    "completion_rate": 72.6,
-    "called": 114,
-    "total": 157,
+    "completion_rate": 73.3,
+    "called": 118,
+    "total": 161,
     "class_coverage": "41/41",
     "teacher_count": 28,
     "uncovered_classes": [
-      "九年级 G11",
       "十二年级 A22",
+      "十一年级 AS2",
+      "十二年级 A21",
+      "十一年级 AS3",
+      "高数CR2(F26)",
       "十年级 G21",
       "十年级 G22",
-      "九年级 G12",
+      "九年级 G11",
       "十年级 G23",
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "十二年级 A21",
-      "高数CR2(F26)"
+      "九年级 G12",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
