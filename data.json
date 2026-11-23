@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-23 13:55",
+  "updated_at": "2026-11-23 14:03",
   "school": {
-    "rate": 83.4,
-    "present": 442,
+    "rate": 83.6,
+    "present": 443,
     "total": 530,
-    "late": 8,
-    "absent": 88,
+    "late": 9,
+    "absent": 87,
     "leave": 68
   },
   "summary": {
@@ -268,12 +268,12 @@
     {
       "name": "艺术9A(F26)",
       "teacher": "朱嘉怡",
-      "rate": 76.7,
-      "present_text": "23/30人次",
-      "present": 23,
+      "rate": 80.0,
+      "present_text": "24/30人次",
+      "present": 24,
       "total": 30,
-      "absent": 7,
-      "late": 0,
+      "absent": 6,
+      "late": 1,
       "early": 0,
       "leave": 6,
       "status": "异常",
@@ -399,23 +399,6 @@
   ],
   "absent_students": [
     {
-      "name": "余天泽",
-      "class": "G12",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "物理9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "艺术9A(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-11-23T13:54:19"
-    },
-    {
       "name": "翁瑾萱",
       "class": "G12",
       "reason": "事假_【已通过】 2026/11/23 8:00:00 至 2026/11/23 17:00:00  身体不适，请假一日 ",
@@ -442,7 +425,7 @@
           "time": "13:50-14:30"
         }
       ],
-      "updated_at": "2026-11-23T13:54:19"
+      "updated_at": "2026-11-23T13:59:30"
     },
     {
       "name": "舒泽杨",
@@ -463,7 +446,7 @@
           "time": "13:50-14:30"
         }
       ],
-      "updated_at": "2026-11-23T13:54:19"
+      "updated_at": "2026-11-23T13:59:30"
     },
     {
       "name": "刘钰航",
@@ -480,7 +463,7 @@
           "time": "13:50-14:30"
         }
       ],
-      "updated_at": "2026-11-23T13:54:19"
+      "updated_at": "2026-11-23T13:59:30"
     },
     {
       "name": "李潇行",
@@ -1092,6 +1075,19 @@
         }
       ],
       "updated_at": "2026-11-23T08:56:23"
+    },
+    {
+      "name": "余天泽",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "物理9A(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-23T08:39:45"
     },
     {
       "name": "李知颖",
@@ -1995,7 +1991,7 @@
     }
   ],
   "teacher_last_call": {
-    "朱嘉怡": "2026-11-23T13:54:19",
+    "朱嘉怡": "2026-11-23T13:59:30",
     "米万宝": "2026-11-23T13:51:12",
     "魏刘伟": "2026-11-23T13:49:45",
     "王肇君": "2026-11-23T13:49:35",
@@ -2017,38 +2013,38 @@
   "trend": [
     {
       "date": "11-17",
-      "attendance": 87.9,
+      "attendance": 88.1,
       "submit": 90.0
     },
     {
       "date": "11-18",
-      "attendance": 86.4,
+      "attendance": 86.6,
       "submit": 90.5
     },
     {
       "date": "11-19",
-      "attendance": 84.9,
+      "attendance": 85.1,
       "submit": 91.0
     },
     {
       "date": "11-20",
-      "attendance": 83.4,
+      "attendance": 83.6,
       "submit": 91.5
     },
     {
       "date": "11-21",
-      "attendance": 81.9,
+      "attendance": 82.1,
       "submit": 92.0
     },
     {
       "date": "11-22",
-      "attendance": 80.4,
+      "attendance": 80.6,
       "submit": 92.5
     },
     {
       "date": "11-23",
-      "attendance": 83.4,
-      "submit": 86.7
+      "attendance": 83.6,
+      "submit": 86.8
     }
   ],
   "lesson": {
@@ -2059,16 +2055,16 @@
     "teacher_count": 24,
     "uncovered_classes": [
       "九年级 G11",
-      "十年级 G23",
-      "十二年级 A22",
-      "九年级 G12",
-      "十年级 G22",
-      "高数CR2(F26)",
-      "十年级 G21",
       "十二年级 A21",
+      "十年级 G22",
+      "十年级 G23",
       "十一年级 AS2",
-      "十一年级 AS1",
-      "十一年级 AS3"
+      "九年级 G12",
+      "十一年级 AS3",
+      "十二年级 A22",
+      "十年级 G21",
+      "高数CR2(F26)",
+      "十一年级 AS1"
     ],
     "uncovered_teachers": [
       {
