@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-23 10:15",
+  "updated_at": "2026-11-23 10:26",
   "school": {
-    "rate": 78.8,
-    "present": 178,
-    "total": 226,
-    "late": 2,
-    "absent": 48,
+    "rate": 82.1,
+    "present": 207,
+    "total": 252,
+    "late": 5,
+    "absent": 45,
     "leave": 38
   },
   "summary": {
@@ -118,17 +118,35 @@
     {
       "name": "经济C0(F26)",
       "teacher": "郝畅",
-      "rate": 62.5,
-      "present_text": "5/8人次",
-      "present": 5,
-      "total": 8,
-      "absent": 3,
+      "rate": 100.0,
+      "present_text": "16/16人次",
+      "present": 16,
+      "total": 16,
+      "absent": 0,
+      "late": 3,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "09:10-09:50",
+        "10:00-10:40"
+      ]
+    },
+    {
+      "name": "英语写作AQ2(F26)",
+      "teacher": "贺珍谊",
+      "rate": 100.0,
+      "present_text": "18/18人次",
+      "present": 18,
+      "total": 18,
+      "absent": 0,
       "late": 0,
       "early": 0,
       "leave": 0,
-      "status": "异常",
+      "status": "正常",
       "time_spans": [
-        "09:10-09:50"
+        "10:00-10:40",
+        "10:50-11:30"
       ]
     },
     {
@@ -434,45 +452,6 @@
         }
       ],
       "updated_at": "2026-11-23T09:23:05"
-    },
-    {
-      "name": "茆睿恺",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-23T09:13:39"
-    },
-    {
-      "name": "曾禹德",
-      "class": "A22",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-23T09:13:39"
-    },
-    {
-      "name": "段锦沐",
-      "class": "A21",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济C0(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-23T09:13:39"
     },
     {
       "name": "王锴杰",
@@ -934,8 +913,8 @@
       "teacher": "郝畅",
       "time": "09:10-09:50",
       "location": "LT3-209",
-      "called_at": "2026-11-23T09:13:39",
-      "delay_min": 4
+      "called_at": "2026-11-23T10:19:15",
+      "delay_min": 69
     },
     {
       "class": "十二年级 A22",
@@ -944,70 +923,70 @@
       "teacher": "郝畅",
       "time": "09:10-09:50",
       "location": "LT3-209",
-      "called_at": "2026-11-23T09:13:39",
-      "delay_min": 4
+      "called_at": "2026-11-23T10:19:15",
+      "delay_min": 69
     }
   ],
   "teacher_last_call": {
+    "贺珍谊": "2026-11-23T10:24:11",
+    "郝畅": "2026-11-23T10:19:20",
     "杨燕霖": "2026-11-23T10:03:37",
     "曹德娟": "2026-11-23T09:56:05",
     "职梦凡": "2026-11-23T09:53:07",
     "张小翼": "2026-11-23T09:35:13",
     "孙鹏": "2026-11-23T09:23:05",
-    "郝畅": "2026-11-23T09:13:39",
     "沈译宇": "2026-11-23T09:10:37",
     "王肇君": "2026-11-23T09:40:50",
-    "王偲儿": "2026-11-23T09:25:06",
-    "贺珍谊": "2026-11-23T08:56:23"
+    "王偲儿": "2026-11-23T09:25:06"
   },
   "trend": [
     {
       "date": "11-17",
-      "attendance": 83.3,
+      "attendance": 86.6,
       "submit": 90.0
     },
     {
       "date": "11-18",
-      "attendance": 81.8,
+      "attendance": 85.1,
       "submit": 90.5
     },
     {
       "date": "11-19",
-      "attendance": 80.3,
+      "attendance": 83.6,
       "submit": 91.0
     },
     {
       "date": "11-20",
-      "attendance": 78.8,
+      "attendance": 82.1,
       "submit": 91.5
     },
     {
       "date": "11-21",
-      "attendance": 77.3,
+      "attendance": 80.6,
       "submit": 92.0
     },
     {
       "date": "11-22",
-      "attendance": 75.8,
+      "attendance": 79.1,
       "submit": 92.5
     },
     {
       "date": "11-23",
-      "attendance": 78.8,
-      "submit": 84.4
+      "attendance": 82.1,
+      "submit": 86.0
     }
   ],
   "lesson": {
     "completion_rate": 76.9,
     "called": 20,
     "total": 26,
-    "class_coverage": "11/11",
+    "class_coverage": "12/12",
     "teacher_count": 10,
     "uncovered_classes": [
       "十一年级 AS3",
-      "十二年级 A22",
       "十一年级 AS1",
-      "十二年级 A21"
+      "十二年级 A21",
+      "十二年级 A22"
     ],
     "uncovered_teachers": [
       {
