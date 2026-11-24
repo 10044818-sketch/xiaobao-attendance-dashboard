@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-24 13:01",
+  "updated_at": "2026-11-24 13:05",
   "school": {
-    "rate": 83.4,
-    "present": 272,
-    "total": 326,
-    "late": 11,
-    "absent": 54,
-    "leave": 27
+    "rate": 83.9,
+    "present": 302,
+    "total": 360,
+    "late": 12,
+    "absent": 58,
+    "leave": 31
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 3,
+    "class_attention": 4,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -94,6 +94,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "商科AA(F26)",
+      "teacher": "余震",
+      "rate": 91.7,
+      "present_text": "11/12人次",
+      "present": 11,
+      "total": 12,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -264,6 +280,22 @@
       ]
     },
     {
+      "name": "艺术AA(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "艺术BX(F26)",
       "teacher": "朱嘉怡",
       "rate": 100.0,
@@ -375,9 +407,93 @@
       "time_spans": [
         "10:00-10:40"
       ]
+    },
+    {
+      "name": "音乐BR3(F26)",
+      "teacher": "刘知言",
+      "rate": 85.0,
+      "present_text": "17/20人次",
+      "present": 17,
+      "total": 20,
+      "absent": 3,
+      "late": 1,
+      "early": 0,
+      "leave": 3,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
     }
   ],
   "absent_students": [
+    {
+      "name": "李雨真",
+      "class": "AS3",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "音乐BR3(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-24T13:02:26"
+    },
+    {
+      "name": "黄子怿",
+      "class": "AS3",
+      "reason": "事假_【已通过】 2026/11/12 8:00:00 至 2026/11/30 17:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "音乐BR3(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-24T13:02:26"
+    },
+    {
+      "name": "郭怡娜",
+      "class": "AS3",
+      "reason": "已请假",
+      "type": "请假",
+      "courses": [
+        {
+          "course": "音乐BR3(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-24T13:02:26"
+    },
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/11/23 7:00:00 至 2026/11/27 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学AR2(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "体育AA(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-24T13:02:08"
+    },
     {
       "name": "周沛东",
       "class": "A21",
@@ -644,31 +760,6 @@
       "reason": "事假_【已通过】 2026/11/23 8:00:00 至 2026/11/30 16:00:00  有事 ",
       "type": "事假",
       "courses": [
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "体育AA(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-24T10:48:58"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/11/23 7:00:00 至 2026/11/27 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学AR2(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "09:10-09:50"
-        },
         {
           "course": "英语写作AQ1(F26)",
           "time": "10:00-10:40"
@@ -1856,16 +1947,17 @@
     }
   ],
   "teacher_last_call": {
+    "朱嘉怡": "2026-11-24T13:05:08",
+    "刘知言": "2026-11-24T13:02:26",
+    "余震": "2026-11-24T13:02:08",
     "职梦凡": "2026-11-24T13:00:00",
     "贺珍谊": "2026-11-24T12:59:19",
     "张璐菲": "2026-11-24T12:56:26",
     "Johannes van Baardewijk": "2026-11-24T11:18:06",
     "曾靓": "2026-11-24T10:56:50",
-    "朱嘉怡": "2026-11-24T10:50:03",
     "魏刘伟": "2026-11-24T10:49:02",
     "沈译宇": "2026-11-24T10:48:58",
     "李昊骏": "2026-11-24T10:00:57",
-    "余震": "2026-11-24T09:59:40",
     "袁西援": "2026-11-24T09:58:40",
     "张小翼": "2026-11-24T09:53:34",
     "杨燕霖": "2026-11-24T09:11:11",
@@ -1876,58 +1968,58 @@
   "trend": [
     {
       "date": "11-18",
-      "attendance": 87.9,
+      "attendance": 88.4,
       "submit": 90.0
     },
     {
       "date": "11-19",
-      "attendance": 86.4,
+      "attendance": 86.9,
       "submit": 90.5
     },
     {
       "date": "11-20",
-      "attendance": 84.9,
+      "attendance": 85.4,
       "submit": 91.0
     },
     {
       "date": "11-21",
-      "attendance": 83.4,
+      "attendance": 83.9,
       "submit": 91.5
     },
     {
       "date": "11-22",
-      "attendance": 81.9,
+      "attendance": 82.4,
       "submit": 92.0
     },
     {
       "date": "11-23",
-      "attendance": 80.4,
+      "attendance": 80.9,
       "submit": 92.5
     },
     {
       "date": "11-24",
-      "attendance": 83.4,
-      "submit": 86.7
+      "attendance": 83.9,
+      "submit": 87.0
     }
   ],
   "lesson": {
     "completion_rate": 57.7,
     "called": 56,
     "total": 97,
-    "class_coverage": "22/22",
+    "class_coverage": "25/25",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "化学A0(F26)",
-      "十年级 G22",
-      "十年级 G23",
-      "十二年级 A21",
-      "十一年级 AS3",
+      "化学BZ(F26)",
       "九年级 G11",
+      "十年级 G22",
+      "十一年级 AS2",
+      "十年级 G23",
+      "十年级 G21",
       "九年级 G12",
       "化学CB(F26)",
-      "化学BZ(F26)",
-      "十年级 G21",
+      "十一年级 AS3",
+      "化学A0(F26)",
+      "十二年级 A21",
       "十一年级 AS1",
       "十二年级 A22"
     ],
