@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-24 08:50",
+  "updated_at": "2026-11-24 08:55",
   "school": {
-    "rate": 80.3,
-    "present": 49,
-    "total": 61,
-    "late": 0,
-    "absent": 12,
+    "rate": 76.8,
+    "present": 53,
+    "total": 69,
+    "late": 1,
+    "absent": 16,
     "leave": 5
   },
   "summary": {
@@ -27,6 +27,22 @@
       "early": 0,
       "leave": 0,
       "status": "关注",
+      "time_spans": [
+        "08:20-09:00"
+      ]
+    },
+    {
+      "name": "化学C0(F26)",
+      "teacher": "袁西援",
+      "rate": 50.0,
+      "present_text": "4/8人次",
+      "present": 4,
+      "total": 8,
+      "absent": 4,
+      "late": 1,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
       "time_spans": [
         "08:20-09:00"
       ]
@@ -113,6 +129,58 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "茆睿恺",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-24T08:53:54"
+    },
+    {
+      "name": "周沛东",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-24T08:53:54"
+    },
+    {
+      "name": "曾禹德",
+      "class": "A22",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-24T08:53:54"
+    },
+    {
+      "name": "段锦沐",
+      "class": "A21",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "化学C0(F26)",
+          "time": "08:20-09:00"
+        }
+      ],
+      "updated_at": "2026-11-24T08:53:54"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -273,6 +341,7 @@
   "pending_roll_call": [],
   "called_roll_call": [],
   "teacher_last_call": {
+    "袁西援": "2026-11-24T08:53:54",
     "余震": "2026-11-24T08:23:25",
     "朱嘉怡": "2026-11-24T08:22:55",
     "米万宝": "2026-11-24T08:22:38",
@@ -283,45 +352,45 @@
   "trend": [
     {
       "date": "11-18",
-      "attendance": 84.8,
+      "attendance": 81.3,
       "submit": 90.0
     },
     {
       "date": "11-19",
-      "attendance": 83.3,
+      "attendance": 79.8,
       "submit": 90.5
     },
     {
       "date": "11-20",
-      "attendance": 81.8,
+      "attendance": 78.3,
       "submit": 91.0
     },
     {
       "date": "11-21",
-      "attendance": 80.3,
+      "attendance": 76.8,
       "submit": 91.5
     },
     {
       "date": "11-22",
-      "attendance": 78.8,
+      "attendance": 75.3,
       "submit": 92.0
     },
     {
       "date": "11-23",
-      "attendance": 77.3,
+      "attendance": 73.8,
       "submit": 92.5
     },
     {
       "date": "11-24",
-      "attendance": 80.3,
-      "submit": 85.2
+      "attendance": 76.8,
+      "submit": 83.4
     }
   ],
   "lesson": {
     "completion_rate": 0,
     "called": 0,
     "total": 0,
-    "class_coverage": "6/6",
+    "class_coverage": "7/7",
     "teacher_count": 0,
     "uncovered_classes": [],
     "uncovered_teachers": []
