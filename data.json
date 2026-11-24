@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-24 16:56",
+  "updated_at": "2026-11-24 17:01",
   "school": {
-    "rate": 83.2,
-    "present": 605,
-    "total": 727,
+    "rate": 83.4,
+    "present": 629,
+    "total": 754,
     "late": 20,
-    "absent": 122,
-    "leave": 79
+    "absent": 125,
+    "leave": 81
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 6,
+    "class_attention": 5,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -83,17 +83,18 @@
     {
       "name": "化学BZ(F26)",
       "teacher": "米万宝",
-      "rate": 91.7,
-      "present_text": "11/12人次",
-      "present": 11,
-      "total": 12,
+      "rate": 95.8,
+      "present_text": "23/24人次",
+      "present": 23,
+      "total": 24,
       "absent": 1,
       "late": 0,
       "early": 0,
       "leave": 0,
-      "status": "关注",
+      "status": "正常",
       "time_spans": [
-        "08:20-09:00"
+        "08:20-09:00",
+        "09:10-09:50"
       ]
     },
     {
@@ -262,6 +263,22 @@
       "status": "异常",
       "time_spans": [
         "13:50-14:30",
+        "14:40-15:20"
+      ]
+    },
+    {
+      "name": "物理9A(F26)",
+      "teacher": "职梦凡",
+      "rate": 80.0,
+      "present_text": "12/15人次",
+      "present": 12,
+      "total": 15,
+      "absent": 3,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
         "14:40-15:20"
       ]
     },
@@ -708,6 +725,81 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "余天泽",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-24T16:58:17"
+    },
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-24T16:58:17"
+    },
+    {
+      "name": "孙亦凡",
+      "class": "G12",
+      "reason": "病假_【已通过】 2026/11/24 7:00:00 至 2026/11/24 17:00:00  晨起喉咙痛，有感冒症状 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语听读写9A(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育9A(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "英语口语9A(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "物理9A(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-24T16:58:17"
+    },
     {
       "name": "谢佳妍",
       "class": "G22",
@@ -1179,52 +1271,6 @@
       "updated_at": "2026-11-24T15:12:49"
     },
     {
-      "name": "孙亦凡",
-      "class": "G12",
-      "reason": "病假_【已通过】 2026/11/24 7:00:00 至 2026/11/24 17:00:00  晨起喉咙痛，有感冒症状 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语听读写9A(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-11-24T15:04:51"
-    },
-    {
-      "name": "余天泽",
-      "class": "G12",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "体育9A(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-11-24T15:01:23"
-    },
-    {
       "name": "舒泽杨",
       "class": "G11",
       "reason": "当日缺课且无请假单",
@@ -1244,23 +1290,6 @@
         }
       ],
       "updated_at": "2026-11-24T15:01:23"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语口语9A(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-24T15:01:10"
     },
     {
       "name": "郭怡娜",
@@ -1567,46 +1596,6 @@
       "location": "LT3-212"
     },
     {
-      "class": "化学BZ(F26)",
-      "class_id": 520906,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "09:10-09:50",
-      "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "09:10-09:50",
-      "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "09:10-09:50",
-      "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "09:10-09:50",
-      "location": "LT3-114"
-    },
-    {
-      "class": "十二年级 A22",
-      "class_id": 366031,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "09:10-09:50",
-      "location": "LT3-114"
-    },
-    {
       "class": "十二年级 A22",
       "class_id": 366031,
       "subject": "艺术与设计",
@@ -1821,22 +1810,6 @@
       "teacher": "李俊",
       "time": "13:50-14:30",
       "location": "LT3-208"
-    },
-    {
-      "class": "九年级 G11",
-      "class_id": 487607,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "14:40-15:20",
-      "location": "LT3-108"
-    },
-    {
-      "class": "九年级 G12",
-      "class_id": 521410,
-      "subject": "物理",
-      "teacher": "职梦凡",
-      "time": "14:40-15:20",
-      "location": "LT3-108"
     },
     {
       "class": "十一年级 AS1",
@@ -2327,6 +2300,56 @@
       "location": "LT3-108",
       "called_at": "2026-11-24T15:04:51",
       "delay_min": 355
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-114",
+      "called_at": "2026-11-24T17:00:11",
+      "delay_min": 470
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-114",
+      "called_at": "2026-11-24T17:00:11",
+      "delay_min": 470
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-114",
+      "called_at": "2026-11-24T17:00:11",
+      "delay_min": 470
+    },
+    {
+      "class": "十二年级 A22",
+      "class_id": 366031,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-114",
+      "called_at": "2026-11-24T17:00:11",
+      "delay_min": 470
+    },
+    {
+      "class": "化学BZ(F26)",
+      "class_id": 520906,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "09:10-09:50",
+      "location": "LT3-114",
+      "called_at": "2026-11-24T17:00:11",
+      "delay_min": 470
     },
     {
       "class": "十二年级 A21",
@@ -3197,9 +3220,31 @@
       "location": "LT3-109",
       "called_at": "2026-11-24T14:42:27",
       "delay_min": 2
+    },
+    {
+      "class": "九年级 G11",
+      "class_id": 487607,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "14:40-15:20",
+      "location": "LT3-108",
+      "called_at": "2026-11-24T16:58:17",
+      "delay_min": 138
+    },
+    {
+      "class": "九年级 G12",
+      "class_id": 521410,
+      "subject": "物理",
+      "teacher": "职梦凡",
+      "time": "14:40-15:20",
+      "location": "LT3-108",
+      "called_at": "2026-11-24T16:58:17",
+      "delay_min": 138
     }
   ],
   "teacher_last_call": {
+    "米万宝": "2026-11-24T17:00:11",
+    "职梦凡": "2026-11-24T16:58:17",
     "赵亮": "2026-11-24T16:54:20",
     "刘晨璐": "2026-11-24T16:52:10",
     "曾靓": "2026-11-24T16:47:34",
@@ -3214,7 +3259,6 @@
     "王肇君": "2026-11-24T14:42:27",
     "杨燕霖": "2026-11-24T16:23:36",
     "余震": "2026-11-24T13:52:51",
-    "职梦凡": "2026-11-24T13:53:50",
     "曹德娟": "2026-11-24T13:07:06",
     "刘知言": "2026-11-24T14:15:14",
     "贺珍谊": "2026-11-24T16:23:36",
@@ -3224,65 +3268,63 @@
     "李昊骏": "2026-11-24T10:00:57",
     "袁西援": "2026-11-24T09:58:40",
     "张小翼": "2026-11-24T09:53:34",
-    "潘丽": "2026-11-24T09:32:06",
-    "米万宝": "2026-11-24T08:22:38"
+    "潘丽": "2026-11-24T09:32:06"
   },
   "trend": [
     {
       "date": "11-18",
-      "attendance": 87.7,
+      "attendance": 87.9,
       "submit": 90.0
     },
     {
       "date": "11-19",
-      "attendance": 86.2,
+      "attendance": 86.4,
       "submit": 90.5
     },
     {
       "date": "11-20",
-      "attendance": 84.7,
+      "attendance": 84.9,
       "submit": 91.0
     },
     {
       "date": "11-21",
-      "attendance": 83.2,
+      "attendance": 83.4,
       "submit": 91.5
     },
     {
       "date": "11-22",
-      "attendance": 81.7,
+      "attendance": 81.9,
       "submit": 92.0
     },
     {
       "date": "11-23",
-      "attendance": 80.2,
+      "attendance": 80.4,
       "submit": 92.5
     },
     {
       "date": "11-24",
-      "attendance": 83.2,
-      "submit": 86.6
+      "attendance": 83.4,
+      "submit": 86.7
     }
   ],
   "lesson": {
-    "completion_rate": 74.2,
-    "called": 118,
+    "completion_rate": 78.6,
+    "called": 125,
     "total": 159,
-    "class_coverage": "42/42",
+    "class_coverage": "43/43",
     "teacher_count": 29,
     "uncovered_classes": [
       "十一年级 AS1",
+      "十年级 G23",
+      "九年级 G12",
+      "九年级 G11",
       "十二年级 A21",
       "化学A0(F26)",
-      "十二年级 A22",
-      "十年级 G23",
-      "九年级 G11",
-      "十年级 G21",
-      "十年级 G22",
       "高数CR2(F26)",
-      "化学BZ(F26)",
       "十一年级 AS2",
-      "九年级 G12",
+      "十年级 G21",
+      "十二年级 A22",
+      "十年级 G22",
       "十一年级 AS3"
     ],
     "uncovered_teachers": [
@@ -3293,46 +3335,6 @@
         "teacher": "王丽媛、朱嘉怡",
         "time": "08:20-09:00",
         "location": "LT3-212"
-      },
-      {
-        "class": "化学BZ(F26)",
-        "class_id": 520906,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "09:10-09:50",
-        "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "09:10-09:50",
-        "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "09:10-09:50",
-        "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "09:10-09:50",
-        "location": "LT3-114"
-      },
-      {
-        "class": "十二年级 A22",
-        "class_id": 366031,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "09:10-09:50",
-        "location": "LT3-114"
       },
       {
         "class": "十二年级 A22",
@@ -3549,22 +3551,6 @@
         "teacher": "李俊",
         "time": "13:50-14:30",
         "location": "LT3-208"
-      },
-      {
-        "class": "九年级 G11",
-        "class_id": 487607,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "14:40-15:20",
-        "location": "LT3-108"
-      },
-      {
-        "class": "九年级 G12",
-        "class_id": 521410,
-        "subject": "物理",
-        "teacher": "职梦凡",
-        "time": "14:40-15:20",
-        "location": "LT3-108"
       },
       {
         "class": "十一年级 AS1",
