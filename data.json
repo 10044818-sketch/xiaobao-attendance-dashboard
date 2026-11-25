@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 12:42",
+  "updated_at": "2026-11-25 12:45",
   "school": {
     "rate": 85.6,
     "present": 358,
@@ -200,7 +200,7 @@
     },
     {
       "name": "物理CA(F26)",
-      "teacher": "熊辉",
+      "teacher": "职梦凡",
       "rate": 50.0,
       "present_text": "11/22人次",
       "present": 11,
@@ -1689,16 +1689,16 @@
     "class_coverage": "21/21",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十一年级 AS2",
-      "九年级 G11",
-      "十二年级 A22",
       "十一年级 AS1",
-      "高数CR2(F26)",
-      "十年级 G22",
       "十一年级 AS3",
+      "十二年级 A22",
+      "十一年级 AS2",
       "十年级 G21",
-      "九年级 G12"
+      "十年级 G22",
+      "高数CR2(F26)",
+      "九年级 G12",
+      "十二年级 A21",
+      "九年级 G11"
     ],
     "uncovered_teachers": [
       {
