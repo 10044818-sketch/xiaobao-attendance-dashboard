@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-25 15:35",
+  "updated_at": "2026-11-25 15:41",
   "school": {
-    "rate": 82.4,
-    "present": 572,
-    "total": 694,
+    "rate": 82.6,
+    "present": 580,
+    "total": 702,
     "late": 6,
     "absent": 122,
     "leave": 78
@@ -414,6 +414,22 @@
       "status": "正常",
       "time_spans": [
         "14:40-15:20"
+      ]
+    },
+    {
+      "name": "艺术BX(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "8/8人次",
+      "present": 8,
+      "total": 8,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "15:30-16:10"
       ]
     },
     {
@@ -2794,11 +2810,11 @@
     }
   ],
   "teacher_last_call": {
+    "朱嘉怡": "2026-11-25T15:36:59",
     "张小翼": "2026-11-25T15:32:20",
     "魏刘伟": "2026-11-25T15:29:59",
     "王肇君": "2026-11-25T15:28:31",
     "余震": "2026-11-25T14:41:18",
-    "朱嘉怡": "2026-11-25T14:40:31",
     "王偲儿": "2026-11-25T14:32:49",
     "钱嘉音": "2026-11-25T14:32:05",
     "刘知言": "2026-11-25T14:14:15",
@@ -2818,60 +2834,60 @@
   "trend": [
     {
       "date": "11-19",
-      "attendance": 86.9,
+      "attendance": 87.1,
       "submit": 90.0
     },
     {
       "date": "11-20",
-      "attendance": 85.4,
+      "attendance": 85.6,
       "submit": 90.5
     },
     {
       "date": "11-21",
-      "attendance": 83.9,
+      "attendance": 84.1,
       "submit": 91.0
     },
     {
       "date": "11-22",
-      "attendance": 82.4,
+      "attendance": 82.6,
       "submit": 91.5
     },
     {
       "date": "11-23",
-      "attendance": 80.9,
+      "attendance": 81.1,
       "submit": 92.0
     },
     {
       "date": "11-24",
-      "attendance": 79.4,
+      "attendance": 79.6,
       "submit": 92.5
     },
     {
       "date": "11-25",
-      "attendance": 82.4,
-      "submit": 86.2
+      "attendance": 82.6,
+      "submit": 86.3
     }
   ],
   "lesson": {
     "completion_rate": 61.9,
     "called": 86,
     "total": 139,
-    "class_coverage": "35/35",
+    "class_coverage": "36/36",
     "teacher_count": 28,
     "uncovered_classes": [
-      "十年级 G21",
-      "化学BY(F26)",
-      "十二年级 A21",
-      "十年级 G23",
-      "九年级 G11",
-      "十一年级 AS2",
-      "十一年级 AS3",
-      "九年级 G12",
-      "十二年级 A22",
-      "化学AA(F26)",
-      "十年级 G22",
       "高数CR2(F26)",
-      "十一年级 AS1"
+      "十年级 G21",
+      "十二年级 A21",
+      "化学AA(F26)",
+      "十一年级 AS3",
+      "十一年级 AS2",
+      "十一年级 AS1",
+      "十年级 G23",
+      "十二年级 A22",
+      "九年级 G12",
+      "九年级 G11",
+      "十年级 G22",
+      "化学BY(F26)"
     ],
     "uncovered_teachers": [
       {
