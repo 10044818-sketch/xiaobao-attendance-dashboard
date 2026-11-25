@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-25 16:21",
+  "updated_at": "2026-11-25 16:25",
   "school": {
-    "rate": 82.7,
-    "present": 610,
-    "total": 738,
+    "rate": 83.0,
+    "present": 635,
+    "total": 765,
     "late": 6,
-    "absent": 128,
-    "leave": 82
+    "absent": 130,
+    "leave": 83
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 10,
+    "class_attention": 9,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -83,18 +83,35 @@
     {
       "name": "化学BY(F26)",
       "teacher": "米万宝",
-      "rate": 93.3,
-      "present_text": "28/30人次",
-      "present": 28,
-      "total": 30,
+      "rate": 95.6,
+      "present_text": "43/45人次",
+      "present": 43,
+      "total": 45,
       "absent": 2,
       "late": 0,
       "early": 0,
       "leave": 0,
-      "status": "关注",
+      "status": "正常",
       "time_spans": [
         "10:00-10:40",
-        "10:50-11:30"
+        "10:50-11:30",
+        "14:40-15:20"
+      ]
+    },
+    {
+      "name": "化学BZ(F26)",
+      "teacher": "米万宝",
+      "rate": 83.3,
+      "present_text": "10/12人次",
+      "present": 10,
+      "total": 12,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "异常",
+      "time_spans": [
+        "16:20-17:00"
       ]
     },
     {
@@ -348,7 +365,7 @@
     },
     {
       "name": "物理CA(F26)",
-      "teacher": "熊辉",
+      "teacher": "职梦凡",
       "rate": 50.0,
       "present_text": "11/22人次",
       "present": 11,
@@ -661,6 +678,68 @@
   ],
   "absent_students": [
     {
+      "name": "赵浩雯",
+      "class": "AS1",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐BR1(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "雅思BR1(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-11-25T16:24:41"
+    },
+    {
+      "name": "任厚宇",
+      "class": "AS3",
+      "reason": "病假_【已通过】 2026/11/25 8:00:00 至 2026/11/25 17:00:00  复查 ",
+      "type": "病假",
+      "courses": [
+        {
+          "course": "经济BY(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "雅思BR3(F26)",
+          "time": "13:50-14:30"
+        },
+        {
+          "course": "经济BY(F26)",
+          "time": "14:40-15:20"
+        },
+        {
+          "course": "物理BX(F26)",
+          "time": "15:30-16:10"
+        },
+        {
+          "course": "化学BZ(F26)",
+          "time": "16:20-17:00"
+        }
+      ],
+      "updated_at": "2026-11-25T16:24:41"
+    },
+    {
       "name": "周原",
       "class": "AS1",
       "reason": "病假_【已通过】 2026/11/23 8:00:00 至 2026/11/25 17:00:00  看医生 ",
@@ -925,35 +1004,6 @@
         }
       ],
       "updated_at": "2026-11-25T15:32:20"
-    },
-    {
-      "name": "任厚宇",
-      "class": "AS3",
-      "reason": "病假_【已通过】 2026/11/25 8:00:00 至 2026/11/25 17:00:00  复查 ",
-      "type": "病假",
-      "courses": [
-        {
-          "course": "经济BY(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "雅思BR3(F26)",
-          "time": "13:50-14:30"
-        },
-        {
-          "course": "经济BY(F26)",
-          "time": "14:40-15:20"
-        },
-        {
-          "course": "物理BX(F26)",
-          "time": "15:30-16:10"
-        }
-      ],
-      "updated_at": "2026-11-25T15:29:59"
     },
     {
       "name": "郭淑君",
@@ -1270,31 +1320,6 @@
         }
       ],
       "updated_at": "2026-11-25T14:14:15"
-    },
-    {
-      "name": "赵浩雯",
-      "class": "AS1",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐BR1(F26)",
-          "time": "13:00-13:40"
-        },
-        {
-          "course": "雅思BR1(F26)",
-          "time": "13:50-14:30"
-        }
-      ],
-      "updated_at": "2026-11-25T14:05:32"
     },
     {
       "name": "冯麟",
@@ -1886,38 +1911,6 @@
       "teacher": "Johannes van Baardewijk",
       "time": "14:40-15:20",
       "location": "LT3-108"
-    },
-    {
-      "class": "化学BY(F26)",
-      "class_id": 520900,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "14:40-15:20",
-      "location": "LT3-221"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "14:40-15:20",
-      "location": "LT3-221"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "14:40-15:20",
-      "location": "LT3-221"
-    },
-    {
-      "class": "十一年级 AS3",
-      "class_id": 442961,
-      "subject": "化学",
-      "teacher": "米万宝",
-      "time": "14:40-15:20",
-      "location": "LT3-221"
     },
     {
       "class": "十年级 G21",
@@ -2956,6 +2949,46 @@
       "delay_min": 49
     },
     {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "14:40-15:20",
+      "location": "LT3-221",
+      "called_at": "2026-11-25T16:23:56",
+      "delay_min": 104
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "14:40-15:20",
+      "location": "LT3-221",
+      "called_at": "2026-11-25T16:23:56",
+      "delay_min": 104
+    },
+    {
+      "class": "十一年级 AS3",
+      "class_id": 442961,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "14:40-15:20",
+      "location": "LT3-221",
+      "called_at": "2026-11-25T16:23:56",
+      "delay_min": 104
+    },
+    {
+      "class": "化学BY(F26)",
+      "class_id": 520900,
+      "subject": "化学",
+      "teacher": "米万宝",
+      "time": "14:40-15:20",
+      "location": "LT3-221",
+      "called_at": "2026-11-25T16:23:56",
+      "delay_min": 104
+    },
+    {
       "class": "十一年级 AS2",
       "class_id": 442960,
       "subject": "物理",
@@ -3087,6 +3120,7 @@
     }
   ],
   "teacher_last_call": {
+    "米万宝": "2026-11-25T16:24:41",
     "余震": "2026-11-25T16:19:54",
     "余越利": "2026-11-25T15:54:18",
     "朱嘉怡": "2026-11-25T15:36:59",
@@ -3104,7 +3138,6 @@
     "张璐菲": "2026-11-25T12:11:27",
     "郝畅": "2026-11-25T11:33:25",
     "曹德娟": "2026-11-25T11:17:31",
-    "米万宝": "2026-11-25T10:50:24",
     "李昊骏": "2026-11-25T10:46:14",
     "熊辉": "2026-11-25T10:25:39",
     "沈译宇": "2026-11-25T10:04:12"
@@ -3112,59 +3145,58 @@
   "trend": [
     {
       "date": "11-19",
-      "attendance": 87.2,
+      "attendance": 87.5,
       "submit": 90.0
     },
     {
       "date": "11-20",
-      "attendance": 85.7,
+      "attendance": 86.0,
       "submit": 90.5
     },
     {
       "date": "11-21",
-      "attendance": 84.2,
+      "attendance": 84.5,
       "submit": 91.0
     },
     {
       "date": "11-22",
-      "attendance": 82.7,
+      "attendance": 83.0,
       "submit": 91.5
     },
     {
       "date": "11-23",
-      "attendance": 81.2,
+      "attendance": 81.5,
       "submit": 92.0
     },
     {
       "date": "11-24",
-      "attendance": 79.7,
+      "attendance": 80.0,
       "submit": 92.5
     },
     {
       "date": "11-25",
-      "attendance": 82.7,
-      "submit": 86.3
+      "attendance": 83.0,
+      "submit": 86.5
     }
   ],
   "lesson": {
-    "completion_rate": 61.8,
-    "called": 97,
+    "completion_rate": 64.3,
+    "called": 101,
     "total": 157,
-    "class_coverage": "39/39",
+    "class_coverage": "40/40",
     "teacher_count": 29,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "化学BY(F26)",
+      "九年级 G11",
+      "十年级 G21",
+      "十一年级 AS2",
+      "十年级 G23",
+      "十一年级 AS1",
+      "十二年级 A22",
+      "十年级 G22",
       "高数CR2(F26)",
       "九年级 G12",
-      "十年级 G23",
-      "十二年级 A22",
-      "十年级 G21",
-      "十年级 G22",
-      "九年级 G11",
       "十二年级 A21",
-      "十一年级 AS1",
-      "十一年级 AS2"
+      "十一年级 AS3"
     ],
     "uncovered_teachers": [
       {
@@ -3510,38 +3542,6 @@
         "teacher": "Johannes van Baardewijk",
         "time": "14:40-15:20",
         "location": "LT3-108"
-      },
-      {
-        "class": "化学BY(F26)",
-        "class_id": 520900,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "14:40-15:20",
-        "location": "LT3-221"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "14:40-15:20",
-        "location": "LT3-221"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "14:40-15:20",
-        "location": "LT3-221"
-      },
-      {
-        "class": "十一年级 AS3",
-        "class_id": 442961,
-        "subject": "化学",
-        "teacher": "米万宝",
-        "time": "14:40-15:20",
-        "location": "LT3-221"
       },
       {
         "class": "十年级 G21",
