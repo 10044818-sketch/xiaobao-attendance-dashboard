@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-25 12:20",
+  "updated_at": "2026-11-25 12:26",
   "school": {
-    "rate": 84.5,
-    "present": 328,
-    "total": 388,
+    "rate": 85.6,
+    "present": 358,
+    "total": 418,
     "late": 6,
     "absent": 60,
     "leave": 34
@@ -110,6 +110,23 @@
       "early": 0,
       "leave": 7,
       "status": "异常",
+      "time_spans": [
+        "08:20-09:00",
+        "09:10-09:50"
+      ]
+    },
+    {
+      "name": "数学BQ2(F26)",
+      "teacher": "潘子清",
+      "rate": 100.0,
+      "present_text": "30/30人次",
+      "present": 30,
+      "total": 30,
+      "absent": 0,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
@@ -837,25 +854,9 @@
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
-      "teacher": "潘子清",
-      "time": "08:20-09:00",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "数学",
       "teacher": "刘晨璐",
       "time": "08:20-09:00",
       "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "数学",
-      "teacher": "潘子清",
-      "time": "08:20-09:00",
-      "location": "LT3-121"
     },
     {
       "class": "十一年级 AS2",
@@ -925,25 +926,9 @@
       "class": "十一年级 AS1",
       "class_id": 442959,
       "subject": "数学",
-      "teacher": "潘子清",
-      "time": "09:10-09:50",
-      "location": "LT3-121"
-    },
-    {
-      "class": "十一年级 AS1",
-      "class_id": 442959,
-      "subject": "数学",
       "teacher": "刘晨璐",
       "time": "09:10-09:50",
       "location": "LT3-114"
-    },
-    {
-      "class": "十一年级 AS2",
-      "class_id": 442960,
-      "subject": "数学",
-      "teacher": "潘子清",
-      "time": "09:10-09:50",
-      "location": "LT3-121"
     },
     {
       "class": "十一年级 AS2",
@@ -1132,6 +1117,26 @@
       "delay_min": 4
     },
     {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "数学",
+      "teacher": "潘子清",
+      "time": "08:20-09:00",
+      "location": "LT3-121",
+      "called_at": "2026-11-25T12:20:59",
+      "delay_min": 241
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "数学",
+      "teacher": "潘子清",
+      "time": "08:20-09:00",
+      "location": "LT3-121",
+      "called_at": "2026-11-25T12:20:59",
+      "delay_min": 241
+    },
+    {
       "class": "十年级 G22",
       "class_id": 521637,
       "subject": "物理",
@@ -1240,6 +1245,26 @@
       "location": "LT3-221",
       "called_at": "2026-11-25T09:10:03",
       "delay_min": 0
+    },
+    {
+      "class": "十一年级 AS1",
+      "class_id": 442959,
+      "subject": "数学",
+      "teacher": "潘子清",
+      "time": "09:10-09:50",
+      "location": "LT3-121",
+      "called_at": "2026-11-25T12:21:01",
+      "delay_min": 191
+    },
+    {
+      "class": "十一年级 AS2",
+      "class_id": 442960,
+      "subject": "数学",
+      "teacher": "潘子清",
+      "time": "09:10-09:50",
+      "location": "LT3-121",
+      "called_at": "2026-11-25T12:21:01",
+      "delay_min": 191
     },
     {
       "class": "十年级 G22",
@@ -1603,6 +1628,7 @@
     }
   ],
   "teacher_last_call": {
+    "潘子清": "2026-11-25T12:21:01",
     "张璐菲": "2026-11-25T12:11:27",
     "郝畅": "2026-11-25T11:33:25",
     "曹德娟": "2026-11-25T11:17:31",
@@ -1622,67 +1648,59 @@
   "trend": [
     {
       "date": "11-19",
-      "attendance": 89.0,
+      "attendance": 90.1,
       "submit": 90.0
     },
     {
       "date": "11-20",
-      "attendance": 87.5,
+      "attendance": 88.6,
       "submit": 90.5
     },
     {
       "date": "11-21",
-      "attendance": 86.0,
+      "attendance": 87.1,
       "submit": 91.0
     },
     {
       "date": "11-22",
-      "attendance": 84.5,
+      "attendance": 85.6,
       "submit": 91.5
     },
     {
       "date": "11-23",
-      "attendance": 83.0,
+      "attendance": 84.1,
       "submit": 92.0
     },
     {
       "date": "11-24",
-      "attendance": 81.5,
+      "attendance": 82.6,
       "submit": 92.5
     },
     {
       "date": "11-25",
-      "attendance": 84.5,
-      "submit": 87.2
+      "attendance": 85.6,
+      "submit": 87.8
     }
   ],
   "lesson": {
-    "completion_rate": 61.4,
-    "called": 51,
+    "completion_rate": 66.3,
+    "called": 55,
     "total": 83,
-    "class_coverage": "20/20",
+    "class_coverage": "21/21",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十二年级 A22",
-      "十二年级 A21",
-      "十年级 G22",
-      "十一年级 AS1",
-      "十一年级 AS2",
-      "十年级 G21",
-      "高数CR2(F26)",
       "九年级 G12",
+      "十二年级 A22",
+      "高数CR2(F26)",
+      "十年级 G21",
+      "十一年级 AS1",
       "九年级 G11",
-      "十一年级 AS3"
+      "十二年级 A21",
+      "十一年级 AS3",
+      "十年级 G22",
+      "十一年级 AS2"
     ],
     "uncovered_teachers": [
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "数学",
-        "teacher": "潘子清",
-        "time": "08:20-09:00",
-        "location": "LT3-121"
-      },
       {
         "class": "十一年级 AS1",
         "class_id": 442959,
@@ -1690,14 +1708,6 @@
         "teacher": "刘晨璐",
         "time": "08:20-09:00",
         "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "数学",
-        "teacher": "潘子清",
-        "time": "08:20-09:00",
-        "location": "LT3-121"
       },
       {
         "class": "十一年级 AS2",
@@ -1767,25 +1777,9 @@
         "class": "十一年级 AS1",
         "class_id": 442959,
         "subject": "数学",
-        "teacher": "潘子清",
-        "time": "09:10-09:50",
-        "location": "LT3-121"
-      },
-      {
-        "class": "十一年级 AS1",
-        "class_id": 442959,
-        "subject": "数学",
         "teacher": "刘晨璐",
         "time": "09:10-09:50",
         "location": "LT3-114"
-      },
-      {
-        "class": "十一年级 AS2",
-        "class_id": 442960,
-        "subject": "数学",
-        "teacher": "潘子清",
-        "time": "09:10-09:50",
-        "location": "LT3-121"
       },
       {
         "class": "十一年级 AS2",
