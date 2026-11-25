@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-25 13:16",
+  "updated_at": "2026-11-25 13:21",
   "school": {
-    "rate": 85.5,
-    "present": 420,
-    "total": 491,
+    "rate": 85.8,
+    "present": 435,
+    "total": 507,
     "late": 6,
-    "absent": 71,
-    "leave": 40
+    "absent": 72,
+    "leave": 41
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 5,
+    "class_attention": 6,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -380,6 +380,22 @@
       ]
     },
     {
+      "name": "雅思BR2C(F26)",
+      "teacher": "钱嘉音",
+      "rate": 93.8,
+      "present_text": "15/16人次",
+      "present": 15,
+      "total": 16,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "雅思写作口语C0(F26)",
       "teacher": "曹德娟",
       "rate": 93.8,
@@ -446,6 +462,27 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "吴昊",
+      "class": "AS2",
+      "reason": "事假_【已通过】 2026/11/20 12:00:00 至 2027/1/5 17:00:00  有事 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "数学BQ1(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "数学BQ1(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "雅思BR2C(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-25T13:20:49"
+    },
     {
       "name": "金懿帆",
       "class": "G21",
@@ -930,23 +967,6 @@
         }
       ],
       "updated_at": "2026-11-25T09:25:10"
-    },
-    {
-      "name": "吴昊",
-      "class": "AS2",
-      "reason": "事假_【已通过】 2026/11/20 12:00:00 至 2027/1/5 17:00:00  有事 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "数学BQ1(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "数学BQ1(F26)",
-          "time": "09:10-09:50"
-        }
-      ],
-      "updated_at": "2026-11-25T09:10:03"
     },
     {
       "name": "余天佑",
@@ -1780,6 +1800,7 @@
     }
   ],
   "teacher_last_call": {
+    "钱嘉音": "2026-11-25T13:20:49",
     "赵亮": "2026-11-25T13:13:11",
     "职梦凡": "2026-11-25T13:06:43",
     "杨燕霖": "2026-11-25T13:03:45",
@@ -1802,57 +1823,57 @@
   "trend": [
     {
       "date": "11-19",
-      "attendance": 90.0,
+      "attendance": 90.3,
       "submit": 90.0
     },
     {
       "date": "11-20",
-      "attendance": 88.5,
+      "attendance": 88.8,
       "submit": 90.5
     },
     {
       "date": "11-21",
-      "attendance": 87.0,
+      "attendance": 87.3,
       "submit": 91.0
     },
     {
       "date": "11-22",
-      "attendance": 85.5,
+      "attendance": 85.8,
       "submit": 91.5
     },
     {
       "date": "11-23",
-      "attendance": 84.0,
+      "attendance": 84.3,
       "submit": 92.0
     },
     {
       "date": "11-24",
-      "attendance": 82.5,
+      "attendance": 82.8,
       "submit": 92.5
     },
     {
       "date": "11-25",
-      "attendance": 85.5,
-      "submit": 87.8
+      "attendance": 85.8,
+      "submit": 87.9
     }
   ],
   "lesson": {
     "completion_rate": 66.3,
     "called": 55,
     "total": 83,
-    "class_coverage": "26/26",
+    "class_coverage": "27/27",
     "teacher_count": 21,
     "uncovered_classes": [
-      "九年级 G12",
-      "十一年级 AS3",
       "十二年级 A22",
+      "高数CR2(F26)",
+      "十一年级 AS3",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "九年级 G11",
+      "十年级 G22",
       "十年级 G21",
       "十一年级 AS2",
-      "十一年级 AS1",
-      "九年级 G11",
-      "高数CR2(F26)",
-      "十二年级 A21",
-      "十年级 G22"
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
