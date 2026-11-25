@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-25 14:40",
+  "updated_at": "2026-11-25 14:45",
   "school": {
-    "rate": 82.7,
-    "present": 527,
-    "total": 637,
+    "rate": 82.9,
+    "present": 538,
+    "total": 649,
     "late": 6,
-    "absent": 110,
-    "leave": 74
+    "absent": 111,
+    "leave": 75
   },
   "summary": {
     "pending_yesterday": 0,
-    "class_attention": 7,
+    "class_attention": 8,
     "dorm_attention": 0,
     "invalid_leave": 0
   },
@@ -62,6 +62,22 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "商科AA(F26)",
+      "teacher": "余震",
+      "rate": 91.7,
+      "present_text": "11/12人次",
+      "present": 11,
+      "total": 12,
+      "absent": 1,
+      "late": 0,
+      "early": 0,
+      "leave": 1,
+      "status": "关注",
+      "time_spans": [
+        "14:40-15:20"
       ]
     },
     {
@@ -546,6 +562,39 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "郭淑君",
+      "class": "G21",
+      "reason": "事假_【已通过】 2026/11/23 7:00:00 至 2026/11/27 17:00:00  不舒服 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "物理AY(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "物理AY(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "音乐AA(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "英语写作AQ1(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "数学AR2(F26)",
+          "time": "13:00-13:40"
+        },
+        {
+          "course": "商科AA(F26)",
+          "time": "14:40-15:20"
+        }
+      ],
+      "updated_at": "2026-11-25T14:41:18"
+    },
     {
       "name": "黄子怿",
       "class": "AS3",
@@ -1133,35 +1182,6 @@
         }
       ],
       "updated_at": "2026-11-25T13:06:43"
-    },
-    {
-      "name": "郭淑君",
-      "class": "G21",
-      "reason": "事假_【已通过】 2026/11/23 7:00:00 至 2026/11/27 17:00:00  不舒服 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "物理AY(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "物理AY(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "音乐AA(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "英语写作AQ1(F26)",
-          "time": "10:50-11:30"
-        },
-        {
-          "course": "数学AR2(F26)",
-          "time": "13:00-13:40"
-        }
-      ],
-      "updated_at": "2026-11-25T13:03:45"
     },
     {
       "name": "李知颖",
@@ -2500,6 +2520,7 @@
     }
   ],
   "teacher_last_call": {
+    "余震": "2026-11-25T14:41:18",
     "朱嘉怡": "2026-11-25T14:40:31",
     "魏刘伟": "2026-11-25T14:40:01",
     "王偲儿": "2026-11-25T14:32:49",
@@ -2516,7 +2537,6 @@
     "米万宝": "2026-11-25T10:50:24",
     "王肇君": "2026-11-25T10:47:43",
     "李昊骏": "2026-11-25T10:46:14",
-    "余震": "2026-11-25T10:25:05",
     "熊辉": "2026-11-25T10:25:39",
     "沈译宇": "2026-11-25T10:04:12",
     "张小翼": "2026-11-25T09:26:18"
@@ -2524,58 +2544,58 @@
   "trend": [
     {
       "date": "11-19",
-      "attendance": 87.2,
+      "attendance": 87.4,
       "submit": 90.0
     },
     {
       "date": "11-20",
-      "attendance": 85.7,
+      "attendance": 85.9,
       "submit": 90.5
     },
     {
       "date": "11-21",
-      "attendance": 84.2,
+      "attendance": 84.4,
       "submit": 91.0
     },
     {
       "date": "11-22",
-      "attendance": 82.7,
+      "attendance": 82.9,
       "submit": 91.5
     },
     {
       "date": "11-23",
-      "attendance": 81.2,
+      "attendance": 81.4,
       "submit": 92.0
     },
     {
       "date": "11-24",
-      "attendance": 79.7,
+      "attendance": 79.9,
       "submit": 92.5
     },
     {
       "date": "11-25",
-      "attendance": 82.7,
-      "submit": 86.3
+      "attendance": 82.9,
+      "submit": 86.5
     }
   ],
   "lesson": {
     "completion_rate": 65.5,
     "called": 78,
     "total": 119,
-    "class_coverage": "32/32",
+    "class_coverage": "33/33",
     "teacher_count": 26,
     "uncovered_classes": [
+      "十二年级 A22",
       "十二年级 A21",
       "十年级 G22",
-      "十二年级 A22",
-      "十一年级 AS3",
-      "高数CR2(F26)",
       "十一年级 AS1",
-      "十年级 G21",
-      "十一年级 AS2",
+      "高数CR2(F26)",
       "十年级 G23",
-      "九年级 G12",
-      "九年级 G11"
+      "十年级 G21",
+      "九年级 G11",
+      "十一年级 AS2",
+      "十一年级 AS3",
+      "九年级 G12"
     ],
     "uncovered_teachers": [
       {
