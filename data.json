@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-27 13:31",
+  "updated_at": "2026-11-27 13:36",
   "school": {
-    "rate": 80.4,
-    "present": 389,
-    "total": 484,
-    "late": 14,
+    "rate": 80.5,
+    "present": 391,
+    "total": 486,
+    "late": 16,
     "absent": 95,
     "leave": 62
   },
@@ -325,6 +325,22 @@
       "time_spans": [
         "08:20-09:00",
         "09:10-09:50"
+      ]
+    },
+    {
+      "name": "艺术BZ(F26)",
+      "teacher": "朱嘉怡",
+      "rate": 100.0,
+      "present_text": "2/2人次",
+      "present": 2,
+      "total": 2,
+      "absent": 0,
+      "late": 2,
+      "early": 0,
+      "leave": 0,
+      "status": "正常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -2004,8 +2020,8 @@
     }
   ],
   "teacher_last_call": {
+    "朱嘉怡": "2026-11-27T13:36:23",
     "贺珍谊": "2026-11-27T13:19:13",
-    "朱嘉怡": "2026-11-27T13:01:35",
     "张璐菲": "2026-11-27T13:01:23",
     "余震": "2026-11-27T13:01:20",
     "刘知言": "2026-11-27T13:01:03",
@@ -2027,37 +2043,37 @@
   "trend": [
     {
       "date": "11-21",
-      "attendance": 84.9,
+      "attendance": 85.0,
       "submit": 90.0
     },
     {
       "date": "11-22",
-      "attendance": 83.4,
+      "attendance": 83.5,
       "submit": 90.5
     },
     {
       "date": "11-23",
-      "attendance": 81.9,
+      "attendance": 82.0,
       "submit": 91.0
     },
     {
       "date": "11-24",
-      "attendance": 80.4,
+      "attendance": 80.5,
       "submit": 91.5
     },
     {
       "date": "11-25",
-      "attendance": 78.9,
+      "attendance": 79.0,
       "submit": 92.0
     },
     {
       "date": "11-26",
-      "attendance": 77.4,
+      "attendance": 77.5,
       "submit": 92.5
     },
     {
       "date": "11-27",
-      "attendance": 80.4,
+      "attendance": 80.5,
       "submit": 85.2
     }
   ],
@@ -2065,18 +2081,18 @@
     "completion_rate": 75.0,
     "called": 57,
     "total": 76,
-    "class_coverage": "29/29",
+    "class_coverage": "30/30",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十一年级 AS3",
-      "十二年级 A21",
-      "九年级 G12",
-      "高数CR2(F26)",
-      "十年级 G23",
-      "十一年级 AS2",
       "十年级 G22",
-      "十一年级 AS1",
+      "高数CR2(F26)",
       "九年级 G11",
+      "十年级 G23",
+      "十一年级 AS1",
+      "十二年级 A21",
+      "十一年级 AS3",
+      "九年级 G12",
+      "十一年级 AS2",
       "十二年级 A22"
     ],
     "uncovered_teachers": [
