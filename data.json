@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-27 11:10",
+  "updated_at": "2026-11-27 11:15",
   "school": {
-    "rate": 78.3,
-    "present": 256,
-    "total": 327,
+    "rate": 78.7,
+    "present": 269,
+    "total": 342,
     "late": 14,
-    "absent": 71,
+    "absent": 73,
     "leave": 41
   },
   "summary": {
@@ -197,6 +197,22 @@
       ]
     },
     {
+      "name": "经济9A(F26)",
+      "teacher": "郝畅",
+      "rate": 86.7,
+      "present_text": "13/15人次",
+      "present": 13,
+      "total": 15,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 0,
+      "status": "异常",
+      "time_spans": [
+        "10:50-11:30"
+      ]
+    },
+    {
       "name": "经济AX(F26)",
       "teacher": "王肇君",
       "rate": 100.0,
@@ -328,6 +344,32 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "余天泽",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-27T11:14:28"
+    },
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        }
+      ],
+      "updated_at": "2026-11-27T11:14:28"
+    },
     {
       "name": "张嘉宜",
       "class": "A21",
@@ -1525,6 +1567,7 @@
     }
   ],
   "teacher_last_call": {
+    "郝畅": "2026-11-27T11:14:28",
     "曾靓": "2026-11-27T11:05:38",
     "贺珍谊": "2026-11-27T11:04:16",
     "沈译宇": "2026-11-27T10:57:16",
@@ -1543,58 +1586,58 @@
   "trend": [
     {
       "date": "11-21",
-      "attendance": 82.8,
+      "attendance": 83.2,
       "submit": 90.0
     },
     {
       "date": "11-22",
-      "attendance": 81.3,
+      "attendance": 81.7,
       "submit": 90.5
     },
     {
       "date": "11-23",
-      "attendance": 79.8,
+      "attendance": 80.2,
       "submit": 91.0
     },
     {
       "date": "11-24",
-      "attendance": 78.3,
+      "attendance": 78.7,
       "submit": 91.5
     },
     {
       "date": "11-25",
-      "attendance": 76.8,
+      "attendance": 77.2,
       "submit": 92.0
     },
     {
       "date": "11-26",
-      "attendance": 75.3,
+      "attendance": 75.7,
       "submit": 92.5
     },
     {
       "date": "11-27",
-      "attendance": 78.3,
-      "submit": 84.2
+      "attendance": 78.7,
+      "submit": 84.3
     }
   ],
   "lesson": {
     "completion_rate": 55.9,
     "called": 33,
     "total": 59,
-    "class_coverage": "19/19",
+    "class_coverage": "20/20",
     "teacher_count": 16,
     "uncovered_classes": [
-      "十一年级 AS2",
-      "十年级 G21",
-      "化学9A(F26)",
-      "十二年级 A22",
       "十一年级 AS1",
-      "九年级 G12",
-      "高数CR2(F26)",
       "九年级 G11",
+      "九年级 G12",
       "十一年级 AS3",
+      "化学9A(F26)",
+      "十一年级 AS2",
       "十二年级 A21",
-      "十年级 G23"
+      "十年级 G21",
+      "十年级 G23",
+      "十二年级 A22",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
