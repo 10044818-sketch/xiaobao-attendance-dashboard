@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-27 14:01",
+  "updated_at": "2026-11-27 14:06",
   "school": {
-    "rate": 81.3,
-    "present": 427,
-    "total": 525,
+    "rate": 81.5,
+    "present": 440,
+    "total": 540,
     "late": 16,
-    "absent": 98,
-    "leave": 65
+    "absent": 100,
+    "leave": 67
   },
   "summary": {
     "pending_yesterday": 0,
@@ -144,6 +144,22 @@
       "time_spans": [
         "10:00-10:40",
         "10:50-11:30"
+      ]
+    },
+    {
+      "name": "数学A0(F26)",
+      "teacher": "张小翼",
+      "rate": 86.7,
+      "present_text": "13/15人次",
+      "present": 13,
+      "total": 15,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
       ]
     },
     {
@@ -524,6 +540,64 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "胡鑫玥",
+      "class": "G23",
+      "reason": "事假_【已通过】 2026/11/27 8:00:00 至 2026/11/27 14:30:00  身体不适 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听力A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语听力A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-27T14:05:25"
+    },
+    {
+      "name": "耿子涵",
+      "class": "G23",
+      "reason": "事假_【已通过】 2026/11/23 8:00:00 至 2026/11/27 15:00:00  请假 ",
+      "type": "事假",
+      "courses": [
+        {
+          "course": "英语听力A0(F26)",
+          "time": "08:20-09:00"
+        },
+        {
+          "course": "英语听力A0(F26)",
+          "time": "09:10-09:50"
+        },
+        {
+          "course": "体育A0(F26)",
+          "time": "10:00-10:40"
+        },
+        {
+          "course": "音乐A0(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "数学A0(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-27T14:05:25"
+    },
     {
       "name": "周原",
       "class": "AS1",
@@ -999,60 +1073,10 @@
       "updated_at": "2026-11-27T10:52:35"
     },
     {
-      "name": "胡鑫玥",
-      "class": "G23",
-      "reason": "事假_【已通过】 2026/11/27 8:00:00 至 2026/11/27 14:30:00  身体不适 ",
-      "type": "事假",
-      "courses": [
-        {
-          "course": "英语听力A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语听力A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "音乐A0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-27T10:52:35"
-    },
-    {
       "name": "贡一鸣",
       "class": "G23",
       "reason": "事假_【已通过】 2026/11/27 8:00:00 至 2026/11/27 12:00:00  病假 ",
       "type": "病假",
-      "courses": [
-        {
-          "course": "英语听力A0(F26)",
-          "time": "08:20-09:00"
-        },
-        {
-          "course": "英语听力A0(F26)",
-          "time": "09:10-09:50"
-        },
-        {
-          "course": "体育A0(F26)",
-          "time": "10:00-10:40"
-        },
-        {
-          "course": "音乐A0(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-27T10:52:35"
-    },
-    {
-      "name": "耿子涵",
-      "class": "G23",
-      "reason": "事假_【已通过】 2026/11/23 8:00:00 至 2026/11/27 15:00:00  请假 ",
-      "type": "事假",
       "courses": [
         {
           "course": "英语听力A0(F26)",
@@ -1626,14 +1650,6 @@
       "teacher": "王伊",
       "time": "13:00-13:40",
       "location": "LT3-111"
-    },
-    {
-      "class": "十年级 G23",
-      "class_id": 521638,
-      "subject": "数学",
-      "teacher": "张小翼",
-      "time": "13:00-13:40",
-      "location": "LT3-107"
     }
   ],
   "called_roll_call": [
@@ -2258,6 +2274,16 @@
       "delay_min": 1
     },
     {
+      "class": "十年级 G23",
+      "class_id": 521638,
+      "subject": "数学",
+      "teacher": "张小翼",
+      "time": "13:00-13:40",
+      "location": "LT3-107",
+      "called_at": "2026-11-27T14:05:25",
+      "delay_min": 65
+    },
+    {
       "class": "十年级 G21",
       "class_id": 517698,
       "subject": "英语第二语言写作",
@@ -2279,6 +2305,7 @@
     }
   ],
   "teacher_last_call": {
+    "张小翼": "2026-11-27T14:05:25",
     "余震": "2026-11-27T13:54:50",
     "沈译宇": "2026-11-27T13:53:06",
     "朱嘉怡": "2026-11-27T13:36:23",
@@ -2302,60 +2329,60 @@
   "trend": [
     {
       "date": "11-21",
-      "attendance": 85.8,
+      "attendance": 86.0,
       "submit": 90.0
     },
     {
       "date": "11-22",
-      "attendance": 84.3,
+      "attendance": 84.5,
       "submit": 90.5
     },
     {
       "date": "11-23",
-      "attendance": 82.8,
+      "attendance": 83.0,
       "submit": 91.0
     },
     {
       "date": "11-24",
-      "attendance": 81.3,
+      "attendance": 81.5,
       "submit": 91.5
     },
     {
       "date": "11-25",
-      "attendance": 79.8,
+      "attendance": 80.0,
       "submit": 92.0
     },
     {
       "date": "11-26",
-      "attendance": 78.3,
+      "attendance": 78.5,
       "submit": 92.5
     },
     {
       "date": "11-27",
-      "attendance": 81.3,
-      "submit": 85.7
+      "attendance": 81.5,
+      "submit": 85.8
     }
   ],
   "lesson": {
-    "completion_rate": 62.1,
-    "called": 64,
+    "completion_rate": 63.1,
+    "called": 65,
     "total": 103,
-    "class_coverage": "31/31",
+    "class_coverage": "32/32",
     "teacher_count": 26,
     "uncovered_classes": [
-      "十一年级 AS3",
+      "十二年级 A22",
       "十一年级 AS2",
       "十年级 G22",
-      "十年级 G21",
-      "十二年级 A22",
-      "十一年级 AS1",
       "化学BZ(F26)",
+      "十二年级 A21",
+      "十一年级 AS1",
       "九年级 G12",
-      "十年级 G23",
+      "十年级 G21",
       "高数CR2(F26)",
-      "化学CB(F26)",
+      "十一年级 AS3",
+      "十年级 G23",
       "九年级 G11",
-      "十二年级 A21"
+      "化学CB(F26)"
     ],
     "uncovered_teachers": [
       {
@@ -2661,14 +2688,6 @@
         "teacher": "王伊",
         "time": "13:00-13:40",
         "location": "LT3-111"
-      },
-      {
-        "class": "十年级 G23",
-        "class_id": 521638,
-        "subject": "数学",
-        "teacher": "张小翼",
-        "time": "13:00-13:40",
-        "location": "LT3-107"
       }
     ]
   }
