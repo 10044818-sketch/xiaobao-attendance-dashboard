@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-27 12:55",
+  "updated_at": "2026-11-27 13:01",
   "school": {
-    "rate": 79.2,
-    "present": 331,
-    "total": 418,
+    "rate": 79.4,
+    "present": 344,
+    "total": 433,
     "late": 14,
-    "absent": 87,
-    "leave": 57
+    "absent": 89,
+    "leave": 59
   },
   "summary": {
     "pending_yesterday": 0,
@@ -361,6 +361,22 @@
       ]
     },
     {
+      "name": "音乐9A(F26)",
+      "teacher": "刘知言",
+      "rate": 86.7,
+      "present_text": "13/15人次",
+      "present": 13,
+      "total": 15,
+      "absent": 2,
+      "late": 0,
+      "early": 0,
+      "leave": 2,
+      "status": "异常",
+      "time_spans": [
+        "13:00-13:40"
+      ]
+    },
+    {
       "name": "音乐A0(F26)",
       "teacher": "刘知言",
       "rate": 66.7,
@@ -394,6 +410,40 @@
     }
   ],
   "absent_students": [
+    {
+      "name": "余天泽",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-27T13:01:03"
+    },
+    {
+      "name": "翁瑾萱",
+      "class": "G12",
+      "reason": "当日缺课且无请假单",
+      "type": "旷课",
+      "courses": [
+        {
+          "course": "经济9A(F26)",
+          "time": "10:50-11:30"
+        },
+        {
+          "course": "音乐9A(F26)",
+          "time": "13:00-13:40"
+        }
+      ],
+      "updated_at": "2026-11-27T13:01:03"
+    },
     {
       "name": "金懿帆",
       "class": "G21",
@@ -578,32 +628,6 @@
         }
       ],
       "updated_at": "2026-11-27T11:22:13"
-    },
-    {
-      "name": "余天泽",
-      "class": "G12",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-27T11:14:28"
-    },
-    {
-      "name": "翁瑾萱",
-      "class": "G12",
-      "reason": "当日缺课且无请假单",
-      "type": "旷课",
-      "courses": [
-        {
-          "course": "经济9A(F26)",
-          "time": "10:50-11:30"
-        }
-      ],
-      "updated_at": "2026-11-27T11:14:28"
     },
     {
       "name": "张嘉宜",
@@ -1847,13 +1871,13 @@
     }
   ],
   "teacher_last_call": {
+    "刘知言": "2026-11-27T13:01:03",
     "孙鹏": "2026-11-27T12:44:10",
     "钱嘉音": "2026-11-27T11:22:13",
     "郝畅": "2026-11-27T11:14:28",
     "曾靓": "2026-11-27T11:05:38",
     "贺珍谊": "2026-11-27T11:04:16",
     "沈译宇": "2026-11-27T12:17:49",
-    "刘知言": "2026-11-27T10:52:35",
     "曹德娟": "2026-11-27T10:51:09",
     "王肇君": "2026-11-27T12:17:49",
     "熊辉": "2026-11-27T10:18:04",
@@ -1868,58 +1892,58 @@
   "trend": [
     {
       "date": "11-21",
-      "attendance": 83.7,
+      "attendance": 83.9,
       "submit": 90.0
     },
     {
       "date": "11-22",
-      "attendance": 82.2,
+      "attendance": 82.4,
       "submit": 90.5
     },
     {
       "date": "11-23",
-      "attendance": 80.7,
+      "attendance": 80.9,
       "submit": 91.0
     },
     {
       "date": "11-24",
-      "attendance": 79.2,
+      "attendance": 79.4,
       "submit": 91.5
     },
     {
       "date": "11-25",
-      "attendance": 77.7,
+      "attendance": 77.9,
       "submit": 92.0
     },
     {
       "date": "11-26",
-      "attendance": 76.2,
+      "attendance": 76.4,
       "submit": 92.5
     },
     {
       "date": "11-27",
-      "attendance": 79.2,
-      "submit": 84.6
+      "attendance": 79.4,
+      "submit": 84.7
     }
   ],
   "lesson": {
     "completion_rate": 68.4,
     "called": 52,
     "total": 76,
-    "class_coverage": "23/23",
+    "class_coverage": "24/24",
     "teacher_count": 21,
     "uncovered_classes": [
-      "十二年级 A21",
-      "十一年级 AS1",
-      "九年级 G11",
-      "九年级 G12",
-      "十二年级 A22",
       "十一年级 AS3",
+      "九年级 G11",
+      "十二年级 A21",
       "化学9A(F26)",
-      "十年级 G23",
-      "高数CR2(F26)",
       "十年级 G22",
-      "十一年级 AS2"
+      "十一年级 AS2",
+      "十年级 G23",
+      "十一年级 AS1",
+      "十二年级 A22",
+      "九年级 G12",
+      "高数CR2(F26)"
     ],
     "uncovered_teachers": [
       {
